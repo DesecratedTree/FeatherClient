@@ -11,5 +11,5 @@ dependencies {
 }
 
 application {
-    mainClass = 'Loader'
+    mainClass = 'com.runescape.Loader'
 }
