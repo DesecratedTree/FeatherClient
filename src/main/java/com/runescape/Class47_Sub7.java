@@ -2,7 +2,7 @@ package com.runescape;
 /* Class47_Sub7 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class47_Sub7 extends Class47 {
 	static char aChar6794 = '\001';

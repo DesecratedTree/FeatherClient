@@ -4,7 +4,7 @@ package com.runescape;
  */
 import java.nio.ByteBuffer;
 
-import com.runescape.jaclib.memory.Stream;
+import jaclib.memory.Stream;
 
 public class Class_xa_Sub1 extends Class_xa {
 	float aFloat8447;
@@ -61,8 +61,8 @@ public class Class_xa_Sub1 extends Class_xa {
 				i += 4;
 			if ((((Class_xa_Sub1) this).anInt8482 & 0x7) != 0)
 				i += 12;
-			com.runescape.jaclib.memory.heap.NativeHeapBuffer nativeheapbuffer = ((Class_ra_Sub3) ((Class_xa_Sub1) this).aClass_ra_Sub3_8467).aNativeHeap8221.f(((Class_xa_Sub1) this).anInt8473 * 4, false);
-			com.runescape.jaclib.memory.heap.NativeHeapBuffer nativeheapbuffer_1_ = ((Class_ra_Sub3) ((Class_xa_Sub1) this).aClass_ra_Sub3_8467).aNativeHeap8221.f(((Class_xa_Sub1) this).anInt8473 * i, false);
+			jaclib.memory.heap.NativeHeapBuffer nativeheapbuffer = ((Class_ra_Sub3) ((Class_xa_Sub1) this).aClass_ra_Sub3_8467).aNativeHeap8221.f(((Class_xa_Sub1) this).anInt8473 * 4, false);
+			jaclib.memory.heap.NativeHeapBuffer nativeheapbuffer_1_ = ((Class_ra_Sub3) ((Class_xa_Sub1) this).aClass_ra_Sub3_8467).aNativeHeap8221.f(((Class_xa_Sub1) this).anInt8473 * i, false);
 			Stream stream = new Stream(nativeheapbuffer_1_);
 			Stream stream_2_ = new Stream(nativeheapbuffer);
 			Class298_Sub16[] class298_sub16s = new Class298_Sub16[((Class_xa_Sub1) this).anInt8473];
@@ -943,8 +943,8 @@ public class Class_xa_Sub1 extends Class_xa {
 				i += 4;
 			if ((((Class_xa_Sub1) this).anInt8482 & 0x7) != 0)
 				i += 12;
-			com.runescape.jaclib.memory.heap.NativeHeapBuffer nativeheapbuffer = ((Class_ra_Sub3) ((Class_xa_Sub1) this).aClass_ra_Sub3_8467).aNativeHeap8221.f(((Class_xa_Sub1) this).anInt8473 * 4, false);
-			com.runescape.jaclib.memory.heap.NativeHeapBuffer nativeheapbuffer_286_ = ((Class_ra_Sub3) ((Class_xa_Sub1) this).aClass_ra_Sub3_8467).aNativeHeap8221.f(((Class_xa_Sub1) this).anInt8473 * i, false);
+			jaclib.memory.heap.NativeHeapBuffer nativeheapbuffer = ((Class_ra_Sub3) ((Class_xa_Sub1) this).aClass_ra_Sub3_8467).aNativeHeap8221.f(((Class_xa_Sub1) this).anInt8473 * 4, false);
+			jaclib.memory.heap.NativeHeapBuffer nativeheapbuffer_286_ = ((Class_ra_Sub3) ((Class_xa_Sub1) this).aClass_ra_Sub3_8467).aNativeHeap8221.f(((Class_xa_Sub1) this).anInt8473 * i, false);
 			Stream stream = new Stream(nativeheapbuffer_286_);
 			Stream stream_287_ = new Stream(nativeheapbuffer);
 			Class298_Sub16[] class298_sub16s = new Class298_Sub16[((Class_xa_Sub1) this).anInt8473];

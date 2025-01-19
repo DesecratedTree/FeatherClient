@@ -2,9 +2,9 @@ package com.runescape;
 /* Class40 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Buffer;
+import jaclib.memory.Buffer;
 
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public abstract class Class40 {
 	int anInt432;

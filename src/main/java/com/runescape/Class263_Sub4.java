@@ -2,7 +2,7 @@ package com.runescape;
 /* Class263_Sub4 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class263_Sub4 extends Class263 implements Interface9_Impl2_Impl1 {
 	int anInt9953;

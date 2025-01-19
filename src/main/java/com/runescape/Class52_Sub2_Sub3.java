@@ -5,7 +5,7 @@ package com.runescape;
 import java.awt.Canvas;
 import java.awt.Dimension;
 
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class52_Sub2_Sub3 extends Class52_Sub2 {
 	Class_ra_Sub2 aClass_ra_Sub2_9081;

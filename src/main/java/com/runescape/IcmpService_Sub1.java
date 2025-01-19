@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import com.runescape.jaclib.ping.IcmpService;
+import jaclib.ping.IcmpService;
 
 public class IcmpService_Sub1 extends IcmpService {
 	static volatile IcmpService_Sub1 anIcmpService_Sub1_8551;

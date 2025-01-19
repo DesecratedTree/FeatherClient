@@ -2,10 +2,10 @@ package com.runescape;
 /* Class246 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Source;
-import com.runescape.jaclib.memory.heap.NativeHeapBuffer;
+import jaclib.memory.Source;
+import jaclib.memory.heap.NativeHeapBuffer;
 
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public abstract class Class246 implements Interface7 {
 	NativeHeapBuffer aNativeHeapBuffer6390;

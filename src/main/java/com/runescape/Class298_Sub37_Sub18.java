@@ -2,7 +2,7 @@ package com.runescape;
 /* Class298_Sub37_Sub18 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class298_Sub37_Sub18 extends Class298_Sub37 implements Interface8_Impl1_Impl1_Impl2 {
 	int anInt10024;

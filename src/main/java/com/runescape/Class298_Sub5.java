@@ -2,10 +2,10 @@ package com.runescape;
 /* Class298_Sub5 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Stream;
-import com.runescape.jaclib.memory.heap.NativeHeapBuffer;
+import jaclib.memory.Stream;
+import jaclib.memory.heap.NativeHeapBuffer;
 
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class298_Sub5 extends Class298 {
 	Class32 aClass32_7193;

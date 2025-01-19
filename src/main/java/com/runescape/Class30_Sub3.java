@@ -2,7 +2,7 @@ package com.runescape;
 /* Class30_Sub3 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class30_Sub3 extends Class30 {
 	int anInt6748;

@@ -105,7 +105,7 @@ public class Loader extends Applet {
 	}
 
 	void openFrame() {
-		frame = new JFrame("Virent - GameLoader");
+		frame = new JFrame("Feather - Client");
 		frame.setLayout(new BorderLayout());
 		panel.setLayout(new BorderLayout());
 		panel.add(this);

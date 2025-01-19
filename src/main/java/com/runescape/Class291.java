@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.net.URL;
 
-import com.runescape.jaclib.nanotime.QueryPerformanceCounter;
+import jaclib.nanotime.QueryPerformanceCounter;
 
 public abstract class Class291 implements Interface14, Runnable, FocusListener, WindowListener {
 	static Class292 aClass292_6466;

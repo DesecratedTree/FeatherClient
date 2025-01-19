@@ -2,7 +2,7 @@ package com.runescape;
 /* Class72 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class72 implements Interface8_Impl1_Impl1_Impl2 {
 	int anInt10164;

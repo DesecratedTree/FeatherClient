@@ -2,7 +2,7 @@ package com.runescape;
 /* Class263 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public abstract class Class263 implements Interface9 {
 	boolean aBoolean6411;

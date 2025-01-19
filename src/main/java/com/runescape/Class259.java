@@ -4,7 +4,7 @@ package com.runescape;
  */
 import java.awt.Canvas;
 
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class259 {
 	public static GraphicsToolkit method2455(Canvas canvas, Interface_ma interface_ma, CacheIndex class243, int i) {

@@ -2,7 +2,7 @@ package com.runescape;
 /* Class298_Sub53_Sub1 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Stream;
+import jaclib.memory.Stream;
 
 public class RsFloatBuffer extends RsByteBuffer {
 	void method3658(float f) {

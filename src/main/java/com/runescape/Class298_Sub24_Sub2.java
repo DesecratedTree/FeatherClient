@@ -2,8 +2,8 @@ package com.runescape;
 /* Class298_Sub24_Sub2 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jagtheora.ogg.OggPacket;
-import com.runescape.jagtheora.ogg.OggStreamState;
+import jagtheora.ogg.OggPacket;
+import jagtheora.ogg.OggStreamState;
 
 public class Class298_Sub24_Sub2 extends Class298_Sub24 {
 	void method3078(OggPacket oggpacket) {

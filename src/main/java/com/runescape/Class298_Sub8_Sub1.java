@@ -2,7 +2,7 @@ package com.runescape;
 /* Class298_Sub8_Sub1 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class298_Sub8_Sub1 extends Class298_Sub8 {
 	Class52_Sub1_Sub2 aClass52_Sub1_Sub2_9170;

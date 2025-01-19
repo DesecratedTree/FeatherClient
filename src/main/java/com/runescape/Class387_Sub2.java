@@ -2,9 +2,9 @@ package com.runescape;
 /* Class387_Sub2 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Stream;
+import jaclib.memory.Stream;
 
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class387_Sub2 extends Class387 {
 	static boolean aBoolean7817;

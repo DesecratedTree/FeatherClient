@@ -2,7 +2,7 @@ package com.runescape;
 /* Class44 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class44 {
 	int anInt467;

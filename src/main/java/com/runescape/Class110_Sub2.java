@@ -2,7 +2,7 @@ package com.runescape;
 /* Class110_Sub2 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class110_Sub2 extends Class110 {
 	boolean aBoolean8603;

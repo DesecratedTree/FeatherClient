@@ -2,7 +2,7 @@ package com.runescape;
 /* Class28 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class28 {
 	int anInt364;

@@ -2,7 +2,7 @@ package com.runescape;
 /* Class47_Sub6 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class47_Sub6 extends Class47 {
 	Class45 aClass45_6789;

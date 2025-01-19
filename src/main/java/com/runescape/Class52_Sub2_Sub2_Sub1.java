@@ -7,7 +7,7 @@ import java.awt.Dimension;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class52_Sub2_Sub2_Sub1 extends Class52_Sub2_Sub2 {
 	OpenGL anOpenGL9988;

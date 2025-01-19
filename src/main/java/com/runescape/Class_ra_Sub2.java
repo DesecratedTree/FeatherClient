@@ -6,11 +6,11 @@ import java.awt.Canvas;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-import com.runescape.jaclib.memory.Buffer;
-import com.runescape.jaclib.memory.Stream;
-import com.runescape.jaclib.memory.heap.NativeHeap;
+import jaclib.memory.Buffer;
+import jaclib.memory.Stream;
+import jaclib.memory.heap.NativeHeap;
 
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class_ra_Sub2 extends GraphicsToolkit {
 	int anInt8007;

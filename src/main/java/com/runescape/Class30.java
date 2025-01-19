@@ -2,7 +2,7 @@ package com.runescape;
 /* Class30 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public abstract class Class30 {
 	boolean aBoolean368 = false;

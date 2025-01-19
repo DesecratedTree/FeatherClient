@@ -15,7 +15,7 @@ public class ClientSettings {
 	
 	public final static String SERVER_NAME = "RuneScape";
 	public final static String CLIENT_BUILD = "Build: 718 Version: BETA";
-	public final static String CACHE_NAME = "Feather2012Cache";
+	public final static String CACHE_NAME = "FeatherCache";
 	public final static int DEV_CONSOLE_COLOR = 0x332277;
 
     public static int zoom = 800;

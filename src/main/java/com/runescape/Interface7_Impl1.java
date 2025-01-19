@@ -2,7 +2,7 @@ package com.runescape;
 /* Interface7_Impl1 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Source;
+import jaclib.memory.Source;
 
 public interface Interface7_Impl1 extends Interface7, Interface8 {
 	public boolean method70(int i, int i_0_);

@@ -2,7 +2,7 @@ package com.runescape;
 /* Class46 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Buffer;
+import jaclib.memory.Buffer;
 
 public class Class46 {
 	Buffer aBuffer489;

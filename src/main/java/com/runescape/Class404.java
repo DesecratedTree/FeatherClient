@@ -6,7 +6,7 @@ import java.net.InetAddress;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.runescape.jaclib.ping.Ping;
+import jaclib.ping.Ping;
 
 public class Class404 implements Runnable {
 	Thread aThread5263;

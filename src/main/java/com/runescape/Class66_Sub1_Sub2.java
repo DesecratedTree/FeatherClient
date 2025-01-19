@@ -2,7 +2,7 @@ package com.runescape;
 /* Class66_Sub1_Sub2 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class66_Sub1_Sub2 extends Class66_Sub1 {
 	static int[] anIntArray9098 = new int[4];

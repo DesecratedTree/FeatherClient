@@ -4,7 +4,7 @@ package com.runescape;
  */
 import java.util.HashMap;
 
-import com.runescape.jaclib.hardware_info.HardwareInfo;
+import jaclib.hardware_info.HardwareInfo;
 
 public class Class298_Sub44 extends Class298 {
 	int cpuInfo;

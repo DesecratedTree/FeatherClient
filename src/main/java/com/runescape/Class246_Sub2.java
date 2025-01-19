@@ -2,7 +2,7 @@ package com.runescape;
 /* Class246_Sub2 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Source;
+import jaclib.memory.Source;
 
 public class Class246_Sub2 extends Class246 implements Interface7_Impl1 {
 	byte aByte8578;

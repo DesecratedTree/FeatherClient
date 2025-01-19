@@ -2,7 +2,7 @@ package com.runescape;
 /* Class258 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class258 implements Interface8_Impl1_Impl1_Impl3 {
 	Class263_Sub4 aClass263_Sub4_10176;

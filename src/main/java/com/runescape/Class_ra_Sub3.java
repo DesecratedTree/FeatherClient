@@ -8,10 +8,10 @@ import java.nio.ByteOrder;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.runescape.jaclib.memory.DirectBufferHelper;
-import com.runescape.jaclib.memory.Stream;
-import com.runescape.jaclib.memory.heap.NativeHeap;
-import com.runescape.jaclib.memory.heap.NativeHeapBuffer;
+import jaclib.memory.DirectBufferHelper;
+import jaclib.memory.Stream;
+import jaclib.memory.heap.NativeHeap;
+import jaclib.memory.heap.NativeHeapBuffer;
 
 import sun.misc.Unsafe;
 

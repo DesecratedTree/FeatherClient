@@ -2,7 +2,7 @@ package com.runescape;
 /* Class40_Sub2 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Buffer;
+import jaclib.memory.Buffer;
 
 public class Class40_Sub2 extends Class40 implements Interface1 {
 	int anInt6319;

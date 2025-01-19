@@ -2,7 +2,7 @@ package com.runescape;
 /* Class47_Sub8 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class47_Sub8 extends Class47 {
 	float aFloat6798;

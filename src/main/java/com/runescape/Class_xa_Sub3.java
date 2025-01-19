@@ -2,10 +2,10 @@ package com.runescape;
 /* Class_xa_Sub3 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Stream;
-import com.runescape.jaclib.memory.heap.NativeHeapBuffer;
+import jaclib.memory.Stream;
+import jaclib.memory.heap.NativeHeapBuffer;
 
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class_xa_Sub3 extends Class_xa {
 	Class32 aClass32_8517;

@@ -2,7 +2,7 @@ package com.runescape;
 /* Class39 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class39 {
 	static int[] anIntArray428 = new int[1];

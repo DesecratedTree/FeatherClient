@@ -2,7 +2,7 @@ package com.runescape;
 /* Class264_Sub3 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class264_Sub3 extends Class264 {
 	Class30_Sub2_Sub1 aClass30_Sub2_Sub1_7128;

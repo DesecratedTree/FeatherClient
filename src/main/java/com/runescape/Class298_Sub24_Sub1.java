@@ -2,12 +2,12 @@ package com.runescape;
 /* Class298_Sub24_Sub1 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jagtheora.ogg.OggPacket;
-import com.runescape.jagtheora.ogg.OggStreamState;
-import com.runescape.jagtheora.vorbis.DSPState;
-import com.runescape.jagtheora.vorbis.VorbisBlock;
-import com.runescape.jagtheora.vorbis.VorbisComment;
-import com.runescape.jagtheora.vorbis.VorbisInfo;
+import jagtheora.ogg.OggPacket;
+import jagtheora.ogg.OggStreamState;
+import jagtheora.vorbis.DSPState;
+import jagtheora.vorbis.VorbisBlock;
+import jagtheora.vorbis.VorbisComment;
+import jagtheora.vorbis.VorbisInfo;
 
 public class Class298_Sub24_Sub1 extends Class298_Sub24 {
 	VorbisInfo aVorbisInfo9273 = new VorbisInfo();

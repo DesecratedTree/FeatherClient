@@ -2,7 +2,7 @@ package com.runescape;
 /* Class_v_Sub2 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.heap.NativeHeap;
+import jaclib.memory.heap.NativeHeap;
 
 public class Class_v_Sub2 extends Class_v {
 	NativeHeap aNativeHeap9784;

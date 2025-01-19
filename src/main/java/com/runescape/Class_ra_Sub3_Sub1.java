@@ -4,10 +4,10 @@ package com.runescape;
  */
 import java.awt.Canvas;
 
-import com.runescape.jaclib.memory.Stream;
+import jaclib.memory.Stream;
 
-import com.runescape.jaggl.MapBuffer;
-import com.runescape.jaggl.OpenGL;
+import jaggl.MapBuffer;
+import jaggl.OpenGL;
 
 public final class Class_ra_Sub3_Sub1 extends Class_ra_Sub3 {
 	Class458 aClass458_9815;

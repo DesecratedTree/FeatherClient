@@ -2,7 +2,7 @@ package com.runescape;
 /* Class193 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.memory.Source;
+import jaclib.memory.Source;
 
 import jagdx.IDirect3DDevice;
 import jagdx.IDirect3DVertexBuffer;

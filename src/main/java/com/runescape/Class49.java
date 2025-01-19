@@ -2,7 +2,7 @@ package com.runescape;
 /* Class49 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class49 {
 	Class_ra_Sub2 aClass_ra_Sub2_497;

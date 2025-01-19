@@ -2,7 +2,7 @@ package com.runescape;
 /* Class34 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class34 {
 	Class32 aClass32_399;

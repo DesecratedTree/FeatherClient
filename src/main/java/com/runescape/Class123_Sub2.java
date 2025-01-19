@@ -2,7 +2,7 @@ package com.runescape;
 /* Class123_Sub2 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class123_Sub2 extends Class123 {
 	int anInt6951;

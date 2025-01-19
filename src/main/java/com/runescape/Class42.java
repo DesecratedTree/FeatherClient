@@ -2,7 +2,7 @@ package com.runescape;
 /* Class42 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class42 {
 	Class52_Sub1_Sub2 aClass52_Sub1_Sub2_442;

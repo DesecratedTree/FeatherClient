@@ -2,7 +2,7 @@ package com.runescape;
 /* Class52_Sub1_Sub2 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class52_Sub1_Sub2 extends Class52_Sub1 {
 	int anInt9057;

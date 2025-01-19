@@ -2,7 +2,7 @@ package com.runescape;
 /* Class47_Sub3 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class47_Sub3 extends Class47 {
 	static float aFloat6758 = 22.5F;

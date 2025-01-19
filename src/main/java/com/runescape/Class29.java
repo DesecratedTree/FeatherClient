@@ -2,7 +2,7 @@ package com.runescape;
 /* Class29 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class29 {
 	int anInt365;

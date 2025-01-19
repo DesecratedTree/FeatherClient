@@ -2,7 +2,7 @@ package com.runescape;
 /* Class245 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaggl.OpenGL;
+import jaggl.OpenGL;
 
 public class Class245 implements Interface8_Impl1_Impl1_Impl3 {
 	int anInt10174;

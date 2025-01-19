@@ -2,7 +2,7 @@ package com.runescape;
 /* Class354 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.ping.Ping;
+import jaclib.ping.Ping;
 
 public final class Class354 {
 	Class298_Sub37 aClass298_Sub37_3821 = new Class298_Sub37();

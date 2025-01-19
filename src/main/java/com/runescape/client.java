@@ -2,7 +2,7 @@ package com.runescape;
 /* client - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.ping.Ping;
+import jaclib.ping.Ping;
 
 import java.awt.Color;
 import java.awt.Container;

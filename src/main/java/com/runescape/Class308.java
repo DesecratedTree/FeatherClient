@@ -4,10 +4,10 @@ package com.runescape;
  */
 import java.io.IOException;
 
-import com.runescape.jagtheora.ogg.OggPacket;
-import com.runescape.jagtheora.ogg.OggPage;
-import com.runescape.jagtheora.ogg.OggStreamState;
-import com.runescape.jagtheora.ogg.OggSyncState;
+import jagtheora.ogg.OggPacket;
+import jagtheora.ogg.OggPage;
+import jagtheora.ogg.OggStreamState;
+import jagtheora.ogg.OggSyncState;
 
 public abstract class Class308 {
 	Class298_Sub24_Sub1 aClass298_Sub24_Sub1_3268;

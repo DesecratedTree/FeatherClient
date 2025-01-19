@@ -4,8 +4,8 @@ package com.runescape;
  */
 import java.nio.ByteBuffer;
 
-import com.runescape.jaclib.memory.Stream;
-import com.runescape.jaclib.memory.heap.NativeHeapBuffer;
+import jaclib.memory.Stream;
+import jaclib.memory.heap.NativeHeapBuffer;
 
 public class Class298_Sub16 extends Class298 {
 	int anInt7282;

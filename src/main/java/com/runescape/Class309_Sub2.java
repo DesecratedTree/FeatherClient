@@ -2,7 +2,7 @@ package com.runescape;
 /* Class309_Sub2 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jaclib.nanotime.QueryPerformanceCounter;
+import jaclib.nanotime.QueryPerformanceCounter;
 
 public class Class309_Sub2 extends Class309 {
 	int anInt7682;

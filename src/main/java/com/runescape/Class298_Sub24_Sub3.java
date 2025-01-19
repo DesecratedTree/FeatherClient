@@ -2,14 +2,14 @@ package com.runescape;
 /* Class298_Sub24_Sub3 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import com.runescape.jagtheora.ogg.OggPacket;
-import com.runescape.jagtheora.ogg.OggStreamState;
-import com.runescape.jagtheora.theora.DecoderContext;
-import com.runescape.jagtheora.theora.Frame;
-import com.runescape.jagtheora.theora.GranulePos;
-import com.runescape.jagtheora.theora.SetupInfo;
-import com.runescape.jagtheora.theora.TheoraComment;
-import com.runescape.jagtheora.theora.TheoraInfo;
+import jagtheora.ogg.OggPacket;
+import jagtheora.ogg.OggStreamState;
+import jagtheora.theora.DecoderContext;
+import jagtheora.theora.Frame;
+import jagtheora.theora.GranulePos;
+import jagtheora.theora.SetupInfo;
+import jagtheora.theora.TheoraComment;
+import jagtheora.theora.TheoraInfo;
 
 public class Class298_Sub24_Sub3 extends Class298_Sub24 {
 	boolean aBoolean9283;
