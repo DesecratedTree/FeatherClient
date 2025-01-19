@@ -1,6 +1,6 @@
 # Feather Client
 
-Client build [718][build] of [RuneScape 2][rs2], loading a 742 cache.
+Client build 718 of RuneScape 2, loading a 742 cache.
 
 ## Getting Started
 
