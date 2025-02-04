@@ -1,20 +1,14 @@
 package com.runescape;
+
 import java.applet.Applet;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.Image;
 import java.awt.Toolkit;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.Properties;
 
-import javax.imageio.ImageIO;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-
+import javax.swing.*;
 
 @SuppressWarnings("serial")
 public class Loader extends Applet {
@@ -105,7 +99,7 @@ public class Loader extends Applet {
 	}
 
 	void openFrame() {
-		frame = new JFrame("Feather - Client");
+		frame = new JFrame("Feather - Client | " + IP);
 		frame.setLayout(new BorderLayout());
 		panel.setLayout(new BorderLayout());
 		panel.add(this);
@@ -114,6 +108,7 @@ public class Loader extends Applet {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.pack();
 		frame.setVisible(true);
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/icon.png")));
 
 	}
 
