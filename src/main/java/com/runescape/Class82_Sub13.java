@@ -56,12 +56,11 @@ public class Class82_Sub13 extends Class82 {
 		client.anInt8720 = -1656733051 * (392492523 * ((Class82_Sub13) this).anInt6869 & 0xff);
 	}
 
-	public static final int method910(Class433 class433, byte[] data, int i, int i_0_, int i_1_, int i_2_, byte i_3_) {
+	public static final int method910(Class433 class433, byte[] is, int i, int i_0_, int i_1_, int i_2_, byte i_3_) {
 		try {
-			final boolean osrs = data[0] == 'O' && data[1] == 'S' && data[2] == 'R' && data[3] == 'S';
 			int i_4_ = 0;
-			RsByteBuffer class298_sub53 = new RsByteBuffer(data);
-			int locid = -1;
+			RsByteBuffer class298_sub53 = new RsByteBuffer(is);
+			int i_5_ = -1;
 			for (;;) {
 				int i_6_ = class298_sub53.readSmart((short) 255);
 				if (0 == i_6_) {
@@ -70,7 +69,7 @@ public class Class82_Sub13 extends Class82 {
 					}
 					break;
 				}
-				locid += i_6_;
+				i_5_ += i_6_;
 				int i_7_ = 0;
 				boolean bool = false;
 				for (;;) {
@@ -97,7 +96,7 @@ public class Class82_Sub13 extends Class82 {
 						int i_13_ = i + i_11_;
 						int i_14_ = i_10_ + i_0_;
 						if (i_13_ > 0 && i_14_ > 0 && i_13_ < i_1_ - 1 && i_14_ < i_2_ - 1) {
-							ObjectDefinitions class432 = class433.getObjectDefinitions(locid + (osrs ? OSRSData.LOCS_OFFSET : 0));
+							ObjectDefinitions class432 = class433.getObjectDefinitions(i_5_);
 							if ((-1976050083 * Class424.aClass424_6610.anInt6613) == i_12_ && Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub2_7547.method5629(-1915667162) == 0 && 0 == 1532834983 * class432.anInt5382 && -2144543407 * class432.anInt5380 != 1 && !class432.aBoolean5410) {
 								if (i_3_ == 3) {
 									/* empty */

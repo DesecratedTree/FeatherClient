@@ -243,7 +243,7 @@ public class Class398 {
 					if (i_25_ >= 0) {
 						int i_31_ = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub2_7547.method5629(-810781268);
 						Class422_Sub25.aClass298_Sub48_8425.method3540((Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub2_7547), 1, 650835797);
-						client.aClass283_8716.method2644(-630573167).add_loc(Class373.aClass_ra4071, i_30_, i, i_23_, i_24_, i_25_, i_26_, i_27_, client.aClass283_8716.getSceneClipDataPlane(i), i_28_);
+						client.aClass283_8716.method2644(-630573167).method2243(Class373.aClass_ra4071, i_30_, i, i_23_, i_24_, i_25_, i_26_, i_27_, client.aClass283_8716.getSceneClipDataPlane(i), i_28_, 2073430416);
 						Class422_Sub25.aClass298_Sub48_8425.method3540((Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub2_7547), i_31_, 631929348);
 					}
 				}

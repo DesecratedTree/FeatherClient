@@ -24,7 +24,7 @@ public class MapDecoder {
 	static int anInt2633 = 64;
 	static int[][] anIntArrayArray2634;
 	protected Class244 aClass244_2635;
-	byte[][][] overlays;
+	byte[][][] aByteArrayArrayArray2636;
 	protected byte[][][] aByteArrayArrayArray2637;
 	static int[][] anIntArrayArray2638;
 	int[] anIntArray2639;
@@ -56,9 +56,9 @@ public class MapDecoder {
 	static boolean[][] aBooleanArrayArray2665;
 	static boolean[][] aBooleanArrayArray2666;
 	static int anInt2667 = 0;
-	byte[][][] rotations;
+	byte[][][] aByteArrayArrayArray2668;
 	int[] anIntArray2669;
-	byte[][][] underlays;
+	byte[][][] aByteArrayArrayArray2670;
 	static int[][] anIntArrayArray2671;
 	static int[][] anIntArrayArray2672;
 	static int[][] anIntArrayArray2673;
@@ -86,14 +86,13 @@ public class MapDecoder {
 	static boolean[][] aBooleanArrayArray2695;
 	boolean aBoolean2696;
 	public boolean aBoolean2697 = false;
-	byte[][][] shapes;
+	byte[][][] aByteArrayArrayArray2698;
 	int anInt2699;
 	int[] anIntArray2700;
 	int anInt2701;
 	int[] anIntArray2702;
 	int anInt2703;
 	static int anInt2704;
-	private boolean osrs;
 
 	public final void method2211(int i, int[][] is, int i_0_) {
 		try {
@@ -364,7 +363,7 @@ public class MapDecoder {
 					for (int i_72_ = 0; i_72_ < anInt2628 * 181474463; i_72_++) {
 						int i_73_ = 5 + i_71_;
 						if (i_73_ < anInt2627 * -954368823) {
-							int i_74_ = ((((MapDecoder) this).underlays[i_69_][i_73_][i_72_]) & 0xff);
+							int i_74_ = ((((MapDecoder) this).aByteArrayArrayArray2670[i_69_][i_73_][i_72_]) & 0xff);
 							if (i_74_ > 0) {
 								Class443 class443 = ((MapDecoder) this).aClass451_2617.method5932(i_74_ - 1, (byte) -1);
 								((MapDecoder) this).anIntArray2669[i_72_] += class443.anInt5598 * 838046775;
@@ -376,7 +375,7 @@ public class MapDecoder {
 						}
 						int i_75_ = i_71_ - 5;
 						if (i_75_ >= 0) {
-							int i_76_ = ((((MapDecoder) this).underlays[i_69_][i_75_][i_72_]) & 0xff);
+							int i_76_ = ((((MapDecoder) this).aByteArrayArrayArray2670[i_69_][i_75_][i_72_]) & 0xff);
 							if (i_76_ > 0) {
 								Class443 class443 = ((MapDecoder) this).aClass451_2617.method5932(i_76_ - 1, (byte) -1);
 								((MapDecoder) this).anIntArray2669[i_72_] -= class443.anInt5598 * 838046775;
@@ -419,10 +418,10 @@ public class MapDecoder {
 					method2221(class_ra, aClass331_2619.aClass_xaArray3517[i_69_], i_69_, is, 0 == i_69_ ? class_xa : null, i_69_ == 0 ? class_xa_68_ : null, (byte) 114);
 				else
 					method2220(class_ra, aClass331_2619.aClass_xaArray3517[i_69_], i_69_, is, 0 == i_69_ ? class_xa : null, 0 == i_69_ ? class_xa_68_ : null, (byte) -8);
-				((MapDecoder) this).underlays[i_69_] = null;
-				((MapDecoder) this).overlays[i_69_] = null;
-				((MapDecoder) this).shapes[i_69_] = null;
-				((MapDecoder) this).rotations[i_69_] = null;
+				((MapDecoder) this).aByteArrayArrayArray2670[i_69_] = null;
+				((MapDecoder) this).aByteArrayArrayArray2636[i_69_] = null;
+				((MapDecoder) this).aByteArrayArrayArray2698[i_69_] = null;
+				((MapDecoder) this).aByteArrayArrayArray2668[i_69_] = null;
 			}
 			if (!aBoolean2629) {
 				if (917702315 * anInt2621 != 0)
@@ -441,10 +440,10 @@ public class MapDecoder {
 		try {
 			for (int i_89_ = 0; i_89_ < -954368823 * anInt2627; i_89_++) {
 				for (int i_90_ = 0; i_90_ < anInt2628 * 181474463; i_90_++) {
-					byte i_91_ = (((MapDecoder) this).shapes[i][i_89_][i_90_]);
-					byte i_92_ = (((MapDecoder) this).rotations[i][i_89_][i_90_]);
-					int i_93_ = ((((MapDecoder) this).overlays[i][i_89_][i_90_]) & 0xff);
-					int i_94_ = ((((MapDecoder) this).underlays[i][i_89_][i_90_]) & 0xff);
+					byte i_91_ = (((MapDecoder) this).aByteArrayArrayArray2698[i][i_89_][i_90_]);
+					byte i_92_ = (((MapDecoder) this).aByteArrayArrayArray2668[i][i_89_][i_90_]);
+					int i_93_ = ((((MapDecoder) this).aByteArrayArrayArray2636[i][i_89_][i_90_]) & 0xff);
+					int i_94_ = ((((MapDecoder) this).aByteArrayArrayArray2670[i][i_89_][i_90_]) & 0xff);
 					Class373 class373 = (i_93_ != 0 ? ((MapDecoder) this).aClass375_2651.method4645(i_93_ - 1, -165601895) : null);
 					Class443 class443 = (i_94_ != 0 ? ((MapDecoder) this).aClass451_2617.method5932(i_94_ - 1, (byte) -1) : null);
 					if (i_91_ == 0 && null == class373)
@@ -580,10 +579,10 @@ public class MapDecoder {
 
 	void method2221(GraphicsToolkit class_ra, Class_xa class_xa, int i, int[][] is, Class_xa class_xa_129_, Class_xa class_xa_130_, byte i_131_) {
 		try {
-			byte[][] is_132_ = ((MapDecoder) this).shapes[i];
-			byte[][] is_133_ = ((MapDecoder) this).rotations[i];
-			byte[][] is_134_ = ((MapDecoder) this).underlays[i];
-			byte[][] is_135_ = ((MapDecoder) this).overlays[i];
+			byte[][] is_132_ = ((MapDecoder) this).aByteArrayArrayArray2698[i];
+			byte[][] is_133_ = ((MapDecoder) this).aByteArrayArrayArray2668[i];
+			byte[][] is_134_ = ((MapDecoder) this).aByteArrayArrayArray2670[i];
+			byte[][] is_135_ = ((MapDecoder) this).aByteArrayArrayArray2636[i];
 			boolean[] bools = new boolean[4];
 			for (int i_136_ = 0; i_136_ < -954368823 * anInt2627; i_136_++) {
 				int i_137_ = (i_136_ < anInt2627 * -954368823 - 1 ? 1 + i_136_ : i_136_);
@@ -1374,7 +1373,7 @@ public class MapDecoder {
 		anIntArrayArray2679 = new int[][] { { 12, 12, 12, 12 }, { 12, 12, 12, 12, 12, 5 }, { 5, 5, 1, 1 }, { 5, 1, 1, 5 }, { 5, 5, 5 }, { 5, 5, 5 }, { 12, 12, 12, 12, 12, 12 }, { 1, 12, 12, 12, 12, 12 }, { 1, 1, 7, 1 }, { 8, 9, 9, 8, 8, 3, 1, 9 }, { 8, 8, 9, 8, 9, 9 }, { 10, 10, 11, 11, 11, 7, 3, 7 }, { 12, 12, 12, 12 } };
 	}
 
-	final void method2228(RsByteBuffer stream, int level, int x, int y, int i_321_, int i_322_, int i_323_, int i_324_, int i_325_, boolean bool, int i_326_) {
+	final void method2228(RsByteBuffer class298_sub53, int i, int i_319_, int i_320_, int i_321_, int i_322_, int i_323_, int i_324_, int i_325_, boolean bool, int i_326_) {
 		try {
 			if (i_325_ == 1)
 				i_322_ = 1;
@@ -1383,58 +1382,54 @@ public class MapDecoder {
 				i_322_ = 1;
 			} else if (3 == i_325_)
 				i_321_ = 1;
-			if (x >= 0 && x < -954368823 * anInt2627 && y >= 0 && y < 181474463 * anInt2628) {
+			if (i_319_ >= 0 && i_319_ < -954368823 * anInt2627 && i_320_ >= 0 && i_320_ < 181474463 * anInt2628) {
 				if (!aBoolean2629 && !bool)
-					aClass244_2635.aByteArrayArrayArray2731[level][x][y] = (byte) 0;
+					aClass244_2635.aByteArrayArrayArray2731[i][i_319_][i_320_] = (byte) 0;
 				for (;;) {
-					int i_327_ = stream.readUnsignedByte();
+					int i_327_ = class298_sub53.readUnsignedByte();
 					if (0 == i_327_) {
 						if (aBoolean2629)
-							anIntArrayArrayArray2653[0][x + i_321_][y + i_322_] = 0;
-						else if (0 == level)
-							anIntArrayArrayArray2653[0][i_321_ + x][i_322_ + y] = -Class412.method5581(i_323_ + 932731, i_324_ + 556238, (byte) -40) * 8 << 2;
+							anIntArrayArrayArray2653[0][i_319_ + i_321_][i_320_ + i_322_] = 0;
+						else if (0 == i)
+							anIntArrayArrayArray2653[0][i_321_ + i_319_][i_322_ + i_320_] = -Class412.method5581(i_323_ + 932731, i_324_ + 556238, (byte) -40) * 8 << 2;
 						else
-							anIntArrayArrayArray2653[level][i_321_ + x][y + i_322_] = (anIntArrayArrayArray2653[level - 1][i_321_ + x][y + i_322_]) - 960;
+							anIntArrayArrayArray2653[i][i_321_ + i_319_][i_320_ + i_322_] = (anIntArrayArrayArray2653[i - 1][i_321_ + i_319_][i_320_ + i_322_]) - 960;
 						break;
 					}
 					if (1 == i_327_) {
-						int i_328_ = stream.readUnsignedByte();
+						int i_328_ = class298_sub53.readUnsignedByte();
 						if (!aBoolean2629) {
 							if (i_328_ == 1)
 								i_328_ = 0;
-							if (0 == level)
-								anIntArrayArrayArray2653[0][i_321_ + x][i_322_ + y] = -i_328_ * 8 << 2;
+							if (0 == i)
+								anIntArrayArrayArray2653[0][i_321_ + i_319_][i_322_ + i_320_] = -i_328_ * 8 << 2;
 							else
-								anIntArrayArrayArray2653[level][i_321_ + x][i_322_ + y] = ((anIntArrayArrayArray2653[level - 1][i_321_ + x][i_322_ + y]) - (i_328_ * 8 << 2));
+								anIntArrayArrayArray2653[i][i_321_ + i_319_][i_322_ + i_320_] = ((anIntArrayArrayArray2653[i - 1][i_321_ + i_319_][i_322_ + i_320_]) - (i_328_ * 8 << 2));
 						} else
-							anIntArrayArrayArray2653[0][i_321_ + x][y + i_322_] = 8 * i_328_ << 2;
+							anIntArrayArrayArray2653[0][i_321_ + i_319_][i_320_ + i_322_] = 8 * i_328_ << 2;
 						break;
 					}
 					if (i_327_ <= 49) {
-						if (bool) {
-							stream.g1();
-						} else {
-							this.overlays[level][x][y] = (byte) stream.g1();
-							if (overlays[level][x][y] > 0 && osrs && OSRSData.HD_FLOORS) {
-								int override = -1; // no overrides atm
-								overlays[level][x][y] += (byte) OSRSData.OVERLAYS_OFFSET;
-							}
-							this.shapes[level][x][y] = (byte) ((i_327_ - 2) / 4);
-							this.rotations[level][x][y] = (byte) (i_327_ - 2 + i_325_ & 0x3);
+						if (bool)
+							class298_sub53.readUnsignedByte();
+						else {
+							((MapDecoder) this).aByteArrayArrayArray2636[i][i_319_][i_320_] = class298_sub53.readByte(-12558881);
+							((MapDecoder) this).aByteArrayArrayArray2698[i][i_319_][i_320_] = (byte) ((i_327_ - 2) / 4);
+							((MapDecoder) this).aByteArrayArrayArray2668[i][i_319_][i_320_] = (byte) (i_327_ - 2 + i_325_ & 0x3);
 						}
 					} else if (i_327_ <= 81) {
 						if (!aBoolean2629 && !bool)
-							aClass244_2635.aByteArrayArrayArray2731[level][x][y] = (byte) (i_327_ - 49);
+							aClass244_2635.aByteArrayArrayArray2731[i][i_319_][i_320_] = (byte) (i_327_ - 49);
 					} else if (bool) {
 						if (i_326_ != -2042161970) {
 							/* empty */
 						}
 					} else
-						((MapDecoder) this).underlays[level][x][y] = (byte) (i_327_ - 81);
+						((MapDecoder) this).aByteArrayArrayArray2670[i][i_319_][i_320_] = (byte) (i_327_ - 81);
 				}
 			} else {
 				for (;;) {
-					int i_329_ = stream.readUnsignedByte();
+					int i_329_ = class298_sub53.readUnsignedByte();
 					if (i_329_ == 0) {
 						if (i_326_ != -2042161970) {
 							/* empty */
@@ -1442,11 +1437,11 @@ public class MapDecoder {
 						break;
 					}
 					if (i_329_ == 1) {
-						stream.readUnsignedByte();
+						class298_sub53.readUnsignedByte();
 						break;
 					}
 					if (i_329_ <= 49)
-						stream.readUnsignedByte();
+						class298_sub53.readUnsignedByte();
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
@@ -1498,10 +1493,10 @@ public class MapDecoder {
 		((MapDecoder) this).aClass375_2651 = class375;
 		((MapDecoder) this).aClass451_2617 = class451;
 		aClass244_2635 = class244;
-		((MapDecoder) this).underlays = (new byte[anInt2626 * 1551623871][anInt2627 * -954368823][181474463 * anInt2628]);
-		((MapDecoder) this).overlays = (new byte[1551623871 * anInt2626][-954368823 * anInt2627][181474463 * anInt2628]);
-		((MapDecoder) this).shapes = (new byte[1551623871 * anInt2626][-954368823 * anInt2627][anInt2628 * 181474463]);
-		((MapDecoder) this).rotations = (new byte[anInt2626 * 1551623871][-954368823 * anInt2627][181474463 * anInt2628]);
+		((MapDecoder) this).aByteArrayArrayArray2670 = (new byte[anInt2626 * 1551623871][anInt2627 * -954368823][181474463 * anInt2628]);
+		((MapDecoder) this).aByteArrayArrayArray2636 = (new byte[1551623871 * anInt2626][-954368823 * anInt2627][181474463 * anInt2628]);
+		((MapDecoder) this).aByteArrayArrayArray2698 = (new byte[1551623871 * anInt2626][-954368823 * anInt2627][anInt2628 * 181474463]);
+		((MapDecoder) this).aByteArrayArrayArray2668 = (new byte[anInt2626 * 1551623871][-954368823 * anInt2627][181474463 * anInt2628]);
 		anIntArrayArrayArray2653 = (new int[anInt2626 * 1551623871][anInt2627 * -954368823 + 1][181474463 * anInt2628 + 1]);
 		aByteArrayArrayArray2637 = (new byte[1551623871 * anInt2626][1 + -954368823 * anInt2627][181474463 * anInt2628 + 1]);
 	}

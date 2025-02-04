@@ -424,16 +424,9 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 		try {
 			if (((Class365_Sub1_Sub2_Sub2) this).aClass387_9913 == null)
 				return null;
-			Class222 positionMatrix = method4347();
-			Class222 translatedMatrix = new Class222(positionMatrix);
-			if (anInt9915 * 2049836463 >= OSRSData.LOCS_OFFSET) {
-				/**
-				 * Level of OSRS ground decoration
-				 */
-				translatedMatrix.method2064(0f, -2, 0f);
-			}
+			Class222 class222 = method4347();
 			Class335 class335 = Class73.method818((((Class365_Sub1_Sub2_Sub2) this).aBoolean9919), 2139686110);
-			((Class365_Sub1_Sub2_Sub2) this).aClass387_9913.method4739(positionMatrix, aClass302_Sub1Array7726[0], 0);
+			((Class365_Sub1_Sub2_Sub2) this).aClass387_9913.method4739(class222, aClass302_Sub1Array7726[0], 0);
 			return class335;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("wo.bo(").append(')').toString());

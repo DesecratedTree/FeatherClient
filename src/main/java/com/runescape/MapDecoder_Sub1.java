@@ -356,33 +356,32 @@ public class MapDecoder_Sub1 extends MapDecoder {
 		}
 	}
 
-	public final void method2237(GraphicsToolkit class_ra, byte[] data, int i, int i_72_, Class289[] class289s, int i_73_) {
+	public final void method2237(GraphicsToolkit class_ra, byte[] is, int i, int i_72_, Class289[] class289s, int i_73_) {
 		try {
-			final boolean osrs = data[0] == 'O' && data[1] == 'S' && data[2] == 'R' && data[3] == 'S';
-			RsByteBuffer class298_sub53 = new RsByteBuffer(data);
-			if (osrs) {
-				RsByteBuffer.g4();
-			}
-			int locid = -1;
+			RsByteBuffer class298_sub53 = new RsByteBuffer(is);
+			int i_74_ = -1;
 			for (;;) {
-				int locincr = class298_sub53.readSmart((short) 255);
-				if (locincr == 0) {
+				int i_75_ = class298_sub53.readSmart((short) 255);
+				if (i_75_ == 0) {
 					if (i_73_ == 65535) {
 						/* empty */
 					}
 					break;
 				}
-				locid += locincr;
-				int position = 0;
+				i_74_ += i_75_;
+				int i_76_ = 0;
 				for (;;) {
-					int posincr = class298_sub53.readUnsignedSmart(1723054621);
-					if (posincr == 0) {
+					int i_77_ = class298_sub53.readUnsignedSmart(1723054621);
+					if (i_77_ == 0) {
+						if (i_73_ == 65535) {
+							/* empty */
+						}
 						break;
 					}
-					position += posincr - 1;
-					int i_78_ = position & 0x3f;
-					int i_79_ = position >> 6 & 0x3f;
-					int i_80_ = position >> 12;
+					i_76_ += i_77_ - 1;
+					int i_78_ = i_76_ & 0x3f;
+					int i_79_ = i_76_ >> 6 & 0x3f;
+					int i_80_ = i_76_ >> 12;
 					int i_81_ = class298_sub53.readUnsignedByte();
 					int i_82_ = i_81_ >> 2;
 					int i_83_ = i_81_ & 0x3;
@@ -397,7 +396,7 @@ public class MapDecoder_Sub1 extends MapDecoder {
 							if (i_86_ >= 0)
 								class289 = class289s[i_86_];
 						}
-						add_loc(class_ra, i_80_, i_80_, i_84_, i_85_, locid + (osrs ? OSRSData.LOCS_OFFSET : 0), i_83_, i_82_, class289, -1);
+						method2243(class_ra, i_80_, i_80_, i_84_, i_85_, i_74_, i_83_, i_82_, class289, -1, 1769761748);
 					}
 				}
 			}
@@ -406,23 +405,21 @@ public class MapDecoder_Sub1 extends MapDecoder {
 		}
 	}
 
-	public final void method2238(GraphicsToolkit class_ra, byte[] data, int i, int i_87_, int i_88_, int i_89_, int i_90_, int i_91_, int i_92_, Class289[] class289s, int i_93_) {
+	public final void method2238(GraphicsToolkit class_ra, byte[] is, int i, int i_87_, int i_88_, int i_89_, int i_90_, int i_91_, int i_92_, Class289[] class289s, int i_93_) {
 		try {
-			final boolean osrs = data[0] == 'O' && data[1] == 'S' && data[2] == 'R' && data[3] == 'S';
-
-			RsByteBuffer stream = new RsByteBuffer(data);
-			int locid = -1;
+			RsByteBuffer class298_sub53 = new RsByteBuffer(is);
+			int i_94_ = -1;
 			for (;;) {
-				int i_95_ = osrs ? stream.readUnsignedSmart() : stream.readSmart((short) 255);
+				int i_95_ = class298_sub53.readSmart((short) 255);
 				if (i_95_ == 0) {
 					if (i_93_ == -174685332)
 						break;
 					break;
 				}
-				locid += i_95_;
+				i_94_ += i_95_;
 				int i_96_ = 0;
 				for (;;) {
-					int i_97_ = stream.readUnsignedSmart(1723054621);
+					int i_97_ = class298_sub53.readUnsignedSmart(1723054621);
 					if (i_97_ == 0) {
 						if (i_93_ != -174685332)
 							throw new IllegalStateException();
@@ -432,11 +429,11 @@ public class MapDecoder_Sub1 extends MapDecoder {
 					int i_98_ = i_96_ & 0x3f;
 					int i_99_ = i_96_ >> 6 & 0x3f;
 					int i_100_ = i_96_ >> 12;
-					int i_101_ = stream.readUnsignedByte();
+					int i_101_ = class298_sub53.readUnsignedByte();
 					int i_102_ = i_101_ >> 2;
 					int i_103_ = i_101_ & 0x3;
 					if (i_89_ == i_100_ && i_99_ >= i_90_ && i_99_ < 8 + i_90_ && i_98_ >= i_91_ && i_98_ < 8 + i_91_) {
-						ObjectDefinitions class432 = aClass433_7072.getObjectDefinitions(locid + (osrs ? OSRSData.LOCS_OFFSET : 0));
+						ObjectDefinitions class432 = ((MapDecoder_Sub1) this).aClass433_7072.getObjectDefinitions(i_94_);
 						int i_104_ = (i_87_ + Class415.method5587(i_99_ & 0x7, i_98_ & 0x7, i_92_, (-1125834887 * class432.sizeX), (class432.sizeY * -565161399), i_103_, 181137699));
 						int i_105_ = i_88_ + Class315.method3833(i_99_ & 0x7, i_98_ & 0x7, i_92_, (class432.sizeX * -1125834887), (class432.sizeY * -565161399), i_103_, 1981614763);
 						if (i_104_ > 0 && i_105_ > 0 && i_104_ < -954368823 * anInt2627 - 1 && i_105_ < 181474463 * anInt2628 - 1) {
@@ -448,7 +445,7 @@ public class MapDecoder_Sub1 extends MapDecoder {
 								if (i_106_ >= 0)
 									class289 = class289s[i_106_];
 							}
-							add_loc(class_ra, i, i, i_104_, i_105_, locid + (osrs ? OSRSData.LOCS_OFFSET : 0), i_92_ + i_103_ & 0x3, i_102_, class289, -1);
+							method2243(class_ra, i, i, i_104_, i_105_, i_94_, i_92_ + i_103_ & 0x3, i_102_, class289, -1, 2074281649);
 						}
 					}
 				}
@@ -806,7 +803,7 @@ public class MapDecoder_Sub1 extends MapDecoder {
 		anIntArray7081 = new int[] { -1, -1, 1, 1 };
 	}
 
-	final void add_loc(GraphicsToolkit class_ra, int i, int i_161_, int i_162_, int i_163_, int i_164_, int i_165_, int i_166_, Class289 class289, int i_167_) {
+	final void method2243(GraphicsToolkit class_ra, int i, int i_161_, int i_162_, int i_163_, int i_164_, int i_165_, int i_166_, Class289 class289, int i_167_, int i_168_) {
 		try {
 			if (i_161_ < -1281303921 * ((MapDecoder_Sub1) this).anInt7082)
 				((MapDecoder_Sub1) this).anInt7082 = 272172143 * i_161_;
