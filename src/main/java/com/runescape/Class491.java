@@ -144,7 +144,7 @@ public class Class491 {
 			if (null == class105.aClass498_1307)
 				class105.aClass498_1307 = new Class498(class503, 6 == 1548853569 * class105.anInt1184);
 			class105.aClass498_1307.aLong6110 = Class382.method4686(1998848813) * 3177550440302969639L;
-			if (class503.aShortArray6154 == null || i_9_ < 0 || i_9_ >= class503.aShortArray6154.length)
+			if (class503.modifiedTextureColors == null || i_9_ < 0 || i_9_ >= class503.modifiedTextureColors.length)
 				throw new RuntimeException("");
 			class105.aClass498_1307.aShortArray6107[i_9_] = (short) i_8_;
 			Tradution.method6054(class105, -548507081);

@@ -98,7 +98,7 @@ public class Class140 implements Runnable {
 					class503 = class503.method6240(Class128.aClass148_6331, 1662486316);
 					if (null == class503)
 						return;
-					string = class503.aString6127;
+					string = class503.name;
 				}
 				if (class503.aBoolean6163) {
 					if (1817570317 * class365_sub1_sub1_sub2_sub1.anInt10189 != 0) {
@@ -111,7 +111,7 @@ public class Class140 implements Runnable {
 							Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(16776960, -2021390481)).append(string).toString(), 697885143 * Class240.anInt2704, 8, -1, (long) (1888274983 * (class365_sub1_sub1_sub2_sub1.anInt10064)), 0, 0, true, false, (long) (1888274983 * (class365_sub1_sub1_sub2_sub1.anInt10064)), false, -1507413924);
 					}
 					if (!bool) {
-						String[] strings = class503.aStringArray6142;
+						String[] strings = class503.options;
 						if (client.aBoolean8922)
 							strings = Class519.method6319(strings, -1228297238);
 						if (null != strings) {

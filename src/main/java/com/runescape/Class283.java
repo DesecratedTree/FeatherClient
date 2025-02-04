@@ -695,7 +695,7 @@ public class Class283 {
 						int i_88_ = (i_86_ + (64 * (anIntArray3031[i_78_] & 0xff) - (aClass341_3006.gameSceneBaseY * 283514611)));
 						NPCDefinitions class503 = (Class15.aClass507_224.method6269(class298_sub53.readUnsignedShort(), -806262033));
 						Class298_Sub29 class298_sub29 = ((Class298_Sub29) client.aClass437_8696.method5812(i_82_));
-						if (class298_sub29 == null && (class503.aByte6170 & 0x1) > 0 && i_87_ >= 0 && (-2095128707 * class503.anInt6187 + i_87_ < -991330803 * anInt3039) && i_88_ >= 0 && (i_88_ + class503.anInt6187 * -2095128707 < anInt3011 * -1456212765)) {
+						if (class298_sub29 == null && (class503.aByte6170 & 0x1) > 0 && i_87_ >= 0 && (-2095128707 * class503.size + i_87_ < -991330803 * anInt3039) && i_88_ >= 0 && (i_88_ + class503.size * -2095128707 < anInt3011 * -1456212765)) {
 							NPC class365_sub1_sub1_sub2_sub1 = (new NPC(aClass331_3037));
 							class365_sub1_sub1_sub2_sub1.anInt10064 = i_82_ * 1714292119;
 							Class298_Sub29 class298_sub29_89_ = (new Class298_Sub29(class365_sub1_sub1_sub2_sub1));
@@ -704,7 +704,7 @@ public class Class283 {
 							client.anIntArray8699[((client.anInt8703 += -409937273) * -1230451913) - 1] = i_82_;
 							class365_sub1_sub1_sub2_sub1.anInt10075 = client.anInt8884 * -128551287;
 							class365_sub1_sub1_sub2_sub1.method4464(class503, 1908625985);
-							class365_sub1_sub1_sub2_sub1.method4421((class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187) * -2095128707, -948262466);
+							class365_sub1_sub1_sub2_sub1.method4421((class365_sub1_sub1_sub2_sub1.aClass503_10190.size) * -2095128707, -948262466);
 							class365_sub1_sub1_sub2_sub1.anInt10115 = (-1927065533 * (class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6181) << 3) * -1186616623;
 							class365_sub1_sub1_sub2_sub1.method4415((class365_sub1_sub1_sub2_sub1.aClass503_10190.aClass274_6183.method2567((byte) 73).method242(694163818) << 11 & 0x3fff), true, 822135678);
 							class365_sub1_sub1_sub2_sub1.method4456(i_84_, i_87_, i_88_, true, class365_sub1_sub1_sub2_sub1.getSize(), (byte) 78);

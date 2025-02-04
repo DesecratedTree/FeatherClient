@@ -84,7 +84,7 @@ public class Class508 {
 				if (i_9_ == 1)
 					client.anIntArray8706[(client.anInt8808 += -386992021) * -976358333 - 1] = i_3_;
 				int i_10_ = stream.readBits(1);
-				class365_sub1_sub1_sub2_sub1.method4421(-2095128707 * (class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187), -1253182390);
+				class365_sub1_sub1_sub2_sub1.method4421(-2095128707 * (class365_sub1_sub1_sub2_sub1.aClass503_10190.size), -1253182390);
 				class365_sub1_sub1_sub2_sub1.anInt10115 = (-1186616623 * (-1927065533 * (class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6181) << 3));
 				if (bool_4_)
 					class365_sub1_sub1_sub2_sub1.method4415(i_5_, true, -2079607043);

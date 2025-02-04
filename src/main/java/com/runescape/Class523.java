@@ -32,7 +32,7 @@ final class Class523 implements Interface17 {
 			if (class105.aClass498_1307 == null)
 				class105.aClass498_1307 = new Class498(class503, false);
 			class105.aClass498_1307.aLong6110 = Class382.method4686(-1683898407) * 3177550440302969639L;
-			if (i_1_ < 0 || i_1_ >= class503.anIntArray6130.length)
+			if (i_1_ < 0 || i_1_ >= class503.chatHeads.length)
 				throw new RuntimeException("");
 			class105.aClass498_1307.anIntArray6108[i_1_] = i_0_;
 			Tradution.method6054(class105, -339426215);

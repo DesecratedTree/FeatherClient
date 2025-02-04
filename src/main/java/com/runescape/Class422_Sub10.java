@@ -90,7 +90,7 @@ public class Class422_Sub10 extends Class422 {
 						NPCDefinitions class503 = class365_sub1_sub1_sub2_sub1.aClass503_10190;
 						if (null != class503 && class503.anIntArray6188 != null)
 							class503 = class503.method6240(Class128.aClass148_6331, 1665436225);
-						if (null != class503 && class503.aBoolean6148 && class503.aBoolean6163) {
+						if (null != class503 && class503.visibleOnMap && class503.aBoolean6163) {
 							Class217 class217 = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
 							int i_7_ = (int) class217.aFloat2451 / 128 - i / 128;
 							int i_8_ = (int) class217.aFloat2454 / 128 - i_2_ / 128;

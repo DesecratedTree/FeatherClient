@@ -111,7 +111,7 @@ public class Class135 implements Interface6 {
 			if (null == class105.aClass498_1307)
 				class105.aClass498_1307 = new Class498(class503, true);
 			class105.aClass498_1307.aLong6110 = Class382.method4686(1726426173) * 3177550440302969639L;
-			if (i_16_ < 0 || i_16_ >= class503.anIntArray6129.length)
+			if (i_16_ < 0 || i_16_ >= class503.modelIds.length)
 				throw new RuntimeException(new StringBuilder().append("").append(i_16_).toString());
 			class105.aClass498_1307.anIntArray6108[i_16_] = i_15_;
 			Tradution.method6054(class105, 649700405);
