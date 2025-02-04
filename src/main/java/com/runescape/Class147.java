@@ -35,7 +35,7 @@ public class Class147 {
 				Class298.anInt3192 = 1282349805 * i;
 				Class132.anInt1508 = i_1_ * 1881265567;
 				client.anInt8906 = 746397723 * class105.anInt1280;
-				MapDecoder.anInt2704 = 1745504609 * class105.anInt1179;
+				Class240.anInt2704 = 1745504609 * class105.anInt1179;
 				client.anInt8937 = -472067203 * class105.anInt1163;
 				Tradution.method6054(class105, -284512508);
 			}

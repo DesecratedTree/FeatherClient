@@ -378,7 +378,7 @@ public class Class125 {
 				Class165.method1783(-980237906);
 				Class128.aClass148_6331 = new Class148();
 				Class359.method4294(1884668010);
-				MapDecoder.method2231(Class501.aSeqTypeList_6122, 638864948);
+				Class240.method2231(Class501.aSeqTypeList_6122, 638864948);
 				Class493.method6188(Class51.aClass243_505, -1530430191);
 				Class62.method727(Class341.aClass243_3646, Class253.anInterface_ma2785, 2043056803);
 				Class113 class113 = new Class113(Class122.aClass243_1467.method2301("huffman", "", 1988047685));

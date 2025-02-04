@@ -79,7 +79,7 @@ public abstract class Class98 {
 						if (client.aBoolean8835 && (-112110875 * Class298.anInt3192 & 0x40) != 0) {
 							IComponentDefinition class105 = Class140.method1558((Class379.anInt4099 * 1262526353), (392084321 * client.anInt8836), -156511736);
 							if (class105 != null)
-								Class234.method2174(client.aString8838, new StringBuilder().append(" ").append(Class26.aString351).append(" ").toString(), MapDecoder.anInt2704 * 697885143, 59, -1, 0L, i_18_, i_19_, true, false, (long) (i_18_ << 32 | i_19_), true, -1555484950);
+								Class234.method2174(client.aString8838, new StringBuilder().append(" ").append(Class26.aString351).append(" ").toString(), Class240.anInt2704 * 697885143, 59, -1, 0L, i_18_, i_19_, true, false, (long) (i_18_ << 32 | i_19_), true, -1555484950);
 							else
 								Class144.method1587((byte) 4);
 						} else {
@@ -256,7 +256,7 @@ public abstract class Class98 {
 									if (client.aBoolean8835 && ((class335.aClass365_Sub1_3616.plane) == (Class287.myPlayer.plane))) {
 										Class497 class497 = ((Class132.anInt1508 * 831522399 != -1) ? (Class92.aClass504_905.method6251((Class132.anInt1508 * 831522399), 1640464070)) : null);
 										if (0 != ((Class298.anInt3192 * -112110875) & 0x1) && (null == class497 || ((class468.method6037((831522399 * Class132.anInt1508), (-388931549 * class497.anInt6100), -2028636758)) != (-388931549 * (class497.anInt6100)))))
-											Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(i_66_, -1803338083)).append(class468.aString5707).toString(), (MapDecoder.anInt2704 * 697885143), 17, -1, (long) ((class298_sub12.anInt7257) * 1768239597), i_36_, i_37_, true, false, (long) i_65_, false, -1282887596);
+											Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(i_66_, -1803338083)).append(class468.aString5707).toString(), (Class240.anInt2704 * 697885143), 17, -1, (long) ((class298_sub12.anInt7257) * 1768239597), i_36_, i_37_, true, false, (long) i_65_, false, -1282887596);
 									}
 									if (class335.aClass365_Sub1_3616.plane == (Class287.myPlayer.plane)) {
 										String[] strings = class468.aStringArray5723;
@@ -301,7 +301,7 @@ public abstract class Class98 {
 								if (client.aBoolean8835 && (class335.aClass365_Sub1_3616.plane == (Class287.myPlayer.plane))) {
 									Class497 class497 = (831522399 * Class132.anInt1508 != -1 ? (Class92.aClass504_905.method6251(Class132.anInt1508 * 831522399, -616098570)) : null);
 									if (0 != (Class298.anInt3192 * -112110875 & 0x4) && (class497 == null || ((class432.method5776((831522399 * Class132.anInt1508), (class497.anInt6100 * -388931549), (byte) 2)) != (-388931549 * class497.anInt6100))))
-										Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(65535, -1704073338)).append(class432.name).toString(), MapDecoder.anInt2704 * 697885143, 2, -1, Class119.method1301(interface3, i_36_, i_37_, 2139321433), i_36_, i_37_, true, false, (long) interface3.hashCode(), false, -978621849);
+										Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(65535, -1704073338)).append(class432.name).toString(), Class240.anInt2704 * 697885143, 2, -1, Class119.method1301(interface3, i_36_, i_37_, 2139321433), i_36_, i_37_, true, false, (long) interface3.hashCode(), false, -978621849);
 								}
 								if (class335.aClass365_Sub1_3616.plane == (Class287.myPlayer.plane)) {
 									String[] strings = class432.aStringArray5394;

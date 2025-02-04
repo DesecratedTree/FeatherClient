@@ -117,7 +117,7 @@ public class Class516 {
 			int i_5_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
 			IComponentDefinition class105 = Class50.getIComponentDefinitions(i_5_, (byte) -48);
 			Class119 class119 = Class389.aClass119Array4165[i_5_ >> 16];
-			MapDecoder_Sub1.method2244(class105, class119, class403, (byte) -14);
+			Class240_Sub1.method2244(class105, class119, class403, (byte) -14);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("vs.om(").append(')').toString());
 		}

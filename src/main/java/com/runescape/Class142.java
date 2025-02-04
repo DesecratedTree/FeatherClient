@@ -148,7 +148,7 @@ public class Class142 {
 					Class247.method2365(170542119);
 					if (0 == -1233866115 * client.anInt8752) {
 						Class223.method2084(i, i_2_, i_3_, i_4_, 256, 256, -16777216);
-						MapDecoder.method2232(i, i_2_, i_3_, i_4_, 256, 256, (byte) 46);
+						Class240.method2232(i, i_2_, i_3_, i_4_, 256, 256, (byte) 46);
 						Class492.method6182(i, i_2_, i_3_, i_4_, 256, 256, 996259282);
 						Class251.method2406(i, i_2_, i_3_, i_4_, 373406666);
 					}
