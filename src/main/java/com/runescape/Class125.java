@@ -358,7 +358,7 @@ public class Class125 {
 				Class15.aClass507_224 = new Class507(client.aClass411_8944, Class321.aClass429_3357, true, Class133.aClass243_1512, Class341.aClass243_3646);
 				Class298_Sub32_Sub14.aClass477_9400 = new Class477(client.aClass411_8944, Class321.aClass429_3357, true, Class92.aClass504_905, Class92.aClass243_904, Class341.aClass243_3646);
 				Class316.aClass362_3318 = new Class362(client.aClass411_8944, Class321.aClass429_3357, Class284_Sub1.aClass243_7146, true);
-				Class501.aClass395_6122 = new Class395(client.aClass411_8944, Class321.aClass429_3357, Class260.aClass243_2819, Class491.aClass243_6080, Class497.aClass243_6103);
+				Class501.aSeqTypeList_6122 = new SeqTypeList(client.aClass411_8944, Class321.aClass429_3357, Class260.aClass243_2819, Class491.aClass243_6080, Class497.aClass243_6103);
 				ConfigDefinitions.aClass317_3472 = new Class317(client.aClass411_8944, Class321.aClass429_3357, Class284_Sub1.aClass243_7146);
 				Class138_Sub1.aClass131_7010 = new Class131(client.aClass411_8944, Class321.aClass429_3357, Class284_Sub1.aClass243_7146);
 				Class158_Sub1.aClass389_8568 = new Class389(client.aClass411_8944, Class321.aClass429_3357, Class23.aClass243_326, Class341.aClass243_3646);
@@ -378,7 +378,7 @@ public class Class125 {
 				Class165.method1783(-980237906);
 				Class128.aClass148_6331 = new Class148();
 				Class359.method4294(1884668010);
-				Class240.method2231(Class501.aClass395_6122, 638864948);
+				Class240.method2231(Class501.aSeqTypeList_6122, 638864948);
 				Class493.method6188(Class51.aClass243_505, -1530430191);
 				Class62.method727(Class341.aClass243_3646, Class253.anInterface_ma2785, 2043056803);
 				Class113 class113 = new Class113(Class122.aClass243_1467.method2301("huffman", "", 1988047685));

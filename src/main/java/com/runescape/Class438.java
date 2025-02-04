@@ -7,7 +7,7 @@ public class Class438 {
 	public static int anInt5521 = 2;
 	public static int anInt5522 = 1;
 	int anInt5523;
-	Class391 aClass391_5524;
+	SeqType aSeqType_5524;
 	int anInt5525;
 	int anInt5526;
 	int anInt5527;
@@ -22,15 +22,15 @@ public class Class438 {
 
 	public final boolean method5819(byte i) {
 		try {
-			return null != ((Class438) this).aClass391_5524;
+			return null != ((Class438) this).aSeqType_5524;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("sb.b(").append(')').toString());
 		}
 	}
 
-	public final Class391 method5820(int i) {
+	public final SeqType method5820(int i) {
 		try {
-			return ((Class438) this).aClass391_5524;
+			return ((Class438) this).aSeqType_5524;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("sb.p(").append(')').toString());
 		}
@@ -46,7 +46,7 @@ public class Class438 {
 
 	public final boolean method5822(int i, int i_1_) {
 		try {
-			if (null == ((Class438) this).aClass391_5524 || i == 0)
+			if (null == ((Class438) this).aSeqType_5524 || i == 0)
 				return false;
 			if (((Class438) this).anInt5526 * -1577984117 > 0) {
 				if (-1577984117 * ((Class438) this).anInt5526 >= i) {
@@ -55,55 +55,55 @@ public class Class438 {
 				}
 				i -= ((Class438) this).anInt5526 * -1577984117;
 				((Class438) this).anInt5526 = 0;
-				method5837(((Class438) this).aClass391_5524, -8792169 * ((Class438) this).anInt5523, (byte) 71);
+				method5837(((Class438) this).aSeqType_5524, -8792169 * ((Class438) this).anInt5523, (byte) 71);
 			}
 			i += ((Class438) this).anInt5525 * 458730501;
-			boolean bool = (((Class438) this).aClass391_5524.aBoolean4176 | Class391.aBoolean4186);
-			if (i > 100 && (((Class438) this).aClass391_5524.anInt4175 * -658922537 > 0)) {
+			boolean bool = (((Class438) this).aSeqType_5524.aBoolean4176 | SeqType.aBoolean4186);
+			if (i > 100 && (((Class438) this).aSeqType_5524.anInt4175 * -658922537 > 0)) {
 				int i_2_;
-				for (i_2_ = ((((Class438) this).aClass391_5524.anIntArray4172).length - (((Class438) this).aClass391_5524.anInt4175 * -658922537)); (((Class438) this).anInt5523 * -8792169 < i_2_ && i > (((Class438) this).aClass391_5524.anIntArray4169[((Class438) this).anInt5523 * -8792169])); ((Class438) this).anInt5523 += 282466343)
-					i -= (((Class438) this).aClass391_5524.anIntArray4169[((Class438) this).anInt5523 * -8792169]);
+				for (i_2_ = ((((Class438) this).aSeqType_5524.frames).length - (((Class438) this).aSeqType_5524.anInt4175 * -658922537)); (((Class438) this).anInt5523 * -8792169 < i_2_ && i > (((Class438) this).aSeqType_5524.delays[((Class438) this).anInt5523 * -8792169])); ((Class438) this).anInt5523 += 282466343)
+					i -= (((Class438) this).aSeqType_5524.delays[((Class438) this).anInt5523 * -8792169]);
 				if (((Class438) this).anInt5523 * -8792169 >= i_2_) {
 					int i_3_ = 0;
-					for (int i_4_ = i_2_; i_4_ < (((Class438) this).aClass391_5524.anIntArray4172).length; i_4_++)
-						i_3_ += (((Class438) this).aClass391_5524.anIntArray4169[i_4_]);
+					for (int i_4_ = i_2_; i_4_ < (((Class438) this).aSeqType_5524.frames).length; i_4_++)
+						i_3_ += (((Class438) this).aSeqType_5524.delays[i_4_]);
 					if (0 == ((Class438) this).anInt5532 * -1542612693)
 						((Class438) this).anInt5527 += 1129171511 * (i / i_3_);
 					i %= i_3_;
 				}
 				((Class438) this).anInt5529 = -64061137 * ((Class438) this).anInt5523 + -1266936279;
-				if (-112073191 * ((Class438) this).anInt5529 >= (((Class438) this).aClass391_5524.anIntArray4172).length) {
-					if ((((Class438) this).aClass391_5524.anInt4175 * -658922537) == -1 && ((Class438) this).aBoolean5533)
+				if (-112073191 * ((Class438) this).anInt5529 >= (((Class438) this).aSeqType_5524.frames).length) {
+					if ((((Class438) this).aSeqType_5524.anInt4175 * -658922537) == -1 && ((Class438) this).aBoolean5533)
 						((Class438) this).anInt5529 = 0;
 					else
-						((Class438) this).anInt5529 -= (((Class438) this).aClass391_5524.anInt4175 * 838055791);
-					if (((Class438) this).anInt5529 * -112073191 < 0 || (((Class438) this).anInt5529 * -112073191 >= (((Class438) this).aClass391_5524.anIntArray4172).length))
+						((Class438) this).anInt5529 -= (((Class438) this).aSeqType_5524.anInt4175 * 838055791);
+					if (((Class438) this).anInt5529 * -112073191 < 0 || (((Class438) this).anInt5529 * -112073191 >= (((Class438) this).aSeqType_5524.frames).length))
 						((Class438) this).anInt5529 = 1266936279;
 				}
 				bool = true;
 			}
-			while (i > (((Class438) this).aClass391_5524.anIntArray4169[-8792169 * ((Class438) this).anInt5523])) {
+			while (i > (((Class438) this).aSeqType_5524.delays[-8792169 * ((Class438) this).anInt5523])) {
 				bool = true;
-				i -= (((Class438) this).aClass391_5524.anIntArray4169[((((Class438) this).anInt5523 += 282466343) * -8792169 - 1)]);
-				if (-8792169 * ((Class438) this).anInt5523 >= (((Class438) this).aClass391_5524.anIntArray4172).length) {
-					if ((((Class438) this).aClass391_5524.anInt4175 * -658922537) != -1 && -1542612693 * ((Class438) this).anInt5532 != 2) {
-						((Class438) this).anInt5523 -= (((Class438) this).aClass391_5524.anInt4175 * -782361151);
+				i -= (((Class438) this).aSeqType_5524.delays[((((Class438) this).anInt5523 += 282466343) * -8792169 - 1)]);
+				if (-8792169 * ((Class438) this).anInt5523 >= (((Class438) this).aSeqType_5524.frames).length) {
+					if ((((Class438) this).aSeqType_5524.anInt4175 * -658922537) != -1 && -1542612693 * ((Class438) this).anInt5532 != 2) {
+						((Class438) this).anInt5523 -= (((Class438) this).aSeqType_5524.anInt4175 * -782361151);
 						if (-1542612693 * ((Class438) this).anInt5532 == 0)
 							((Class438) this).anInt5527 += 1129171511;
 					}
-					if ((2063993735 * ((Class438) this).anInt5527 >= (((Class438) this).aClass391_5524.anInt4181 * -23055529)) || -8792169 * ((Class438) this).anInt5523 < 0 || (-8792169 * ((Class438) this).anInt5523 >= (((Class438) this).aClass391_5524.anIntArray4172).length)) {
+					if ((2063993735 * ((Class438) this).anInt5527 >= (((Class438) this).aSeqType_5524.anInt4181 * -23055529)) || -8792169 * ((Class438) this).anInt5523 < 0 || (-8792169 * ((Class438) this).anInt5523 >= (((Class438) this).aSeqType_5524.frames).length)) {
 						((Class438) this).aBoolean5530 = true;
 						break;
 					}
 				}
-				method5837(((Class438) this).aClass391_5524, -8792169 * ((Class438) this).anInt5523, (byte) 75);
+				method5837(((Class438) this).aSeqType_5524, -8792169 * ((Class438) this).anInt5523, (byte) 75);
 				((Class438) this).anInt5529 = ((Class438) this).anInt5523 * -64061137 + -1266936279;
-				if (-112073191 * ((Class438) this).anInt5529 >= (((Class438) this).aClass391_5524.anIntArray4172).length) {
-					if (-1 == (((Class438) this).aClass391_5524.anInt4175 * -658922537) && ((Class438) this).aBoolean5533)
+				if (-112073191 * ((Class438) this).anInt5529 >= (((Class438) this).aSeqType_5524.frames).length) {
+					if (-1 == (((Class438) this).aSeqType_5524.anInt4175 * -658922537) && ((Class438) this).aBoolean5533)
 						((Class438) this).anInt5529 = 0;
 					else
-						((Class438) this).anInt5529 -= (838055791 * ((Class438) this).aClass391_5524.anInt4175);
-					if (-112073191 * ((Class438) this).anInt5529 < 0 || (((Class438) this).anInt5529 * -112073191 >= (((Class438) this).aClass391_5524.anIntArray4172).length))
+						((Class438) this).anInt5529 -= (838055791 * ((Class438) this).aSeqType_5524.anInt4175);
+					if (-112073191 * ((Class438) this).anInt5529 < 0 || (((Class438) this).anInt5529 * -112073191 >= (((Class438) this).aSeqType_5524.frames).length))
 						((Class438) this).anInt5529 = 1266936279;
 				}
 			}
@@ -118,7 +118,7 @@ public class Class438 {
 
 	public final int method5823(int i) {
 		try {
-			return (((Class438) this).aClass391_5524 != null ? -1945308871 * ((Class438) this).aClass391_5524.anInt4171 : -1);
+			return (((Class438) this).aSeqType_5524 != null ? -1945308871 * ((Class438) this).aSeqType_5524.anInt4171 : -1);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("sb.i(").append(')').toString());
 		}
@@ -136,30 +136,30 @@ public class Class438 {
 		try {
 			if (i != method5823(1947694560)) {
 				if (-1 != i) {
-					if (null != ((Class438) this).aClass391_5524 && i == (((Class438) this).aClass391_5524.anInt4171 * -1945308871)) {
-						if (0 == -1117238071 * (((Class438) this).aClass391_5524.anInt4184))
+					if (null != ((Class438) this).aSeqType_5524 && i == (((Class438) this).aSeqType_5524.anInt4171 * -1945308871)) {
+						if (0 == -1117238071 * (((Class438) this).aSeqType_5524.anInt4184))
 							return;
 					} else
-						((Class438) this).aClass391_5524 = Class298_Sub2.aClass395_7165.method4903(i, (byte) 32);
+						((Class438) this).aSeqType_5524 = Class298_Sub2.aSeqTypeList_7165.method4903(i, (byte) 32);
 					((Class438) this).anInt5527 = 0;
 					((Class438) this).anInt5526 = i_8_ * -2070327261;
 					((Class438) this).anInt5532 = -1775084157 * i_9_;
 					((Class438) this).aBoolean5533 = bool_10_;
 					if (bool) {
-						((Class438) this).anInt5523 = ((int) (Math.random() * (double) (((Class438) this).aClass391_5524.anIntArray4172).length) * 282466343);
-						((Class438) this).anInt5525 = ((int) (Math.random() * (double) (((Class438) this).aClass391_5524.anIntArray4169[(-8792169 * (((Class438) this).anInt5523))])) * -993902387);
+						((Class438) this).anInt5523 = ((int) (Math.random() * (double) (((Class438) this).aSeqType_5524.frames).length) * 282466343);
+						((Class438) this).anInt5525 = ((int) (Math.random() * (double) (((Class438) this).aSeqType_5524.delays[(-8792169 * (((Class438) this).anInt5523))])) * -993902387);
 					} else {
 						((Class438) this).anInt5523 = 0;
 						((Class438) this).anInt5525 = 0;
 					}
 					((Class438) this).anInt5529 = (-1266936279 + -64061137 * ((Class438) this).anInt5523);
-					if (((Class438) this).anInt5529 * -112073191 < 0 || (((Class438) this).anInt5529 * -112073191 >= (((Class438) this).aClass391_5524.anIntArray4172).length))
+					if (((Class438) this).anInt5529 * -112073191 < 0 || (((Class438) this).anInt5529 * -112073191 >= (((Class438) this).aSeqType_5524.frames).length))
 						((Class438) this).anInt5529 = 1266936279;
 					if (0 == -1577984117 * ((Class438) this).anInt5526)
-						method5837(((Class438) this).aClass391_5524, -8792169 * ((Class438) this).anInt5523, (byte) 59);
+						method5837(((Class438) this).aSeqType_5524, -8792169 * ((Class438) this).anInt5523, (byte) 59);
 					((Class438) this).aBoolean5530 = false;
 				} else
-					((Class438) this).aClass391_5524 = null;
+					((Class438) this).aSeqType_5524 = null;
 				method5844(898280732);
 			}
 		} catch (RuntimeException runtimeexception) {
@@ -197,7 +197,7 @@ public class Class438 {
 				int i_13_ = 0;
 				if (method5838((short) 225)) {
 					i_13_ |= (-1050600049 * (((Class441) ((Class438) this).aClass441_5534).anInt5588));
-					if (((Class438) this).aBoolean5531 && null != (((Class438) this).aClass391_5524.anIntArray4174))
+					if (((Class438) this).aBoolean5531 && null != (((Class438) this).aSeqType_5524.iframes))
 						i_13_ |= -1050600049 * (((Class441) (((Class438) this).aClass441_5535)).anInt5588);
 				}
 				return i_13_;
@@ -210,10 +210,10 @@ public class Class438 {
 
 	public final void method5830(Class387 class387, int i, int i_14_, byte i_15_) {
 		try {
-			if (null != ((Class438) this).aClass391_5524.anIntArray4172 && method5838((short) 225)) {
-				class387.method4765((((Class441) ((Class438) this).aClass441_5534).aClass298_Sub37_Sub4_5583), (((Class441) ((Class438) this).aClass441_5534).anInt5584 * 806878007), (((Class441) ((Class438) this).aClass441_5534).aClass298_Sub37_Sub4_5587), -643912397 * ((Class441) ((Class438) this).aClass441_5534).anInt5586, 458730501 * ((Class438) this).anInt5525, (((Class438) this).aClass391_5524.anIntArray4169[-8792169 * ((Class438) this).anInt5523]), i, i_14_, ((Class438) this).aClass391_5524.aBoolean4185, null);
-				if (((Class438) this).aBoolean5531 && ((Class438) this).aClass391_5524.anIntArray4174 != null && (((Class441) ((Class438) this).aClass441_5535).aBoolean5585))
-					class387.method4765((((Class441) ((Class438) this).aClass441_5535).aClass298_Sub37_Sub4_5583), (((Class441) ((Class438) this).aClass441_5535).anInt5584) * 806878007, (((Class441) ((Class438) this).aClass441_5535).aClass298_Sub37_Sub4_5587), -643912397 * ((Class441) (((Class438) this).aClass441_5535)).anInt5586, 458730501 * ((Class438) this).anInt5525, (((Class438) this).aClass391_5524.anIntArray4169[-8792169 * ((Class438) this).anInt5523]), i, i_14_, ((Class438) this).aClass391_5524.aBoolean4185, null);
+			if (null != ((Class438) this).aSeqType_5524.frames && method5838((short) 225)) {
+				class387.method4765((((Class441) ((Class438) this).aClass441_5534).aAnimFrameset_5583), (((Class441) ((Class438) this).aClass441_5534).anInt5584 * 806878007), (((Class441) ((Class438) this).aClass441_5534).aAnimFrameset_5587), -643912397 * ((Class441) ((Class438) this).aClass441_5534).anInt5586, 458730501 * ((Class438) this).anInt5525, (((Class438) this).aSeqType_5524.delays[-8792169 * ((Class438) this).anInt5523]), i, i_14_, ((Class438) this).aSeqType_5524.aBoolean4185, null);
+				if (((Class438) this).aBoolean5531 && ((Class438) this).aSeqType_5524.iframes != null && (((Class441) ((Class438) this).aClass441_5535).aBoolean5585))
+					class387.method4765((((Class441) ((Class438) this).aClass441_5535).aAnimFrameset_5583), (((Class441) ((Class438) this).aClass441_5535).anInt5584) * 806878007, (((Class441) ((Class438) this).aClass441_5535).aAnimFrameset_5587), -643912397 * ((Class441) (((Class438) this).aClass441_5535)).anInt5586, 458730501 * ((Class438) this).anInt5525, (((Class438) this).aSeqType_5524.delays[-8792169 * ((Class438) this).anInt5523]), i, i_14_, ((Class438) this).aSeqType_5524.aBoolean4185, null);
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("sb.h(").append(')').toString());
@@ -222,10 +222,10 @@ public class Class438 {
 
 	public final void method5831(Class387 class387, int i) {
 		try {
-			if (((Class438) this).aClass391_5524.anIntArray4172 != null && method5838((short) 225)) {
-				class387.method4737((((Class441) ((Class438) this).aClass441_5534).aClass298_Sub37_Sub4_5583), (((Class441) (((Class438) this).aClass441_5534)).anInt5584 * 806878007));
-				if (((Class438) this).aBoolean5531 && null != ((Class438) this).aClass391_5524.anIntArray4174 && (((Class441) ((Class438) this).aClass441_5535).aBoolean5585))
-					class387.method4737((((Class441) ((Class438) this).aClass441_5535).aClass298_Sub37_Sub4_5583), (((Class441) ((Class438) this).aClass441_5535).anInt5584) * 806878007);
+			if (((Class438) this).aSeqType_5524.frames != null && method5838((short) 225)) {
+				class387.method4737((((Class441) ((Class438) this).aClass441_5534).aAnimFrameset_5583), (((Class441) (((Class438) this).aClass441_5534)).anInt5584 * 806878007));
+				if (((Class438) this).aBoolean5531 && null != ((Class438) this).aSeqType_5524.iframes && (((Class441) ((Class438) this).aClass441_5535).aBoolean5585))
+					class387.method4737((((Class441) ((Class438) this).aClass441_5535).aAnimFrameset_5583), (((Class441) ((Class438) this).aClass441_5535).anInt5584) * 806878007);
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("sb.v(").append(')').toString());
@@ -259,13 +259,13 @@ public class Class438 {
 	public final void method5835(int i, byte i_18_) {
 		try {
 			((Class438) this).anInt5523 = 0;
-			((Class438) this).anInt5529 = -1266936279 * ((((Class438) this).aClass391_5524.anIntArray4172).length > 1 ? 1 : -1);
+			((Class438) this).anInt5529 = -1266936279 * ((((Class438) this).aSeqType_5524.frames).length > 1 ? 1 : -1);
 			((Class438) this).anInt5525 = 0;
 			((Class438) this).aBoolean5530 = false;
 			((Class438) this).anInt5526 = i * -2070327261;
 			((Class438) this).anInt5527 = 0;
-			if (null != ((Class438) this).aClass391_5524 & ((Class438) this).aClass391_5524.anIntArray4172 != null) {
-				method5837(((Class438) this).aClass391_5524, -8792169 * ((Class438) this).anInt5523, (byte) -16);
+			if (null != ((Class438) this).aSeqType_5524 & ((Class438) this).aSeqType_5524.frames != null) {
+				method5837(((Class438) this).aSeqType_5524, -8792169 * ((Class438) this).anInt5523, (byte) -16);
 				method5844(1713813277);
 			}
 		} catch (RuntimeException runtimeexception) {
@@ -275,15 +275,15 @@ public class Class438 {
 
 	public final boolean method5836(int i, int i_19_) {
 		try {
-			if (((Class438) this).aClass391_5524 == null | (i -= ((Class438) this).anInt5526 * -1577984117) <= 0)
+			if (((Class438) this).aSeqType_5524 == null | (i -= ((Class438) this).anInt5526 * -1577984117) <= 0)
 				return false;
-			return (((Class438) this).aClass391_5524.aBoolean4176 | (458730501 * ((Class438) this).anInt5525 + i > (((Class438) this).aClass391_5524.anIntArray4169[-8792169 * ((Class438) this).anInt5523])));
+			return (((Class438) this).aSeqType_5524.aBoolean4176 | (458730501 * ((Class438) this).anInt5525 + i > (((Class438) this).aSeqType_5524.delays[-8792169 * ((Class438) this).anInt5523])));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("sb.o(").append(')').toString());
 		}
 	}
 
-	void method5837(Class391 class391, int i, byte i_20_) {
+	void method5837(SeqType seqType, int i, byte i_20_) {
 		try {
 			/* empty */
 		} catch (RuntimeException runtimeexception) {
@@ -293,10 +293,10 @@ public class Class438 {
 
 	final boolean method5838(short i) {
 		try {
-			if (null != ((Class438) this).aClass391_5524) {
-				boolean bool = (((Class438) this).aClass441_5534.method5863(Class298_Sub2.aClass395_7165, ((Class438) this).aClass391_5524, ((Class438) this).anInt5523 * -8792169, -112073191 * ((Class438) this).anInt5529, ((Class438) this).aClass391_5524.anIntArray4172, (byte) 103));
-				if (bool && ((Class438) this).aBoolean5531 && ((Class438) this).aClass391_5524.anIntArray4174 != null)
-					((Class438) this).aClass441_5535.method5863(Class298_Sub2.aClass395_7165, ((Class438) this).aClass391_5524, ((Class438) this).anInt5523 * -8792169, ((Class438) this).anInt5529 * -112073191, ((Class438) this).aClass391_5524.anIntArray4174, (byte) 103);
+			if (null != ((Class438) this).aSeqType_5524) {
+				boolean bool = (((Class438) this).aClass441_5534.method5863(Class298_Sub2.aSeqTypeList_7165, ((Class438) this).aSeqType_5524, ((Class438) this).anInt5523 * -8792169, -112073191 * ((Class438) this).anInt5529, ((Class438) this).aSeqType_5524.frames, (byte) 103));
+				if (bool && ((Class438) this).aBoolean5531 && ((Class438) this).aSeqType_5524.iframes != null)
+					((Class438) this).aClass441_5535.method5863(Class298_Sub2.aSeqTypeList_7165, ((Class438) this).aSeqType_5524, ((Class438) this).anInt5523 * -8792169, ((Class438) this).anInt5529 * -112073191, ((Class438) this).aSeqType_5524.iframes, (byte) 103);
 				return bool;
 			}
 			return false;
@@ -307,11 +307,11 @@ public class Class438 {
 
 	public final void method5839(Class387 class387, int i, int i_21_) {
 		try {
-			if (((Class438) this).aClass391_5524 != null) {
-				if (null != ((Class438) this).aClass391_5524.anIntArray4172 && method5838((short) 225)) {
-					class387.method4735((((Class441) ((Class438) this).aClass441_5534).aClass298_Sub37_Sub4_5583), (((Class441) ((Class438) this).aClass441_5534).anInt5584) * 806878007, (((Class441) ((Class438) this).aClass441_5534).aClass298_Sub37_Sub4_5587), (((Class441) ((Class438) this).aClass441_5534).anInt5586) * -643912397, ((Class438) this).anInt5525 * 458730501, (((Class438) this).aClass391_5524.anIntArray4169[-8792169 * ((Class438) this).anInt5523]), i, ((Class438) this).aClass391_5524.aBoolean4185);
-					if (((Class438) this).aBoolean5531 && (null != ((Class438) this).aClass391_5524.anIntArray4174) && (((Class441) ((Class438) this).aClass441_5535).aBoolean5585))
-						class387.method4735((((Class441) ((Class438) this).aClass441_5535).aClass298_Sub37_Sub4_5583), (((Class441) ((Class438) this).aClass441_5535).anInt5584) * 806878007, (((Class441) ((Class438) this).aClass441_5535).aClass298_Sub37_Sub4_5587), (-643912397 * (((Class441) ((Class438) this).aClass441_5535).anInt5586)), ((Class438) this).anInt5525 * 458730501, (((Class438) this).aClass391_5524.anIntArray4169[-8792169 * ((Class438) this).anInt5523]), i, ((Class438) this).aClass391_5524.aBoolean4185);
+			if (((Class438) this).aSeqType_5524 != null) {
+				if (null != ((Class438) this).aSeqType_5524.frames && method5838((short) 225)) {
+					class387.method4735((((Class441) ((Class438) this).aClass441_5534).aAnimFrameset_5583), (((Class441) ((Class438) this).aClass441_5534).anInt5584) * 806878007, (((Class441) ((Class438) this).aClass441_5534).aAnimFrameset_5587), (((Class441) ((Class438) this).aClass441_5534).anInt5586) * -643912397, ((Class438) this).anInt5525 * 458730501, (((Class438) this).aSeqType_5524.delays[-8792169 * ((Class438) this).anInt5523]), i, ((Class438) this).aSeqType_5524.aBoolean4185);
+					if (((Class438) this).aBoolean5531 && (null != ((Class438) this).aSeqType_5524.iframes) && (((Class441) ((Class438) this).aClass441_5535).aBoolean5585))
+						class387.method4735((((Class441) ((Class438) this).aClass441_5535).aAnimFrameset_5583), (((Class441) ((Class438) this).aClass441_5535).anInt5584) * 806878007, (((Class441) ((Class438) this).aClass441_5535).aAnimFrameset_5587), (-643912397 * (((Class441) ((Class438) this).aClass441_5535).anInt5586)), ((Class438) this).anInt5525 * 458730501, (((Class438) this).aSeqType_5524.delays[-8792169 * ((Class438) this).anInt5523]), i, ((Class438) this).aSeqType_5524.aBoolean4185);
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
@@ -321,7 +321,7 @@ public class Class438 {
 
 	public final void method5840(Class438 class438_22_, int i) {
 		try {
-			((Class438) this).aClass391_5524 = ((Class438) class438_22_).aClass391_5524;
+			((Class438) this).aSeqType_5524 = ((Class438) class438_22_).aSeqType_5524;
 			((Class438) this).aBoolean5530 = ((Class438) class438_22_).aBoolean5530;
 			((Class438) this).aBoolean5531 = ((Class438) class438_22_).aBoolean5531;
 			((Class438) this).anInt5526 = 1 * ((Class438) class438_22_).anInt5526;

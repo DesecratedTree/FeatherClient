@@ -350,7 +350,7 @@ public class Player extends Entity {
 			boolean bool = (0 != aByte10130 && 443738891 * client.anInt8884 >= anInt10105 * 1920148979 && 443738891 * client.anInt8884 < 1953154657 * anInt10106);
 			if (bool)
 				i |= 0x80000;
-			Class387 class387 = (aClass387Array10082[0] = (aClass366_10209.method4545(class_ra, i, Class94.aClass349_913, Class212.aClass144_2433, Class15.aClass507_224, Class298_Sub32_Sub14.aClass477_9400, Class501.aClass395_6122, Class128.aClass148_6331, class438, class438_47_, aClass438_Sub2_Sub1Array10112, anIntArray10085, i_50_, true, Class82_Sub18.aClass405_6892, 1284357526)));
+			Class387 class387 = (aClass387Array10082[0] = (aClass366_10209.method4545(class_ra, i, Class94.aClass349_913, Class212.aClass144_2433, Class15.aClass507_224, Class298_Sub32_Sub14.aClass477_9400, Class501.aSeqTypeList_6122, Class128.aClass148_6331, class438, class438_47_, aClass438_Sub2_Sub1Array10112, anIntArray10085, i_50_, true, Class82_Sub18.aClass405_6892, 1284357526)));
 			int i_51_ = Class297.method2836((byte) 1);
 			if (Class291.maximumMemory * 1126040225 < 96 && i_51_ > 50)
 				Class234.method2183(-824617958);
@@ -421,7 +421,7 @@ public class Player extends Entity {
 			for (int i_56_ = 0; i_56_ < currentGraphics.length; i_56_++) {
 				if (-1 != currentGraphics[i_56_].id * -967533709) {
 					Class398 class398 = (Class158_Sub1.aClass389_8568.method4857(-967533709 * currentGraphics[i_56_].id, -1891757366));
-					if (class398.aBoolean5215 && 1505778629 * class398.anInt5205 != -1 && (Class501.aClass395_6122.method4903(class398.anInt5205 * 1505778629, (byte) 83).anInt4189) * -882531177 == 1) {
+					if (class398.aBoolean5215 && 1505778629 * class398.anInt5205 != -1 && (Class501.aSeqTypeList_6122.method4903(class398.anInt5205 * 1505778629, (byte) 83).anInt4189) * -882531177 == 1) {
 						currentGraphics[i_56_].aClass438_569.method5821(-1, -1843943010);
 						currentGraphics[i_56_].id = -1313669563;
 					}

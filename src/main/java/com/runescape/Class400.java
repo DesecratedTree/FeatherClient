@@ -46,9 +46,9 @@ public class Class400 {
 	public static final void method4929(Class387 class387, Class438 class438, Class438 class438_2_, int i) {
 		try {
 			if (class438.method5838((short) 225) && class438_2_.method5838((short) 225)) {
-				Class391 class391 = ((Class438) class438).aClass391_5524;
-				Class391 class391_3_ = ((Class438) class438_2_).aClass391_5524;
-				class387.method4736((((Class441) ((Class438) class438).aClass441_5534).aClass298_Sub37_Sub4_5583), (((Class441) ((Class438) class438).aClass441_5534).anInt5584) * 806878007, (((Class441) ((Class438) class438).aClass441_5534).aClass298_Sub37_Sub4_5587), -643912397 * ((Class441) (((Class438) class438).aClass441_5534)).anInt5586, ((Class438) class438).anInt5525 * 458730501, (class391.anIntArray4169[-8792169 * ((Class438) class438).anInt5523]), (((Class441) ((Class438) class438_2_).aClass441_5534).aClass298_Sub37_Sub4_5583), 806878007 * ((Class441) (((Class438) class438_2_).aClass441_5534)).anInt5584, (((Class441) ((Class438) class438_2_).aClass441_5534).aClass298_Sub37_Sub4_5587), -643912397 * ((Class441) (((Class438) class438_2_).aClass441_5534)).anInt5586, 458730501 * ((Class438) class438_2_).anInt5525, (class391_3_.anIntArray4169[((Class438) class438_2_).anInt5523 * -8792169]), class391.aBooleanArray4177, class391.aBoolean4185 | class391_3_.aBoolean4185);
+				SeqType seqType = ((Class438) class438).aSeqType_5524;
+				SeqType seqType_3_ = ((Class438) class438_2_).aSeqType_5524;
+				class387.method4736((((Class441) ((Class438) class438).aClass441_5534).aAnimFrameset_5583), (((Class441) ((Class438) class438).aClass441_5534).anInt5584) * 806878007, (((Class441) ((Class438) class438).aClass441_5534).aAnimFrameset_5587), -643912397 * ((Class441) (((Class438) class438).aClass441_5534)).anInt5586, ((Class438) class438).anInt5525 * 458730501, (seqType.delays[-8792169 * ((Class438) class438).anInt5523]), (((Class441) ((Class438) class438_2_).aClass441_5534).aAnimFrameset_5583), 806878007 * ((Class441) (((Class438) class438_2_).aClass441_5534)).anInt5584, (((Class441) ((Class438) class438_2_).aClass441_5534).aAnimFrameset_5587), -643912397 * ((Class441) (((Class438) class438_2_).aClass441_5534)).anInt5586, 458730501 * ((Class438) class438_2_).anInt5525, (seqType_3_.delays[((Class438) class438_2_).anInt5523 * -8792169]), seqType.interleaveOrder, seqType.aBoolean4185 | seqType_3_.aBoolean4185);
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("qp.g(").append(')').toString());

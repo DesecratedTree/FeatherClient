@@ -19,8 +19,8 @@ public abstract class Class82_Sub19 extends Class82 {
 		try {
 			Class398 class398 = Class158_Sub1.aClass389_8568.method4857((720810617 * ((Class82_Sub19) this).anInt6895), -2111155708);
 			boolean bool = class398.method4919((byte) 51);
-			Class391 class391 = Class501.aClass395_6122.method4903(1505778629 * class398.anInt5205, (byte) 13);
-			bool &= class391.method4880(1053460676);
+			SeqType seqType = Class501.aSeqTypeList_6122.method4903(1505778629 * class398.anInt5205, (byte) 13);
+			bool &= seqType.method4880(1053460676);
 			return bool;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ym.p(").append(')').toString());
@@ -30,8 +30,8 @@ public abstract class Class82_Sub19 extends Class82 {
 	boolean method924() {
 		Class398 class398 = (Class158_Sub1.aClass389_8568.method4857(720810617 * ((Class82_Sub19) this).anInt6895, -1729093071));
 		boolean bool = class398.method4919((byte) 82);
-		Class391 class391 = Class501.aClass395_6122.method4903(1505778629 * class398.anInt5205, (byte) -7);
-		bool &= class391.method4880(2049469908);
+		SeqType seqType = Class501.aSeqTypeList_6122.method4903(1505778629 * class398.anInt5205, (byte) -7);
+		bool &= seqType.method4880(2049469908);
 		return bool;
 	}
 

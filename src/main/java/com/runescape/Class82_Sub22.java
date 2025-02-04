@@ -24,8 +24,8 @@ public class Class82_Sub22 extends Class82 {
 	boolean method939() {
 		Class398 class398 = (Class158_Sub1.aClass389_8568.method4857(1632084697 * ((Class82_Sub22) this).anInt6908, -1743709088));
 		boolean bool = class398.method4919((byte) 119);
-		Class391 class391 = Class501.aClass395_6122.method4903(class398.anInt5205 * 1505778629, (byte) -66);
-		bool &= class391.method4880(1883883362);
+		SeqType seqType = Class501.aSeqTypeList_6122.method4903(class398.anInt5205 * 1505778629, (byte) -66);
+		bool &= seqType.method4880(1883883362);
 		return bool;
 	}
 
@@ -67,8 +67,8 @@ public class Class82_Sub22 extends Class82 {
 		try {
 			Class398 class398 = Class158_Sub1.aClass389_8568.method4857((1632084697 * ((Class82_Sub22) this).anInt6908), -1845152840);
 			boolean bool = class398.method4919((byte) 118);
-			Class391 class391 = Class501.aClass395_6122.method4903(class398.anInt5205 * 1505778629, (byte) -64);
-			bool &= class391.method4880(1376129821);
+			SeqType seqType = Class501.aSeqTypeList_6122.method4903(class398.anInt5205 * 1505778629, (byte) -64);
+			bool &= seqType.method4880(1376129821);
 			return bool;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("yu.p(").append(')').toString());

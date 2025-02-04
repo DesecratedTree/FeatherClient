@@ -163,7 +163,7 @@ public class Class461 implements Iterable {
 					}
 					if ((((Class298_Sub41) class298_sub41).aClass298_Sub19_Sub2_7447) == null) {
 						if ((391847895 * ((Class298_Sub41) class298_sub41).anInt7443) >= 0) {
-							i_12_ = (((-455518897 * ((Class298_Sub41) class298_sub41).anInt7452 == 256) && (((Class298_Sub41) class298_sub41).anInt7441) * 1495381837 == 256) ? 256 : Class391.method4888((1495381837 * (((Class298_Sub41) class298_sub41).anInt7441)), ((((Class298_Sub41) class298_sub41).anInt7452) * -455518897), -1122963701));
+							i_12_ = (((-455518897 * ((Class298_Sub41) class298_sub41).anInt7452 == 256) && (((Class298_Sub41) class298_sub41).anInt7441) * 1495381837 == 256) ? 256 : SeqType.method4888((1495381837 * (((Class298_Sub41) class298_sub41).anInt7441)), ((((Class298_Sub41) class298_sub41).anInt7452) * -455518897), -1122963701));
 							if (((Class298_Sub41) class298_sub41).aBoolean7444) {
 								if (null == (((Class298_Sub41) class298_sub41).aClass298_Sub23_7445))
 									((Class298_Sub41) class298_sub41).aClass298_Sub23_7445 = (Class298_Sub23.method3066(Class439.aClass243_5575, (((Class298_Sub41) class298_sub41).anInt7443) * 391847895));

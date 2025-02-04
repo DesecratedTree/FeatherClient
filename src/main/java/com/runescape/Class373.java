@@ -172,7 +172,7 @@ public class Class373 {
 			client.aClass283_8716.method2641(134727545).method5795(1599239758);
 			Class15.aClass507_224.method6274(343664164);
 			Class298_Sub32_Sub14.aClass477_9400.method6093(75457779);
-			Class501.aClass395_6122.method4902(-927634718);
+			Class501.aSeqTypeList_6122.method4902(-927634718);
 			Class158_Sub1.aClass389_8568.method4856(1855785885);
 			Class472.configLoader.method3824(2005498704);
 			Class440.aClass205_5582.method1917((byte) 80);

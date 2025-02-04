@@ -416,8 +416,8 @@ public abstract class Class308 {
 	public static void method3784(byte i) {
 		try {
 			if (Class474.aBoolean5970) {
-				if (Class474.anInt5971 * -64101949 < -1648308965 * Class395.anInt5190)
-					Class474.anInt5971 = Class395.anInt5190 * 1429182921;
+				if (Class474.anInt5971 * -64101949 < -1648308965 * SeqTypeList.anInt5190)
+					Class474.anInt5971 = SeqTypeList.anInt5190 * 1429182921;
 				while (Class474.anInt5971 * -64101949 < -499146007 * Class338.anInt3630) {
 					Class343_Sub1 class343_sub1 = Class226.method2105(Class474.anInt5971 * -64101949, (byte) -50);
 					if (class343_sub1 == null || -1 != class343_sub1.anInt7720 * 512449113)

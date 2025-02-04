@@ -1,8 +1,8 @@
 package com.runescape;
 
 public interface OSRSData {
-        int SEQUENCES_OFFSET = 30000;
-        int FRAMES_OFFSET = 8000;
+        int SEQUENCES_OFFSET = 30000; //done
+        int FRAMES_OFFSET = 8000; //done
         int BASES_OFFSET = 8000;
         int MODELS_OFFSET = 200000;
         int NPCS_OFFSET = 31000;

@@ -842,7 +842,7 @@ public class Class240_Sub1 extends Class240 {
 				int i_177_ = (i_170_ << 8) + (i_163_ << 9);
 				boolean bool = aBoolean2632 && !aBoolean2629 && class432.aBoolean5385;
 				if (class432.method5784(-1167401239))
-					Class391.method4884(i_161_, i_162_, i_163_, i_165_, class432, null, null, (byte) 37);
+					SeqType.method4884(i_161_, i_162_, i_163_, i_165_, class432, null, null, (byte) 37);
 				boolean bool_178_ = (-1 == i_167_ && !class432.method5779(934270378) && class432.anIntArray5366 == null && !class432.aBoolean5381 && !class432.aBoolean5389);
 				if (!aBoolean7084 || ((!Class82_Sub9.method900(i_166_, (byte) 13) || class432.anInt5376 * -1508517619 == 1) && (!CacheIndexIndicator.method1236(i_166_, 1378507148) || 0 != -1508517619 * class432.anInt5376))) {
 					if (i_166_ == -1976050083 * Class424.aClass424_6610.anInt6613) {

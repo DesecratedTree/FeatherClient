@@ -218,21 +218,21 @@ public abstract class Class387 {
 
 	abstract void method4734();
 
-	public final void method4735(Class298_Sub37_Sub4 class298_sub37_sub4, int i, Class298_Sub37_Sub4 class298_sub37_sub4_70_, int i_71_, int i_72_, int i_73_, int i_74_, boolean bool) {
+	public final void method4735(AnimFrameset animFrameset, int i, AnimFrameset animFrameset_70_, int i_71_, int i_72_, int i_73_, int i_74_, boolean bool) {
 		if (i != -1) {
 			method4733();
 			if (!ea())
 				method4734();
 			else {
-				Class96 class96 = (((Class298_Sub37_Sub4) class298_sub37_sub4).aClass96Array9579[i]);
-				Class298_Sub15 class298_sub15 = ((Class96) class96).aClass298_Sub15_931;
+				Class96 class96 = (((AnimFrameset) animFrameset).aClass96Array9579[i]);
+				AnimBase animBase = ((Class96) class96).aAnimBase_931;
 				Class96 class96_75_ = null;
-				if (class298_sub37_sub4_70_ != null) {
-					class96_75_ = (((Class298_Sub37_Sub4) class298_sub37_sub4_70_).aClass96Array9579[i_71_]);
-					if (((Class96) class96_75_).aClass298_Sub15_931 != class298_sub15)
+				if (animFrameset_70_ != null) {
+					class96_75_ = (((AnimFrameset) animFrameset_70_).aClass96Array9579[i_71_]);
+					if (((Class96) class96_75_).aAnimBase_931 != animBase)
 						class96_75_ = null;
 				}
-				method4767(class298_sub15, class96, class96_75_, i_72_, i_73_, i_74_, null, false, bool, 65535, null);
+				method4767(animBase, class96, class96_75_, i_72_, i_73_, i_74_, null, false, bool, 65535, null);
 				ka();
 				method4734();
 			}
@@ -241,33 +241,33 @@ public abstract class Class387 {
 
 	public abstract void pa(int i, int i_76_, Class_xa class_xa, Class_xa class_xa_77_, int i_78_, int i_79_, int i_80_);
 
-	public final void method4736(Class298_Sub37_Sub4 class298_sub37_sub4, int i, Class298_Sub37_Sub4 class298_sub37_sub4_81_, int i_82_, int i_83_, int i_84_, Class298_Sub37_Sub4 class298_sub37_sub4_85_, int i_86_, Class298_Sub37_Sub4 class298_sub37_sub4_87_, int i_88_, int i_89_, int i_90_, boolean[] bools, boolean bool) {
+	public final void method4736(AnimFrameset animFrameset, int i, AnimFrameset animFrameset_81_, int i_82_, int i_83_, int i_84_, AnimFrameset animFrameset_85_, int i_86_, AnimFrameset animFrameset_87_, int i_88_, int i_89_, int i_90_, boolean[] bools, boolean bool) {
 		if (i != -1) {
 			if (bools == null || i_86_ == -1)
-				method4735(class298_sub37_sub4, i, class298_sub37_sub4_81_, i_82_, i_83_, i_84_, 0, bool);
+				method4735(animFrameset, i, animFrameset_81_, i_82_, i_83_, i_84_, 0, bool);
 			else {
 				method4733();
 				if (!ea())
 					method4734();
 				else {
-					Class96 class96 = (((Class298_Sub37_Sub4) class298_sub37_sub4).aClass96Array9579[i]);
-					Class298_Sub15 class298_sub15 = ((Class96) class96).aClass298_Sub15_931;
+					Class96 class96 = (((AnimFrameset) animFrameset).aClass96Array9579[i]);
+					AnimBase animBase = ((Class96) class96).aAnimBase_931;
 					Class96 class96_91_ = null;
-					if (class298_sub37_sub4_81_ != null) {
-						class96_91_ = (((Class298_Sub37_Sub4) class298_sub37_sub4_81_).aClass96Array9579[i_82_]);
-						if (((Class96) class96_91_).aClass298_Sub15_931 != class298_sub15)
+					if (animFrameset_81_ != null) {
+						class96_91_ = (((AnimFrameset) animFrameset_81_).aClass96Array9579[i_82_]);
+						if (((Class96) class96_91_).aAnimBase_931 != animBase)
 							class96_91_ = null;
 					}
-					method4767(class298_sub15, class96, class96_91_, i_83_, i_84_, 0, bools, false, bool, 65535, null);
-					Class96 class96_92_ = (((Class298_Sub37_Sub4) class298_sub37_sub4_85_).aClass96Array9579[i_86_]);
+					method4767(animBase, class96, class96_91_, i_83_, i_84_, 0, bools, false, bool, 65535, null);
+					Class96 class96_92_ = (((AnimFrameset) animFrameset_85_).aClass96Array9579[i_86_]);
 					Class96 class96_93_ = null;
-					if (class298_sub37_sub4_87_ != null) {
-						class96_93_ = (((Class298_Sub37_Sub4) class298_sub37_sub4_87_).aClass96Array9579[i_88_]);
-						if (((Class96) class96_93_).aClass298_Sub15_931 != class298_sub15)
+					if (animFrameset_87_ != null) {
+						class96_93_ = (((AnimFrameset) animFrameset_87_).aClass96Array9579[i_88_]);
+						if (((Class96) class96_93_).aAnimBase_931 != animBase)
 							class96_93_ = null;
 					}
 					method4738(0, new int[0], 0, 0, 0, 0, bool);
-					method4767(((Class96) class96_92_).aClass298_Sub15_931, class96_92_, class96_93_, i_89_, i_90_, 0, bools, true, bool, 65535, null);
+					method4767(((Class96) class96_92_).aAnimBase_931, class96_92_, class96_93_, i_89_, i_90_, 0, bools, true, bool, 65535, null);
 					ka();
 					method4734();
 				}
@@ -275,20 +275,20 @@ public abstract class Class387 {
 		}
 	}
 
-	public final void method4737(Class298_Sub37_Sub4 class298_sub37_sub4, int i) {
+	public final void method4737(AnimFrameset animFrameset, int i) {
 		if (i != -1) {
 			method4733();
 			if (!ea())
 				method4734();
 			else {
-				Class96 class96 = (((Class298_Sub37_Sub4) class298_sub37_sub4).aClass96Array9579[i]);
-				Class298_Sub15 class298_sub15 = ((Class96) class96).aClass298_Sub15_931;
+				Class96 class96 = (((AnimFrameset) animFrameset).aClass96Array9579[i]);
+				AnimBase animBase = ((Class96) class96).aAnimBase_931;
 				for (int i_94_ = 0; i_94_ < ((Class96) class96).anInt925; i_94_++) {
 					short i_95_ = ((Class96) class96).aShortArray933[i_94_];
-					if (((Class298_Sub15) class298_sub15).aBooleanArray7275[i_95_]) {
+					if (((AnimBase) animBase).aBooleanArray7275[i_95_]) {
 						if (((Class96) class96).aShortArray937[i_94_] != -1)
 							w(0, 0, 0, 0);
-						w((((Class298_Sub15) class298_sub15).anIntArray7278[i_95_]), ((Class96) class96).aShortArray934[i_94_], ((Class96) class96).aShortArray930[i_94_], ((Class96) class96).aShortArray936[i_94_]);
+						w((((AnimBase) animBase).anIntArray7278[i_95_]), ((Class96) class96).aShortArray934[i_94_], ((Class96) class96).aShortArray930[i_94_], ((Class96) class96).aShortArray936[i_94_]);
 					}
 				}
 				ka();
@@ -510,21 +510,21 @@ public abstract class Class387 {
 
 	public abstract int ds();
 
-	public final void method4765(Class298_Sub37_Sub4 class298_sub37_sub4, int i, Class298_Sub37_Sub4 class298_sub37_sub4_191_, int i_192_, int i_193_, int i_194_, int i_195_, int i_196_, boolean bool, int[] is) {
+	public final void method4765(AnimFrameset animFrameset, int i, AnimFrameset animFrameset_191_, int i_192_, int i_193_, int i_194_, int i_195_, int i_196_, boolean bool, int[] is) {
 		if (i != -1) {
 			method4733();
 			if (!ea())
 				method4734();
 			else {
-				Class96 class96 = (((Class298_Sub37_Sub4) class298_sub37_sub4).aClass96Array9579[i]);
-				Class298_Sub15 class298_sub15 = ((Class96) class96).aClass298_Sub15_931;
+				Class96 class96 = (((AnimFrameset) animFrameset).aClass96Array9579[i]);
+				AnimBase animBase = ((Class96) class96).aAnimBase_931;
 				Class96 class96_197_ = null;
-				if (class298_sub37_sub4_191_ != null) {
-					class96_197_ = (((Class298_Sub37_Sub4) class298_sub37_sub4_191_).aClass96Array9579[i_192_]);
-					if (((Class96) class96_197_).aClass298_Sub15_931 != class298_sub15)
+				if (animFrameset_191_ != null) {
+					class96_197_ = (((AnimFrameset) animFrameset_191_).aClass96Array9579[i_192_]);
+					if (((Class96) class96_197_).aAnimBase_931 != animBase)
 						class96_197_ = null;
 				}
-				method4767(class298_sub15, class96, class96_197_, i_193_, i_194_, i_195_, null, false, bool, i_196_, is);
+				method4767(animBase, class96, class96_197_, i_193_, i_194_, i_195_, null, false, bool, i_196_, is);
 				ka();
 				method4734();
 			}
@@ -575,21 +575,21 @@ public abstract class Class387 {
 			method4738(i, is, i_198_, i_199_, i_200_, i_201_, bool);
 	}
 
-	void method4767(Class298_Sub15 class298_sub15, Class96 class96, Class96 class96_210_, int i, int i_211_, int i_212_, boolean[] bools, boolean bool, boolean bool_213_, int i_214_, int[] is) {
+	void method4767(AnimBase animBase, Class96 class96, Class96 class96_210_, int i, int i_211_, int i_212_, boolean[] bools, boolean bool, boolean bool_213_, int i_214_, int[] is) {
 		if (class96_210_ == null || i == 0) {
 			for (int i_215_ = 0; i_215_ < ((Class96) class96).anInt925; i_215_++) {
 				short i_216_ = ((Class96) class96).aShortArray933[i_215_];
-				if (bools == null || bools[i_216_] == bool || (((Class298_Sub15) class298_sub15).anIntArray7278[i_216_]) == 0) {
+				if (bools == null || bools[i_216_] == bool || (((AnimBase) animBase).anIntArray7278[i_216_]) == 0) {
 					short i_217_ = ((Class96) class96).aShortArray937[i_215_];
 					if (i_217_ != -1)
-						method4766(0, (((Class298_Sub15) class298_sub15).anIntArrayArray7279[i_217_]), 0, 0, 0, i_212_, bool_213_, i_214_ & (((Class298_Sub15) class298_sub15).anIntArray7280[i_217_]), is);
-					method4766((((Class298_Sub15) class298_sub15).anIntArray7278[i_216_]), (((Class298_Sub15) class298_sub15).anIntArrayArray7279[i_216_]), ((Class96) class96).aShortArray934[i_215_], ((Class96) class96).aShortArray930[i_215_], ((Class96) class96).aShortArray936[i_215_], i_212_, bool_213_, i_214_ & (((Class298_Sub15) class298_sub15).anIntArray7280[i_216_]), is);
+						method4766(0, (((AnimBase) animBase).anIntArrayArray7279[i_217_]), 0, 0, 0, i_212_, bool_213_, i_214_ & (((AnimBase) animBase).anIntArray7280[i_217_]), is);
+					method4766((((AnimBase) animBase).anIntArray7278[i_216_]), (((AnimBase) animBase).anIntArrayArray7279[i_216_]), ((Class96) class96).aShortArray934[i_215_], ((Class96) class96).aShortArray930[i_215_], ((Class96) class96).aShortArray936[i_215_], i_212_, bool_213_, i_214_ & (((AnimBase) animBase).anIntArray7280[i_216_]), is);
 				}
 			}
 		} else {
 			int i_218_ = 0;
 			int i_219_ = 0;
-			for (int i_220_ = 0; (i_220_ < ((Class298_Sub15) class298_sub15).anInt7268 * 92429039); i_220_++) {
+			for (int i_220_ = 0; (i_220_ < ((AnimBase) animBase).anInt7268 * 92429039); i_220_++) {
 				boolean bool_221_ = false;
 				if (i_218_ < ((Class96) class96).anInt925 && ((Class96) class96).aShortArray933[i_218_] == i_220_)
 					bool_221_ = true;
@@ -597,14 +597,14 @@ public abstract class Class387 {
 				if (i_219_ < ((Class96) class96_210_).anInt925 && (((Class96) class96_210_).aShortArray933[i_219_] == i_220_))
 					bool_222_ = true;
 				if (bool_221_ || bool_222_) {
-					if (bools != null && bools[i_220_] != bool && (((Class298_Sub15) class298_sub15).anIntArray7278[i_220_]) != 0) {
+					if (bools != null && bools[i_220_] != bool && (((AnimBase) animBase).anIntArray7278[i_220_]) != 0) {
 						if (bool_221_)
 							i_218_++;
 						if (bool_222_)
 							i_219_++;
 					} else {
 						int i_223_ = 0;
-						int i_224_ = (((Class298_Sub15) class298_sub15).anIntArray7278[i_220_]);
+						int i_224_ = (((AnimBase) animBase).anIntArray7278[i_220_]);
 						if (i_224_ == 3 || i_224_ == 10)
 							i_223_ = 128;
 						int i_225_;
@@ -685,10 +685,10 @@ public abstract class Class387 {
 							i_237_ = i_227_ + (i_232_ - i_227_) * i / i_211_;
 						}
 						if (i_228_ != -1)
-							method4766(0, (((Class298_Sub15) class298_sub15).anIntArrayArray7279[i_228_]), 0, 0, 0, i_212_, bool_213_, (i_214_ & (((Class298_Sub15) class298_sub15).anIntArray7280[i_228_])), is);
+							method4766(0, (((AnimBase) animBase).anIntArrayArray7279[i_228_]), 0, 0, 0, i_212_, bool_213_, (i_214_ & (((AnimBase) animBase).anIntArray7280[i_228_])), is);
 						else if (i_233_ != -1)
-							method4766(0, (((Class298_Sub15) class298_sub15).anIntArrayArray7279[i_233_]), 0, 0, 0, i_212_, bool_213_, (i_214_ & (((Class298_Sub15) class298_sub15).anIntArray7280[i_233_])), is);
-						method4766(i_224_, (((Class298_Sub15) class298_sub15).anIntArrayArray7279[i_220_]), i_235_, i_236_, i_237_, i_212_, bool_213_, i_214_ & (((Class298_Sub15) class298_sub15).anIntArray7280[i_220_]), is);
+							method4766(0, (((AnimBase) animBase).anIntArrayArray7279[i_233_]), 0, 0, 0, i_212_, bool_213_, (i_214_ & (((AnimBase) animBase).anIntArray7280[i_233_])), is);
+						method4766(i_224_, (((AnimBase) animBase).anIntArrayArray7279[i_220_]), i_235_, i_236_, i_237_, i_212_, bool_213_, i_214_ & (((AnimBase) animBase).anIntArray7280[i_220_]), is);
 					}
 				}
 			}

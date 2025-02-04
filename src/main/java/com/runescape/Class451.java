@@ -74,9 +74,9 @@ public class Class451 {
 			int i_3_ = (((ClientScript2) class403).anIntArray5244[((ClientScript2) class403).anInt5239 * 681479919 + 1]);
 			Class497 class497 = Class92.aClass504_905.method6251(i_3_, 1053350248);
 			if (class497.method6206(1883696427))
-				((ClientScript2) class403).anObjectArray5240[((((ClientScript2) class403).anInt5241 += 969361751) * -203050393) - 1] = Class501.aClass395_6122.method4903(i_2_, (byte) -26).method4877(i_3_, class497.aString6101, -130818690);
+				((ClientScript2) class403).anObjectArray5240[((((ClientScript2) class403).anInt5241 += 969361751) * -203050393) - 1] = Class501.aSeqTypeList_6122.method4903(i_2_, (byte) -26).method4877(i_3_, class497.aString6101, -130818690);
 			else
-				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = (Class501.aClass395_6122.method4903(i_2_, (byte) 51).method4881(i_3_, -388931549 * class497.anInt6100, 240769181));
+				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = (Class501.aSeqTypeList_6122.method4903(i_2_, (byte) 51).method4881(i_3_, -388931549 * class497.anInt6100, 240769181));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("sp.abq(").append(')').toString());
 		}
@@ -86,7 +86,7 @@ public class Class451 {
 		try {
 			Class298_Sub41 class298_sub41 = ((Class298_Sub41) (Class298_Sub41.aClass437_7440.method5812((long) (1888274983 * class365_sub1_sub1_sub2_sub2.anInt10064))));
 			if (null == class298_sub41)
-				Class391.method4884(class365_sub1_sub1_sub2_sub2.plane, (class365_sub1_sub1_sub2_sub2.scenePositionXQueue[0]), (class365_sub1_sub1_sub2_sub2.scenePositionYQueue[0]), 0, null, null, class365_sub1_sub1_sub2_sub2, (byte) 58);
+				SeqType.method4884(class365_sub1_sub1_sub2_sub2.plane, (class365_sub1_sub1_sub2_sub2.scenePositionXQueue[0]), (class365_sub1_sub1_sub2_sub2.scenePositionYQueue[0]), 0, null, null, class365_sub1_sub1_sub2_sub2, (byte) 58);
 			else
 				class298_sub41.method3519(-1931224140);
 		} catch (RuntimeException runtimeexception) {

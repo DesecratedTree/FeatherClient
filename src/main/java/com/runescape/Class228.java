@@ -82,21 +82,21 @@ public class Class228 {
 		}
 	}
 
-	public static void method2119(Class391 class391, int i, int i_2_) {
+	public static void method2119(SeqType seqType, int i, int i_2_) {
 		try {
-			if (Class300.anInt3213 * -991384187 < 50 && (null != class391 && class391.anIntArrayArray4187 != null && i < class391.anIntArrayArray4187.length && null != class391.anIntArrayArray4187[i])) {
-				int i_3_ = class391.anIntArrayArray4187[i][0];
+			if (Class300.anInt3213 * -991384187 < 50 && (null != seqType && seqType.sounds != null && i < seqType.sounds.length && null != seqType.sounds[i])) {
+				int i_3_ = seqType.sounds[i][0];
 				int i_4_ = i_3_ >> 8;
 				int i_5_ = i_3_ >> 5 & 0x7;
-				if (class391.anIntArrayArray4187[i].length > 1) {
-					int i_6_ = (int) (Math.random() * (double) (class391.anIntArrayArray4187[i]).length);
+				if (seqType.sounds[i].length > 1) {
+					int i_6_ = (int) (Math.random() * (double) (seqType.sounds[i]).length);
 					if (i_6_ > 0)
-						i_4_ = class391.anIntArrayArray4187[i][i_6_];
+						i_4_ = seqType.sounds[i][i_6_];
 				}
 				int i_7_ = 256;
-				if (null != class391.anIntArray4183 && class391.anIntArray4190 != null)
-					i_7_ = Class391.method4888(class391.anIntArray4183[i], class391.anIntArray4190[i], 1444813491);
-				if (class391.aBoolean4173)
+				if (null != seqType.anIntArray4183 && seqType.anIntArray4190 != null)
+					i_7_ = SeqType.method4888(seqType.anIntArray4183[i], seqType.anIntArray4190[i], 1444813491);
+				if (seqType.aBoolean4173)
 					Class320.method3913(i_4_, i_5_, 0, 255, false, i_7_, 1704835145);
 				else
 					Class239.method2210(i_4_, i_5_, 0, 255, i_7_, 1695425572);

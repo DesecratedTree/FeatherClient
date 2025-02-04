@@ -91,8 +91,8 @@ public class Class298_Sub37_Sub7 extends Class298_Sub37 {
 					} else if (-1 == i_12_)
 						class365_sub1_sub1_sub2.aClass438_Sub2_Sub1Array10112[i_15_] = null;
 					else {
-						Class391 class391 = Class501.aClass395_6122.method4903(i_12_, (byte) -80);
-						int i_16_ = class391.anInt4184 * -1117238071;
+						SeqType seqType = Class501.aSeqTypeList_6122.method4903(i_12_, (byte) -80);
+						int i_16_ = seqType.anInt4184 * -1117238071;
 						Class438_Sub2_Sub1 class438_sub2_sub1 = (class365_sub1_sub1_sub2.aClass438_Sub2_Sub1Array10112[i_15_]);
 						if (null != class438_sub2_sub1 && class438_sub2_sub1.method5819((byte) -110)) {
 							if (i_12_ == class438_sub2_sub1.method5823(1502559146)) {
@@ -104,7 +104,7 @@ public class Class298_Sub37_Sub7 extends Class298_Sub37 {
 									class438_sub2_sub1.anInt9874 = -731066289 * i_14_;
 								} else if (2 == i_16_)
 									class438_sub2_sub1.method5842(1476401100);
-							} else if (-1445588039 * class391.anInt4178 >= ((class438_sub2_sub1.method5820(595695662).anInt4178) * -1445588039)) {
+							} else if (-1445588039 * seqType.anInt4178 >= ((class438_sub2_sub1.method5820(595695662).anInt4178) * -1445588039)) {
 								class365_sub1_sub1_sub2.aClass438_Sub2_Sub1Array10112[i_15_] = null;
 								class438_sub2_sub1 = null;
 							}

@@ -90,7 +90,7 @@ public class Class508 {
 					class365_sub1_sub1_sub2_sub1.method4415(i_5_, true, -2079607043);
 				class365_sub1_sub1_sub2_sub1.method4456(i_8_, i_7_ + (Class287.myPlayer.scenePositionXQueue[0]), i_6_ + (Class287.myPlayer.scenePositionYQueue[0]), 1 == i_10_, class365_sub1_sub1_sub2_sub1.getSize(), (byte) 58);
 				if (class365_sub1_sub1_sub2_sub1.aClass503_10190.method6242((byte) -9))
-					Class391.method4884(class365_sub1_sub1_sub2_sub1.plane, (class365_sub1_sub1_sub2_sub1.scenePositionXQueue[0]), (class365_sub1_sub1_sub2_sub1.scenePositionYQueue[0]), 0, null, class365_sub1_sub1_sub2_sub1, null, (byte) -66);
+					SeqType.method4884(class365_sub1_sub1_sub2_sub1.plane, (class365_sub1_sub1_sub2_sub1.scenePositionXQueue[0]), (class365_sub1_sub1_sub2_sub1.scenePositionYQueue[0]), 0, null, class365_sub1_sub1_sub2_sub1, null, (byte) -66);
 			}
 			stream.finishBitAccess((byte) 38);
 		} catch (RuntimeException runtimeexception) {

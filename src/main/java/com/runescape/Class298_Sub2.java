@@ -4,7 +4,7 @@ package com.runescape;
  */
 
 public class Class298_Sub2 extends Class298 {
-	static Class395 aClass395_7165;
+	static SeqTypeList aSeqTypeList_7165;
 	public Class453 aClass453_7166 = new Class453();
 	static Class298_Sub19_Sub1 aClass298_Sub19_Sub1_7167;
 

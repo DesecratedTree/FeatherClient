@@ -141,8 +141,8 @@ public class Class431 implements Interface15 {
 				}
 				Class438 class438 = class365_sub1_sub1_sub2.aClass438_10078;
 				if (bool_23_ && class438.method5819((byte) -38)) {
-					Class391 class391 = class365_sub1_sub1_sub2.aClass438_10078.method5820(1190945096);
-					int i_25_ = class391.anInt4184 * -1117238071;
+					SeqType seqType = class365_sub1_sub1_sub2.aClass438_10078.method5820(1190945096);
+					int i_25_ = seqType.anInt4184 * -1117238071;
 					if (1 == i_25_)
 						class438.method5835(i, (byte) 81);
 					if (i_25_ == 2)
@@ -153,7 +153,7 @@ public class Class431 implements Interface15 {
 			for (int i_27_ = 0; i_27_ < is.length; i_27_++) {
 				if (is[i_27_] != -1)
 					bool_26_ = false;
-				if (null == class365_sub1_sub1_sub2.anIntArray10093 || -1 == class365_sub1_sub1_sub2.anIntArray10093[i_27_] || ((Class501.aClass395_6122.method4903(is[i_27_], (byte) -62).anInt4178) * -1445588039 >= (Class501.aClass395_6122.method4903(class365_sub1_sub1_sub2.anIntArray10093[i_27_], (byte) -47).anInt4178) * -1445588039)) {
+				if (null == class365_sub1_sub1_sub2.anIntArray10093 || -1 == class365_sub1_sub1_sub2.anIntArray10093[i_27_] || ((Class501.aSeqTypeList_6122.method4903(is[i_27_], (byte) -62).anInt4178) * -1445588039 >= (Class501.aSeqTypeList_6122.method4903(class365_sub1_sub1_sub2.anIntArray10093[i_27_], (byte) -47).anInt4178) * -1445588039)) {
 					class365_sub1_sub1_sub2.anIntArray10093 = is;
 					class365_sub1_sub1_sub2.aClass438_10078.method5828(i, -1445580533);
 					if (bool)

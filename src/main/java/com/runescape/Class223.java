@@ -120,7 +120,7 @@ public class Class223 implements Interface24 {
 				client.aClass283_8716.method2641(1825433072).method5793(1390466939);
 				Class15.aClass507_224.method6272(-862794511);
 				Class298_Sub32_Sub14.aClass477_9400.method6088((short) 23106);
-				Class501.aClass395_6122.method4901(-726986844);
+				Class501.aSeqTypeList_6122.method4901(-726986844);
 				Class158_Sub1.aClass389_8568.method4858(-2092821995);
 				Class472.configLoader.method3823(755423550);
 				Class440.aClass205_5582.method1915(-134753684);

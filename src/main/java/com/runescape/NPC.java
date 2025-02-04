@@ -215,7 +215,7 @@ public class NPC extends Entity {
 			for (int i_18_ = 0; i_18_ < currentGraphics.length; i_18_++) {
 				if (currentGraphics[i_18_].id * -967533709 != -1) {
 					Class398 class398 = (Class158_Sub1.aClass389_8568.method4857(-967533709 * currentGraphics[i_18_].id, -1708083255));
-					if (class398.aBoolean5215 && class398.anInt5205 * 1505778629 != -1 && (Class501.aClass395_6122.method4903(class398.anInt5205 * 1505778629, (byte) -23).anInt4189) * -882531177 == 1) {
+					if (class398.aBoolean5215 && class398.anInt5205 * 1505778629 != -1 && (Class501.aSeqTypeList_6122.method4903(class398.anInt5205 * 1505778629, (byte) -23).anInt4189) * -882531177 == 1) {
 						currentGraphics[i_18_].aClass438_569.method5821(-1, -1871121711);
 						currentGraphics[i_18_].id = -1313669563;
 					}
@@ -248,7 +248,7 @@ public class NPC extends Entity {
 			for (int i_24_ = 0; i_24_ < currentGraphics.length; i_24_++) {
 				if (-1 != currentGraphics[i_24_].id * -967533709) {
 					Class398 class398 = (Class158_Sub1.aClass389_8568.method4857(-967533709 * currentGraphics[i_24_].id, -1738473272));
-					if (class398.aBoolean5215 && -1 != 1505778629 * class398.anInt5205 && (Class501.aClass395_6122.method4903(class398.anInt5205 * 1505778629, (byte) 83).anInt4189) * -882531177 == 1) {
+					if (class398.aBoolean5215 && -1 != 1505778629 * class398.anInt5205 && (Class501.aSeqTypeList_6122.method4903(class398.anInt5205 * 1505778629, (byte) 83).anInt4189) * -882531177 == 1) {
 						currentGraphics[i_24_].aClass438_569.method5821(-1, -1950379754);
 						currentGraphics[i_24_].id = -1313669563;
 					}

@@ -475,6 +475,14 @@ public class RsByteBuffer extends Class298 {
 		}
 	}
 
+	public int g1() {
+		try {
+			return buffer[(index += 116413311) * 385051775 - 1] & 0xff;
+		} catch (RuntimeException runtimeexception) {
+			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.aa(").append(')').toString());
+		}
+	}
+
 	public int readUnsignedByteC(short i) {
 		try {
 			return (0 - (buffer[(index += 116413311) * 385051775 - 1]) & 0xff);
@@ -884,7 +892,7 @@ public class RsByteBuffer extends Class298 {
 			int i_89_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
 			IComponentDefinition class105 = Class50.getIComponentDefinitions(i_89_, (byte) 28);
 			Class119 class119 = Class389.aClass119Array4165[i_89_ >> 16];
-			Class391.method4887(class105, class119, class403, (byte) -121);
+			SeqType.method4887(class105, class119, class403, (byte) -121);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.dp(").append(')').toString());
 		}
@@ -918,6 +926,16 @@ public class RsByteBuffer extends Class298 {
 			((ClientScript2) class403).anObjectArray5240[((((ClientScript2) class403).anInt5241 += 969361751) * -203050393 - 1)] = new StringBuilder().append(string).append((char) i_93_).toString();
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.za(").append(')').toString());
+		}
+	}
+
+	public int g2() {
+		try {
+			index += 232826622;
+			int val = (buffer[index * 385051775 - 1] & 0xff) + ((buffer[index * 385051775 - 2] & 0xff) << 8);
+			return val;
+		} catch (RuntimeException runtimeexception) {
+			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.ae(").append(')').toString());
 		}
 	}
 }

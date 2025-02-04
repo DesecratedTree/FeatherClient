@@ -76,25 +76,25 @@ public class Class209 {
 		aClass209_2388 = new Class209("5", "5");
 	}
 
-	public static void method1938(Class391 class391, int i, Class365_Sub1 class365_sub1, int i_1_) {
+	public static void method1938(SeqType seqType, int i, Class365_Sub1 class365_sub1, int i_1_) {
 		try {
-			if (-991384187 * Class300.anInt3213 < 50 && (class391 != null && null != class391.anIntArrayArray4187 && i < class391.anIntArrayArray4187.length && class391.anIntArrayArray4187[i] != null)) {
-				int i_2_ = class391.anIntArrayArray4187[i][0];
+			if (-991384187 * Class300.anInt3213 < 50 && (seqType != null && null != seqType.sounds && i < seqType.sounds.length && seqType.sounds[i] != null)) {
+				int i_2_ = seqType.sounds[i][0];
 				int i_3_ = i_2_ >> 8;
 				int i_4_ = i_2_ >> 5 & 0x7;
 				int i_5_ = i_2_ & 0x1f;
-				if (class391.anIntArrayArray4187[i].length > 1) {
-					int i_6_ = (int) (Math.random() * (double) (class391.anIntArrayArray4187[i]).length);
+				if (seqType.sounds[i].length > 1) {
+					int i_6_ = (int) (Math.random() * (double) (seqType.sounds[i]).length);
 					if (i_6_ > 0)
-						i_3_ = class391.anIntArrayArray4187[i][i_6_];
+						i_3_ = seqType.sounds[i][i_6_];
 				}
 				int i_7_ = 256;
-				if (null != class391.anIntArray4183 && null != class391.anIntArray4190)
-					i_7_ = ((int) (Math.random() * (double) (class391.anIntArray4190[i] - class391.anIntArray4183[i])) + class391.anIntArray4183[i]);
-				int i_8_ = (class391.anIntArray4188 == null ? 255 : class391.anIntArray4188[i]);
+				if (null != seqType.anIntArray4183 && null != seqType.anIntArray4190)
+					i_7_ = ((int) (Math.random() * (double) (seqType.anIntArray4190[i] - seqType.anIntArray4183[i])) + seqType.anIntArray4183[i]);
+				int i_8_ = (seqType.anIntArray4188 == null ? 255 : seqType.anIntArray4188[i]);
 				if (i_5_ == 0) {
 					if (Class287.myPlayer == class365_sub1) {
-						if (class391.aBoolean4173)
+						if (seqType.aBoolean4173)
 							Class320.method3913(i_3_, i_4_, 0, i_8_, false, i_7_, 1619018556);
 						else
 							Class239.method2210(i_3_, i_4_, 0, i_8_, i_7_, 1846790975);
@@ -104,7 +104,7 @@ public class Class209 {
 					int i_9_ = (int) class217.aFloat2451 - 256 >> 9;
 					int i_10_ = (int) class217.aFloat2454 - 256 >> 9;
 					int i_11_ = ((Class287.myPlayer == class365_sub1) ? 0 : (i_10_ << 8) + ((i_9_ << 16) + (class365_sub1.plane << 24)) + i_5_);
-					Class300.aClass297Array3214[(Class300.anInt3213 += -598588595) * -991384187 - 1] = new Class297((class391.aBoolean4173 ? (byte) 2 : (byte) 1), i_3_, i_4_, 0, i_8_, i_11_, i_7_, class365_sub1);
+					Class300.aClass297Array3214[(Class300.anInt3213 += -598588595) * -991384187 - 1] = new Class297((seqType.aBoolean4173 ? (byte) 2 : (byte) 1), i_3_, i_4_, 0, i_8_, i_11_, i_7_, class365_sub1);
 				}
 			}
 		} catch (RuntimeException runtimeexception) {

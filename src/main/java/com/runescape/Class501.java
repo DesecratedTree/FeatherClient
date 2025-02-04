@@ -16,7 +16,7 @@ public final class Class501 {
 	static int anInt6119;
 	ReferenceQueue aReferenceQueue6120 = new ReferenceQueue();
 	WeakReference_Sub1[] aWeakReference_Sub1Array6121 = new WeakReference_Sub1[16];
-	public static Class395 aClass395_6122;
+	public static SeqTypeList aSeqTypeList_6122;
 	public static Class57 aClass57_6123;
 
 	public void method6222(Object object, Object object_0_, int i) {

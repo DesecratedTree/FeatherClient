@@ -83,7 +83,7 @@ public class Class_ta_Sub2 extends Class_ta {
 	public static void method6006(CacheIndex class243, CacheIndex class243_5_, int i, byte i_6_) {
 		try {
 			Class317.aClass243_3321 = class243;
-			Class298_Sub37_Sub4.aClass243_9582 = class243_5_;
+			AnimFrameset.aClass243_9582 = class243_5_;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("wi.a(").append(')').toString());
 		}

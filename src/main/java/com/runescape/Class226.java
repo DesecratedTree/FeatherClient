@@ -162,9 +162,9 @@ public class Class226 {
 
 	public static Class343_Sub1 method2105(int i, byte i_35_) {
 		try {
-			if (!Class338.aBoolean3631 || i < Class395.anInt5190 * -1648308965 || i > Class338.anInt3630 * -499146007)
+			if (!Class338.aBoolean3631 || i < SeqTypeList.anInt5190 * -1648308965 || i > Class338.anInt3630 * -499146007)
 				return null;
-			return (Class131.aClass343_Sub1Array1498[i - Class395.anInt5190 * -1648308965]);
+			return (Class131.aClass343_Sub1Array1498[i - SeqTypeList.anInt5190 * -1648308965]);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("jo.a(").append(')').toString());
 		}

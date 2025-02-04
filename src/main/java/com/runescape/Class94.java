@@ -109,7 +109,7 @@ public final class Class94 {
 				int[] is = ((Class94) this).anIntArray907;
 				for (int i_8_ = 0; i_8_ < is.length; i_8_++) {
 					int i_9_ = is[i_8_];
-					bool &= Class501.aClass395_6122.method4903(i_9_, (byte) 66).method4880(1245807797);
+					bool &= Class501.aSeqTypeList_6122.method4903(i_9_, (byte) 66).method4880(1245807797);
 				}
 				return bool;
 			}

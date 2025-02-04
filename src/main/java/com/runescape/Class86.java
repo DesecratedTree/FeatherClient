@@ -36,7 +36,7 @@ public class Class86 {
 					int[] is_0_ = is;
 					for (int i_1_ = 0; i_1_ < is_0_.length; i_1_++) {
 						int i_2_ = is_0_[i_1_];
-						bool &= Class501.aClass395_6122.method4903(i_2_, (byte) -42).method4880(714689881);
+						bool &= Class501.aSeqTypeList_6122.method4903(i_2_, (byte) -42).method4880(714689881);
 					}
 				}
 				return bool;

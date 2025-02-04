@@ -331,7 +331,7 @@ public abstract class Class481 {
 					npc.method4421((npc.aClass503_10190.anInt6187) * -2095128707, -2141370583);
 					npc.anInt10115 = -1186616623 * (((npc.aClass503_10190.anInt6181) * -1927065533) << 3);
 					if (npc.aClass503_10190.method6242((byte) 23)) {
-						Class391.method4884(npc.plane, npc.scenePositionXQueue[0], npc.scenePositionYQueue[0], 0, null, npc, null, (byte) 68);
+						SeqType.method4884(npc.plane, npc.scenePositionXQueue[0], npc.scenePositionYQueue[0], 0, null, npc, null, (byte) 68);
 					}
 				}
 			}

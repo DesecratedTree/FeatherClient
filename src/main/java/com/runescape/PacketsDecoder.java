@@ -229,8 +229,8 @@ public class PacketsDecoder {
 							if (graphicsId == i_109_) {
 								Class398 class398 = Class158_Sub1.aClass389_8568.method4857(graphicsId, -2138799623);
 								if (class398.aBoolean5215 && -1 != class398.anInt5205 * 1505778629) {
-									Class391 class391 = (Class501.aClass395_6122.method4903(class398.anInt5205 * 1505778629, (byte) -71));
-									int i_110_ = class391.anInt4184 * -1117238071;
+									SeqType seqType = (Class501.aSeqTypeList_6122.method4903(class398.anInt5205 * 1505778629, (byte) -71));
+									int i_110_ = seqType.anInt4184 * -1117238071;
 									if (i_110_ == 0 || 2 == i_110_)
 										bool_108_ = false;
 									else if (i_110_ == 1)
@@ -240,9 +240,9 @@ public class PacketsDecoder {
 								Class398 class398 = Class158_Sub1.aClass389_8568.method4857(graphicsId, -1997923010);
 								Class398 class398_111_ = Class158_Sub1.aClass389_8568.method4857(i_109_, -1881939747);
 								if (class398.anInt5205 * 1505778629 != -1 && (class398_111_.anInt5205 * 1505778629 != -1)) {
-									Class391 class391 = (Class501.aClass395_6122.method4903(class398.anInt5205 * 1505778629, (byte) 83));
-									Class391 class391_112_ = (Class501.aClass395_6122.method4903((1505778629 * class398_111_.anInt5205), (byte) -25));
-									if (-1445588039 * class391.anInt4178 < (-1445588039 * class391_112_.anInt4178))
+									SeqType seqType = (Class501.aSeqTypeList_6122.method4903(class398.anInt5205 * 1505778629, (byte) 83));
+									SeqType seqType_112_ = (Class501.aSeqTypeList_6122.method4903((1505778629 * class398_111_.anInt5205), (byte) -25));
+									if (-1445588039 * seqType.anInt4178 < (-1445588039 * seqType_112_.anInt4178))
 										bool_108_ = false;
 								}
 							}
@@ -278,8 +278,8 @@ public class PacketsDecoder {
 							if (graphicsId == i_116_) {
 								Class398 class398 = Class158_Sub1.aClass389_8568.method4857(graphicsId, -1990411818);
 								if (class398.aBoolean5215 && class398.anInt5205 * 1505778629 != -1) {
-									Class391 class391 = (Class501.aClass395_6122.method4903(class398.anInt5205 * 1505778629, (byte) -15));
-									int i_117_ = -1117238071 * class391.anInt4184;
+									SeqType seqType = (Class501.aSeqTypeList_6122.method4903(class398.anInt5205 * 1505778629, (byte) -15));
+									int i_117_ = -1117238071 * seqType.anInt4184;
 									if (0 == i_117_ || 2 == i_117_)
 										bool_115_ = false;
 									else if (i_117_ == 1)
@@ -289,9 +289,9 @@ public class PacketsDecoder {
 								Class398 class398 = Class158_Sub1.aClass389_8568.method4857(graphicsId, -1975194771);
 								Class398 class398_118_ = Class158_Sub1.aClass389_8568.method4857(i_116_, -1893234855);
 								if (-1 != class398.anInt5205 * 1505778629 && -1 != (1505778629 * class398_118_.anInt5205)) {
-									Class391 class391 = (Class501.aClass395_6122.method4903(1505778629 * class398.anInt5205, (byte) -1));
-									Class391 class391_119_ = (Class501.aClass395_6122.method4903((class398_118_.anInt5205 * 1505778629), (byte) -13));
-									if (class391.anInt4178 * -1445588039 < (-1445588039 * class391_119_.anInt4178))
+									SeqType seqType = (Class501.aSeqTypeList_6122.method4903(1505778629 * class398.anInt5205, (byte) -1));
+									SeqType seqType_119_ = (Class501.aSeqTypeList_6122.method4903((class398_118_.anInt5205 * 1505778629), (byte) -13));
+									if (seqType.anInt4178 * -1445588039 < (-1445588039 * seqType_119_.anInt4178))
 										bool_115_ = false;
 								}
 							}

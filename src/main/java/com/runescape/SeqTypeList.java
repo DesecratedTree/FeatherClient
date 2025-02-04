@@ -3,27 +3,27 @@ package com.runescape;
  * Visit http://jode.sourceforge.net/
  */
 
-public class Class395 {
+public class SeqTypeList {
 	CacheIndex aClass243_5189;
 	public static int anInt5190;
 	CachingHashMap aClass348_5191;
 	CachingHashMap aClass348_5192 = new CachingHashMap(64);
 
-	public Class298_Sub37_Sub4 method4900(int i, int i_0_) {
+	public AnimFrameset method4900(int i, int i_0_) {
 		try {
-			Class298_Sub37_Sub4 class298_sub37_sub4;
-			synchronized (((Class395) this).aClass348_5191) {
-				class298_sub37_sub4 = ((Class298_Sub37_Sub4) ((Class395) this).aClass348_5191.get((long) i));
-				if (null == class298_sub37_sub4) {
-					class298_sub37_sub4 = new Class298_Sub37_Sub4(i);
-					((Class395) this).aClass348_5191.method4194(class298_sub37_sub4, (long) i);
+			AnimFrameset animFrameset;
+			synchronized (((SeqTypeList) this).aClass348_5191) {
+				animFrameset = ((AnimFrameset) ((SeqTypeList) this).aClass348_5191.get((long) i));
+				if (null == animFrameset) {
+					animFrameset = new AnimFrameset(i);
+					((SeqTypeList) this).aClass348_5191.method4194(animFrameset, (long) i);
 				}
-				if (!class298_sub37_sub4.method3412((byte) 45)) {
-					Class298_Sub37_Sub4 class298_sub37_sub4_1_ = null;
-					return class298_sub37_sub4_1_;
+				if (!animFrameset.method3412((byte) 45)) {
+					AnimFrameset animFrameset_1_ = null;
+					return animFrameset_1_;
 				}
 			}
-			return class298_sub37_sub4;
+			return animFrameset;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("qj.f(").append(')').toString());
 		}
@@ -31,11 +31,11 @@ public class Class395 {
 
 	public void method4901(int i) {
 		try {
-			synchronized (((Class395) this).aClass348_5192) {
-				((Class395) this).aClass348_5192.method4187();
+			synchronized (((SeqTypeList) this).aClass348_5192) {
+				((SeqTypeList) this).aClass348_5192.method4187();
 			}
-			synchronized (((Class395) this).aClass348_5191) {
-				((Class395) this).aClass348_5191.method4187();
+			synchronized (((SeqTypeList) this).aClass348_5191) {
+				((SeqTypeList) this).aClass348_5191.method4187();
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("qj.b(").append(')').toString());
@@ -44,50 +44,56 @@ public class Class395 {
 
 	public void method4902(int i) {
 		try {
-			synchronized (((Class395) this).aClass348_5192) {
-				((Class395) this).aClass348_5192.method4189();
+			synchronized (((SeqTypeList) this).aClass348_5192) {
+				((SeqTypeList) this).aClass348_5192.method4189();
 			}
-			synchronized (((Class395) this).aClass348_5191) {
-				((Class395) this).aClass348_5191.method4189();
+			synchronized (((SeqTypeList) this).aClass348_5191) {
+				((SeqTypeList) this).aClass348_5191.method4189();
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("qj.i(").append(')').toString());
 		}
 	}
 
-	public Class395(Class411 class411, Class429 class429, CacheIndex class243, CacheIndex class243_2_, CacheIndex class243_3_) {
-		((Class395) this).aClass348_5191 = new CachingHashMap(100);
-		((Class395) this).aClass243_5189 = class243;
-		if (null != ((Class395) this).aClass243_5189) {
-			int i = ((Class395) this).aClass243_5189.method2296(1196471561) - 1;
+	public SeqTypeList(Class411 class411, Class429 class429, CacheIndex class243, CacheIndex class243_2_, CacheIndex class243_3_) {
+		((SeqTypeList) this).aClass348_5191 = new CachingHashMap(100);
+		((SeqTypeList) this).aClass243_5189 = class243;
+		if (null != ((SeqTypeList) this).aClass243_5189) {
+			int i = ((SeqTypeList) this).aClass243_5189.method2296(1196471561) - 1;
 			Class120.aClass120_1409.method1306((short) 21776);
-			((Class395) this).aClass243_5189.method2316(i, -1829120689);
+			((SeqTypeList) this).aClass243_5189.method2316(i, -1829120689);
 		}
 		Class_ta_Sub2.method6006(class243_2_, class243_3_, 2, (byte) 2);
 	}
 
-	public Class391 method4903(int i, byte i_4_) {
+	public SeqType method4903(int id, byte i_4_) {
 		try {
-			Class391 class391;
-			synchronized (((Class395) this).aClass348_5192) {
-				class391 = (Class391) ((Class395) this).aClass348_5192.get((long) i);
+			SeqType seq;
+			synchronized (((SeqTypeList) this).aClass348_5192) {
+				seq = (SeqType) ((SeqTypeList) this).aClass348_5192.get((long) id);
 			}
-			if (null != class391)
-				return class391;
+			if (null != seq)
+				return seq;
 			byte[] is;
-			synchronized (((Class395) this).aClass243_5189) {
-				is = (((Class395) this).aClass243_5189.getFileFromArchive(Class120.aClass120_1409.method1307(i, 180156567), Class120.aClass120_1409.method1305(i, -1217474734), (byte) -6));
+			synchronized (((SeqTypeList) this).aClass243_5189) {
+				is = (((SeqTypeList) this).aClass243_5189.getFileFromArchive(Class120.aClass120_1409.method1307(id, 180156567), Class120.aClass120_1409.method1305(id, -1217474734), (byte) -6));
 			}
-			class391 = new Class391();
-			class391.anInt4171 = i * -523719415;
-			((Class391) class391).aClass395_4170 = this;
-			if (is != null)
-				class391.method4882(new RsByteBuffer(is), -795902444);
-			class391.method4879((byte) -46);
-			synchronized (((Class395) this).aClass348_5192) {
-				((Class395) this).aClass348_5192.method4194(class391, (long) i);
+			seq = new SeqType();
+			seq.osrs = id >= OSRSData.SEQUENCES_OFFSET;
+			seq.anInt4171 = id * -523719415;
+			((SeqType) seq).aSeqTypeList_4170 = this;
+			if (is != null) {
+				if (seq.osrs) {
+					seq.decodeOSRS(new RsByteBuffer(is));
+				} else {
+					seq.decode(new RsByteBuffer(is), -795902444);
+				}
 			}
-			return class391;
+			seq.method4879((byte) -46);
+			synchronized (((SeqTypeList) this).aClass348_5192) {
+				((SeqTypeList) this).aClass348_5192.method4194(seq, (long) id);
+			}
+			return seq;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("qj.a(").append(')').toString());
 		}
@@ -95,11 +101,11 @@ public class Class395 {
 
 	public void method4904(int i, byte i_5_) {
 		try {
-			synchronized (((Class395) this).aClass348_5192) {
-				((Class395) this).aClass348_5192.method4186(i, -208985286);
+			synchronized (((SeqTypeList) this).aClass348_5192) {
+				((SeqTypeList) this).aClass348_5192.method4186(i, -208985286);
 			}
-			synchronized (((Class395) this).aClass348_5191) {
-				((Class395) this).aClass348_5191.method4186(i, -1704294236);
+			synchronized (((SeqTypeList) this).aClass348_5191) {
+				((SeqTypeList) this).aClass348_5191.method4186(i, -1704294236);
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("qj.p(").append(')').toString());

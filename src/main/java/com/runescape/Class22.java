@@ -36,16 +36,16 @@ public class Class22 {
 				Class52_Sub2_Sub1_Sub1.aClass353Array9987[i_1_].anInt3820 = buffer.readUnsignedSmart(1723054621) * -801041135;
 				Class52_Sub2_Sub1_Sub1.aClass353Array9987[i_1_].aString3819 = buffer.readJagString(681479919);
 			}
-			Class395.anInt5190 = buffer.readUnsignedSmart(1723054621) * 457295123;
+			SeqTypeList.anInt5190 = buffer.readUnsignedSmart(1723054621) * 457295123;
 			Class338.anInt3630 = buffer.readUnsignedSmart(1723054621) * -924756647;
 			Class24.anInt9950 = buffer.readUnsignedSmart(1723054621) * 412440447;
-			Class131.aClass343_Sub1Array1498 = new Class343_Sub1[(Class338.anInt3630 * -499146007 - -1648308965 * Class395.anInt5190 + 1)];
+			Class131.aClass343_Sub1Array1498 = new Class343_Sub1[(Class338.anInt3630 * -499146007 - -1648308965 * SeqTypeList.anInt5190 + 1)];
 			for (int i_2_ = 0; i_2_ < 1017276543 * Class24.anInt9950; i_2_++) {
 				int i_3_ = buffer.readUnsignedSmart(1723054621);
 				Class343_Sub1 class343_sub1 = (Class131.aClass343_Sub1Array1498[i_3_] = new Class343_Sub1());
 				((Class343_Sub1) class343_sub1).anInt3672 = buffer.readUnsignedByte() * 672848077;
 				class343_sub1.anInt3670 = buffer.readInt((byte) 66) * -743493231;
-				class343_sub1.anInt7717 = -72535113 * (Class395.anInt5190 * -1648308965 + i_3_);
+				class343_sub1.anInt7717 = -72535113 * (SeqTypeList.anInt5190 * -1648308965 + i_3_);
 				class343_sub1.aString7719 = buffer.readJagString(681479919);
 				class343_sub1.aString7718 = buffer.readJagString(681479919);
 			}
