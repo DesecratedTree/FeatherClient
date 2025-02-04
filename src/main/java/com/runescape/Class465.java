@@ -187,19 +187,19 @@ public class Class465 implements Interface18 {
 	static final void method6019(ClientScript2 class403, short i) {
 		try {
 			int i_9_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
-			BASType BASType = Class94.aClass349_913.method4202(i_9_, (byte) 24);
-			if (null != BASType.anIntArray3712 && BASType.anIntArray3712.length > 0) {
+			Class350 class350 = Class94.aClass349_913.method4202(i_9_, (byte) 24);
+			if (null != class350.anIntArray3712 && class350.anIntArray3712.length > 0) {
 				int i_10_ = 0;
-				int i_11_ = BASType.anIntArray3713[0];
-				for (int i_12_ = 1; i_12_ < BASType.anIntArray3712.length; i_12_++) {
-					if (BASType.anIntArray3713[i_12_] > i_11_) {
+				int i_11_ = class350.anIntArray3713[0];
+				for (int i_12_ = 1; i_12_ < class350.anIntArray3712.length; i_12_++) {
+					if (class350.anIntArray3713[i_12_] > i_11_) {
 						i_10_ = i_12_;
-						i_11_ = BASType.anIntArray3713[i_12_];
+						i_11_ = class350.anIntArray3713[i_12_];
 					}
 				}
-				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = BASType.anIntArray3712[i_10_];
+				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = class350.anIntArray3712[i_10_];
 			} else
-				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = -809747019 * BASType.anInt3711;
+				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = -809747019 * class350.anInt3711;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("te.abx(").append(')').toString());
 		}

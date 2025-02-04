@@ -322,7 +322,7 @@ public class Class145 implements Interface5 {
 														i_50_++;
 												}
 											}
-											Class3.anIntArray60[(Class3.anInt67 * 1659101557)] = (class432.id * 1181652947);
+											Class3.anIntArray60[(Class3.anInt67 * 1659101557)] = (class432.anInt5365 * 1181652947);
 											Class3.anIntArray58[1659101557 * Class3.anInt67] = i_49_;
 											Class3.anIntArray59[1659101557 * Class3.anInt67] = i_50_;
 											Class3.anInt67 += 1706239709;

@@ -28,7 +28,7 @@ public class Class2 {
 				anInt19 = 255 - (i >> 24 & 0xff);
 				int j1 = Class379.anIntArray4096[Class173.method1823(aClass_ra_Sub1_31.method5206(i1), (byte) 0) & 0xffff];
 				int k1 = 0xff000000 | (i >> 16 & 0xff) * (j1 >> 16 & 0xff) << 8 & 0xff0000 | (i >> 8 & 0xff) * (j1 >> 8 & 0xff) & 0xff00 | (i & 0xff) * (j1 & 0xff) >> 8;
-				method292(true, flag1, flag2, f, f1, f2, f3, f4, f5, f6, f7, f8, BASType.method4215(k1, l, f18, 0xfd870044), BASType.method4215(k1, l, f19, 0x2e32084c), BASType.method4215(k1, l, f20, 0x9dbcd924));
+				method292(true, flag1, flag2, f, f1, f2, f3, f4, f5, f6, f7, f8, Class350.method4215(k1, l, f18, 0xfd870044), Class350.method4215(k1, l, f19, 0x2e32084c), Class350.method4215(k1, l, f20, 0x9dbcd924));
 				return;
 			}
 			anInt39 = aClass_ra_Sub1_31.method5199(i1) ? 64 : aClass_ra_Sub1_31.anInt8002 * 0x420409cb;
@@ -2099,7 +2099,7 @@ public class Class2 {
 				anInt19 = 255 - (i >> 24 & 0xff);
 				int l1 = Class379.anIntArray4096[Class173.method1823(aClass_ra_Sub1_31.method5206(i1), (byte) 0) & 0xffff];
 				int i3 = 0xff000000 | (i >> 16 & 0xff) * (l1 >> 16 & 0xff) << 8 & 0xff0000 | (i >> 8 & 0xff) * (l1 >> 8 & 0xff) & 0xff00 | (i & 0xff) * (l1 & 0xff) >> 8;
-				method292(true, flag1, flag2, f, f1, f2, f3, f4, f5, f6, f7, f8, BASType.method4215(i3, l, f18, 0xaaa0d14), BASType.method4215(i3, l, f19, 0xf7bb874), BASType.method4215(i3, l, f20, 0x6d5bab31));
+				method292(true, flag1, flag2, f, f1, f2, f3, f4, f5, f6, f7, f8, Class350.method4215(i3, l, f18, 0xaaa0d14), Class350.method4215(i3, l, f19, 0xf7bb874), Class350.method4215(i3, l, f20, 0x6d5bab31));
 				return;
 			}
 			anInt39 = aClass_ra_Sub1_31.method5199(i1) ? 64 : aClass_ra_Sub1_31.anInt8002 * 0x420409cb;
@@ -2113,7 +2113,7 @@ public class Class2 {
 				anInt19 = 255 - (i >> 24 & 0xff);
 				int i2 = Class379.anIntArray4096[Class173.method1823(aClass_ra_Sub1_31.method5206(j1), (byte) 0) & 0xffff];
 				int j3 = 0xff000000 | (i >> 16 & 0xff) * (i2 >> 16 & 0xff) << 8 & 0xff0000 | (i >> 8 & 0xff) * (i2 >> 8 & 0xff) & 0xff00 | (i & 0xff) * (i2 & 0xff) >> 8;
-				method292(true, flag1, flag2, f, f1, f2, f3, f4, f5, f6, f7, f8, BASType.method4215(j3, l, f18, 0xbf6771d4), BASType.method4215(j3, l, f19, 0x743e4ce9), BASType.method4215(j3, l, f20, 0xadd0746a));
+				method292(true, flag1, flag2, f, f1, f2, f3, f4, f5, f6, f7, f8, Class350.method4215(j3, l, f18, 0xbf6771d4), Class350.method4215(j3, l, f19, 0x743e4ce9), Class350.method4215(j3, l, f20, 0xadd0746a));
 				return;
 			}
 			anInt29 = aClass_ra_Sub1_31.method5199(j1) ? 64 : aClass_ra_Sub1_31.anInt8002 * 0x420409cb;
@@ -2126,7 +2126,7 @@ public class Class2 {
 				anInt19 = 255 - (i >> 24 & 0xff);
 				int j2 = Class379.anIntArray4096[Class173.method1823(aClass_ra_Sub1_31.method5206(k1), (byte) 0) & 0xffff];
 				int k3 = 0xff000000 | (i >> 16 & 0xff) * (j2 >> 16 & 0xff) << 8 & 0xff0000 | (i >> 8 & 0xff) * (j2 >> 8 & 0xff) & 0xff00 | (i & 0xff) * (j2 & 0xff) >> 8;
-				method292(true, flag1, flag2, (int) f, (int) f1, (int) f2, (int) f3, (int) f4, (int) f5, (int) f6, (int) f7, (int) f8, BASType.method4215(k3, l, f18, 0x8ea57cce), BASType.method4215(k3, l, f19, 0x9d545dce), BASType.method4215(k3, l, f20, 0x5621e01));
+				method292(true, flag1, flag2, (int) f, (int) f1, (int) f2, (int) f3, (int) f4, (int) f5, (int) f6, (int) f7, (int) f8, Class350.method4215(k3, l, f18, 0x8ea57cce), Class350.method4215(k3, l, f19, 0x9d545dce), Class350.method4215(k3, l, f20, 0x5621e01));
 				return;
 			}
 			anInt51 = aClass_ra_Sub1_31.method5199(k1) ? 64 : aClass_ra_Sub1_31.anInt8002 * 0x420409cb;

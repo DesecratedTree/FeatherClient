@@ -112,8 +112,8 @@ public class Class298_Sub37_Sub13 extends Class298_Sub37 {
 
 	public static final void method3455(int i, int i_14_) {
 		try {
-			if (BASType.aClass298_Sub25_3757 != null && (i >= 0 && i < 649879491 * (BASType.aClass298_Sub25_3757.anInt7356))) {
-				Class163 class163 = BASType.aClass298_Sub25_3757.aClass163Array7359[i];
+			if (Class350.aClass298_Sub25_3757 != null && (i >= 0 && i < 649879491 * (Class350.aClass298_Sub25_3757.anInt7356))) {
+				Class163 class163 = Class350.aClass298_Sub25_3757.aClass163Array7359[i];
 				if (-1 == class163.aByte1683) {
 					Class25 class25 = Class429.method5760((short) 512);
 					Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.aClass198_2045, class25.aClass449_330, (byte) 120);

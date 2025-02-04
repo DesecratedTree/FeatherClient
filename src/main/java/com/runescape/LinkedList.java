@@ -172,12 +172,12 @@ public final class LinkedList implements Iterable {
 					}
 				}
 				if (class365_sub1_sub1_sub2 != null) {
-					BASType BASType = class365_sub1_sub1_sub2.method4426(95049522);
-					if (null != BASType.anIntArrayArray3710 && null != BASType.anIntArrayArray3710[i_11_]) {
-						i_12_ -= BASType.anIntArrayArray3710[i_11_][1];
+					Class350 class350 = class365_sub1_sub1_sub2.method4426(95049522);
+					if (null != class350.anIntArrayArray3710 && null != class350.anIntArrayArray3710[i_11_]) {
+						i_12_ -= class350.anIntArrayArray3710[i_11_][1];
 					}
-					if (BASType.anIntArrayArray3753 != null && null != BASType.anIntArrayArray3753[i_11_]) {
-						i_12_ -= BASType.anIntArrayArray3753[i_11_][1];
+					if (class350.anIntArrayArray3753 != null && null != class350.anIntArrayArray3753[i_11_]) {
+						i_12_ -= class350.anIntArrayArray3753[i_11_][1];
 					}
 				}
 			}

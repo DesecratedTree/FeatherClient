@@ -106,10 +106,10 @@ public abstract class Class291 implements Interface14, Runnable, FocusListener, 
 			Class139.anInt1548 = i * 19765097;
 			RuntimeException_Sub2.anInt6307 = i_7_ * 715279939;
 			Class400.anInt5225 = i_8_ * 1366053379;
-			BASType.aString3759 = "Unknown";
+			Class350.aString3759 = "Unknown";
 			Class120.aString1462 = "1.1";
 			try {
-				BASType.aString3759 = System.getProperty("java.vendor");
+				Class350.aString3759 = System.getProperty("java.vendor");
 				Class120.aString1462 = System.getProperty("java.version");
 			} catch (Exception exception) {
 				/* empty */
@@ -343,8 +343,8 @@ public abstract class Class291 implements Interface14, Runnable, FocusListener, 
 
 	void method2759(byte i) {
 		try {
-			if (null != BASType.aString3759) {
-				String string = BASType.aString3759.toLowerCase();
+			if (null != Class350.aString3759) {
+				String string = Class350.aString3759.toLowerCase();
 				if (string.indexOf("sun") != -1 || string.indexOf("apple") != -1) {
 					String string_19_ = Class120.aString1462;
 					if (string_19_.equals("1.1") || string_19_.startsWith("1.1.") || string_19_.equals("1.2") || string_19_.startsWith("1.2.") || string_19_.equals("1.3") || string_19_.startsWith("1.3.") || string_19_.equals("1.4") || string_19_.startsWith("1.4.") || string_19_.equals("1.5") || string_19_.startsWith("1.5.") || string_19_.equals("1.6.0")) {

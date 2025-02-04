@@ -120,13 +120,13 @@ public class Class375 {
 	static int method4652(Player class365_sub1_sub1_sub2_sub2, int i) {
 		try {
 			int i_6_ = 1899133595 * class365_sub1_sub1_sub2_sub2.anInt10211;
-			BASType BASType = class365_sub1_sub1_sub2_sub2.method4426(657972326);
+			Class350 class350 = class365_sub1_sub1_sub2_sub2.method4426(657972326);
 			int i_7_ = class365_sub1_sub1_sub2_sub2.aClass438_10077.method5823(1741170329);
 			if (-1 == i_7_ || class365_sub1_sub1_sub2_sub2.aBoolean10094)
 				i_6_ = 1728220219 * class365_sub1_sub1_sub2_sub2.anInt10194;
-			else if (BASType.anInt3721 * 230243963 == i_7_ || i_7_ == BASType.anInt3749 * 491753731 || BASType.anInt3724 * -783166629 == i_7_ || i_7_ == BASType.anInt3746 * -2054940183)
+			else if (class350.anInt3721 * 230243963 == i_7_ || i_7_ == class350.anInt3749 * 491753731 || class350.anInt3724 * -783166629 == i_7_ || i_7_ == class350.anInt3746 * -2054940183)
 				i_6_ = class365_sub1_sub1_sub2_sub2.anInt10212 * -978842273;
-			else if (i_7_ == BASType.anInt3755 * 328817727 || -1238642279 * BASType.anInt3722 == i_7_ || 124010991 * BASType.anInt3728 == i_7_ || -907666203 * BASType.anInt3727 == i_7_)
+			else if (i_7_ == class350.anInt3755 * 328817727 || -1238642279 * class350.anInt3722 == i_7_ || 124010991 * class350.anInt3728 == i_7_ || -907666203 * class350.anInt3727 == i_7_)
 				i_6_ = class365_sub1_sub1_sub2_sub2.anInt10210 * -1304250511;
 			return i_6_;
 		} catch (RuntimeException runtimeexception) {

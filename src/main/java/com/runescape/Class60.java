@@ -61,7 +61,7 @@ public class Class60 {
 				((Class60) this).anInt595 = -1646192771;
 				return null;
 			}
-			if (!((Class60) this).aBoolean592 && (-72440277 * ((Class60) this).anInt595 != class432.id * 1181652947)) {
+			if (!((Class60) this).aBoolean592 && (-72440277 * ((Class60) this).anInt595 != class432.anInt5365 * 1181652947)) {
 				method704(true, -1, 0, 2114520079);
 				((Class60) this).aBoolean600 = false;
 				((Class60) this).aClass387_584 = null;
@@ -70,7 +70,7 @@ public class Class60 {
 			if (bool_1_)
 				bool_1_ = bool_1_ & (((Class60) this).aBoolean598 & !((Class60) this).aBoolean600 & Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub7_7581.method5650(-896655100) != 0);
 			if (bool && !bool_1_) {
-				((Class60) this).anInt595 = -722933511 * class432.id;
+				((Class60) this).anInt595 = -722933511 * class432.anInt5365;
 				return null;
 			}
 			Class217 class217 = (((Class60) this).aClass365_Sub1_587.method4337().aClass217_2599);
@@ -106,7 +106,7 @@ public class Class60 {
 					((Class60) this).anInt586 = 0;
 				}
 				((Class60) this).aClass387_584 = null;
-			} else if (((Class60) this).aClass387_584 == null || (((Class60) this).aClass387_584.m() & i) != i || (-72440277 * ((Class60) this).anInt595 != 1181652947 * class432.id)) {
+			} else if (((Class60) this).aClass387_584 == null || (((Class60) this).aClass387_584.m() & i) != i || (-72440277 * ((Class60) this).anInt595 != 1181652947 * class432.anInt5365)) {
 				if (((Class60) this).aClass387_584 != null)
 					i |= ((Class60) this).aClass387_584.m();
 				Class454 class454 = (class432.method5785(class_ra, i, (((Class60) this).anInt589 * -1598457753 != 11 ? -1598457753 * ((Class60) this).anInt589 : 10), (11 == ((Class60) this).anInt589 * -1598457753 ? 748228569 * ((Class60) this).anInt590 + 4 : 748228569 * ((Class60) this).anInt590), class_xa, class_xa_3_, (int) class217.aFloat2451, class_xa.method6340((int) class217.aFloat2451, (int) class217.aFloat2454, -1367024792), (int) class217.aFloat2454, bool_1_, ((Class60) this).aClass435_597, -105046202));
@@ -128,7 +128,7 @@ public class Class60 {
 				}
 			} else
 				class387 = ((Class60) this).aClass387_584;
-			((Class60) this).anInt595 = class432.id * -722933511;
+			((Class60) this).anInt595 = class432.anInt5365 * -722933511;
 			return class387;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ck.i(").append(')').toString());
@@ -172,7 +172,7 @@ public class Class60 {
 		((Class60) this).aBoolean592 = false;
 		((Class60) this).aBoolean600 = false;
 		((Class60) this).aClass433_585 = class433;
-		((Class60) this).anInt601 = -2096584305 * class432.id;
+		((Class60) this).anInt601 = -2096584305 * class432.anInt5365;
 		((Class60) this).anInt589 = -1523702953 * i;
 		((Class60) this).anInt590 = i_8_ * -1809022871;
 		((Class60) this).aClass365_Sub1_587 = class365_sub1;
@@ -221,7 +221,7 @@ public class Class60 {
 				if (class432.method5779(934270378)) {
 					if (bool && ((Class60) this).aClass438_593.method5819((byte) -5) && class432.method5773(((Class60) this).aClass438_593.method5823(2076230166), 1402053046))
 						return;
-					if (1181652947 * class432.id != -72440277 * ((Class60) this).anInt595)
+					if (1181652947 * class432.anInt5365 != -72440277 * ((Class60) this).anInt595)
 						bool_15_ = class432.aBoolean5431;
 					i_14_ = class432.method5781((byte) 14);
 					if (class432.method5780(-1966445745))
@@ -231,7 +231,7 @@ public class Class60 {
 				} else if (null != class432_16_ && class432_16_.method5779(934270378)) {
 					if (bool && ((Class60) this).aClass438_593.method5819((byte) -12) && class432_16_.method5773(((Class60) this).aClass438_593.method5823(1572334487), 1867786247))
 						return;
-					if (((Class60) this).anInt595 * -72440277 != 1181652947 * class432.id)
+					if (((Class60) this).anInt595 * -72440277 != 1181652947 * class432.anInt5365)
 						bool_15_ = class432_16_.aBoolean5431;
 					i_14_ = class432_16_.method5781((byte) 14);
 					if (class432_16_.method5780(-1966445745))

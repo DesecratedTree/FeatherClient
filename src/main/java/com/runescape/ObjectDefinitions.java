@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class ObjectDefinitions {
 	byte aByte5363;
 	public int anInt5364;
-	public int id;
+	public int anInt5365;
 	public int[] anIntArray5366;
 	public short[] aShortArray5367;
 	public String name = "null";
@@ -73,7 +73,7 @@ public class ObjectDefinitions {
 	public int anInt5427;
 	public int anInt5428;
 	public int[] anIntArray5429;
-	public byte[] shapes;
+	public byte[] aByteArray5430;
 	public boolean aBoolean5431;
 	public boolean aBoolean5432;
 	public boolean aBoolean5433;
@@ -94,10 +94,10 @@ public class ObjectDefinitions {
 		try {
 			if (1 == i) {
 				int i_1_ = stream.readUnsignedByte();
-				shapes = new byte[i_1_];
+				aByteArray5430 = new byte[i_1_];
 				modelIds = new int[i_1_][];
 				for (int i_2_ = 0; i_2_ < i_1_; i_2_++) {
-					shapes[i_2_] = stream.readByte(-12558881);
+					aByteArray5430[i_2_] = stream.readByte(-12558881);
 					int i_3_ = stream.readUnsignedByte();
 					modelIds[i_2_] = new int[i_3_];
 					for (int i_4_ = 0; i_4_ < i_3_; i_4_++)
@@ -124,9 +124,6 @@ public class ObjectDefinitions {
 				anInt5376 = -580315545;
 			else if (24 == i) {
 				int i_5_ = stream.readBigSmart(1235052657);
-				if ((id * 1181652947) >= OSRSData.LOCS_OFFSET) {
-					i_5_ += OSRSData.SEQUENCES_OFFSET;
-				}
 				if (i_5_ != -1)
 					((ObjectDefinitions) this).anIntArray5378 = new int[] { i_5_ };
 			} else if (i == 27)
@@ -360,186 +357,6 @@ public class ObjectDefinitions {
 		}
 	}
 
-	public void decodeOSRS(RsByteBuffer stream) {
-		for (;;) {
-			int opcode = stream.readUnsignedByte();
-			if (opcode == 0) {
-				break;
-			}
-			decodeOSRS(stream, opcode);
-		}
-	}
-
-	private void decodeOSRS(RsByteBuffer stream, int opcode) {
-		if (1 == opcode) {
-			int num_shapes = stream.readUnsignedByte();
-			shapes = new byte[num_shapes];
-			modelIds = new int[num_shapes][];
-			for (int shape_index = 0; shape_index < num_shapes; shape_index++) {
-				modelIds[shape_index] = new int[] { stream.readUnsignedShort() + OSRSData.MODELS_OFFSET };
-				shapes[shape_index] = stream.g1s();
-			}
-		} else if (opcode == 2) {
-			name = stream.gstr();
-		} else if (opcode == 5) {
-			shapes = new byte[] { 10 };
-			int num_models = stream.readUnsignedByte();
-			modelIds = new int[1][num_models];
-			for (int index = 0; index < num_models; index++) {
-				modelIds[0][index] = stream.readUnsignedShort() + OSRSData.MODELS_OFFSET;
-			}
-		} else if (14 == opcode) {
-			sizeX = stream.readUnsignedByte() * -2144855351;
-		} else if (opcode == 15) {
-			sizeY = stream.readUnsignedByte() * 44056569;
-		} else if (opcode == 17) {
-			anInt5380 = 0;
-			aBoolean5424 = false;
-		} else if (opcode == 18) {
-			aBoolean5424 = false;
-		} else if (19 == opcode) {
-			anInt5382 = stream.readUnsignedByte() * 455422743;
-		} else if (21 == opcode) {
-			aByte5363 = (byte) 1;// Maybe: default to 0, and constructor to 1 prob
-		} else if (opcode == 22) {
-			aBoolean5385 = true;
-		} else if (opcode == 23) {
-			anInt5376 = -325083707;
-		} else if (24 == opcode) {
-			int i_5_ = stream.readUnsignedShort();
-			if (i_5_ == 65535) {
-				i_5_ = -1;
-			} else {
-				i_5_ += OSRSData.SEQUENCES_OFFSET;
-				anIntArray5378 = new int[] { i_5_ };
-			}
-		} else if (opcode == 27) {
-			anInt5380 = 1137740721;
-		} else if (28 == opcode) {
-			anInt5391 = (stream.readUnsignedByte() << 2) * 803995289;
-		} else if (opcode == 29) {
-			anInt5392 = stream.g1s() * -62240291;
-		} else if (39 == opcode) {
-			anInt5393 = stream.g1s() * -1530589831;
-		} else if (opcode >= 30 && opcode < 35) {
-			aStringArray5394[opcode - 30] = stream.gstr();
-			if (aStringArray5394[opcode - 30].equalsIgnoreCase("Hidden")) {
-				aStringArray5394[opcode - 30] = null;
-			}
-		} else if (opcode == 40) {
-			int i_6_ = stream.readUnsignedByte();
-			aShortArray5369 = new short[i_6_];
-			aShortArray5367 = new short[i_6_];
-			for (int i_7_ = 0; i_7_ < i_6_; i_7_++) {
-				aShortArray5369[i_7_] = (short) stream.readUnsignedShort();
-				aShortArray5367[i_7_] = (short) stream.readUnsignedShort();
-			}
-		} else if (opcode == 41) {
-			int i_8_ = stream.readUnsignedByte();
-			aShortArray5372 = new short[i_8_];
-			aShortArray5373 = new short[i_8_];
-			for (int i_9_ = 0; i_9_ < i_8_; i_9_++) {
-				aShortArray5372[i_9_] = (short) stream.readUnsignedShort();
-				aShortArray5373[i_9_] = (short) stream.readUnsignedShort();
-			}
-		} else if (opcode == 42) {
-			int i_10_ = stream.readUnsignedByte();
-			aByteArray5371 = new byte[i_10_];
-			for (int i_11_ = 0; i_11_ < i_10_; i_11_++) {
-				aByteArray5371[i_11_] = stream.g1s();
-			}
-		} else if (opcode == 62) {
-			aBoolean5404 = true;
-		} else if (64 == opcode) {
-			aBoolean5405 = false;
-		} else if (65 == opcode) {
-			anInt5406 = stream.readUnsignedShort() * 929519655;
-		} else if (66 == opcode) {
-			anInt5407 = stream.readUnsignedShort() * -1076239419;
-		} else if (opcode == 67) {
-			anInt5414 = stream.readUnsignedShort() * 1192395179;
-		} else if (opcode == 68) {
-			stream.readUnsignedShort();
-		} else if (opcode == 69) {
-			stream.readUnsignedByte();
-		} else if (opcode == 70) {
-			anInt5379 = (stream.readShort(1954619354) << 2) * 804752437;
-		} else if (opcode == 71) {
-			anInt5396 = (stream.readShort(1981333343) << 2) * -830213317;
-		} else if (opcode == 72) {
-			anInt5411 = (stream.readShort(2079097901) << 2) * 1957563615;
-		} else if (opcode == 73) {
-			aBoolean5410 = true;
-		} else if (opcode == 74) {
-			aBoolean5416 = true;
-		} else if (opcode == 75) {
-			anInt5409 = stream.readUnsignedByte() * 1763780945;
-		} else if (77 == opcode || 92 == opcode) {
-			anInt5420 = stream.readUnsignedShort() * -1228374415;
-			if (65535 == 1064010385 * anInt5420) {
-				anInt5420 = 1228374415;
-			}
-			anInt5421 = stream.readUnsignedShort() * -2115564225;
-			if (65535 == -1128963393 * anInt5421) {
-				anInt5421 = 2115564225;
-			}
-			int i_12_ = -1;
-			if (92 == opcode) {
-				i_12_ = stream.readUnsignedShort();
-				if (i_12_ == 65535) {
-					i_12_ = -1;
-				} else {
-					i_12_ += OSRSData.LOCS_OFFSET;
-				}
-			}
-			int i_13_ = stream.readUnsignedByte();
-			anIntArray5366 = new int[2 + i_13_];
-			for (int i_14_ = 0; i_14_ <= i_13_; i_14_++) {
-				anIntArray5366[i_14_] = stream.readUnsignedShort();
-				if (anIntArray5366[i_14_] == 65535) {
-					anIntArray5366[i_14_] = -1;
-				} else {
-					anIntArray5366[i_14_] += OSRSData.LOCS_OFFSET;
-				}
-			}
-			anIntArray5366[i_13_ + 1] = i_12_;
-		} else if (opcode == 78) {
-			anInt5422 = stream.readUnsignedShort() * -349046175;
-			anInt5408 = stream.readUnsignedByte() * -634552289;
-		} else if (opcode == 79) {
-			anInt5427 = stream.readUnsignedShort() * 1882310759;
-			anInt5428 = stream.readUnsignedShort() * 1376401661;
-			anInt5408 = stream.readUnsignedByte() * -634552289;
-			int i_15_ = stream.readUnsignedByte();
-			anIntArray5429 = new int[i_15_];
-			for (int i_16_ = 0; i_16_ < i_15_; i_16_++) {
-				anIntArray5429[i_16_] = stream.readUnsignedShort();
-			}
-		} else if (81 == opcode) {
-			aByte5363 = (byte) 2;
-			anInt5384 = stream.readUnsignedByte() * -1868938496;
-		} else if (opcode == 82) {
-			aBoolean5432 = true;
-		} else if (opcode == 249) {
-			int i_23_ = stream.readUnsignedByte();
-			if (aClass437_5435 == null) {
-				int i_24_ = Class416.method5590(i_23_, (byte) 16);
-				aClass437_5435 = new LinkedList(i_24_);
-			}
-			for (int i_25_ = 0; i_25_ < i_23_; i_25_++) {
-				boolean bool = stream.readUnsignedByte() == 1;
-				int i_26_ = stream.g3();
-				Class298 class298;
-				if (bool) {
-					class298 = new Class298_Sub29(stream.gstr());
-				} else {
-					class298 = new Class298_Sub35(stream.g4());
-				}
-				aClass437_5435.method5817(class298, i_26_);
-			}
-		}
-	}
-
 	public String method5770(int i, String string, int i_27_) {
 		try {
 			if (((ObjectDefinitions) this).aClass437_5435 == null)
@@ -559,8 +376,8 @@ public class ObjectDefinitions {
 				return true;
 			boolean bool = true;
 			synchronized (((Class433) ((ObjectDefinitions) this).aClass433_5403).aClass243_5447) {
-				for (int i_29_ = 0; i_29_ < shapes.length; i_29_++) {
-					if (shapes[i_29_] == i) {
+				for (int i_29_ = 0; i_29_ < aByteArray5430.length; i_29_++) {
+					if (aByteArray5430[i_29_] == i) {
 						for (int i_30_ = 0; i_30_ < modelIds[i_29_].length; i_30_++) {
 							if (!((Class433) ((ObjectDefinitions) this).aClass433_5403).aClass243_5447.method2290(modelIds[i_29_][i_30_], 0, -1404450418))
 								bool = false;
@@ -609,7 +426,7 @@ public class ObjectDefinitions {
 		try {
 			if (Class355.method4261(i_35_, 1883717056))
 				i_35_ = Class424.aClass424_6596.anInt6613 * -1976050083;
-			long l = (long) (i_36_ + ((i_35_ << 3) + (1181652947 * id << 10)));
+			long l = (long) (i_36_ + ((i_35_ << 3) + (1181652947 * anInt5365 << 10)));
 			int i_42_ = i;
 			l |= (long) (class_ra.anInt5298 * 580915349 << 29);
 			if (null != class435)
@@ -701,10 +518,10 @@ public class ObjectDefinitions {
 			if (((ObjectDefinitions) this).aByte5377 != 0)
 				i |= 0x80000;
 			Class387 class387 = null;
-			if (null != shapes) {
+			if (null != aByteArray5430) {
 				int i_49_ = -1;
-				for (int i_50_ = 0; i_50_ < shapes.length; i_50_++) {
-					if (i_43_ == shapes[i_50_]) {
+				for (int i_50_ = 0; i_50_ < aByteArray5430.length; i_50_++) {
+					if (i_43_ == aByteArray5430[i_50_]) {
 						i_49_ = i_50_;
 						break;
 					}
@@ -846,7 +663,7 @@ public class ObjectDefinitions {
 		try {
 			if (1532834983 * anInt5382 == -1) {
 				anInt5382 = 0;
-				if (null != shapes && 1 == shapes.length && (shapes[0] == Class424.aClass424_6611.anInt6613 * -1976050083))
+				if (null != aByteArray5430 && 1 == aByteArray5430.length && (aByteArray5430[0] == Class424.aClass424_6611.anInt6613 * -1976050083))
 					anInt5382 = 455422743;
 				for (int i_63_ = 0; i_63_ < 5; i_63_++) {
 					if (null != aStringArray5394[i_63_]) {
@@ -907,7 +724,7 @@ public class ObjectDefinitions {
 		}
 	}
 
-	void decode(RsByteBuffer class298_sub53, int i) {
+	void method5783(RsByteBuffer class298_sub53, int i) {
 		try {
 			for (;;) {
 				int i_66_ = class298_sub53.readUnsignedByte();
@@ -1006,7 +823,7 @@ public class ObjectDefinitions {
 		try {
 			if (Class355.method4261(i_69_, -1998635010))
 				i_69_ = Class424.aClass424_6596.anInt6613 * -1976050083;
-			long l = (long) ((1181652947 * id << 10) + (i_69_ << 3) + i_70_);
+			long l = (long) ((1181652947 * anInt5365 << 10) + (i_69_ << 3) + i_70_);
 			l |= (long) (class_ra.anInt5298 * 580915349 << 29);
 			if (class435 != null)
 				l |= (2595045048596347611L * ((Class435) class435).aLong5460 << 32);

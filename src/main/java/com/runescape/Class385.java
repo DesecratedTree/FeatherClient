@@ -44,14 +44,14 @@ public class Class385 {
 
 	void method4705(GraphicsToolkit class_ra, Class385 class385_1_, Class385 class385_2_, float f, int i) {
 		try {
-			((Class385) this).anInt4133 = BASType.method4215((-1951302757 * ((Class385) class385_1_).anInt4133), (((Class385) class385_2_).anInt4133 * -1951302757), f * 255.0F, -394247366) * 743535251;
+			((Class385) this).anInt4133 = Class350.method4215((-1951302757 * ((Class385) class385_1_).anInt4133), (((Class385) class385_2_).anInt4133 * -1951302757), f * 255.0F, -394247366) * 743535251;
 			((Class385) this).aFloat4131 = (f * (((Class385) class385_2_).aFloat4131 - ((Class385) class385_1_).aFloat4131) + ((Class385) class385_1_).aFloat4131);
 			((Class385) this).aFloat4137 = ((((Class385) class385_2_).aFloat4137 - ((Class385) class385_1_).aFloat4137) * f + ((Class385) class385_1_).aFloat4137);
 			((Class385) this).aFloat4130 = (f * (((Class385) class385_2_).aFloat4130 - ((Class385) class385_1_).aFloat4130) + ((Class385) class385_1_).aFloat4130);
 			((Class385) this).aFloat4132 = ((((Class385) class385_2_).aFloat4132 - ((Class385) class385_1_).aFloat4132) * f + ((Class385) class385_1_).aFloat4132);
 			((Class385) this).aFloat4139 = (((Class385) class385_1_).aFloat4139 + f * (((Class385) class385_2_).aFloat4139 - ((Class385) class385_1_).aFloat4139));
 			((Class385) this).aFloat4138 = (((Class385) class385_1_).aFloat4138 + f * (((Class385) class385_2_).aFloat4138 - ((Class385) class385_1_).aFloat4138));
-			((Class385) this).anInt4134 = BASType.method4215((((Class385) class385_1_).anInt4134 * -1269717659), (-1269717659 * ((Class385) class385_2_).anInt4134), f * 255.0F, 561967704) * -316996499;
+			((Class385) this).anInt4134 = Class350.method4215((((Class385) class385_1_).anInt4134 * -1269717659), (-1269717659 * ((Class385) class385_2_).anInt4134), f * 255.0F, 561967704) * -316996499;
 			((Class385) this).anInt4135 = (1820271565 * (int) ((float) (((Class385) class385_1_).anInt4135 * -1939701499) + f * (float) ((((Class385) class385_2_).anInt4135 * -1939701499) - (((Class385) class385_1_).anInt4135) * -1939701499)));
 			if (((Class385) class385_1_).aClass66_4136 != ((Class385) class385_2_).aClass66_4136)
 				((Class385) this).aClass66_4136 = class_ra.method5179((((Class385) class385_1_).aClass66_4136), (((Class385) class385_2_).aClass66_4136), f, ((Class385) this).aClass66_4136);

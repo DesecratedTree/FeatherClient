@@ -200,8 +200,8 @@ public class Player extends Entity {
 			if (((Player) this).aClass351_10067 != null)
 				((Player) this).aClass351_10067.method4220();
 			if (aClass438_10077.method5819((byte) -68) && aBoolean10094) {
-				BASType BASType = method4426(-244281365);
-				if (!BASType.method4209(aClass438_10077.method5823(1971304294), (byte) -15)) {
+				Class350 class350 = method4426(-244281365);
+				if (!class350.method4209(aClass438_10077.method5823(1971304294), (byte) -15)) {
 					aClass438_10077.method5821(-1, -2110667700);
 					aBoolean10094 = false;
 				}
@@ -238,8 +238,8 @@ public class Player extends Entity {
 			Class335 class335 = null;
 			((Player) this).aBoolean10129 = false;
 			if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub18_7561.method5693(-591782935) == 1) {
-				BASType BASType = method4426(-97958061);
-				if (BASType.aBoolean3756 && (164936249 * aClass366_10209.anInt3974 == -1 || (Class15.aClass507_224.method6269(aClass366_10209.anInt3974 * 164936249, -465726953).aBoolean6165))) {
+				Class350 class350 = method4426(-97958061);
+				if (class350.aBoolean3756 && (164936249 * aClass366_10209.anInt3974 == -1 || (Class15.aClass507_224.method6269(aClass366_10209.anInt3974 * 164936249, -465726953).aBoolean6165))) {
 					Class438 class438 = ((aClass438_10078.method5819((byte) -70) && aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 					Class438 class438_29_ = ((aClass438_10077.method5819((byte) -61) && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
 					Class387 class387 = (Class283.method2678(class_ra, i_27_, -155466425 * (((Player) this).anInt10097), -197572281 * (((Player) this).anInt10073), -104151209 * (((Player) this).anInt10074), 1, aClass387Array10082[0], 0, 0, 160, 240, class438_29_ != null ? class438_29_ : class438, 1812843484));
@@ -339,12 +339,12 @@ public class Player extends Entity {
 	boolean method4469(GraphicsToolkit class_ra, int i, byte i_45_) {
 		try {
 			int i_46_ = i;
-			BASType BASType = method4426(1841046440);
+			Class350 class350 = method4426(1841046440);
 			Class438 class438 = ((aClass438_10078.method5819((byte) -54) && !aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 			Class438 class438_47_ = ((aClass438_10077.method5819((byte) -28) && !aBoolean10207 && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
-			int i_48_ = BASType.anInt3735 * 250567115;
-			int i_49_ = 1110265995 * BASType.anInt3736;
-			if (i_48_ != 0 || 0 != i_49_ || BASType.anInt3748 * 1185872679 != 0 || 0 != -330229359 * BASType.anInt3751)
+			int i_48_ = class350.anInt3735 * 250567115;
+			int i_49_ = 1110265995 * class350.anInt3736;
+			if (i_48_ != 0 || 0 != i_49_ || class350.anInt3748 * 1185872679 != 0 || 0 != -330229359 * class350.anInt3751)
 				i |= 0x7;
 			int i_50_ = aClass386_10084.method4719((byte) 0);
 			boolean bool = (0 != aByte10130 && 443738891 * client.anInt8884 >= anInt10105 * 1920148979 && 443738891 * client.anInt8884 < 1953154657 * anInt10106);
@@ -372,7 +372,7 @@ public class Player extends Entity {
 			class387.n();
 			method4423(class387, 839093609);
 			if (i_48_ != 0 || 0 != i_49_) {
-				method4425(i_50_, i_48_, i_49_, BASType.anInt3734 * -947990311, 1869548445 * BASType.anInt3740, 1427427127);
+				method4425(i_50_, i_48_, i_49_, class350.anInt3734 * -947990311, 1869548445 * class350.anInt3740, 1427427127);
 				if ((((Player) this).anInt10097 * -155466425) != 0)
 					class387.t(-155466425 * ((Player) this).anInt10097);
 				if ((((Player) this).anInt10073 * -197572281) != 0)
@@ -384,7 +384,7 @@ public class Player extends Entity {
 			if (bool)
 				class387.PA(aByte10117, aByte10108, aByte10109, aByte10130 & 0xff);
 			if (!aBoolean10207)
-				method4424(class_ra, BASType, i_46_, i_48_, i_49_, i_50_, 1438640232);
+				method4424(class_ra, class350, i_46_, i_48_, i_49_, i_50_, 1438640232);
 			return true;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("akm.gx(").append(')').toString());
@@ -595,8 +595,8 @@ public class Player extends Entity {
 		Class335 class335 = null;
 		((Player) this).aBoolean10129 = false;
 		if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub18_7561.method5693(-1650118723) == 1) {
-			BASType BASType = method4426(-231420914);
-			if (BASType.aBoolean3756 && (164936249 * aClass366_10209.anInt3974 == -1 || (Class15.aClass507_224.method6269(aClass366_10209.anInt3974 * 164936249, -824172978).aBoolean6165))) {
+			Class350 class350 = method4426(-231420914);
+			if (class350.aBoolean3756 && (164936249 * aClass366_10209.anInt3974 == -1 || (Class15.aClass507_224.method6269(aClass366_10209.anInt3974 * 164936249, -824172978).aBoolean6165))) {
 				Class438 class438 = ((aClass438_10078.method5819((byte) -76) && aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 				Class438 class438_76_ = ((aClass438_10077.method5819((byte) -39) && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
 				Class387 class387 = (Class283.method2678(class_ra, i, (-155466425 * ((Player) this).anInt10097), (-197572281 * ((Player) this).anInt10073), (-104151209 * ((Player) this).anInt10074), 1, aClass387Array10082[0], 0, 0, 160, 240, class438_76_ != null ? class438_76_ : class438, 1812843484));

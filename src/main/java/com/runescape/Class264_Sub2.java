@@ -336,7 +336,7 @@ public class Class264_Sub2 extends Class264 {
 			Class508.aClass162_6216 = null;
 			Class225.aClass162_2512 = null;
 			Class375.aClass298_Sub25_4084 = null;
-			BASType.aClass298_Sub25_3757 = null;
+			Class350.aClass298_Sub25_3757 = null;
 			Class_xa.aClass396_6291 = null;
 			Class365_Sub1_Sub2_Sub1.aLong9911 = 0L;
 			Class194.method1868(2025307040);

@@ -193,14 +193,14 @@ public class Class401 implements Interface21 {
 					if (1806357379 * client.playerRights > 0 && Class434.method5802(1267311211))
 						Class476.method6083((Class287.myPlayer.plane), i_32_ + -1760580017 * class341.gameSceneBaseX, i_33_ + class341.gameSceneBaseY * 283514611, 2043472934);
 					else {
-						Class277.sendWalkPacket(i_35_, BASType.method4214(i_32_, i_33_, (short) 808));
+						Class277.sendWalkPacket(i_35_, Class350.method4214(i_32_, i_33_, (short) 808));
 						if (i_35_ == 0) {
 							client.anInt8784 = i * 143636043;
 							client.anInt8785 = i_30_ * 381532777;
 							client.anInt8748 = 277162405;
 							client.anInt8786 = 0;
 						}
-						Class82_Sub21.method938(i_32_, i_33_, true, BASType.method4214(i_32_, i_33_, (short) 808), -1776617382);
+						Class82_Sub21.method938(i_32_, i_33_, true, Class350.method4214(i_32_, i_33_, (short) 808), -1776617382);
 
 					}
 				}
@@ -244,7 +244,7 @@ public class Class401 implements Interface21 {
 					class298_sub36.aClass298_Sub53_Sub2_7396.writeShort128(client.anInt8906 * 1408085039);
 					class298_sub36.aClass298_Sub53_Sub2_7396.writeShortLE(class341.gameSceneBaseX * -1760580017 + i_32_, 1993411127);
 					client.aClass25_8711.method390(class298_sub36, (byte) -125);
-					Class82_Sub21.method938(i_32_, i_33_, true, BASType.method4214(i_32_, i_33_, (short) 808), -1460658515);
+					Class82_Sub21.method938(i_32_, i_33_, true, Class350.method4214(i_32_, i_33_, (short) 808), -1460658515);
 				}
 				if (i_34_ == 57 || i_34_ == 1007)
 					Class301_Sub1.method3713(i_35_, i_33_, i_32_, (((Class298_Sub37_Sub15) class298_sub37_sub15).aString9657), 400950689);

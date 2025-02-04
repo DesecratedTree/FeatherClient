@@ -6,7 +6,7 @@ package com.runescape;
 public class Class349 {
 	CachingHashMap aClass348_3706 = new CachingHashMap(64);
 	Class405 aClass405_3707;
-	public static BASType aBASType_3708 = new BASType();
+	public static Class350 aClass350_3708 = new Class350();
 	CacheIndex aClass243_3709;
 
 	public void method4199(int i) {
@@ -39,27 +39,26 @@ public class Class349 {
 		}
 	}
 
-	public BASType method4202(int i, byte i_1_) {
+	public Class350 method4202(int i, byte i_1_) {
 		try {
-			BASType BASType;
+			Class350 class350;
 			synchronized (((Class349) this).aClass348_3706) {
-				BASType = (BASType) ((Class349) this).aClass348_3706.get((long) i);
+				class350 = (Class350) ((Class349) this).aClass348_3706.get((long) i);
 			}
-			if (BASType != null)
-				return BASType;
+			if (class350 != null)
+				return class350;
 			byte[] is;
 			synchronized (((Class349) this).aClass243_3709) {
 				is = (((Class349) this).aClass243_3709.getFileFromArchive(-1006924897 * Class120.aClass120_1437.anInt1460, i, (byte) -42));
 			}
-			BASType = new BASType();
-			BASType.osrs = i >= OSRSData.BAS_OFFSET;
-			((BASType) BASType).aClass349_3725 = this;
+			class350 = new Class350();
+			((Class350) class350).aClass349_3725 = this;
 			if (null != is)
-				BASType.method4211(new RsByteBuffer(is), 162499609);
+				class350.method4211(new RsByteBuffer(is), 162499609);
 			synchronized (((Class349) this).aClass348_3706) {
-				((Class349) this).aClass348_3706.method4194(BASType, (long) i);
+				((Class349) this).aClass348_3706.method4194(class350, (long) i);
 			}
-			return BASType;
+			return class350;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("oo.a(").append(')').toString());
 		}

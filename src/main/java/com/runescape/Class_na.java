@@ -53,7 +53,7 @@ public abstract class Class_na extends Class298_Sub37 {
 
 	public static final void method3479(boolean bool, int i, byte i_2_) {
 		try {
-			Class298_Sub25 class298_sub25 = (bool ? BASType.aClass298_Sub25_3757 : Class375.aClass298_Sub25_4084);
+			Class298_Sub25 class298_sub25 = (bool ? Class350.aClass298_Sub25_3757 : Class375.aClass298_Sub25_4084);
 			if (null != class298_sub25 && i >= 0 && i < 649879491 * class298_sub25.anInt7356) {
 				Class163 class163 = class298_sub25.aClass163Array7359[i];
 				if (-1 == class163.aByte1683) {

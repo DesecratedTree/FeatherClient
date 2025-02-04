@@ -74,11 +74,11 @@ public class NPC extends Entity {
 				((NPC) this).anInt10122 = (int) ((float) (-661498661 * (((NPC) this).anInt10122)) - (float) ((((NPC) this).anInt10122) * -661498661) / 10.0F) * 1394444115;
 			class222_2_.method2070(class222);
 			class222_2_.method2064(0.0F, (float) (-20 - ((NPC) this).anInt10122 * -661498661), 0.0F);
-			BASType BASType = method4426(1744135386);
+			Class350 class350 = method4426(1744135386);
 			NPCDefinitions class503 = (aClass503_10190.anIntArray6188 != null ? aClass503_10190.method6240(Class128.aClass148_6331, 1631739764) : aClass503_10190);
 			((NPC) this).aBoolean10129 = false;
 			Class335 class335 = null;
-			if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub18_7561.method5693(-1104068428) == 1 && class503.aBoolean6165 && BASType.aBoolean3756) {
+			if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub18_7561.method5693(-1104068428) == 1 && class503.aBoolean6165 && class350.aBoolean3756) {
 				Class438 class438 = ((aClass438_10078.method5819((byte) -29) && aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 				Class438 class438_5_ = ((aClass438_10077.method5819((byte) -63) && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
 				Class387 class387 = (Class283.method2678(class_ra, i_3_, (((NPC) this).anInt10097 * -155466425), (-197572281 * ((NPC) this).anInt10073), (-104151209 * ((NPC) this).anInt10074), -2095128707 * aClass503_10190.anInt6187, aClass387Array10082[0], aClass503_10190.aShort6191 & 0xffff, aClass503_10190.aShort6153 & 0xffff, aClass503_10190.aByte6168 & 0xff, aClass503_10190.aByte6152 & 0xff, null != class438_5_ ? class438_5_ : class438, 1812843484));
@@ -123,12 +123,12 @@ public class NPC extends Entity {
 	boolean method4454(GraphicsToolkit class_ra, int i, int i_8_) {
 		try {
 			int i_9_ = i;
-			BASType BASType = method4426(979705538);
+			Class350 class350 = method4426(979705538);
 			Class438 class438 = ((aClass438_10078.method5819((byte) -97) && !aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 			Class438 class438_10_ = ((aClass438_10077.method5819((byte) -121) && (!aBoolean10094 || null == class438)) ? aClass438_10077 : null);
-			int i_11_ = 250567115 * BASType.anInt3735;
-			int i_12_ = 1110265995 * BASType.anInt3736;
-			if (0 != i_11_ || i_12_ != 0 || BASType.anInt3748 * 1185872679 != 0 || -330229359 * BASType.anInt3751 != 0)
+			int i_11_ = 250567115 * class350.anInt3735;
+			int i_12_ = 1110265995 * class350.anInt3736;
+			if (0 != i_11_ || i_12_ != 0 || class350.anInt3748 * 1185872679 != 0 || -330229359 * class350.anInt3751 != 0)
 				i |= 0x7;
 			boolean bool = (0 != aByte10130 && 443738891 * client.anInt8884 >= anInt10105 * 1920148979 && client.anInt8884 * 443738891 < anInt10106 * 1953154657);
 			if (bool)
@@ -141,7 +141,7 @@ public class NPC extends Entity {
 			class387.n();
 			method4423(class387, 839093609);
 			if (0 != i_11_ || i_12_ != 0) {
-				method4425(i_13_, i_11_, i_12_, -947990311 * BASType.anInt3734, 1869548445 * BASType.anInt3740, 1232740545);
+				method4425(i_13_, i_11_, i_12_, -947990311 * class350.anInt3734, 1869548445 * class350.anInt3740, 1232740545);
 				if (0 != (((NPC) this).anInt10097 * -155466425))
 					aClass387Array10082[0].t(((NPC) this).anInt10097 * -155466425);
 				if ((((NPC) this).anInt10073 * -197572281) != 0)
@@ -152,7 +152,7 @@ public class NPC extends Entity {
 				method4425(i_13_, getSize() << 9, getSize() << 9, 0, 0, 1757570363);
 			if (bool)
 				class387.PA(aByte10117, aByte10108, aByte10109, aByte10130 & 0xff);
-			method4424(class_ra, BASType, i_9_, i_11_, i_12_, i_13_, 614564932);
+			method4424(class_ra, class350, i_9_, i_11_, i_12_, i_13_, 614564932);
 			return true;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ake.gx(").append(')').toString());
@@ -476,11 +476,11 @@ public class NPC extends Entity {
 			((NPC) this).anInt10122 = (int) ((float) (-661498661 * (((NPC) this).anInt10122)) - (float) ((((NPC) this).anInt10122) * -661498661) / 10.0F) * 1394444115;
 		class222_41_.method2070(class222);
 		class222_41_.method2064(0.0F, (float) (-20 - ((NPC) this).anInt10122 * -661498661), 0.0F);
-		BASType BASType = method4426(1676580874);
+		Class350 class350 = method4426(1676580874);
 		NPCDefinitions class503 = (aClass503_10190.anIntArray6188 != null ? aClass503_10190.method6240(Class128.aClass148_6331, 1779938932) : aClass503_10190);
 		((NPC) this).aBoolean10129 = false;
 		Class335 class335 = null;
-		if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub18_7561.method5693(-1718454976) == 1 && class503.aBoolean6165 && BASType.aBoolean3756) {
+		if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub18_7561.method5693(-1718454976) == 1 && class503.aBoolean6165 && class350.aBoolean3756) {
 			Class438 class438 = ((aClass438_10078.method5819((byte) -38) && aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 			Class438 class438_43_ = ((aClass438_10077.method5819((byte) -86) && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
 			Class387 class387 = (Class283.method2678(class_ra, i, (((NPC) this).anInt10097 * -155466425), (-197572281 * ((NPC) this).anInt10073), (-104151209 * ((NPC) this).anInt10074), -2095128707 * aClass503_10190.anInt6187, aClass387Array10082[0], aClass503_10190.aShort6191 & 0xffff, aClass503_10190.aShort6153 & 0xffff, aClass503_10190.aByte6168 & 0xff, aClass503_10190.aByte6152 & 0xff, null != class438_43_ ? class438_43_ : class438, 1812843484));

@@ -330,7 +330,7 @@ public class Class453 implements Iterable, Collection {
 	public static void method5951(int i, int i_7_, int i_8_, ObjectDefinitions class432, int i_9_) {
 		try {
 			for (Class298_Sub41 class298_sub41 = ((Class298_Sub41) Class298_Sub41.aClass453_7421.method5939(1766612795)); null != class298_sub41; class298_sub41 = ((Class298_Sub41) Class298_Sub41.aClass453_7421.method5944(49146))) {
-				if (i == (-1926928785 * ((Class298_Sub41) class298_sub41).anInt7424) && (((Class298_Sub41) class298_sub41).anInt7425 * -1808325887) == i_7_ << 9 && (((Class298_Sub41) class298_sub41).anInt7423 * 757346071 == i_8_ << 9) && (class432.id * 1181652947 == (((Class298_Sub41) class298_sub41).aClass432_7435.id) * 1181652947)) {
+				if (i == (-1926928785 * ((Class298_Sub41) class298_sub41).anInt7424) && (((Class298_Sub41) class298_sub41).anInt7425 * -1808325887) == i_7_ << 9 && (((Class298_Sub41) class298_sub41).anInt7423 * 757346071 == i_8_ << 9) && (class432.anInt5365 * 1181652947 == (((Class298_Sub41) class298_sub41).aClass432_7435.anInt5365) * 1181652947)) {
 					if (null != (((Class298_Sub41) class298_sub41).aClass298_Sub19_Sub2_7447)) {
 						Class285.aClass298_Sub19_Sub4_3083.method3048(((Class298_Sub41) class298_sub41).aClass298_Sub19_Sub2_7447);
 						((Class298_Sub41) class298_sub41).aClass298_Sub19_Sub2_7447 = null;

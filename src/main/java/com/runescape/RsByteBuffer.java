@@ -139,14 +139,6 @@ public class RsByteBuffer extends Class298 {
 		}
 	}
 
-	public byte g1s() {
-		try {
-			return buffer[(index += 116413311) * 385051775 - 1];
-		} catch (RuntimeException runtimeexception) {
-			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.ak(").append(')').toString());
-		}
-	}
-
 	public byte readByte(int i) {
 		try {
 			return buffer[(index += 116413311) * 385051775 - 1];
@@ -223,21 +215,6 @@ public class RsByteBuffer extends Class298 {
 			int i_14_ = index * 385051775 - i_13_ - 1;
 			if (i_14_ == 0)
 				return "";
-			return Class52.method556(buffer, i_13_, i_14_, 964250329);
-		} catch (RuntimeException runtimeexception) {
-			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.af(").append(')').toString());
-		}
-	}
-
-	public String gstr() {
-		try {
-			int i_13_ = 385051775 * index;
-			while (buffer[(index += 116413311) * 385051775 - 1] != 0) {
-			}
-			int i_14_ = index * 385051775 - i_13_ - 1;
-			if (i_14_ == 0) {
-				return "";
-			}
 			return Class52.method556(buffer, i_13_, i_14_, 964250329);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.af(").append(')').toString());
@@ -407,24 +384,6 @@ public class RsByteBuffer extends Class298 {
 			return ((buffer[385051775 * index - 1] & 0xff) + (((buffer[index * 385051775 - 3] & 0xff) << 16) + ((buffer[385051775 * index - 2] & 0xff) << 8)));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.ad(").append(')').toString());
-		}
-	}
-
-	public int g3() {
-		try {
-			index += 349239933;
-			return (buffer[385051775 * index - 1] & 0xff) + ((buffer[index * 385051775 - 3] & 0xff) << 16) + ((buffer[385051775 * index - 2] & 0xff) << 8);
-		} catch (RuntimeException runtimeexception) {
-			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.ad(").append(')').toString());
-		}
-	}
-
-	public int g4() {
-		try {
-			index += 465653244;
-			return ((buffer[385051775 * index - 3] & 0xff) << 16) + ((buffer[385051775 * index - 4] & 0xff) << 24) + ((buffer[index * 385051775 - 2] & 0xff) << 8) + (buffer[385051775 * index - 1] & 0xff);
-		} catch (RuntimeException runtimeexception) {
-			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.at(").append(')').toString());
 		}
 	}
 

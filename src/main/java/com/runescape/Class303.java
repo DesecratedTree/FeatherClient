@@ -78,7 +78,7 @@ public class Class303 {
 			int i_10_ = class365_sub1_sub1_sub2_sub2.scenePositionXQueue[0];
 			int i_11_ = class365_sub1_sub1_sub2_sub2.scenePositionYQueue[0];
 			if (i_10_ >= 0 && i_10_ < client.aClass283_8716.method2629(-2022633621) && i_11_ >= 0 && i_11_ < client.aClass283_8716.method2630(211521322) && (i >= 0 && i < client.aClass283_8716.method2629(-2074801405) && i_7_ >= 0 && i_7_ < client.aClass283_8716.method2630(1180671988))) {
-				int i_12_ = (Class298_Sub37.calculateRoute(i_10_, i_11_, class365_sub1_sub1_sub2_sub2.getSize(), BASType.method4214(i, i_7_, (short) 808), (client.aClass283_8716.getSceneClipDataPlane(class365_sub1_sub1_sub2_sub2.plane)), true, client.calculatedScenePositionXs, client.calculatedScenePositionYs));
+				int i_12_ = (Class298_Sub37.calculateRoute(i_10_, i_11_, class365_sub1_sub1_sub2_sub2.getSize(), Class350.method4214(i, i_7_, (short) 808), (client.aClass283_8716.getSceneClipDataPlane(class365_sub1_sub1_sub2_sub2.plane)), true, client.calculatedScenePositionXs, client.calculatedScenePositionYs));
 				if (i_12_ >= 1 && i_12_ <= 3) {
 					for (int i_13_ = 0; i_13_ < i_12_ - 1; i_13_++)
 						class365_sub1_sub1_sub2_sub2.method4473(client.calculatedScenePositionXs[i_13_], client.calculatedScenePositionYs[i_13_], i_8_, (byte) 55);

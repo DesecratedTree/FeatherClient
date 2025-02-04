@@ -136,40 +136,35 @@ public class Class433 {
 
 	public ObjectDefinitions getObjectDefinitions(int objectId) {
 		try {
-			ObjectDefinitions type;
+			ObjectDefinitions class432;
 			synchronized (((Class433) this).aClass348_5449) {
-				type = (ObjectDefinitions) ((Class433) this).aClass348_5449.get((long) objectId);
+				class432 = (ObjectDefinitions) ((Class433) this).aClass348_5449.get((long) objectId);
 			}
-			if (type != null)
-				return type;
-			byte[] data;
+			if (class432 != null)
+				return class432;
+			byte[] is;
 			synchronized (((Class433) this).aClass243_5446) {
-				data = (((Class433) this).aClass243_5446.getFileFromArchive(Class120.aClass120_1443.method1307(objectId, -1875026798), Class120.aClass120_1443.method1305(objectId, -1955117131), (byte) -69));
+				is = (((Class433) this).aClass243_5446.getFileFromArchive(Class120.aClass120_1443.method1307(objectId, -1875026798), Class120.aClass120_1443.method1305(objectId, -1955117131), (byte) -69));
 			}
-			type = new ObjectDefinitions();
-			type.id = objectId * -950871973;
-			((ObjectDefinitions) type).aClass433_5403 = this;
-			type.aStringArray5394 = (String[]) ((Class433) this).aStringArray5454.clone();
-			if (null != data){
-				if (objectId >= OSRSData.LOCS_OFFSET) {
-					type.decodeOSRS(new RsByteBuffer(data));
-				} else {
-					type.decode(new RsByteBuffer(data), -1780393822);
-				}
+			class432 = new ObjectDefinitions();
+			class432.anInt5365 = objectId * -950871973;
+			((ObjectDefinitions) class432).aClass433_5403 = this;
+			class432.aStringArray5394 = (String[]) ((Class433) this).aStringArray5454.clone();
+			if (null != is)
+				class432.method5783(new RsByteBuffer(is), -1780393822);
+			class432.method5778(-231037911);
+			if (class432.aBoolean5416) {
+				class432.anInt5380 = 0;
+				class432.aBoolean5424 = false;
 			}
-			type.method5778(-231037911);
-			if (type.aBoolean5416) {
-				type.anInt5380 = 0;
-				type.aBoolean5424 = false;
-			}
-			if (!((Class433) this).aBoolean5445 && type.aBoolean5434) {
-				type.aStringArray5394 = null;
-				type.anIntArray5370 = null;
+			if (!((Class433) this).aBoolean5445 && class432.aBoolean5434) {
+				class432.aStringArray5394 = null;
+				class432.anIntArray5370 = null;
 			}
 			synchronized (((Class433) this).aClass348_5449) {
-				((Class433) this).aClass348_5449.method4194(type, (long) objectId);
+				((Class433) this).aClass348_5449.method4194(class432, (long) objectId);
 			}
-			return type;
+			return class432;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("rx.a(").append(')').toString());
 		}
