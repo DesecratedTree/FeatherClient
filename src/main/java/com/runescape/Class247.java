@@ -181,7 +181,7 @@ public abstract class Class247 {
 				return 1;
 			if (Class398.method4920(i_5_, (short) 300))
 				return 2;
-			if (SeqTypeList.method4907(i_5_, (byte) 55))
+			if (Class395.method4907(i_5_, (byte) 55))
 				return 3;
 			if (Class302.method3716(i_5_, -1710245740))
 				return 4;

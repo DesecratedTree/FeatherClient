@@ -48,7 +48,7 @@ public class Class313 {
 					if (class503 != null)
 						is = class503.anIntArray6131;
 				}
-			} else if (SeqTypeList.method4907((((Class298_Sub37_Sub15) class298_sub37_sub15).anInt9662 * 946432351), (byte) -114)) {
+			} else if (Class395.method4907((((Class298_Sub37_Sub15) class298_sub37_sub15).anInt9662 * 946432351), (byte) -114)) {
 				ObjectDefinitions class432 = (client.aClass283_8716.method2641(150013546).getObjectDefinitions((int) (2236412381003659263L * (((Class298_Sub37_Sub15) class298_sub37_sub15).aLong9661) >>> 32 & 0x7fffffffL)));
 				if (class432.anIntArray5366 != null)
 					class432 = class432.method5777(Class128.aClass148_6331, 1956265286);

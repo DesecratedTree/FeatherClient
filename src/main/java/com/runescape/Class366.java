@@ -123,7 +123,7 @@ public class Class366 {
 		}
 	}
 
-	public Class387 method4543(GraphicsToolkit class_ra, int i, Class144 class144, Class507 class507, Class477 class477, SeqTypeList seqTypeList, Interface23 interface23, Class438 class438, int i_15_) {
+	public Class387 method4543(GraphicsToolkit class_ra, int i, Class144 class144, Class507 class507, Class477 class477, Class395 class395, Interface23 interface23, Class438 class438, int i_15_) {
 		try {
 			if (-1 != anInt3974 * 164936249)
 				return (class507.method6269(anInt3974 * 164936249, 491367243).method6237(class_ra, i, interface23, class438, null, -218177955));
@@ -191,7 +191,7 @@ public class Class366 {
 		}
 	}
 
-	public Class387 method4544(GraphicsToolkit class_ra, int i, Class144 class144, SeqTypeList seqTypeList, Class438 class438, int i_26_, int i_27_, int i_28_, byte i_29_) {
+	public Class387 method4544(GraphicsToolkit class_ra, int i, Class144 class144, Class395 class395, Class438 class438, int i_26_, int i_27_, int i_28_, byte i_29_) {
 		try {
 			int i_30_ = class438 != null ? i | class438.method5829(-1790708337) : i;
 			long l = (long) i_28_ << 32 | (long) (i_27_ << 16) | (long) i_26_;
@@ -244,7 +244,7 @@ public class Class366 {
 		}
 	}
 
-	public Class387 method4545(GraphicsToolkit class_ra, int i, Class349 class349, Class144 class144, Class507 class507, Class477 class477, SeqTypeList seqTypeList, Interface23 interface23, Class438 class438, Class438 class438_35_, Class438[] class438s, int[] is, int i_36_, boolean bool, Class405 class405, int i_37_) {
+	public Class387 method4545(GraphicsToolkit class_ra, int i, Class349 class349, Class144 class144, Class507 class507, Class477 class477, Class395 class395, Interface23 interface23, Class438 class438, Class438 class438_35_, Class438[] class438s, int[] is, int i_36_, boolean bool, Class405 class405, int i_37_) {
 		try {
 			if (anInt3974 * 164936249 != -1)
 				return (class507.method6269(anInt3974 * 164936249, 1899433887).method6246(class_ra, i, class349, interface23, class438, class438_35_, class438s, is, i_36_, null, -884053309));
@@ -254,34 +254,34 @@ public class Class366 {
 			boolean bool_40_ = false;
 			boolean bool_41_ = false;
 			if (null != class438) {
-				SeqType seqType = class438.method5820(28542107);
-				if (null != seqType && (609841829 * seqType.mainhandObj >= 0 || 1548903495 * seqType.offhandObj >= 0)) {
+				Class391 class391 = class438.method5820(28542107);
+				if (null != class391 && (609841829 * class391.anInt4179 >= 0 || 1548903495 * class391.anInt4180 >= 0)) {
 					is_39_ = new int[((Class366) this).anIntArray3969.length];
 					for (int i_42_ = 0; i_42_ < is_39_.length; i_42_++)
 						is_39_[i_42_] = ((Class366) this).anIntArray3969[i_42_];
-					if (seqType.mainhandObj * 609841829 >= 0 && -1 != -817429509 * class405.anInt5266) {
+					if (class391.anInt4179 * 609841829 >= 0 && -1 != -817429509 * class405.anInt5266) {
 						bool_40_ = true;
-						if (65535 == seqType.mainhandObj * 609841829) {
+						if (65535 == class391.anInt4179 * 609841829) {
 							is_39_[-817429509 * class405.anInt5266] = 0;
 							for (int i_43_ = 0; i_43_ < class405.anIntArray5272.length; i_43_++)
 								is_39_[class405.anIntArray5272[i_43_]] = 0;
 							l ^= ~0xffffffffL;
 						} else {
-							is_39_[-817429509 * class405.anInt5266] = 609841829 * seqType.mainhandObj | 0x40000000;
+							is_39_[-817429509 * class405.anInt5266] = 609841829 * class391.anInt4179 | 0x40000000;
 							for (int i_44_ = 0; i_44_ < class405.anIntArray5272.length; i_44_++)
 								is_39_[class405.anIntArray5272[i_44_]] = 0;
 							l ^= (long) is_39_[(class405.anInt5266 * -817429509)] << 32;
 						}
 					}
-					if (1548903495 * seqType.offhandObj >= 0 && -1 != class405.anInt5270 * -2126257265) {
+					if (1548903495 * class391.anInt4180 >= 0 && -1 != class405.anInt5270 * -2126257265) {
 						bool_41_ = true;
-						if (seqType.offhandObj * 1548903495 == 65535) {
+						if (class391.anInt4180 * 1548903495 == 65535) {
 							is_39_[-2126257265 * class405.anInt5270] = 0;
 							for (int i_45_ = 0; i_45_ < class405.anIntArray5273.length; i_45_++)
 								is_39_[class405.anIntArray5273[i_45_]] = 0;
 							l ^= 0xffffffffL;
 						} else {
-							is_39_[-2126257265 * class405.anInt5270] = 1548903495 * seqType.offhandObj | 0x40000000;
+							is_39_[-2126257265 * class405.anInt5270] = 1548903495 * class391.anInt4180 | 0x40000000;
 							for (int i_46_ = 0; i_46_ < class405.anIntArray5273.length; i_46_++)
 								is_39_[class405.anIntArray5273[i_46_]] = 0;
 							l ^= (long) (is_39_[-2126257265 * class405.anInt5270]);

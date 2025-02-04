@@ -365,7 +365,7 @@ public class Class422_Sub24 extends Class422 {
 										if (i_37_ >= 0 && i_37_ < 2048) {
 											Player class365_sub1_sub1_sub2_sub2 = (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[i_37_]);
 											if ((null != class365_sub1_sub1_sub2_sub2) && (((-442628795 * client.playerIndex) == i_37_) || ((Class525.method6379((class365_sub1_sub1_sub2_sub2.aString10195), (byte) 125)) == (1148770405 * (class105.anInt1140))))) {
-												class387 = (class105.method1124(Class373.aClass_ra4071, i_35_, Class94.aClass349_913, (Class212.aClass144_2433), Class15.aClass507_224, (Class298_Sub32_Sub14.aClass477_9400), (Class501.aSeqTypeList_6122), (Class128.aClass148_6331), (class105.aClass438_1152), (class365_sub1_sub1_sub2_sub2.aClass366_10209), -297118329));
+												class387 = (class105.method1124(Class373.aClass_ra4071, i_35_, Class94.aClass349_913, (Class212.aClass144_2433), Class15.aClass507_224, (Class298_Sub32_Sub14.aClass477_9400), (Class501.aClass395_6122), (Class128.aClass148_6331), (class105.aClass438_1152), (class365_sub1_sub1_sub2_sub2.aClass366_10209), -297118329));
 												if (null == class387 && IComponentDefinition.aBoolean1139)
 													Tradution.method6054(class105, 398619747);
 											}
@@ -375,18 +375,18 @@ public class Class422_Sub24 extends Class422 {
 										if (i_38_ >= 0 && i_38_ < 2048) {
 											Player class365_sub1_sub1_sub2_sub2 = (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[i_38_]);
 											if ((class365_sub1_sub1_sub2_sub2 != null) && (i_38_ == (client.playerIndex * -442628795) || ((Class525.method6379((class365_sub1_sub1_sub2_sub2.aString10195), (byte) 127)) == (class105.anInt1140 * 1148770405))))
-												class387 = (class365_sub1_sub1_sub2_sub2.aClass366_10209.method4545(Class373.aClass_ra4071, i_35_, Class94.aClass349_913, (Class212.aClass144_2433), Class15.aClass507_224, (Class298_Sub32_Sub14.aClass477_9400), (Class501.aSeqTypeList_6122), (Class128.aClass148_6331), (class105.aClass438_1152), null, null, null, 0, true, (Class82_Sub18.aClass405_6892), -933937677));
+												class387 = (class365_sub1_sub1_sub2_sub2.aClass366_10209.method4545(Class373.aClass_ra4071, i_35_, Class94.aClass349_913, (Class212.aClass144_2433), Class15.aClass507_224, (Class298_Sub32_Sub14.aClass477_9400), (Class501.aClass395_6122), (Class128.aClass148_6331), (class105.aClass438_1152), null, null, null, 0, true, (Class82_Sub18.aClass405_6892), -933937677));
 										}
 									} else if (8 == (class105.anInt1184 * 1548853569) || (class105.anInt1184 * 1548853569) == 9) {
 										Class298_Sub9 class298_sub9 = (Class255.method2437(572201537 * class105.anInt1151, false, 2023314319));
 										if (null != class298_sub9)
 											class387 = (class298_sub9.method2891(Class373.aClass_ra4071, i_35_, class105.aClass438_1152, (1148770405 * class105.anInt1140), 9 == (class105.anInt1184 * 1548853569), (class105.aBoolean1213 ? (Class287.myPlayer.aClass366_10209) : null), (byte) 1));
 									} else if (null == class105.aClass438_1152 || !(class105.aClass438_1152.method5819((byte) -99))) {
-										class387 = (class105.method1124(Class373.aClass_ra4071, i_35_, Class94.aClass349_913, Class212.aClass144_2433, Class15.aClass507_224, (Class298_Sub32_Sub14.aClass477_9400), Class501.aSeqTypeList_6122, Class128.aClass148_6331, null, (Class287.myPlayer.aClass366_10209), -347094263));
+										class387 = (class105.method1124(Class373.aClass_ra4071, i_35_, Class94.aClass349_913, Class212.aClass144_2433, Class15.aClass507_224, (Class298_Sub32_Sub14.aClass477_9400), Class501.aClass395_6122, Class128.aClass148_6331, null, (Class287.myPlayer.aClass366_10209), -347094263));
 										if (null == class387 && IComponentDefinition.aBoolean1139)
 											Tradution.method6054(class105, -91896348);
 									} else {
-										class387 = (class105.method1124(Class373.aClass_ra4071, i_35_, Class94.aClass349_913, Class212.aClass144_2433, Class15.aClass507_224, (Class298_Sub32_Sub14.aClass477_9400), Class501.aSeqTypeList_6122, Class128.aClass148_6331, class105.aClass438_1152, (Class287.myPlayer.aClass366_10209), -1902556053));
+										class387 = (class105.method1124(Class373.aClass_ra4071, i_35_, Class94.aClass349_913, Class212.aClass144_2433, Class15.aClass507_224, (Class298_Sub32_Sub14.aClass477_9400), Class501.aClass395_6122, Class128.aClass148_6331, class105.aClass438_1152, (Class287.myPlayer.aClass366_10209), -1902556053));
 										if (null == class387 && IComponentDefinition.aBoolean1139)
 											Tradution.method6054(class105, 302421220);
 									}

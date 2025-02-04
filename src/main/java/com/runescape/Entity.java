@@ -198,8 +198,8 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 				if (i_26_ == graphicId) {
 					Class398 class398 = Class158_Sub1.aClass389_8568.method4857(graphicId, -1791372939);
 					if (class398.aBoolean5215 && 1505778629 * class398.anInt5205 != -1) {
-						SeqType seqType = (Class501.aSeqTypeList_6122.method4903(class398.anInt5205 * 1505778629, (byte) -43));
-						int i_27_ = seqType.anInt4184 * -1117238071;
+						Class391 class391 = (Class501.aClass395_6122.method4903(class398.anInt5205 * 1505778629, (byte) -43));
+						int i_27_ = class391.anInt4184 * -1117238071;
 						if (i_27_ == 0)
 							return;
 						if (2 == i_27_) {
@@ -211,9 +211,9 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 					Class398 class398 = Class158_Sub1.aClass389_8568.method4857(graphicId, -1699460112);
 					Class398 class398_28_ = Class158_Sub1.aClass389_8568.method4857(i_26_, -1865033182);
 					if (1505778629 * class398.anInt5205 != -1 && 1505778629 * class398_28_.anInt5205 != -1) {
-						SeqType seqType = (Class501.aSeqTypeList_6122.method4903(1505778629 * class398.anInt5205, (byte) 50));
-						SeqType seqType_29_ = (Class501.aSeqTypeList_6122.method4903(1505778629 * class398_28_.anInt5205, (byte) -13));
-						if (-1445588039 * seqType.anInt4178 < seqType_29_.anInt4178 * -1445588039)
+						Class391 class391 = (Class501.aClass395_6122.method4903(1505778629 * class398.anInt5205, (byte) 50));
+						Class391 class391_29_ = (Class501.aClass395_6122.method4903(1505778629 * class398_28_.anInt5205, (byte) -13));
+						if (-1445588039 * class391.anInt4178 < class391_29_.anInt4178 * -1445588039)
 							return;
 					}
 				}

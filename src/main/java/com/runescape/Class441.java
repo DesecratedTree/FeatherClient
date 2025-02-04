@@ -4,43 +4,43 @@ package com.runescape;
  */
 
 public class Class441 {
-	AnimFrameset aAnimFrameset_5583;
+	Class298_Sub37_Sub4 aClass298_Sub37_Sub4_5583;
 	int anInt5584;
 	boolean aBoolean5585 = false;
 	int anInt5586;
-	AnimFrameset aAnimFrameset_5587;
+	Class298_Sub37_Sub4 aClass298_Sub37_Sub4_5587;
 	int anInt5588;
 	static int anInt5589;
 	static boolean[] aBooleanArray5590;
 
-	final boolean method5863(SeqTypeList seqTypeList, SeqType seqType, int i, int i_0_, int[] is, byte i_1_) {
+	final boolean method5863(Class395 class395, Class391 class391, int i, int i_0_, int[] is, byte i_1_) {
 		try {
 			if (!((Class441) this).aBoolean5585) {
 				if (i >= is.length)
 					return false;
 				((Class441) this).anInt5584 = -1850168697 * is[i];
-				((Class441) this).aAnimFrameset_5583 = seqTypeList.method4900((((Class441) this).anInt5584 * 806878007) >> 16, -2028006412);
+				((Class441) this).aClass298_Sub37_Sub4_5583 = class395.method4900((((Class441) this).anInt5584 * 806878007) >> 16, -2028006412);
 				((Class441) this).anInt5584 = ((((Class441) this).anInt5584 * 806878007 & 0xffff) * -1850168697);
-				if (((Class441) this).aAnimFrameset_5583 != null) {
-					if (seqType.aBoolean4176 && i_0_ != -1 && i_0_ < is.length) {
+				if (((Class441) this).aClass298_Sub37_Sub4_5583 != null) {
+					if (class391.aBoolean4176 && i_0_ != -1 && i_0_ < is.length) {
 						((Class441) this).anInt5586 = is[i_0_] * -1477634565;
-						((Class441) this).aAnimFrameset_5587 = seqTypeList.method4900((((Class441) this).anInt5586 * -643912397) >> 16, -1623469578);
+						((Class441) this).aClass298_Sub37_Sub4_5587 = class395.method4900((((Class441) this).anInt5586 * -643912397) >> 16, -1623469578);
 						((Class441) this).anInt5586 = (((Class441) this).anInt5586 * -643912397 & 0xffff) * -1477634565;
 					}
-					if (seqType.aBoolean4185)
+					if (class391.aBoolean4185)
 						((Class441) this).anInt5588 = (((Class441) this).anInt5588 * -1050600049 | 0x200) * 1673486703;
-					if (((Class441) this).aAnimFrameset_5583.method3413(((Class441) this).anInt5584 * 806878007, (byte) -4))
+					if (((Class441) this).aClass298_Sub37_Sub4_5583.method3413(((Class441) this).anInt5584 * 806878007, (byte) -4))
 						((Class441) this).anInt5588 = (1673486703 * (-1050600049 * ((Class441) this).anInt5588 | 0x80));
-					if (((Class441) this).aAnimFrameset_5583.method3415(806878007 * ((Class441) this).anInt5584, -460356399))
+					if (((Class441) this).aClass298_Sub37_Sub4_5583.method3415(806878007 * ((Class441) this).anInt5584, -460356399))
 						((Class441) this).anInt5588 = (1673486703 * (-1050600049 * ((Class441) this).anInt5588 | 0x100));
-					if (((Class441) this).aAnimFrameset_5583.method3414(((Class441) this).anInt5584 * 806878007, (byte) -54))
+					if (((Class441) this).aClass298_Sub37_Sub4_5583.method3414(((Class441) this).anInt5584 * 806878007, (byte) -54))
 						((Class441) this).anInt5588 = (1673486703 * (((Class441) this).anInt5588 * -1050600049 | 0x400));
-					if (((Class441) this).aAnimFrameset_5587 != null) {
-						if (((Class441) this).aAnimFrameset_5587.method3413(-643912397 * ((Class441) this).anInt5586, (byte) 9))
+					if (((Class441) this).aClass298_Sub37_Sub4_5587 != null) {
+						if (((Class441) this).aClass298_Sub37_Sub4_5587.method3413(-643912397 * ((Class441) this).anInt5586, (byte) 9))
 							((Class441) this).anInt5588 = (1673486703 * (-1050600049 * ((Class441) this).anInt5588 | 0x80));
-						if (((Class441) this).aAnimFrameset_5587.method3415(((Class441) this).anInt5586 * -643912397, -460356399))
+						if (((Class441) this).aClass298_Sub37_Sub4_5587.method3415(((Class441) this).anInt5586 * -643912397, -460356399))
 							((Class441) this).anInt5588 = (1673486703 * (((Class441) this).anInt5588 * -1050600049 | 0x100));
-						if (((Class441) this).aAnimFrameset_5587.method3414(-643912397 * ((Class441) this).anInt5586, (byte) 7))
+						if (((Class441) this).aClass298_Sub37_Sub4_5587.method3414(-643912397 * ((Class441) this).anInt5586, (byte) 7))
 							((Class441) this).anInt5588 = (1673486703 * (-1050600049 * ((Class441) this).anInt5588 | 0x400));
 					}
 					((Class441) this).anInt5588 = ((((Class441) this).anInt5588 * -1050600049 | 0x20) * 1673486703);
@@ -59,8 +59,8 @@ public class Class441 {
 		try {
 			((Class441) this).aBoolean5585 = false;
 			((Class441) this).anInt5588 = 0;
-			((Class441) this).aAnimFrameset_5587 = null;
-			((Class441) this).aAnimFrameset_5583 = null;
+			((Class441) this).aClass298_Sub37_Sub4_5587 = null;
+			((Class441) this).aClass298_Sub37_Sub4_5583 = null;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("sf.f(").append(')').toString());
 		}

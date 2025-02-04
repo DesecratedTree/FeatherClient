@@ -24,14 +24,14 @@ public class Class82_Sub3 extends Class82 {
 	}
 
 	boolean method879() {
-		SeqType seqType = Class501.aSeqTypeList_6122.method4903((((Class82_Sub3) this).anInt6823) * 1204408239, (byte) -25);
-		return seqType.method4880(509501216);
+		Class391 class391 = Class501.aClass395_6122.method4903((((Class82_Sub3) this).anInt6823) * 1204408239, (byte) -25);
+		return class391.method4880(509501216);
 	}
 
 	boolean method870(int i) {
 		try {
-			SeqType seqType = Class501.aSeqTypeList_6122.method4903((((Class82_Sub3) this).anInt6823) * 1204408239, (byte) -37);
-			return seqType.method4880(706659093);
+			Class391 class391 = Class501.aClass395_6122.method4903((((Class82_Sub3) this).anInt6823) * 1204408239, (byte) -37);
+			return class391.method4880(706659093);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("xd.p(").append(')').toString());
 		}

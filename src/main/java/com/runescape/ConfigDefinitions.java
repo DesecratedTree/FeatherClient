@@ -77,7 +77,7 @@ public class ConfigDefinitions {
 				Class431.method5763(aClass298_Sub53_3471.buffer, 325303236);
 				Class474.aClass343_Sub1Array5975 = new Class343_Sub1[1017276543 * Class24.anInt9950];
 				int i_2_ = 0;
-				for (int i_3_ = -1648308965 * SeqTypeList.anInt5190; i_3_ <= -499146007 * Class338.anInt3630; i_3_++) {
+				for (int i_3_ = -1648308965 * Class395.anInt5190; i_3_ <= -499146007 * Class338.anInt3630; i_3_++) {
 					Class343_Sub1 class343_sub1 = Class226.method2105(i_3_, (byte) 40);
 					if (class343_sub1 != null) {
 						Class474.aClass343_Sub1Array5975[i_2_++] = class343_sub1;

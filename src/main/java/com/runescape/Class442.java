@@ -162,7 +162,7 @@ public class Class442 {
 			client.aClass283_8716.method2641(1725751477).method5794(5, (byte) 49);
 			Class15.aClass507_224.method6275(5, 1533104330);
 			Class298_Sub32_Sub14.aClass477_9400.method6090(5, (byte) 35);
-			Class501.aSeqTypeList_6122.method4904(5, (byte) 1);
+			Class501.aClass395_6122.method4904(5, (byte) 1);
 			Class158_Sub1.aClass389_8568.method4859(5, 2135509320);
 			Class472.configLoader.method3826(5, (byte) -13);
 			Class440.aClass205_5582.method1916(5, (byte) 0);

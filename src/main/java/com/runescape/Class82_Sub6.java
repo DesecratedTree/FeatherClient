@@ -29,8 +29,8 @@ public class Class82_Sub6 extends Class82 {
 
 	boolean method870(int i) {
 		try {
-			SeqType seqType = Class501.aSeqTypeList_6122.method4903((2090514815 * (((Class82_Sub6) this).anInt6839)), (byte) 111);
-			return seqType.method4880(1778758091);
+			Class391 class391 = Class501.aClass395_6122.method4903((2090514815 * (((Class82_Sub6) this).anInt6839)), (byte) 111);
+			return class391.method4880(1778758091);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("xm.p(").append(')').toString());
 		}
@@ -53,8 +53,8 @@ public class Class82_Sub6 extends Class82 {
 	}
 
 	boolean method884() {
-		SeqType seqType = Class501.aSeqTypeList_6122.method4903(2090514815 * ((Class82_Sub6) this).anInt6839, (byte) 25);
-		return seqType.method4880(524582595);
+		Class391 class391 = Class501.aClass395_6122.method4903(2090514815 * ((Class82_Sub6) this).anInt6839, (byte) 25);
+		return class391.method4880(524582595);
 	}
 
 	Class82_Sub6(RsByteBuffer class298_sub53) {

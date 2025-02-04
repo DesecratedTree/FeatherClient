@@ -6,13 +6,13 @@ package com.runescape;
 public class Class438_Sub2 extends Class438 {
 	Class365_Sub1 aClass365_Sub1_8440;
 
-	void method5848(SeqType seqType, int i) {
-		Class209.method1938(seqType, i, ((Class438_Sub2) this).aClass365_Sub1_8440, -463239640);
+	void method5848(Class391 class391, int i) {
+		Class209.method1938(class391, i, ((Class438_Sub2) this).aClass365_Sub1_8440, -463239640);
 	}
 
-	void method5837(SeqType seqType, int i, byte i_0_) {
+	void method5837(Class391 class391, int i, byte i_0_) {
 		try {
-			Class209.method1938(seqType, i, ((Class438_Sub2) this).aClass365_Sub1_8440, -1175411035);
+			Class209.method1938(class391, i, ((Class438_Sub2) this).aClass365_Sub1_8440, -1175411035);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("aew.l(").append(')').toString());
 		}

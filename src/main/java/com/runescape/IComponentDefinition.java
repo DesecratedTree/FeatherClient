@@ -714,7 +714,7 @@ public class IComponentDefinition {
 		}
 	}
 
-	public Class387 method1124(GraphicsToolkit class_ra, int i, Class349 class349, Class144 class144, Class507 class507, Class477 class477, SeqTypeList seqTypeList, Interface23 interface23, Class438 class438, Class366 class366, int i_48_) {
+	public Class387 method1124(GraphicsToolkit class_ra, int i, Class349 class349, Class144 class144, Class507 class507, Class477 class477, Class395 class395, Interface23 interface23, Class438 class438, Class366 class366, int i_48_) {
 		try {
 			aBoolean1139 = false;
 			if (0 == 1548853569 * anInt1184)
@@ -786,7 +786,7 @@ public class IComponentDefinition {
 			if (anInt1184 * 1548853569 == 3) {
 				if (class366 == null)
 					return null;
-				Class387 class387 = class366.method4543(class_ra, i, class144, class507, class477, seqTypeList, interface23, class438, -275612851);
+				Class387 class387 = class366.method4543(class_ra, i, class144, class507, class477, class395, interface23, class438, -275612851);
 				if (class387 == null) {
 					aBoolean1139 = true;
 					return null;
@@ -816,7 +816,7 @@ public class IComponentDefinition {
 				int i_55_ = anInt1151 * 572201537 >>> 16;
 				int i_56_ = anInt1151 * 572201537 & 0xffff;
 				int i_57_ = 1148770405 * anInt1140;
-				Class387 class387 = class366.method4544(class_ra, i, class144, seqTypeList, class438, i_55_, i_56_, i_57_, (byte) 0);
+				Class387 class387 = class366.method4544(class_ra, i, class144, class395, class438, i_55_, i_56_, i_57_, (byte) 0);
 				if (null == class387) {
 					aBoolean1139 = true;
 					return null;

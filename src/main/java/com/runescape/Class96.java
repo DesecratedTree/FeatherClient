@@ -10,7 +10,7 @@ public class Class96 {
 	static short[] aShortArray928;
 	static short[] aShortArray929;
 	short[] aShortArray930;
-	AnimBase aAnimBase_931 = null;
+	Class298_Sub15 aClass298_Sub15_931 = null;
 	static short[] aShortArray932;
 	short[] aShortArray933;
 	short[] aShortArray934;
@@ -25,12 +25,12 @@ public class Class96 {
 	static int anInt943 = 2;
 	static byte[] aByteArray944;
 
-	Class96(byte[] is, AnimBase animBase) {
+	Class96(byte[] is, Class298_Sub15 class298_sub15) {
 		((Class96) this).anInt925 = 0;
 		((Class96) this).aBoolean939 = false;
 		((Class96) this).aBoolean940 = false;
 		((Class96) this).aBoolean941 = false;
-		((Class96) this).aAnimBase_931 = animBase;
+		((Class96) this).aClass298_Sub15_931 = class298_sub15;
 		try {
 			RsByteBuffer class298_sub53 = new RsByteBuffer(is);
 			RsByteBuffer class298_sub53_0_ = new RsByteBuffer(is);
@@ -42,7 +42,7 @@ public class Class96 {
 			int i_3_ = -1;
 			class298_sub53_0_.index = (class298_sub53.index * 385051775 + i) * 116413311;
 			for (int i_4_ = 0; i_4_ < i; i_4_++) {
-				int i_5_ = (((AnimBase) ((Class96) this).aAnimBase_931).anIntArray7278[i_4_]);
+				int i_5_ = (((Class298_Sub15) ((Class96) this).aClass298_Sub15_931).anIntArray7278[i_4_]);
 				if (i_5_ == 0)
 					i_2_ = i_4_;
 				int i_6_ = class298_sub53.readUnsignedByte();

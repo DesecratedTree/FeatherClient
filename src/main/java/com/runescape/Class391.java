@@ -3,37 +3,36 @@ package com.runescape;
  * Visit http://jode.sourceforge.net/
  */
 
-public class SeqType {
-	public int[] delays;
-	SeqTypeList aSeqTypeList_4170;
+public class Class391 {
+	public int[] anIntArray4169;
+	Class395 aClass395_4170;
 	public int anInt4171;
-	public int[] frames;
+	public int[] anIntArray4172;
 	public boolean aBoolean4173;
-	public int[] iframes;
+	public int[] anIntArray4174;
 	public int anInt4175 = 490274841;
 	public boolean aBoolean4176;
-	public boolean[] interleaveOrder;
+	public boolean[] aBooleanArray4177;
 	public int anInt4178 = 1084755117;
-	public int mainhandObj = 556718803;
-	public int offhandObj = -1297220983;
+	public int anInt4179 = 556718803;
+	public int anInt4180 = -1297220983;
 	public int anInt4181 = -1164419115;
 	public int anInt4182 = 1486793947;
 	public int[] anIntArray4183;
 	public int anInt4184;
 	public boolean aBoolean4185;
 	public static boolean aBoolean4186 = false;
-	public int[][] sounds;
+	public int[][] anIntArrayArray4187;
 	public int[] anIntArray4188;
 	public int anInt4189 = 1424483545;
 	public int[] anIntArray4190;
 	LinkedList aClass437_4191;
-	public boolean osrs;
 
 	public String method4877(int i, String string, int i_0_) {
 		try {
-			if (((SeqType) this).aClass437_4191 == null)
+			if (((Class391) this).aClass437_4191 == null)
 				return string;
-			Class298_Sub29 class298_sub29 = ((Class298_Sub29) ((SeqType) this).aClass437_4191.method5812((long) i));
+			Class298_Sub29 class298_sub29 = ((Class298_Sub29) ((Class391) this).aClass437_4191.method5812((long) i));
 			if (class298_sub29 == null)
 				return string;
 			return (String) class298_sub29.anObject7366;
@@ -46,27 +45,27 @@ public class SeqType {
 		try {
 			if (1 == i) {
 				int i_2_ = class298_sub53.readUnsignedShort();
-				delays = new int[i_2_];
+				anIntArray4169 = new int[i_2_];
 				for (int i_3_ = 0; i_3_ < i_2_; i_3_++)
-					delays[i_3_] = class298_sub53.readUnsignedShort();
-				frames = new int[i_2_];
+					anIntArray4169[i_3_] = class298_sub53.readUnsignedShort();
+				anIntArray4172 = new int[i_2_];
 				for (int i_4_ = 0; i_4_ < i_2_; i_4_++)
-					frames[i_4_] = class298_sub53.readUnsignedShort();
+					anIntArray4172[i_4_] = class298_sub53.readUnsignedShort();
 				for (int i_5_ = 0; i_5_ < i_2_; i_5_++)
-					frames[i_5_] = ((class298_sub53.readUnsignedShort() << 16) + frames[i_5_]);
+					anIntArray4172[i_5_] = ((class298_sub53.readUnsignedShort() << 16) + anIntArray4172[i_5_]);
 			} else if (2 == i)
 				anInt4175 = class298_sub53.readUnsignedShort() * -490274841;
 			else if (i == 3) {
-				interleaveOrder = new boolean[256];
+				aBooleanArray4177 = new boolean[256];
 				int i_6_ = class298_sub53.readUnsignedByte();
 				for (int i_7_ = 0; i_7_ < i_6_; i_7_++)
-					interleaveOrder[class298_sub53.readUnsignedByte()] = true;
+					aBooleanArray4177[class298_sub53.readUnsignedByte()] = true;
 			} else if (5 == i)
 				anInt4178 = class298_sub53.readUnsignedByte() * -1501035895;
 			else if (6 == i)
-				mainhandObj = class298_sub53.readUnsignedShort() * -556718803;
+				anInt4179 = class298_sub53.readUnsignedShort() * -556718803;
 			else if (i == 7)
-				offhandObj = class298_sub53.readUnsignedShort() * 1297220983;
+				anInt4180 = class298_sub53.readUnsignedShort() * 1297220983;
 			else if (i == 8)
 				anInt4181 = class298_sub53.readUnsignedByte() * 248539239;
 			else if (i == 9)
@@ -77,21 +76,21 @@ public class SeqType {
 				anInt4184 = class298_sub53.readUnsignedByte() * 1436650873;
 			else if (i == 12) {
 				int i_8_ = class298_sub53.readUnsignedByte();
-				iframes = new int[i_8_];
+				anIntArray4174 = new int[i_8_];
 				for (int i_9_ = 0; i_9_ < i_8_; i_9_++)
-					iframes[i_9_] = class298_sub53.readUnsignedShort();
+					anIntArray4174[i_9_] = class298_sub53.readUnsignedShort();
 				for (int i_10_ = 0; i_10_ < i_8_; i_10_++)
-					iframes[i_10_] = ((class298_sub53.readUnsignedShort() << 16) + iframes[i_10_]);
+					anIntArray4174[i_10_] = ((class298_sub53.readUnsignedShort() << 16) + anIntArray4174[i_10_]);
 			} else if (13 == i) {
 				int i_11_ = class298_sub53.readUnsignedShort();
-				sounds = new int[i_11_][];
+				anIntArrayArray4187 = new int[i_11_][];
 				for (int i_12_ = 0; i_12_ < i_11_; i_12_++) {
 					int i_13_ = class298_sub53.readUnsignedByte();
 					if (i_13_ > 0) {
-						sounds[i_12_] = new int[i_13_];
-						sounds[i_12_][0] = class298_sub53.read24BitUnsignedInteger((byte) -28);
+						anIntArrayArray4187[i_12_] = new int[i_13_];
+						anIntArrayArray4187[i_12_][0] = class298_sub53.read24BitUnsignedInteger((byte) -28);
 						for (int i_14_ = 1; i_14_ < i_13_; i_14_++)
-							sounds[i_12_][i_14_] = class298_sub53.readUnsignedShort();
+							anIntArrayArray4187[i_12_][i_14_] = class298_sub53.readUnsignedShort();
 					}
 				}
 			} else if (14 == i)
@@ -106,16 +105,16 @@ public class SeqType {
 				aBoolean4173 = true;
 			else if (19 == i) {
 				if (null == anIntArray4188) {
-					anIntArray4188 = new int[sounds.length];
-					for (int i_15_ = 0; i_15_ < sounds.length; i_15_++)
+					anIntArray4188 = new int[anIntArrayArray4187.length];
+					for (int i_15_ = 0; i_15_ < anIntArrayArray4187.length; i_15_++)
 						anIntArray4188[i_15_] = 255;
 				}
 				anIntArray4188[class298_sub53.readUnsignedByte()] = class298_sub53.readUnsignedByte();
 			} else if (20 == i) {
 				if (null == anIntArray4183 || anIntArray4190 == null) {
-					anIntArray4183 = new int[sounds.length];
-					anIntArray4190 = new int[sounds.length];
-					for (int i_16_ = 0; i_16_ < sounds.length; i_16_++) {
+					anIntArray4183 = new int[anIntArrayArray4187.length];
+					anIntArray4190 = new int[anIntArrayArray4187.length];
+					for (int i_16_ = 0; i_16_ < anIntArrayArray4187.length; i_16_++) {
 						anIntArray4183[i_16_] = 256;
 						anIntArray4190[i_16_] = 256;
 					}
@@ -125,9 +124,9 @@ public class SeqType {
 				anIntArray4190[i_17_] = class298_sub53.readUnsignedShort();
 			} else if (i == 249) {
 				int i_18_ = class298_sub53.readUnsignedByte();
-				if (((SeqType) this).aClass437_4191 == null) {
+				if (((Class391) this).aClass437_4191 == null) {
 					int i_19_ = Class416.method5590(i_18_, (byte) 16);
-					((SeqType) this).aClass437_4191 = new LinkedList(i_19_);
+					((Class391) this).aClass437_4191 = new LinkedList(i_19_);
 				}
 				for (int i_20_ = 0; i_20_ < i_18_; i_20_++) {
 					boolean bool = class298_sub53.readUnsignedByte() == 1;
@@ -137,7 +136,7 @@ public class SeqType {
 						class298 = new Class298_Sub29(class298_sub53.readString(102394051));
 					else
 						class298 = new Class298_Sub35(class298_sub53.readInt((byte) 14));
-					((SeqType) this).aClass437_4191.method5817(class298, (long) i_21_);
+					((Class391) this).aClass437_4191.method5817(class298, (long) i_21_);
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
@@ -148,13 +147,13 @@ public class SeqType {
 	void method4879(byte i) {
 		try {
 			if (62820525 * anInt4182 == -1) {
-				if (interleaveOrder != null)
+				if (aBooleanArray4177 != null)
 					anInt4182 = 1321379402;
 				else
 					anInt4182 = 0;
 			}
 			if (-1 == -882531177 * anInt4189) {
-				if (interleaveOrder != null)
+				if (aBooleanArray4177 != null)
 					anInt4189 = 1446000206;
 				else
 					anInt4189 = 0;
@@ -166,13 +165,13 @@ public class SeqType {
 
 	public boolean method4880(int i) {
 		try {
-			if (null == frames)
+			if (null == anIntArray4172)
 				return true;
 			boolean bool = true;
-			int[] is = frames;
+			int[] is = anIntArray4172;
 			for (int i_22_ = 0; i_22_ < is.length; i_22_++) {
 				int i_23_ = is[i_22_];
-				if (((SeqType) this).aSeqTypeList_4170.method4900(i_23_ >>> 16, -1720040211) == null)
+				if (((Class391) this).aClass395_4170.method4900(i_23_ >>> 16, -1720040211) == null)
 					bool = false;
 			}
 			return bool;
@@ -183,9 +182,9 @@ public class SeqType {
 
 	public int method4881(int i, int i_24_, int i_25_) {
 		try {
-			if (((SeqType) this).aClass437_4191 == null)
+			if (((Class391) this).aClass437_4191 == null)
 				return i_24_;
-			Class298_Sub35 class298_sub35 = ((Class298_Sub35) ((SeqType) this).aClass437_4191.method5812((long) i));
+			Class298_Sub35 class298_sub35 = ((Class298_Sub35) ((Class391) this).aClass437_4191.method5812((long) i));
 			if (null == class298_sub35)
 				return i_24_;
 			return class298_sub35.anInt7394 * -774922497;
@@ -194,14 +193,14 @@ public class SeqType {
 		}
 	}
 
-	SeqType() {
+	Class391() {
 		anInt4184 = -1421665550;
 		aBoolean4185 = false;
 		aBoolean4176 = false;
 		aBoolean4173 = false;
 	}
 
-	void decode(RsByteBuffer class298_sub53, int i) {
+	void method4882(RsByteBuffer class298_sub53, int i) {
 		try {
 			for (;;) {
 				int i_26_ = class298_sub53.readUnsignedByte();
@@ -357,72 +356,6 @@ public class SeqType {
 			return (int) (Math.pow(2.0, d_48_) + 0.5);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("qe.m(").append(')').toString());
-		}
-	}
-
-	public void decodeOSRS(RsByteBuffer stream) {
-		aBoolean4176 = true;
-		for (;;) {
-			int opcode = stream.g1();
-			if (opcode == 0) {
-				break;
-			}
-			decodeOSRS(stream, opcode);
-		}
-	}
-
-	public void decodeOSRS(RsByteBuffer buffer, int opcode) {
-		if (1 == opcode) {
-			int i_2_ = buffer.g2();
-			delays = new int[i_2_];
-			for (int i_3_ = 0; i_3_ < i_2_; i_3_++) {
-				delays[i_3_] = buffer.g2();
-			}
-			frames = new int[i_2_];
-			for (int i_4_ = 0; i_4_ < i_2_; i_4_++) {
-				frames[i_4_] = buffer.g2();
-			}
-			for (int i_5_ = 0; i_5_ < i_2_; i_5_++) {
-				frames[i_5_] = ((0x8000 | buffer.g2()) << 16) + frames[i_5_];
-			}
-		} else if (2 == opcode) {
-			anInt4175 = buffer.g2() * -490274841;
-		} else if (opcode == 3) {
-			interleaveOrder = new boolean[256];
-			int i_6_ = buffer.g1();
-			for (int i_7_ = 0; i_7_ < i_6_; i_7_++) {
-				interleaveOrder[buffer.g1()] = true;
-			}
-		} else if (opcode == 4) {
-			// IGNORED
-		} else if (5 == opcode) {
-			anInt4178 = buffer.g1() * -1501035895;
-		} else if (6 == opcode) {
-			mainhandObj = buffer.g2() * -556718803;
-		} else if (opcode == 7) {
-			offhandObj = buffer.g2() * 1297220983;
-		} else if (opcode == 8) {
-			anInt4181 = buffer.g1() * 248539239;
-		} else if (opcode == 9) {
-			anInt4182 = buffer.g1() * -1486793947;
-		} else if (10 == opcode) {
-			anInt4189 = buffer.g1() * -1424483545;
-		} else if (opcode == 11) {
-			anInt4184 = buffer.g1() * 1436650873;
-		} else if (opcode == 12) {
-			int i_8_ = buffer.g1();
-			iframes = new int[i_8_];
-			for (int i_9_ = 0; i_9_ < i_8_; i_9_++) {
-				iframes[i_9_] = buffer.g2();
-			}
-			for (int i_10_ = 0; i_10_ < i_8_; i_10_++) {
-				iframes[i_10_] = ((0x8000 | buffer.g2()) << 16) + iframes[i_10_];
-			}
-		} else if (13 == opcode) {
-			sounds = new int[buffer.g1()][];
-			for (int i_12_ = 0; i_12_ < sounds.length; i_12_++) {
-				sounds[i_12_] = new int[] { buffer.read24BitInteger((byte) 0) };
-			}
 		}
 	}
 }

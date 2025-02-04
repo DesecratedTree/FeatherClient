@@ -87,14 +87,14 @@ public class Class341 {
 				Class431.anInt6504 = 0;
 			} else {
 				if (class365_sub1_sub1_sub2.aClass438_10078.method5819((byte) -91) && !class365_sub1_sub1_sub2.aClass438_10078.method5826(-65534)) {
-					SeqType seqType = class365_sub1_sub1_sub2.aClass438_10078.method5820(295193907);
-					if (class365_sub1_sub1_sub2.anInt10125 * 1888275831 > 0 && 62820525 * seqType.anInt4182 == 0) {
+					Class391 class391 = class365_sub1_sub1_sub2.aClass438_10078.method5820(295193907);
+					if (class365_sub1_sub1_sub2.anInt10125 * 1888275831 > 0 && 62820525 * class391.anInt4182 == 0) {
 						class365_sub1_sub1_sub2.anInt10124 += -248378059;
 						Class331.anInt3565 = Class282.aClass282_6543.aByte6542 * -2059464589;
 						Class431.anInt6504 = 0;
 						return;
 					}
-					if (1888275831 * class365_sub1_sub1_sub2.anInt10125 <= 0 && 0 == seqType.anInt4189 * -882531177) {
+					if (1888275831 * class365_sub1_sub1_sub2.anInt10125 <= 0 && 0 == class391.anInt4189 * -882531177) {
 						class365_sub1_sub1_sub2.anInt10124 += -248378059;
 						Class331.anInt3565 = -2059464589 * Class282.aClass282_6543.aByte6542;
 						Class431.anInt6504 = 0;
@@ -105,14 +105,14 @@ public class Class341 {
 					if ((class365_sub1_sub1_sub2.currentGraphics[i_6_].id) * -967533709 != -1 && class365_sub1_sub1_sub2.currentGraphics[i_6_].aClass438_569.method5826(-65534)) {
 						Class398 class398 = (Class158_Sub1.aClass389_8568.method4857((class365_sub1_sub1_sub2.currentGraphics[i_6_].id) * -967533709, -1879864965));
 						if (class398.aBoolean5215 && class398.anInt5205 * 1505778629 != -1) {
-							SeqType seqType = (Class501.aSeqTypeList_6122.method4903(1505778629 * class398.anInt5205, (byte) -112));
-							if ((class365_sub1_sub1_sub2.anInt10125 * 1888275831) > 0 && seqType.anInt4182 * 62820525 == 0) {
+							Class391 class391 = (Class501.aClass395_6122.method4903(1505778629 * class398.anInt5205, (byte) -112));
+							if ((class365_sub1_sub1_sub2.anInt10125 * 1888275831) > 0 && class391.anInt4182 * 62820525 == 0) {
 								class365_sub1_sub1_sub2.anInt10124 += -248378059;
 								Class331.anInt3565 = (-2059464589 * Class282.aClass282_6543.aByte6542);
 								Class431.anInt6504 = 0;
 								return;
 							}
-							if ((class365_sub1_sub1_sub2.anInt10125 * 1888275831) <= 0 && 0 == seqType.anInt4189 * -882531177) {
+							if ((class365_sub1_sub1_sub2.anInt10125 * 1888275831) <= 0 && 0 == class391.anInt4189 * -882531177) {
 								class365_sub1_sub1_sub2.anInt10124 += -248378059;
 								Class331.anInt3565 = (Class282.aClass282_6543.aByte6542 * -2059464589);
 								Class431.anInt6504 = 0;

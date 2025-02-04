@@ -95,7 +95,7 @@ public final class Class73 {
 			Class390 class390 = (((ClientScript2) class403).aBoolean5261 ? ((ClientScript2) class403).aClass390_5247 : ((ClientScript2) class403).aClass390_5246);
 			IComponentDefinition class105 = ((Class390) class390).aClass105_4168;
 			Class119 class119 = ((Class390) class390).aClass119_4167;
-			SeqType.method4887(class105, class119, class403, (byte) -38);
+			Class391.method4887(class105, class119, class403, (byte) -38);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("cz.dd(").append(')').toString());
 		}

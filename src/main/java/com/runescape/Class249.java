@@ -649,7 +649,7 @@ public class Class249 implements Interface_ma {
 				Class123.method1379(class403, (byte) 0);
 				break;
 			case 707:
-				SeqType.method4883(class403, 285928237);
+				Class391.method4883(class403, 285928237);
 				break;
 			case 331:
 				Class298_Sub14.method2908(class403, (byte) -32);
@@ -1195,7 +1195,7 @@ public class Class249 implements Interface_ma {
 				Class292.method2814(class403, -845925987);
 				break;
 			case 141:
-				SeqType.method4885(class403, (byte) 94);
+				Class391.method4885(class403, (byte) 94);
 				break;
 			case 632:
 				Class65.method760(class403, (short) 10691);
@@ -1306,7 +1306,7 @@ public class Class249 implements Interface_ma {
 				Class376.method4658(class403, -1547428014);
 				break;
 			case 543:
-				SeqTypeList.method4906(class403, 809344003);
+				Class395.method4906(class403, 809344003);
 				break;
 			case 17:
 				Class511.method6291(class403, 634507100);
@@ -2236,7 +2236,7 @@ public class Class249 implements Interface_ma {
 				Class422_Sub21.method5705(class403, (short) -31539);
 				break;
 			case 266:
-				SeqTypeList.method4905(class403, -324928119);
+				Class395.method4905(class403, -324928119);
 				break;
 			case 627:
 				Class22.method374(class403, 157170275);
@@ -2269,7 +2269,7 @@ public class Class249 implements Interface_ma {
 				Class221.method2051(class403, 1844978034);
 				break;
 			case 9:
-				AnimBase.method2909(class403, -1591618981);
+				Class298_Sub15.method2909(class403, -1591618981);
 				break;
 			case 111:
 				Class214.method1990(class403, 1244635689);

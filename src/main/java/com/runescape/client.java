@@ -1038,7 +1038,7 @@ public final class client extends Class291 {
 				Class217 class217 = class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599;
 				int i_47_ = (int) class217.aFloat2451 - i_46_ >> 9;
 				int i_48_ = (int) class217.aFloat2454 - i_46_ >> 9;
-				Entity class365_sub1_sub1_sub2 = SeqType.method4886((class365_sub1_sub1_sub2_sub1.plane), i_47_, i_48_, (byte) 88);
+				Entity class365_sub1_sub1_sub2 = Class391.method4886((class365_sub1_sub1_sub2_sub1.plane), i_47_, i_48_, (byte) 88);
 				if (null != class365_sub1_sub1_sub2) {
 					int i_49_ = class365_sub1_sub1_sub2.anInt10064 * 1888274983;
 					if (class365_sub1_sub1_sub2 instanceof NPC)

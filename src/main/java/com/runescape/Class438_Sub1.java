@@ -4,9 +4,9 @@ package com.runescape;
  */
 
 public class Class438_Sub1 extends Class438 {
-	void method5837(SeqType seqType, int i, byte i_0_) {
+	void method5837(Class391 class391, int i, byte i_0_) {
 		try {
-			Class228.method2119(seqType, i, -646004957);
+			Class228.method2119(class391, i, -646004957);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("aem.l(").append(')').toString());
 		}
@@ -16,7 +16,7 @@ public class Class438_Sub1 extends Class438 {
 		super(true);
 	}
 
-	void method5847(SeqType seqType, int i) {
-		Class228.method2119(seqType, i, -1673739713);
+	void method5847(Class391 class391, int i) {
+		Class228.method2119(class391, i, -1673739713);
 	}
 }

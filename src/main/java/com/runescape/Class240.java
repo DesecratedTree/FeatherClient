@@ -1509,9 +1509,9 @@ public class Class240 {
 		}
 	}
 
-	public static void method2231(SeqTypeList seqTypeList, int i) {
+	public static void method2231(Class395 class395, int i) {
 		try {
-			Class298_Sub2.aSeqTypeList_7165 = seqTypeList;
+			Class298_Sub2.aClass395_7165 = class395;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("kb.a(").append(')').toString());
 		}
