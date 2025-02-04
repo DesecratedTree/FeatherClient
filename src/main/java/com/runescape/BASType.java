@@ -7,7 +7,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.datatransfer.Transferable;
 import java.util.Iterator;
 
-public class Class350 {
+public class BASType {
 	public int[][] anIntArrayArray3710;
 	public int anInt3711 = 512849763;
 	public int[] anIntArray3712 = null;
@@ -58,39 +58,40 @@ public class Class350 {
 	public static Class298_Sub25 aClass298_Sub25_3757;
 	static int anInt3758;
 	public static String aString3759;
+	boolean osrs;
 
-	void method4206(RsByteBuffer class298_sub53, int i, int i_0_) {
+	void decode(RsByteBuffer class298_sub53, int opcode, int i_0_) {
 		try {
-			if (1 == i) {
+			if (1 == opcode) {
 				anInt3711 = class298_sub53.readBigSmart(1235052657) * -512849763;
 				anInt3717 = class298_sub53.readBigSmart(1235052657) * -1216995793;
-			} else if (2 == i)
+			} else if (2 == opcode)
 				anInt3755 = class298_sub53.readBigSmart(1235052657) * -1201368129;
-			else if (i == 3)
+			else if (opcode == 3)
 				anInt3722 = class298_sub53.readBigSmart(1235052657) * 1316025001;
-			else if (4 == i)
+			else if (4 == opcode)
 				anInt3727 = class298_sub53.readBigSmart(1235052657) * -1511636755;
-			else if (5 == i)
+			else if (5 == opcode)
 				anInt3728 = class298_sub53.readBigSmart(1235052657) * 1034489103;
-			else if (i == 6)
+			else if (opcode == 6)
 				anInt3721 = class298_sub53.readBigSmart(1235052657) * -1261244237;
-			else if (i == 7)
+			else if (opcode == 7)
 				anInt3749 = class298_sub53.readBigSmart(1235052657) * -1711775317;
-			else if (i == 8)
+			else if (opcode == 8)
 				anInt3746 = class298_sub53.readBigSmart(1235052657) * -1593946535;
-			else if (9 == i)
+			else if (9 == opcode)
 				anInt3724 = class298_sub53.readBigSmart(1235052657) * 1566713043;
-			else if (26 == i) {
+			else if (26 == opcode) {
 				anInt3735 = (short) (class298_sub53.readUnsignedByte() * 4) * 1013056483;
 				anInt3736 = (short) (class298_sub53.readUnsignedByte() * 4) * -1453025501;
-			} else if (i == 27) {
+			} else if (opcode == 27) {
 				if (anIntArrayArray3710 == null)
-					anIntArrayArray3710 = (new int[(((Class349) ((Class350) this).aClass349_3725).aClass405_3707.anIntArray5267).length][]);
+					anIntArrayArray3710 = (new int[(((Class349) ((BASType) this).aClass349_3725).aClass405_3707.anIntArray5267).length][]);
 				int i_1_ = class298_sub53.readUnsignedByte();
 				anIntArrayArray3710[i_1_] = new int[6];
 				for (int i_2_ = 0; i_2_ < 6; i_2_++)
 					anIntArrayArray3710[i_1_][i_2_] = class298_sub53.readShort(2080193946);
-			} else if (i == 28) {
+			} else if (opcode == 28) {
 				int i_3_ = class298_sub53.readUnsignedByte();
 				anIntArray3732 = new int[i_3_];
 				for (int i_4_ = 0; i_4_ < i_3_; i_4_++) {
@@ -98,53 +99,53 @@ public class Class350 {
 					if (anIntArray3732[i_4_] == 255)
 						anIntArray3732[i_4_] = -1;
 				}
-			} else if (i == 29)
+			} else if (opcode == 29)
 				anInt3744 = class298_sub53.readUnsignedByte() * 115903875;
-			else if (i == 30)
+			else if (opcode == 30)
 				anInt3745 = class298_sub53.readUnsignedShort() * 719028937;
-			else if (31 == i)
+			else if (31 == opcode)
 				anInt3726 = class298_sub53.readUnsignedByte() * -369164975;
-			else if (32 == i)
+			else if (32 == opcode)
 				anInt3747 = class298_sub53.readUnsignedShort() * 1012239243;
-			else if (33 == i)
+			else if (33 == opcode)
 				anInt3748 = class298_sub53.readShort(1712856653) * 92325015;
-			else if (34 == i)
+			else if (34 == opcode)
 				anInt3720 = class298_sub53.readUnsignedByte() * 477826083;
-			else if (i == 35)
+			else if (opcode == 35)
 				anInt3750 = class298_sub53.readUnsignedShort() * -1803824059;
-			else if (36 == i)
+			else if (36 == opcode)
 				anInt3751 = class298_sub53.readShort(1850319623) * 1175766897;
-			else if (37 == i)
+			else if (37 == opcode)
 				anInt3752 = class298_sub53.readUnsignedByte() * 1083720273;
-			else if (38 == i)
-				anInt3715 = class298_sub53.readBigSmart(1235052657) * 241536037;
-			else if (39 == i)
-				anInt3733 = class298_sub53.readBigSmart(1235052657) * -1442268255;
-			else if (i == 40)
-				anInt3741 = class298_sub53.readBigSmart(1235052657) * 564296781;
-			else if (i == 41)
-				anInt3719 = class298_sub53.readBigSmart(1235052657) * -1440097851;
-			else if (42 == i)
-				anInt3723 = class298_sub53.readBigSmart(1235052657) * 1270333873;
-			else if (i == 43)
-				anInt3738 = class298_sub53.readBigSmart(1235052657) * 697230329;
-			else if (44 == i)
-				anInt3754 = class298_sub53.readBigSmart(1235052657) * -853635893;
-			else if (i == 45)
+			else if (38 == opcode)
+				anInt3715 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * 241536037);
+			else if (39 == opcode)
+				anInt3733 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * -1442268255);
+			else if (opcode == 40)
+				anInt3741 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * 564296781);
+			else if (opcode == 41)
+				anInt3719 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * -1440097851);
+			else if (42 == opcode)
+				anInt3723 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * 1270333873);
+			else if (opcode == 43)
+				anInt3738 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * 697230329);
+			else if (44 == opcode)
+				anInt3754 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * -853635893);
+			else if (opcode == 45)
 				anInt3716 = class298_sub53.readUnsignedShort() * -928434405;
-			else if (46 == i)
-				anInt3729 = class298_sub53.readBigSmart(1235052657) * 537960313;
-			else if (i == 47)
-				anInt3743 = class298_sub53.readBigSmart(1235052657) * 1019547381;
-			else if (48 == i)
-				anInt3731 = class298_sub53.readBigSmart(1235052657) * -1402060193;
-			else if (i == 49)
-				anInt3739 = class298_sub53.readBigSmart(1235052657) * -549936551;
-			else if (50 == i)
-				anInt3737 = class298_sub53.readBigSmart(1235052657) * -71356649;
-			else if (i == 51)
-				anInt3730 = class298_sub53.readBigSmart(1235052657) * -1236000399;
-			else if (52 == i) {
+			else if (46 == opcode)
+				anInt3729 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * 537960313);
+			else if (opcode == 47)
+				anInt3743 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * 1019547381);
+			else if (48 == opcode)
+				anInt3731 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * -1402060193);
+			else if (opcode == 49)
+				anInt3739 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * -549936551);
+			else if (50 == opcode)
+				anInt3737 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * -71356649);
+			else if (opcode == 51)
+				anInt3730 = get_sequence_id(class298_sub53.readBigSmart(1235052657) * -1236000399);
+			else if (52 == opcode) {
 				int i_5_ = class298_sub53.readUnsignedByte();
 				anIntArray3712 = new int[i_5_];
 				anIntArray3713 = new int[i_5_];
@@ -152,21 +153,21 @@ public class Class350 {
 					anIntArray3712[i_6_] = class298_sub53.readBigSmart(1235052657);
 					int i_7_ = class298_sub53.readUnsignedByte();
 					anIntArray3713[i_6_] = i_7_;
-					((Class350) this).anInt3714 += i_7_ * 81529747;
+					((BASType) this).anInt3714 += i_7_ * 81529747;
 				}
-			} else if (i == 53)
+			} else if (opcode == 53)
 				aBoolean3756 = false;
-			else if (i == 54) {
+			else if (opcode == 54) {
 				anInt3734 = ((class298_sub53.readUnsignedByte() << 6) * 989376361);
 				anInt3740 = ((class298_sub53.readUnsignedByte() << 6) * -1343302987);
-			} else if (55 == i) {
+			} else if (55 == opcode) {
 				if (anIntArray3742 == null)
-					anIntArray3742 = (new int[(((Class349) ((Class350) this).aClass349_3725).aClass405_3707.anIntArray5267).length]);
+					anIntArray3742 = (new int[(((Class349) ((BASType) this).aClass349_3725).aClass405_3707.anIntArray5267).length]);
 				int i_8_ = class298_sub53.readUnsignedByte();
 				anIntArray3742[i_8_] = class298_sub53.readUnsignedShort();
-			} else if (i == 56) {
+			} else if (opcode == 56) {
 				if (null == anIntArrayArray3753)
-					anIntArrayArray3753 = (new int[(((Class349) ((Class350) this).aClass349_3725).aClass405_3707.anIntArray5267).length][]);
+					anIntArrayArray3753 = (new int[(((Class349) ((BASType) this).aClass349_3725).aClass405_3707.anIntArray5267).length][]);
 				int i_9_ = class298_sub53.readUnsignedByte();
 				anIntArrayArray3753[i_9_] = new int[3];
 				for (int i_10_ = 0; i_10_ < 3; i_10_++)
@@ -177,13 +178,23 @@ public class Class350 {
 		}
 	}
 
+	public int get_sequence_id(int sequence) {
+		if (!osrs) {
+			return sequence;
+		}
+		if (sequence == 65535 || sequence == -1) {
+			return -1;
+		}
+		return sequence + OSRSData.SEQUENCES_OFFSET;
+	}
+
 	public Class222[] method4207(byte i) {
 		try {
-			if (((Class350) this).aClass222Array3718 != null)
-				return ((Class350) this).aClass222Array3718;
+			if (((BASType) this).aClass222Array3718 != null)
+				return ((BASType) this).aClass222Array3718;
 			if (null == anIntArrayArray3710)
 				return null;
-			((Class350) this).aClass222Array3718 = new Class222[anIntArrayArray3710.length];
+			((BASType) this).aClass222Array3718 = new Class222[anIntArrayArray3710.length];
 			for (int i_11_ = 0; i_11_ < anIntArrayArray3710.length; i_11_++) {
 				int i_12_ = 0;
 				int i_13_ = 0;
@@ -203,7 +214,7 @@ public class Class350 {
 					if (i <= 12)
 						throw new IllegalStateException();
 				} else {
-					Class222 class222 = (((Class350) this).aClass222Array3718[i_11_] = new Class222());
+					Class222 class222 = (((BASType) this).aClass222Array3718[i_11_] = new Class222());
 					if (0 != i_17_)
 						class222.method2071(0.0F, 0.0F, 1.0F, Class220.method2049(i_17_));
 					if (0 != i_15_)
@@ -213,13 +224,13 @@ public class Class350 {
 					class222.method2064((float) i_12_, (float) i_13_, (float) i_14_);
 				}
 			}
-			return ((Class350) this).aClass222Array3718;
+			return ((BASType) this).aClass222Array3718;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("op.i(").append(')').toString());
 		}
 	}
 
-	Class350() {
+	BASType() {
 		anInt3717 = 1216995793;
 		anInt3741 = -564296781;
 		anInt3719 = 1440097851;
@@ -262,7 +273,7 @@ public class Class350 {
 			if (anInt3711 * -809747019 != -1)
 				return anInt3711 * -809747019;
 			if (null != anIntArray3712) {
-				int i_18_ = (int) (Math.random() * (double) (-5125477 * ((Class350) this).anInt3714));
+				int i_18_ = (int) (Math.random() * (double) (-5125477 * ((BASType) this).anInt3714));
 				int i_19_;
 				for (i_19_ = 0; i_18_ >= anIntArray3713[i_19_]; i_19_++)
 					i_18_ -= anIntArray3713[i_19_];
@@ -345,7 +356,7 @@ public class Class350 {
 						throw new IllegalStateException();
 					break;
 				}
-				method4206(class298_sub53, i_25_, -247907698);
+				decode(class298_sub53, i_25_, -247907698);
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("op.a(").append(')').toString());

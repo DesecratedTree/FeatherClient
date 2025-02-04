@@ -187,11 +187,11 @@ public class Class298_Sub44 extends Class298 {
 				else if (Class250.aString2765.indexOf("10.7") != -1)
 					((Class298_Sub44) this).anInt7486 = -1751111261;
 			}
-			if (Class350.aString3759.toLowerCase().indexOf("sun") != -1)
+			if (BASType.aString3759.toLowerCase().indexOf("sun") != -1)
 				((Class298_Sub44) this).anInt7491 = 953745309;
-			else if (Class350.aString3759.toLowerCase().indexOf("microsoft") != -1)
+			else if (BASType.aString3759.toLowerCase().indexOf("microsoft") != -1)
 				((Class298_Sub44) this).anInt7491 = 1907490618;
-			else if (Class350.aString3759.toLowerCase().indexOf("apple") != -1)
+			else if (BASType.aString3759.toLowerCase().indexOf("apple") != -1)
 				((Class298_Sub44) this).anInt7491 = -1433731369;
 			else
 				((Class298_Sub44) this).anInt7491 = -479986060;

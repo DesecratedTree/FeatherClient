@@ -133,11 +133,11 @@ public class NPCDefinitions {
 			synchronized (((Class507) ((NPCDefinitions) this).aClass507_6125).aClass348_6204) {
 				class387 = (Class387) ((Class507) ((NPCDefinitions) this).aClass507_6125).aClass348_6204.get(l);
 			}
-			Class350 class350 = null;
+			BASType BASType = null;
 			if (!bool && i_3_ != -1)
-				class350 = class349.method4202(i_3_, (byte) 59);
+				BASType = class349.method4202(i_3_, (byte) 59);
 			else if (-1 != 525312939 * anInt6132)
-				class350 = class349.method4202(anInt6132 * 525312939, (byte) 89);
+				BASType = class349.method4202(anInt6132 * 525312939, (byte) 89);
 			if (class387 == null || (class387.m() & i_6_) != i_6_) {
 				if (null != class387)
 					i_6_ |= class387.m();
@@ -178,8 +178,8 @@ public class NPCDefinitions {
 						}
 					}
 				}
-				if (null != class350 && null != class350.anIntArrayArray3710) {
-					for (int i_15_ = 0; i_15_ < class350.anIntArrayArray3710.length; i_15_++) {
+				if (null != BASType && null != BASType.anIntArrayArray3710) {
+					for (int i_15_ = 0; i_15_ < BASType.anIntArrayArray3710.length; i_15_++) {
 						if (i_15_ < class64s.length) {
 							if (null == class64s[i_15_]) {
 								if (i_4_ != -679459424)
@@ -191,13 +191,13 @@ public class NPCDefinitions {
 								int i_19_ = 0;
 								int i_20_ = 0;
 								int i_21_ = 0;
-								if (null != class350.anIntArrayArray3710[i_15_]) {
-									i_16_ = (class350.anIntArrayArray3710[i_15_][0]);
-									i_17_ = (class350.anIntArrayArray3710[i_15_][1]);
-									i_18_ = (class350.anIntArrayArray3710[i_15_][2]);
-									i_19_ = (class350.anIntArrayArray3710[i_15_][3]) << 3;
-									i_20_ = (class350.anIntArrayArray3710[i_15_][4]) << 3;
-									i_21_ = (class350.anIntArrayArray3710[i_15_][5]) << 3;
+								if (null != BASType.anIntArrayArray3710[i_15_]) {
+									i_16_ = (BASType.anIntArrayArray3710[i_15_][0]);
+									i_17_ = (BASType.anIntArrayArray3710[i_15_][1]);
+									i_18_ = (BASType.anIntArrayArray3710[i_15_][2]);
+									i_19_ = (BASType.anIntArrayArray3710[i_15_][3]) << 3;
+									i_20_ = (BASType.anIntArrayArray3710[i_15_][4]) << 3;
+									i_21_ = (BASType.anIntArrayArray3710[i_15_][5]) << 3;
 								}
 								if (0 != i_19_ || 0 != i_20_ || 0 != i_21_)
 									class64s[i_15_].method754(i_19_, i_20_, i_21_);
@@ -253,8 +253,8 @@ public class NPCDefinitions {
 			if (!bool_7_ && !bool_27_)
 				return class387_26_;
 			Class222[] class222s = null;
-			if (null != class350)
-				class222s = class350.method4207((byte) 22);
+			if (null != BASType)
+				class222s = BASType.method4207((byte) 22);
 			if (bool_27_ && null != class222s) {
 				for (int i_29_ = 0; i_29_ < 12; i_29_++) {
 					if (class222s[i_29_] != null)

@@ -318,9 +318,9 @@ public class Class366 {
 			synchronized (aClass348_3979) {
 				class387 = (Class387) aClass348_3979.get(l);
 			}
-			Class350 class350 = null;
+			BASType BASType = null;
 			if (((Class366) this).anInt3976 * 767962207 != -1)
-				class350 = class349.method4202((((Class366) this).anInt3976 * 767962207), (byte) 29);
+				BASType = class349.method4202((((Class366) this).anInt3976 * 767962207), (byte) 29);
 			if (null == class387 || class_ra.method5017(class387.m(), i_38_) != 0) {
 				if (null != class387)
 					i_38_ = class_ra.method5004(i_38_, class387.m());
@@ -388,8 +388,8 @@ public class Class366 {
 								class64s[i_59_] = class64;
 						}
 					}
-					if (class350 != null && null != class350.anIntArrayArray3710) {
-						for (int i_62_ = 0; i_62_ < class350.anIntArrayArray3710.length; i_62_++) {
+					if (BASType != null && null != BASType.anIntArrayArray3710) {
+						for (int i_62_ = 0; i_62_ < BASType.anIntArrayArray3710.length; i_62_++) {
 							if (class64s[i_62_] == null) {
 								if (i_37_ <= -992714828)
 									throw new IllegalStateException();
@@ -400,13 +400,13 @@ public class Class366 {
 								int i_66_ = 0;
 								int i_67_ = 0;
 								int i_68_ = 0;
-								if (null != class350.anIntArrayArray3710[i_62_]) {
-									i_63_ = (class350.anIntArrayArray3710[i_62_][0]);
-									i_64_ = (class350.anIntArrayArray3710[i_62_][1]);
-									i_65_ = (class350.anIntArrayArray3710[i_62_][2]);
-									i_66_ = (class350.anIntArrayArray3710[i_62_][3]) << 3;
-									i_67_ = (class350.anIntArrayArray3710[i_62_][4]) << 3;
-									i_68_ = (class350.anIntArrayArray3710[i_62_][5]) << 3;
+								if (null != BASType.anIntArrayArray3710[i_62_]) {
+									i_63_ = (BASType.anIntArrayArray3710[i_62_][0]);
+									i_64_ = (BASType.anIntArrayArray3710[i_62_][1]);
+									i_65_ = (BASType.anIntArrayArray3710[i_62_][2]);
+									i_66_ = (BASType.anIntArrayArray3710[i_62_][3]) << 3;
+									i_67_ = (BASType.anIntArrayArray3710[i_62_][4]) << 3;
+									i_68_ = (BASType.anIntArrayArray3710[i_62_][5]) << 3;
 								}
 								if (0 != i_66_ || i_67_ != 0 || i_68_ != 0)
 									class64s[i_62_].method754(i_66_, i_67_, i_68_);
@@ -437,8 +437,8 @@ public class Class366 {
 			if (!bool_47_ && !bool_50_)
 				return class387_71_;
 			Class222[] class222s = null;
-			if (class350 != null)
-				class222s = class350.method4207((byte) 92);
+			if (BASType != null)
+				class222s = BASType.method4207((byte) 92);
 			if (bool_50_ && class222s != null) {
 				for (int i_72_ = 0; i_72_ < is.length; i_72_++) {
 					if (null != class222s[i_72_])

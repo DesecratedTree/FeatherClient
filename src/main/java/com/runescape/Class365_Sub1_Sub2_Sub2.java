@@ -277,7 +277,7 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 	public Class365_Sub1_Sub2_Sub2(Class331 class331, GraphicsToolkit class_ra, Class433 class433, ObjectDefinitions class432, int i, int i_9_, int i_10_, int i_11_, int i_12_, boolean bool, int i_13_, boolean bool_14_) {
 		super(class331, i_10_, i_11_, i_12_, i, i_9_, class432.anInt5418 * -228547261);
 		((Class365_Sub1_Sub2_Sub2) this).aClass433_9918 = class433;
-		((Class365_Sub1_Sub2_Sub2) this).anInt9915 = 646380829 * class432.anInt5365;
+		((Class365_Sub1_Sub2_Sub2) this).anInt9915 = 646380829 * class432.id;
 		((Class365_Sub1_Sub2_Sub2) this).aBoolean9916 = bool;
 		((Class365_Sub1_Sub2_Sub2) this).aByte9917 = (byte) i_13_;
 		((Class365_Sub1_Sub2_Sub2) this).aBoolean9919 = class432.anInt5382 * 1532834983 != 0 && !bool;

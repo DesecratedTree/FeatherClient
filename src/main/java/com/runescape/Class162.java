@@ -573,7 +573,7 @@ public class Class162 {
 	static final void method1772(ClientScript2 class403, int i) {
 		try {
 			int i_54_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
-			Class_na.method3479((Class350.aClass298_Sub25_3757 == (((ClientScript2) class403).aClass298_Sub25_5237)), i_54_, (byte) 1);
+			Class_na.method3479((BASType.aClass298_Sub25_3757 == (((ClientScript2) class403).aClass298_Sub25_5237)), i_54_, (byte) 1);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("gp.yn(").append(')').toString());
 		}

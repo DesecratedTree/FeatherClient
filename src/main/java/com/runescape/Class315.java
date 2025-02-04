@@ -71,10 +71,10 @@ public final class Class315 {
 				if (i_16_ == -1976050083 * Class424.aClass424_6604.anInt6613)
 					i_16_ = Class424.aClass424_6611.anInt6613 * -1976050083;
 				int i_23_ = 0;
-				if (class432.aByteArray5430 != null) {
+				if (class432.shapes != null) {
 					int i_24_ = -1;
-					for (int i_25_ = 0; i_25_ < class432.aByteArray5430.length; i_25_++) {
-						if (i_16_ == class432.aByteArray5430[i_25_]) {
+					for (int i_25_ = 0; i_25_ < class432.shapes.length; i_25_++) {
+						if (i_16_ == class432.shapes[i_25_]) {
 							i_24_ = i_25_;
 							break;
 						}

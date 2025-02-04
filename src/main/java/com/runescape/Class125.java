@@ -148,13 +148,13 @@ public class Class125 {
 					return -1;
 			}
 			int i_10_ = 1105496999 * class503.anInt6169;
-			Class350 class350 = class365_sub1_sub1_sub2_sub1.method4426(1451181541);
+			BASType BASType = class365_sub1_sub1_sub2_sub1.method4426(1451181541);
 			int i_11_ = class365_sub1_sub1_sub2_sub1.aClass438_10077.method5823(1966806311);
 			if (i_11_ == -1 || class365_sub1_sub1_sub2_sub1.aBoolean10094)
 				i_10_ = class503.anInt6151 * 1945943361;
-			else if (class350.anInt3721 * 230243963 == i_11_ || i_11_ == class350.anInt3749 * 491753731 || class350.anInt3724 * -783166629 == i_11_ || i_11_ == class350.anInt3746 * -2054940183)
+			else if (BASType.anInt3721 * 230243963 == i_11_ || i_11_ == BASType.anInt3749 * 491753731 || BASType.anInt3724 * -783166629 == i_11_ || i_11_ == BASType.anInt3746 * -2054940183)
 				i_10_ = class503.anInt6176 * -1390399277;
-			else if (class350.anInt3755 * 328817727 == i_11_ || i_11_ == class350.anInt3722 * -1238642279 || i_11_ == 124010991 * class350.anInt3728 || -907666203 * class350.anInt3727 == i_11_)
+			else if (BASType.anInt3755 * 328817727 == i_11_ || i_11_ == BASType.anInt3722 * -1238642279 || i_11_ == 124010991 * BASType.anInt3728 || -907666203 * BASType.anInt3727 == i_11_)
 				i_10_ = -904091095 * class503.anInt6174;
 			return i_10_;
 		} catch (RuntimeException runtimeexception) {

@@ -1045,9 +1045,9 @@ public class IComponentDefinition {
 
 	static final void method1133(ClientScript2 class403, short i) {
 		try {
-			if (null != Class350.aClass298_Sub25_3757) {
+			if (null != BASType.aClass298_Sub25_3757) {
 				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = 1;
-				((ClientScript2) class403).aClass298_Sub25_5237 = Class350.aClass298_Sub25_3757;
+				((ClientScript2) class403).aClass298_Sub25_5237 = BASType.aClass298_Sub25_3757;
 			} else
 				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = 0;
 		} catch (RuntimeException runtimeexception) {

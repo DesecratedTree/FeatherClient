@@ -103,8 +103,8 @@ public final class Class94 {
 				NPCDefinitions class503 = Class15.aClass507_224.method6269(1762367763 * anInt909, 2059716043);
 				boolean bool = class503.method6238(-1621243143);
 				if (((Class94) this).anIntArray907 == null) {
-					Class350 class350 = aClass349_913.method4202((class503.anInt6132 * 525312939), (byte) 47);
-					((Class94) this).anIntArray907 = class350.method4210(2115260709);
+					BASType BASType = aClass349_913.method4202((class503.anInt6132 * 525312939), (byte) 47);
+					((Class94) this).anIntArray907 = BASType.method4210(2115260709);
 				}
 				int[] is = ((Class94) this).anIntArray907;
 				for (int i_8_ = 0; i_8_ < is.length; i_8_++) {

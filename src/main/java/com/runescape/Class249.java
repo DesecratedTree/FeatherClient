@@ -589,7 +589,7 @@ public class Class249 implements Interface_ma {
 				Class339.method4124(class403, 621780015);
 				break;
 			case 278:
-				Class350.method4216(class403, 358767270);
+				BASType.method4216(class403, 358767270);
 				break;
 			case 178:
 				Class434.method5803(class403, -804156383);
@@ -787,7 +787,7 @@ public class Class249 implements Interface_ma {
 				IComponentDefinition.method1134(class403, -1301901080);
 				break;
 			case 366:
-				Class350.method4217(class403, -562613117);
+				BASType.method4217(class403, -562613117);
 				break;
 			case 397:
 				Class422_Sub9.method5657(class403, 2119227597);
@@ -1342,7 +1342,7 @@ public class Class249 implements Interface_ma {
 				Class247.method2374(class403, -1718722194);
 				break;
 			case 965:
-				Class350.method4213(class403, 1204781466);
+				BASType.method4213(class403, 1204781466);
 				break;
 			case 37:
 				Class296.method2829(class403, (byte) -58);
@@ -2985,7 +2985,7 @@ public class Class249 implements Interface_ma {
 				Class302_Sub4.method3730(class403, 569527875);
 				break;
 			case 406:
-				Class350.method4212(class403, (short) -27108);
+				BASType.method4212(class403, (short) -27108);
 				break;
 			case 395:
 				Class90.method996(class403, 666003369);

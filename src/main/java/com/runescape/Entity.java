@@ -96,8 +96,8 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 
 	public void method4414(int i, byte i_8_) {
 		try {
-			Class350 class350 = method4426(654212117);
-			if (class350.anInt3744 * -2079528661 != 0 || 907865649 * anInt10115 != 0) {
+			BASType BASType = method4426(654212117);
+			if (BASType.anInt3744 * -2079528661 != 0 || 907865649 * anInt10115 != 0) {
 				aClass386_10084.method4720((byte) 67);
 				int i_9_ = i - 259411823 * aClass386_10084.anInt4144 & 0x3fff;
 				if (i_9_ > 8192)
@@ -112,8 +112,8 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 
 	public void method4415(int i, boolean bool, int i_10_) {
 		try {
-			Class350 class350 = method4426(-124866780);
-			if (bool || -2079528661 * class350.anInt3744 != 0 || 907865649 * anInt10115 != 0) {
+			BASType BASType = method4426(-124866780);
+			if (bool || -2079528661 * BASType.anInt3744 != 0 || 907865649 * anInt10115 != 0) {
 				anInt10068 = (i & 0x3fff) * 1874549911;
 				aClass386_10084.method4718(2145248039 * anInt10068, -1986657311);
 			}
@@ -147,10 +147,10 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 				for (int i_13_ = 0; (i_13_ < Class82_Sub18.aClass405_6892.anIntArray5267.length); i_13_++)
 					anIntArray10085[i_13_] = -1;
 			}
-			Class350 class350 = method4426(-401641714);
+			BASType BASType = method4426(-401641714);
 			int i_14_ = 256;
-			if (class350.anIntArray3742 != null && class350.anIntArray3742[i] > 0)
-				i_14_ = class350.anIntArray3742[i];
+			if (BASType.anIntArray3742 != null && BASType.anIntArray3742[i] > 0)
+				i_14_ = BASType.anIntArray3742[i];
 			if (-1 == i_11_) {
 				if (anIntArray10085[i] == -1)
 					return true;
@@ -309,10 +309,10 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 
 	public int method4363(byte i) {
 		try {
-			Class350 class350 = method4426(219719478);
+			BASType BASType = method4426(219719478);
 			int i_47_;
-			if (1638157075 * class350.anInt3716 != -1)
-				i_47_ = class350.anInt3716 * 1638157075;
+			if (1638157075 * BASType.anInt3716 != -1)
+				i_47_ = BASType.anInt3716 * 1638157075;
 			else if (-32768 == (((Entity) this).anInt10089 * 1507955715))
 				i_47_ = 200;
 			else
@@ -376,7 +376,7 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 		}
 	}
 
-	void method4424(GraphicsToolkit class_ra, Class350 class350, int i, int i_55_, int i_56_, int i_57_, int i_58_) {
+	void method4424(GraphicsToolkit class_ra, BASType BASType, int i, int i_55_, int i_56_, int i_57_, int i_58_) {
 		try {
 			for (int i_59_ = 0; i_59_ < currentGraphics.length; i_59_++) {
 				byte i_60_ = 0;
@@ -405,19 +405,19 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 					}
 					Class387 class387 = (aClass387Array10082[i_59_ + 1] = class398.method4917(class_ra, i_61_, class56.aClass438_569, i_60_, 2124203678));
 					if (null != class387) {
-						if (class56.anInt568 * -1418960779 >= 0 && null != class350.anIntArrayArray3710 && (class350.anIntArrayArray3710[-1418960779 * class56.anInt568]) != null) {
+						if (class56.anInt568 * -1418960779 >= 0 && null != BASType.anIntArrayArray3710 && (BASType.anIntArrayArray3710[-1418960779 * class56.anInt568]) != null) {
 							int i_62_ = 0;
 							int i_63_ = 0;
 							int i_64_ = 0;
-							if (null != class350.anIntArrayArray3710 && (null != (class350.anIntArrayArray3710[class56.anInt568 * -1418960779]))) {
-								i_62_ += (class350.anIntArrayArray3710[-1418960779 * class56.anInt568][0]);
-								i_63_ += (class350.anIntArrayArray3710[-1418960779 * class56.anInt568][1]);
-								i_64_ += (class350.anIntArrayArray3710[class56.anInt568 * -1418960779][2]);
+							if (null != BASType.anIntArrayArray3710 && (null != (BASType.anIntArrayArray3710[class56.anInt568 * -1418960779]))) {
+								i_62_ += (BASType.anIntArrayArray3710[-1418960779 * class56.anInt568][0]);
+								i_63_ += (BASType.anIntArrayArray3710[-1418960779 * class56.anInt568][1]);
+								i_64_ += (BASType.anIntArrayArray3710[class56.anInt568 * -1418960779][2]);
 							}
-							if (class350.anIntArrayArray3753 != null && (null != (class350.anIntArrayArray3753[class56.anInt568 * -1418960779]))) {
-								i_62_ += (class350.anIntArrayArray3753[-1418960779 * class56.anInt568][0]);
-								i_63_ += (class350.anIntArrayArray3753[class56.anInt568 * -1418960779][1]);
-								i_64_ += (class350.anIntArrayArray3753[class56.anInt568 * -1418960779][2]);
+							if (BASType.anIntArrayArray3753 != null && (null != (BASType.anIntArrayArray3753[class56.anInt568 * -1418960779]))) {
+								i_62_ += (BASType.anIntArrayArray3753[-1418960779 * class56.anInt568][0]);
+								i_63_ += (BASType.anIntArrayArray3753[class56.anInt568 * -1418960779][1]);
+								i_64_ += (BASType.anIntArrayArray3753[class56.anInt568 * -1418960779][2]);
 							}
 							if (0 != i_64_ || i_62_ != 0) {
 								int i_65_ = i_57_;
@@ -512,11 +512,11 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 		}
 	}
 
-	public Class350 method4426(int i) {
+	public BASType method4426(int i) {
 		try {
 			int i_105_ = method4432(-40678538);
 			if (-1 == i_105_)
-				return Class349.aClass350_3708;
+				return Class349.aBASType_3708;
 			return Class94.aClass349_913.method4202(i_105_, (byte) 11);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("akn.y(").append(')').toString());
@@ -613,10 +613,10 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 	}
 
 	public int method4435() {
-		Class350 class350 = method4426(1643711288);
+		BASType BASType = method4426(1643711288);
 		int i;
-		if (1638157075 * class350.anInt3716 != -1)
-			i = class350.anInt3716 * 1638157075;
+		if (1638157075 * BASType.anInt3716 != -1)
+			i = BASType.anInt3716 * 1638157075;
 		else if (-32768 == ((Entity) this).anInt10089 * 1507955715)
 			i = 200;
 		else
@@ -633,10 +633,10 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 	}
 
 	public int method4436() {
-		Class350 class350 = method4426(1920081667);
+		BASType BASType = method4426(1920081667);
 		int i;
-		if (1638157075 * class350.anInt3716 != -1)
-			i = class350.anInt3716 * 1638157075;
+		if (1638157075 * BASType.anInt3716 != -1)
+			i = BASType.anInt3716 * 1638157075;
 		else if (-32768 == ((Entity) this).anInt10089 * 1507955715)
 			i = 200;
 		else
@@ -855,11 +855,11 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 
 	public int method4450(short i) {
 		try {
-			Class350 class350 = method4426(80856829);
+			BASType BASType = method4426(80856829);
 			int i_140_ = 259411823 * aClass386_10084.anInt4144;
 			boolean bool;
-			if (class350.anInt3744 * -2079528661 != 0)
-				bool = aClass386_10084.method4717(anInt10068 * 2145248039, (-2079528661 * class350.anInt3744), (class350.anInt3745 * -1460258951), (byte) -24);
+			if (BASType.anInt3744 * -2079528661 != 0)
+				bool = aClass386_10084.method4717(anInt10068 * 2145248039, (-2079528661 * BASType.anInt3744), (BASType.anInt3745 * -1460258951), (byte) -24);
 			else
 				bool = aClass386_10084.method4717(anInt10068 * 2145248039, 907865649 * anInt10115, anInt10115 * 907865649, (byte) -44);
 			int i_141_ = 259411823 * aClass386_10084.anInt4144 - i_140_;
@@ -870,21 +870,21 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 				aClass386_10084.method4718(2145248039 * anInt10068, -43132362);
 			}
 			if (bool) {
-				if (0 != class350.anInt3726 * 1496476593) {
+				if (0 != BASType.anInt3726 * 1496476593) {
 					if (i_141_ > 0)
-						aClass386_10113.method4717(class350.anInt3748 * 1185872679, class350.anInt3726 * 1496476593, 827802659 * class350.anInt3747, (byte) -96);
+						aClass386_10113.method4717(BASType.anInt3748 * 1185872679, BASType.anInt3726 * 1496476593, 827802659 * BASType.anInt3747, (byte) -96);
 					else
-						aClass386_10113.method4717(-(class350.anInt3748 * 1185872679), 1496476593 * class350.anInt3726, class350.anInt3747 * 827802659, (byte) -111);
+						aClass386_10113.method4717(-(BASType.anInt3748 * 1185872679), 1496476593 * BASType.anInt3726, BASType.anInt3747 * 827802659, (byte) -111);
 				}
-				if (class350.anInt3720 * 847512459 != 0)
-					aClass386_10111.method4717(-330229359 * class350.anInt3751, 847512459 * class350.anInt3720, class350.anInt3750 * 1308368525, (byte) -37);
+				if (BASType.anInt3720 * 847512459 != 0)
+					aClass386_10111.method4717(-330229359 * BASType.anInt3751, 847512459 * BASType.anInt3720, BASType.anInt3750 * 1308368525, (byte) -37);
 			} else {
-				if (0 != 1496476593 * class350.anInt3726)
-					aClass386_10113.method4717(0, class350.anInt3726 * 1496476593, 827802659 * class350.anInt3747, (byte) -2);
+				if (0 != 1496476593 * BASType.anInt3726)
+					aClass386_10113.method4717(0, BASType.anInt3726 * 1496476593, 827802659 * BASType.anInt3747, (byte) -2);
 				else
 					aClass386_10113.method4718(0, -1696263872);
-				if (class350.anInt3720 * 847512459 != 0)
-					aClass386_10111.method4717(0, 847512459 * class350.anInt3720, class350.anInt3750 * 1308368525, (byte) -85);
+				if (BASType.anInt3720 * 847512459 != 0)
+					aClass386_10111.method4717(0, 847512459 * BASType.anInt3720, BASType.anInt3750 * 1308368525, (byte) -85);
 				else
 					aClass386_10111.method4718(0, -146971224);
 			}

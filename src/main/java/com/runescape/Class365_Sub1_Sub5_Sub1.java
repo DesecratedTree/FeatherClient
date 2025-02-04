@@ -300,7 +300,7 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 	public Class365_Sub1_Sub5_Sub1(Class331 class331, GraphicsToolkit class_ra, Class433 class433, ObjectDefinitions class432, int i, int i_9_, int i_10_, int i_11_, int i_12_, boolean bool, int i_13_, int i_14_, boolean bool_15_) {
 		super(class331, i_10_, i_11_, i_12_, i, i_9_, Class84.method952(i_13_, i_14_, 800544861));
 		((Class365_Sub1_Sub5_Sub1) this).aClass433_9898 = class433;
-		((Class365_Sub1_Sub5_Sub1) this).anInt9896 = class432.anInt5365 * 584655573;
+		((Class365_Sub1_Sub5_Sub1) this).anInt9896 = class432.id * 584655573;
 		((Class365_Sub1_Sub5_Sub1) this).aBoolean9901 = bool;
 		((Class365_Sub1_Sub5_Sub1) this).aByte9899 = (byte) i_13_;
 		((Class365_Sub1_Sub5_Sub1) this).aByte9897 = (byte) i_14_;

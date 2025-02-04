@@ -100,16 +100,16 @@ public class Class365_Sub1_Sub1_Sub1 extends Class365_Sub1_Sub1 {
 						Class217 class217 = (class365_sub1_sub1_sub2.method4337().aClass217_2599);
 						method4341(class217.aFloat2451, (float) ((Class356.method4271((int) class217.aFloat2451, (int) class217.aFloat2454, plane, -1098231500)) - (1403412253 * ((Class365_Sub1_Sub1_Sub1) this).anInt10042)), class217.aFloat2454);
 						if ((((Class365_Sub1_Sub1_Sub1) this).anInt10041 * -1955698847) >= 0) {
-							Class350 class350 = class365_sub1_sub1_sub2.method4426(399670605);
+							BASType BASType = class365_sub1_sub1_sub2.method4426(399670605);
 							int i_8_ = 0;
 							int i_9_ = 0;
-							if (null != class350.anIntArrayArray3710 && null != (class350.anIntArrayArray3710[(((Class365_Sub1_Sub1_Sub1) this).anInt10041) * -1955698847])) {
-								i_8_ += (class350.anIntArrayArray3710[(-1955698847 * (((Class365_Sub1_Sub1_Sub1) this).anInt10041))][0]);
-								i_9_ += (class350.anIntArrayArray3710[(((Class365_Sub1_Sub1_Sub1) this).anInt10041) * -1955698847][2]);
+							if (null != BASType.anIntArrayArray3710 && null != (BASType.anIntArrayArray3710[(((Class365_Sub1_Sub1_Sub1) this).anInt10041) * -1955698847])) {
+								i_8_ += (BASType.anIntArrayArray3710[(-1955698847 * (((Class365_Sub1_Sub1_Sub1) this).anInt10041))][0]);
+								i_9_ += (BASType.anIntArrayArray3710[(((Class365_Sub1_Sub1_Sub1) this).anInt10041) * -1955698847][2]);
 							}
-							if (class350.anIntArrayArray3753 != null && ((class350.anIntArrayArray3753[-1955698847 * ((Class365_Sub1_Sub1_Sub1) this).anInt10041]) != null)) {
-								i_8_ += (class350.anIntArrayArray3753[(-1955698847 * (((Class365_Sub1_Sub1_Sub1) this).anInt10041))][0]);
-								i_9_ += (class350.anIntArrayArray3753[(((Class365_Sub1_Sub1_Sub1) this).anInt10041) * -1955698847][2]);
+							if (BASType.anIntArrayArray3753 != null && ((BASType.anIntArrayArray3753[-1955698847 * ((Class365_Sub1_Sub1_Sub1) this).anInt10041]) != null)) {
+								i_8_ += (BASType.anIntArrayArray3753[(-1955698847 * (((Class365_Sub1_Sub1_Sub1) this).anInt10041))][0]);
+								i_9_ += (BASType.anIntArrayArray3753[(((Class365_Sub1_Sub1_Sub1) this).anInt10041) * -1955698847][2]);
 							}
 							if (i_8_ != 0 || 0 != i_9_) {
 								int i_10_ = class365_sub1_sub1_sub2.aClass386_10084.method4719((byte) 0);

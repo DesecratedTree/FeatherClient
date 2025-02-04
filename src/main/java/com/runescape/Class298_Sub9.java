@@ -23,14 +23,14 @@ public class Class298_Sub9 extends Class298 {
 		try {
 			Class387 class387 = null;
 			int i_2_ = i;
-			Class350 class350 = null;
+			BASType BASType = null;
 			if (-1 != i_0_)
-				class350 = Class94.aClass349_913.method4202(i_0_, (byte) 89);
+				BASType = Class94.aClass349_913.method4202(i_0_, (byte) 89);
 			int[] is = ((Class298_Sub9) this).anIntArray7226;
-			if (null != class350 && null != class350.anIntArray3732) {
-				is = new int[class350.anIntArray3732.length];
-				for (int i_3_ = 0; i_3_ < class350.anIntArray3732.length; i_3_++) {
-					int i_4_ = class350.anIntArray3732[i_3_];
+			if (null != BASType && null != BASType.anIntArray3732) {
+				is = new int[BASType.anIntArray3732.length];
+				for (int i_3_ = 0; i_3_ < BASType.anIntArray3732.length; i_3_++) {
+					int i_4_ = BASType.anIntArray3732[i_3_];
 					if (i_4_ >= 0 && i_4_ < ((Class298_Sub9) this).anIntArray7226.length)
 						is[i_3_] = ((Class298_Sub9) this).anIntArray7226[i_4_];
 					else
@@ -65,19 +65,19 @@ public class Class298_Sub9 extends Class298 {
 					} else
 						class64s[i_8_] = Class298_Sub32_Sub14.aClass477_9400.getItemDefinitions(is[i_8_]).method6028(bool, null, -1732273011);
 				}
-				if (class350 != null && null != class350.anIntArrayArray3710) {
-					for (int i_9_ = 0; i_9_ < class350.anIntArrayArray3710.length; i_9_++) {
-						if (class350.anIntArrayArray3710[i_9_] != null) {
+				if (BASType != null && null != BASType.anIntArrayArray3710) {
+					for (int i_9_ = 0; i_9_ < BASType.anIntArrayArray3710.length; i_9_++) {
+						if (BASType.anIntArrayArray3710[i_9_] != null) {
 							if (null == class64s[i_9_]) {
 								if (i_1_ != 1)
 									throw new IllegalStateException();
 							} else {
-								int i_10_ = class350.anIntArrayArray3710[i_9_][0];
-								int i_11_ = class350.anIntArrayArray3710[i_9_][1];
-								int i_12_ = class350.anIntArrayArray3710[i_9_][2];
-								int i_13_ = class350.anIntArrayArray3710[i_9_][3];
-								int i_14_ = class350.anIntArrayArray3710[i_9_][4];
-								int i_15_ = class350.anIntArrayArray3710[i_9_][5];
+								int i_10_ = BASType.anIntArrayArray3710[i_9_][0];
+								int i_11_ = BASType.anIntArrayArray3710[i_9_][1];
+								int i_12_ = BASType.anIntArrayArray3710[i_9_][2];
+								int i_13_ = BASType.anIntArrayArray3710[i_9_][3];
+								int i_14_ = BASType.anIntArrayArray3710[i_9_][4];
+								int i_15_ = BASType.anIntArrayArray3710[i_9_][5];
 								if (i_13_ != 0 || i_14_ != 0 || i_15_ != 0)
 									class64s[i_9_].method754(i_13_, i_14_, i_15_);
 								if (i_10_ != 0 || 0 != i_11_ || 0 != i_12_)

@@ -467,14 +467,14 @@ public class PacketsDecoder {
 				boolean bool = stream.readUnsignedByte() == 1;
 				if (((Class25) class25).anInt336 * -866602563 == 1) {
 					if (bool)
-						Class350.aClass298_Sub25_3757 = null;
+						BASType.aClass298_Sub25_3757 = null;
 					else
 						Class375.aClass298_Sub25_4084 = null;
 					((Class25) class25).INCOMMING_PACKET = null;
 					return true;
 				}
 				if (bool)
-					Class350.aClass298_Sub25_3757 = new Class298_Sub25(stream);
+					BASType.aClass298_Sub25_3757 = new Class298_Sub25(stream);
 				else
 					Class375.aClass298_Sub25_4084 = new Class298_Sub25(stream);
 				((Class25) class25).INCOMMING_PACKET = null;
@@ -572,7 +572,7 @@ public class PacketsDecoder {
 				long l_168_ = (l << 32) + l_166_;
 				boolean bool_169_ = false;
 				Object object = null;
-				Class298_Sub25 class298_sub25 = (bool ? Class350.aClass298_Sub25_3757 : Class375.aClass298_Sub25_4084);
+				Class298_Sub25 class298_sub25 = (bool ? BASType.aClass298_Sub25_3757 : Class375.aClass298_Sub25_4084);
 				while_86_: do {
 					if (null == class298_sub25)
 						bool_169_ = true;
@@ -853,7 +853,7 @@ public class PacketsDecoder {
 				Class152 class152 = new Class152(stream);
 				Class298_Sub25 class298_sub25;
 				if (bool)
-					class298_sub25 = Class350.aClass298_Sub25_3757;
+					class298_sub25 = BASType.aClass298_Sub25_3757;
 				else
 					class298_sub25 = Class375.aClass298_Sub25_4084;
 				class152.method1651(class298_sub25, (byte) -33);
@@ -1734,7 +1734,7 @@ public class PacketsDecoder {
 				long l_397_ = (l << 32) + l_394_;
 				boolean bool_398_ = false;
 				Object object = null;
-				Class298_Sub25 class298_sub25 = (bool ? Class350.aClass298_Sub25_3757 : Class375.aClass298_Sub25_4084);
+				Class298_Sub25 class298_sub25 = (bool ? BASType.aClass298_Sub25_3757 : Class375.aClass298_Sub25_4084);
 				while_90_: do {
 					if (class298_sub25 == null)
 						bool_398_ = true;

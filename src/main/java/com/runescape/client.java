@@ -443,7 +443,7 @@ public final class client extends Class291 {
 								Class242.aClass401_2708 = Class401.aClass401_6557;
 							break;
 						case 5:
-							Class350.anInt3758 = Integer.parseInt(string) * -339928991;
+							BASType.anInt3758 = Integer.parseInt(string) * -339928991;
 							break;
 						case 32:
 							aLong8645 = (Long.parseLong(string) * -4477728998236397853L);
@@ -2097,7 +2097,7 @@ public final class client extends Class291 {
 							Class242.aClass401_2708 = Class401.aClass401_6557;
 						break;
 					case 5:
-						Class350.anInt3758 = Integer.parseInt(string) * -339928991;
+						BASType.anInt3758 = Integer.parseInt(string) * -339928991;
 						break;
 					case 32:
 						aLong8645 = Long.parseLong(string) * -4477728998236397853L;
@@ -2320,7 +2320,7 @@ public final class client extends Class291 {
 							Class242.aClass401_2708 = Class401.aClass401_6557;
 						break;
 					case 5:
-						Class350.anInt3758 = Integer.parseInt(string) * -339928991;
+						BASType.anInt3758 = Integer.parseInt(string) * -339928991;
 						break;
 					case 32:
 						aLong8645 = Long.parseLong(string) * -4477728998236397853L;
@@ -2795,7 +2795,7 @@ public final class client extends Class291 {
 					}
 				}
 				if (Class423.method5734(-2065645422))
-					Class350.method4218(2062671792);
+					BASType.method4218(2062671792);
 				if (Class88.method976(anInt8752 * -1233866115, 579190405)) {
 					Class275.method2573(-123142149);
 					Class113.method1247(1876624858);
@@ -3505,7 +3505,7 @@ public final class client extends Class291 {
 							Class242.aClass401_2708 = Class401.aClass401_6557;
 						break;
 					case 5:
-						Class350.anInt3758 = Integer.parseInt(string) * -339928991;
+						BASType.anInt3758 = Integer.parseInt(string) * -339928991;
 						break;
 					case 32:
 						aLong8645 = Long.parseLong(string) * -4477728998236397853L;
@@ -3664,7 +3664,7 @@ public final class client extends Class291 {
 							Class242.aClass401_2708 = Class401.aClass401_6557;
 						break;
 					case 5:
-						Class350.anInt3758 = Integer.parseInt(string) * -339928991;
+						BASType.anInt3758 = Integer.parseInt(string) * -339928991;
 						break;
 					case 32:
 						aLong8645 = Long.parseLong(string) * -4477728998236397853L;
@@ -3823,7 +3823,7 @@ public final class client extends Class291 {
 							Class242.aClass401_2708 = Class401.aClass401_6557;
 						break;
 					case 5:
-						Class350.anInt3758 = Integer.parseInt(string) * -339928991;
+						BASType.anInt3758 = Integer.parseInt(string) * -339928991;
 						break;
 					case 32:
 						aLong8645 = Long.parseLong(string) * -4477728998236397853L;
@@ -3982,7 +3982,7 @@ public final class client extends Class291 {
 							Class242.aClass401_2708 = Class401.aClass401_6557;
 						break;
 					case 5:
-						Class350.anInt3758 = Integer.parseInt(string) * -339928991;
+						BASType.anInt3758 = Integer.parseInt(string) * -339928991;
 						break;
 					case 32:
 						aLong8645 = Long.parseLong(string) * -4477728998236397853L;
@@ -4141,7 +4141,7 @@ public final class client extends Class291 {
 							Class242.aClass401_2708 = Class401.aClass401_6557;
 						break;
 					case 5:
-						Class350.anInt3758 = Integer.parseInt(string) * -339928991;
+						BASType.anInt3758 = Integer.parseInt(string) * -339928991;
 						break;
 					case 32:
 						aLong8645 = Long.parseLong(string) * -4477728998236397853L;

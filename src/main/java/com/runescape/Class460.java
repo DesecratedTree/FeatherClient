@@ -267,7 +267,7 @@ public class Class460 implements Iterator {
 								stream.writeByte((Class84.aClass305_770.method3747("jagtheora", 1302159774) ? 1 : 0));
 								stream.writeByte(((client.aBoolean8638) ? 1 : 0));
 								stream.writeByte(((client.aBoolean8958) ? 1 : 0));
-								stream.writeByte(((Class350.anInt3758) * -180909151));
+								stream.writeByte(((BASType.anInt3758) * -180909151));
 								stream.writeInt(1886068421 * client.anInt8654, 576248494);
 								stream.writeString((client.aString8655), 2141094155);
 								stream.writeByte((null == Class386.aClass471_4146 || ((1606920449 * Class474.aClass471_5979.worldId) != (Class386.aClass471_4146.worldId * 1606920449))) ? 1 : 0);
