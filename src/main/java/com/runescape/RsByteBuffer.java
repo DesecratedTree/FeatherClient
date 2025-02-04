@@ -5,8 +5,8 @@ package com.runescape;
 import java.math.BigInteger;
 
 public class RsByteBuffer extends Class298 {
-	public byte[] buffer;
-	public int index;
+	public static byte[] buffer;
+	public static int index;
 	static int[] anIntArray7614 = new int[256];
 	static int anInt7615 = -306674912;
 	public static int anInt7616 = 5000;
@@ -275,6 +275,18 @@ public class RsByteBuffer extends Class298 {
 		}
 	}
 
+	public int readUnsignedSmart() {
+		try {
+			int i_20_ = buffer[index * 385051775] & 0xff;
+			if (i_20_ < 128) {
+				return g1();
+			}
+			return g2() - 32768;
+		} catch (RuntimeException runtimeexception) {
+			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.ay(").append(')').toString());
+		}
+	}
+
 	public int readSmart(short i) {
 		try {
 			int i_21_ = 0;
@@ -419,7 +431,7 @@ public class RsByteBuffer extends Class298 {
 		}
 	}
 
-	public int g4() {
+	public static int g4() {
 		try {
 			index += 465653244;
 			return ((buffer[385051775 * index - 3] & 0xff) << 16) + ((buffer[385051775 * index - 4] & 0xff) << 24) + ((buffer[index * 385051775 - 2] & 0xff) << 8) + (buffer[385051775 * index - 1] & 0xff);
@@ -807,6 +819,21 @@ public class RsByteBuffer extends Class298 {
 			int i_81_ = readUnsignedShort();
 			if (32767 == i_81_)
 				return -1;
+			return i_81_;
+		} catch (RuntimeException runtimeexception) {
+			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.an(").append(')').toString());
+		}
+	}
+
+	public int gSmart2or4n() {// readBigSmart
+		try {
+			if (buffer[385051775 * index] < 0) {
+				return g4() & 0x7fffffff;
+			}
+			int i_81_ = g2();
+			if (32767 == i_81_) {
+				return -1;
+			}
 			return i_81_;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("acx.an(").append(')').toString());

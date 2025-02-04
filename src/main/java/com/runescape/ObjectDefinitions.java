@@ -90,9 +90,9 @@ public class ObjectDefinitions {
 	private int[] aj;
 	static int anInt5442 = 127007;
 
-	void decode(RsByteBuffer stream, int i, int i_0_) {
+	void decode(RsByteBuffer stream, int opcode, int i_0_) {
 		try {
-			if (1 == i) {
+			if (1 == opcode) {
 				int i_1_ = stream.readUnsignedByte();
 				shapes = new byte[i_1_];
 				modelIds = new int[i_1_][];
@@ -100,46 +100,51 @@ public class ObjectDefinitions {
 					shapes[i_2_] = stream.readByte(-12558881);
 					int i_3_ = stream.readUnsignedByte();
 					modelIds[i_2_] = new int[i_3_];
-					for (int i_4_ = 0; i_4_ < i_3_; i_4_++)
+					for (int i_4_ = 0; i_4_ < i_3_; i_4_++) {
 						modelIds[i_2_][i_4_] = stream.readBigSmart(1235052657);
+						if ((id * 1181652947) >= OSRSData.LOCS_OFFSET) {
+							modelIds[i_2_][i_4_] += OSRSData.LOCS_OFFSET;
+						}
+					}
+
 				}
-			} else if (i == 2)
+			} else if (opcode == 2)
 				name = stream.readString(-1849485656);
-			else if (14 == i)
+			else if (14 == opcode)
 				sizeX = stream.readUnsignedByte() * -2144855351;
-			else if (i == 15)
+			else if (opcode == 15)
 				sizeY = stream.readUnsignedByte() * 44056569;
-			else if (i == 17) {
+			else if (opcode == 17) {
 				anInt5380 = 0;
 				aBoolean5424 = false;
-			} else if (i == 18)
+			} else if (opcode == 18)
 				aBoolean5424 = false;
-			else if (19 == i)
+			else if (19 == opcode)
 				anInt5382 = stream.readUnsignedByte() * 455422743;
-			else if (21 == i)
+			else if (21 == opcode)
 				((ObjectDefinitions) this).aByte5363 = (byte) 1;
-			else if (i == 22)
+			else if (opcode == 22)
 				aBoolean5385 = true;
-			else if (i == 23)
+			else if (opcode == 23)
 				anInt5376 = -580315545;
-			else if (24 == i) {
+			else if (24 == opcode) {
 				int i_5_ = stream.readBigSmart(1235052657);
 				if ((id * 1181652947) >= OSRSData.LOCS_OFFSET) {
 					i_5_ += OSRSData.SEQUENCES_OFFSET;
 				}
 				if (i_5_ != -1)
 					((ObjectDefinitions) this).anIntArray5378 = new int[] { i_5_ };
-			} else if (i == 27)
+			} else if (opcode == 27)
 				anInt5380 = 268680417;
-			else if (28 == i)
+			else if (28 == opcode)
 				anInt5391 = ((stream.readUnsignedByte() << 2) * 803995289);
-			else if (i == 29)
+			else if (opcode == 29)
 				((ObjectDefinitions) this).anInt5392 = stream.readByte(-12558881) * -62240291;
-			else if (39 == i)
+			else if (39 == opcode)
 				((ObjectDefinitions) this).anInt5393 = stream.readByte(-12558881) * -1530589831;
-			else if (i >= 30 && i < 35)
-				aStringArray5394[i - 30] = stream.readString(2140843487);
-			else if (i == 40) {
+			else if (opcode >= 30 && opcode < 35)
+				aStringArray5394[opcode - 30] = stream.readString(2140843487);
+			else if (opcode == 40) {
 				int i_6_ = stream.readUnsignedByte();
 				((ObjectDefinitions) this).aShortArray5369 = new short[i_6_];
 				aShortArray5367 = new short[i_6_];
@@ -147,7 +152,7 @@ public class ObjectDefinitions {
 					((ObjectDefinitions) this).aShortArray5369[i_7_] = (short) stream.readUnsignedShort();
 					aShortArray5367[i_7_] = (short) stream.readUnsignedShort();
 				}
-			} else if (i == 41) {
+			} else if (opcode == 41) {
 				int i_8_ = stream.readUnsignedByte();
 				((ObjectDefinitions) this).aShortArray5372 = new short[i_8_];
 				aShortArray5373 = new short[i_8_];
@@ -155,12 +160,12 @@ public class ObjectDefinitions {
 					((ObjectDefinitions) this).aShortArray5372[i_9_] = (short) stream.readUnsignedShort();
 					aShortArray5373[i_9_] = (short) stream.readUnsignedShort();
 				}
-			} else if (i == 42) {
+			} else if (opcode == 42) {
 				int i_10_ = stream.readUnsignedByte();
 				((ObjectDefinitions) this).aByteArray5371 = new byte[i_10_];
 				for (int i_11_ = 0; i_11_ < i_10_; i_11_++)
 					((ObjectDefinitions) this).aByteArray5371[i_11_] = stream.readByte(-12558881);
-			} else if (44 == i) {
+			} else if (44 == opcode) {
 				int i_86_ = (short) stream.readUnsignedShort();
 				int i_87_ = 0;
 				for (int i_88_ = i_86_; i_88_ > 0; i_88_ >>= 1)
@@ -174,7 +179,7 @@ public class ObjectDefinitions {
 					} else
 						unknownArray3[i_90_] = (byte) -1;
 				}
-			} else if (i == 45) {
+			} else if (opcode == 45) {
 				int i_91_ = (short) stream.readUnsignedShort();
 				int i_92_ = 0;
 				for (int i_93_ = i_91_; i_93_ > 0; i_93_ >>= 1)
@@ -188,31 +193,31 @@ public class ObjectDefinitions {
 					} else
 						unknownArray4[i_95_] = (byte) -1;
 				}
-			} else if (i == 62)
+			} else if (opcode == 62)
 				aBoolean5404 = true;
-			else if (64 == i)
+			else if (64 == opcode)
 				aBoolean5405 = false;
-			else if (65 == i)
+			else if (65 == opcode)
 				((ObjectDefinitions) this).anInt5406 = stream.readUnsignedShort() * 929519655;
-			else if (66 == i)
+			else if (66 == opcode)
 				((ObjectDefinitions) this).anInt5407 = stream.readUnsignedShort() * -1076239419;
-			else if (i == 67)
+			else if (opcode == 67)
 				((ObjectDefinitions) this).anInt5414 = stream.readUnsignedShort() * 1192395179;
-			else if (i == 69)
+			else if (opcode == 69)
 				stream.readUnsignedByte();
-			else if (i == 70)
+			else if (opcode == 70)
 				((ObjectDefinitions) this).anInt5379 = (stream.readShort(1954619354) << 2) * 804752437;
-			else if (i == 71)
+			else if (opcode == 71)
 				((ObjectDefinitions) this).anInt5396 = ((stream.readShort(1981333343) << 2) * -830213317);
-			else if (i == 72)
+			else if (opcode == 72)
 				((ObjectDefinitions) this).anInt5411 = ((stream.readShort(2079097901) << 2) * 1957563615);
-			else if (i == 73)
+			else if (opcode == 73)
 				aBoolean5410 = true;
-			else if (i == 74)
+			else if (opcode == 74)
 				aBoolean5416 = true;
-			else if (i == 75)
+			else if (opcode == 75)
 				anInt5409 = stream.readUnsignedByte() * 1763780945;
-			else if (77 == i || 92 == i) {
+			else if (77 == opcode || 92 == opcode) {
 				((ObjectDefinitions) this).anInt5420 = stream.readUnsignedShort() * -1228374415;
 				if (65535 == 1064010385 * ((ObjectDefinitions) this).anInt5420)
 					((ObjectDefinitions) this).anInt5420 = 1228374415;
@@ -220,17 +225,26 @@ public class ObjectDefinitions {
 				if (65535 == -1128963393 * ((ObjectDefinitions) this).anInt5421)
 					((ObjectDefinitions) this).anInt5421 = 2115564225;
 				int i_12_ = -1;
-				if (92 == i)
+				if (92 == opcode) {
+					i_12_ = stream.gSmart2or4n();
+					if ((id * 1181652947) >= OSRSData.LOCS_OFFSET) {
+						i_12_ += OSRSData.LOCS_OFFSET;
+					}
+				}
 					i_12_ = stream.readBigSmart(1235052657);
 				int i_13_ = stream.readUnsignedByte();
 				anIntArray5366 = new int[2 + i_13_];
-				for (int i_14_ = 0; i_14_ <= i_13_; i_14_++)
+				for (int i_14_ = 0; i_14_ <= i_13_; i_14_++) {
 					anIntArray5366[i_14_] = stream.readBigSmart(1235052657);
+					if ((id * 1181652947) >= OSRSData.LOCS_OFFSET) {
+						anIntArray5366[i_14_] += OSRSData.LOCS_OFFSET;
+					}
+				}
 				anIntArray5366[i_13_ + 1] = i_12_;
-			} else if (i == 78) {
+			} else if (opcode == 78) {
 				anInt5422 = stream.readUnsignedShort() * -349046175;
 				anInt5408 = stream.readUnsignedByte() * -634552289;
-			} else if (i == 79) {
+			} else if (opcode == 79) {
 				anInt5427 = stream.readUnsignedShort() * 1882310759;
 				anInt5428 = stream.readUnsignedShort() * 1376401661;
 				anInt5408 = stream.readUnsignedByte() * -634552289;
@@ -238,46 +252,46 @@ public class ObjectDefinitions {
 				anIntArray5429 = new int[i_15_];
 				for (int i_16_ = 0; i_16_ < i_15_; i_16_++)
 					anIntArray5429[i_16_] = stream.readUnsignedShort();
-			} else if (81 == i) {
+			} else if (81 == opcode) {
 				((ObjectDefinitions) this).aByte5363 = (byte) 2;
 				((ObjectDefinitions) this).anInt5384 = stream.readUnsignedByte() * -1868938496;
-			} else if (i == 82)
+			} else if (opcode == 82)
 				aBoolean5432 = true;
-			else if (88 == i)
+			else if (88 == opcode)
 				aBoolean5433 = false;
-			else if (i == 89)
+			else if (opcode == 89)
 				aBoolean5431 = false;
-			else if (91 == i)
+			else if (91 == opcode)
 				aBoolean5434 = true;
-			else if (i == 93) {
+			else if (opcode == 93) {
 				((ObjectDefinitions) this).aByte5363 = (byte) 3;
 				((ObjectDefinitions) this).anInt5384 = stream.readUnsignedShort() * -242181565;
-			} else if (i == 94)
+			} else if (opcode == 94)
 				((ObjectDefinitions) this).aByte5363 = (byte) 4;
-			else if (95 == i) {
+			else if (95 == opcode) {
 				((ObjectDefinitions) this).aByte5363 = (byte) 5;
 				((ObjectDefinitions) this).anInt5384 = stream.readShort(2013201622) * -242181565;
-			} else if (97 == i)
+			} else if (97 == opcode)
 				aBoolean5401 = true;
-			else if (98 == i)
+			else if (98 == opcode)
 				aBoolean5381 = true;
-			else if (99 == i) {
+			else if (99 == opcode) {
 				anInt5397 = stream.readUnsignedByte() * 2064530465;
 				anInt5436 = stream.readUnsignedShort() * -1320066331;
-			} else if (100 == i) {
+			} else if (100 == opcode) {
 				anInt5398 = stream.readUnsignedByte() * 1406097311;
 				anInt5364 = stream.readUnsignedShort() * 474865427;
-			} else if (101 == i)
+			} else if (101 == opcode)
 				anInt5402 = stream.readUnsignedByte() * 1747447869;
-			else if (i == 102)
+			else if (opcode == 102)
 				anInt5400 = stream.readUnsignedShort() * 475870643;
-			else if (103 == i)
+			else if (103 == opcode)
 				anInt5376 = 0;
-			else if (104 == i)
+			else if (104 == opcode)
 				anInt5425 = stream.readUnsignedByte() * 1861040235;
-			else if (i == 105)
+			else if (opcode == 105)
 				aBoolean5440 = true;
-			else if (106 == i) {
+			else if (106 == opcode) {
 				int i_17_ = stream.readUnsignedByte();
 				int i_18_ = 0;
 				((ObjectDefinitions) this).anIntArray5378 = new int[i_17_];
@@ -288,57 +302,57 @@ public class ObjectDefinitions {
 				}
 				for (int i_20_ = 0; i_20_ < i_17_; i_20_++)
 					((ObjectDefinitions) this).anIntArray5390[i_20_] = (65535 * ((ObjectDefinitions) this).anIntArray5390[i_20_] / i_18_);
-			} else if (i == 107)
+			} else if (opcode == 107)
 				anInt5399 = stream.readUnsignedShort() * -779127471;
-			else if (i >= 150 && i < 155) {
-				aStringArray5394[i - 150] = stream.readString(67859332);
+			else if (opcode >= 150 && opcode < 155) {
+				aStringArray5394[opcode - 150] = stream.readString(67859332);
 				if (!((Class433) ((ObjectDefinitions) this).aClass433_5403).aBoolean5445)
-					aStringArray5394[i - 150] = null;
-			} else if (160 == i) {
+					aStringArray5394[opcode - 150] = null;
+			} else if (160 == opcode) {
 				int i_21_ = stream.readUnsignedByte();
 				anIntArray5370 = new int[i_21_];
 				for (int i_22_ = 0; i_22_ < i_21_; i_22_++)
 					anIntArray5370[i_22_] = stream.readUnsignedShort();
-			} else if (i == 162) {
+			} else if (opcode == 162) {
 				((ObjectDefinitions) this).aByte5363 = (byte) 3;
 				((ObjectDefinitions) this).anInt5384 = stream.readInt((byte) 30) * -242181565;
-			} else if (i == 163) {
+			} else if (opcode == 163) {
 				((ObjectDefinitions) this).aByte5417 = stream.readByte(-12558881);
 				((ObjectDefinitions) this).aByte5375 = stream.readByte(-12558881);
 				((ObjectDefinitions) this).aByte5415 = stream.readByte(-12558881);
 				((ObjectDefinitions) this).aByte5377 = stream.readByte(-12558881);
-			} else if (i == 164)
+			} else if (opcode == 164)
 				((ObjectDefinitions) this).anInt5412 = stream.readShort(2119621102) * -1121469985;
-			else if (165 == i)
+			else if (165 == opcode)
 				((ObjectDefinitions) this).anInt5413 = stream.readShort(1762145274) * 1097094883;
-			else if (166 == i)
+			else if (166 == opcode)
 				((ObjectDefinitions) this).anInt5419 = stream.readShort(1892618723) * -870210675;
-			else if (i == 167)
+			else if (opcode == 167)
 				anInt5418 = stream.readUnsignedShort() * 597954411;
-			else if (168 == i)
+			else if (168 == opcode)
 				aBoolean5426 = true;
-			else if (169 == i)
+			else if (169 == opcode)
 				aBoolean5395 = true;
-			else if (170 == i)
+			else if (170 == opcode)
 				anInt5387 = stream.readUnsignedSmart(1723054621) * -1277797453;
-			else if (171 == i)
+			else if (171 == opcode)
 				anInt5388 = stream.readUnsignedSmart(1723054621) * 883280249;
-			else if (i == 173) {
+			else if (opcode == 173) {
 				anInt5438 = stream.readUnsignedShort() * 1097791615;
 				anInt5439 = stream.readUnsignedShort() * -127624289;
-			} else if (i == 177)
+			} else if (opcode == 177)
 				aBoolean5389 = true;
-			else if (178 == i)
+			else if (178 == opcode)
 				anInt5437 = stream.readUnsignedByte() * -1122029857;
-			else if (i == 189)
+			else if (opcode == 189)
 				aBoolean5441 = true;
-			else if (i >= 190 && i < 196) {
+			else if (opcode >= 190 && opcode < 196) {
 				if (aj == null) {
 					aj = new int[6];
 					Arrays.fill(aj, -1);
 				}
-				aj[i - 190] = stream.readUnsignedShort();
-			} else if (i == 249) {
+				aj[opcode - 190] = stream.readUnsignedShort();
+			} else if (opcode == 249) {
 				int i_23_ = stream.readUnsignedByte();
 				if (((ObjectDefinitions) this).aClass437_5435 == null) {
 					int i_24_ = Class416.method5590(i_23_, (byte) 16);
