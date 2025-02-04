@@ -106,7 +106,7 @@ public class Class145 implements Interface5 {
 			Class390 class390 = (((ClientScript2) class403).aBoolean5261 ? ((ClientScript2) class403).aClass390_5247 : ((ClientScript2) class403).aClass390_5246);
 			IComponentDefinition class105 = ((Class390) class390).aClass105_4168;
 			Class119 class119 = ((Class390) class390).aClass119_4167;
-			Class240_Sub1.method2244(class105, class119, class403, (byte) -89);
+			MapDecoder_Sub1.method2244(class105, class119, class403, (byte) -89);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("fw.op(").append(')').toString());
 		}

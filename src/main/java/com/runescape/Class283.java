@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 //XXX IMPORTANT!
 public class Class283 {
-	Class240_Sub1 aClass240_Sub1_3000;
+	MapDecoder_Sub1 aClass240_Sub1_3000;
 	Class266 aClass266_3001;
 	byte[][] aByteArrayArray3002;
 	Class115 aClass115_3003;
@@ -35,7 +35,7 @@ public class Class283 {
 	int[][] anIntArrayArray3026;
 	int anInt3027 = 0;
 	int anInt3028 = 255626399;
-	Class240_Sub1 aClass240_Sub1_3029;
+	MapDecoder_Sub1 aClass240_Sub1_3029;
 	int anInt3030;
 	int[] anIntArray3031;
 	byte[][][] aByteArrayArrayArray3032;
@@ -125,7 +125,7 @@ public class Class283 {
 		}
 	}
 
-	void method2636(Class240_Sub1 class240_sub1, byte[][] is, byte i) {
+	void method2636(MapDecoder_Sub1 class240_sub1, byte[][] is, byte i) {
 		try {
 			for (int i_0_ = 0; i_0_ < 1551623871 * class240_sub1.anInt2626; i_0_++) {
 				if (!aBoolean3018) {
@@ -231,7 +231,7 @@ public class Class283 {
 		}
 	}
 
-	public Class240_Sub1 method2644(int i) {
+	public MapDecoder_Sub1 method2644(int i) {
 		try {
 			return aClass240_Sub1_3029;
 		} catch (RuntimeException runtimeexception) {
@@ -601,7 +601,7 @@ public class Class283 {
 		}
 	}
 
-	void method2659(Class240_Sub1 class240_sub1, byte[][] is, short i) {
+	void method2659(MapDecoder_Sub1 class240_sub1, byte[][] is, short i) {
 		try {
 			int i_61_ = is.length;
 			for (int i_62_ = 0; i_62_ < i_61_; i_62_++) {
@@ -635,7 +635,7 @@ public class Class283 {
 		}
 	}
 
-	void method2660(Class240_Sub1 class240_sub1, byte[][] is, byte i) {
+	void method2660(MapDecoder_Sub1 class240_sub1, byte[][] is, byte i) {
 		try {
 			int i_72_ = aByteArrayArray3038.length;
 			for (int i_73_ = 0; i_73_ < i_72_; i_73_++) {
@@ -1120,7 +1120,7 @@ public class Class283 {
 		}
 	}
 
-	void method2671(Class240_Sub1 class240_sub1, byte[][] is, int i) {
+	void method2671(MapDecoder_Sub1 class240_sub1, byte[][] is, int i) {
 		try {
 			for (int i_143_ = 0; i_143_ < class240_sub1.anInt2626 * 1551623871; i_143_++) {
 				if (!aBoolean3018) {
@@ -1299,7 +1299,7 @@ public class Class283 {
 			}
 			aClass287_3019 = new Class287();
 			aFloat3020 = -0.05F + (float) (Math.random() / 10.0);
-			aClass240_Sub1_3029 = new Class240_Sub1(aClass331_3037, aClass433_3040, 4, -991330803 * anInt3039, -1456212765 * anInt3011, false, aClass244_3012, aClass364_3013);
+			aClass240_Sub1_3029 = new MapDecoder_Sub1(aClass331_3037, aClass433_3040, 4, -991330803 * anInt3039, -1456212765 * anInt3011, false, aClass244_3012, aClass364_3013);
 			aClass240_Sub1_3029.method2212(-403694446);
 			aClass240_Sub1_3029.anInt2621 = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub7_7581.method5650(-809818345) * 275039235;
 			aClass240_Sub1_3029.aBoolean2622 = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub5_7572.method5642(-2131698628) == 2;
@@ -1318,7 +1318,7 @@ public class Class283 {
 			aClass364_3013.method4323(this, 1783211969);
 			if (bool) {
 				aClass331_3037.method4052(true, -740850409);
-				aClass240_Sub1_3000 = new Class240_Sub1(aClass331_3037, aClass433_3040, 1, (-991330803 * anInt3039), (-1456212765 * anInt3011), true, aClass244_3012, aClass364_3013);
+				aClass240_Sub1_3000 = new MapDecoder_Sub1(aClass331_3037, aClass433_3040, 1, (-991330803 * anInt3039), (-1456212765 * anInt3011), true, aClass244_3012, aClass364_3013);
 				aClass240_Sub1_3000.method2212(-1978540544);
 				aClass240_Sub1_3000.anInt2621 = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub7_7581.method5650(-15786995) * 275039235;
 				aClass240_Sub1_3000.aBoolean2622 = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub5_7572.method5642(864049094) == 2;

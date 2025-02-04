@@ -3,7 +3,7 @@ package com.runescape;
  * Visit http://jode.sourceforge.net/
  */
 
-public class Class240 {
+public class MapDecoder {
 	static int anInt2616 = 16;
 	Class451 aClass451_2617;
 	int[] anIntArray2618;
@@ -288,11 +288,11 @@ public class Class240 {
 
 	public void method2217(int i) {
 		try {
-			((Class240) this).anIntArray2669 = null;
-			((Class240) this).anIntArray2639 = null;
-			((Class240) this).anIntArray2640 = null;
-			((Class240) this).anIntArray2641 = null;
-			((Class240) this).anIntArray2642 = null;
+			((MapDecoder) this).anIntArray2669 = null;
+			((MapDecoder) this).anIntArray2639 = null;
+			((MapDecoder) this).anIntArray2640 = null;
+			((MapDecoder) this).anIntArray2641 = null;
+			((MapDecoder) this).anIntArray2642 = null;
 			aBoolean2632 = false;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("kb.f(").append(')').toString());
@@ -344,45 +344,45 @@ public class Class240 {
 	public final void method2219(GraphicsToolkit class_ra, Class_xa class_xa, Class_xa class_xa_68_, byte i) {
 		try {
 			int[][] is = new int[anInt2627 * -954368823][181474463 * anInt2628];
-			if (null == ((Class240) this).anIntArray2669 || (((Class240) this).anIntArray2669.length != 181474463 * anInt2628)) {
-				((Class240) this).anIntArray2669 = new int[181474463 * anInt2628];
-				((Class240) this).anIntArray2639 = new int[anInt2628 * 181474463];
-				((Class240) this).anIntArray2640 = new int[181474463 * anInt2628];
-				((Class240) this).anIntArray2641 = new int[anInt2628 * 181474463];
-				((Class240) this).anIntArray2642 = new int[181474463 * anInt2628];
+			if (null == ((MapDecoder) this).anIntArray2669 || (((MapDecoder) this).anIntArray2669.length != 181474463 * anInt2628)) {
+				((MapDecoder) this).anIntArray2669 = new int[181474463 * anInt2628];
+				((MapDecoder) this).anIntArray2639 = new int[anInt2628 * 181474463];
+				((MapDecoder) this).anIntArray2640 = new int[181474463 * anInt2628];
+				((MapDecoder) this).anIntArray2641 = new int[anInt2628 * 181474463];
+				((MapDecoder) this).anIntArray2642 = new int[181474463 * anInt2628];
 			}
 			for (int i_69_ = 0; i_69_ < 1551623871 * anInt2626; i_69_++) {
 				for (int i_70_ = 0; i_70_ < anInt2628 * 181474463; i_70_++) {
-					((Class240) this).anIntArray2669[i_70_] = 0;
-					((Class240) this).anIntArray2639[i_70_] = 0;
-					((Class240) this).anIntArray2640[i_70_] = 0;
-					((Class240) this).anIntArray2641[i_70_] = 0;
-					((Class240) this).anIntArray2642[i_70_] = 0;
+					((MapDecoder) this).anIntArray2669[i_70_] = 0;
+					((MapDecoder) this).anIntArray2639[i_70_] = 0;
+					((MapDecoder) this).anIntArray2640[i_70_] = 0;
+					((MapDecoder) this).anIntArray2641[i_70_] = 0;
+					((MapDecoder) this).anIntArray2642[i_70_] = 0;
 				}
 				for (int i_71_ = -5; i_71_ < anInt2627 * -954368823; i_71_++) {
 					for (int i_72_ = 0; i_72_ < anInt2628 * 181474463; i_72_++) {
 						int i_73_ = 5 + i_71_;
 						if (i_73_ < anInt2627 * -954368823) {
-							int i_74_ = ((((Class240) this).aByteArrayArrayArray2670[i_69_][i_73_][i_72_]) & 0xff);
+							int i_74_ = ((((MapDecoder) this).aByteArrayArrayArray2670[i_69_][i_73_][i_72_]) & 0xff);
 							if (i_74_ > 0) {
-								Class443 class443 = ((Class240) this).aClass451_2617.method5932(i_74_ - 1, (byte) -1);
-								((Class240) this).anIntArray2669[i_72_] += class443.anInt5598 * 838046775;
-								((Class240) this).anIntArray2639[i_72_] += -620399085 * class443.anInt5595;
-								((Class240) this).anIntArray2640[i_72_] += 656695887 * class443.anInt5600;
-								((Class240) this).anIntArray2641[i_72_] += class443.anInt5601 * -813159285;
-								((Class240) this).anIntArray2642[i_72_]++;
+								Class443 class443 = ((MapDecoder) this).aClass451_2617.method5932(i_74_ - 1, (byte) -1);
+								((MapDecoder) this).anIntArray2669[i_72_] += class443.anInt5598 * 838046775;
+								((MapDecoder) this).anIntArray2639[i_72_] += -620399085 * class443.anInt5595;
+								((MapDecoder) this).anIntArray2640[i_72_] += 656695887 * class443.anInt5600;
+								((MapDecoder) this).anIntArray2641[i_72_] += class443.anInt5601 * -813159285;
+								((MapDecoder) this).anIntArray2642[i_72_]++;
 							}
 						}
 						int i_75_ = i_71_ - 5;
 						if (i_75_ >= 0) {
-							int i_76_ = ((((Class240) this).aByteArrayArrayArray2670[i_69_][i_75_][i_72_]) & 0xff);
+							int i_76_ = ((((MapDecoder) this).aByteArrayArrayArray2670[i_69_][i_75_][i_72_]) & 0xff);
 							if (i_76_ > 0) {
-								Class443 class443 = ((Class240) this).aClass451_2617.method5932(i_76_ - 1, (byte) -1);
-								((Class240) this).anIntArray2669[i_72_] -= class443.anInt5598 * 838046775;
-								((Class240) this).anIntArray2639[i_72_] -= -620399085 * class443.anInt5595;
-								((Class240) this).anIntArray2640[i_72_] -= class443.anInt5600 * 656695887;
-								((Class240) this).anIntArray2641[i_72_] -= class443.anInt5601 * -813159285;
-								((Class240) this).anIntArray2642[i_72_]--;
+								Class443 class443 = ((MapDecoder) this).aClass451_2617.method5932(i_76_ - 1, (byte) -1);
+								((MapDecoder) this).anIntArray2669[i_72_] -= class443.anInt5598 * 838046775;
+								((MapDecoder) this).anIntArray2639[i_72_] -= -620399085 * class443.anInt5595;
+								((MapDecoder) this).anIntArray2640[i_72_] -= class443.anInt5600 * 656695887;
+								((MapDecoder) this).anIntArray2641[i_72_] -= class443.anInt5601 * -813159285;
+								((MapDecoder) this).anIntArray2642[i_72_]--;
 							}
 						}
 					}
@@ -395,19 +395,19 @@ public class Class240 {
 						for (int i_82_ = -5; i_82_ < 181474463 * anInt2628; i_82_++) {
 							int i_83_ = 5 + i_82_;
 							if (i_83_ < 181474463 * anInt2628) {
-								i_77_ += ((Class240) this).anIntArray2669[i_83_];
-								i_78_ += ((Class240) this).anIntArray2639[i_83_];
-								i_79_ += ((Class240) this).anIntArray2640[i_83_];
-								i_80_ += ((Class240) this).anIntArray2641[i_83_];
-								i_81_ += ((Class240) this).anIntArray2642[i_83_];
+								i_77_ += ((MapDecoder) this).anIntArray2669[i_83_];
+								i_78_ += ((MapDecoder) this).anIntArray2639[i_83_];
+								i_79_ += ((MapDecoder) this).anIntArray2640[i_83_];
+								i_80_ += ((MapDecoder) this).anIntArray2641[i_83_];
+								i_81_ += ((MapDecoder) this).anIntArray2642[i_83_];
 							}
 							int i_84_ = i_82_ - 5;
 							if (i_84_ >= 0) {
-								i_77_ -= ((Class240) this).anIntArray2669[i_84_];
-								i_78_ -= ((Class240) this).anIntArray2639[i_84_];
-								i_79_ -= ((Class240) this).anIntArray2640[i_84_];
-								i_80_ -= ((Class240) this).anIntArray2641[i_84_];
-								i_81_ -= ((Class240) this).anIntArray2642[i_84_];
+								i_77_ -= ((MapDecoder) this).anIntArray2669[i_84_];
+								i_78_ -= ((MapDecoder) this).anIntArray2639[i_84_];
+								i_79_ -= ((MapDecoder) this).anIntArray2640[i_84_];
+								i_80_ -= ((MapDecoder) this).anIntArray2641[i_84_];
+								i_81_ -= ((MapDecoder) this).anIntArray2642[i_84_];
 							}
 							if (i_82_ >= 0 && i_80_ > 0 && i_81_ > 0)
 								is[i_71_][i_82_] = Class401.method4933(256 * i_77_ / i_80_, i_78_ / i_81_, i_79_ / i_81_, -1708993857);
@@ -418,10 +418,10 @@ public class Class240 {
 					method2221(class_ra, aClass331_2619.aClass_xaArray3517[i_69_], i_69_, is, 0 == i_69_ ? class_xa : null, i_69_ == 0 ? class_xa_68_ : null, (byte) 114);
 				else
 					method2220(class_ra, aClass331_2619.aClass_xaArray3517[i_69_], i_69_, is, 0 == i_69_ ? class_xa : null, 0 == i_69_ ? class_xa_68_ : null, (byte) -8);
-				((Class240) this).aByteArrayArrayArray2670[i_69_] = null;
-				((Class240) this).aByteArrayArrayArray2636[i_69_] = null;
-				((Class240) this).aByteArrayArrayArray2698[i_69_] = null;
-				((Class240) this).aByteArrayArrayArray2668[i_69_] = null;
+				((MapDecoder) this).aByteArrayArrayArray2670[i_69_] = null;
+				((MapDecoder) this).aByteArrayArrayArray2636[i_69_] = null;
+				((MapDecoder) this).aByteArrayArrayArray2698[i_69_] = null;
+				((MapDecoder) this).aByteArrayArrayArray2668[i_69_] = null;
 			}
 			if (!aBoolean2629) {
 				if (917702315 * anInt2621 != 0)
@@ -440,12 +440,12 @@ public class Class240 {
 		try {
 			for (int i_89_ = 0; i_89_ < -954368823 * anInt2627; i_89_++) {
 				for (int i_90_ = 0; i_90_ < anInt2628 * 181474463; i_90_++) {
-					byte i_91_ = (((Class240) this).aByteArrayArrayArray2698[i][i_89_][i_90_]);
-					byte i_92_ = (((Class240) this).aByteArrayArrayArray2668[i][i_89_][i_90_]);
-					int i_93_ = ((((Class240) this).aByteArrayArrayArray2636[i][i_89_][i_90_]) & 0xff);
-					int i_94_ = ((((Class240) this).aByteArrayArrayArray2670[i][i_89_][i_90_]) & 0xff);
-					Class373 class373 = (i_93_ != 0 ? ((Class240) this).aClass375_2651.method4645(i_93_ - 1, -165601895) : null);
-					Class443 class443 = (i_94_ != 0 ? ((Class240) this).aClass451_2617.method5932(i_94_ - 1, (byte) -1) : null);
+					byte i_91_ = (((MapDecoder) this).aByteArrayArrayArray2698[i][i_89_][i_90_]);
+					byte i_92_ = (((MapDecoder) this).aByteArrayArrayArray2668[i][i_89_][i_90_]);
+					int i_93_ = ((((MapDecoder) this).aByteArrayArrayArray2636[i][i_89_][i_90_]) & 0xff);
+					int i_94_ = ((((MapDecoder) this).aByteArrayArrayArray2670[i][i_89_][i_90_]) & 0xff);
+					Class373 class373 = (i_93_ != 0 ? ((MapDecoder) this).aClass375_2651.method4645(i_93_ - 1, -165601895) : null);
+					Class443 class443 = (i_94_ != 0 ? ((MapDecoder) this).aClass451_2617.method5932(i_94_ - 1, (byte) -1) : null);
 					if (i_91_ == 0 && null == class373)
 						i_91_ = (byte) 12;
 					Class373 class373_95_ = class373;
@@ -457,12 +457,12 @@ public class Class240 {
 						if (i_88_ == 0)
 							throw new IllegalStateException();
 					} else {
-						((Class240) this).anInt2701 = 989325699 * anIntArray2658[i_91_];
-						((Class240) this).anInt2699 = anIntArray2691[i_91_] * -786924081;
-						int i_96_ = ((class373 != null ? 1500080431 * ((Class240) this).anInt2699 : 0) + (class443 != null ? -299537109 * ((Class240) this).anInt2701 : 0));
+						((MapDecoder) this).anInt2701 = 989325699 * anIntArray2658[i_91_];
+						((MapDecoder) this).anInt2699 = anIntArray2691[i_91_] * -786924081;
+						int i_96_ = ((class373 != null ? 1500080431 * ((MapDecoder) this).anInt2699 : 0) + (class443 != null ? -299537109 * ((MapDecoder) this).anInt2701 : 0));
 						int i_97_ = 0;
-						((Class240) this).anInt2688 = 0;
-						((Class240) this).anInt2703 = ((class373 != null ? 324071475 * class373.anInt4057 : -1) * -365069805);
+						((MapDecoder) this).anInt2688 = 0;
+						((MapDecoder) this).anInt2703 = ((class373 != null ? 324071475 * class373.anInt4057 : -1) * -365069805);
 						int i_98_ = (null != class443 ? class443.anInt5594 * 2012295231 : -1);
 						int[] is_99_ = new int[i_96_];
 						int[] is_100_ = new int[i_96_];
@@ -472,34 +472,34 @@ public class Class240 {
 						int[] is_104_ = new int[i_96_];
 						int[] is_105_ = ((null != class373 && 1728947183 * class373.anInt4059 != -1) ? new int[i_96_] : null);
 						if (class373 != null) {
-							for (int i_106_ = 0; (i_106_ < 1500080431 * ((Class240) this).anInt2699); i_106_++) {
-								is_99_[i_97_] = (anIntArrayArray2638[i_91_][(((Class240) this).anInt2688 * -875169383)]);
-								is_100_[i_97_] = (anIntArrayArray2690[i_91_][(((Class240) this).anInt2688 * -875169383)]);
-								is_101_[i_97_] = (anIntArrayArray2634[i_91_][(((Class240) this).anInt2688 * -875169383)]);
-								is_103_[i_97_] = ((Class240) this).anInt2703 * 1659854875;
+							for (int i_106_ = 0; (i_106_ < 1500080431 * ((MapDecoder) this).anInt2699); i_106_++) {
+								is_99_[i_97_] = (anIntArrayArray2638[i_91_][(((MapDecoder) this).anInt2688 * -875169383)]);
+								is_100_[i_97_] = (anIntArrayArray2690[i_91_][(((MapDecoder) this).anInt2688 * -875169383)]);
+								is_101_[i_97_] = (anIntArrayArray2634[i_91_][(((MapDecoder) this).anInt2688 * -875169383)]);
+								is_103_[i_97_] = ((MapDecoder) this).anInt2703 * 1659854875;
 								is_104_[i_97_] = -1551409901 * class373.anInt4060;
 								is_102_[i_97_] = -45966925 * class373.anInt4056;
 								if (is_105_ != null)
 									is_105_[i_97_] = class373.anInt4059 * 1728947183;
 								i_97_++;
-								((Class240) this).anInt2688 += -1319613783;
+								((MapDecoder) this).anInt2688 += -1319613783;
 							}
 							if (!aBoolean2629 && 0 == i)
 								aClass331_2619.method4019(i_89_, i_90_, 1987637503 * class373.anInt4064, 1104862312 * class373.anInt4066, 2077360047 * class373.anInt4054, class373.anInt4067 * -986621081, class373.anInt4068 * 171987805, -589660893 * class373.anInt4069, (byte) 26);
 						} else
-							((Class240) this).anInt2688 += 640026119 * ((Class240) this).anInt2699;
+							((MapDecoder) this).anInt2688 += 640026119 * ((MapDecoder) this).anInt2699;
 						if (class443 != null) {
-							for (int i_107_ = 0; (i_107_ < ((Class240) this).anInt2701 * -299537109); i_107_++) {
-								is_99_[i_97_] = (anIntArrayArray2638[i_91_][(((Class240) this).anInt2688 * -875169383)]);
-								is_100_[i_97_] = (anIntArrayArray2690[i_91_][(((Class240) this).anInt2688 * -875169383)]);
-								is_101_[i_97_] = (anIntArrayArray2634[i_91_][(((Class240) this).anInt2688 * -875169383)]);
+							for (int i_107_ = 0; (i_107_ < ((MapDecoder) this).anInt2701 * -299537109); i_107_++) {
+								is_99_[i_97_] = (anIntArrayArray2638[i_91_][(((MapDecoder) this).anInt2688 * -875169383)]);
+								is_100_[i_97_] = (anIntArrayArray2690[i_91_][(((MapDecoder) this).anInt2688 * -875169383)]);
+								is_101_[i_97_] = (anIntArrayArray2634[i_91_][(((MapDecoder) this).anInt2688 * -875169383)]);
 								is_103_[i_97_] = i_98_;
 								is_104_[i_97_] = -1106852061 * class443.anInt5597;
 								is_102_[i_97_] = is[i_89_][i_90_];
 								if (null != is_105_)
 									is_105_[i_97_] = is_102_[i_97_];
 								i_97_++;
-								((Class240) this).anInt2688 += -1319613783;
+								((MapDecoder) this).anInt2688 += -1319613783;
 							}
 						}
 						int i_108_ = anIntArray2663.length;
@@ -579,29 +579,29 @@ public class Class240 {
 
 	void method2221(GraphicsToolkit class_ra, Class_xa class_xa, int i, int[][] is, Class_xa class_xa_129_, Class_xa class_xa_130_, byte i_131_) {
 		try {
-			byte[][] is_132_ = ((Class240) this).aByteArrayArrayArray2698[i];
-			byte[][] is_133_ = ((Class240) this).aByteArrayArrayArray2668[i];
-			byte[][] is_134_ = ((Class240) this).aByteArrayArrayArray2670[i];
-			byte[][] is_135_ = ((Class240) this).aByteArrayArrayArray2636[i];
+			byte[][] is_132_ = ((MapDecoder) this).aByteArrayArrayArray2698[i];
+			byte[][] is_133_ = ((MapDecoder) this).aByteArrayArrayArray2668[i];
+			byte[][] is_134_ = ((MapDecoder) this).aByteArrayArrayArray2670[i];
+			byte[][] is_135_ = ((MapDecoder) this).aByteArrayArrayArray2636[i];
 			boolean[] bools = new boolean[4];
 			for (int i_136_ = 0; i_136_ < -954368823 * anInt2627; i_136_++) {
 				int i_137_ = (i_136_ < anInt2627 * -954368823 - 1 ? 1 + i_136_ : i_136_);
 				for (int i_138_ = 0; i_138_ < anInt2628 * 181474463; i_138_++) {
 					int i_139_ = (i_138_ < 181474463 * anInt2628 - 1 ? i_138_ + 1 : i_138_);
-					((Class240) this).anInt2687 = is_132_[i_136_][i_138_] * 1375153633;
-					((Class240) this).anInt2688 = -1319613783 * is_133_[i_136_][i_138_];
+					((MapDecoder) this).anInt2687 = is_132_[i_136_][i_138_] * 1375153633;
+					((MapDecoder) this).anInt2688 = -1319613783 * is_133_[i_136_][i_138_];
 					int i_140_ = is_135_[i_136_][i_138_] & 0xff;
 					int i_141_ = is_134_[i_136_][i_138_] & 0xff;
 					if (i_140_ == 0 && 0 == i_141_) {
 						if (i_131_ <= -1)
 							return;
 					} else {
-						Class373 class373 = (0 != i_140_ ? ((Class240) this).aClass375_2651.method4645(i_140_ - 1, -165601895) : null);
-						Class443 class443 = (i_141_ != 0 ? ((Class240) this).aClass451_2617.method5932(i_141_ - 1, (byte) -1) : null);
-						if (-1377184223 * ((Class240) this).anInt2687 == 0 && class373 == null)
-							((Class240) this).anInt2687 = -678025588;
-						((Class240) this).aBoolean2694 = false;
-						((Class240) this).aBoolean2676 = false;
+						Class373 class373 = (0 != i_140_ ? ((MapDecoder) this).aClass375_2651.method4645(i_140_ - 1, -165601895) : null);
+						Class443 class443 = (i_141_ != 0 ? ((MapDecoder) this).aClass451_2617.method5932(i_141_ - 1, (byte) -1) : null);
+						if (-1377184223 * ((MapDecoder) this).anInt2687 == 0 && class373 == null)
+							((MapDecoder) this).anInt2687 = -678025588;
+						((MapDecoder) this).aBoolean2694 = false;
+						((MapDecoder) this).aBoolean2676 = false;
 						boolean[] bools_142_ = bools;
 						boolean[] bools_143_ = bools;
 						boolean[] bools_144_ = bools;
@@ -614,18 +614,18 @@ public class Class240 {
 							if (class373.anInt4056 * -45966925 == -1 && class373.anInt4059 * 1728947183 == -1) {
 								class373_145_ = class373;
 								class373 = null;
-							} else if (null != class443 && (-1377184223 * ((Class240) this).anInt2687) != 0)
-								((Class240) this).aBoolean2676 = class373.aBoolean4063;
+							} else if (null != class443 && (-1377184223 * ((MapDecoder) this).anInt2687) != 0)
+								((MapDecoder) this).aBoolean2676 = class373.aBoolean4063;
 						}
-						((Class240) this).anInt2688 = method2222(i_141_, i_136_, i_138_, i_137_, i_139_, class_xa, is_134_, -1666801922) * -1319613783;
+						((MapDecoder) this).anInt2688 = method2222(i_141_, i_136_, i_138_, i_137_, i_139_, class_xa, is_134_, -1666801922) * -1319613783;
 						for (int i_146_ = 0; i_146_ < 13; i_146_++) {
-							((Class240) this).anIntArray2647[i_146_] = -1;
-							((Class240) this).anIntArray2686[i_146_] = 1;
+							((MapDecoder) this).anIntArray2647[i_146_] = -1;
+							((MapDecoder) this).anIntArray2686[i_146_] = 1;
 						}
 						method2223(class_ra, class373, class443, i_136_, i_138_, is_132_, is_133_, is_135_, bools, (short) 803);
-						((Class240) this).aBoolean2696 = (!((Class240) this).aBoolean2676 && !bools[0] && !bools[2] && !bools[1] && !bools[3]);
+						((MapDecoder) this).aBoolean2696 = (!((MapDecoder) this).aBoolean2676 && !bools[0] && !bools[2] && !bools[1] && !bools[3]);
 						method2224(class373, class443, (byte) 4);
-						int i_147_ = (-299537109 * ((Class240) this).anInt2701 + 1500080431 * ((Class240) this).anInt2699);
+						int i_147_ = (-299537109 * ((MapDecoder) this).anInt2701 + 1500080431 * ((MapDecoder) this).anInt2699);
 						if (i_147_ <= 0)
 							aClass331_2619.method4013(i, i_136_, i_138_, 1960447518);
 						else {
@@ -637,10 +637,10 @@ public class Class240 {
 								i_147_++;
 							if (bools[3])
 								i_147_++;
-							((Class240) this).anInt2689 = 0;
-							((Class240) this).anInt2685 = 0;
+							((MapDecoder) this).anInt2689 = 0;
+							((MapDecoder) this).anInt2685 = 0;
 							int i_148_ = 3 * i_147_;
-							int[] is_149_ = (((Class240) this).aBoolean2677 ? new int[i_148_] : null);
+							int[] is_149_ = (((MapDecoder) this).aBoolean2677 ? new int[i_148_] : null);
 							int[] is_150_ = new int[i_148_];
 							int[] is_151_ = new int[i_148_];
 							int[] is_152_ = new int[i_148_];
@@ -663,7 +663,7 @@ public class Class240 {
 								class78.anInt730 = (aClass331_2619.method4060(i_136_, i_138_, -37055227) * -1927451111);
 								class78.anInt732 = (aClass331_2619.method4018(i_136_, i_138_, -1965414520) * -875460563);
 							}
-							class_xa.method6335(i_136_, i_138_, is_150_, is_155_, is_151_, is_156_, is_152_, is_149_, is_153_, is_154_, class78, (((Class240) this).aBoolean2694));
+							class_xa.method6335(i_136_, i_138_, is_150_, is_155_, is_151_, is_156_, is_152_, is_149_, is_153_, is_154_, class78, (((MapDecoder) this).aBoolean2694));
 							aClass331_2619.method4013(i, i_136_, i_138_, 200248008);
 						}
 					}
@@ -676,7 +676,7 @@ public class Class240 {
 
 	int method2222(int i, int i_160_, int i_161_, int i_162_, int i_163_, Class_xa class_xa, byte[][] is, int i_164_) {
 		try {
-			if ((0 == ((Class240) this).anInt2687 * -1377184223 || 12 == ((Class240) this).anInt2687 * -1377184223) && i_160_ > 0 && i_161_ > 0 && i_160_ < anInt2627 * -954368823 && i_161_ < anInt2628 * 181474463) {
+			if ((0 == ((MapDecoder) this).anInt2687 * -1377184223 || 12 == ((MapDecoder) this).anInt2687 * -1377184223) && i_160_ > 0 && i_161_ > 0 && i_160_ < anInt2627 * -954368823 && i_161_ < anInt2628 * 181474463) {
 				int i_165_ = 0;
 				int i_166_ = 0;
 				int i_167_ = 0;
@@ -729,7 +729,7 @@ public class Class240 {
 				}
 				return i_169_ < i_170_ ? 1 : 0;
 			}
-			return -875169383 * ((Class240) this).anInt2688;
+			return -875169383 * ((MapDecoder) this).anInt2688;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("kb.s(").append(')').toString());
 		}
@@ -737,62 +737,62 @@ public class Class240 {
 
 	void method2223(GraphicsToolkit class_ra, Class373 class373, Class443 class443, int i, int i_171_, byte[][] is, byte[][] is_172_, byte[][] is_173_, boolean[] bools, short i_174_) {
 		try {
-			boolean[] bools_175_ = (class373 != null && class373.aBoolean4063 ? (aBooleanArrayArray2675[-1377184223 * ((Class240) this).anInt2687]) : (aBooleanArrayArray2695[((Class240) this).anInt2687 * -1377184223]));
+			boolean[] bools_175_ = (class373 != null && class373.aBoolean4063 ? (aBooleanArrayArray2675[-1377184223 * ((MapDecoder) this).anInt2687]) : (aBooleanArrayArray2695[((MapDecoder) this).anInt2687 * -1377184223]));
 			method2227(class_ra, class373, class443, i, i_171_, -954368823 * anInt2627, 181474463 * anInt2628, is_173_, is, is_172_, bools, -2064335777);
-			((Class240) this).aBoolean2677 = null != class373 && (-45966925 * class373.anInt4056 != 1728947183 * class373.anInt4059);
-			if (!((Class240) this).aBoolean2677) {
+			((MapDecoder) this).aBoolean2677 = null != class373 && (-45966925 * class373.anInt4056 != 1728947183 * class373.anInt4059);
+			if (!((MapDecoder) this).aBoolean2677) {
 				for (int i_176_ = 0; i_176_ < 8; i_176_++) {
-					if (((Class240) this).anIntArray2647[i_176_] >= 0 && (((Class240) this).anIntArray2682[i_176_] != ((Class240) this).anIntArray2681[i_176_])) {
-						((Class240) this).aBoolean2677 = true;
+					if (((MapDecoder) this).anIntArray2647[i_176_] >= 0 && (((MapDecoder) this).anIntArray2682[i_176_] != ((MapDecoder) this).anIntArray2681[i_176_])) {
+						((MapDecoder) this).aBoolean2677 = true;
 						break;
 					}
 				}
 			}
-			if (!bools_175_[1 + ((Class240) this).anInt2688 * -875169383 & 0x3]) {
+			if (!bools_175_[1 + ((MapDecoder) this).anInt2688 * -875169383 & 0x3]) {
 				boolean[] bools_177_ = bools;
 				int i_178_ = 1;
-				bools_177_[i_178_] = (bools_177_[i_178_] | (((Class240) this).anIntArray2686[2] & ((Class240) this).anIntArray2686[4]) == 0);
+				bools_177_[i_178_] = (bools_177_[i_178_] | (((MapDecoder) this).anIntArray2686[2] & ((MapDecoder) this).anIntArray2686[4]) == 0);
 			}
-			if (!bools_175_[3 + ((Class240) this).anInt2688 * -875169383 & 0x3]) {
+			if (!bools_175_[3 + ((MapDecoder) this).anInt2688 * -875169383 & 0x3]) {
 				boolean[] bools_179_ = bools;
 				int i_180_ = 3;
-				bools_179_[i_180_] = (bools_179_[i_180_] | (((Class240) this).anIntArray2686[6] & ((Class240) this).anIntArray2686[0]) == 0);
+				bools_179_[i_180_] = (bools_179_[i_180_] | (((MapDecoder) this).anIntArray2686[6] & ((MapDecoder) this).anIntArray2686[0]) == 0);
 			}
-			if (!bools_175_[0 + -875169383 * ((Class240) this).anInt2688 & 0x3]) {
+			if (!bools_175_[0 + -875169383 * ((MapDecoder) this).anInt2688 & 0x3]) {
 				boolean[] bools_181_ = bools;
 				int i_182_ = 0;
-				bools_181_[i_182_] = (bools_181_[i_182_] | 0 == (((Class240) this).anIntArray2686[0] & ((Class240) this).anIntArray2686[2]));
+				bools_181_[i_182_] = (bools_181_[i_182_] | 0 == (((MapDecoder) this).anIntArray2686[0] & ((MapDecoder) this).anIntArray2686[2]));
 			}
-			if (!bools_175_[((Class240) this).anInt2688 * -875169383 + 2 & 0x3]) {
+			if (!bools_175_[((MapDecoder) this).anInt2688 * -875169383 + 2 & 0x3]) {
 				boolean[] bools_183_ = bools;
 				int i_184_ = 2;
-				bools_183_[i_184_] = (bools_183_[i_184_] | (((Class240) this).anIntArray2686[4] & ((Class240) this).anIntArray2686[6]) == 0);
+				bools_183_[i_184_] = (bools_183_[i_184_] | (((MapDecoder) this).anIntArray2686[4] & ((MapDecoder) this).anIntArray2686[6]) == 0);
 			}
-			if (!((Class240) this).aBoolean2676 && (((Class240) this).anInt2687 * -1377184223 == 0 || -1377184223 * ((Class240) this).anInt2687 == 12)) {
+			if (!((MapDecoder) this).aBoolean2676 && (((MapDecoder) this).anInt2687 * -1377184223 == 0 || -1377184223 * ((MapDecoder) this).anInt2687 == 12)) {
 				if (bools[0] && !bools[1] && !bools[2] && bools[3]) {
 					boolean[] bools_185_ = bools;
 					bools[3] = false;
 					bools_185_[0] = false;
-					((Class240) this).anInt2687 = (1375153633 * (0 == ((Class240) this).anInt2687 * -1377184223 ? 13 : 14));
-					((Class240) this).anInt2688 = 0;
+					((MapDecoder) this).anInt2687 = (1375153633 * (0 == ((MapDecoder) this).anInt2687 * -1377184223 ? 13 : 14));
+					((MapDecoder) this).anInt2688 = 0;
 				} else if (bools[0] && bools[1] && !bools[2] && !bools[3]) {
 					boolean[] bools_186_ = bools;
 					bools[1] = false;
 					bools_186_[0] = false;
-					((Class240) this).anInt2687 = (1375153633 * (0 == -1377184223 * ((Class240) this).anInt2687 ? 13 : 14));
-					((Class240) this).anInt2688 = 336125947;
+					((MapDecoder) this).anInt2687 = (1375153633 * (0 == -1377184223 * ((MapDecoder) this).anInt2687 ? 13 : 14));
+					((MapDecoder) this).anInt2688 = 336125947;
 				} else if (!bools[0] && bools[1] && bools[2] && !bools[3]) {
 					boolean[] bools_187_ = bools;
 					bools[2] = false;
 					bools_187_[1] = false;
-					((Class240) this).anInt2687 = (0 == ((Class240) this).anInt2687 * -1377184223 ? 13 : 14) * 1375153633;
-					((Class240) this).anInt2688 = 1655739730;
+					((MapDecoder) this).anInt2687 = (0 == ((MapDecoder) this).anInt2687 * -1377184223 ? 13 : 14) * 1375153633;
+					((MapDecoder) this).anInt2688 = 1655739730;
 				} else if (!bools[0] && !bools[1] && bools[2] && bools[3]) {
 					boolean[] bools_188_ = bools;
 					bools[3] = false;
 					bools_188_[2] = false;
-					((Class240) this).anInt2687 = (-1377184223 * ((Class240) this).anInt2687 == 0 ? 13 : 14) * 1375153633;
-					((Class240) this).anInt2688 = -1319613783;
+					((MapDecoder) this).anInt2687 = (-1377184223 * ((MapDecoder) this).anInt2687 == 0 ? 13 : 14) * 1375153633;
+					((MapDecoder) this).anInt2688 = -1319613783;
 				}
 			}
 		} catch (RuntimeException runtimeexception) {
@@ -802,26 +802,26 @@ public class Class240 {
 
 	void method2224(Class373 class373, Class443 class443, byte i) {
 		try {
-			if (((Class240) this).aBoolean2696) {
-				((Class240) this).anIntArray2700 = (anIntArrayArray2638[-1377184223 * ((Class240) this).anInt2687]);
-				((Class240) this).anIntArray2623 = (anIntArrayArray2690[-1377184223 * ((Class240) this).anInt2687]);
-				((Class240) this).anIntArray2702 = (anIntArrayArray2634[((Class240) this).anInt2687 * -1377184223]);
-				((Class240) this).anInt2699 = (class373 != null ? (anIntArray2691[((Class240) this).anInt2687 * -1377184223]) : 0) * -786924081;
-				((Class240) this).anInt2701 = 989325699 * (class443 != null ? anIntArray2658[(((Class240) this).anInt2687) * -1377184223] : 0);
-			} else if (((Class240) this).aBoolean2676) {
-				((Class240) this).anIntArray2700 = (anIntArrayArray2649[((Class240) this).anInt2687 * -1377184223]);
-				((Class240) this).anIntArray2623 = (anIntArrayArray2678[-1377184223 * ((Class240) this).anInt2687]);
-				((Class240) this).anIntArray2702 = (anIntArrayArray2679[((Class240) this).anInt2687 * -1377184223]);
-				((Class240) this).anInt2699 = (-786924081 * (class373 != null ? (anIntArray2661[((Class240) this).anInt2687 * -1377184223]) : 0));
-				((Class240) this).anInt2701 = (null != class443 ? (anIntArray2656[-1377184223 * ((Class240) this).anInt2687]) : 0) * 989325699;
-				((Class240) this).anIntArray2618 = (anIntArrayArray2662[((Class240) this).anInt2687 * -1377184223]);
+			if (((MapDecoder) this).aBoolean2696) {
+				((MapDecoder) this).anIntArray2700 = (anIntArrayArray2638[-1377184223 * ((MapDecoder) this).anInt2687]);
+				((MapDecoder) this).anIntArray2623 = (anIntArrayArray2690[-1377184223 * ((MapDecoder) this).anInt2687]);
+				((MapDecoder) this).anIntArray2702 = (anIntArrayArray2634[((MapDecoder) this).anInt2687 * -1377184223]);
+				((MapDecoder) this).anInt2699 = (class373 != null ? (anIntArray2691[((MapDecoder) this).anInt2687 * -1377184223]) : 0) * -786924081;
+				((MapDecoder) this).anInt2701 = 989325699 * (class443 != null ? anIntArray2658[(((MapDecoder) this).anInt2687) * -1377184223] : 0);
+			} else if (((MapDecoder) this).aBoolean2676) {
+				((MapDecoder) this).anIntArray2700 = (anIntArrayArray2649[((MapDecoder) this).anInt2687 * -1377184223]);
+				((MapDecoder) this).anIntArray2623 = (anIntArrayArray2678[-1377184223 * ((MapDecoder) this).anInt2687]);
+				((MapDecoder) this).anIntArray2702 = (anIntArrayArray2679[((MapDecoder) this).anInt2687 * -1377184223]);
+				((MapDecoder) this).anInt2699 = (-786924081 * (class373 != null ? (anIntArray2661[((MapDecoder) this).anInt2687 * -1377184223]) : 0));
+				((MapDecoder) this).anInt2701 = (null != class443 ? (anIntArray2656[-1377184223 * ((MapDecoder) this).anInt2687]) : 0) * 989325699;
+				((MapDecoder) this).anIntArray2618 = (anIntArrayArray2662[((MapDecoder) this).anInt2687 * -1377184223]);
 			} else {
-				((Class240) this).anIntArray2700 = (anIntArrayArray2672[((Class240) this).anInt2687 * -1377184223]);
-				((Class240) this).anIntArray2623 = (anIntArrayArray2673[((Class240) this).anInt2687 * -1377184223]);
-				((Class240) this).anIntArray2702 = (anIntArrayArray2674[-1377184223 * ((Class240) this).anInt2687]);
-				((Class240) this).anInt2699 = (-786924081 * (class373 != null ? (anIntArray2659[-1377184223 * ((Class240) this).anInt2687]) : 0));
-				((Class240) this).anInt2701 = 989325699 * (class443 != null ? anIntArray2660[(((Class240) this).anInt2687) * -1377184223] : 0);
-				((Class240) this).anIntArray2618 = (anIntArrayArray2671[-1377184223 * ((Class240) this).anInt2687]);
+				((MapDecoder) this).anIntArray2700 = (anIntArrayArray2672[((MapDecoder) this).anInt2687 * -1377184223]);
+				((MapDecoder) this).anIntArray2623 = (anIntArrayArray2673[((MapDecoder) this).anInt2687 * -1377184223]);
+				((MapDecoder) this).anIntArray2702 = (anIntArrayArray2674[-1377184223 * ((MapDecoder) this).anInt2687]);
+				((MapDecoder) this).anInt2699 = (-786924081 * (class373 != null ? (anIntArray2659[-1377184223 * ((MapDecoder) this).anInt2687]) : 0));
+				((MapDecoder) this).anInt2701 = 989325699 * (class443 != null ? anIntArray2660[(((MapDecoder) this).anInt2687) * -1377184223] : 0);
+				((MapDecoder) this).anIntArray2618 = (anIntArrayArray2671[-1377184223 * ((MapDecoder) this).anInt2687]);
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("kb.y(").append(')').toString());
@@ -830,120 +830,120 @@ public class Class240 {
 
 	void method2225(GraphicsToolkit class_ra, int i, int i_189_, int i_190_, Class373 class373, boolean[] bools, int[] is, int[] is_191_, int[] is_192_, int[] is_193_, int[] is_194_, int[] is_195_, int[] is_196_, int[] is_197_, Class_xa class_xa, Class_xa class_xa_198_, Class_xa class_xa_199_, byte i_200_) {
 		try {
-			((Class240) this).anInt2693 = -1010428415;
-			((Class240) this).anInt2703 = 365069805;
-			((Class240) this).anInt2692 = 1240828160;
+			((MapDecoder) this).anInt2693 = -1010428415;
+			((MapDecoder) this).anInt2703 = 365069805;
+			((MapDecoder) this).anInt2692 = 1240828160;
 			if (class373 != null) {
-				((Class240) this).anInt2693 = class373.anInt4056 * 269878349;
-				((Class240) this).anInt2703 = -610197047 * class373.anInt4057;
-				((Class240) this).anInt2692 = class373.anInt4060 * -1360069077;
+				((MapDecoder) this).anInt2693 = class373.anInt4056 * 269878349;
+				((MapDecoder) this).anInt2703 = -610197047 * class373.anInt4057;
+				((MapDecoder) this).anInt2692 = class373.anInt4060 * -1360069077;
 				int i_201_ = Class82_Sub9.method901(class_ra, class373, (byte) 16);
-				for (int i_202_ = 0; i_202_ < ((Class240) this).anInt2699 * 1500080431; i_202_++) {
+				for (int i_202_ = 0; i_202_ < ((MapDecoder) this).anInt2699 * 1500080431; i_202_++) {
 					boolean bool = false;
 					int i_203_;
-					if ((bools[0 - ((Class240) this).anInt2688 * -875169383 & 0x3]) && (((Class240) this).anIntArray2618[0] == -740850409 * ((Class240) this).anInt2689)) {
-						((Class240) this).anIntArray2680[0] = (((Class240) this).anIntArray2700[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[1] = 1;
-						((Class240) this).anIntArray2680[2] = (((Class240) this).anIntArray2702[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[3] = 1;
-						((Class240) this).anIntArray2680[4] = (((Class240) this).anIntArray2623[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[5] = (((Class240) this).anIntArray2702[-740850409 * ((Class240) this).anInt2689]);
+					if ((bools[0 - ((MapDecoder) this).anInt2688 * -875169383 & 0x3]) && (((MapDecoder) this).anIntArray2618[0] == -740850409 * ((MapDecoder) this).anInt2689)) {
+						((MapDecoder) this).anIntArray2680[0] = (((MapDecoder) this).anIntArray2700[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[1] = 1;
+						((MapDecoder) this).anIntArray2680[2] = (((MapDecoder) this).anIntArray2702[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[3] = 1;
+						((MapDecoder) this).anIntArray2680[4] = (((MapDecoder) this).anIntArray2623[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[5] = (((MapDecoder) this).anIntArray2702[-740850409 * ((MapDecoder) this).anInt2689]);
 						i_203_ = 6;
-					} else if (bools[2 - (-875169383 * ((Class240) this).anInt2688) & 0x3] && (-740850409 * ((Class240) this).anInt2689 == ((Class240) this).anIntArray2618[2])) {
-						((Class240) this).anIntArray2680[0] = (((Class240) this).anIntArray2700[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[1] = 5;
-						((Class240) this).anIntArray2680[2] = (((Class240) this).anIntArray2702[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[3] = 5;
-						((Class240) this).anIntArray2680[4] = (((Class240) this).anIntArray2623[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[5] = (((Class240) this).anIntArray2702[((Class240) this).anInt2689 * -740850409]);
+					} else if (bools[2 - (-875169383 * ((MapDecoder) this).anInt2688) & 0x3] && (-740850409 * ((MapDecoder) this).anInt2689 == ((MapDecoder) this).anIntArray2618[2])) {
+						((MapDecoder) this).anIntArray2680[0] = (((MapDecoder) this).anIntArray2700[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[1] = 5;
+						((MapDecoder) this).anIntArray2680[2] = (((MapDecoder) this).anIntArray2702[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[3] = 5;
+						((MapDecoder) this).anIntArray2680[4] = (((MapDecoder) this).anIntArray2623[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[5] = (((MapDecoder) this).anIntArray2702[((MapDecoder) this).anInt2689 * -740850409]);
 						i_203_ = 6;
-					} else if (bools[1 - (-875169383 * ((Class240) this).anInt2688) & 0x3] && (((Class240) this).anIntArray2618[1] == (((Class240) this).anInt2689 * -740850409))) {
-						((Class240) this).anIntArray2680[0] = (((Class240) this).anIntArray2700[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[1] = 3;
-						((Class240) this).anIntArray2680[2] = (((Class240) this).anIntArray2702[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[3] = 3;
-						((Class240) this).anIntArray2680[4] = (((Class240) this).anIntArray2623[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[5] = (((Class240) this).anIntArray2702[-740850409 * ((Class240) this).anInt2689]);
+					} else if (bools[1 - (-875169383 * ((MapDecoder) this).anInt2688) & 0x3] && (((MapDecoder) this).anIntArray2618[1] == (((MapDecoder) this).anInt2689 * -740850409))) {
+						((MapDecoder) this).anIntArray2680[0] = (((MapDecoder) this).anIntArray2700[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[1] = 3;
+						((MapDecoder) this).anIntArray2680[2] = (((MapDecoder) this).anIntArray2702[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[3] = 3;
+						((MapDecoder) this).anIntArray2680[4] = (((MapDecoder) this).anIntArray2623[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[5] = (((MapDecoder) this).anIntArray2702[-740850409 * ((MapDecoder) this).anInt2689]);
 						i_203_ = 6;
-					} else if (bools[3 - (((Class240) this).anInt2688 * -875169383) & 0x3] && (-740850409 * ((Class240) this).anInt2689 == ((Class240) this).anIntArray2618[3])) {
-						((Class240) this).anIntArray2680[0] = (((Class240) this).anIntArray2700[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[1] = 7;
-						((Class240) this).anIntArray2680[2] = (((Class240) this).anIntArray2702[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[3] = 7;
-						((Class240) this).anIntArray2680[4] = (((Class240) this).anIntArray2623[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[5] = (((Class240) this).anIntArray2702[-740850409 * ((Class240) this).anInt2689]);
+					} else if (bools[3 - (((MapDecoder) this).anInt2688 * -875169383) & 0x3] && (-740850409 * ((MapDecoder) this).anInt2689 == ((MapDecoder) this).anIntArray2618[3])) {
+						((MapDecoder) this).anIntArray2680[0] = (((MapDecoder) this).anIntArray2700[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[1] = 7;
+						((MapDecoder) this).anIntArray2680[2] = (((MapDecoder) this).anIntArray2702[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[3] = 7;
+						((MapDecoder) this).anIntArray2680[4] = (((MapDecoder) this).anIntArray2623[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[5] = (((MapDecoder) this).anIntArray2702[-740850409 * ((MapDecoder) this).anInt2689]);
 						i_203_ = 6;
 					} else {
-						((Class240) this).anIntArray2680[0] = (((Class240) this).anIntArray2700[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[1] = (((Class240) this).anIntArray2623[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[2] = (((Class240) this).anIntArray2702[-740850409 * ((Class240) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[0] = (((MapDecoder) this).anIntArray2700[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[1] = (((MapDecoder) this).anIntArray2623[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[2] = (((MapDecoder) this).anIntArray2702[-740850409 * ((MapDecoder) this).anInt2689]);
 						i_203_ = 3;
 					}
 					for (int i_204_ = 0; i_204_ < i_203_; i_204_++) {
-						int i_205_ = ((Class240) this).anIntArray2680[i_204_];
-						int i_206_ = (i_205_ - (-1750338766 * ((Class240) this).anInt2688) & 0x7);
+						int i_205_ = ((MapDecoder) this).anIntArray2680[i_204_];
+						int i_206_ = (i_205_ - (-1750338766 * ((MapDecoder) this).anInt2688) & 0x7);
 						int i_207_ = anIntArray2663[i_205_];
 						int i_208_ = anIntArray2664[i_205_];
 						int i_209_;
 						int i_210_;
-						if (1 == ((Class240) this).anInt2688 * -875169383) {
+						if (1 == ((MapDecoder) this).anInt2688 * -875169383) {
 							i_209_ = i_208_;
 							i_210_ = 512 - i_207_;
-						} else if (((Class240) this).anInt2688 * -875169383 == 2) {
+						} else if (((MapDecoder) this).anInt2688 * -875169383 == 2) {
 							i_209_ = 512 - i_207_;
 							i_210_ = 512 - i_208_;
-						} else if (3 == (((Class240) this).anInt2688 * -875169383)) {
+						} else if (3 == (((MapDecoder) this).anInt2688 * -875169383)) {
 							i_209_ = 512 - i_208_;
 							i_210_ = i_207_;
 						} else {
 							i_209_ = i_207_;
 							i_210_ = i_208_;
 						}
-						is_191_[-1679056507 * ((Class240) this).anInt2685] = i_209_;
-						is_192_[-1679056507 * ((Class240) this).anInt2685] = i_210_;
-						if (is_196_ != null && (aBooleanArrayArray2665[((Class240) this).anInt2687 * -1377184223][i_205_])) {
+						is_191_[-1679056507 * ((MapDecoder) this).anInt2685] = i_209_;
+						is_192_[-1679056507 * ((MapDecoder) this).anInt2685] = i_210_;
+						if (is_196_ != null && (aBooleanArrayArray2665[((MapDecoder) this).anInt2687 * -1377184223][i_205_])) {
 							int i_211_ = (i_189_ << 9) + i_209_;
 							int i_212_ = (i_190_ << 9) + i_210_;
-							is_196_[((Class240) this).anInt2685 * -1679056507] = (class_xa_198_.method6340(i_211_, i_212_, -2146471706) - class_xa.method6340(i_211_, i_212_, -1684141409));
+							is_196_[((MapDecoder) this).anInt2685 * -1679056507] = (class_xa_198_.method6340(i_211_, i_212_, -2146471706) - class_xa.method6340(i_211_, i_212_, -1684141409));
 						}
 						if (null != is_197_) {
-							if (class_xa_198_ != null && !(aBooleanArrayArray2665[(((Class240) this).anInt2687 * -1377184223)][i_205_])) {
+							if (class_xa_198_ != null && !(aBooleanArrayArray2665[(((MapDecoder) this).anInt2687 * -1377184223)][i_205_])) {
 								int i_213_ = (i_189_ << 9) + i_209_;
 								int i_214_ = (i_190_ << 9) + i_210_;
-								is_197_[(-1679056507 * ((Class240) this).anInt2685)] = (class_xa.method6340(i_213_, i_214_, -1369260401) - (class_xa_198_.method6340(i_213_, i_214_, -1894367139)));
-							} else if (class_xa_199_ != null && !(aBooleanArrayArray2666[(-1377184223 * ((Class240) this).anInt2687)][i_205_])) {
+								is_197_[(-1679056507 * ((MapDecoder) this).anInt2685)] = (class_xa.method6340(i_213_, i_214_, -1369260401) - (class_xa_198_.method6340(i_213_, i_214_, -1894367139)));
+							} else if (class_xa_199_ != null && !(aBooleanArrayArray2666[(-1377184223 * ((MapDecoder) this).anInt2687)][i_205_])) {
 								int i_215_ = (i_189_ << 9) + i_209_;
 								int i_216_ = i_210_ + (i_190_ << 9);
-								is_197_[(-1679056507 * ((Class240) this).anInt2685)] = (class_xa_199_.method6340(i_215_, i_216_, -1817561670) - class_xa.method6340(i_215_, i_216_, -1384792854));
+								is_197_[(-1679056507 * ((MapDecoder) this).anInt2685)] = (class_xa_199_.method6340(i_215_, i_216_, -1817561670) - class_xa.method6340(i_215_, i_216_, -1384792854));
 							}
 						}
-						if (i_205_ < 8 && (((Class240) this).anIntArray2647[i_206_] > 2109091647 * class373.anInt4055)) {
+						if (i_205_ < 8 && (((MapDecoder) this).anIntArray2647[i_206_] > 2109091647 * class373.anInt4055)) {
 							if (is != null)
-								is[((Class240) this).anInt2685 * -1679056507] = ((Class240) this).anIntArray2682[i_206_];
-							is_195_[-1679056507 * ((Class240) this).anInt2685] = ((Class240) this).anIntArray2684[i_206_];
-							is_194_[-1679056507 * ((Class240) this).anInt2685] = ((Class240) this).anIntArray2683[i_206_];
-							is_193_[((Class240) this).anInt2685 * -1679056507] = ((Class240) this).anIntArray2681[i_206_];
+								is[((MapDecoder) this).anInt2685 * -1679056507] = ((MapDecoder) this).anIntArray2682[i_206_];
+							is_195_[-1679056507 * ((MapDecoder) this).anInt2685] = ((MapDecoder) this).anIntArray2684[i_206_];
+							is_194_[-1679056507 * ((MapDecoder) this).anInt2685] = ((MapDecoder) this).anIntArray2683[i_206_];
+							is_193_[((MapDecoder) this).anInt2685 * -1679056507] = ((MapDecoder) this).anIntArray2681[i_206_];
 						} else {
 							if (null != is)
-								is[((Class240) this).anInt2685 * -1679056507] = i_201_;
-							is_194_[((Class240) this).anInt2685 * -1679056507] = 324071475 * class373.anInt4057;
-							is_195_[-1679056507 * ((Class240) this).anInt2685] = -1551409901 * class373.anInt4060;
-							is_193_[((Class240) this).anInt2685 * -1679056507] = 1373771263 * ((Class240) this).anInt2693;
+								is[((MapDecoder) this).anInt2685 * -1679056507] = i_201_;
+							is_194_[((MapDecoder) this).anInt2685 * -1679056507] = 324071475 * class373.anInt4057;
+							is_195_[-1679056507 * ((MapDecoder) this).anInt2685] = -1551409901 * class373.anInt4060;
+							is_193_[((MapDecoder) this).anInt2685 * -1679056507] = 1373771263 * ((MapDecoder) this).anInt2693;
 						}
-						((Class240) this).anInt2685 += 107294541;
+						((MapDecoder) this).anInt2685 += 107294541;
 					}
-					((Class240) this).anInt2689 += 844235431;
+					((MapDecoder) this).anInt2689 += 844235431;
 				}
 				if (!aBoolean2629 && 0 == i)
 					aClass331_2619.method4019(i_189_, i_190_, 1987637503 * class373.anInt4064, 1104862312 * class373.anInt4066, class373.anInt4054 * 2077360047, -986621081 * class373.anInt4067, 171987805 * class373.anInt4068, -589660893 * class373.anInt4069, (byte) -43);
-				if (((Class240) this).anInt2687 * -1377184223 != 12 && -45966925 * class373.anInt4056 != -1 && class373.aBoolean4061)
-					((Class240) this).aBoolean2694 = true;
-			} else if (((Class240) this).aBoolean2696)
-				((Class240) this).anInt2689 += 844235431 * anIntArray2691[(((Class240) this).anInt2687 * -1377184223)];
-			else if (((Class240) this).aBoolean2676)
-				((Class240) this).anInt2689 += 844235431 * anIntArray2661[(((Class240) this).anInt2687 * -1377184223)];
+				if (((MapDecoder) this).anInt2687 * -1377184223 != 12 && -45966925 * class373.anInt4056 != -1 && class373.aBoolean4061)
+					((MapDecoder) this).aBoolean2694 = true;
+			} else if (((MapDecoder) this).aBoolean2696)
+				((MapDecoder) this).anInt2689 += 844235431 * anIntArray2691[(((MapDecoder) this).anInt2687 * -1377184223)];
+			else if (((MapDecoder) this).aBoolean2676)
+				((MapDecoder) this).anInt2689 += 844235431 * anIntArray2661[(((MapDecoder) this).anInt2687 * -1377184223)];
 			else
-				((Class240) this).anInt2689 += 844235431 * anIntArray2659[(((Class240) this).anInt2687 * -1377184223)];
+				((MapDecoder) this).anInt2689 += 844235431 * anIntArray2659[(((MapDecoder) this).anInt2687 * -1377184223)];
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("kb.t(").append(')').toString());
 		}
@@ -958,145 +958,145 @@ public class Class240 {
 					i_223_ = i_221_;
 				if (i_224_ == 0)
 					i_224_ = i_221_;
-				Class443 class443_236_ = ((Class240) this).aClass451_2617.method5932(i_221_ - 1, (byte) -1);
-				Class443 class443_237_ = ((Class240) this).aClass451_2617.method5932(i_222_ - 1, (byte) -1);
-				Class443 class443_238_ = ((Class240) this).aClass451_2617.method5932(i_223_ - 1, (byte) -1);
-				Class443 class443_239_ = ((Class240) this).aClass451_2617.method5932(i_224_ - 1, (byte) -1);
-				for (int i_240_ = 0; i_240_ < ((Class240) this).anInt2701 * -299537109; i_240_++) {
+				Class443 class443_236_ = ((MapDecoder) this).aClass451_2617.method5932(i_221_ - 1, (byte) -1);
+				Class443 class443_237_ = ((MapDecoder) this).aClass451_2617.method5932(i_222_ - 1, (byte) -1);
+				Class443 class443_238_ = ((MapDecoder) this).aClass451_2617.method5932(i_223_ - 1, (byte) -1);
+				Class443 class443_239_ = ((MapDecoder) this).aClass451_2617.method5932(i_224_ - 1, (byte) -1);
+				for (int i_240_ = 0; i_240_ < ((MapDecoder) this).anInt2701 * -299537109; i_240_++) {
 					boolean bool = false;
 					int i_241_;
-					if ((bools[0 - -875169383 * ((Class240) this).anInt2688 & 0x3]) && (-740850409 * ((Class240) this).anInt2689 == ((Class240) this).anIntArray2618[0])) {
-						((Class240) this).anIntArray2680[0] = (((Class240) this).anIntArray2700[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[1] = 1;
-						((Class240) this).anIntArray2680[2] = (((Class240) this).anIntArray2702[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[3] = 1;
-						((Class240) this).anIntArray2680[4] = (((Class240) this).anIntArray2623[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[5] = (((Class240) this).anIntArray2702[-740850409 * ((Class240) this).anInt2689]);
+					if ((bools[0 - -875169383 * ((MapDecoder) this).anInt2688 & 0x3]) && (-740850409 * ((MapDecoder) this).anInt2689 == ((MapDecoder) this).anIntArray2618[0])) {
+						((MapDecoder) this).anIntArray2680[0] = (((MapDecoder) this).anIntArray2700[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[1] = 1;
+						((MapDecoder) this).anIntArray2680[2] = (((MapDecoder) this).anIntArray2702[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[3] = 1;
+						((MapDecoder) this).anIntArray2680[4] = (((MapDecoder) this).anIntArray2623[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[5] = (((MapDecoder) this).anIntArray2702[-740850409 * ((MapDecoder) this).anInt2689]);
 						i_241_ = 6;
-					} else if (bools[2 - (((Class240) this).anInt2688 * -875169383) & 0x3] && (-740850409 * ((Class240) this).anInt2689 == ((Class240) this).anIntArray2618[2])) {
-						((Class240) this).anIntArray2680[0] = (((Class240) this).anIntArray2700[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[1] = 5;
-						((Class240) this).anIntArray2680[2] = (((Class240) this).anIntArray2702[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[3] = 5;
-						((Class240) this).anIntArray2680[4] = (((Class240) this).anIntArray2623[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[5] = (((Class240) this).anIntArray2702[((Class240) this).anInt2689 * -740850409]);
+					} else if (bools[2 - (((MapDecoder) this).anInt2688 * -875169383) & 0x3] && (-740850409 * ((MapDecoder) this).anInt2689 == ((MapDecoder) this).anIntArray2618[2])) {
+						((MapDecoder) this).anIntArray2680[0] = (((MapDecoder) this).anIntArray2700[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[1] = 5;
+						((MapDecoder) this).anIntArray2680[2] = (((MapDecoder) this).anIntArray2702[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[3] = 5;
+						((MapDecoder) this).anIntArray2680[4] = (((MapDecoder) this).anIntArray2623[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[5] = (((MapDecoder) this).anIntArray2702[((MapDecoder) this).anInt2689 * -740850409]);
 						i_241_ = 6;
-					} else if (bools[1 - (-875169383 * ((Class240) this).anInt2688) & 0x3] && (-740850409 * ((Class240) this).anInt2689 == ((Class240) this).anIntArray2618[1])) {
-						((Class240) this).anIntArray2680[0] = (((Class240) this).anIntArray2700[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[1] = 3;
-						((Class240) this).anIntArray2680[2] = (((Class240) this).anIntArray2702[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[3] = 3;
-						((Class240) this).anIntArray2680[4] = (((Class240) this).anIntArray2623[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[5] = (((Class240) this).anIntArray2702[((Class240) this).anInt2689 * -740850409]);
+					} else if (bools[1 - (-875169383 * ((MapDecoder) this).anInt2688) & 0x3] && (-740850409 * ((MapDecoder) this).anInt2689 == ((MapDecoder) this).anIntArray2618[1])) {
+						((MapDecoder) this).anIntArray2680[0] = (((MapDecoder) this).anIntArray2700[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[1] = 3;
+						((MapDecoder) this).anIntArray2680[2] = (((MapDecoder) this).anIntArray2702[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[3] = 3;
+						((MapDecoder) this).anIntArray2680[4] = (((MapDecoder) this).anIntArray2623[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[5] = (((MapDecoder) this).anIntArray2702[((MapDecoder) this).anInt2689 * -740850409]);
 						i_241_ = 6;
-					} else if (bools[3 - (((Class240) this).anInt2688 * -875169383) & 0x3] && (((Class240) this).anIntArray2618[3] == (((Class240) this).anInt2689 * -740850409))) {
-						((Class240) this).anIntArray2680[0] = (((Class240) this).anIntArray2700[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[1] = 7;
-						((Class240) this).anIntArray2680[2] = (((Class240) this).anIntArray2702[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[3] = 7;
-						((Class240) this).anIntArray2680[4] = (((Class240) this).anIntArray2623[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[5] = (((Class240) this).anIntArray2702[-740850409 * ((Class240) this).anInt2689]);
+					} else if (bools[3 - (((MapDecoder) this).anInt2688 * -875169383) & 0x3] && (((MapDecoder) this).anIntArray2618[3] == (((MapDecoder) this).anInt2689 * -740850409))) {
+						((MapDecoder) this).anIntArray2680[0] = (((MapDecoder) this).anIntArray2700[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[1] = 7;
+						((MapDecoder) this).anIntArray2680[2] = (((MapDecoder) this).anIntArray2702[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[3] = 7;
+						((MapDecoder) this).anIntArray2680[4] = (((MapDecoder) this).anIntArray2623[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[5] = (((MapDecoder) this).anIntArray2702[-740850409 * ((MapDecoder) this).anInt2689]);
 						i_241_ = 6;
 					} else {
-						((Class240) this).anIntArray2680[0] = (((Class240) this).anIntArray2700[-740850409 * ((Class240) this).anInt2689]);
-						((Class240) this).anIntArray2680[1] = (((Class240) this).anIntArray2623[((Class240) this).anInt2689 * -740850409]);
-						((Class240) this).anIntArray2680[2] = (((Class240) this).anIntArray2702[-740850409 * ((Class240) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[0] = (((MapDecoder) this).anIntArray2700[-740850409 * ((MapDecoder) this).anInt2689]);
+						((MapDecoder) this).anIntArray2680[1] = (((MapDecoder) this).anIntArray2623[((MapDecoder) this).anInt2689 * -740850409]);
+						((MapDecoder) this).anIntArray2680[2] = (((MapDecoder) this).anIntArray2702[-740850409 * ((MapDecoder) this).anInt2689]);
 						i_241_ = 3;
 					}
 					for (int i_242_ = 0; i_242_ < i_241_; i_242_++) {
-						int i_243_ = ((Class240) this).anIntArray2680[i_242_];
-						int i_244_ = (i_243_ - (((Class240) this).anInt2688 * -1750338766) & 0x7);
+						int i_243_ = ((MapDecoder) this).anIntArray2680[i_242_];
+						int i_244_ = (i_243_ - (((MapDecoder) this).anInt2688 * -1750338766) & 0x7);
 						int i_245_ = anIntArray2663[i_243_];
 						int i_246_ = anIntArray2664[i_243_];
 						int i_247_;
 						int i_248_;
-						if (-875169383 * ((Class240) this).anInt2688 == 1) {
+						if (-875169383 * ((MapDecoder) this).anInt2688 == 1) {
 							i_247_ = i_246_;
 							i_248_ = 512 - i_245_;
-						} else if (2 == (((Class240) this).anInt2688 * -875169383)) {
+						} else if (2 == (((MapDecoder) this).anInt2688 * -875169383)) {
 							i_247_ = 512 - i_245_;
 							i_248_ = 512 - i_246_;
-						} else if (3 == (((Class240) this).anInt2688 * -875169383)) {
+						} else if (3 == (((MapDecoder) this).anInt2688 * -875169383)) {
 							i_247_ = 512 - i_246_;
 							i_248_ = i_245_;
 						} else {
 							i_247_ = i_245_;
 							i_248_ = i_246_;
 						}
-						is_225_[((Class240) this).anInt2685 * -1679056507] = i_247_;
-						is_226_[-1679056507 * ((Class240) this).anInt2685] = i_248_;
-						if (null != is_230_ && (aBooleanArrayArray2665[((Class240) this).anInt2687 * -1377184223][i_243_])) {
+						is_225_[((MapDecoder) this).anInt2685 * -1679056507] = i_247_;
+						is_226_[-1679056507 * ((MapDecoder) this).anInt2685] = i_248_;
+						if (null != is_230_ && (aBooleanArrayArray2665[((MapDecoder) this).anInt2687 * -1377184223][i_243_])) {
 							int i_249_ = (i_217_ << 9) + i_247_;
 							int i_250_ = (i_218_ << 9) + i_248_;
-							is_230_[((Class240) this).anInt2685 * -1679056507] = (class_xa_233_.method6340(i_249_, i_250_, -1800590512) - class_xa.method6340(i_249_, i_250_, -1832971430));
+							is_230_[((MapDecoder) this).anInt2685 * -1679056507] = (class_xa_233_.method6340(i_249_, i_250_, -1800590512) - class_xa.method6340(i_249_, i_250_, -1832971430));
 						}
 						if (is_231_ != null) {
-							if (null != class_xa_233_ && !(aBooleanArrayArray2665[(((Class240) this).anInt2687 * -1377184223)][i_243_])) {
+							if (null != class_xa_233_ && !(aBooleanArrayArray2665[(((MapDecoder) this).anInt2687 * -1377184223)][i_243_])) {
 								int i_251_ = (i_217_ << 9) + i_247_;
 								int i_252_ = (i_218_ << 9) + i_248_;
-								is_231_[(-1679056507 * ((Class240) this).anInt2685)] = (class_xa.method6340(i_251_, i_252_, -1905933409) - (class_xa_233_.method6340(i_251_, i_252_, -2129052823)));
-							} else if (null != class_xa_234_ && !(aBooleanArrayArray2666[(-1377184223 * ((Class240) this).anInt2687)][i_243_])) {
+								is_231_[(-1679056507 * ((MapDecoder) this).anInt2685)] = (class_xa.method6340(i_251_, i_252_, -1905933409) - (class_xa_233_.method6340(i_251_, i_252_, -2129052823)));
+							} else if (null != class_xa_234_ && !(aBooleanArrayArray2666[(-1377184223 * ((MapDecoder) this).anInt2687)][i_243_])) {
 								int i_253_ = i_247_ + (i_217_ << 9);
 								int i_254_ = i_248_ + (i_218_ << 9);
-								is_231_[(((Class240) this).anInt2685 * -1679056507)] = (class_xa_234_.method6340(i_253_, i_254_, -1961049561) - class_xa.method6340(i_253_, i_254_, -1669884522));
+								is_231_[(((MapDecoder) this).anInt2685 * -1679056507)] = (class_xa_234_.method6340(i_253_, i_254_, -1961049561) - class_xa.method6340(i_253_, i_254_, -1669884522));
 							}
 						}
-						if (i_243_ < 8 && ((Class240) this).anIntArray2647[i_244_] >= 0) {
+						if (i_243_ < 8 && ((MapDecoder) this).anIntArray2647[i_244_] >= 0) {
 							if (null != is)
-								is[-1679056507 * ((Class240) this).anInt2685] = ((Class240) this).anIntArray2682[i_244_];
-							is_229_[((Class240) this).anInt2685 * -1679056507] = ((Class240) this).anIntArray2684[i_244_];
-							is_228_[-1679056507 * ((Class240) this).anInt2685] = ((Class240) this).anIntArray2683[i_244_];
-							is_227_[((Class240) this).anInt2685 * -1679056507] = ((Class240) this).anIntArray2681[i_244_];
+								is[-1679056507 * ((MapDecoder) this).anInt2685] = ((MapDecoder) this).anIntArray2682[i_244_];
+							is_229_[((MapDecoder) this).anInt2685 * -1679056507] = ((MapDecoder) this).anIntArray2684[i_244_];
+							is_228_[-1679056507 * ((MapDecoder) this).anInt2685] = ((MapDecoder) this).anIntArray2683[i_244_];
+							is_227_[((MapDecoder) this).anInt2685 * -1679056507] = ((MapDecoder) this).anIntArray2681[i_244_];
 						} else {
-							if (((Class240) this).aBoolean2676 && (aBooleanArrayArray2665[((Class240) this).anInt2687 * -1377184223][i_243_])) {
-								is_228_[(-1679056507 * ((Class240) this).anInt2685)] = 1659854875 * ((Class240) this).anInt2703;
-								is_229_[(((Class240) this).anInt2685 * -1679056507)] = (-2108878663 * ((Class240) this).anInt2692);
-								is_227_[(((Class240) this).anInt2685 * -1679056507)] = ((Class240) this).anInt2693 * 1373771263;
+							if (((MapDecoder) this).aBoolean2676 && (aBooleanArrayArray2665[((MapDecoder) this).anInt2687 * -1377184223][i_243_])) {
+								is_228_[(-1679056507 * ((MapDecoder) this).anInt2685)] = 1659854875 * ((MapDecoder) this).anInt2703;
+								is_229_[(((MapDecoder) this).anInt2685 * -1679056507)] = (-2108878663 * ((MapDecoder) this).anInt2692);
+								is_227_[(((MapDecoder) this).anInt2685 * -1679056507)] = ((MapDecoder) this).anInt2693 * 1373771263;
 							} else if (0 == i_247_ && i_248_ == 0) {
-								is_227_[(((Class240) this).anInt2685 * -1679056507)] = is_232_[i_217_][i_218_];
-								is_228_[(-1679056507 * ((Class240) this).anInt2685)] = class443_236_.anInt5594 * 2012295231;
-								is_229_[(-1679056507 * ((Class240) this).anInt2685)] = class443_236_.anInt5597 * -1106852061;
+								is_227_[(((MapDecoder) this).anInt2685 * -1679056507)] = is_232_[i_217_][i_218_];
+								is_228_[(-1679056507 * ((MapDecoder) this).anInt2685)] = class443_236_.anInt5594 * 2012295231;
+								is_229_[(-1679056507 * ((MapDecoder) this).anInt2685)] = class443_236_.anInt5597 * -1106852061;
 							} else if (0 == i_247_ && i_248_ == 512) {
-								is_227_[(((Class240) this).anInt2685 * -1679056507)] = is_232_[i_217_][i_220_];
-								is_228_[(((Class240) this).anInt2685 * -1679056507)] = 2012295231 * class443_237_.anInt5594;
-								is_229_[(((Class240) this).anInt2685 * -1679056507)] = -1106852061 * class443_237_.anInt5597;
+								is_227_[(((MapDecoder) this).anInt2685 * -1679056507)] = is_232_[i_217_][i_220_];
+								is_228_[(((MapDecoder) this).anInt2685 * -1679056507)] = 2012295231 * class443_237_.anInt5594;
+								is_229_[(((MapDecoder) this).anInt2685 * -1679056507)] = -1106852061 * class443_237_.anInt5597;
 							} else if (i_247_ == 512 && 512 == i_248_) {
-								is_227_[(((Class240) this).anInt2685 * -1679056507)] = is_232_[i_219_][i_220_];
-								is_228_[(((Class240) this).anInt2685 * -1679056507)] = class443_238_.anInt5594 * 2012295231;
-								is_229_[(-1679056507 * ((Class240) this).anInt2685)] = class443_238_.anInt5597 * -1106852061;
+								is_227_[(((MapDecoder) this).anInt2685 * -1679056507)] = is_232_[i_219_][i_220_];
+								is_228_[(((MapDecoder) this).anInt2685 * -1679056507)] = class443_238_.anInt5594 * 2012295231;
+								is_229_[(-1679056507 * ((MapDecoder) this).anInt2685)] = class443_238_.anInt5597 * -1106852061;
 							} else if (512 == i_247_ && 0 == i_248_) {
-								is_227_[(-1679056507 * ((Class240) this).anInt2685)] = is_232_[i_219_][i_218_];
-								is_228_[(-1679056507 * ((Class240) this).anInt2685)] = 2012295231 * class443_239_.anInt5594;
-								is_229_[(((Class240) this).anInt2685 * -1679056507)] = class443_239_.anInt5597 * -1106852061;
+								is_227_[(-1679056507 * ((MapDecoder) this).anInt2685)] = is_232_[i_219_][i_218_];
+								is_228_[(-1679056507 * ((MapDecoder) this).anInt2685)] = 2012295231 * class443_239_.anInt5594;
+								is_229_[(((MapDecoder) this).anInt2685 * -1679056507)] = class443_239_.anInt5597 * -1106852061;
 							} else {
 								if (i_247_ < 256) {
 									if (i_248_ < 256) {
-										is_228_[-1679056507 * ((Class240) this).anInt2685] = (class443_236_.anInt5594 * 2012295231);
-										is_229_[-1679056507 * ((Class240) this).anInt2685] = (class443_236_.anInt5597 * -1106852061);
+										is_228_[-1679056507 * ((MapDecoder) this).anInt2685] = (class443_236_.anInt5594 * 2012295231);
+										is_229_[-1679056507 * ((MapDecoder) this).anInt2685] = (class443_236_.anInt5597 * -1106852061);
 									} else {
-										is_228_[(((Class240) this).anInt2685 * -1679056507)] = (2012295231 * class443_237_.anInt5594);
-										is_229_[(((Class240) this).anInt2685 * -1679056507)] = (class443_237_.anInt5597 * -1106852061);
+										is_228_[(((MapDecoder) this).anInt2685 * -1679056507)] = (2012295231 * class443_237_.anInt5594);
+										is_229_[(((MapDecoder) this).anInt2685 * -1679056507)] = (class443_237_.anInt5597 * -1106852061);
 									}
 								} else if (i_248_ < 256) {
-									is_228_[(((Class240) this).anInt2685 * -1679056507)] = class443_239_.anInt5594 * 2012295231;
-									is_229_[(-1679056507 * ((Class240) this).anInt2685)] = (class443_239_.anInt5597 * -1106852061);
+									is_228_[(((MapDecoder) this).anInt2685 * -1679056507)] = class443_239_.anInt5594 * 2012295231;
+									is_229_[(-1679056507 * ((MapDecoder) this).anInt2685)] = (class443_239_.anInt5597 * -1106852061);
 								} else {
-									is_228_[(((Class240) this).anInt2685 * -1679056507)] = class443_238_.anInt5594 * 2012295231;
-									is_229_[(-1679056507 * ((Class240) this).anInt2685)] = (class443_238_.anInt5597 * -1106852061);
+									is_228_[(((MapDecoder) this).anInt2685 * -1679056507)] = class443_238_.anInt5594 * 2012295231;
+									is_229_[(-1679056507 * ((MapDecoder) this).anInt2685)] = (class443_238_.anInt5597 * -1106852061);
 								}
 								int i_255_ = Class98_Sub4.method1069((is_232_[i_217_][i_218_]), (is_232_[i_219_][i_218_]), i_247_ << 7 >> 9, -1452826652);
 								int i_256_ = Class98_Sub4.method1069((is_232_[i_217_][i_220_]), (is_232_[i_219_][i_220_]), i_247_ << 7 >> 9, -1452826652);
-								is_227_[(-1679056507 * ((Class240) this).anInt2685)] = Class98_Sub4.method1069(i_255_, i_256_, i_248_ << 7 >> 9, -1452826652);
+								is_227_[(-1679056507 * ((MapDecoder) this).anInt2685)] = Class98_Sub4.method1069(i_255_, i_256_, i_248_ << 7 >> 9, -1452826652);
 							}
 							if (is != null)
-								is[-1679056507 * ((Class240) this).anInt2685] = is_227_[(-1679056507 * ((Class240) this).anInt2685)];
+								is[-1679056507 * ((MapDecoder) this).anInt2685] = is_227_[(-1679056507 * ((MapDecoder) this).anInt2685)];
 						}
-						((Class240) this).anInt2685 += 107294541;
+						((MapDecoder) this).anInt2685 += 107294541;
 					}
-					((Class240) this).anInt2689 += 844235431;
+					((MapDecoder) this).anInt2689 += 844235431;
 				}
-				if (-1377184223 * ((Class240) this).anInt2687 != 0 && class443.aBoolean5599)
-					((Class240) this).aBoolean2694 = true;
+				if (-1377184223 * ((MapDecoder) this).anInt2687 != 0 && class443.aBoolean5599)
+					((MapDecoder) this).aBoolean2694 = true;
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("kb.h(").append(')').toString());
@@ -1105,23 +1105,23 @@ public class Class240 {
 
 	final void method2227(GraphicsToolkit class_ra, Class373 class373, Class443 class443, int i, int i_257_, int i_258_, int i_259_, byte[][] is, byte[][] is_260_, byte[][] is_261_, boolean[] bools, int i_262_) {
 		try {
-			boolean[] bools_263_ = (null != class373 && class373.aBoolean4063 ? (aBooleanArrayArray2675[-1377184223 * ((Class240) this).anInt2687]) : (aBooleanArrayArray2695[-1377184223 * ((Class240) this).anInt2687]));
+			boolean[] bools_263_ = (null != class373 && class373.aBoolean4063 ? (aBooleanArrayArray2675[-1377184223 * ((MapDecoder) this).anInt2687]) : (aBooleanArrayArray2695[-1377184223 * ((MapDecoder) this).anInt2687]));
 			if (i_257_ > 0) {
 				if (i > 0) {
 					int i_264_ = is[i - 1][i_257_ - 1] & 0xff;
 					if (i_264_ > 0) {
-						Class373 class373_265_ = ((Class240) this).aClass375_2651.method4645(i_264_ - 1, -165601895);
+						Class373 class373_265_ = ((MapDecoder) this).aClass375_2651.method4645(i_264_ - 1, -165601895);
 						if (-1 != -45966925 * class373_265_.anInt4056 && class373_265_.aBoolean4063) {
 							byte i_266_ = is_260_[i - 1][i_257_ - 1];
 							int i_267_ = 2 * is_261_[i - 1][i_257_ - 1] + 4 & 0x7;
 							int i_268_ = Class82_Sub9.method901(class_ra, class373_265_, (byte) 16);
 							if (aBooleanArrayArray2665[i_266_][i_267_]) {
-								((Class240) this).anIntArray2681[0] = class373_265_.anInt4056 * -45966925;
-								((Class240) this).anIntArray2682[0] = i_268_;
-								((Class240) this).anIntArray2683[0] = class373_265_.anInt4057 * 324071475;
-								((Class240) this).anIntArray2684[0] = -1551409901 * class373_265_.anInt4060;
-								((Class240) this).anIntArray2647[0] = 2109091647 * class373_265_.anInt4055;
-								((Class240) this).anIntArray2686[0] = 256;
+								((MapDecoder) this).anIntArray2681[0] = class373_265_.anInt4056 * -45966925;
+								((MapDecoder) this).anIntArray2682[0] = i_268_;
+								((MapDecoder) this).anIntArray2683[0] = class373_265_.anInt4057 * 324071475;
+								((MapDecoder) this).anIntArray2684[0] = -1551409901 * class373_265_.anInt4060;
+								((MapDecoder) this).anIntArray2647[0] = 2109091647 * class373_265_.anInt4055;
+								((MapDecoder) this).anIntArray2686[0] = 256;
 							}
 						}
 					}
@@ -1129,18 +1129,18 @@ public class Class240 {
 				if (i < i_258_ - 1) {
 					int i_269_ = is[1 + i][i_257_ - 1] & 0xff;
 					if (i_269_ > 0) {
-						Class373 class373_270_ = ((Class240) this).aClass375_2651.method4645(i_269_ - 1, -165601895);
+						Class373 class373_270_ = ((MapDecoder) this).aClass375_2651.method4645(i_269_ - 1, -165601895);
 						if (-1 != class373_270_.anInt4056 * -45966925 && class373_270_.aBoolean4063) {
 							byte i_271_ = is_260_[1 + i][i_257_ - 1];
 							int i_272_ = 6 + is_261_[i + 1][i_257_ - 1] * 2 & 0x7;
 							int i_273_ = Class82_Sub9.method901(class_ra, class373_270_, (byte) 16);
 							if (aBooleanArrayArray2665[i_271_][i_272_]) {
-								((Class240) this).anIntArray2681[2] = class373_270_.anInt4056 * -45966925;
-								((Class240) this).anIntArray2682[2] = i_273_;
-								((Class240) this).anIntArray2683[2] = class373_270_.anInt4057 * 324071475;
-								((Class240) this).anIntArray2684[2] = class373_270_.anInt4060 * -1551409901;
-								((Class240) this).anIntArray2647[2] = class373_270_.anInt4055 * 2109091647;
-								((Class240) this).anIntArray2686[2] = 512;
+								((MapDecoder) this).anIntArray2681[2] = class373_270_.anInt4056 * -45966925;
+								((MapDecoder) this).anIntArray2682[2] = i_273_;
+								((MapDecoder) this).anIntArray2683[2] = class373_270_.anInt4057 * 324071475;
+								((MapDecoder) this).anIntArray2684[2] = class373_270_.anInt4060 * -1551409901;
+								((MapDecoder) this).anIntArray2647[2] = class373_270_.anInt4055 * 2109091647;
+								((MapDecoder) this).anIntArray2686[2] = 512;
 							}
 						}
 					}
@@ -1150,18 +1150,18 @@ public class Class240 {
 				if (i > 0) {
 					int i_274_ = is[i - 1][i_257_ + 1] & 0xff;
 					if (i_274_ > 0) {
-						Class373 class373_275_ = ((Class240) this).aClass375_2651.method4645(i_274_ - 1, -165601895);
+						Class373 class373_275_ = ((MapDecoder) this).aClass375_2651.method4645(i_274_ - 1, -165601895);
 						if (class373_275_.anInt4056 * -45966925 != -1 && class373_275_.aBoolean4063) {
 							byte i_276_ = is_260_[i - 1][i_257_ + 1];
 							int i_277_ = 2 + is_261_[i - 1][1 + i_257_] * 2 & 0x7;
 							int i_278_ = Class82_Sub9.method901(class_ra, class373_275_, (byte) 16);
 							if (aBooleanArrayArray2665[i_276_][i_277_]) {
-								((Class240) this).anIntArray2681[6] = -45966925 * class373_275_.anInt4056;
-								((Class240) this).anIntArray2682[6] = i_278_;
-								((Class240) this).anIntArray2683[6] = class373_275_.anInt4057 * 324071475;
-								((Class240) this).anIntArray2684[6] = -1551409901 * class373_275_.anInt4060;
-								((Class240) this).anIntArray2647[6] = 2109091647 * class373_275_.anInt4055;
-								((Class240) this).anIntArray2686[6] = 64;
+								((MapDecoder) this).anIntArray2681[6] = -45966925 * class373_275_.anInt4056;
+								((MapDecoder) this).anIntArray2682[6] = i_278_;
+								((MapDecoder) this).anIntArray2683[6] = class373_275_.anInt4057 * 324071475;
+								((MapDecoder) this).anIntArray2684[6] = -1551409901 * class373_275_.anInt4060;
+								((MapDecoder) this).anIntArray2647[6] = 2109091647 * class373_275_.anInt4055;
+								((MapDecoder) this).anIntArray2686[6] = 64;
 							}
 						}
 					}
@@ -1169,18 +1169,18 @@ public class Class240 {
 				if (i < i_258_ - 1) {
 					int i_279_ = is[i + 1][i_257_ + 1] & 0xff;
 					if (i_279_ > 0) {
-						Class373 class373_280_ = ((Class240) this).aClass375_2651.method4645(i_279_ - 1, -165601895);
+						Class373 class373_280_ = ((MapDecoder) this).aClass375_2651.method4645(i_279_ - 1, -165601895);
 						if (class373_280_.anInt4056 * -45966925 != -1 && class373_280_.aBoolean4063) {
 							byte i_281_ = is_260_[1 + i][i_257_ + 1];
 							int i_282_ = 0 + is_261_[1 + i][i_257_ + 1] * 2 & 0x7;
 							int i_283_ = Class82_Sub9.method901(class_ra, class373_280_, (byte) 16);
 							if (aBooleanArrayArray2665[i_281_][i_282_]) {
-								((Class240) this).anIntArray2681[4] = -45966925 * class373_280_.anInt4056;
-								((Class240) this).anIntArray2682[4] = i_283_;
-								((Class240) this).anIntArray2683[4] = 324071475 * class373_280_.anInt4057;
-								((Class240) this).anIntArray2684[4] = class373_280_.anInt4060 * -1551409901;
-								((Class240) this).anIntArray2647[4] = 2109091647 * class373_280_.anInt4055;
-								((Class240) this).anIntArray2686[4] = 128;
+								((MapDecoder) this).anIntArray2681[4] = -45966925 * class373_280_.anInt4056;
+								((MapDecoder) this).anIntArray2682[4] = i_283_;
+								((MapDecoder) this).anIntArray2683[4] = 324071475 * class373_280_.anInt4057;
+								((MapDecoder) this).anIntArray2684[4] = class373_280_.anInt4060 * -1551409901;
+								((MapDecoder) this).anIntArray2647[4] = 2109091647 * class373_280_.anInt4055;
+								((MapDecoder) this).anIntArray2686[4] = 128;
 							}
 						}
 					}
@@ -1189,7 +1189,7 @@ public class Class240 {
 			if (i_257_ > 0) {
 				int i_284_ = is[i][i_257_ - 1] & 0xff;
 				if (i_284_ > 0) {
-					Class373 class373_285_ = ((Class240) this).aClass375_2651.method4645(i_284_ - 1, -165601895);
+					Class373 class373_285_ = ((MapDecoder) this).aClass375_2651.method4645(i_284_ - 1, -165601895);
 					if (-1 != class373_285_.anInt4056 * -45966925) {
 						byte i_286_ = is_260_[i][i_257_ - 1];
 						int i_287_ = is_261_[i][i_257_ - 1];
@@ -1200,23 +1200,23 @@ public class Class240 {
 							for (int i_291_ = 0; i_291_ < 3; i_291_++) {
 								i_289_ &= 0x7;
 								i_288_ &= 0x7;
-								if (aBooleanArrayArray2665[i_286_][i_289_] && ((((Class240) this).anIntArray2647[i_288_]) <= (2109091647 * class373_285_.anInt4055))) {
-									((Class240) this).anIntArray2681[i_288_] = -45966925 * class373_285_.anInt4056;
-									((Class240) this).anIntArray2682[i_288_] = i_290_;
-									((Class240) this).anIntArray2683[i_288_] = class373_285_.anInt4057 * 324071475;
-									((Class240) this).anIntArray2684[i_288_] = (-1551409901 * class373_285_.anInt4060);
-									if ((((Class240) this).anIntArray2647[i_288_]) == (class373_285_.anInt4055 * 2109091647))
-										((Class240) this).anIntArray2686[i_288_] |= 0x20;
+								if (aBooleanArrayArray2665[i_286_][i_289_] && ((((MapDecoder) this).anIntArray2647[i_288_]) <= (2109091647 * class373_285_.anInt4055))) {
+									((MapDecoder) this).anIntArray2681[i_288_] = -45966925 * class373_285_.anInt4056;
+									((MapDecoder) this).anIntArray2682[i_288_] = i_290_;
+									((MapDecoder) this).anIntArray2683[i_288_] = class373_285_.anInt4057 * 324071475;
+									((MapDecoder) this).anIntArray2684[i_288_] = (-1551409901 * class373_285_.anInt4060);
+									if ((((MapDecoder) this).anIntArray2647[i_288_]) == (class373_285_.anInt4055 * 2109091647))
+										((MapDecoder) this).anIntArray2686[i_288_] |= 0x20;
 									else
-										((Class240) this).anIntArray2686[i_288_] = 32;
-									((Class240) this).anIntArray2647[i_288_] = 2109091647 * class373_285_.anInt4055;
+										((MapDecoder) this).anIntArray2686[i_288_] = 32;
+									((MapDecoder) this).anIntArray2647[i_288_] = 2109091647 * class373_285_.anInt4055;
 								}
 								i_289_++;
 								i_288_--;
 							}
-							if (!bools_263_[(((Class240) this).anInt2688 * -875169383 + 0 & 0x3)])
+							if (!bools_263_[(((MapDecoder) this).anInt2688 * -875169383 + 0 & 0x3)])
 								bools[0] = (aBooleanArrayArray2675[i_286_][i_287_ + 2 & 0x3]);
-						} else if (!bools_263_[(((Class240) this).anInt2688 * -875169383) + 0 & 0x3])
+						} else if (!bools_263_[(((MapDecoder) this).anInt2688 * -875169383) + 0 & 0x3])
 							bools[0] = (aBooleanArrayArray2695[i_286_][2 + i_287_ & 0x3]);
 					}
 				}
@@ -1224,7 +1224,7 @@ public class Class240 {
 			if (i_257_ < i_259_ - 1) {
 				int i_292_ = is[i][i_257_ + 1] & 0xff;
 				if (i_292_ > 0) {
-					Class373 class373_293_ = ((Class240) this).aClass375_2651.method4645(i_292_ - 1, -165601895);
+					Class373 class373_293_ = ((MapDecoder) this).aClass375_2651.method4645(i_292_ - 1, -165601895);
 					if (class373_293_.anInt4056 * -45966925 != -1) {
 						byte i_294_ = is_260_[i][1 + i_257_];
 						int i_295_ = is_261_[i][1 + i_257_];
@@ -1235,23 +1235,23 @@ public class Class240 {
 							for (int i_299_ = 0; i_299_ < 3; i_299_++) {
 								i_297_ &= 0x7;
 								i_296_ &= 0x7;
-								if (aBooleanArrayArray2665[i_294_][i_297_] && ((((Class240) this).anIntArray2647[i_296_]) <= (2109091647 * class373_293_.anInt4055))) {
-									((Class240) this).anIntArray2681[i_296_] = class373_293_.anInt4056 * -45966925;
-									((Class240) this).anIntArray2682[i_296_] = i_298_;
-									((Class240) this).anIntArray2683[i_296_] = class373_293_.anInt4057 * 324071475;
-									((Class240) this).anIntArray2684[i_296_] = (class373_293_.anInt4060 * -1551409901);
-									if (2109091647 * class373_293_.anInt4055 == (((Class240) this).anIntArray2647[i_296_]))
-										((Class240) this).anIntArray2686[i_296_] |= 0x10;
+								if (aBooleanArrayArray2665[i_294_][i_297_] && ((((MapDecoder) this).anIntArray2647[i_296_]) <= (2109091647 * class373_293_.anInt4055))) {
+									((MapDecoder) this).anIntArray2681[i_296_] = class373_293_.anInt4056 * -45966925;
+									((MapDecoder) this).anIntArray2682[i_296_] = i_298_;
+									((MapDecoder) this).anIntArray2683[i_296_] = class373_293_.anInt4057 * 324071475;
+									((MapDecoder) this).anIntArray2684[i_296_] = (class373_293_.anInt4060 * -1551409901);
+									if (2109091647 * class373_293_.anInt4055 == (((MapDecoder) this).anIntArray2647[i_296_]))
+										((MapDecoder) this).anIntArray2686[i_296_] |= 0x10;
 									else
-										((Class240) this).anIntArray2686[i_296_] = 16;
-									((Class240) this).anIntArray2647[i_296_] = class373_293_.anInt4055 * 2109091647;
+										((MapDecoder) this).anIntArray2686[i_296_] = 16;
+									((MapDecoder) this).anIntArray2647[i_296_] = class373_293_.anInt4055 * 2109091647;
 								}
 								i_297_--;
 								i_296_++;
 							}
-							if (!bools_263_[(-875169383 * ((Class240) this).anInt2688 + 2 & 0x3)])
+							if (!bools_263_[(-875169383 * ((MapDecoder) this).anInt2688 + 2 & 0x3)])
 								bools[2] = (aBooleanArrayArray2675[i_294_][0 + i_295_ & 0x3]);
-						} else if (!bools_263_[2 + (((Class240) this).anInt2688 * -875169383) & 0x3])
+						} else if (!bools_263_[2 + (((MapDecoder) this).anInt2688 * -875169383) & 0x3])
 							bools[2] = (aBooleanArrayArray2695[i_294_][0 + i_295_ & 0x3]);
 					}
 				}
@@ -1259,7 +1259,7 @@ public class Class240 {
 			if (i > 0) {
 				int i_300_ = is[i - 1][i_257_] & 0xff;
 				if (i_300_ > 0) {
-					Class373 class373_301_ = ((Class240) this).aClass375_2651.method4645(i_300_ - 1, -165601895);
+					Class373 class373_301_ = ((MapDecoder) this).aClass375_2651.method4645(i_300_ - 1, -165601895);
 					if (-1 != -45966925 * class373_301_.anInt4056) {
 						byte i_302_ = is_260_[i - 1][i_257_];
 						int i_303_ = is_261_[i - 1][i_257_];
@@ -1270,23 +1270,23 @@ public class Class240 {
 							for (int i_307_ = 0; i_307_ < 3; i_307_++) {
 								i_305_ &= 0x7;
 								i_304_ &= 0x7;
-								if (aBooleanArrayArray2665[i_302_][i_305_] && ((((Class240) this).anIntArray2647[i_304_]) <= (2109091647 * class373_301_.anInt4055))) {
-									((Class240) this).anIntArray2681[i_304_] = class373_301_.anInt4056 * -45966925;
-									((Class240) this).anIntArray2682[i_304_] = i_306_;
-									((Class240) this).anIntArray2683[i_304_] = 324071475 * class373_301_.anInt4057;
-									((Class240) this).anIntArray2684[i_304_] = (class373_301_.anInt4060 * -1551409901);
-									if ((((Class240) this).anIntArray2647[i_304_]) == (class373_301_.anInt4055 * 2109091647))
-										((Class240) this).anIntArray2686[i_304_] |= 0x8;
+								if (aBooleanArrayArray2665[i_302_][i_305_] && ((((MapDecoder) this).anIntArray2647[i_304_]) <= (2109091647 * class373_301_.anInt4055))) {
+									((MapDecoder) this).anIntArray2681[i_304_] = class373_301_.anInt4056 * -45966925;
+									((MapDecoder) this).anIntArray2682[i_304_] = i_306_;
+									((MapDecoder) this).anIntArray2683[i_304_] = 324071475 * class373_301_.anInt4057;
+									((MapDecoder) this).anIntArray2684[i_304_] = (class373_301_.anInt4060 * -1551409901);
+									if ((((MapDecoder) this).anIntArray2647[i_304_]) == (class373_301_.anInt4055 * 2109091647))
+										((MapDecoder) this).anIntArray2686[i_304_] |= 0x8;
 									else
-										((Class240) this).anIntArray2686[i_304_] = 8;
-									((Class240) this).anIntArray2647[i_304_] = class373_301_.anInt4055 * 2109091647;
+										((MapDecoder) this).anIntArray2686[i_304_] = 8;
+									((MapDecoder) this).anIntArray2647[i_304_] = class373_301_.anInt4055 * 2109091647;
 								}
 								i_305_--;
 								i_304_++;
 							}
-							if (!bools_263_[(-875169383 * ((Class240) this).anInt2688 + 3 & 0x3)])
+							if (!bools_263_[(-875169383 * ((MapDecoder) this).anInt2688 + 3 & 0x3)])
 								bools[3] = (aBooleanArrayArray2675[i_302_][i_303_ + 1 & 0x3]);
-						} else if (!bools_263_[(((Class240) this).anInt2688 * -875169383) + 3 & 0x3])
+						} else if (!bools_263_[(((MapDecoder) this).anInt2688 * -875169383) + 3 & 0x3])
 							bools[3] = (aBooleanArrayArray2695[i_302_][1 + i_303_ & 0x3]);
 					}
 				}
@@ -1294,7 +1294,7 @@ public class Class240 {
 			if (i < i_258_ - 1) {
 				int i_308_ = is[1 + i][i_257_] & 0xff;
 				if (i_308_ > 0) {
-					Class373 class373_309_ = ((Class240) this).aClass375_2651.method4645(i_308_ - 1, -165601895);
+					Class373 class373_309_ = ((MapDecoder) this).aClass375_2651.method4645(i_308_ - 1, -165601895);
 					if (-1 != class373_309_.anInt4056 * -45966925) {
 						byte i_310_ = is_260_[i + 1][i_257_];
 						int i_311_ = is_261_[i + 1][i_257_];
@@ -1305,23 +1305,23 @@ public class Class240 {
 							for (int i_315_ = 0; i_315_ < 3; i_315_++) {
 								i_313_ &= 0x7;
 								i_312_ &= 0x7;
-								if (aBooleanArrayArray2665[i_310_][i_313_] && ((((Class240) this).anIntArray2647[i_312_]) <= (class373_309_.anInt4055 * 2109091647))) {
-									((Class240) this).anIntArray2681[i_312_] = -45966925 * class373_309_.anInt4056;
-									((Class240) this).anIntArray2682[i_312_] = i_314_;
-									((Class240) this).anIntArray2683[i_312_] = 324071475 * class373_309_.anInt4057;
-									((Class240) this).anIntArray2684[i_312_] = (class373_309_.anInt4060 * -1551409901);
-									if ((((Class240) this).anIntArray2647[i_312_]) == (class373_309_.anInt4055 * 2109091647))
-										((Class240) this).anIntArray2686[i_312_] |= 0x4;
+								if (aBooleanArrayArray2665[i_310_][i_313_] && ((((MapDecoder) this).anIntArray2647[i_312_]) <= (class373_309_.anInt4055 * 2109091647))) {
+									((MapDecoder) this).anIntArray2681[i_312_] = -45966925 * class373_309_.anInt4056;
+									((MapDecoder) this).anIntArray2682[i_312_] = i_314_;
+									((MapDecoder) this).anIntArray2683[i_312_] = 324071475 * class373_309_.anInt4057;
+									((MapDecoder) this).anIntArray2684[i_312_] = (class373_309_.anInt4060 * -1551409901);
+									if ((((MapDecoder) this).anIntArray2647[i_312_]) == (class373_309_.anInt4055 * 2109091647))
+										((MapDecoder) this).anIntArray2686[i_312_] |= 0x4;
 									else
-										((Class240) this).anIntArray2686[i_312_] = 4;
-									((Class240) this).anIntArray2647[i_312_] = 2109091647 * class373_309_.anInt4055;
+										((MapDecoder) this).anIntArray2686[i_312_] = 4;
+									((MapDecoder) this).anIntArray2647[i_312_] = 2109091647 * class373_309_.anInt4055;
 								}
 								i_313_++;
 								i_312_--;
 							}
-							if (!bools_263_[(-875169383 * ((Class240) this).anInt2688 + 1 & 0x3)])
+							if (!bools_263_[(-875169383 * ((MapDecoder) this).anInt2688 + 1 & 0x3)])
 								bools[1] = (aBooleanArrayArray2675[i_310_][i_311_ + 3 & 0x3]);
-						} else if (!bools_263_[1 + (((Class240) this).anInt2688 * -875169383) & 0x3])
+						} else if (!bools_263_[1 + (((MapDecoder) this).anInt2688 * -875169383) & 0x3])
 							bools[1] = (aBooleanArrayArray2695[i_310_][3 + i_311_ & 0x3]);
 					}
 				}
@@ -1329,17 +1329,17 @@ public class Class240 {
 			if (null != class373 && class373.aBoolean4063) {
 				int i_316_ = Class82_Sub9.method901(class_ra, class373, (byte) 16);
 				for (int i_317_ = 0; i_317_ < 8; i_317_++) {
-					int i_318_ = (i_317_ - -1750338766 * ((Class240) this).anInt2688 & 0x7);
-					if ((aBooleanArrayArray2665[-1377184223 * ((Class240) this).anInt2687][i_317_]) && (((Class240) this).anIntArray2647[i_318_] <= class373.anInt4055 * 2109091647)) {
-						((Class240) this).anIntArray2681[i_318_] = -45966925 * class373.anInt4056;
-						((Class240) this).anIntArray2682[i_318_] = i_316_;
-						((Class240) this).anIntArray2683[i_318_] = 324071475 * class373.anInt4057;
-						((Class240) this).anIntArray2684[i_318_] = class373.anInt4060 * -1551409901;
-						if (2109091647 * class373.anInt4055 == ((Class240) this).anIntArray2647[i_318_])
-							((Class240) this).anIntArray2686[i_318_] |= 0x2;
+					int i_318_ = (i_317_ - -1750338766 * ((MapDecoder) this).anInt2688 & 0x7);
+					if ((aBooleanArrayArray2665[-1377184223 * ((MapDecoder) this).anInt2687][i_317_]) && (((MapDecoder) this).anIntArray2647[i_318_] <= class373.anInt4055 * 2109091647)) {
+						((MapDecoder) this).anIntArray2681[i_318_] = -45966925 * class373.anInt4056;
+						((MapDecoder) this).anIntArray2682[i_318_] = i_316_;
+						((MapDecoder) this).anIntArray2683[i_318_] = 324071475 * class373.anInt4057;
+						((MapDecoder) this).anIntArray2684[i_318_] = class373.anInt4060 * -1551409901;
+						if (2109091647 * class373.anInt4055 == ((MapDecoder) this).anIntArray2647[i_318_])
+							((MapDecoder) this).anIntArray2686[i_318_] |= 0x2;
 						else
-							((Class240) this).anIntArray2686[i_318_] = 2;
-						((Class240) this).anIntArray2647[i_318_] = class373.anInt4055 * 2109091647;
+							((MapDecoder) this).anIntArray2686[i_318_] = 2;
+						((MapDecoder) this).anIntArray2647[i_318_] = class373.anInt4055 * 2109091647;
 					}
 				}
 			}
@@ -1413,9 +1413,9 @@ public class Class240 {
 						if (bool)
 							class298_sub53.readUnsignedByte();
 						else {
-							((Class240) this).aByteArrayArrayArray2636[i][i_319_][i_320_] = class298_sub53.readByte(-12558881);
-							((Class240) this).aByteArrayArrayArray2698[i][i_319_][i_320_] = (byte) ((i_327_ - 2) / 4);
-							((Class240) this).aByteArrayArrayArray2668[i][i_319_][i_320_] = (byte) (i_327_ - 2 + i_325_ & 0x3);
+							((MapDecoder) this).aByteArrayArrayArray2636[i][i_319_][i_320_] = class298_sub53.readByte(-12558881);
+							((MapDecoder) this).aByteArrayArrayArray2698[i][i_319_][i_320_] = (byte) ((i_327_ - 2) / 4);
+							((MapDecoder) this).aByteArrayArrayArray2668[i][i_319_][i_320_] = (byte) (i_327_ - 2 + i_325_ & 0x3);
 						}
 					} else if (i_327_ <= 81) {
 						if (!aBoolean2629 && !bool)
@@ -1425,7 +1425,7 @@ public class Class240 {
 							/* empty */
 						}
 					} else
-						((Class240) this).aByteArrayArrayArray2670[i][i_319_][i_320_] = (byte) (i_327_ - 81);
+						((MapDecoder) this).aByteArrayArrayArray2670[i][i_319_][i_320_] = (byte) (i_327_ - 81);
 				}
 			} else {
 				for (;;) {
@@ -1460,7 +1460,7 @@ public class Class240 {
 				boolean bool_341_ = true;
 				if (class443 != null && !class443.aBoolean5596)
 					bool_341_ = false;
-				else if (0 == i_334_ && 0 != -1377184223 * ((Class240) this).anInt2687)
+				else if (0 == i_334_ && 0 != -1377184223 * ((MapDecoder) this).anInt2687)
 					bool_341_ = false;
 				else if (i_335_ > 0 && null != class373 && !class373.aBoolean4062)
 					bool_341_ = false;
@@ -1472,31 +1472,31 @@ public class Class240 {
 		}
 	}
 
-	Class240(Class331 class331, int i, int i_342_, int i_343_, boolean bool, Class375 class375, Class451 class451, Class244 class244) {
+	MapDecoder(Class331 class331, int i, int i_342_, int i_343_, boolean bool, Class375 class375, Class451 class451, Class244 class244) {
 		aBoolean2624 = false;
 		aBoolean2625 = false;
-		((Class240) this).anIntArray2680 = new int[6];
-		((Class240) this).anIntArray2681 = new int[13];
-		((Class240) this).anIntArray2682 = new int[13];
-		((Class240) this).anIntArray2683 = new int[13];
-		((Class240) this).anIntArray2684 = new int[13];
-		((Class240) this).anIntArray2647 = new int[13];
-		((Class240) this).anIntArray2686 = new int[13];
-		((Class240) this).anInt2689 = 0;
-		((Class240) this).anInt2685 = 0;
-		((Class240) this).anIntArray2618 = null;
+		((MapDecoder) this).anIntArray2680 = new int[6];
+		((MapDecoder) this).anIntArray2681 = new int[13];
+		((MapDecoder) this).anIntArray2682 = new int[13];
+		((MapDecoder) this).anIntArray2683 = new int[13];
+		((MapDecoder) this).anIntArray2684 = new int[13];
+		((MapDecoder) this).anIntArray2647 = new int[13];
+		((MapDecoder) this).anIntArray2686 = new int[13];
+		((MapDecoder) this).anInt2689 = 0;
+		((MapDecoder) this).anInt2685 = 0;
+		((MapDecoder) this).anIntArray2618 = null;
 		aClass331_2619 = class331;
 		anInt2626 = 142248255 * i;
 		anInt2627 = i_342_ * 325279097;
 		anInt2628 = i_343_ * 2072446815;
 		aBoolean2629 = bool;
-		((Class240) this).aClass375_2651 = class375;
-		((Class240) this).aClass451_2617 = class451;
+		((MapDecoder) this).aClass375_2651 = class375;
+		((MapDecoder) this).aClass451_2617 = class451;
 		aClass244_2635 = class244;
-		((Class240) this).aByteArrayArrayArray2670 = (new byte[anInt2626 * 1551623871][anInt2627 * -954368823][181474463 * anInt2628]);
-		((Class240) this).aByteArrayArrayArray2636 = (new byte[1551623871 * anInt2626][-954368823 * anInt2627][181474463 * anInt2628]);
-		((Class240) this).aByteArrayArrayArray2698 = (new byte[1551623871 * anInt2626][-954368823 * anInt2627][anInt2628 * 181474463]);
-		((Class240) this).aByteArrayArrayArray2668 = (new byte[anInt2626 * 1551623871][-954368823 * anInt2627][181474463 * anInt2628]);
+		((MapDecoder) this).aByteArrayArrayArray2670 = (new byte[anInt2626 * 1551623871][anInt2627 * -954368823][181474463 * anInt2628]);
+		((MapDecoder) this).aByteArrayArrayArray2636 = (new byte[1551623871 * anInt2626][-954368823 * anInt2627][181474463 * anInt2628]);
+		((MapDecoder) this).aByteArrayArrayArray2698 = (new byte[1551623871 * anInt2626][-954368823 * anInt2627][anInt2628 * 181474463]);
+		((MapDecoder) this).aByteArrayArrayArray2668 = (new byte[anInt2626 * 1551623871][-954368823 * anInt2627][181474463 * anInt2628]);
 		anIntArrayArrayArray2653 = (new int[anInt2626 * 1551623871][anInt2627 * -954368823 + 1][181474463 * anInt2628 + 1]);
 		aByteArrayArrayArray2637 = (new byte[1551623871 * anInt2626][1 + -954368823 * anInt2627][181474463 * anInt2628 + 1]);
 	}

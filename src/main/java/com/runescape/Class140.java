@@ -108,7 +108,7 @@ public class Class140 implements Runnable {
 					if (client.aBoolean8835 && !bool) {
 						Class497 class497 = (831522399 * Class132.anInt1508 != -1 ? (Class92.aClass504_905.method6251(831522399 * Class132.anInt1508, 1875400558)) : null);
 						if ((Class298.anInt3192 * -112110875 & 0x2) != 0 && (null == class497 || (class503.method6239((Class132.anInt1508 * 831522399), (-388931549 * class497.anInt6100), (byte) 47) != class497.anInt6100 * -388931549)))
-							Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(16776960, -2021390481)).append(string).toString(), 697885143 * Class240.anInt2704, 8, -1, (long) (1888274983 * (class365_sub1_sub1_sub2_sub1.anInt10064)), 0, 0, true, false, (long) (1888274983 * (class365_sub1_sub1_sub2_sub1.anInt10064)), false, -1507413924);
+							Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(16776960, -2021390481)).append(string).toString(), 697885143 * MapDecoder.anInt2704, 8, -1, (long) (1888274983 * (class365_sub1_sub1_sub2_sub1.anInt10064)), 0, 0, true, false, (long) (1888274983 * (class365_sub1_sub1_sub2_sub1.anInt10064)), false, -1507413924);
 					}
 					if (!bool) {
 						String[] strings = class503.options;

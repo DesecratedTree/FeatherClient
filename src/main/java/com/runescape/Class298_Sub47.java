@@ -24,7 +24,7 @@ public class Class298_Sub47 extends Class298 {
 			if (-278777595 * Class436.anInt5506 < 410) {
 				if (class365_sub1_sub1_sub2_sub2 == Class287.myPlayer) {
 					if (client.aBoolean8835 && (Class298.anInt3192 * -112110875 & 0x10) != 0)
-						Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(16777215, -1880818524)).append(Tradution.aClass470_5922.method6049(Class321.aClass429_3357, -875414210)).toString(), Class240.anInt2704 * 697885143, 16, -1, 0L, 0, 0, true, false, (long) (1888274983 * (class365_sub1_sub1_sub2_sub2.anInt10064)), false, -1698066743);
+						Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(16777215, -1880818524)).append(Tradution.aClass470_5922.method6049(Class321.aClass429_3357, -875414210)).toString(), MapDecoder.anInt2704 * 697885143, 16, -1, 0L, 0, 0, true, false, (long) (1888274983 * (class365_sub1_sub1_sub2_sub2.anInt10064)), false, -1698066743);
 				} else {
 					String string;
 					if (class365_sub1_sub1_sub2_sub2.anInt10205 * 242930343 == 0) {
@@ -47,7 +47,7 @@ public class Class298_Sub47 extends Class298 {
 					else
 						string = new StringBuilder().append(class365_sub1_sub1_sub2_sub2.method4470(true, -2028633086)).append(Class26.aString349).append(Tradution.aClass470_5912.method6049(Class321.aClass429_3357, -875414210)).append(242930343 * (class365_sub1_sub1_sub2_sub2.anInt10205)).append(Class26.aString352).toString();
 					if (client.aBoolean8835 && !bool && (-112110875 * Class298.anInt3192 & 0x8) != 0)
-						Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(16777215, -1806308451)).append(string).toString(), 697885143 * Class240.anInt2704, 15, -1, (long) (1888274983 * (class365_sub1_sub1_sub2_sub2.anInt10064)), 0, 0, true, false, (long) (1888274983 * (class365_sub1_sub1_sub2_sub2.anInt10064)), false, -2028889244);
+						Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(Class285.method2709(16777215, -1806308451)).append(string).toString(), 697885143 * MapDecoder.anInt2704, 15, -1, (long) (1888274983 * (class365_sub1_sub1_sub2_sub2.anInt10064)), 0, 0, true, false, (long) (1888274983 * (class365_sub1_sub1_sub2_sub2.anInt10064)), false, -2028889244);
 					if (!bool) {
 						for (int i_4_ = 7; i_4_ >= 0; i_4_--) {
 							if (client.aStringArray8820[i_4_] != null) {

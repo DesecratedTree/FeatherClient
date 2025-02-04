@@ -1639,7 +1639,7 @@ public class Class249 implements Interface_ma {
 				Class513.method6292(class403, -565005069);
 				break;
 			case 423:
-				Class240_Sub1.method2246(class403, -912871679);
+				MapDecoder_Sub1.method2246(class403, -912871679);
 				break;
 			case 299:
 				Class323.method3946(class403, -608750771);
@@ -2754,7 +2754,7 @@ public class Class249 implements Interface_ma {
 				Class236.method2191(class403, (byte) 4);
 				break;
 			case 656:
-				Class240_Sub1.method2245(class403, -599828153);
+				MapDecoder_Sub1.method2245(class403, -599828153);
 				break;
 			case 164:
 				Class133.method1485(class403, (byte) 68);

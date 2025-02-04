@@ -92,7 +92,7 @@ public class Class87 {
 			if (client.aBoolean8835) {
 				Class497 class497 = (Class132.anInt1508 * 831522399 != -1 ? Class92.aClass504_905.method6251((831522399 * (Class132.anInt1508)), -1080440130) : null);
 				if (client.method2801(class105).method3495(1299208806) && 0 != (Class298.anInt3192 * -112110875 & 0x20) && (null == class497 || (class105.method1117(Class132.anInt1508 * 831522399, (class497.anInt6100 * -388931549), -659898667) != -388931549 * class497.anInt6100)))
-					Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(class105.aString1228).toString(), Class240.anInt2704 * 697885143, 58, class105.anInt1280 * -1232467723, 0L, class105.anInt1154 * -1309843523, -440872681 * class105.anInt1142, true, false, (long) (class105.anInt1154 * -1309843523 << 32 | class105.anInt1142 * -440872681), false, -1876457786);
+					Class234.method2174(client.aString8838, new StringBuilder().append(client.aString8754).append(" ").append(Class26.aString351).append(" ").append(class105.aString1228).toString(), MapDecoder.anInt2704 * 697885143, 58, class105.anInt1280 * -1232467723, 0L, class105.anInt1154 * -1309843523, -440872681 * class105.anInt1142, true, false, (long) (class105.anInt1154 * -1309843523 << 32 | class105.anInt1142 * -440872681), false, -1876457786);
 			}
 			for (int i_8_ = 9; i_8_ >= 5; i_8_--) {
 				String string = Class380.method4682(class105, i_8_, (byte) 123);

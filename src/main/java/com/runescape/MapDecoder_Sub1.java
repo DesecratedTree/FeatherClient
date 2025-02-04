@@ -3,7 +3,7 @@ package com.runescape;
  * Visit http://jode.sourceforge.net/
  */
 
-public class Class240_Sub1 extends Class240 {
+public class MapDecoder_Sub1 extends MapDecoder {
 	Class433 aClass433_7072;
 	static boolean aBoolean7073;
 	static int[] anIntArray7074;
@@ -22,7 +22,7 @@ public class Class240_Sub1 extends Class240 {
 		try {
 			Interface3 interface3 = method2241(i, i_0_, i_1_, i_2_, 1530247338);
 			if (null != interface3) {
-				ObjectDefinitions class432 = (((Class240_Sub1) this).aClass433_7072.getObjectDefinitions(interface3.method32((byte) 80)));
+				ObjectDefinitions class432 = (((MapDecoder_Sub1) this).aClass433_7072.getObjectDefinitions(interface3.method32((byte) 80)));
 				int i_4_ = interface3.method29(726839210);
 				int i_5_ = interface3.method30((short) 20316);
 				if (class432.method5784(-1167401239))
@@ -80,9 +80,9 @@ public class Class240_Sub1 extends Class240 {
 						int i_8_ = class298_sub53.readUnsignedByte();
 						if (i_8_ == 0) {
 							if (class385 == null)
-								class385 = new Class385(class298_sub53, (((Class240_Sub1) this).aClass364_7080));
+								class385 = new Class385(class298_sub53, (((MapDecoder_Sub1) this).aClass364_7080));
 							else
-								class385.method4706(class298_sub53, (((Class240_Sub1) this).aClass364_7080), (short) 1342);
+								class385.method4706(class298_sub53, (((MapDecoder_Sub1) this).aClass364_7080), (short) 1342);
 						} else if (1 == i_8_) {
 							int i_9_ = class298_sub53.readUnsignedByte();
 							if (i_9_ > 0) {
@@ -112,7 +112,7 @@ public class Class240_Sub1 extends Class240 {
 						} else if (128 == i_8_) {
 							if (class385 == null)
 								class385 = new Class385();
-							class385.method4712(class298_sub53, (((Class240_Sub1) this).aClass364_7080), (byte) 11);
+							class385.method4712(class298_sub53, (((MapDecoder_Sub1) this).aClass364_7080), (byte) 11);
 						} else {
 							if (129 != i_8_)
 								break;
@@ -201,7 +201,7 @@ public class Class240_Sub1 extends Class240 {
 							int i_32_ = i_30_ + (i >> 3);
 							int i_33_ = (i_6_ >> 3) + i_31_;
 							if (i_32_ >= 0 && i_32_ < anInt2627 * -954368823 >> 3 && i_33_ >= 0 && i_33_ < anInt2628 * 181474463 >> 3)
-								((Class240_Sub1) this).aClass364_7080.method4319(i_32_, i_33_, class385, (byte) -2);
+								((MapDecoder_Sub1) this).aClass364_7080.method4319(i_32_, i_33_, class385, (byte) -2);
 						}
 					}
 				}
@@ -239,9 +239,9 @@ public class Class240_Sub1 extends Class240 {
 						int i_48_ = class298_sub53.readUnsignedByte();
 						if (0 == i_48_) {
 							if (null == class385)
-								class385 = new Class385(class298_sub53, (((Class240_Sub1) this).aClass364_7080));
+								class385 = new Class385(class298_sub53, (((MapDecoder_Sub1) this).aClass364_7080));
 							else
-								class385.method4706(class298_sub53, (((Class240_Sub1) this).aClass364_7080), (short) 1534);
+								class385.method4706(class298_sub53, (((MapDecoder_Sub1) this).aClass364_7080), (short) 1534);
 						} else if (1 == i_48_) {
 							int i_49_ = class298_sub53.readUnsignedByte();
 							if (i_49_ > 0) {
@@ -257,7 +257,7 @@ public class Class240_Sub1 extends Class240 {
 										int i_52_ = (class298_sub10.method2897((byte) 113) >> 9);
 										if (i_41_ == (class321.anInt3345 * -1565952249) && i_51_ >= i_46_ && i_51_ < i_46_ + 8 && i_52_ >= i_47_ && i_52_ < i_47_ + 8) {
 											int i_53_ = ((i_39_ << 9) + (Class219.method2045((class298_sub10.method2895(823958259)) & 0xfff, (class298_sub10.method2897((byte) 107)) & 0xfff, i_44_, (byte) 91)));
-											int i_54_ = ((i_40_ << 9) + (Class240.method2233((class298_sub10.method2895(823958259)) & 0xfff, (class298_sub10.method2897((byte) 68)) & 0xfff, i_44_, (short) 27107)));
+											int i_54_ = ((i_40_ << 9) + (MapDecoder.method2233((class298_sub10.method2895(823958259)) & 0xfff, (class298_sub10.method2897((byte) 68)) & 0xfff, i_44_, (short) 27107)));
 											i_51_ = i_53_ >> 9;
 											i_52_ = i_54_ >> 9;
 											if (i_51_ >= 0 && i_52_ >= 0 && (i_51_ < anInt2627 * -954368823) && (i_52_ < anInt2628 * 181474463)) {
@@ -275,7 +275,7 @@ public class Class240_Sub1 extends Class240 {
 						} else if (i_48_ == 128) {
 							if (null == class385)
 								class385 = new Class385();
-							class385.method4712(class298_sub53, (((Class240_Sub1) this).aClass364_7080), (byte) 53);
+							class385.method4712(class298_sub53, (((MapDecoder_Sub1) this).aClass364_7080), (byte) 53);
 						} else {
 							if (i_48_ != 129)
 								break;
@@ -341,7 +341,7 @@ public class Class240_Sub1 extends Class240 {
 					throw new IllegalStateException("");
 				} while (false);
 				if (class385 != null)
-					((Class240_Sub1) this).aClass364_7080.method4319(i_39_ >> 3, i_40_ >> 3, class385, (byte) -31);
+					((MapDecoder_Sub1) this).aClass364_7080.method4319(i_39_ >> 3, i_40_ >> 3, class385, (byte) -31);
 				if (!bool && aByteArrayArrayArray2631 != null && null != aByteArrayArrayArray2631[i]) {
 					int i_68_ = i_39_ + 7;
 					int i_69_ = i_40_ + 7;
@@ -433,7 +433,7 @@ public class Class240_Sub1 extends Class240 {
 					int i_102_ = i_101_ >> 2;
 					int i_103_ = i_101_ & 0x3;
 					if (i_89_ == i_100_ && i_99_ >= i_90_ && i_99_ < 8 + i_90_ && i_98_ >= i_91_ && i_98_ < 8 + i_91_) {
-						ObjectDefinitions class432 = ((Class240_Sub1) this).aClass433_7072.getObjectDefinitions(i_94_);
+						ObjectDefinitions class432 = ((MapDecoder_Sub1) this).aClass433_7072.getObjectDefinitions(i_94_);
 						int i_104_ = (i_87_ + Class415.method5587(i_99_ & 0x7, i_98_ & 0x7, i_92_, (-1125834887 * class432.sizeX), (class432.sizeY * -565161399), i_103_, 181137699));
 						int i_105_ = i_88_ + Class315.method3833(i_99_ & 0x7, i_98_ & 0x7, i_92_, (class432.sizeX * -1125834887), (class432.sizeY * -565161399), i_103_, 1981614763);
 						if (i_104_ > 0 && i_105_ > 0 && i_104_ < -954368823 * anInt2627 - 1 && i_105_ < 181474463 * anInt2628 - 1) {
@@ -463,12 +463,12 @@ public class Class240_Sub1 extends Class240 {
 					i_120_ = 1;
 				Class365_Sub1_Sub5 class365_sub1_sub5;
 				if (bool) {
-					Class365_Sub1_Sub5_Sub1 class365_sub1_sub5_sub1 = new Class365_Sub1_Sub5_Sub1(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, bool_116_);
+					Class365_Sub1_Sub5_Sub1 class365_sub1_sub5_sub1 = new Class365_Sub1_Sub5_Sub1(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, bool_116_);
 					if (class365_sub1_sub5_sub1.method39(-1364237139))
 						class365_sub1_sub5_sub1.method33(class_ra, -2008903061);
 					class365_sub1_sub5 = class365_sub1_sub5_sub1;
 				} else
-					class365_sub1_sub5 = new Class365_Sub1_Sub5_Sub2(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, i_108_);
+					class365_sub1_sub5 = new Class365_Sub1_Sub5_Sub2(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, i_108_);
 				aClass331_2619.method4020(i_109_, i_114_, i_115_, class365_sub1_sub5, null, (byte) 53);
 				if (0 == i_107_) {
 					if (aBoolean2632 && class432.aBoolean5405) {
@@ -508,12 +508,12 @@ public class Class240_Sub1 extends Class240 {
 			if (i == -1976050083 * Class424.aClass424_6592.anInt6613) {
 				Class365_Sub1_Sub5 class365_sub1_sub5;
 				if (bool) {
-					Class365_Sub1_Sub5_Sub1 class365_sub1_sub5_sub1 = new Class365_Sub1_Sub5_Sub1(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, bool_116_);
+					Class365_Sub1_Sub5_Sub1 class365_sub1_sub5_sub1 = new Class365_Sub1_Sub5_Sub1(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, bool_116_);
 					if (class365_sub1_sub5_sub1.method39(-1749970817))
 						class365_sub1_sub5_sub1.method33(class_ra, -2130877816);
 					class365_sub1_sub5 = class365_sub1_sub5_sub1;
 				} else
-					class365_sub1_sub5 = new Class365_Sub1_Sub5_Sub2(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, i_108_);
+					class365_sub1_sub5 = new Class365_Sub1_Sub5_Sub2(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, i_108_);
 				aClass331_2619.method4020(i_109_, i_114_, i_115_, class365_sub1_sub5, null, (byte) 117);
 				if (class432.aBoolean5405 && aBoolean2632) {
 					if (i_107_ == 0)
@@ -534,8 +534,8 @@ public class Class240_Sub1 extends Class240 {
 				Class365_Sub1_Sub5 class365_sub1_sub5;
 				Class365_Sub1_Sub5 class365_sub1_sub5_122_;
 				if (bool) {
-					Class365_Sub1_Sub5_Sub1 class365_sub1_sub5_sub1 = new Class365_Sub1_Sub5_Sub1(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, 4 + i_107_, bool_116_);
-					Class365_Sub1_Sub5_Sub1 class365_sub1_sub5_sub1_123_ = new Class365_Sub1_Sub5_Sub1(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_121_, bool_116_);
+					Class365_Sub1_Sub5_Sub1 class365_sub1_sub5_sub1 = new Class365_Sub1_Sub5_Sub1(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, 4 + i_107_, bool_116_);
+					Class365_Sub1_Sub5_Sub1 class365_sub1_sub5_sub1_123_ = new Class365_Sub1_Sub5_Sub1(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_121_, bool_116_);
 					if (class365_sub1_sub5_sub1.method39(-1679564366))
 						class365_sub1_sub5_sub1.method33(class_ra, -2079126659);
 					if (class365_sub1_sub5_sub1_123_.method39(-1782980621))
@@ -543,8 +543,8 @@ public class Class240_Sub1 extends Class240 {
 					class365_sub1_sub5 = class365_sub1_sub5_sub1;
 					class365_sub1_sub5_122_ = class365_sub1_sub5_sub1_123_;
 				} else {
-					class365_sub1_sub5 = new Class365_Sub1_Sub5_Sub2(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, 4 + i_107_, i_108_);
-					class365_sub1_sub5_122_ = new Class365_Sub1_Sub5_Sub2(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_121_, i_108_);
+					class365_sub1_sub5 = new Class365_Sub1_Sub5_Sub2(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, 4 + i_107_, i_108_);
+					class365_sub1_sub5_122_ = new Class365_Sub1_Sub5_Sub2(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_121_, i_108_);
 				}
 				aClass331_2619.method4020(i_109_, i_114_, i_115_, class365_sub1_sub5, class365_sub1_sub5_122_, (byte) 48);
 				if ((class432.anInt5376 * -1508517619 == 1 || aBoolean7073 && -1 == -1508517619 * class432.anInt5376) && !aBoolean2629) {
@@ -571,12 +571,12 @@ public class Class240_Sub1 extends Class240 {
 			if (i == -1976050083 * Class424.aClass424_6594.anInt6613) {
 				Class365_Sub1_Sub5 class365_sub1_sub5;
 				if (bool) {
-					Class365_Sub1_Sub5_Sub1 class365_sub1_sub5_sub1 = new Class365_Sub1_Sub5_Sub1(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, bool_116_);
+					Class365_Sub1_Sub5_Sub1 class365_sub1_sub5_sub1 = new Class365_Sub1_Sub5_Sub1(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, bool_116_);
 					if (class365_sub1_sub5_sub1.method39(-1956737069))
 						class365_sub1_sub5_sub1.method33(class_ra, -2085613160);
 					class365_sub1_sub5 = class365_sub1_sub5_sub1;
 				} else
-					class365_sub1_sub5 = new Class365_Sub1_Sub5_Sub2(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, i_108_);
+					class365_sub1_sub5 = new Class365_Sub1_Sub5_Sub2(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i, i_107_, i_108_);
 				aClass331_2619.method4020(i_109_, i_114_, i_115_, class365_sub1_sub5, null, (byte) 58);
 				if (class432.aBoolean5405 && aBoolean2632) {
 					if (0 == i_107_)
@@ -595,12 +595,12 @@ public class Class240_Sub1 extends Class240 {
 			if (i == -1976050083 * Class424.aClass424_6595.anInt6613) {
 				Class365_Sub1_Sub1 class365_sub1_sub1;
 				if (bool) {
-					Class365_Sub1_Sub1_Sub6 class365_sub1_sub1_sub6 = new Class365_Sub1_Sub1_Sub6(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i_114_, i_114_, i_115_, i_115_, i, i_107_, bool_116_);
+					Class365_Sub1_Sub1_Sub6 class365_sub1_sub1_sub6 = new Class365_Sub1_Sub1_Sub6(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i_114_, i_114_, i_115_, i_115_, i, i_107_, bool_116_);
 					if (class365_sub1_sub1_sub6.method39(-2055372332))
 						class365_sub1_sub1_sub6.method33(class_ra, -2053499485);
 					class365_sub1_sub1 = class365_sub1_sub1_sub6;
 				} else
-					class365_sub1_sub1 = new Class365_Sub1_Sub1_Sub5(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i_114_, i_117_ + i_114_ - 1, i_115_, i_115_ + i_118_ - 1, i, i_107_, i_108_);
+					class365_sub1_sub1 = new Class365_Sub1_Sub1_Sub5(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_109_, i_110_, i_111_, i_112_, i_113_, aBoolean2629, i_114_, i_117_ + i_114_ - 1, i_115_, i_115_ + i_118_ - 1, i, i_107_, i_108_);
 				aClass331_2619.method4022(class365_sub1_sub1, false, (byte) 0);
 				if (1 == class432.anInt5376 * -1508517619 && !aBoolean2629) {
 					int i_124_;
@@ -627,12 +627,12 @@ public class Class240_Sub1 extends Class240 {
 			if (i == -1976050083 * Class424.aClass424_6596.anInt6613) {
 				Class365_Sub1_Sub3 class365_sub1_sub3;
 				if (bool) {
-					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2 = new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, i_125_);
+					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2 = new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, i_125_);
 					if (class365_sub1_sub3_sub2.method39(-1870688116))
 						class365_sub1_sub3_sub2.method33(class_ra, -2124402842);
 					class365_sub1_sub3 = class365_sub1_sub3_sub2;
 				} else
-					class365_sub1_sub3 = new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, i_125_, i_126_);
+					class365_sub1_sub3 = new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, i_125_, i_126_);
 				aClass331_2619.method4021(i_127_, i_132_, i_133_, class365_sub1_sub3, null, 861548591);
 				return true;
 			}
@@ -640,15 +640,15 @@ public class Class240_Sub1 extends Class240 {
 				int i_135_ = 65;
 				Interface3 interface3 = ((Interface3) aClass331_2619.method4031(i_127_, i_132_, i_133_, 644917110));
 				if (null != interface3)
-					i_135_ = (((Class240_Sub1) this).aClass433_7072.getObjectDefinitions(interface3.method32((byte) 27)).anInt5391) * -448694871 + 1;
+					i_135_ = (((MapDecoder_Sub1) this).aClass433_7072.getObjectDefinitions(interface3.method32((byte) 27)).anInt5391) * -448694871 + 1;
 				Class365_Sub1_Sub3 class365_sub1_sub3;
 				if (bool) {
-					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2 = (new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, anIntArray7078[i_125_] * i_135_, anIntArray7075[i_125_] * i_135_, i, i_125_));
+					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2 = (new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, anIntArray7078[i_125_] * i_135_, anIntArray7075[i_125_] * i_135_, i, i_125_));
 					if (class365_sub1_sub3_sub2.method39(-1591018559))
 						class365_sub1_sub3_sub2.method33(class_ra, -2011263790);
 					class365_sub1_sub3 = class365_sub1_sub3_sub2;
 				} else
-					class365_sub1_sub3 = (new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, i_135_ * anIntArray7078[i_125_], i_135_ * anIntArray7075[i_125_], i, i_125_, i_126_));
+					class365_sub1_sub3 = (new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, i_135_ * anIntArray7078[i_125_], i_135_ * anIntArray7075[i_125_], i, i_125_, i_126_));
 				aClass331_2619.method4021(i_127_, i_132_, i_133_, class365_sub1_sub3, null, 1859376340);
 				return true;
 			}
@@ -656,15 +656,15 @@ public class Class240_Sub1 extends Class240 {
 				int i_136_ = 33;
 				Interface3 interface3 = ((Interface3) aClass331_2619.method4031(i_127_, i_132_, i_133_, 552550945));
 				if (interface3 != null)
-					i_136_ = (((Class240_Sub1) this).aClass433_7072.getObjectDefinitions(interface3.method32((byte) 14)).anInt5391) * -448694871 / 2 + 1;
+					i_136_ = (((MapDecoder_Sub1) this).aClass433_7072.getObjectDefinitions(interface3.method32((byte) 14)).anInt5391) * -448694871 / 2 + 1;
 				Class365_Sub1_Sub3 class365_sub1_sub3;
 				if (bool) {
-					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2 = (new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, i_136_ * anIntArray7078[i_125_], i_136_ * anIntArray7075[i_125_], i, i_125_ + 4));
+					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2 = (new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, i_136_ * anIntArray7078[i_125_], i_136_ * anIntArray7075[i_125_], i, i_125_ + 4));
 					if (class365_sub1_sub3_sub2.method39(-1847078642))
 						class365_sub1_sub3_sub2.method33(class_ra, -2043548826);
 					class365_sub1_sub3 = class365_sub1_sub3_sub2;
 				} else
-					class365_sub1_sub3 = (new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, i_136_ * anIntArray7074[i_125_], anIntArray7081[i_125_] * i_136_, i, i_125_ + 4, i_126_));
+					class365_sub1_sub3 = (new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, i_136_ * anIntArray7074[i_125_], anIntArray7081[i_125_] * i_136_, i, i_125_ + 4, i_126_));
 				aClass331_2619.method4021(i_127_, i_132_, i_133_, class365_sub1_sub3, null, 1431954302);
 				return true;
 			}
@@ -672,12 +672,12 @@ public class Class240_Sub1 extends Class240 {
 				int i_137_ = i_125_ + 2 & 0x3;
 				Class365_Sub1_Sub3 class365_sub1_sub3;
 				if (bool) {
-					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2 = new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, i_137_ + 4);
+					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2 = new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, i_137_ + 4);
 					if (class365_sub1_sub3_sub2.method39(-1553150372))
 						class365_sub1_sub3_sub2.method33(class_ra, -2133567145);
 					class365_sub1_sub3 = class365_sub1_sub3_sub2;
 				} else
-					class365_sub1_sub3 = new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, i_137_ + 4, i_126_);
+					class365_sub1_sub3 = new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, i_137_ + 4, i_126_);
 				aClass331_2619.method4021(i_127_, i_132_, i_133_, class365_sub1_sub3, null, 1921538390);
 				return true;
 			}
@@ -686,12 +686,12 @@ public class Class240_Sub1 extends Class240 {
 				int i_139_ = 33;
 				Interface3 interface3 = ((Interface3) aClass331_2619.method4031(i_127_, i_132_, i_133_, 2110046759));
 				if (null != interface3)
-					i_139_ = (((Class240_Sub1) this).aClass433_7072.getObjectDefinitions(interface3.method32((byte) 14)).anInt5391) * -448694871 / 2 + 1;
+					i_139_ = (((MapDecoder_Sub1) this).aClass433_7072.getObjectDefinitions(interface3.method32((byte) 14)).anInt5391) * -448694871 / 2 + 1;
 				Class365_Sub1_Sub3 class365_sub1_sub3;
 				Class365_Sub1_Sub3 class365_sub1_sub3_140_;
 				if (bool) {
-					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2 = (new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, i_139_ * anIntArray7074[i_125_], anIntArray7081[i_125_] * i_139_, i, i_125_ + 4));
-					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2_141_ = new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, i_138_ + 4);
+					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2 = (new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, i_139_ * anIntArray7074[i_125_], anIntArray7081[i_125_] * i_139_, i, i_125_ + 4));
+					Class365_Sub1_Sub3_Sub2 class365_sub1_sub3_sub2_141_ = new Class365_Sub1_Sub3_Sub2(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, i_138_ + 4);
 					if (class365_sub1_sub3_sub2.method39(-1237533744))
 						class365_sub1_sub3_sub2.method33(class_ra, -2074609967);
 					if (class365_sub1_sub3_sub2_141_.method39(-1449189890))
@@ -699,8 +699,8 @@ public class Class240_Sub1 extends Class240 {
 					class365_sub1_sub3 = class365_sub1_sub3_sub2;
 					class365_sub1_sub3_140_ = class365_sub1_sub3_sub2_141_;
 				} else {
-					Class365_Sub1_Sub3_Sub1 class365_sub1_sub3_sub1 = (new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, i_139_ * anIntArray7074[i_125_], i_139_ * anIntArray7081[i_125_], i, i_125_ + 4, i_126_));
-					Class365_Sub1_Sub3_Sub1 class365_sub1_sub3_sub1_142_ = new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, (((Class240_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, 4 + i_138_, i_126_);
+					Class365_Sub1_Sub3_Sub1 class365_sub1_sub3_sub1 = (new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, i_139_ * anIntArray7074[i_125_], i_139_ * anIntArray7081[i_125_], i, i_125_ + 4, i_126_));
+					Class365_Sub1_Sub3_Sub1 class365_sub1_sub3_sub1_142_ = new Class365_Sub1_Sub3_Sub1(aClass331_2619, class_ra, (((MapDecoder_Sub1) this).aClass433_7072), class432, i_127_, i_128_, i_129_, i_130_, i_131_, aBoolean2629, 0, 0, i, 4 + i_138_, i_126_);
 					class365_sub1_sub3 = class365_sub1_sub3_sub1;
 					class365_sub1_sub3_140_ = class365_sub1_sub3_sub1_142_;
 				}
@@ -805,9 +805,9 @@ public class Class240_Sub1 extends Class240 {
 
 	final void method2243(GraphicsToolkit class_ra, int i, int i_161_, int i_162_, int i_163_, int i_164_, int i_165_, int i_166_, Class289 class289, int i_167_, int i_168_) {
 		try {
-			if (i_161_ < -1281303921 * ((Class240_Sub1) this).anInt7082)
-				((Class240_Sub1) this).anInt7082 = 272172143 * i_161_;
-			ObjectDefinitions class432 = ((Class240_Sub1) this).aClass433_7072.getObjectDefinitions(i_164_);
+			if (i_161_ < -1281303921 * ((MapDecoder_Sub1) this).anInt7082)
+				((MapDecoder_Sub1) this).anInt7082 = 272172143 * i_161_;
+			ObjectDefinitions class432 = ((MapDecoder_Sub1) this).aClass433_7072.getObjectDefinitions(i_164_);
 			if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub16_7557.method5687(1871358652) != 0 || !class432.aBoolean5432) {
 				int i_169_;
 				int i_170_;
@@ -849,12 +849,12 @@ public class Class240_Sub1 extends Class240 {
 						if ((Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub2_7547.method5629(-807116560) != 0) || class432.anInt5382 * 1532834983 != 0 || -2144543407 * class432.anInt5380 == 1 || class432.aBoolean5410) {
 							Class365_Sub1_Sub2 class365_sub1_sub2;
 							if (bool_178_) {
-								Class365_Sub1_Sub2_Sub2 class365_sub1_sub2_sub2 = (new Class365_Sub1_Sub2_Sub2(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_165_, bool));
+								Class365_Sub1_Sub2_Sub2 class365_sub1_sub2_sub2 = (new Class365_Sub1_Sub2_Sub2(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_165_, bool));
 								if (class365_sub1_sub2_sub2.method39(-1997643666))
 									class365_sub1_sub2_sub2.method33(class_ra, -2091324745);
 								class365_sub1_sub2 = class365_sub1_sub2_sub2;
 							} else
-								class365_sub1_sub2 = (new Class365_Sub1_Sub2_Sub1(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_165_, i_167_));
+								class365_sub1_sub2 = (new Class365_Sub1_Sub2_Sub1(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_165_, i_167_));
 							aClass331_2619.method4057(i_161_, i_162_, i_163_, class365_sub1_sub2, 1853221006);
 							if (1 == class432.anInt5380 * -2144543407 && null != class289)
 								class289.method2734(i_162_, i_163_, (byte) 2);
@@ -864,12 +864,12 @@ public class Class240_Sub1 extends Class240 {
 						Class365_Sub1_Sub1 class365_sub1_sub1;
 						int i_179_;
 						if (bool_178_) {
-							Class365_Sub1_Sub1_Sub6 class365_sub1_sub1_sub6_180_ = (new Class365_Sub1_Sub1_Sub6(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_162_, i_162_ + i_169_ - 1, i_163_, i_170_ + i_163_ - 1, i_166_, i_165_, bool));
+							Class365_Sub1_Sub1_Sub6 class365_sub1_sub1_sub6_180_ = (new Class365_Sub1_Sub1_Sub6(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_162_, i_162_ + i_169_ - 1, i_163_, i_170_ + i_163_ - 1, i_166_, i_165_, bool));
 							i_179_ = class365_sub1_sub1_sub6_180_.method4493((short) 230);
 							class365_sub1_sub1 = class365_sub1_sub1_sub6_180_;
 							class365_sub1_sub1_sub6 = class365_sub1_sub1_sub6_180_;
 						} else {
-							class365_sub1_sub1 = (new Class365_Sub1_Sub1_Sub5(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_162_, i_162_ + i_169_ - 1, i_163_, i_163_ + i_170_ - 1, i_166_, i_165_, i_167_));
+							class365_sub1_sub1 = (new Class365_Sub1_Sub1_Sub5(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_162_, i_162_ + i_169_ - 1, i_163_, i_163_ + i_170_ - 1, i_166_, i_165_, i_167_));
 							i_179_ = 15;
 						}
 						if (aClass331_2619.method4022(class365_sub1_sub1, false, (byte) 0)) {
@@ -889,12 +889,12 @@ public class Class240_Sub1 extends Class240 {
 					} else if (CacheIndexIndicator.method1236(i_166_, -865214392) || Class207.method1930(i_166_, (byte) -21)) {
 						Class365_Sub1_Sub1 class365_sub1_sub1;
 						if (bool_178_) {
-							Class365_Sub1_Sub1_Sub6 class365_sub1_sub1_sub6 = (new Class365_Sub1_Sub1_Sub6(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_162_, i_169_ + i_162_ - 1, i_163_, i_170_ + i_163_ - 1, i_166_, i_165_, bool));
+							Class365_Sub1_Sub1_Sub6 class365_sub1_sub1_sub6 = (new Class365_Sub1_Sub1_Sub6(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_162_, i_169_ + i_162_ - 1, i_163_, i_170_ + i_163_ - 1, i_166_, i_165_, bool));
 							if (class365_sub1_sub1_sub6.method39(-1419053588))
 								class365_sub1_sub1_sub6.method33(class_ra, -2081421218);
 							class365_sub1_sub1 = class365_sub1_sub1_sub6;
 						} else
-							class365_sub1_sub1 = (new Class365_Sub1_Sub1_Sub5(aClass331_2619, class_ra, ((Class240_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_162_, i_162_ + i_169_ - 1, i_163_, i_163_ + i_170_ - 1, i_166_, i_165_, i_167_));
+							class365_sub1_sub1 = (new Class365_Sub1_Sub1_Sub5(aClass331_2619, class_ra, ((MapDecoder_Sub1) this).aClass433_7072, class432, i_161_, i, i_176_, i_175_, i_177_, aBoolean2629, i_162_, i_162_ + i_169_ - 1, i_163_, i_163_ + i_170_ - 1, i_166_, i_165_, i_167_));
 						aClass331_2619.method4022(class365_sub1_sub1, false, (byte) 0);
 						if (aBoolean2632 && !aBoolean2629 && CacheIndexIndicator.method1236(i_166_, 1932287279) && (-1976050083 * Class424.aClass424_6602.anInt6613 != i_166_) && i_161_ > 0 && class432.anInt5376 * -1508517619 != 0)
 							aByteArrayArrayArray2637[i_161_][i_162_][i_163_] |= 0x4;
@@ -910,10 +910,10 @@ public class Class240_Sub1 extends Class240 {
 		}
 	}
 
-	public Class240_Sub1(Class331 class331, Class433 class433, int i, int i_183_, int i_184_, boolean bool, Class244 class244, Class364 class364) {
+	public MapDecoder_Sub1(Class331 class331, Class433 class433, int i, int i_183_, int i_184_, boolean bool, Class244 class244, Class364 class364) {
 		super(class331, i, i_183_, i_184_, bool, Class504.aClass375_6196, Class151.aClass451_6358, class244);
-		((Class240_Sub1) this).aClass433_7072 = class433;
-		((Class240_Sub1) this).aClass364_7080 = class364;
+		((MapDecoder_Sub1) this).aClass433_7072 = class433;
+		((MapDecoder_Sub1) this).aClass364_7080 = class364;
 	}
 
 	static final void method2244(IComponentDefinition class105, Class119 class119, ClientScript2 class403, byte i) {

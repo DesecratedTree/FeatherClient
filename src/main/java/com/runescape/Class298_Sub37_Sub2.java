@@ -15,7 +15,7 @@ public class Class298_Sub37_Sub2 extends Class298_Sub37 {
 			Class390 class390 = (((ClientScript2) class403).aBoolean5261 ? ((ClientScript2) class403).aClass390_5247 : ((ClientScript2) class403).aClass390_5246);
 			IComponentDefinition class105 = ((Class390) class390).aClass105_4168;
 			Class119 class119 = ((Class390) class390).aClass119_4167;
-			Class240.method2230(class105, class119, class403, -1468199503);
+			MapDecoder.method2230(class105, class119, class403, -1468199503);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("aid.jy(").append(')').toString());
 		}

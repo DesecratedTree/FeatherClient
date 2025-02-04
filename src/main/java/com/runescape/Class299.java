@@ -118,7 +118,7 @@ public class Class299 {
 			int i_11_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
 			IComponentDefinition class105 = Class50.getIComponentDefinitions(i_11_, (byte) 16);
 			Class119 class119 = Class389.aClass119Array4165[i_11_ >> 16];
-			Class240.method2230(class105, class119, class403, -1468199503);
+			MapDecoder.method2230(class105, class119, class403, -1468199503);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ml.jt(").append(')').toString());
 		}
