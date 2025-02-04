@@ -120,13 +120,13 @@ public abstract class Class481 {
 					}
 				}
 				if ((mask & 0x1000) != 0) {// ordinal 8
-					int i_18_ = (npc.aClass503_10190.modelIds).length;
+					int i_18_ = (npc.aClass503_10190.anIntArray6129).length;
 					int i_19_ = 0;
-					if (null != (npc.aClass503_10190.modifiedModelColors))
-						i_19_ = (npc.aClass503_10190.modifiedModelColors).length;
+					if (null != (npc.aClass503_10190.aShortArray6134))
+						i_19_ = (npc.aClass503_10190.aShortArray6134).length;
 					int i_20_ = 0;
-					if ((npc.aClass503_10190.modifiedTextureColors) != null)
-						i_20_ = (npc.aClass503_10190.modifiedTextureColors).length;
+					if ((npc.aClass503_10190.aShortArray6154) != null)
+						i_20_ = (npc.aClass503_10190.aShortArray6154).length;
 					int i_21_ = stream.readUnsignedByte();
 					if (1 == (i_21_ & 0x1))
 						npc.aClass498_10181 = null;
@@ -268,8 +268,8 @@ public abstract class Class481 {
 				}
 				if ((mask & 0x800000) != 0) { // Rename - ordinal 18
 					npc.aString10186 = stream.readString(1858696307);
-					if ("".equals(npc.aString10186) || (npc.aString10186.equals(npc.aClass503_10190.name)))
-						npc.aString10186 = (npc.aClass503_10190.name);
+					if ("".equals(npc.aString10186) || (npc.aString10186.equals(npc.aClass503_10190.aString6127)))
+						npc.aString10186 = (npc.aClass503_10190.aString6127);
 				}
 				if ((mask & 0x20000) != 0) {// ordinal 19
 					int i_62_ = ((stream.buffer[(stream.index += 116413311) * 385051775 - 1]) & 0xff);
@@ -280,14 +280,14 @@ public abstract class Class481 {
 					}
 				}
 				if ((mask & 0x200000) != 0) {// ordinal 20
-					int i_66_ = (npc.aClass503_10190.chatHeads).length;
+					int i_66_ = (npc.aClass503_10190.anIntArray6130).length;
 					int i_67_ = 0;
-					if (null != (npc.aClass503_10190.modifiedModelColors)) {
-						i_67_ = (npc.aClass503_10190.modifiedModelColors).length;
+					if (null != (npc.aClass503_10190.aShortArray6134)) {
+						i_67_ = (npc.aClass503_10190.aShortArray6134).length;
 					}
 					int i_68_ = 0;
-					if ((npc.aClass503_10190.modifiedTextureColors) != null) {
-						i_67_ = (npc.aClass503_10190.modifiedTextureColors).length;
+					if ((npc.aClass503_10190.aShortArray6154) != null) {
+						i_67_ = (npc.aClass503_10190.aShortArray6154).length;
 					}
 					int i_69_ = stream.readUnsignedByte();
 					if ((i_69_ & 0x1) == 1) {
@@ -320,7 +320,7 @@ public abstract class Class481 {
 				if ((mask & 0x40000) != 0) {// Change combat level - ordinal 21
 					npc.anInt10189 = (stream.readUnsignedShortLE((byte) 16) * 933118661);
 					if (npc.anInt10189 * 1817570317 == 65535) {
-						npc.anInt10189 = (npc.aClass503_10190.combatLevel) * 1520279523;
+						npc.anInt10189 = (npc.aClass503_10190.anInt6149) * 1520279523;
 					}
 				}
 				if ((mask & 0x1) != 0) {// Transform NPC id - ordinal 22
@@ -328,7 +328,7 @@ public abstract class Class481 {
 						Class244.method2330(npc, (byte) 7);
 					}
 					npc.method4464((Class15.aClass507_224.method6269(stream.readBigSmart(1235052657), 384117949)), 1598792788);
-					npc.method4421((npc.aClass503_10190.size) * -2095128707, -2141370583);
+					npc.method4421((npc.aClass503_10190.anInt6187) * -2095128707, -2141370583);
 					npc.anInt10115 = -1186616623 * (((npc.aClass503_10190.anInt6181) * -1927065533) << 3);
 					if (npc.aClass503_10190.method6242((byte) 23)) {
 						SeqType.method4884(npc.plane, npc.scenePositionXQueue[0], npc.scenePositionYQueue[0], 0, null, npc, null, (byte) 68);

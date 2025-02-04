@@ -81,7 +81,7 @@ public class NPC extends Entity {
 			if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub18_7561.method5693(-1104068428) == 1 && class503.aBoolean6165 && BASType.aBoolean3756) {
 				Class438 class438 = ((aClass438_10078.method5819((byte) -29) && aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 				Class438 class438_5_ = ((aClass438_10077.method5819((byte) -63) && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
-				Class387 class387 = (Class283.method2678(class_ra, i_3_, (((NPC) this).anInt10097 * -155466425), (-197572281 * ((NPC) this).anInt10073), (-104151209 * ((NPC) this).anInt10074), -2095128707 * aClass503_10190.size, aClass387Array10082[0], aClass503_10190.aShort6191 & 0xffff, aClass503_10190.aShort6153 & 0xffff, aClass503_10190.aByte6168 & 0xff, aClass503_10190.aByte6152 & 0xff, null != class438_5_ ? class438_5_ : class438, 1812843484));
+				Class387 class387 = (Class283.method2678(class_ra, i_3_, (((NPC) this).anInt10097 * -155466425), (-197572281 * ((NPC) this).anInt10073), (-104151209 * ((NPC) this).anInt10074), -2095128707 * aClass503_10190.anInt6187, aClass387Array10082[0], aClass503_10190.aShort6191 & 0xffff, aClass503_10190.aShort6153 & 0xffff, aClass503_10190.aByte6168 & 0xff, aClass503_10190.aByte6152 & 0xff, null != class438_5_ ? class438_5_ : class438, 1812843484));
 				if (null != class387) {
 					if (null == aClass302_Sub1Array7726 || (aClass302_Sub1Array7726.length < aClass387Array10082.length + 1))
 						method4362(aClass387Array10082.length + 1, 1538315389);
@@ -304,10 +304,10 @@ public class NPC extends Entity {
 				return anInt10184 * -1317338937;
 			if (null != aClass503_10190.anIntArray6188) {
 				NPCDefinitions class503 = aClass503_10190.method6240(Class128.aClass148_6331, 1794284929);
-				if (class503 != null && 525312939 * class503.basid != -1)
-					return 525312939 * class503.basid;
+				if (class503 != null && 525312939 * class503.anInt6132 != -1)
+					return 525312939 * class503.anInt6132;
 			}
-			return aClass503_10190.basid * 525312939;
+			return aClass503_10190.anInt6132 * 525312939;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ake.t(").append(')').toString());
 		}
@@ -363,7 +363,7 @@ public class NPC extends Entity {
 						do {
 							if (-226722581 * aClass503_10190.anInt6192 <= 0) {
 								if (286060383 * aClass503_10190.anInt6189 == -1) {
-									if (1 != (aClass503_10190.size * -2095128707))
+									if (1 != (aClass503_10190.anInt6187 * -2095128707))
 										break;
 									if (i_29_ != 1)
 										throw new IllegalStateException();
@@ -483,7 +483,7 @@ public class NPC extends Entity {
 		if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub18_7561.method5693(-1718454976) == 1 && class503.aBoolean6165 && BASType.aBoolean3756) {
 			Class438 class438 = ((aClass438_10078.method5819((byte) -38) && aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 			Class438 class438_43_ = ((aClass438_10077.method5819((byte) -86) && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
-			Class387 class387 = (Class283.method2678(class_ra, i, (((NPC) this).anInt10097 * -155466425), (-197572281 * ((NPC) this).anInt10073), (-104151209 * ((NPC) this).anInt10074), -2095128707 * aClass503_10190.size, aClass387Array10082[0], aClass503_10190.aShort6191 & 0xffff, aClass503_10190.aShort6153 & 0xffff, aClass503_10190.aByte6168 & 0xff, aClass503_10190.aByte6152 & 0xff, null != class438_43_ ? class438_43_ : class438, 1812843484));
+			Class387 class387 = (Class283.method2678(class_ra, i, (((NPC) this).anInt10097 * -155466425), (-197572281 * ((NPC) this).anInt10073), (-104151209 * ((NPC) this).anInt10074), -2095128707 * aClass503_10190.anInt6187, aClass387Array10082[0], aClass503_10190.aShort6191 & 0xffff, aClass503_10190.aShort6153 & 0xffff, aClass503_10190.aByte6168 & 0xff, aClass503_10190.aByte6152 & 0xff, null != class438_43_ ? class438_43_ : class438, 1812843484));
 			if (null != class387) {
 				if (null == aClass302_Sub1Array7726 || (aClass302_Sub1Array7726.length < aClass387Array10082.length + 1))
 					method4362(aClass387Array10082.length + 1, -565315916);
@@ -546,7 +546,7 @@ public class NPC extends Entity {
 					do {
 						if (-226722581 * aClass503_10190.anInt6192 <= 0) {
 							if (286060383 * aClass503_10190.anInt6189 == -1) {
-								if (1 != aClass503_10190.size * -2095128707)
+								if (1 != aClass503_10190.anInt6187 * -2095128707)
 									break;
 							} else if (1 != (aClass503_10190.anInt6189 * 286060383))
 								break;
@@ -581,7 +581,7 @@ public class NPC extends Entity {
 					do {
 						if (-226722581 * aClass503_10190.anInt6192 <= 0) {
 							if (286060383 * aClass503_10190.anInt6189 == -1) {
-								if (1 != aClass503_10190.size * -2095128707)
+								if (1 != aClass503_10190.anInt6187 * -2095128707)
 									break;
 							} else if (1 != (aClass503_10190.anInt6189 * 286060383))
 								break;
@@ -617,10 +617,10 @@ public class NPC extends Entity {
 			return anInt10184 * -1317338937;
 		if (null != aClass503_10190.anIntArray6188) {
 			NPCDefinitions class503 = aClass503_10190.method6240(Class128.aClass148_6331, 1618298715);
-			if (class503 != null && 525312939 * class503.basid != -1)
-				return 525312939 * class503.basid;
+			if (class503 != null && 525312939 * class503.anInt6132 != -1)
+				return 525312939 * class503.anInt6132;
 		}
-		return aClass503_10190.basid * 525312939;
+		return aClass503_10190.anInt6132 * 525312939;
 	}
 
 	final void method4377() {
@@ -636,10 +636,10 @@ public class NPC extends Entity {
 			return anInt10184 * -1317338937;
 		if (null != aClass503_10190.anIntArray6188) {
 			NPCDefinitions class503 = aClass503_10190.method6240(Class128.aClass148_6331, 1807692721);
-			if (class503 != null && 525312939 * class503.basid != -1)
-				return 525312939 * class503.basid;
+			if (class503 != null && 525312939 * class503.anInt6132 != -1)
+				return 525312939 * class503.anInt6132;
 		}
-		return aClass503_10190.basid * 525312939;
+		return aClass503_10190.anInt6132 * 525312939;
 	}
 
 	final boolean method4366(int i) {
@@ -655,10 +655,10 @@ public class NPC extends Entity {
 			return anInt10184 * -1317338937;
 		if (null != aClass503_10190.anIntArray6188) {
 			NPCDefinitions class503 = aClass503_10190.method6240(Class128.aClass148_6331, 1685758496);
-			if (class503 != null && 525312939 * class503.basid != -1)
-				return 525312939 * class503.basid;
+			if (class503 != null && 525312939 * class503.anInt6132 != -1)
+				return 525312939 * class503.anInt6132;
 		}
-		return aClass503_10190.basid * 525312939;
+		return aClass503_10190.anInt6132 * 525312939;
 	}
 
 	int method4448() {
@@ -666,10 +666,10 @@ public class NPC extends Entity {
 			return anInt10184 * -1317338937;
 		if (null != aClass503_10190.anIntArray6188) {
 			NPCDefinitions class503 = aClass503_10190.method6240(Class128.aClass148_6331, 1859138308);
-			if (class503 != null && 525312939 * class503.basid != -1)
-				return 525312939 * class503.basid;
+			if (class503 != null && 525312939 * class503.anInt6132 != -1)
+				return 525312939 * class503.anInt6132;
 		}
-		return aClass503_10190.basid * 525312939;
+		return aClass503_10190.anInt6132 * 525312939;
 	}
 
 	public int method4449() {
@@ -732,8 +732,8 @@ public class NPC extends Entity {
 				Class194.method1868(2025307040);
 			aClass503_10190 = class503;
 			if (aClass503_10190 != null) {
-				aString10186 = aClass503_10190.name;
-				anInt10189 = aClass503_10190.combatLevel * 1520279523;
+				aString10186 = aClass503_10190.aString6127;
+				anInt10189 = aClass503_10190.anInt6149 * 1520279523;
 			}
 			if (((NPC) this).aClass351_10067 != null)
 				((NPC) this).aClass351_10067.method4220();
@@ -796,7 +796,7 @@ public class NPC extends Entity {
 					do {
 						if (-226722581 * aClass503_10190.anInt6192 <= 0) {
 							if (286060383 * aClass503_10190.anInt6189 == -1) {
-								if (1 != aClass503_10190.size * -2095128707)
+								if (1 != aClass503_10190.anInt6187 * -2095128707)
 									break;
 							} else if (1 != (aClass503_10190.anInt6189 * 286060383))
 								break;

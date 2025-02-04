@@ -4,7 +4,7 @@ public interface OSRSData {
         int SEQUENCES_OFFSET = 30000; //done
         int FRAMES_OFFSET = 8000; //done
         int BASES_OFFSET = 8000;
-        int MODELS_OFFSET = 200000; //done
+        int MODELS_OFFSET = 200000;
         int NPCS_OFFSET = 31000;
         int BAS_OFFSET = 4000;
         int UNDERLAYS_OFFSET = 256;

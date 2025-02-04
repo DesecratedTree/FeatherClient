@@ -73,7 +73,7 @@ public final class Class94 {
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.anInt10064 = ((Class94) this).anInt906 * 302956801;
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.anInt10075 = client.anInt8884 * -128551287;
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.method4464(Class15.aClass507_224.method6269(anInt909 * 1762367763, 1863267717), 2139515630);
-					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.method4421(-2095128707 * (((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.aClass503_10190.size), -1254496694);
+					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.method4421(-2095128707 * (((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.aClass503_10190.anInt6187), -1254496694);
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.anInt10115 = -1186616623 * (((((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.aClass503_10190.anInt6181) * -1927065533) << 3);
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.anInt10071 = (((Class87.anInt803 += 2029434363) * -132903629 - 1) * -689024993);
 				} else {
@@ -103,7 +103,7 @@ public final class Class94 {
 				NPCDefinitions class503 = Class15.aClass507_224.method6269(1762367763 * anInt909, 2059716043);
 				boolean bool = class503.method6238(-1621243143);
 				if (((Class94) this).anIntArray907 == null) {
-					BASType BASType = aClass349_913.method4202((class503.basid * 525312939), (byte) 47);
+					BASType BASType = aClass349_913.method4202((class503.anInt6132 * 525312939), (byte) 47);
 					((Class94) this).anIntArray907 = BASType.method4210(2115260709);
 				}
 				int[] is = ((Class94) this).anIntArray907;

@@ -488,7 +488,7 @@ public class Player extends Entity {
 	public int getSize() {
 		try {
 			if (null != aClass366_10209 && -1 != aClass366_10209.anInt3974 * 164936249)
-				return ((Class15.aClass507_224.method6269(164936249 * aClass366_10209.anInt3974, 1333509149).size) * -2095128707);
+				return ((Class15.aClass507_224.method6269(164936249 * aClass366_10209.anInt3974, 1333509149).anInt6187) * -2095128707);
 			return super.getSize();
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("akm.q(").append(')').toString());
@@ -749,7 +749,7 @@ public class Player extends Entity {
 
 	public int method4476() {
 		if (null != aClass366_10209 && -1 != aClass366_10209.anInt3974 * 164936249)
-			return ((Class15.aClass507_224.method6269(164936249 * aClass366_10209.anInt3974, 1538306428).size) * -2095128707);
+			return ((Class15.aClass507_224.method6269(164936249 * aClass366_10209.anInt3974, 1538306428).anInt6187) * -2095128707);
 		return super.getSize();
 	}
 
@@ -865,7 +865,7 @@ public class Player extends Entity {
 
 	public int method4478() {
 		if (null != aClass366_10209 && -1 != aClass366_10209.anInt3974 * 164936249)
-			return ((Class15.aClass507_224.method6269(164936249 * aClass366_10209.anInt3974, 662796254).size) * -2095128707);
+			return ((Class15.aClass507_224.method6269(164936249 * aClass366_10209.anInt3974, 662796254).anInt6187) * -2095128707);
 		return super.getSize();
 	}
 

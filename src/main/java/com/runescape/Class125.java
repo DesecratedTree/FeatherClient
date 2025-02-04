@@ -94,7 +94,7 @@ public class Class125 {
 				if (class503 == null)
 					string = "";
 				else
-					string = class503.name;
+					string = class503.aString6127;
 			}
 			if (string == null)
 				string = "";

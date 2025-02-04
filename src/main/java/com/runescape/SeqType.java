@@ -268,8 +268,8 @@ public class SeqType {
 					class503 = class503.method6240(Class128.aClass148_6331, 1825815932);
 				}
 				if (class503 != null) {
-					((Class298_Sub41) class298_sub41).anInt7427 = 305826635 * (class503.size * -2095128707 + i_27_ << 9);
-					((Class298_Sub41) class298_sub41).anInt7428 = (-1647445571 * (i_28_ + -2095128707 * class503.size << 9));
+					((Class298_Sub41) class298_sub41).anInt7427 = 305826635 * (class503.anInt6187 * -2095128707 + i_27_ << 9);
+					((Class298_Sub41) class298_sub41).anInt7428 = (-1647445571 * (i_28_ + -2095128707 * class503.anInt6187 << 9));
 					((Class298_Sub41) class298_sub41).anInt7443 = Class125.method1398(class365_sub1_sub1_sub2_sub1, 2096811251) * 502744039;
 					((Class298_Sub41) class298_sub41).aBoolean7444 = class503.aBoolean6180;
 					((Class298_Sub41) class298_sub41).anInt7430 = (class503.anInt6140 * 1525111487 << 9) * 1644605369;

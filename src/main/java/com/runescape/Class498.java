@@ -11,19 +11,19 @@ public class Class498 {
 
 	public Class498(NPCDefinitions class503, boolean bool) {
 		if (bool) {
-			anIntArray6108 = new int[class503.modelIds.length];
-			System.arraycopy(class503.modelIds, 0, anIntArray6108, 0, anIntArray6108.length);
+			anIntArray6108 = new int[class503.anIntArray6129.length];
+			System.arraycopy(class503.anIntArray6129, 0, anIntArray6108, 0, anIntArray6108.length);
 		} else {
-			anIntArray6108 = new int[class503.chatHeads.length];
-			System.arraycopy(class503.chatHeads, 0, anIntArray6108, 0, anIntArray6108.length);
+			anIntArray6108 = new int[class503.anIntArray6130.length];
+			System.arraycopy(class503.anIntArray6130, 0, anIntArray6108, 0, anIntArray6108.length);
 		}
-		if (null != class503.modifiedModelColors) {
-			aShortArray6109 = new short[class503.modifiedModelColors.length];
-			System.arraycopy(class503.modifiedModelColors, 0, aShortArray6109, 0, aShortArray6109.length);
+		if (null != class503.aShortArray6134) {
+			aShortArray6109 = new short[class503.aShortArray6134.length];
+			System.arraycopy(class503.aShortArray6134, 0, aShortArray6109, 0, aShortArray6109.length);
 		}
-		if (null != class503.modifiedTextureColors) {
-			aShortArray6107 = new short[class503.modifiedTextureColors.length];
-			System.arraycopy(class503.modifiedTextureColors, 0, aShortArray6107, 0, aShortArray6107.length);
+		if (null != class503.aShortArray6154) {
+			aShortArray6107 = new short[class503.aShortArray6154.length];
+			System.arraycopy(class503.aShortArray6154, 0, aShortArray6107, 0, aShortArray6107.length);
 		}
 	}
 

@@ -23,21 +23,16 @@ public class Class507 {
 			}
 			if (null != class503)
 				return class503;
-			byte[] data;
+			byte[] is;
 			synchronized (((Class507) this).aClass243_6207) {
-				data = (((Class507) this).aClass243_6207.getFileFromArchive(Class120.aClass120_1410.method1307(i, -790155853), Class120.aClass120_1410.method1305(i, -576275965), (byte) -76));
+				is = (((Class507) this).aClass243_6207.getFileFromArchive(Class120.aClass120_1410.method1307(i, -790155853), Class120.aClass120_1410.method1305(i, -576275965), (byte) -76));
 			}
 			class503 = new NPCDefinitions();
 			class503.anInt6126 = -1840892671 * i;
 			((NPCDefinitions) class503).aClass507_6125 = this;
-			class503.options = (String[]) ((Class507) this).aStringArray6213.clone();
-			if (data != null) {
-			 if (i >= OSRSData.NPCS_OFFSET) {
-				 class503.decodeOSRS(new RsByteBuffer(data));
-			 } else {
-				 class503.decode(new RsByteBuffer(data), -975728899);
-			 }
-			}
+			class503.aStringArray6142 = (String[]) ((Class507) this).aStringArray6213.clone();
+			if (is != null)
+				class503.method6235(new RsByteBuffer(is), -975728899);
 			class503.method6243(1323410423);
 			synchronized (((Class507) this).aClass348_6206) {
 				((Class507) this).aClass348_6206.method4194(class503, (long) i);

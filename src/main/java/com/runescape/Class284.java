@@ -359,7 +359,7 @@ public class Class284 {
 			if (class105.aClass498_1307 == null)
 				class105.aClass498_1307 = new Class498(class503, 1548853569 * class105.anInt1184 == 6);
 			class105.aClass498_1307.aLong6110 = Class382.method4686(954429430) * 3177550440302969639L;
-			if (null == class503.modifiedModelColors || i_24_ < 0 || i_24_ >= class503.modifiedModelColors.length)
+			if (null == class503.aShortArray6134 || i_24_ < 0 || i_24_ >= class503.aShortArray6134.length)
 				throw new RuntimeException("");
 			class105.aClass498_1307.aShortArray6109[i_24_] = (short) i_23_;
 			Tradution.method6054(class105, -579030149);
