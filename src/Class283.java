@@ -21,7 +21,7 @@ public class Class283 {
 	Class364 aClass364_3013;
 	byte[][] aByteArrayArray3014;
 	int anInt3015;
-	int anInt3016;
+	int zFar;
 	Class298_Sub37_Sub13 aClass298_Sub37_Sub13_3017;
 	boolean aBoolean3018;
 	Class287 aClass287_3019 = new Class287(0, 0, 0, 0);
@@ -118,7 +118,7 @@ public class Class283 {
 
 	public int method2635(int i) {
 		try {
-			return 2073578817 * anInt3016;
+			return 2073578817 * zFar;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lt.n(").append(')').toString());
 		}
@@ -269,10 +269,10 @@ public class Class283 {
 	public void method2648(int i) {
 		try {
 			anInt3015 = -896386664;
-			anInt3016 = ((int) (34.46 * (-991330803 * anInt3039)) * -2038218047);
-			anInt3016 = ((2073578817 * anInt3016 << 2) * -2038218047);
+			zFar = ((int) (34.46 * (-991330803 * anInt3039)) * -2038218047);
+			zFar = ((2073578817 * zFar << 2) * -2038218047);
 			if (Class373.aClass_ra4071.method4998()) {
-				anInt3016 += 109412864;
+				zFar += Loader.EXTRA_DRAW_DISTANCE * 4 * 109412864;
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lt.ak(").append(')').toString());
@@ -1048,7 +1048,7 @@ public class Class283 {
 				aClass364_3013 = class283_138_.aClass364_3013;
 				anIntArrayArrayArray3043 = class283_138_.anIntArrayArrayArray3043;
 				anInt3015 = 1 * class283_138_.anInt3015;
-				anInt3016 = 1 * class283_138_.anInt3016;
+				zFar = 1 * class283_138_.zFar;
 				aClass298_Sub37_Sub13_3017 = class283_138_.aClass298_Sub37_Sub13_3017;
 				aClass296_3005 = class283_138_.aClass296_3005;
 				anIntArrayArray3023 = class283_138_.anIntArrayArray3023;

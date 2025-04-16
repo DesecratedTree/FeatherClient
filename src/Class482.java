@@ -126,7 +126,7 @@ public class Class482 {
 				i_19_ = 0;
 			else if (i_19_ > 100)
 				i_19_ = 100;
-			int i_20_ = (client.aShort8923 + i_19_ * (client.aShort8931 - client.aShort8923) / 100);
+			int i_20_ = (client.aShort8923 + i_19_ * (client.zoom - client.aShort8923) / 100);
 			i_16_ = i_20_ * i_16_ >> 8;
 			int i_21_ = 16384 - i_14_ & 0x3fff;
 			int i_22_ = 16384 - i_15_ & 0x3fff;

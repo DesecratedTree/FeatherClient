@@ -312,7 +312,7 @@ public final class client extends Class291 {
 	public static short aShort8928;
 	public static short aShort8929;
 	static int anInt8930;
-	public static short aShort8931;
+	public static short zoom;
 	public static int anInt8932;
 	public static int anInt8933;
 	public static short aShort8934;
@@ -1983,7 +1983,7 @@ public final class client extends Class291 {
 		aShort8928 = (short) 256;
 		aShort8929 = (short) 205;
 		aShort8923 = (short) 256;
-		aShort8931 = (short) 320;
+		zoom = (short) 320;
 		aShort8839 = (short) 1;
 		aShort8743 = (short) 32767;
 		aShort8934 = (short) 1;

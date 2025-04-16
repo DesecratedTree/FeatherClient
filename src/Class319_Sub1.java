@@ -228,8 +228,18 @@ public class Class319_Sub1 extends Class319 implements MouseListener, MouseMotio
 		try {
 			int i = mousewheelevent.getX();
 			int i_6_ = mousewheelevent.getY();
-			int i_7_ = mousewheelevent.getWheelRotation();
-			method3908(6, i, i_6_, i_7_, 1166829560);
+			int rotation = mousewheelevent.getWheelRotation();
+
+			if(mousewheelevent.isControlDown() && !mousewheelevent.isShiftDown()) {
+				if (client.zoom <= 150 && rotation == -1 || client.zoom >= 425 && rotation == 1) {
+					return;
+				}
+				int diff = rotation == -1 ? -15 : 15;
+				client.zoom = (short) (client.zoom + diff);
+				return;
+			}
+
+			method3908(6, i, i_6_, rotation, 1166829560);
 			mousewheelevent.consume();
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("aci.mouseWheelMoved(").append(')').toString());

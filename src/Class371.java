@@ -214,9 +214,9 @@ public class Class371 {
 			client.aShort8923 = (short) (((ClientScript2) class403).anIntArray5244[((ClientScript2) class403).anInt5239 * 681479919]);
 			if (client.aShort8923 <= 0)
 				client.aShort8923 = (short) 256;
-			client.aShort8931 = (short) (((ClientScript2) class403).anIntArray5244[1 + 681479919 * ((ClientScript2) class403).anInt5239]);
-			if (client.aShort8931 <= 0)
-				client.aShort8931 = (short) 320;
+			client.zoom = (short) (((ClientScript2) class403).anIntArray5244[1 + 681479919 * ((ClientScript2) class403).anInt5239]);
+			if (client.zoom <= 0)
+				client.zoom = (short) 320;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("pk.akt(").append(')').toString());
 		}
