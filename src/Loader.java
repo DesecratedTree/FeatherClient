@@ -69,7 +69,7 @@ public class Loader extends Applet {
 		client_parameters.put("image", "http://www.runescape.com/img/game/splash2.gif");
 		client_parameters.put("centerimage", "true");
 		client_parameters.put("boxborder", "false");
-		client_parameters.put("java_arguments", "-Xmx256m -Xss2m -Dsun.java2d.noddraw=true -XX:CompileThreshold=1500 -Xincgc -XX:+UseConcMarkSweepGC -XX:+UseParNewGC");
+		client_parameters.put("java_arguments", "-Xmx1024m -Xss2m -Dsun.java2d.noddraw=true -XX:CompileThreshold=1500 -Xincgc -XX:+UseConcMarkSweepGC -XX:+UseParNewGC");
 		client_parameters.put("27", "0");
 		client_parameters.put("1", "0");
 		client_parameters.put("16", "false");
@@ -105,7 +105,7 @@ public class Loader extends Applet {
 	}
 
 	void openFrame() {
-		frame = new JFrame("Virent - GameLoader");
+		frame = new JFrame("Feather 718/742 Game Client");
 		frame.setLayout(new BorderLayout());
 		panel.setLayout(new BorderLayout());
 		panel.add(this);
