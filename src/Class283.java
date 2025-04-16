@@ -272,7 +272,7 @@ public class Class283 {
 			zFar = ((int) (34.46 * (-991330803 * anInt3039)) * -2038218047);
 			zFar = ((2073578817 * zFar << 2) * -2038218047);
 			if (Class373.aClass_ra4071.method4998()) {
-				zFar += Loader.EXTRA_DRAW_DISTANCE * 4 * 109412864;
+				zFar += Loader.EXTRA_DRAW_DISTANCE * 9 * 109412864;
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lt.ak(").append(')').toString());

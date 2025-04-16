@@ -231,7 +231,7 @@ public class Class319_Sub1 extends Class319 implements MouseListener, MouseMotio
 			int rotation = mousewheelevent.getWheelRotation();
 
 			if(mousewheelevent.isControlDown() && !mousewheelevent.isShiftDown()) {
-				if (client.zoom <= 150 && rotation == -1 || client.zoom >= 425 && rotation == 1) {
+				if (client.zoom <= 150 && rotation == -1 || client.zoom >= 520 && rotation == 1) {
 					return;
 				}
 				int diff = rotation == -1 ? -15 : 15;
