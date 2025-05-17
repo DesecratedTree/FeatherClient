@@ -11,7 +11,7 @@ public class Class465 implements Interface18 {
 	int anInt6517;
 	int anInt6518;
 	int anInt6519;
-	static CacheIndex aClass243_6520;
+	static Js5 aClass243_6520;
 
 	public boolean method235(Interface18 interface18) {
 		if (!(interface18 instanceof Class465))

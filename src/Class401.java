@@ -187,12 +187,12 @@ public class Class401 implements Interface21 {
 				long l = (2236412381003659263L * (((Class298_Sub37_Sub15) class298_sub37_sub15).aLong9661));
 				if (i_34_ >= 2000)
 					i_34_ -= 2000;
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				if (23 == i_34_) {
 					if (1806357379 * client.playerRights > 0 && Class434.method5802(1267311211))
 						Class476.method6083((Class287.myPlayer.plane), i_32_ + -1760580017 * class341.gameSceneBaseX, i_33_ + class341.gameSceneBaseY * 283514611, 2043472934);
 					else {
-						Class277.sendWalkPacket(i_35_, Class350.method4214(i_32_, i_33_, (short) 808));
+						Skybox.sendWalkPacket(i_35_, Class350.method4214(i_32_, i_33_, (short) 808));
 						if (i_35_ == 0) {
 							client.anInt8784 = i * 143636043;
 							client.anInt8785 = i_30_ * 381532777;
@@ -218,7 +218,7 @@ public class Class401 implements Interface21 {
 					class198 = OutcommingPacket.ITEM_ON_FLOOR_EXAMINE;
 				if (class198 != null) {
 					if (class198 != OutcommingPacket.ITEM_ON_FLOOR_EXAMINE)
-						Class277.sendWalkPacket(Class282.method2619(i_32_, i_33_, 1, 1, 1978833308));
+						Skybox.sendWalkPacket(Class282.method2619(i_32_, i_33_, 1, 1, 1978833308));
 					client.anInt8784 = i * 143636043;
 					client.anInt8785 = i_30_ * 381532777;
 					client.anInt8748 = 554324810;
@@ -257,7 +257,7 @@ public class Class401 implements Interface21 {
 					Class424 class424 = ((Class424) Class422_Sub20.method5701(Class336_Sub6.method4108(114624527), i_3_, (byte) 2));
 					Class336 class336;
 					if (Class424.aClass424_6611 == class424 || Class424.aClass424_6604 == class424 || Class424.aClass424_6610 == class424) {
-						ObjectDefinitions class432 = client.aClass283_8716.method2641(-1208362615).getObjectDefinitions(i_5_);
+						ObjectDefinitions class432 = client.map.method2641(-1208362615).getObjectDefinitions(i_5_);
 						int i_6_;
 						int i_7_;
 						if (0 == i_4_ || i_4_ == 2) {
@@ -275,7 +275,7 @@ public class Class401 implements Interface21 {
 						class336 = Class336_Sub5.method4105(i_32_, i_33_, 0, 0, class424, i_4_, 740164949);
 					else
 						class336 = Class194.method1867(i_32_, i_33_, 0, 0, class424, i_4_, (byte) -22);
-					Class277.sendWalkPacket(class336);
+					Skybox.sendWalkPacket(class336);
 					client.anInt8784 = 143636043 * i;
 					client.anInt8785 = i_30_ * 381532777;
 					client.anInt8748 = 554324810;
@@ -320,7 +320,7 @@ public class Class401 implements Interface21 {
 				if (class198_36_ != null) {
 					Player player = client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[i_35_];
 					if (null != player) {
-						Class277.sendWalkPacket(Class325.method3963((player.scenePositionXQueue[0]), (player.scenePositionYQueue[0]), player.getSize(), player.getSize(), 0, (byte) 13));
+						Skybox.sendWalkPacket(Class325.method3963((player.scenePositionXQueue[0]), (player.scenePositionYQueue[0]), player.getSize(), player.getSize(), 0, (byte) 13));
 						client.anInt8784 = i * 143636043;
 						client.anInt8785 = 381532777 * i_30_;
 						client.anInt8748 = 554324810;
@@ -384,7 +384,7 @@ public class Class401 implements Interface21 {
 					if (null != class298_sub29) {
 						NPC npc = ((NPC) class298_sub29.anObject7366);
 						if (class198_37_ != OutcommingPacket.NPC_EXAMINE_PACKET) {
-							Class277.sendWalkPacket(Class325.method3963((npc.scenePositionXQueue[0]), (npc.scenePositionYQueue[0]), npc.getSize(), npc.getSize(), 0, (byte) -51));
+							Skybox.sendWalkPacket(Class325.method3963((npc.scenePositionXQueue[0]), (npc.scenePositionYQueue[0]), npc.getSize(), npc.getSize(), 0, (byte) -51));
 						}
 						client.anInt8784 = 143636043 * i;
 						client.anInt8785 = i_30_ * 381532777;
@@ -423,7 +423,7 @@ public class Class401 implements Interface21 {
 						Class424 class424 = ((Class424) Class422_Sub20.method5701(Class336_Sub6.method4108(114624527), i_3_, (byte) 2));
 						Class336 class336;
 						if (Class424.aClass424_6611 == class424 || Class424.aClass424_6604 == class424 || Class424.aClass424_6610 == class424) {
-							ObjectDefinitions class432 = client.aClass283_8716.method2641(-1208362615).getObjectDefinitions(i_5_);
+							ObjectDefinitions class432 = client.map.method2641(-1208362615).getObjectDefinitions(i_5_);
 							int i_6_;
 							int i_7_;
 							if (0 == i_4_ || i_4_ == 2) {
@@ -441,7 +441,7 @@ public class Class401 implements Interface21 {
 							class336 = Class336_Sub5.method4105(i_32_, i_33_, 0, 0, class424, i_4_, 740164949);
 						else
 							class336 = Class194.method1867(i_32_, i_33_, 0, 0, class424, i_4_, (byte) -22);
-						Class277.sendWalkPacket(class336);
+						Skybox.sendWalkPacket(class336);
 					}
 					Class298_Sub36 class298_sub36 = Class18.method359(packet, client.aClass25_8711.aClass449_330, (byte) 94);
 					class298_sub36.aClass298_Sub53_Sub2_7396.writeByte128(Class151.method1644(1030396767) ? 1 : 0, 1999137832);
@@ -455,7 +455,7 @@ public class Class401 implements Interface21 {
 					Class298_Sub29 class298_sub29 = ((Class298_Sub29) client.aClass437_8696.method5812((long) i_35_));
 					if (class298_sub29 != null) {
 						NPC npc = ((NPC) class298_sub29.anObject7366);
-						Class277.sendWalkPacket(Class325.method3963((npc.scenePositionXQueue[0]), (npc.scenePositionYQueue[0]), npc.getSize(), npc.getSize(), 0, (byte) -81));
+						Skybox.sendWalkPacket(Class325.method3963((npc.scenePositionXQueue[0]), (npc.scenePositionYQueue[0]), npc.getSize(), npc.getSize(), 0, (byte) -81));
 						client.anInt8784 = 143636043 * i;
 						client.anInt8785 = i_30_ * 381532777;
 						client.anInt8748 = 554324810;
@@ -485,7 +485,7 @@ public class Class401 implements Interface21 {
 					if (15 == i_34_) {
 						Player player = (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[i_35_]);
 						if (null != player) {
-							Class277.sendWalkPacket(Class325.method3963((player.scenePositionXQueue[0]), (player.scenePositionYQueue[0]), player.getSize(), player.getSize(), 0, (byte) -81));
+							Skybox.sendWalkPacket(Class325.method3963((player.scenePositionXQueue[0]), (player.scenePositionYQueue[0]), player.getSize(), player.getSize(), 0, (byte) -81));
 							client.anInt8784 = i * 143636043;
 							client.anInt8785 = i_30_ * 381532777;
 							client.anInt8748 = 554324810;

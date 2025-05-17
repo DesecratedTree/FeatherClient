@@ -181,9 +181,9 @@ public final class Class501 {
 			client.anInt8937 = 280458557;
 			Class518.method6314(client.anInt8831 * 1203044105, 614001892);
 			Class287.myPlayer = new Player(null);
-			Class287.myPlayer.method4341((float) (client.aClass283_8716.method2629(-1895849411) * 512 / 2), 0.0F, (float) (client.aClass283_8716.method2630(501771104) * 512 / 2));
-			Class287.myPlayer.scenePositionXQueue[0] = client.aClass283_8716.method2629(-1873805931) / 2;
-			Class287.myPlayer.scenePositionYQueue[0] = client.aClass283_8716.method2630(2001443939) / 2;
+			Class287.myPlayer.method4341((float) (client.map.method2629(-1895849411) * 512 / 2), 0.0F, (float) (client.map.method2630(501771104) * 512 / 2));
+			Class287.myPlayer.scenePositionXQueue[0] = client.map.method2629(-1873805931) / 2;
+			Class287.myPlayer.scenePositionYQueue[0] = client.map.method2630(2001443939) / 2;
 			Class146.anInt1575 = 0;
 			Class367.anInt4000 = 0;
 			if (3 == Class298_Sub1.anInt7164 * -863531439) {
@@ -191,7 +191,7 @@ public final class Class501 {
 				Class146.anInt1575 = (Class82_Sub4.anInt6832 * -1548077269 << 9) * 309839105;
 			} else
 				Class397.method4913((byte) 90);
-			client.aClass283_8716.method2640((byte) -45).method4324(-1834713428);
+			client.map.method2640((byte) -45).method4324(-1834713428);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("us.fs(").append(')').toString());
 		}
@@ -221,7 +221,7 @@ public final class Class501 {
 				if (null != client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[i])
 					throw new RuntimeException();
 				Class410 class410 = Class10.aClass410Array138[i];
-				Player class365_sub1_sub1_sub2_sub2 = (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[i] = (new Player(client.aClass283_8716.method2675(-1611682495))));
+				Player class365_sub1_sub1_sub2_sub2 = (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[i] = (new Player(client.map.method2675(-1611682495))));
 				class365_sub1_sub1_sub2_sub2.anInt10064 = i * 1714292119;
 				if (null != Class10.aClass298_Sub53Array133[i])
 					class365_sub1_sub1_sub2_sub2.sendAppearence(Class10.aClass298_Sub53Array133[i], (byte) 3);
@@ -231,14 +231,14 @@ public final class Class501 {
 				int i_19_ = i_18_ >> 28;
 				int i_20_ = i_18_ >> 14 & 0xff;
 				int i_21_ = i_18_ & 0xff;
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				int i_22_ = (i_20_ << 6) + i_16_ - class341.gameSceneBaseX * -1760580017;
 				int i_23_ = (i_21_ << 6) + i_17_ - 283514611 * class341.gameSceneBaseY;
 				class365_sub1_sub1_sub2_sub2.aBoolean10203 = ((Class410) class410).aBoolean5287;
 				class365_sub1_sub1_sub2_sub2.aBoolean10222 = ((Class410) class410).aBoolean5289;
 				class365_sub1_sub1_sub2_sub2.aByteArray10110[0] = Class10.playersMovementTypes[i];
 				class365_sub1_sub1_sub2_sub2.plane = class365_sub1_sub1_sub2_sub2.aByte7724 = (byte) i_19_;
-				if (client.aClass283_8716.method2654(1040339757).method2320(i_22_, i_23_, -937818147))
+				if (client.map.method2654(1040339757).method2320(i_22_, i_23_, -937818147))
 					class365_sub1_sub1_sub2_sub2.aByte7724++;
 				class365_sub1_sub1_sub2_sub2.method4472(i_22_, i_23_, -2040915654);
 				class365_sub1_sub1_sub2_sub2.aBoolean10217 = false;

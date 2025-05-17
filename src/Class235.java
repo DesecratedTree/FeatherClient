@@ -3,12 +3,12 @@
  */
 
 public class Class235 {
-	public Class217 aClass217_2599;
+	public SceneObjectPosition aClass217_2599;
 	public Class218 aClass218_2600;
 
 	public Class235(Class235 class235_0_) {
 		aClass218_2600 = new Class218();
-		aClass217_2599 = new Class217();
+		aClass217_2599 = new SceneObjectPosition();
 		method2186(class235_0_);
 	}
 
@@ -20,7 +20,7 @@ public class Class235 {
 
 	public Class235() {
 		aClass218_2600 = new Class218();
-		aClass217_2599 = new Class217();
+		aClass217_2599 = new SceneObjectPosition();
 	}
 
 	public void method2186(Class235 class235_1_) {

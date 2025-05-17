@@ -174,7 +174,7 @@ public class Class117 {
 
 	static final void method1285(Class298_Sub1 class298_sub1, int i) {
 		try {
-			Class331 class331 = client.aClass283_8716.method2675(-1611682495);
+			Class331 class331 = client.map.method2675(-1611682495);
 			if (class331 != null) {
 				Interface3 interface3 = null;
 				if (0 == ((Class298_Sub1) class298_sub1).anInt7157 * -431456739)

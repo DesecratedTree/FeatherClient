@@ -68,7 +68,7 @@ public final class Class94 {
 			if (!aBoolean912) {
 				aBoolean912 = true;
 				if (1762367763 * anInt909 >= 0) {
-					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910 = (new NPC(client.aClass283_8716.method2675(-1611682495), 25));
+					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910 = (new NPC(client.map.method2675(-1611682495), 25));
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.anInt10064 = ((Class94) this).anInt906 * 302956801;
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.anInt10075 = client.anInt8884 * -128551287;
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.method4464(Class15.aClass507_224.method6269(anInt909 * 1762367763, 1863267717), 2139515630);
@@ -76,7 +76,7 @@ public final class Class94 {
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.anInt10115 = -1186616623 * (((((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.aClass503_10190.anInt6181) * -1927065533) << 3);
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub1_910.anInt10071 = (((Class87.anInt803 += 2029434363) * -132903629 - 1) * -689024993);
 				} else {
-					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub2_911 = (new Player(client.aClass283_8716.method2675(-1611682495), 25));
+					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub2_911 = (new Player(client.map.method2675(-1611682495), 25));
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub2_911.sendAppearence(Class128_Sub1.aClass298_Sub53_8555, (byte) 3);
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub2_911.anInt10064 = 302956801 * ((Class94) this).anInt906;
 					((Class94) this).aClass365_Sub1_Sub1_Sub2_Sub2_911.anInt10075 = -128551287 * client.anInt8884;
@@ -158,7 +158,7 @@ public final class Class94 {
 		try {
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub15_7560, (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]) == 1 ? 1 : 0, -1851948852);
 			Class359.method4294(-1900445314);
-			client.aClass283_8716.method2640((byte) -42).method4324(134111872);
+			client.map.method2640((byte) -42).method4324(134111872);
 			Class3.method300(656179282);
 			client.aBoolean8666 = false;
 		} catch (RuntimeException runtimeexception) {

@@ -5,7 +5,7 @@
 public class Class521 {
 	boolean aBoolean6279;
 	Class510[] aClass510Array6280;
-	public static CacheIndex aClass243_6281;
+	public static Js5 aClass243_6281;
 	static int anInt6282;
 
 	Class521(boolean bool, Class510[] class510s) {

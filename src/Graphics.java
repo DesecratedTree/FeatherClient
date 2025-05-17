@@ -90,7 +90,7 @@ public class Graphics {
 								if (i_10_ == (Class287.myPlayer.plane)) {
 									int i_11_ = (((((Class297) class297).anInt3178 * 758600991) & 0xff) << 9);
 									int i_12_ = Class287.myPlayer.getSize() << 8;
-									Class217 class217 = Class287.myPlayer.method4337().aClass217_2599;
+									SceneObjectPosition class217 = Class287.myPlayer.method4337().aClass217_2599;
 									int i_13_ = ((((Class297) class297).anInt3178 * 758600991) >> 16 & 0xff);
 									int i_14_ = (i_12_ + (256 + (i_13_ << 9) - (int) class217.aFloat2451));
 									int i_15_ = (758600991 * (((Class297) class297).anInt3178) >> 8 & 0xff);

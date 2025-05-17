@@ -36,7 +36,7 @@ public class Class127_Sub2 extends Class127 {
 		}
 	}
 
-	Class127_Sub2(CacheIndex class243, CacheIndex class243_5_, Class128_Sub1 class128_sub1) {
+	Class127_Sub2(Js5 class243, Js5 class243_5_, Class128_Sub1 class128_sub1) {
 		super(class243, class243_5_, (Class128) class128_sub1);
 	}
 

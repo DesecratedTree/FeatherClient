@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class Class135 implements Interface6 {
-	CacheIndex aClass243_6381;
+	Js5 aClass243_6381;
 	Class165 aClass165_6382;
 	Class57 aClass57_6383;
 	public static int anInt6384;
@@ -14,7 +14,7 @@ public class Class135 implements Interface6 {
 		return (((Class135) this).aClass243_6381.method2310(791455531 * ((Class135) this).aClass165_6382.anInt6365, -457216440));
 	}
 
-	Class135(CacheIndex class243, Class165 class165) {
+	Class135(Js5 class243, Class165 class165) {
 		((Class135) this).aClass243_6381 = class243;
 		((Class135) this).aClass165_6382 = class165;
 	}
@@ -156,8 +156,8 @@ public class Class135 implements Interface6 {
 				i_19_ = Class331.anInt3565 * -2143152965;
 				i_20_ = Class431.anInt6504 * 236175727;
 			}
-			Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
-			if ((int) class217.aFloat2451 < 512 || (int) class217.aFloat2454 < 512 || ((int) class217.aFloat2451 >= ((client.aClass283_8716.method2629(-2045914503) - 1) * 512)) || ((int) class217.aFloat2454 >= ((client.aClass283_8716.method2630(2070989013) - 1) * 512))) {
+			SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+			if ((int) class217.aFloat2451 < 512 || (int) class217.aFloat2454 < 512 || ((int) class217.aFloat2451 >= ((client.map.method2629(-2045914503) - 1) * 512)) || ((int) class217.aFloat2454 >= ((client.map.method2630(2070989013) - 1) * 512))) {
 				class365_sub1_sub1_sub2.aClass438_10078.method5821(-1, -1660674133);
 				for (int i_21_ = 0; i_21_ < class365_sub1_sub1_sub2.currentGraphics.length; i_21_++) {
 					class365_sub1_sub1_sub2.currentGraphics[i_21_].id = -1313669563;
@@ -171,7 +171,7 @@ public class Class135 implements Interface6 {
 				class365_sub1_sub1_sub2.method4341((float) (class365_sub1_sub1_sub2.scenePositionXQueue[0] * 512 + (class365_sub1_sub1_sub2.getSize() * 256)), class217.aFloat2455, (float) (512 * class365_sub1_sub1_sub2.scenePositionYQueue[0] + (class365_sub1_sub1_sub2.getSize() * 256)));
 				class365_sub1_sub1_sub2.method4419(229400295);
 			}
-			if ((Class287.myPlayer == class365_sub1_sub1_sub2) && ((int) class217.aFloat2451 < 6144 || (int) class217.aFloat2454 < 6144 || ((int) class217.aFloat2451 >= (client.aClass283_8716.method2629(-2000317727) - 12) * 512) || ((int) class217.aFloat2454 >= ((client.aClass283_8716.method2630(52673101) - 12) * 512)))) {
+			if ((Class287.myPlayer == class365_sub1_sub1_sub2) && ((int) class217.aFloat2451 < 6144 || (int) class217.aFloat2454 < 6144 || ((int) class217.aFloat2451 >= (client.map.method2629(-2000317727) - 12) * 512) || ((int) class217.aFloat2454 >= ((client.map.method2630(52673101) - 12) * 512)))) {
 				class365_sub1_sub1_sub2.aClass438_10078.method5821(-1, -1994577841);
 				for (int i_22_ = 0; i_22_ < class365_sub1_sub1_sub2.currentGraphics.length; i_22_++) {
 					class365_sub1_sub1_sub2.currentGraphics[i_22_].id = -1313669563;

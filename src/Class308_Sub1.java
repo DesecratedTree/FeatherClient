@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Class308_Sub1 extends Class308 {
 	int anInt7668;
 	static int anInt7669 = 10;
-	CacheIndex aClass243_7670;
+	Js5 aClass243_7670;
 	byte[][] aByteArrayArray7671 = new byte[10][];
 	int[] anIntArray7672;
 	int anInt7673;
@@ -238,7 +238,7 @@ public class Class308_Sub1 extends Class308 {
 		return is.length;
 	}
 
-	public Class308_Sub1(int i, CacheIndex class243, int i_19_) {
+	public Class308_Sub1(int i, Js5 class243, int i_19_) {
 		super(i);
 		((Class308_Sub1) this).aClass243_7670 = class243;
 		((Class308_Sub1) this).anInt7668 = -2133150071 * i_19_;

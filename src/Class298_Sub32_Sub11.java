@@ -3,7 +3,7 @@
  */
 
 public class Class298_Sub32_Sub11 extends Class298_Sub32 {
-	public static CacheIndex aClass243_9393;
+	public static Js5 aClass243_9393;
 	public static int anInt9394 = 1345470509;
 	int anInt9395 = 715315885;
 	int anInt9396;

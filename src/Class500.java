@@ -3,12 +3,12 @@
  */
 
 public class Class500 {
-	CacheIndex index2;
+	Js5 index2;
 	int anInt6115;
 	Class298_Sub37_Sub7[] aClass298_Sub37_Sub7Array6116;
 	public static Class347 aClass347_6117;
 
-	public Class500(Class411 class411, Class429 class429, CacheIndex class243, boolean bool) {
+	public Class500(Class411 class411, Class429 class429, Js5 class243, boolean bool) {
 		index2 = class243;
 		anInt6115 = (index2.method2316((-1006924897 * (Class120.aClass120_1431.anInt1460)), -1837337583) * 1005943745);
 		if (bool) {
@@ -51,7 +51,7 @@ public class Class500 {
 
 	static void method6221(RsBitsBuffer class298_sub53_sub2, int i, int i_1_) {
 		try {
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			Class341 class341 = client.map.method2628(681479919);
 			boolean bool = class298_sub53_sub2.readBits(1) == 1;
 			if (bool) {
 				Class10.anIntArray140[(Class10.anInt139 += 867608709) * -1281683379 - 1] = i;
@@ -194,7 +194,7 @@ public class Class500 {
 						class365_sub1_sub1_sub2_sub2.method4471(i_14_, i_15_, (Class10.playersMovementTypes[i]), -2123912900);
 					}
 					class365_sub1_sub1_sub2_sub2.plane = class365_sub1_sub1_sub2_sub2.aByte7724 = (byte) ((class365_sub1_sub1_sub2_sub2.plane + i_11_) & 0x3);
-					if (client.aClass283_8716.method2654(-232228879).method2320(i_14_, i_15_, 1039567132)) {
+					if (client.map.method2654(-232228879).method2320(i_14_, i_15_, 1039567132)) {
 						class365_sub1_sub1_sub2_sub2.aByte7724++;
 					}
 					if (-442628795 * client.playerIndex == i && (Class99.anInt952 * 1855729883 != class365_sub1_sub1_sub2_sub2.plane)) {
@@ -215,7 +215,7 @@ public class Class500 {
 						class365_sub1_sub1_sub2_sub2.method4471(i_20_, i_21_, (Class10.playersMovementTypes[i]), -2073670245);
 					}
 					class365_sub1_sub1_sub2_sub2.plane = class365_sub1_sub1_sub2_sub2.aByte7724 = (byte) ((i_17_ + class365_sub1_sub1_sub2_sub2.plane) & 0x3);
-					if (client.aClass283_8716.method2654(934483887).method2320(i_20_, i_21_, 624472586)) {
+					if (client.map.method2654(934483887).method2320(i_20_, i_21_, 624472586)) {
 						class365_sub1_sub1_sub2_sub2.aByte7724++;
 					}
 					if (i == client.playerIndex * -442628795) {

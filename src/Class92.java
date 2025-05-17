@@ -13,7 +13,7 @@ public final class Class92 {
 	static Map aMap901;
 	public static long aLong902 = 1000L;
 	static HashMap aHashMap903 = new HashMap();
-	public static CacheIndex aClass243_904;
+	public static Js5 aClass243_904;
 	public static Class504 aClass504_905;
 
 	public static String method1003(Date date, String string, int i) {

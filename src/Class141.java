@@ -59,8 +59,8 @@ public class Class141 implements Interface6 {
 	static void method1561(int i) {
 		try {
 			if (null != Class300.aClass303_3202) {
-				Class217 class217 = (Class217.method2005(Class287.myPlayer.method4337().aClass217_2599));
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				SceneObjectPosition class217 = (SceneObjectPosition.method2005(Class287.myPlayer.method4337().aClass217_2599));
+				Class341 class341 = client.map.method2628(681479919);
 				class217.aFloat2451 += (float) (class341.gameSceneBaseX * -1760580017 << 9);
 				class217.aFloat2454 += (float) (class341.gameSceneBaseY * 283514611 << 9);
 				class217.method2010((float) (((Class303) Class300.aClass303_3202).anInt3264 * -1640118043), class217.aFloat2455, (float) (((Class303) Class300.aClass303_3202).anInt3261 * 827958915));
@@ -82,7 +82,7 @@ public class Class141 implements Interface6 {
 		}
 	}
 
-	public static GraphicsToolkit method1562(Canvas canvas, Interface_ma interface_ma, int i, int i_1_, byte i_2_) {
+	public static GraphicsToolkit method1562(Canvas canvas, MaterialRawList interface_ma, int i, int i_1_, byte i_2_) {
 		try {
 			return new Class_ra_Sub1(canvas, interface_ma, i, i_1_);
 		} catch (RuntimeException runtimeexception) {

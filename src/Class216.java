@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Class216 implements Interface24 {
 	String aString6655;
-	CacheIndex aClass243_6656;
+	Js5 aClass243_6656;
 	static String[] aStringArray6657;
 	static int baseTileY;
 	public static int anInt6659;
@@ -29,7 +29,7 @@ public class Class216 implements Interface24 {
 		}
 	}
 
-	Class216(CacheIndex class243, String string) {
+	Class216(Js5 class243, String string) {
 		((Class216) this).aClass243_6656 = class243;
 		((Class216) this).aString6655 = string;
 	}
@@ -101,7 +101,7 @@ public class Class216 implements Interface24 {
 	static String method1999(int[] is, byte i) {
 		try {
 			StringBuilder stringbuilder = new StringBuilder();
-			int i_2_ = -232961423 * Class277.anInt2964;
+			int i_2_ = -232961423 * Skybox.anInt2964;
 			for (int i_3_ = 0; i_3_ < is.length; i_3_++) {
 				Class369 class369 = Class316.aClass362_3318.method4307(is[i_3_], 245040087);
 				if (class369.anInt4028 * 347977109 == -1) {
@@ -160,8 +160,8 @@ public class Class216 implements Interface24 {
 			}
 			Class298_Sub38.method3503(-20644488);
 			Class223.method2082(false, -1663847334);
-			client.aClass283_8716.method2646((byte) 8);
-			client.aClass283_8716.method2666(-2101576654);
+			client.map.method2646((byte) 8);
+			client.map.method2666(-2101576654);
 			Class423.method5733(false, 1336561252);
 			Class104.method1108(2, 207248326);
 			Class300.anInt3207 = 184109511;

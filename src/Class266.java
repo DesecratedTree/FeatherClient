@@ -13,7 +13,7 @@ public class Class266 {
 	public static Class266 aClass266_2852;
 	boolean allowDynamicMap;
 	public static Class266 LOAD_MAP_SCENE_DYNAMIC;
-	public static CacheIndex aClass243_2855;
+	public static Js5 aClass243_2855;
 
 	boolean allowDynamicMapScene(int i) {
 		try {
@@ -82,7 +82,7 @@ public class Class266 {
 				} else if (class365_sub1_sub1_sub2.anInt10090 * 1433412323 >= 32768)
 					class365_sub1_sub1_sub2_7_ = (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[(1433412323 * class365_sub1_sub1_sub2.anInt10090 - 32768)]);
 				if (class365_sub1_sub1_sub2_7_ != null) {
-					Class217 class217 = Class217.method2011(class365_sub1_sub1_sub2.method4337().aClass217_2599, (class365_sub1_sub1_sub2_7_.method4337().aClass217_2599));
+					SceneObjectPosition class217 = SceneObjectPosition.method2011(class365_sub1_sub1_sub2.method4337().aClass217_2599, (class365_sub1_sub1_sub2_7_.method4337().aClass217_2599));
 					int i_8_ = (int) class217.aFloat2451;
 					int i_9_ = (int) class217.aFloat2454;
 					if (i_8_ != 0 || 0 != i_9_)
@@ -98,8 +98,8 @@ public class Class266 {
 			} else if (class365_sub1_sub1_sub2 instanceof NPC) {
 				NPC class365_sub1_sub1_sub2_sub1 = (NPC) class365_sub1_sub1_sub2;
 				if (-1 != class365_sub1_sub1_sub2_sub1.anInt10179 * 579792529 && ((class365_sub1_sub1_sub2_sub1.anInt10120 * 2050671733 == 0) || (-1531994851 * class365_sub1_sub1_sub2_sub1.anInt10124) > 0)) {
-					Class217 class217 = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
-					Class341 class341 = client.aClass283_8716.method2628(681479919);
+					SceneObjectPosition class217 = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
+					Class341 class341 = client.map.method2628(681479919);
 					int i_10_ = ((int) class217.aFloat2451 - ((class365_sub1_sub1_sub2_sub1.anInt10179 * -1896967936) - 263081728 * class341.gameSceneBaseX - 263081728 * class341.gameSceneBaseX));
 					int i_11_ = ((int) class217.aFloat2454 - ((893346048 * class365_sub1_sub1_sub2_sub1.anInt10180) - class341.gameSceneBaseY * -434703616 - class341.gameSceneBaseY * -434703616));
 					if (0 != i_10_ || i_11_ != 0)
@@ -137,7 +137,7 @@ public class Class266 {
 
 	static final void method2527(ClientScript2 class403, int i) {
 		try {
-			((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919 - 1)] = Class66.anInt666 * -1972322437;
+			((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919 - 1)] = EnvironmentMap.anInt666 * -1972322437;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lb.amk(").append(')').toString());
 		}

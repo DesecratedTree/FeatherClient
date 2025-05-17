@@ -38,7 +38,7 @@ public class Class74 {
 					break;
 				}
 				if (1 == i_0_) {
-					int[] is_1_ = Class364.anIntArray3947 = new int[6];
+					int[] is_1_ = AtmosphereConditions.anIntArray3947 = new int[6];
 					is_1_[0] = class298_sub53.readUnsignedShort();
 					is_1_[1] = class298_sub53.readUnsignedShort();
 					is_1_[2] = class298_sub53.readUnsignedShort();
@@ -142,7 +142,7 @@ public class Class74 {
 						Class298_Sub29 class298_sub29 = ((Class298_Sub29) (client.aClass437_8696.method5812((long) (-841622081 * class19.anInt256))));
 						if (null != class298_sub29) {
 							NPC class365_sub1_sub1_sub2_sub1 = ((NPC) class298_sub29.anObject7366);
-							Class217 class217 = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
+							SceneObjectPosition class217 = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
 							int i_16_ = (int) class217.aFloat2451 / 128 - i / 128;
 							int i_17_ = ((int) class217.aFloat2454 / 128 - i_11_ / 128);
 							Class397.method4914(class105, class117, i_12_, i_13_, i_16_, i_17_, -92466201 * ((Class19) class19).anInt258, 360000L);
@@ -158,7 +158,7 @@ public class Class74 {
 					if (10 == 958933333 * class19.anInt266 && -841622081 * class19.anInt256 >= 0 && (class19.anInt256 * -841622081 < (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805).length)) {
 						Player class365_sub1_sub1_sub2_sub2 = (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[-841622081 * class19.anInt256]);
 						if (null != class365_sub1_sub1_sub2_sub2) {
-							Class217 class217 = (class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
+							SceneObjectPosition class217 = (class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
 							int i_20_ = (int) class217.aFloat2451 / 128 - i / 128;
 							int i_21_ = ((int) class217.aFloat2454 / 128 - i_11_ / 128);
 							Class397.method4914(class105, class117, i_12_, i_13_, i_20_, i_21_, (((Class19) class19).anInt258 * -92466201), 360000L);

@@ -29,7 +29,7 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 			class_na = ((Class365_Sub1_Sub1_Sub6) this).aClass_na9881;
 			((Class365_Sub1_Sub1_Sub6) this).aClass_na9881 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (class_na != null)
 			aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 612367667);
 	}
@@ -67,7 +67,7 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 
 	public Class334 method4358(GraphicsToolkit class_ra, byte i) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			if (((Class365_Sub1_Sub1_Sub6) this).aClass334_9882 == null)
 				((Class365_Sub1_Sub1_Sub6) this).aClass334_9882 = Class472.method6063((int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, method4491(class_ra, 0, 720922451), 2111696382);
 			return ((Class365_Sub1_Sub1_Sub6) this).aClass334_9882;
@@ -94,7 +94,7 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 			class_na = ((Class365_Sub1_Sub1_Sub6) this).aClass_na9881;
 			((Class365_Sub1_Sub1_Sub6) this).aClass_na9881 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (null != class_na)
 			aClass331_7722.method4055(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 1156448479);
 	}
@@ -187,7 +187,7 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 			class_na = ((Class365_Sub1_Sub1_Sub6) this).aClass_na9881;
 			((Class365_Sub1_Sub1_Sub6) this).aClass_na9881 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (class_na != null)
 			aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 1005842960);
 	}
@@ -258,7 +258,7 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 			class_na = ((Class365_Sub1_Sub1_Sub6) this).aClass_na9881;
 			((Class365_Sub1_Sub1_Sub6) this).aClass_na9881 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (class_na != null)
 			aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 2123208646);
 	}
@@ -286,7 +286,7 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 			if (((Class365_Sub1_Sub1_Sub6) this).aBoolean9889 || class432.aBoolean5441) {
 				((Class365_Sub1_Sub1_Sub6) this).aClass387_9879 = ((Class365_Sub1_Sub1_Sub6) this).aClass387_9879.method4755((byte) 0, i_18_, false);
 				if (class432.aBoolean5441) {
-					Class287 class287 = client.aClass283_8716.method2632(-1997873817);
+					Class287 class287 = client.map.method2632(-1997873817);
 					((Class365_Sub1_Sub1_Sub6) this).aClass387_9879.PA(1599271859 * class287.anInt3096, class287.anInt3097 * 1630923113, class287.anInt3098 * -1560648831, class287.anInt3099 * -57569897);
 				}
 			}
@@ -316,14 +316,14 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 	}
 
 	public Class334 method4367(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (((Class365_Sub1_Sub1_Sub6) this).aClass334_9882 == null)
 			((Class365_Sub1_Sub1_Sub6) this).aClass334_9882 = Class472.method6063((int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, method4491(class_ra, 0, 489982768), 2048305004);
 		return ((Class365_Sub1_Sub1_Sub6) this).aClass334_9882;
 	}
 
 	public Class334 method4368(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (((Class365_Sub1_Sub1_Sub6) this).aClass334_9882 == null)
 			((Class365_Sub1_Sub1_Sub6) this).aClass334_9882 = Class472.method6063((int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, method4491(class_ra, 0, 2128967957), 2011596409);
 		return ((Class365_Sub1_Sub1_Sub6) this).aClass334_9882;
@@ -344,7 +344,7 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 				else
 					class_xa_20_ = null;
 			}
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			return (class432.method5785(class_ra, i, ((((Class365_Sub1_Sub1_Sub6) this).aByte9880 != Class424.aClass424_6604.anInt6613 * -1976050083) ? (int) ((Class365_Sub1_Sub1_Sub6) this).aByte9880 : Class424.aClass424_6611.anInt6613 * -1976050083), ((Class424.aClass424_6604.anInt6613 * -1976050083 == ((Class365_Sub1_Sub1_Sub6) this).aByte9880) ? (int) (((Class365_Sub1_Sub1_Sub6) this).aByte9885 + 4) : ((Class365_Sub1_Sub1_Sub6) this).aByte9885), class_xa, class_xa_20_, (int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, bool, null, -920698887));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("wf.br(").append(')').toString());
@@ -445,7 +445,7 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 				class_na = ((Class365_Sub1_Sub1_Sub6) this).aClass_na9881;
 				((Class365_Sub1_Sub1_Sub6) this).aClass_na9881 = null;
 			}
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			if (class_na != null)
 				aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 1871597287);
 		} catch (RuntimeException runtimeexception) {
@@ -506,7 +506,7 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 				class_na = ((Class365_Sub1_Sub1_Sub6) this).aClass_na9881;
 				((Class365_Sub1_Sub1_Sub6) this).aClass_na9881 = null;
 			}
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			if (null != class_na)
 				aClass331_7722.method4055(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, -808327981);
 		} catch (RuntimeException runtimeexception) {
@@ -536,7 +536,7 @@ public class Class365_Sub1_Sub1_Sub6 extends Class365_Sub1_Sub1 implements Inter
 
 	static void method4494(GraphicsToolkit class_ra, int i) {
 		try {
-			if ((Class287.myPlayer.plane != -1694437021 * Class3.anInt57) && client.aClass283_8716.method2675(-1611682495) != null) {
+			if ((Class287.myPlayer.plane != -1694437021 * Class3.anInt57) && client.map.method2675(-1611682495) != null) {
 				Class122.method1319((byte) 1);
 				if (Class145.method1597(class_ra, (Class287.myPlayer.plane), 1177065502))
 					Class3.anInt57 = (Class287.myPlayer.plane) * -955770805;

@@ -51,7 +51,7 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 	Class222 aClass222_8235;
 	protected Class233 aClass233_8236;
 	protected boolean aBoolean8237;
-	Class217 aClass217_8238;
+	SceneObjectPosition aClass217_8238;
 	protected int anInt8239;
 	boolean aBoolean8240;
 	protected int anInt8241;
@@ -174,7 +174,7 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 	Class153 aClass153_8358;
 	Class153 aClass153_8359;
 	Interface7_Impl2 anInterface7_Impl2_8360;
-	CacheIndex aClass243_8361;
+	Js5 aClass243_8361;
 	public float aFloat8362;
 	Class233 aClass233_8363;
 	public float aFloat8364;
@@ -581,7 +581,7 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 		return ((Class_ra_Sub3) this).aClass222_8250;
 	}
 
-	public final Class66 method5028(int i, int i_54_, int i_55_, int i_56_, int i_57_, int i_58_) {
+	public final EnvironmentMap method5028(int i, int i_54_, int i_55_, int i_56_, int i_57_, int i_58_) {
 		return new Class66_Sub2_Sub1(this, i, i_54_, i_55_, i_56_, i_57_, i_58_);
 	}
 
@@ -1902,7 +1902,7 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 
 	abstract boolean method5406(Class55 class55, Class77 class77);
 
-	public final void method5189(Class66 class66) {
+	public final void method5189(EnvironmentMap class66) {
 		((Class_ra_Sub3) this).aClass66_Sub2_8284 = (Class66_Sub2) class66;
 	}
 
@@ -2143,11 +2143,11 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 		/* empty */
 	}
 
-	public final Class66 method5140(int i, int i_373_, int i_374_, int i_375_, int i_376_, int i_377_) {
+	public final EnvironmentMap method5140(int i, int i_373_, int i_374_, int i_375_, int i_376_, int i_377_) {
 		return new Class66_Sub2_Sub1(this, i, i_373_, i_374_, i_375_, i_376_, i_377_);
 	}
 
-	public final Class66 method5181(int i, int i_378_, int i_379_, int i_380_, int i_381_, int i_382_) {
+	public final EnvironmentMap method5181(int i, int i_378_, int i_379_, int i_380_, int i_381_, int i_382_) {
 		return new Class66_Sub2_Sub1(this, i, i_378_, i_379_, i_380_, i_381_, i_382_);
 	}
 
@@ -2413,7 +2413,7 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 		/* empty */
 	}
 
-	public final Class66 method5084(int i, int i_463_, int i_464_, int i_465_, int i_466_, int i_467_) {
+	public final EnvironmentMap method5084(int i, int i_463_, int i_464_, int i_465_, int i_466_, int i_467_) {
 		return new Class66_Sub2_Sub1(this, i, i_463_, i_464_, i_465_, i_466_, i_467_);
 	}
 
@@ -2768,12 +2768,12 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 
 	abstract void method5459();
 
-	Class_ra_Sub3(Interface_ma interface_ma, CacheIndex class243, int i, int i_555_) {
+	Class_ra_Sub3(MaterialRawList interface_ma, Js5 class243, int i, int i_555_) {
 		super(interface_ma);
 		((Class_ra_Sub3) this).aClass222_8235 = new Class222();
 		aClass233_8236 = new Class233();
 		((Class_ra_Sub3) this).aClass233_8204 = new Class233();
-		((Class_ra_Sub3) this).aClass217_8238 = new Class217();
+		((Class_ra_Sub3) this).aClass217_8238 = new SceneObjectPosition();
 		((Class_ra_Sub3) this).aFloatArray8312 = new float[4];
 		((Class_ra_Sub3) this).aBoolean8240 = false;
 		((Class_ra_Sub3) this).aClass149_8262 = Class149.aClass149_1582;
@@ -2986,7 +2986,7 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 		method5091(i, i_591_, i, i_591_ + i_592_, i_593_, i_594_);
 	}
 
-	public final Class66 method5185(int i, int i_595_, int i_596_, int i_597_, int i_598_, int i_599_) {
+	public final EnvironmentMap method5185(int i, int i_595_, int i_596_, int i_597_, int i_598_, int i_599_) {
 		return new Class66_Sub2_Sub1(this, i, i_595_, i_596_, i_597_, i_598_, i_599_);
 	}
 
@@ -3226,7 +3226,7 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 
 	public abstract void method5514(Class187 class187, int i, int i_638_);
 
-	public final void method5095(Class66 class66) {
+	public final void method5095(EnvironmentMap class66) {
 		((Class_ra_Sub3) this).aClass66_Sub2_8284 = (Class66_Sub2) class66;
 	}
 

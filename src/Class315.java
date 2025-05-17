@@ -55,7 +55,7 @@ public final class Class315 {
 				int i_12_ = class298_sub53_sub2.readUnsignedByteC((short) -10129);
 				int i_13_ = 134435705 * Class162.baseTileX + (i_12_ >> 4 & 0x7);
 				int i_14_ = (i_12_ & 0x7) + -105526719 * Class216.baseTileY;
-				if (client.aClass283_8716.method2674(-586078948) != Class266.aClass266_2846)
+				if (client.map.method2674(-586078948) != Class266.aClass266_2846)
 					Tradution.method6055(Class375.basePlane * -191892109, i_13_, i_14_, i_11_, i_9_, i_10_, i_7_, -1921538188);
 			} else if (SubIncommingPacket.aClass206_2354 == class206) {
 				int i_15_ = class298_sub53_sub2.readUnsigned128Byte((byte) 112);
@@ -65,7 +65,7 @@ public final class Class315 {
 				int i_19_ = (i_18_ >> 4 & 0x7) + 134435705 * Class162.baseTileX;
 				int i_20_ = (i_18_ & 0x7) + Class216.baseTileY * -105526719;
 				int i_21_ = class298_sub53_sub2.readIntLE(-1682120369);
-				ObjectDefinitions class432 = client.aClass283_8716.method2641(-527347356).getObjectDefinitions(i_21_);
+				ObjectDefinitions class432 = client.map.method2641(-527347356).getObjectDefinitions(i_21_);
 				int i_22_ = class298_sub53_sub2.readUnsignedByte128(-1014855659);
 				if (i_16_ == -1976050083 * Class424.aClass424_6604.anInt6613)
 					i_16_ = Class424.aClass424_6611.anInt6613 * -1976050083;
@@ -118,7 +118,7 @@ public final class Class315 {
 				int i_37_ = class298_sub53_sub2.readUnsignedByte128(-1014855659);
 				int i_38_ = (i_37_ >> 4 & 0x7) + 134435705 * Class162.baseTileX;
 				int i_39_ = (i_37_ & 0x7) + Class216.baseTileY * -105526719;
-				if (client.aClass283_8716.method2674(99999280).method2522((byte) -3) || (i_38_ >= 0 && i_39_ >= 0 && (i_38_ < client.aClass283_8716.method2629(-1871735876)) && (i_39_ < client.aClass283_8716.method2630(-164212893))))
+				if (client.map.method2674(99999280).method2522((byte) -3) || (i_38_ >= 0 && i_39_ >= 0 && (i_38_ < client.map.method2629(-1871735876)) && (i_39_ < client.map.method2630(-164212893))))
 					Class420.method5606(-191892109 * Class375.basePlane, i_38_, i_39_, i_36_, -1, i_34_, i_35_, 322889547);
 			} else if (SubIncommingPacket.PROJECTILE_PACKET == class206) {
 				int i_40_ = class298_sub53_sub2.readUnsignedByte();
@@ -137,8 +137,8 @@ public final class Class315 {
 				int i_52_ = class298_sub53_sub2.readUnsignedShort();
 				if (i_51_ == 255)
 					i_51_ = -1;
-				if (client.aClass283_8716.method2674(-135283377) != Class266.aClass266_2846) {
-					if (i_41_ >= 0 && i_42_ >= 0 && (i_41_ < client.aClass283_8716.method2629(-2115187525)) && i_42_ < client.aClass283_8716.method2630(1222512663) && i_43_ >= 0 && i_44_ >= 0 && (i_43_ < client.aClass283_8716.method2629(-2121627992)) && (i_44_ < client.aClass283_8716.method2630(-2081531222)) && i_46_ != 65535) {
+				if (client.map.method2674(-135283377) != Class266.aClass266_2846) {
+					if (i_41_ >= 0 && i_42_ >= 0 && (i_41_ < client.map.method2629(-2115187525)) && i_42_ < client.map.method2630(1222512663) && i_43_ >= 0 && i_44_ >= 0 && (i_43_ < client.map.method2629(-2121627992)) && (i_44_ < client.map.method2630(-2081531222)) && i_46_ != 65535) {
 						i_41_ = 256 + 512 * i_41_;
 						i_42_ = 256 + 512 * i_42_;
 						i_43_ = 256 + i_43_ * 512;
@@ -146,22 +146,22 @@ public final class Class315 {
 						i_47_ <<= 2;
 						i_48_ <<= 2;
 						i_52_ <<= 2;
-						Class365_Sub1_Sub1_Sub1 class365_sub1_sub1_sub1 = (new Class365_Sub1_Sub1_Sub1(client.aClass283_8716.method2675(-1611682495), i_46_, -191892109 * Class375.basePlane, Class375.basePlane * -191892109, i_41_, i_42_, i_47_, i_49_ + client.anInt8884 * 443738891, client.anInt8884 * 443738891 + i_50_, i_51_, i_52_, 0, i_45_, i_48_, bool, -1));
+						Class365_Sub1_Sub1_Sub1 class365_sub1_sub1_sub1 = (new Class365_Sub1_Sub1_Sub1(client.map.method2675(-1611682495), i_46_, -191892109 * Class375.basePlane, Class375.basePlane * -191892109, i_41_, i_42_, i_47_, i_49_ + client.anInt8884 * 443738891, client.anInt8884 * 443738891 + i_50_, i_51_, i_52_, 0, i_45_, i_48_, bool, -1));
 						class365_sub1_sub1_sub1.method4405(i_43_, i_44_, Class356.method4271(i_43_, i_44_, (-191892109 * Class375.basePlane), -1671970391) - i_48_, 443738891 * client.anInt8884 + i_49_, -53743739);
 						client.aClass453_8824.method5935(new Class298_Sub37_Sub2(class365_sub1_sub1_sub1), 719403792);
 					}
 				}
 			} else if (class206 == SubIncommingPacket.SEND_GROUND_ITEM_PACKET) {
 				int i_53_ = class298_sub53_sub2.readUnsignedByte128(-1014855659);
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				int i_54_ = (i_53_ & 0x7) + -105526719 * Class216.baseTileY;
 				int i_55_ = i_54_ + class341.gameSceneBaseY * 283514611;
 				int i_56_ = Class162.baseTileX * 134435705 + (i_53_ >> 4 & 0x7);
 				int i_57_ = class341.gameSceneBaseX * -1760580017 + i_56_;
 				int i_58_ = class298_sub53_sub2.readUnsignedShortLE128(1478539457);
 				int i_59_ = class298_sub53_sub2.readUnsignedShortLE((byte) -118);
-				boolean bool = (i_56_ >= 0 && i_54_ >= 0 && i_56_ < client.aClass283_8716.method2629(-2010293889) && (i_54_ < client.aClass283_8716.method2630(-747226515)));
-				if (bool || client.aClass283_8716.method2674(131556130).method2522((byte) -65)) {
+				boolean bool = (i_56_ >= 0 && i_54_ >= 0 && i_56_ < client.map.method2629(-2010293889) && (i_54_ < client.map.method2630(-747226515)));
+				if (bool || client.map.method2674(131556130).method2522((byte) -65)) {
 					Class411.method5576(Class375.basePlane * -191892109, i_57_, i_55_, new Class298_Sub12(i_59_, i_58_), -369193084);
 					if (bool)
 						Class173.method1820(-191892109 * Class375.basePlane, i_56_, i_54_, 1649431547);
@@ -169,10 +169,10 @@ public final class Class315 {
 			} else if (class206 == SubIncommingPacket.aClass206_2348) {
 				int i_60_ = class298_sub53_sub2.readInt((byte) -12);
 				int i_61_ = class298_sub53_sub2.readUnsignedByte();
-				client.aClass283_8716.method2641(267585287).getObjectDefinitions(i_60_).method5771(i_61_, (byte) 28);
+				client.map.method2641(267585287).getObjectDefinitions(i_60_).method5771(i_61_, (byte) 28);
 			} else if (SubIncommingPacket.aClass206_2357 == class206) {
 				int i_62_ = class298_sub53_sub2.readUnsignedByte();
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				int i_63_ = -105526719 * Class216.baseTileY + (i_62_ & 0x7);
 				int i_64_ = 283514611 * class341.gameSceneBaseY + i_63_;
 				int i_65_ = (i_62_ >> 4 & 0x7) + 134435705 * Class162.baseTileX;
@@ -191,7 +191,7 @@ public final class Class315 {
 								break;
 							}
 						}
-						if (i_65_ >= 0 && i_63_ >= 0 && i_65_ < client.aClass283_8716.method2629(-2131588637) && i_63_ < client.aClass283_8716.method2630(-523876912))
+						if (i_65_ >= 0 && i_63_ >= 0 && i_65_ < client.map.method2629(-2131588637) && i_63_ < client.map.method2630(-523876912))
 							Class173.method1820((-191892109 * Class375.basePlane), i_65_, i_63_, 1760601086);
 					}
 				}
@@ -204,7 +204,7 @@ public final class Class315 {
 				int i_74_ = class298_sub53_sub2.readUnsignedByte();
 				int i_75_ = class298_sub53_sub2.read24BitUnsignedInteger((byte) -11);
 				String string = class298_sub53_sub2.readString(-844550451);
-				if (client.aClass283_8716.method2674(1533260419) != Class266.aClass266_2846)
+				if (client.map.method2674(1533260419) != Class266.aClass266_2846)
 					Class300.method3687(-191892109 * Class375.basePlane, i_71_, i_72_, i_74_, i_73_, i_75_, string, 1332190940);
 			} else if (class206 == SubIncommingPacket.SPAWN_OBJECT_PACKET) {
 				int i_76_ = class298_sub53_sub2.readUnsignedByte();
@@ -215,21 +215,21 @@ public final class Class315 {
 				int i_81_ = i_79_ & 0x3;
 				int i_82_ = client.anIntArray8739[i_80_];
 				int i_83_ = class298_sub53_sub2.readIntLE(-1674329814);
-				if (client.aClass283_8716.method2674(39788259).method2522((byte) 29) || (i_77_ >= 0 && i_78_ >= 0 && (i_77_ < client.aClass283_8716.method2629(-2063854515)) && (i_78_ < client.aClass283_8716.method2630(-1828303048))))
+				if (client.map.method2674(39788259).method2522((byte) 29) || (i_77_ >= 0 && i_78_ >= 0 && (i_77_ < client.map.method2629(-2063854515)) && (i_78_ < client.map.method2630(-1828303048))))
 					Class420.method5606(-191892109 * Class375.basePlane, i_77_, i_78_, i_82_, i_83_, i_80_, i_81_, 2010363527);
 			} else if (SubIncommingPacket.aClass206_2343 == class206) {
 				int i_84_ = class298_sub53_sub2.readUnsignedShort128(1457639602);
 				int i_85_ = class298_sub53_sub2.readUnsignedShortLE((byte) 22);
 				int i_86_ = class298_sub53_sub2.readUnsignedShort();
 				int i_87_ = class298_sub53_sub2.readUnsignedByte();
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				int i_88_ = -105526719 * Class216.baseTileY + (i_87_ & 0x7);
 				int i_89_ = class341.gameSceneBaseY * 283514611 + i_88_;
 				int i_90_ = Class162.baseTileX * 134435705 + (i_87_ >> 4 & 0x7);
 				int i_91_ = -1760580017 * class341.gameSceneBaseX + i_90_;
 				if (i_84_ != -442628795 * client.playerIndex) {
-					boolean bool = (i_90_ >= 0 && i_88_ >= 0 && i_90_ < client.aClass283_8716.method2629(-2004210913) && i_88_ < client.aClass283_8716.method2630(133385720));
-					if (bool || client.aClass283_8716.method2674(1297675002).method2522((byte) -41)) {
+					boolean bool = (i_90_ >= 0 && i_88_ >= 0 && i_90_ < client.map.method2629(-2004210913) && i_88_ < client.map.method2630(133385720));
+					if (bool || client.map.method2674(1297675002).method2522((byte) -41)) {
 						Class411.method5576(-191892109 * Class375.basePlane, i_91_, i_89_, new Class298_Sub12(i_85_, i_86_), 1214818737);
 						if (bool)
 							Class173.method1820((Class375.basePlane * -191892109), i_90_, i_88_, 1328737922);
@@ -260,8 +260,8 @@ public final class Class315 {
 				int i_108_ = class298_sub53_sub2.readUnsignedShort();
 				if (i_107_ == 255)
 					i_107_ = -1;
-				if (client.aClass283_8716.method2674(781301439) != Class266.aClass266_2846) {
-					if (i_93_ >= 0 && i_94_ >= 0 && i_93_ < client.aClass283_8716.method2629(-2097499815) * 2 && i_94_ < client.aClass283_8716.method2629(-1925634796) * 2 && i_98_ >= 0 && i_99_ >= 0 && i_98_ < client.aClass283_8716.method2630(-2066893296) * 2 && (i_99_ < client.aClass283_8716.method2630(1895360083) * 2) && 65535 != i_102_) {
+				if (client.map.method2674(781301439) != Class266.aClass266_2846) {
+					if (i_93_ >= 0 && i_94_ >= 0 && i_93_ < client.map.method2629(-2097499815) * 2 && i_94_ < client.map.method2629(-1925634796) * 2 && i_98_ >= 0 && i_99_ >= 0 && i_98_ < client.map.method2630(-2066893296) * 2 && (i_99_ < client.map.method2630(1895360083) * 2) && 65535 != i_102_) {
 						i_93_ *= 256;
 						i_94_ = 256 * i_94_;
 						i_98_ = 256 * i_98_;
@@ -285,8 +285,8 @@ public final class Class315 {
 				int i_116_ = class298_sub53_sub2.readUnsignedByte();
 				int i_117_ = class298_sub53_sub2.readUnsignedByte();
 				int i_118_ = class298_sub53_sub2.readUnsignedShort();
-				if (client.aClass283_8716.method2674(569302746) != Class266.aClass266_2846) {
-					if (i_110_ >= 0 && i_111_ >= 0 && (i_110_ < client.aClass283_8716.method2629(-2099610751)) && (i_111_ < client.aClass283_8716.method2630(-358830712))) {
+				if (client.map.method2674(569302746) != Class266.aClass266_2846) {
+					if (i_110_ >= 0 && i_111_ >= 0 && (i_110_ < client.map.method2629(-2099610751)) && (i_111_ < client.map.method2630(-358830712))) {
 						int i_119_ = 1 + i_114_;
 						if ((Class287.myPlayer.scenePositionXQueue[0]) >= i_110_ - i_119_ && (Class287.myPlayer.scenePositionXQueue[0]) <= i_119_ + i_110_ && (Class287.myPlayer.scenePositionYQueue[0]) >= i_111_ - i_119_ && (Class287.myPlayer.scenePositionYQueue[0]) <= i_119_ + i_111_)
 							Class69.method789(i_112_, i_115_, i_116_, i_117_, ((-191892109 * Class375.basePlane << 24) + (i_110_ << 16) + (i_111_ << 8) + i_114_), i_118_, -1062229425);
@@ -302,8 +302,8 @@ public final class Class315 {
 				int i_124_ = class298_sub53_sub2.readUnsignedShort();
 				int i_125_ = class298_sub53_sub2.readUnsignedShort();
 				int i_126_ = class298_sub53_sub2.readUnsignedByte();
-				if (client.aClass283_8716.method2674(1544127575) != Class266.aClass266_2846) {
-					if (i_121_ >= 0 && i_122_ >= 0 && (i_121_ < client.aClass283_8716.method2629(-2060803867)) && (i_122_ < client.aClass283_8716.method2630(210266167))) {
+				if (client.map.method2674(1544127575) != Class266.aClass266_2846) {
+					if (i_121_ >= 0 && i_122_ >= 0 && (i_121_ < client.map.method2629(-2060803867)) && (i_122_ < client.map.method2630(210266167))) {
 						if (-1 == i_123_) {
 							Class298_Sub37_Sub3 class298_sub37_sub3 = ((Class298_Sub37_Sub3) (client.aClass437_8825.method5812((long) (i_121_ << 16 | i_122_))));
 							if (class298_sub37_sub3 != null) {
@@ -314,9 +314,9 @@ public final class Class315 {
 							int i_127_ = 256 + i_121_ * 512;
 							int i_128_ = i_122_ * 512 + 256;
 							int i_129_ = Class375.basePlane * -191892109;
-							if (i_129_ < 3 && client.aClass283_8716.method2654(1627070231).method2320(i_121_, i_122_, 575492228))
+							if (i_129_ < 3 && client.map.method2654(1627070231).method2320(i_121_, i_122_, 575492228))
 								i_129_++;
-							Class365_Sub1_Sub1_Sub3 class365_sub1_sub1_sub3 = (new Class365_Sub1_Sub1_Sub3(client.aClass283_8716.method2675(-1611682495), i_123_, i_125_, -191892109 * Class375.basePlane, i_129_, i_127_, Class356.method4271(i_127_, i_128_, (Class375.basePlane * -191892109), -1861382449) - i_124_, i_128_, i_121_, i_121_, i_122_, i_122_, i_126_, false));
+							Class365_Sub1_Sub1_Sub3 class365_sub1_sub1_sub3 = (new Class365_Sub1_Sub1_Sub3(client.map.method2675(-1611682495), i_123_, i_125_, -191892109 * Class375.basePlane, i_129_, i_127_, Class356.method4271(i_127_, i_128_, (Class375.basePlane * -191892109), -1861382449) - i_124_, i_128_, i_121_, i_121_, i_122_, i_122_, i_126_, false));
 							client.aClass437_8825.method5817((new Class298_Sub37_Sub3(class365_sub1_sub1_sub3)), (long) (i_121_ << 16 | i_122_));
 						}
 					}
@@ -335,8 +335,8 @@ public final class Class315 {
 				int i_138_ = class298_sub53_sub2.readUnsignedByte();
 				int i_139_ = class298_sub53_sub2.readUnsignedShort();
 				boolean bool = class298_sub53_sub2.readUnsignedByte() == 1;
-				if (client.aClass283_8716.method2674(39884684) != Class266.aClass266_2846) {
-					if (i_131_ >= 0 && i_132_ >= 0 && (i_131_ < client.aClass283_8716.method2629(-2049168352)) && (i_132_ < client.aClass283_8716.method2630(91496889))) {
+				if (client.map.method2674(39884684) != Class266.aClass266_2846) {
+					if (i_131_ >= 0 && i_132_ >= 0 && (i_131_ < client.map.method2629(-2049168352)) && (i_132_ < client.map.method2630(91496889))) {
 						int i_140_ = i_135_ + 1;
 						if ((Class287.myPlayer.scenePositionXQueue[0]) >= i_131_ - i_140_ && (Class287.myPlayer.scenePositionXQueue[0]) <= i_140_ + i_131_ && (Class287.myPlayer.scenePositionYQueue[0]) >= i_132_ - i_140_ && (Class287.myPlayer.scenePositionYQueue[0]) <= i_140_ + i_132_)
 							Class336_Sub4.method4103(i_133_, i_136_, i_137_, i_138_, ((i_131_ << 16) + ((-191892109 * Class375.basePlane) << 24) + (i_132_ << 8) + i_135_), bool, i_139_, -889648047);
@@ -345,7 +345,7 @@ public final class Class315 {
 			} else if (class206 == SubIncommingPacket.REMOVE_GROUND_ITEM_PACKET) {
 				int i_141_ = class298_sub53_sub2.readUnsignedShortLE((byte) 67);
 				int i_142_ = class298_sub53_sub2.readUnsigned128Byte((byte) 68);
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				int i_143_ = Class216.baseTileY * -105526719 + (i_142_ & 0x7);
 				int i_144_ = 283514611 * class341.gameSceneBaseY + i_143_;
 				int i_145_ = 134435705 * Class162.baseTileX + (i_142_ >> 4 & 0x7);
@@ -360,7 +360,7 @@ public final class Class315 {
 					}
 					if (class298_sub2.aClass453_7166.method5946(-1293494081))
 						class298_sub2.method2839(-1460969981);
-					if (i_145_ >= 0 && i_143_ >= 0 && (i_145_ < client.aClass283_8716.method2629(-1929078790)) && (i_143_ < client.aClass283_8716.method2630(-999181271)))
+					if (i_145_ >= 0 && i_143_ >= 0 && (i_145_ < client.map.method2629(-1929078790)) && (i_143_ < client.map.method2630(-999181271)))
 						Class173.method1820(Class375.basePlane * -191892109, i_145_, i_143_, 547814341);
 				}
 			} else {

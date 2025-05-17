@@ -19,13 +19,13 @@ public class Class400 {
 			Class298_Sub2 class298_sub2 = ((Class298_Sub2) (client.aClass437_8685.method5812((long) ((((Class400) this).aClass341_5221.anInt3645 * 1008331379) << 28 | 283514611 * (((Class400) this).aClass341_5221.gameSceneBaseY) << 14 | -1760580017 * (((Class400) this).aClass341_5221.gameSceneBaseX)))));
 			if (class298_sub2 == null)
 				return null;
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			Class341 class341 = client.map.method2628(681479919);
 			int i_0_ = (-1760580017 * ((Class400) this).aClass341_5221.gameSceneBaseX - class341.gameSceneBaseX * -1760580017);
 			int i_1_ = (283514611 * ((Class400) this).aClass341_5221.gameSceneBaseY - 283514611 * class341.gameSceneBaseY);
-			if (i_0_ >= 0 && i_1_ >= 0 && i_0_ < client.aClass283_8716.method2629(-2079172057) && i_1_ < client.aClass283_8716.method2630(-583720048)) {
+			if (i_0_ >= 0 && i_1_ >= 0 && i_0_ < client.map.method2629(-2079172057) && i_1_ < client.map.method2630(-583720048)) {
 				for (Class298_Sub12 class298_sub12 = (Class298_Sub12) class298_sub2.aClass453_7166.method5939(1766612795); class298_sub12 != null; class298_sub12 = ((Class298_Sub12) class298_sub2.aClass453_7166.method5944(49146))) {
 					if (-1600299847 * ((Class400) this).anInt5222 == class298_sub12.anInt7257 * 1768239597)
-						return ((Class365_Sub1_Sub4_Sub1) (client.aClass283_8716.method2675(-1611682495).method4034((((Class400) this).aClass341_5221.anInt3645 * 1008331379), i_0_, i_1_, -1919026118)));
+						return ((Class365_Sub1_Sub4_Sub1) (client.map.method2675(-1611682495).method4034((((Class400) this).aClass341_5221.anInt3645 * 1008331379), i_0_, i_1_, -1919026118)));
 				}
 			}
 			return null;

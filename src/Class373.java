@@ -168,7 +168,7 @@ public class Class373 {
 			Class504.aClass375_6196.method4646((byte) 89);
 			Class151.aClass451_6358.method5931(1757095308);
 			Class212.aClass144_2433.method1581(682089220);
-			client.aClass283_8716.method2641(134727545).method5795(1599239758);
+			client.map.method2641(134727545).method5795(1599239758);
 			Class15.aClass507_224.method6274(343664164);
 			Class298_Sub32_Sub14.aClass477_9400.method6093(75457779);
 			Class501.aClass395_6122.method4902(-927634718);

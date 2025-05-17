@@ -74,7 +74,7 @@ public class Class98_Sub2 extends Class98 {
 		/* empty */
 	}
 
-	static Class298_Sub34 method1060(CacheIndex class243, int i, int i_25_) {
+	static Class298_Sub34 method1060(Js5 class243, int i, int i_25_) {
 		try {
 			byte[] is = class243.method2294(i, (byte) 120);
 			if (is == null)

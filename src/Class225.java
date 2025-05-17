@@ -1,10 +1,7 @@
 /* Class225 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.math.BigInteger;
-import java.util.EmptyStackException;
 
 public class Class225 {
 	Class255 aClass255_2505;
@@ -123,14 +120,14 @@ public class Class225 {
 	static final void method2099(Class298_Sub1 class298_sub1, boolean bool, byte i) {
 		try {
 			if (((Class298_Sub1) class298_sub1).aBoolean7160) {
-				if (-1188221251 * ((Class298_Sub1) class298_sub1).anInt7148 < 0 || Class140.method1559(client.aClass283_8716.method2641(681883413), (-1188221251 * (((Class298_Sub1) class298_sub1).anInt7148)), (-366156959 * (((Class298_Sub1) class298_sub1).anInt7154)), (byte) -3)) {
+				if (-1188221251 * ((Class298_Sub1) class298_sub1).anInt7148 < 0 || Class140.method1559(client.map.method2641(681883413), (-1188221251 * (((Class298_Sub1) class298_sub1).anInt7148)), (-366156959 * (((Class298_Sub1) class298_sub1).anInt7154)), (byte) -3)) {
 					if (!bool)
 						Class398.method4923((((Class298_Sub1) class298_sub1).anInt7151 * 2108312995), (((Class298_Sub1) class298_sub1).anInt7157 * -431456739), class298_sub1.anInt7150 * 634196087, class298_sub1.anInt7155 * -2146829167, (((Class298_Sub1) class298_sub1).anInt7148 * -1188221251), (((Class298_Sub1) class298_sub1).anInt7161 * -1234291173), (-366156959 * ((Class298_Sub1) class298_sub1).anInt7154), -1, -1628738260);
 					else
 						Class516.method6300((((Class298_Sub1) class298_sub1).anInt7151 * 2108312995), (((Class298_Sub1) class298_sub1).anInt7157 * -431456739), class298_sub1.anInt7150 * 634196087, class298_sub1.anInt7155 * -2146829167, null, (byte) 68);
 					class298_sub1.method2839(-1460969981);
 				}
-			} else if (((Class298_Sub1) class298_sub1).aBoolean7159 && 634196087 * class298_sub1.anInt7150 >= 1 && class298_sub1.anInt7155 * -2146829167 >= 1 && (634196087 * class298_sub1.anInt7150 <= (client.aClass283_8716.method2629(-2002349453) - 2)) && (class298_sub1.anInt7155 * -2146829167 <= client.aClass283_8716.method2630(1538814162) - 2) && ((((Class298_Sub1) class298_sub1).anInt7156 * 856355825) < 0 || (Class140.method1559(client.aClass283_8716.method2641(-2135125377), (((Class298_Sub1) class298_sub1).anInt7156 * 856355825), (205923815 * ((Class298_Sub1) class298_sub1).anInt7153), (byte) -66)))) {
+			} else if (((Class298_Sub1) class298_sub1).aBoolean7159 && 634196087 * class298_sub1.anInt7150 >= 1 && class298_sub1.anInt7155 * -2146829167 >= 1 && (634196087 * class298_sub1.anInt7150 <= (client.map.method2629(-2002349453) - 2)) && (class298_sub1.anInt7155 * -2146829167 <= client.map.method2630(1538814162) - 2) && ((((Class298_Sub1) class298_sub1).anInt7156 * 856355825) < 0 || (Class140.method1559(client.map.method2641(-2135125377), (((Class298_Sub1) class298_sub1).anInt7156 * 856355825), (205923815 * ((Class298_Sub1) class298_sub1).anInt7153), (byte) -66)))) {
 				if (!bool)
 					Class398.method4923((((Class298_Sub1) class298_sub1).anInt7151 * 2108312995), (-431456739 * ((Class298_Sub1) class298_sub1).anInt7157), class298_sub1.anInt7150 * 634196087, class298_sub1.anInt7155 * -2146829167, 856355825 * ((Class298_Sub1) class298_sub1).anInt7156, (((Class298_Sub1) class298_sub1).anInt7149 * -674934345), ((Class298_Sub1) class298_sub1).anInt7153 * 205923815, -1, 628810012);
 				else

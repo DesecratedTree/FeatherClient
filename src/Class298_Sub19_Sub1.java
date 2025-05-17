@@ -104,7 +104,7 @@ public class Class298_Sub19_Sub1 extends Class298_Sub19 {
 		}
 	}
 
-	synchronized boolean method2955(Class298_Sub13 class298_sub13, CacheIndex class243, Class272 class272, int i, int i_7_) {
+	synchronized boolean method2955(Class298_Sub13 class298_sub13, Js5 class243, Class272 class272, int i, int i_7_) {
 		try {
 			class298_sub13.method2904();
 			boolean bool = true;

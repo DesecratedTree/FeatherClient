@@ -12,7 +12,7 @@ public class Class136_Sub1 extends Class136 {
 		((Class136_Sub1) this).anInt8576 += 315105141 * ((Class158_Sub1) ((Class136_Sub1) this).aClass158_6386).anInt8567;
 	}
 
-	Class136_Sub1(CacheIndex class243, Class158_Sub1 class158_sub1) {
+	Class136_Sub1(Js5 class243, Class158_Sub1 class158_sub1) {
 		super(class243, (Class158) class158_sub1);
 	}
 

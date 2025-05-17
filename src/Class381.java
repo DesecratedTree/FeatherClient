@@ -56,7 +56,7 @@ public class Class381 {
 		}
 	}
 
-	public Class381(CacheIndex class243) {
+	public Class381(Js5 class243) {
 		byte[] is = class243.method2294((Class380.aClass380_4106.anInt4108 * -363169051), (byte) 29);
 		method4683(new RsByteBuffer(is), 1436577561);
 	}

@@ -5,7 +5,7 @@ import java.awt.Component;
 
 public class Class294 {
 	public static int[] anIntArray3165;
-	public static Interface_ma anInterface_ma3166;
+	public static MaterialRawList anInterface_ma3166;
 
 	Class294() throws Throwable {
 		throw new Error();

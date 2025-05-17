@@ -107,7 +107,7 @@ public class Class371 {
 		}
 	}
 
-	public Class371(CacheIndex class243) {
+	public Class371(Js5 class243) {
 		anInt4036 = 1703838282;
 		aBoolean4043 = true;
 		anInt4037 = -985193475;

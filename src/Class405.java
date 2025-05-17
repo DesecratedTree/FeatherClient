@@ -12,7 +12,7 @@ public class Class405 {
 	public int[] anIntArray5272;
 	public int[] anIntArray5273;
 
-	public Class405(CacheIndex class243) {
+	public Class405(Js5 class243) {
 		byte[] is = class243.method2294((-363169051 * Class380.aClass380_4105.anInt4108), (byte) 105);
 		method4955(new RsByteBuffer(is), 1286712749);
 		if (anIntArray5267 == null)

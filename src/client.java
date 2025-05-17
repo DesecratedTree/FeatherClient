@@ -97,7 +97,7 @@ public final class client extends Class291 {
 	static int anInt8713;
 	static boolean aBoolean8714;
 	public static Class404 aClass404_8715;
-	public static Class283 aClass283_8716;
+	public static GameMap map;
 	public static volatile boolean aBoolean8717;
 	public static Object anObject8718;
 	static int anInt8719 = 1375731712;
@@ -515,7 +515,7 @@ public final class client extends Class291 {
 				if (aString8927 == null)
 					aString8927 = "";
 				Class311 class311 = new Class311(775068819 * anInt8794, -791746413 * anInt8803, 351263031 * anInt8727, anInt8910 * -510898275, aClass411_8944.aString5322);
-				Class385.aClient4141 = this;
+				AtmosphereType.aClient4141 = this;
 				method2751(class311, aClass411_8944.aString5317, Class510.aClass444_6221.aString5607, 32 + 1286017487 * Class510.aClass444_6221.anInt5608, Class356.method4268(-369062280), 718, 1, aBoolean8653, (byte) 23);
 			}
 		} catch (RuntimeException runtimeexception) {
@@ -545,7 +545,7 @@ public final class client extends Class291 {
 				for (int i_1_ = 0; i_1_ < Class136.anIntArray6388.length; i_1_++)
 					Class298_Sub37_Sub9_Sub2.aByteArrayArrayArray10001[i_1_] = new byte[is_0_[i_1_]][];
 			}
-			Class217.method2017(100);
+			SceneObjectPosition.method2017(100);
 			Class218.method2027(10);
 			Class298_Sub38.method3500(100, 906973812);
 			Class315.method3838(100, 1489616392);
@@ -681,11 +681,11 @@ public final class client extends Class291 {
 				else if (Class363.method4315(anInt8752 * -1233866115, 279703369))
 					Class405.method4958(447944821);
 				else if (Class358.method4287(anInt8752 * -1233866115, 361133550)) {
-					if (aClass283_8716.method2627((byte) 103) == Class273.aClass273_2906) {
-						int i_5_ = aClass283_8716.method2662(-471108411) / 2;
+					if (map.method2627((byte) 103) == Class273.aClass273_2906) {
+						int i_5_ = map.method2662(-471108411) / 2;
 						Class139.method1548(new StringBuilder().append(Tradution.aClass470_5874.method6049(Class321.aClass429_3357, -875414210)).append(Class26.aString350).append("(").append(i_5_).append("%)").toString(), true, Class373.aClass_ra4071, Class343.aClass264_3673, Class422_Sub2.aClass505_8369, (byte) 20);
-					} else if (aClass283_8716.method2627((byte) 65) == Class273.aClass273_2904) {
-						int i_6_ = 50 + aClass283_8716.method2670((byte) -20) / 2;
+					} else if (map.method2627((byte) 65) == Class273.aClass273_2904) {
+						int i_6_ = 50 + map.method2670((byte) -20) / 2;
 						Class139.method1548(new StringBuilder().append(Tradution.aClass470_5874.method6049(Class321.aClass429_3357, -875414210)).append(Class26.aString350).append("(").append(i_6_).append("%)").toString(), true, Class373.aClass_ra4071, Class343.aClass264_3673, Class422_Sub2.aClass505_8369, (byte) 38);
 					} else
 						Class139.method1548((Tradution.aClass470_5874.method6049(Class321.aClass429_3357, -875414210)), true, Class373.aClass_ra4071, Class343.aClass264_3673, Class422_Sub2.aClass505_8369, (byte) 64);
@@ -811,7 +811,7 @@ public final class client extends Class291 {
 				class365_sub1_sub1_sub2_sub2.anInt10071 = 689024993;
 			else {
 				class365_sub1_sub1_sub2_sub2.method4404(449273804);
-				if (class365_sub1_sub1_sub2_sub2.aShort9798 < 0 || class365_sub1_sub1_sub2_sub2.aShort9795 < 0 || (class365_sub1_sub1_sub2_sub2.aShort9796 >= aClass283_8716.method2629(-1927739596)) || (class365_sub1_sub1_sub2_sub2.aShort9797 >= aClass283_8716.method2630(2032357288)))
+				if (class365_sub1_sub1_sub2_sub2.aShort9798 < 0 || class365_sub1_sub1_sub2_sub2.aShort9795 < 0 || (class365_sub1_sub1_sub2_sub2.aShort9796 >= map.method2629(-1927739596)) || (class365_sub1_sub1_sub2_sub2.aShort9797 >= map.method2630(2032357288)))
 					class365_sub1_sub1_sub2_sub2.anInt10071 = 689024993;
 				else {
 					class365_sub1_sub1_sub2_sub2.aBoolean10207 = (class365_sub1_sub1_sub2_sub2.aBoolean10094 ? bool : false);
@@ -844,7 +844,7 @@ public final class client extends Class291 {
 				class365_sub1_sub1_sub2_sub1.anInt10071 = 689024993;
 			else {
 				class365_sub1_sub1_sub2_sub1.method4404(449273804);
-				if (class365_sub1_sub1_sub2_sub1.aShort9798 < 0 || class365_sub1_sub1_sub2_sub1.aShort9795 < 0 || (class365_sub1_sub1_sub2_sub1.aShort9796 >= aClass283_8716.method2629(-1937230343)) || (class365_sub1_sub1_sub2_sub1.aShort9797 >= aClass283_8716.method2630(1822473503)))
+				if (class365_sub1_sub1_sub2_sub1.aShort9798 < 0 || class365_sub1_sub1_sub2_sub1.aShort9795 < 0 || (class365_sub1_sub1_sub2_sub1.aShort9796 >= map.method2629(-1937230343)) || (class365_sub1_sub1_sub2_sub1.aShort9797 >= map.method2630(1822473503)))
 					class365_sub1_sub1_sub2_sub1.anInt10071 = 689024993;
 				else {
 					int i_14_ = 0;
@@ -894,8 +894,8 @@ public final class client extends Class291 {
 	static final void method2796(int i) {
 		int i_16_ = 1168366243 * Class10.anInt129;
 		int[] is = Class10.anIntArray135;
-		int[][] is_17_ = aClass283_8716.method2656((byte) 11);
-		int[][] is_18_ = aClass283_8716.method2638(-516804479);
+		int[][] is_17_ = map.method2656((byte) 11);
+		int[][] is_18_ = map.method2638(-516804479);
 		int i_19_;
 		if (0 == anInt8724 * 1596783995)
 			i_19_ = Class87.aClass94Array794.length;
@@ -917,7 +917,7 @@ public final class client extends Class291 {
 					continue;
 			}
 			int i_21_ = class365_sub1_sub1_sub2.getSize();
-			Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+			SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 			if ((i_21_ & 0x1) == 0) {
 				if (((int) class217.aFloat2451 & 0x1ff) != 0 || 0 != ((int) class217.aFloat2454 & 0x1ff))
 					continue;
@@ -953,8 +953,8 @@ public final class client extends Class291 {
 	static final void method2797(int i) {
 		int i_31_ = Class10.anInt129 * 1168366243;
 		int[] is = Class10.anIntArray135;
-		int[][] is_32_ = aClass283_8716.method2656((byte) 11);
-		int[][] is_33_ = aClass283_8716.method2638(-516804479);
+		int[][] is_32_ = map.method2656((byte) 11);
+		int[][] is_33_ = map.method2638(-516804479);
 		int i_34_;
 		if (anInt8724 * 1596783995 == 0)
 			i_34_ = Class87.aClass94Array794.length;
@@ -981,7 +981,7 @@ public final class client extends Class291 {
 			}
 			class365_sub1_sub1_sub2.anInt10069 = 0;
 			int i_36_ = class365_sub1_sub1_sub2.getSize();
-			Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+			SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 			if ((i_36_ & 0x1) == 0) {
 				if (0 != ((int) class217.aFloat2451 & 0x1ff) || ((int) class217.aFloat2454 & 0x1ff) != 0) {
 					class365_sub1_sub1_sub2.aBoolean10123 = false;
@@ -1024,7 +1024,7 @@ public final class client extends Class291 {
 			}
 			class365_sub1_sub1_sub2.aBoolean10123 = false;
 			class365_sub1_sub1_sub2.method4341(class217.aFloat2451, (float) Class356.method4271((int) class217.aFloat2451, (int) class217.aFloat2454, class365_sub1_sub1_sub2.plane, -1247004114), class217.aFloat2454);
-			aClass283_8716.method2675(-1611682495).method4022(class365_sub1_sub1_sub2, true, (byte) 0);
+			map.method2675(-1611682495).method4022(class365_sub1_sub1_sub2, true, (byte) 0);
 		}
 	}
 
@@ -1034,7 +1034,7 @@ public final class client extends Class291 {
 			NPC class365_sub1_sub1_sub2_sub1 = ((NPC) (((Class298_Sub29) aClass437_8696.method5812((long) anIntArray8699[i])).anObject7366));
 			if (class365_sub1_sub1_sub2_sub1.aBoolean10123 && class365_sub1_sub1_sub2_sub1.method4427((byte) 1) != -1) {
 				int i_46_ = ((class365_sub1_sub1_sub2_sub1.getSize() - 1) * 256 + 252);
-				Class217 class217 = class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599;
+				SceneObjectPosition class217 = class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599;
 				int i_47_ = (int) class217.aFloat2451 - i_46_ >> 9;
 				int i_48_ = (int) class217.aFloat2454 - i_46_ >> 9;
 				Entity class365_sub1_sub1_sub2 = Class391.method4886((class365_sub1_sub1_sub2_sub1.plane), i_47_, i_48_, (byte) 88);
@@ -1082,14 +1082,14 @@ public final class client extends Class291 {
 					continue;
 			}
 			int i_52_ = class365_sub1_sub1_sub2.getSize();
-			Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+			SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 			if (0 == (i_52_ & 0x1)) {
 				if (((int) class217.aFloat2451 & 0x1ff) == 0 && 0 == ((int) class217.aFloat2454 & 0x1ff))
 					continue;
 			} else if (((int) class217.aFloat2451 & 0x1ff) == 256 && 256 == ((int) class217.aFloat2454 & 0x1ff))
 				continue;
 			class365_sub1_sub1_sub2.method4341(class217.aFloat2451, (float) Class356.method4271((int) class217.aFloat2451, (int) class217.aFloat2454, class365_sub1_sub1_sub2.plane, -1692137069), class217.aFloat2454);
-			aClass283_8716.method2675(-1611682495).method4022(class365_sub1_sub1_sub2, true, (byte) 0);
+			map.method2675(-1611682495).method4022(class365_sub1_sub1_sub2, true, (byte) 0);
 		}
 	}
 
@@ -1257,9 +1257,9 @@ public final class client extends Class291 {
 							if (class105.anInt1145 * 907611645 != 0) {
 								if ((-451364727 * IComponentDefinition.anInt1269 == 907611645 * class105.anInt1145) || (907611645 * class105.anInt1145 == IComponentDefinition.anInt1123 * -1997023283)) {
 									aClass105_8819 = class105;
-									Class385 class385 = aClass283_8716.method2640((byte) -11).method4316((byte) -85);
-									if ((class385.method4710((byte) -111) != null) && !Class62.aClass248_612.method2380(16777472))
-										class385.method4710((byte) -126).method2588(Class373.aClass_ra4071, class105.anInt1162 * 457937409, Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub19_7567.method5695(-1741518508), 1359487645);
+									AtmosphereType class385 = map.method2640((byte) -11).method4316((byte) -85);
+									if ((class385.getSkybox((byte) -111) != null) && !Class62.aClass248_612.method2380(16777472))
+										class385.getSkybox((byte) -126).method2588(Class373.aClass_ra4071, class105.anInt1162 * 457937409, Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub19_7567.method5695(-1741518508), 1359487645);
 									if ((IComponentDefinition.anInt1269 * -451364727 == class105.anInt1145 * 907611645) && !Class436.aBoolean5478 && i_59_ >= i_64_ && i_60_ >= i_65_ && i_59_ < i_66_ && i_60_ < i_67_) {
 										Class98.method1055((Class373.aClass_ra4071), i_59_, i_60_, 132816560);
 										for (Class302_Sub5 class302_sub5 = ((Class302_Sub5) (aClass442_8781.method5868(-16777216))); null != class302_sub5; class302_sub5 = ((Class302_Sub5) (aClass442_8781.method5872(266564001)))) {
@@ -1317,7 +1317,7 @@ public final class client extends Class291 {
 												i_95_ = (anInt8755 * 1818837461 >> 9) - (i_93_ >> 2);
 											} else {
 												int i_96_ = ((Class287.myPlayer.getSize()) - 1) * 256;
-												Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
+												SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
 												i_94_ = ((i_92_ >> 2) + (((int) (class217.aFloat2451) - i_96_) >> 9));
 												i_95_ = (((int) (class217.aFloat2454) - i_96_) >> 9) - (i_93_ >> 2);
 											}
@@ -1781,7 +1781,7 @@ public final class client extends Class291 {
 		anInt8713 = 0;
 		aBoolean8714 = false;
 		aClass404_8715 = new Class404();
-		aClass283_8716 = new Class283(false);
+		map = new GameMap(false);
 		aBoolean8717 = false;
 		anObject8718 = new Object();
 		anObject8661 = new Object();
@@ -2169,7 +2169,7 @@ public final class client extends Class291 {
 			if (aString8927 == null)
 				aString8927 = "";
 			Class311 class311 = new Class311(775068819 * anInt8794, -791746413 * anInt8803, 351263031 * anInt8727, anInt8910 * -510898275, aClass411_8944.aString5322);
-			Class385.aClient4141 = this;
+			AtmosphereType.aClient4141 = this;
 			method2751(class311, aClass411_8944.aString5317, Class510.aClass444_6221.aString5607, 32 + 1286017487 * Class510.aClass444_6221.anInt5608, Class356.method4268(-1723932293), 718, 1, aBoolean8653, (byte) -31);
 		}
 	}
@@ -2195,7 +2195,7 @@ public final class client extends Class291 {
 			for (int i = 0; i < Class136.anIntArray6388.length; i++)
 				Class298_Sub37_Sub9_Sub2.aByteArrayArrayArray10001[i] = new byte[is_121_[i]][];
 		}
-		Class217.method2017(100);
+		SceneObjectPosition.method2017(100);
 		Class218.method2027(10);
 		Class298_Sub38.method3500(100, 2088368476);
 		Class315.method3838(100, -205571101);
@@ -2392,7 +2392,7 @@ public final class client extends Class291 {
 			if (aString8927 == null)
 				aString8927 = "";
 			Class311 class311 = new Class311(775068819 * anInt8794, -791746413 * anInt8803, 351263031 * anInt8727, anInt8910 * -510898275, aClass411_8944.aString5322);
-			Class385.aClient4141 = this;
+			AtmosphereType.aClient4141 = this;
 			method2751(class311, aClass411_8944.aString5317, Class510.aClass444_6221.aString5607, 32 + 1286017487 * Class510.aClass444_6221.anInt5608, Class356.method4268(-586316395), 718, 1, aBoolean8653, (byte) 80);
 		}
 	}
@@ -2418,7 +2418,7 @@ public final class client extends Class291 {
 			for (int i = 0; i < Class136.anIntArray6388.length; i++)
 				Class298_Sub37_Sub9_Sub2.aByteArrayArrayArray10001[i] = new byte[is_122_[i]][];
 		}
-		Class217.method2017(100);
+		SceneObjectPosition.method2017(100);
 		Class218.method2027(10);
 		Class298_Sub38.method3500(100, 230540177);
 		Class315.method3838(100, 945128656);
@@ -2482,7 +2482,7 @@ public final class client extends Class291 {
 			for (int i = 0; i < Class136.anIntArray6388.length; i++)
 				Class298_Sub37_Sub9_Sub2.aByteArrayArrayArray10001[i] = new byte[is_123_[i]][];
 		}
-		Class217.method2017(100);
+		SceneObjectPosition.method2017(100);
 		Class218.method2027(10);
 		Class298_Sub38.method3500(100, 643091682);
 		Class315.method3838(100, 1212945074);
@@ -2528,8 +2528,8 @@ public final class client extends Class291 {
 	public String method2803() {
 		String string = " ";
 		try {
-			Class341 class341 = aClass283_8716.method2628(681479919);
-			string = new StringBuilder().append(string).append(class341.gameSceneBaseX * -1760580017).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY).append(Class26.aString353).append(aClass283_8716.method2629(-2128021636)).append(Class26.aString353).append(aClass283_8716.method2630(-1076815167)).append(" ").toString();
+			Class341 class341 = map.method2628(681479919);
+			string = new StringBuilder().append(string).append(class341.gameSceneBaseX * -1760580017).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY).append(Class26.aString353).append(map.method2629(-2128021636)).append(Class26.aString353).append(map.method2630(-1076815167)).append(" ").toString();
 			if (Class287.myPlayer != null)
 				string = new StringBuilder().append(string).append(1855729883 * Class99.anInt952).append(Class26.aString353).append(-1760580017 * class341.gameSceneBaseX + (Class287.myPlayer.scenePositionXQueue[0])).append(Class26.aString353).append((Class287.myPlayer.scenePositionYQueue[0]) + class341.gameSceneBaseY * 283514611).append(" ").toString();
 			else
@@ -2594,8 +2594,8 @@ public final class client extends Class291 {
 	public String method2804() {
 		String string = " ";
 		try {
-			Class341 class341 = aClass283_8716.method2628(681479919);
-			string = new StringBuilder().append(string).append(class341.gameSceneBaseX * -1760580017).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY).append(Class26.aString353).append(aClass283_8716.method2629(-2102644604)).append(Class26.aString353).append(aClass283_8716.method2630(-955929187)).append(" ").toString();
+			Class341 class341 = map.method2628(681479919);
+			string = new StringBuilder().append(string).append(class341.gameSceneBaseX * -1760580017).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY).append(Class26.aString353).append(map.method2629(-2102644604)).append(Class26.aString353).append(map.method2630(-955929187)).append(" ").toString();
 			if (Class287.myPlayer != null)
 				string = new StringBuilder().append(string).append(1855729883 * Class99.anInt952).append(Class26.aString353).append(-1760580017 * class341.gameSceneBaseX + (Class287.myPlayer.scenePositionXQueue[0])).append(Class26.aString353).append((Class287.myPlayer.scenePositionYQueue[0]) + class341.gameSceneBaseY * 283514611).append(" ").toString();
 			else
@@ -2660,8 +2660,8 @@ public final class client extends Class291 {
 	public String method2805() {
 		String string = " ";
 		try {
-			Class341 class341 = aClass283_8716.method2628(681479919);
-			string = new StringBuilder().append(string).append(class341.gameSceneBaseX * -1760580017).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY).append(Class26.aString353).append(aClass283_8716.method2629(-1917252704)).append(Class26.aString353).append(aClass283_8716.method2630(-659381111)).append(" ").toString();
+			Class341 class341 = map.method2628(681479919);
+			string = new StringBuilder().append(string).append(class341.gameSceneBaseX * -1760580017).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY).append(Class26.aString353).append(map.method2629(-1917252704)).append(Class26.aString353).append(map.method2630(-659381111)).append(" ").toString();
 			if (Class287.myPlayer != null)
 				string = new StringBuilder().append(string).append(1855729883 * Class99.anInt952).append(Class26.aString353).append(-1760580017 * class341.gameSceneBaseX + (Class287.myPlayer.scenePositionXQueue[0])).append(Class26.aString353).append((Class287.myPlayer.scenePositionYQueue[0]) + class341.gameSceneBaseY * 283514611).append(" ").toString();
 			else
@@ -2799,7 +2799,7 @@ public final class client extends Class291 {
 					Class275.method2573(-123142149);
 					Class113.method1247(1876624858);
 				} else if (Class358.method4287(-1233866115 * anInt8752, -922237026))
-					aClass283_8716.method2672(-319147356);
+					map.method2672(-319147356);
 				if (Class413.method5584(anInt8752 * -1233866115, 1989496806) && !Class358.method4287(-1233866115 * anInt8752, -1179252225)) {
 					method2809(-2054858271);
 					Class288_Sub1.method2730(-1664553677);
@@ -2876,8 +2876,8 @@ public final class client extends Class291 {
 		try {
 			String string = " ";
 			try {
-				Class341 class341 = aClass283_8716.method2628(681479919);
-				string = new StringBuilder().append(string).append(class341.gameSceneBaseX * -1760580017).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY).append(Class26.aString353).append(aClass283_8716.method2629(-2133877490)).append(Class26.aString353).append(aClass283_8716.method2630(-932420747)).append(" ").toString();
+				Class341 class341 = map.method2628(681479919);
+				string = new StringBuilder().append(string).append(class341.gameSceneBaseX * -1760580017).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY).append(Class26.aString353).append(map.method2629(-2133877490)).append(Class26.aString353).append(map.method2630(-932420747)).append(" ").toString();
 				if (Class287.myPlayer != null)
 					string = new StringBuilder().append(string).append(1855729883 * Class99.anInt952).append(Class26.aString353).append(-1760580017 * class341.gameSceneBaseX + (Class287.myPlayer.scenePositionXQueue[0])).append(Class26.aString353).append((Class287.myPlayer.scenePositionYQueue[0]) + class341.gameSceneBaseY * 283514611).append(" ").toString();
 				else
@@ -2958,9 +2958,9 @@ public final class client extends Class291 {
 	}
 
 	static final void method2807() {
-		int[][] is = aClass283_8716.method2656((byte) 11);
-		int i = aClass283_8716.method2629(-1956838281);
-		int i_144_ = aClass283_8716.method2630(-848747876);
+		int[][] is = map.method2656((byte) 11);
+		int i = map.method2629(-1956838281);
+		int i_144_ = map.method2630(-848747876);
 		for (int i_145_ = 0; i_145_ < i; i_145_++) {
 			int[] is_146_ = is[i_145_];
 			for (int i_147_ = 0; i_147_ < i_144_; i_147_++)
@@ -2989,7 +2989,7 @@ public final class client extends Class291 {
 			for (int i = 0; i < Class136.anIntArray6388.length; i++)
 				Class298_Sub37_Sub9_Sub2.aByteArrayArrayArray10001[i] = new byte[is_148_[i]][];
 		}
-		Class217.method2017(100);
+		SceneObjectPosition.method2017(100);
 		Class218.method2027(10);
 		Class298_Sub38.method3500(100, -621093418);
 		Class315.method3838(100, 1820171138);
@@ -3092,13 +3092,13 @@ public final class client extends Class291 {
 								int toY = ((npc.scenePositionYQueue[0]) + yDiff);
 								if (toX < 0)
 									toX = 0;
-								else if (toX > (aClass283_8716.method2629(-2117729189) - size - 1))
-									toX = (aClass283_8716.method2629(-1866331716) - size - 1);
+								else if (toX > (map.method2629(-2117729189) - size - 1))
+									toX = (map.method2629(-1866331716) - size - 1);
 								if (toY < 0)
 									toY = 0;
-								else if (toY > (aClass283_8716.method2630(519906067) - size - 1))
-									toY = (aClass283_8716.method2630(-1049497824) - size - 1);
-								int steps = (Class298_Sub37.calculateRoute((npc.scenePositionXQueue[0]), (npc.scenePositionYQueue[0]), size, Class209.setExtraRoutefinderData(toX, toY, size, size, 0), (aClass283_8716.getSceneClipDataPlane((npc.plane))), true, calculatedScenePositionXs, calculatedScenePositionYs));
+								else if (toY > (map.method2630(519906067) - size - 1))
+									toY = (map.method2630(-1049497824) - size - 1);
+								int steps = (Class298_Sub37.calculateRoute((npc.scenePositionXQueue[0]), (npc.scenePositionYQueue[0]), size, Class209.setExtraRoutefinderData(toX, toY, size, size, 0), (map.getSceneClipDataPlane((npc.plane))), true, calculatedScenePositionXs, calculatedScenePositionYs));
 								if (steps > 0) {
 									if (steps > 9)
 										steps = 9;
@@ -3129,8 +3129,8 @@ public final class client extends Class291 {
 					Class298_Sub39.method3506(-887753775);
 				else
 					Class397.method4913((byte) 53);
-				if (-1740717447 * Class367.anInt4000 >> 9 < 14 || (-1740717447 * Class367.anInt4000 >> 9 >= aClass283_8716.method2629(-2005655322) - 14) || Class146.anInt1575 * -299812095 >> 9 < 14 || (-299812095 * Class146.anInt1575 >> 9 >= aClass283_8716.method2630(-281479847) - 14))
-					aClass283_8716.sendMapScene(new Class267((Class266.aClass266_2848), null), -1991819579);
+				if (-1740717447 * Class367.anInt4000 >> 9 < 14 || (-1740717447 * Class367.anInt4000 >> 9 >= map.method2629(-2005655322) - 14) || Class146.anInt1575 * -299812095 >> 9 < 14 || (-299812095 * Class146.anInt1575 >> 9 >= map.method2630(-281479847) - 14))
+					map.sendMapScene(new Class267((Class266.aClass266_2848), null), -1991819579);
 			}
 			for (;;) {
 				Class298_Sub46 class298_sub46 = (Class298_Sub46) aClass453_8660.method5936(2110977409);
@@ -3577,7 +3577,7 @@ public final class client extends Class291 {
 			if (aString8927 == null)
 				aString8927 = "";
 			Class311 class311 = new Class311(775068819 * anInt8794, -791746413 * anInt8803, 351263031 * anInt8727, anInt8910 * -510898275, aClass411_8944.aString5322);
-			Class385.aClient4141 = this;
+			AtmosphereType.aClient4141 = this;
 			method2751(class311, aClass411_8944.aString5317, Class510.aClass444_6221.aString5607, 32 + 1286017487 * Class510.aClass444_6221.anInt5608, Class356.method4268(-1477238389), 718, 1, aBoolean8653, (byte) 80);
 		}
 	}
@@ -3736,7 +3736,7 @@ public final class client extends Class291 {
 			if (aString8927 == null)
 				aString8927 = "";
 			Class311 class311 = new Class311(775068819 * anInt8794, -791746413 * anInt8803, 351263031 * anInt8727, anInt8910 * -510898275, aClass411_8944.aString5322);
-			Class385.aClient4141 = this;
+			AtmosphereType.aClient4141 = this;
 			method2751(class311, aClass411_8944.aString5317, Class510.aClass444_6221.aString5607, 32 + 1286017487 * Class510.aClass444_6221.anInt5608, Class356.method4268(1155058529), 718, 1, aBoolean8653, (byte) -51);
 		}
 	}
@@ -3895,7 +3895,7 @@ public final class client extends Class291 {
 			if (aString8927 == null)
 				aString8927 = "";
 			Class311 class311 = new Class311(775068819 * anInt8794, -791746413 * anInt8803, 351263031 * anInt8727, anInt8910 * -510898275, aClass411_8944.aString5322);
-			Class385.aClient4141 = this;
+			AtmosphereType.aClient4141 = this;
 			method2751(class311, aClass411_8944.aString5317, Class510.aClass444_6221.aString5607, 32 + 1286017487 * Class510.aClass444_6221.anInt5608, Class356.method4268(-1507101618), 718, 1, aBoolean8653, (byte) -75);
 		}
 	}
@@ -4054,7 +4054,7 @@ public final class client extends Class291 {
 			if (aString8927 == null)
 				aString8927 = "";
 			Class311 class311 = new Class311(775068819 * anInt8794, -791746413 * anInt8803, 351263031 * anInt8727, anInt8910 * -510898275, aClass411_8944.aString5322);
-			Class385.aClient4141 = this;
+			AtmosphereType.aClient4141 = this;
 			method2751(class311, aClass411_8944.aString5317, Class510.aClass444_6221.aString5607, 32 + 1286017487 * Class510.aClass444_6221.anInt5608, Class356.method4268(1164456300), 718, 1, aBoolean8653, (byte) 22);
 		}
 	}
@@ -4213,7 +4213,7 @@ public final class client extends Class291 {
 			if (aString8927 == null)
 				aString8927 = "";
 			Class311 class311 = new Class311(775068819 * anInt8794, -791746413 * anInt8803, 351263031 * anInt8727, anInt8910 * -510898275, aClass411_8944.aString5322);
-			Class385.aClient4141 = this;
+			AtmosphereType.aClient4141 = this;
 			method2751(class311, aClass411_8944.aString5317, Class510.aClass444_6221.aString5607, 32 + 1286017487 * Class510.aClass444_6221.anInt5608, Class356.method4268(-418428626), 718, 1, aBoolean8653, (byte) 29);
 		}
 	}

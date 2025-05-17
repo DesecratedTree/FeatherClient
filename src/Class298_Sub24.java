@@ -35,7 +35,7 @@ public abstract class Class298_Sub24 extends Class298 {
 
 	abstract void method3079();
 
-	public static void method3080(CacheIndex class243, CacheIndex class243_0_, CacheIndex class243_1_, CacheIndex class243_2_, int i) {
+	public static void method3080(Js5 class243, Js5 class243_0_, Js5 class243_1_, Js5 class243_2_, int i) {
 		try {
 			Class270.aClass243_2894 = class243;
 			RuntimeException_Sub3.aClass243_6310 = class243_0_;

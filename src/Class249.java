@@ -2,9 +2,9 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public class Class249 implements Interface_ma {
-	CacheIndex aClass243_6460;
-	CacheIndex aClass243_6461;
+public class Class249 implements MaterialRawList {
+	Js5 aClass243_6460;
+	Js5 aClass243_6461;
 	Class53[] aClass53Array6462;
 	int anInt6463;
 	Class354 aClass354_6464 = new Class354(256);
@@ -39,7 +39,7 @@ public class Class249 implements Interface_ma {
 		}
 	}
 
-	public Class249(CacheIndex class243, CacheIndex class243_3_, CacheIndex class243_4_) {
+	public Class249(Js5 class243, Js5 class243_3_, Js5 class243_4_) {
 		((Class249) this).aClass243_6461 = class243_3_;
 		((Class249) this).aClass243_6460 = class243_4_;
 		RsByteBuffer class298_sub53 = new RsByteBuffer(class243.getFileFromArchive(0, 0, (byte) -117));
@@ -300,7 +300,7 @@ public class Class249 implements Interface_ma {
 				Class128.method1435(false, class403, -363590707);
 				break;
 			case 456:
-				Class277.method2596(class403, -778701321);
+				Skybox.method2596(class403, -778701321);
 				break;
 			case 869:
 				Class422_Sub2.method5630(class403, -2046295095);
@@ -582,7 +582,7 @@ public class Class249 implements Interface_ma {
 				Class109.method1156(class403, (byte) 7);
 				break;
 			case 864:
-				Class277.method2597(class403, (byte) 127);
+				Skybox.method2597(class403, (byte) 127);
 				break;
 			case 581:
 				Class339.method4124(class403, 621780015);
@@ -909,7 +909,7 @@ public class Class249 implements Interface_ma {
 				Class330.method4004(class403, -638149953);
 				break;
 			case 207:
-				Class66.method768(class403, -1578658682);
+				EnvironmentMap.method768(class403, -1578658682);
 				break;
 			case 675:
 				Class194.method1865(class403, -1852366243);
@@ -1068,7 +1068,7 @@ public class Class249 implements Interface_ma {
 				Class298_Sub2.method2848(class403, -80531025);
 				break;
 			case 220:
-				Class277.method2595(class403, (byte) 94);
+				Skybox.method2595(class403, (byte) 94);
 				break;
 			case 760:
 				Class151.method1645(class403, (byte) 0);
@@ -1131,7 +1131,7 @@ public class Class249 implements Interface_ma {
 				Class94.method1023(class403, 2139400204);
 				break;
 			case 486:
-				Class385.method4713(class403, -1987644438);
+				AtmosphereType.method4713(class403, -1987644438);
 				break;
 			case 979:
 				Class352.method4247(class403, (byte) 12);
@@ -1266,7 +1266,7 @@ public class Class249 implements Interface_ma {
 				GraphicsToolkit.method5193(class403, (byte) 13);
 				break;
 			case 466:
-				Class385.method4715(class403, -1070853222);
+				AtmosphereType.method4715(class403, -1070853222);
 				break;
 			case 726:
 				Class68.method780(class403, 899226295);
@@ -1425,7 +1425,7 @@ public class Class249 implements Interface_ma {
 				Class361.method4303(class403, -1628700959);
 				break;
 			case 705:
-				Class364.method4332(class403, -203050393);
+				AtmosphereConditions.method4332(class403, -203050393);
 				break;
 			case 244:
 				IncommingPacket.method1904(class403, (byte) 127);
@@ -1794,7 +1794,7 @@ public class Class249 implements Interface_ma {
 				Class231.method2129(class403, -608870658);
 				break;
 			case 943:
-				Class66.method765(class403, 2041694879);
+				EnvironmentMap.method765(class403, 2041694879);
 				break;
 			case 117:
 				Class190.method1856(class403, -1932663501);
@@ -2193,7 +2193,7 @@ public class Class249 implements Interface_ma {
 				Class190.method1858(class403, -1921461819);
 				break;
 			case 738:
-				Class66.method766(class403, (byte) -92);
+				EnvironmentMap.method766(class403, (byte) -92);
 				break;
 			case 250:
 				Class90.method997(class403, -1632544821);
@@ -2292,7 +2292,7 @@ public class Class249 implements Interface_ma {
 				Class126.method1404(class403, (byte) 0);
 				break;
 			case 40:
-				Class364.method4335(class403, (byte) 14);
+				AtmosphereConditions.method4335(class403, (byte) 14);
 				break;
 			case 737:
 				Class311.method3819(class403, 1643819642);
@@ -2307,7 +2307,7 @@ public class Class249 implements Interface_ma {
 				Class127.method1420(class403, 1314670869);
 				break;
 			case 77:
-				Class277.method2600(class403, (byte) 99);
+				Skybox.method2600(class403, (byte) 99);
 				break;
 			case 166:
 				Class272.method2554(class403, -766298444);
@@ -2634,7 +2634,7 @@ public class Class249 implements Interface_ma {
 				Class298_Sub20.method3053(class403, -57827276);
 				break;
 			case 70:
-				Class283.method2676(class403, 16711935);
+				GameMap.method2676(class403, 16711935);
 				break;
 			case 879:
 				Class447.method5906(class403, 1791596559);
@@ -2741,7 +2741,7 @@ public class Class249 implements Interface_ma {
 				Class255.method2434(class403, 2010644047);
 				break;
 			case 950:
-				Class364.method4333(class403, 2001824513);
+				AtmosphereConditions.method4333(class403, 2001824513);
 				break;
 			case 279:
 				Class516.method6303(class403, (byte) 59);
@@ -2912,7 +2912,7 @@ public class Class249 implements Interface_ma {
 				Class52_Sub2.method588(class403, (short) -88);
 				break;
 			case 690:
-				CacheIndex.method2318(class403, 1797236687);
+				Js5.method2318(class403, 1797236687);
 				break;
 			case 812:
 				Class298_Sub17_Sub4.method2925(class403, -2116277832);

@@ -59,8 +59,8 @@ public class Class299 {
 	void method3678(Class331 class331, int i) {
 		try {
 			((Class299) this).aLinkedList3198 = new LinkedList();
-			Class244 class244 = client.aClass283_8716.method2654(1102233653);
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			Class244 class244 = client.map.method2654(1102233653);
+			Class341 class341 = client.map.method2628(681479919);
 			Class341 class341_3_ = new Class341(1855729883 * Class99.anInt952, ((Class299) this).anIntArray3194[0], ((Class299) this).anIntArray3196[0]);
 			for (int i_4_ = 1; i_4_ < ((Class299) this).anInt3193 * -755722761; i_4_++) {
 				Class341 class341_5_ = new Class341(1855729883 * Class99.anInt952, ((Class299) this).anIntArray3194[i_4_], ((Class299) this).anIntArray3196[i_4_]);

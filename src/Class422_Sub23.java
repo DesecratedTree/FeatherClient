@@ -73,11 +73,11 @@ public class Class422_Sub23 extends Class422 {
 	static final void method5710(int i) {
 		try {
 			if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub17_7565.method5689(-2013953489) == 2) {
-				byte[][][] is = client.aClass283_8716.method2642(899241973);
+				byte[][][] is = client.map.method2642(899241973);
 				byte i_2_ = (byte) (-1953789277 * client.anInt8777 - 4 & 0xff);
-				int i_3_ = (-1953789277 * client.anInt8777 % client.aClass283_8716.method2629(-2129604944));
+				int i_3_ = (-1953789277 * client.anInt8777 % client.map.method2629(-2129604944));
 				for (int i_4_ = 0; i_4_ < 4; i_4_++) {
-					for (int i_5_ = 0; i_5_ < client.aClass283_8716.method2630(-605085367); i_5_++)
+					for (int i_5_ = 0; i_5_ < client.map.method2630(-605085367); i_5_++)
 						is[i_4_][i_3_][i_5_] = i_2_;
 				}
 				if (Class99.anInt952 * 1855729883 != 3) {
@@ -88,11 +88,11 @@ public class Class422_Sub23 extends Class422 {
 						client.anIntArray8797[i_6_] = 1000000;
 						client.anIntArray8641[i_6_] = 0;
 					}
-					Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
+					SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
 					int i_7_ = (int) class217.aFloat2451;
 					int i_8_ = (int) class217.aFloat2454;
-					Class244 class244 = client.aClass283_8716.method2654(688600578);
-					Class331 class331 = client.aClass283_8716.method2675(-1611682495);
+					Class244 class244 = client.map.method2654(688600578);
+					Class331 class331 = client.map.method2675(-1611682495);
 					while_15_: do {
 						if (Class298_Sub1.anInt7164 * -863531439 == 4 || Class100.anInt1081 * 1329981847 != -1) {
 							if (-863531439 * Class298_Sub1.anInt7164 != 4) {
@@ -116,8 +116,8 @@ public class Class422_Sub23 extends Class422 {
 									i_14_ = i_12_ - i_10_;
 								else
 									i_14_ = i_10_ - i_12_;
-								if (0 == i_13_ && 0 == i_14_ || i_13_ <= -client.aClass283_8716.method2629(-1952640446) || i_13_ >= client.aClass283_8716.method2629(-2135239698) || i_14_ <= -client.aClass283_8716.method2630(115807107) || i_14_ >= client.aClass283_8716.method2630(-1212701794)) {
-									Class341 class341 = client.aClass283_8716.method2628(681479919);
+								if (0 == i_13_ && 0 == i_14_ || i_13_ <= -client.map.method2629(-1952640446) || i_13_ >= client.map.method2629(-2135239698) || i_14_ <= -client.map.method2630(115807107) || i_14_ >= client.map.method2630(-1212701794)) {
+									Class341 class341 = client.map.method2628(681479919);
 									IPAddress.method6062(new StringBuilder().append(i_9_).append(Class26.aString353).append(i_10_).append(" ").append(i_11_).append(Class26.aString353).append(i_12_).append(" ").append(class341.gameSceneBaseX * -1760580017).append(Class26.aString353).append(class341.gameSceneBaseY * 283514611).toString(), new RuntimeException(), (short) -16769);
 									break;
 								}

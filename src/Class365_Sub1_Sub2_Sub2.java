@@ -16,7 +16,7 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 
 	public Class334 method4358(GraphicsToolkit class_ra, byte i) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			if (((Class365_Sub1_Sub2_Sub2) this).aClass334_9920 == null)
 				((Class365_Sub1_Sub2_Sub2) this).aClass334_9920 = Class472.method6063((int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, method4501(class_ra, 0, (byte) 68), 2029931481);
 			return ((Class365_Sub1_Sub2_Sub2) this).aClass334_9920;
@@ -67,7 +67,7 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 				else
 					class_xa_2_ = null;
 			}
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			return (class432.method5785(class_ra, i, Class424.aClass424_6610.anInt6613 * -1976050083, ((Class365_Sub1_Sub2_Sub2) this).aByte9917, class_xa, class_xa_2_, (int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, bool, null, -474476261));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("wo.bl(").append(')').toString());
@@ -191,7 +191,7 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 				class_na = ((Class365_Sub1_Sub2_Sub2) this).aClass_na9914;
 				((Class365_Sub1_Sub2_Sub2) this).aClass_na9914 = null;
 			}
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			if (class_na != null)
 				aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 174451452);
 		} catch (RuntimeException runtimeexception) {
@@ -238,7 +238,7 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 			class_na = ((Class365_Sub1_Sub2_Sub2) this).aClass_na9914;
 			((Class365_Sub1_Sub2_Sub2) this).aClass_na9914 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (null != class_na)
 			aClass331_7722.method4055(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, -1115505976);
 	}
@@ -253,7 +253,7 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 			class_na = ((Class365_Sub1_Sub2_Sub2) this).aClass_na9914;
 			((Class365_Sub1_Sub2_Sub2) this).aClass_na9914 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (class_na != null)
 			aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 1644514804);
 	}
@@ -268,7 +268,7 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 			class_na = ((Class365_Sub1_Sub2_Sub2) this).aClass_na9914;
 			((Class365_Sub1_Sub2_Sub2) this).aClass_na9914 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (class_na != null)
 			aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 710992193);
 	}
@@ -294,7 +294,7 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 			if (((Class365_Sub1_Sub2_Sub2) this).aBoolean9912 || class432.aBoolean5441) {
 				((Class365_Sub1_Sub2_Sub2) this).aClass387_9913 = ((Class365_Sub1_Sub2_Sub2) this).aClass387_9913.method4755((byte) 0, i_15_, false);
 				if (class432.aBoolean5441) {
-					Class287 class287 = client.aClass283_8716.method2632(-1945230052);
+					Class287 class287 = client.map.method2632(-1945230052);
 					((Class365_Sub1_Sub2_Sub2) this).aClass387_9913.PA(1599271859 * class287.anInt3096, class287.anInt3097 * 1630923113, -1560648831 * class287.anInt3098, -57569897 * class287.anInt3099);
 				}
 			}
@@ -315,14 +315,14 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 	}
 
 	public Class334 method4367(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (((Class365_Sub1_Sub2_Sub2) this).aClass334_9920 == null)
 			((Class365_Sub1_Sub2_Sub2) this).aClass334_9920 = Class472.method6063((int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, method4501(class_ra, 0, (byte) 71), 1982463178);
 		return ((Class365_Sub1_Sub2_Sub2) this).aClass334_9920;
 	}
 
 	public Class334 method4368(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (((Class365_Sub1_Sub2_Sub2) this).aClass334_9920 == null)
 			((Class365_Sub1_Sub2_Sub2) this).aClass334_9920 = Class472.method6063((int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, method4501(class_ra, 0, (byte) 44), 2033804861);
 		return ((Class365_Sub1_Sub2_Sub2) this).aClass334_9920;
@@ -410,7 +410,7 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 			class_na = ((Class365_Sub1_Sub2_Sub2) this).aClass_na9914;
 			((Class365_Sub1_Sub2_Sub2) this).aClass_na9914 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (class_na != null)
 			aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 193928700);
 	}
@@ -443,7 +443,7 @@ public class Class365_Sub1_Sub2_Sub2 extends Class365_Sub1_Sub2 implements Inter
 				class_na = ((Class365_Sub1_Sub2_Sub2) this).aClass_na9914;
 				((Class365_Sub1_Sub2_Sub2) this).aClass_na9914 = null;
 			}
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			if (null != class_na)
 				aClass331_7722.method4055(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, -412237236);
 		} catch (RuntimeException runtimeexception) {

@@ -6,7 +6,7 @@ public class Class133 {
 	static Class133 aClass133_1509;
 	static Class133 aClass133_1510 = new Class133();
 	static Class133 aClass133_1511 = new Class133();
-	public static CacheIndex aClass243_1512;
+	public static Js5 aClass243_1512;
 
 	public int method1482(int i, int i_0_, int i_1_) {
 		try {
@@ -73,17 +73,17 @@ public class Class133 {
 			int i_3_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
 			int i_4_ = i_3_ >> 14 & 0x3fff;
 			int i_5_ = i_3_ & 0x3fff;
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			Class341 class341 = client.map.method2628(681479919);
 			i_4_ -= -1760580017 * class341.gameSceneBaseX;
 			if (i_4_ < 0)
 				i_4_ = 0;
-			else if (i_4_ >= client.aClass283_8716.method2629(-1870653657))
-				i_4_ = client.aClass283_8716.method2629(-2106000427);
+			else if (i_4_ >= client.map.method2629(-1870653657))
+				i_4_ = client.map.method2629(-2106000427);
 			i_5_ -= class341.gameSceneBaseY * 283514611;
 			if (i_5_ < 0)
 				i_5_ = 0;
-			else if (i_5_ >= client.aClass283_8716.method2630(787275205))
-				i_5_ = client.aClass283_8716.method2630(11403406);
+			else if (i_5_ >= client.map.method2630(787275205))
+				i_5_ = client.map.method2630(11403406);
 			client.anInt8753 = 672497503 * ((i_4_ << 9) + 256);
 			client.anInt8755 = 957476733 * ((i_5_ << 9) + 256);
 			Class298_Sub1.anInt7164 = -1469516446;

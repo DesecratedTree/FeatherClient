@@ -1873,7 +1873,7 @@ public class Class387_Sub3 extends Class387 {
 	}
 
 	public void W(short i, short i_465_) {
-		Interface_ma interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
 		for (int i_466_ = 0; i_466_ < ((Class387_Sub3) this).anInt7916; i_466_++) {
 			if (((Class387_Sub3) this).aShortArray7923[i_466_] == i)
 				((Class387_Sub3) this).aShortArray7923[i_466_] = i_465_;
@@ -2533,7 +2533,7 @@ public class Class387_Sub3 extends Class387 {
 					class137.aClass217_1515.method2007((((Class387_Sub3) this).aClass_ra_Sub3_7894.aFloat8291 * (((Class387_Sub3) this).aClass_ra_Sub3_7894.aFloat8362)), (((Class387_Sub3) this).aClass_ra_Sub3_7894.aFloat8291 * (((Class387_Sub3) this).aClass_ra_Sub3_7894.aFloat8289)), (((Class387_Sub3) this).aClass_ra_Sub3_7894.aFloat8291 * (((Class387_Sub3) this).aClass_ra_Sub3_7894.aFloat8290)));
 					if (((Class387_Sub3) this).aClass_ra_Sub3_7894.anInt8295 > 0) {
 						i = (((Class387_Sub3) this).aClass_ra_Sub3_7894.anInt8295);
-						Class217 class217 = (((Class_ra_Sub3) ((Class387_Sub3) this).aClass_ra_Sub3_7894).aClass217_8238);
+						SceneObjectPosition class217 = (((Class_ra_Sub3) ((Class387_Sub3) this).aClass_ra_Sub3_7894).aClass217_8238);
 						for (int i_629_ = 0; i_629_ < i; i_629_++) {
 							Class298_Sub10 class298_sub10 = (((Class387_Sub3) this).aClass_ra_Sub3_7894.aClass298_Sub10Array8286[i_629_]);
 							int i_630_ = class298_sub10.method2898(-1700557017);
@@ -6347,7 +6347,7 @@ public class Class387_Sub3 extends Class387 {
 	}
 
 	public void du(short i, short i_1785_) {
-		Interface_ma interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
 		for (int i_1786_ = 0; i_1786_ < ((Class387_Sub3) this).anInt7916; i_1786_++) {
 			if (((Class387_Sub3) this).aShortArray7923[i_1786_] == i)
 				((Class387_Sub3) this).aShortArray7923[i_1786_] = i_1785_;
@@ -6381,7 +6381,7 @@ public class Class387_Sub3 extends Class387 {
 	}
 
 	public void dv(short i, short i_1792_) {
-		Interface_ma interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
 		for (int i_1793_ = 0; i_1793_ < ((Class387_Sub3) this).anInt7916; i_1793_++) {
 			if (((Class387_Sub3) this).aShortArray7923[i_1793_] == i)
 				((Class387_Sub3) this).aShortArray7923[i_1793_] = i_1792_;
@@ -6415,7 +6415,7 @@ public class Class387_Sub3 extends Class387 {
 	}
 
 	public void di(short i, short i_1799_) {
-		Interface_ma interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
 		for (int i_1800_ = 0; i_1800_ < ((Class387_Sub3) this).anInt7916; i_1800_++) {
 			if (((Class387_Sub3) this).aShortArray7923[i_1800_] == i)
 				((Class387_Sub3) this).aShortArray7923[i_1800_] = i_1799_;
@@ -6449,7 +6449,7 @@ public class Class387_Sub3 extends Class387 {
 	}
 
 	public void df(short i, short i_1806_) {
-		Interface_ma interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
 		for (int i_1807_ = 0; i_1807_ < ((Class387_Sub3) this).anInt7916; i_1807_++) {
 			if (((Class387_Sub3) this).aShortArray7923[i_1807_] == i)
 				((Class387_Sub3) this).aShortArray7923[i_1807_] = i_1806_;
@@ -6542,7 +6542,7 @@ public class Class387_Sub3 extends Class387 {
 
 	Class387_Sub3(Class_ra_Sub3 class_ra_sub3, Model class64, int i, int i_1831_, int i_1832_, int i_1833_) {
 		this(class_ra_sub3, i, i_1833_, true, false);
-		Interface_ma interface_ma = class_ra_sub3.anInterface_ma5299;
+		MaterialRawList interface_ma = class_ra_sub3.anInterface_ma5299;
 		int[] is = new int[class64.anInt621];
 		((Class387_Sub3) this).anIntArray7947 = new int[class64.anInt626 + 1];
 		for (int i_1834_ = 0; i_1834_ < class64.anInt621; i_1834_++) {
@@ -6617,7 +6617,7 @@ public class Class387_Sub3 extends Class387 {
 			Class387_Sub3 class387_sub3_1846_ = this;
 			((Class387_Sub3) class387_sub3_1846_).aBoolean7903 = (((Class387_Sub3) class387_sub3_1846_).aBoolean7903 | (class53 != null && (class53.aByte535 != 0 || class53.aByte509 != 0)));
 		}
-		Class277.method2598(ls, is, (byte) 8);
+		Skybox.method2598(ls, is, (byte) 8);
 		((Class387_Sub3) this).anInt7899 = class64.anInt614;
 		((Class387_Sub3) this).anInt7900 = class64.anInt626;
 		((Class387_Sub3) this).anIntArray7901 = class64.anIntArray616;
@@ -7273,7 +7273,7 @@ public class Class387_Sub3 extends Class387 {
 	}
 
 	public void dz(short i, short i_1987_) {
-		Interface_ma interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class387_Sub3) this).aClass_ra_Sub3_7894.anInterface_ma5299;
 		for (int i_1988_ = 0; i_1988_ < ((Class387_Sub3) this).anInt7916; i_1988_++) {
 			if (((Class387_Sub3) this).aShortArray7923[i_1988_] == i)
 				((Class387_Sub3) this).aShortArray7923[i_1988_] = i_1987_;

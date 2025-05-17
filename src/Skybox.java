@@ -2,57 +2,57 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public class Class277 {
+public class Skybox {
 	int anInt2939;
 	int anInt2940;
 	Class387 aClass387_2941;
-	Class276 aClass276_2942;
+	SkyboxFace aClass276_2942;
 	static int anInt2943 = 512;
 	Class320 aClass320_2944;
 	int anInt2945;
 	int anInt2946;
 	int anInt2947;
 	int anInt2948;
-	Class276[] aClass276Array2949;
+	SkyboxFace[] aClass276Array2949;
 	Class57 aClass57_2950;
 	int anInt2951;
 	int anInt2952;
-	Class276[] aClass276Array2953;
+	SkyboxFace[] aClass276Array2953;
 	boolean aBoolean2954;
-	static Interface_ma anInterface_ma2955;
+	static MaterialRawList anInterface_ma2955;
 	int anInt2956;
 	int anInt2957;
 	byte[] aByteArray2958;
 	boolean aBoolean2959;
-	Class277 aClass277_2960;
+	Skybox aClass277_2960;
 	int anInt2961;
 	int anInt2962;
 	int anInt2963 = -697848799;
 	static int anInt2964;
-	public static CacheIndex aClass243_2965;
+	public static Js5 js5_billboards;
 
 	public void method2583(int i, int i_0_, int i_1_) {
 		try {
-			if (((Class277) this).aBoolean2959) {
+			if (((Skybox) this).aBoolean2959) {
 				/* empty */
 			}
-			((Class277) this).anInt2961 = -1739514523 * (i * (i_0_ - -1519560585 * (((Class277) this).anInt2947)) / 255 + -1519560585 * ((Class277) this).anInt2947);
+			((Skybox) this).anInt2961 = -1739514523 * (i * (i_0_ - -1519560585 * (((Skybox) this).anInt2947)) / 255 + -1519560585 * ((Skybox) this).anInt2947);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lm.b(").append(')').toString());
 		}
 	}
 
-	public void method2584(Class277 class277_2_, int i) {
+	public void method2584(Skybox class277_2_, int i) {
 		try {
-			if (((Class277) this).aBoolean2959)
-				((Class277) this).anInt2947 = 967778107 * ((Class277) this).anInt2961;
-			else if (class277_2_ != null && ((Class277) class277_2_).aBoolean2959)
-				((Class277) this).anInt2947 = (-910867015 - 967778107 * ((Class277) class277_2_).anInt2961);
+			if (((Skybox) this).aBoolean2959)
+				((Skybox) this).anInt2947 = 967778107 * ((Skybox) this).anInt2961;
+			else if (class277_2_ != null && ((Skybox) class277_2_).aBoolean2959)
+				((Skybox) this).anInt2947 = (-910867015 - 967778107 * ((Skybox) class277_2_).anInt2961);
 			else
-				((Class277) this).anInt2947 = 0;
-			((Class277) this).aBoolean2959 = true;
-			((Class277) this).aClass277_2960 = class277_2_;
-			((Class277) this).anInt2961 = 0;
+				((Skybox) this).anInt2947 = 0;
+			((Skybox) this).aBoolean2959 = true;
+			((Skybox) this).aClass277_2960 = class277_2_;
+			((Skybox) this).anInt2961 = 0;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lm.p(").append(')').toString());
 		}
@@ -60,9 +60,9 @@ public class Class277 {
 
 	public void method2585(byte i) {
 		try {
-			((Class277) this).aBoolean2959 = false;
-			((Class277) this).aClass277_2960 = null;
-			((Class277) this).anInt2961 = 0;
+			((Skybox) this).aBoolean2959 = false;
+			((Skybox) this).aClass277_2960 = null;
+			((Skybox) this).anInt2961 = 0;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lm.i(").append(')').toString());
 		}
@@ -70,15 +70,15 @@ public class Class277 {
 
 	public boolean method2586(byte i) {
 		try {
-			return ((Class277) this).aBoolean2959;
+			return ((Skybox) this).aBoolean2959;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lm.k(").append(')').toString());
 		}
 	}
 
-	public Class277 method2587(int i) {
+	public Skybox method2587(int i) {
 		try {
-			return ((Class277) this).aClass277_2960;
+			return ((Skybox) this).aClass277_2960;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lm.d(").append(')').toString());
 		}
@@ -86,48 +86,48 @@ public class Class277 {
 
 	public boolean method2588(GraphicsToolkit class_ra, int i, int i_3_, int i_4_) {
 		try {
-			if (-51566561 * ((Class277) this).anInt2963 != i) {
-				((Class277) this).anInt2963 = 697848799 * i;
+			if (-51566561 * ((Skybox) this).anInt2963 != i) {
+				((Skybox) this).anInt2963 = 697848799 * i;
 				int i_5_ = Class422_Sub4.method5639(i, 1272872211);
 				if (i_5_ > 512)
 					i_5_ = 512;
 				if (i_5_ <= 0)
 					i_5_ = 1;
-				if (i_5_ != ((Class277) this).anInt2946 * -1994130525) {
-					((Class277) this).anInt2946 = i_5_ * 285085707;
-					((Class277) this).aClass57_2950 = null;
+				if (i_5_ != ((Skybox) this).anInt2946 * -1994130525) {
+					((Skybox) this).anInt2946 = i_5_ * 285085707;
+					((Skybox) this).aClass57_2950 = null;
 				}
-				if (null != ((Class277) this).aClass276Array2949) {
-					((Class277) this).anInt2945 = 0;
-					int[] is = new int[((Class277) this).aClass276Array2949.length];
-					for (int i_6_ = 0; i_6_ < ((Class277) this).aClass276Array2949.length; i_6_++) {
-						Class276 class276 = ((Class277) this).aClass276Array2949[i_6_];
-						if (class276.method2579(((Class277) this).anInt2957 * 1173193129, 796478559 * ((Class277) this).anInt2948, -226559159 * ((Class277) this).anInt2962, ((Class277) this).anInt2963 * -51566561)) {
-							is[((Class277) this).anInt2945 * 1858024591] = ((Class276) class276).anInt2919;
-							((Class277) this).aClass276Array2953[((((Class277) this).anInt2945 += 400255599) * 1858024591) - 1] = class276;
+				if (null != ((Skybox) this).aClass276Array2949) {
+					((Skybox) this).anInt2945 = 0;
+					int[] is = new int[((Skybox) this).aClass276Array2949.length];
+					for (int i_6_ = 0; i_6_ < ((Skybox) this).aClass276Array2949.length; i_6_++) {
+						SkyboxFace class276 = ((Skybox) this).aClass276Array2949[i_6_];
+						if (class276.method2579(((Skybox) this).anInt2957 * 1173193129, 796478559 * ((Skybox) this).anInt2948, -226559159 * ((Skybox) this).anInt2962, ((Skybox) this).anInt2963 * -51566561)) {
+							is[((Skybox) this).anInt2945 * 1858024591] = ((SkyboxFace) class276).anInt2919;
+							((Skybox) this).aClass276Array2953[((((Skybox) this).anInt2945 += 400255599) * 1858024591) - 1] = class276;
 						}
 					}
-					Class419.method5602(is, ((Class277) this).aClass276Array2953, 0, (1858024591 * ((Class277) this).anInt2945) - 1, -641027314);
+					Class419.method5602(is, ((Skybox) this).aClass276Array2953, 0, (1858024591 * ((Skybox) this).anInt2945) - 1, -641027314);
 				}
-				((Class277) this).aBoolean2954 = true;
+				((Skybox) this).aBoolean2954 = true;
 			}
 			boolean bool = false;
-			if (((Class277) this).aBoolean2954) {
-				((Class277) this).aBoolean2954 = false;
-				for (int i_7_ = ((Class277) this).anInt2945 * 1858024591 - 1; i_7_ >= 0; i_7_--) {
-					boolean bool_8_ = (((Class277) this).aClass276Array2953[i_7_].method2575(class_ra, ((Class277) this).aClass276_2942));
-					Class277 class277_9_ = this;
-					((Class277) class277_9_).aBoolean2954 = ((Class277) class277_9_).aBoolean2954 | !bool_8_;
+			if (((Skybox) this).aBoolean2954) {
+				((Skybox) this).aBoolean2954 = false;
+				for (int i_7_ = ((Skybox) this).anInt2945 * 1858024591 - 1; i_7_ >= 0; i_7_--) {
+					boolean bool_8_ = (((Skybox) this).aClass276Array2953[i_7_].method2575(class_ra, ((Skybox) this).aClass276_2942));
+					Skybox class277_9_ = this;
+					((Skybox) class277_9_).aBoolean2954 = ((Skybox) class277_9_).aBoolean2954 | !bool_8_;
 					bool |= bool_8_;
 				}
 			}
 			if (0 == i_3_ || !class_ra.method4996())
-				((Class277) this).aClass387_2941 = null;
-			else if (((Class277) this).aClass387_2941 == null && ((Class277) this).anInt2956 * -680590445 >= 0)
+				((Skybox) this).aClass387_2941 = null;
+			else if (((Skybox) this).aClass387_2941 == null && ((Skybox) this).anInt2956 * -680590445 >= 0)
 				method2589(class_ra, -1803183146);
-			if (((Class277) this).aClass277_2960 != null && ((Class277) this).aClass277_2960 != this) {
-				((Class277) this).aClass277_2960.method2585((byte) -39);
-				bool |= ((Class277) this).aClass277_2960.method2588(class_ra, i, i_3_, -136782694);
+			if (((Skybox) this).aClass277_2960 != null && ((Skybox) this).aClass277_2960 != this) {
+				((Skybox) this).aClass277_2960.method2585((byte) -39);
+				bool |= ((Skybox) this).aClass277_2960.method2588(class_ra, i, i_3_, -136782694);
 			}
 			return bool;
 		} catch (RuntimeException runtimeexception) {
@@ -138,17 +138,17 @@ public class Class277 {
 	void method2589(GraphicsToolkit class_ra, int i) {
 		try {
 			try {
-				boolean bool = Class465.aClass243_6520.method2291((-680590445 * (((Class277) this).anInt2956)), 581664063);
+				boolean bool = Class465.aClass243_6520.method2291((-680590445 * (((Skybox) this).anInt2956)), 581664063);
 				if (bool) {
 					class_ra.m(16777215, 0.0F, 0.0F, 1.0F, 0.0F, 0.0F);
-					Model class64 = Model.method751(Class465.aClass243_6520, (((Class277) this).anInt2956 * -680590445), 0);
-					((Class277) this).aClass387_2941 = class_ra.method5037(class64, 1099776, 0, 255, 1);
-					byte[] is = ((Class277) this).aClass387_2941.ah();
+					Model class64 = Model.method751(Class465.aClass243_6520, (((Skybox) this).anInt2956 * -680590445), 0);
+					((Skybox) this).aClass387_2941 = class_ra.method5037(class64, 1099776, 0, 255, 1);
+					byte[] is = ((Skybox) this).aClass387_2941.ah();
 					if (null == is)
-						((Class277) this).aByteArray2958 = null;
+						((Skybox) this).aByteArray2958 = null;
 					else {
-						((Class277) this).aByteArray2958 = new byte[is.length];
-						System.arraycopy(is, 0, ((Class277) this).aByteArray2958, 0, is.length);
+						((Skybox) this).aByteArray2958 = new byte[is.length];
+						System.arraycopy(is, 0, ((Skybox) this).aByteArray2958, 0, is.length);
 					}
 				}
 			} catch (Exception exception) {
@@ -170,13 +170,13 @@ public class Class277 {
 	public void method2591(GraphicsToolkit class_ra, int i, int i_19_, int i_20_, int i_21_, int i_22_, int i_23_, int i_24_, int i_25_, int i_26_, boolean bool, boolean bool_27_, byte i_28_) {
 		try {
 			int i_29_ = 0;
-			if (((Class277) this).aBoolean2959)
-				i_29_ = ((Class277) this).anInt2961 * 1447218285;
-			if (null != ((Class277) this).aClass277_2960) {
-				Class277 class277_30_ = this;
-				Class277 class277_31_ = ((Class277) this).aClass277_2960;
+			if (((Skybox) this).aBoolean2959)
+				i_29_ = ((Skybox) this).anInt2961 * 1447218285;
+			if (null != ((Skybox) this).aClass277_2960) {
+				Skybox class277_30_ = this;
+				Skybox class277_31_ = ((Skybox) this).aClass277_2960;
 				if (class277_30_.hashCode() > class277_31_.hashCode()) {
-					class277_30_ = ((Class277) this).aClass277_2960;
+					class277_30_ = ((Skybox) this).aClass277_2960;
 					class277_31_ = this;
 					i_29_ = 255 - i_29_;
 				}
@@ -199,11 +199,11 @@ public class Class277 {
 			class222_36_.method2071(0.0F, 0.0F, -1.0F, Class220.method2049(-i_33_ & 0x3fff));
 			class_ra.method5043(class222_36_);
 			Class222 class222_37_ = new Class222();
-			if (738421895 * ((Class277) this).anInt2951 != i_34_) {
-				((Class277) this).aClass387_2941.method4742((byte) i_34_, (((Class277) this).aByteArray2958));
-				((Class277) this).anInt2951 = i_34_ * -299787977;
+			if (738421895 * ((Skybox) this).anInt2951 != i_34_) {
+				((Skybox) this).aClass387_2941.method4742((byte) i_34_, (((Skybox) this).aByteArray2958));
+				((Skybox) this).anInt2951 = i_34_ * -299787977;
 			}
-			((Class277) this).aClass387_2941.method4739(class222_37_, null, 0);
+			((Skybox) this).aClass387_2941.method4739(class222_37_, null, 0);
 			class_ra.method5043(class222);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lm.s(").append(')').toString());
@@ -213,21 +213,21 @@ public class Class277 {
 	void method2593(GraphicsToolkit class_ra, int i, int i_38_, int i_39_, int i_40_, int i_41_, int i_42_, int i_43_, int i_44_, int i_45_, boolean bool, boolean bool_46_, int i_47_, int i_48_) {
 		try {
 			int i_49_ = 255 - i_47_;
-			if (((Class277) this).aClass387_2941 == null) {
+			if (((Skybox) this).aClass387_2941 == null) {
 				class_ra.ba(2, 0);
 				i_43_ = i_43_ + i & 0x3fff;
-				if (((Class277) this).anInt2940 * 1461948177 != -1 && ((Class277) this).anInt2946 * -1994130525 != 0) {
-					Class53 class53 = anInterface_ma2955.method174(((((Class277) this).anInt2940) * 1461948177), 434799685);
-					if (null == ((Class277) this).aClass57_2950 && anInterface_ma2955.method170(((((Class277) this).anInt2940) * 1461948177), (short) 28045)) {
-						int[] is = (2 == -2138060883 * class53.anInt528 ? (anInterface_ma2955.method172(((Class277) this).anInt2940 * 1461948177, 0.7F, -1994130525 * ((Class277) this).anInt2946, ((Class277) this).anInt2946 * -1994130525, false, (byte) 2)) : (anInterface_ma2955.method171(((Class277) this).anInt2940 * 1461948177, 0.7F, -1994130525 * ((Class277) this).anInt2946, -1994130525 * ((Class277) this).anInt2946, false, 833981844)));
-						((Class277) this).anInt2939 = is[0] * 1667694183;
-						((Class277) this).anInt2952 = 918308719 * is[is.length - 1];
-						((Class277) this).aClass57_2950 = class_ra.method5031(is, 0, (((Class277) this).anInt2946 * -1994130525), (((Class277) this).anInt2946 * -1994130525), (((Class277) this).anInt2946 * -1994130525), 2072553439);
+				if (((Skybox) this).anInt2940 * 1461948177 != -1 && ((Skybox) this).anInt2946 * -1994130525 != 0) {
+					Class53 class53 = anInterface_ma2955.method174(((((Skybox) this).anInt2940) * 1461948177), 434799685);
+					if (null == ((Skybox) this).aClass57_2950 && anInterface_ma2955.method170(((((Skybox) this).anInt2940) * 1461948177), (short) 28045)) {
+						int[] is = (2 == -2138060883 * class53.anInt528 ? (anInterface_ma2955.method172(((Skybox) this).anInt2940 * 1461948177, 0.7F, -1994130525 * ((Skybox) this).anInt2946, ((Skybox) this).anInt2946 * -1994130525, false, (byte) 2)) : (anInterface_ma2955.method171(((Skybox) this).anInt2940 * 1461948177, 0.7F, -1994130525 * ((Skybox) this).anInt2946, -1994130525 * ((Skybox) this).anInt2946, false, 833981844)));
+						((Skybox) this).anInt2939 = is[0] * 1667694183;
+						((Skybox) this).anInt2952 = 918308719 * is[is.length - 1];
+						((Skybox) this).aClass57_2950 = class_ra.method5031(is, 0, (((Skybox) this).anInt2946 * -1994130525), (((Skybox) this).anInt2946 * -1994130525), (((Skybox) this).anInt2946 * -1994130525), 2072553439);
 					}
 					int i_50_ = (i_49_ == 255 ? class53.anInt528 * -2138060883 == 2 ? 1 : 0 : 1);
 					if (1 == i_50_ && bool)
 						class_ra.B(i_38_, i_39_, i_40_, i_41_, i_45_, 0);
-					if (((Class277) this).aClass57_2950 != null) {
+					if (((Skybox) this).aClass57_2950 != null) {
 						int i_51_ = i_42_ * i_41_ / -4096;
 						int i_52_;
 						for (i_52_ = (i_40_ - i_41_) / 2 + i_43_ * i_41_ / 4096; i_52_ > i_41_; i_52_ -= i_41_) {
@@ -236,13 +236,13 @@ public class Class277 {
 						for (/**/; i_52_ < 0; i_52_ += i_41_) {
 							/* empty */
 						}
-						if (((Class277) this).aClass320_2944 == Class320.aClass320_6547) {
+						if (((Skybox) this).aClass320_2944 == Class320.aClass320_6547) {
 							for (int i_53_ = i_52_ - i_41_; i_53_ < i_40_; i_53_ += i_41_)
-								((Class277) this).aClass57_2950.method634(i_38_ + i_53_, i_51_ + i_39_, i_41_, i_41_, 0, i_49_ << 24 | 0xffffff, i_50_);
-							if ((150420823 * ((Class277) this).anInt2939 & ~0xffffff) != 0)
-								class_ra.method5015(0, 0, i_40_, 1 + (i_39_ + i_51_), (150420823 * (((Class277) this).anInt2939)), (byte) 7);
-							if (0 != (((Class277) this).anInt2952 * 1184429967 & ~0xffffff))
-								class_ra.method5015(0, i_51_ + i_39_ + i_41_, i_40_, i_41_ - (i_41_ + (i_51_ + i_39_)), ((Class277) this).anInt2952 * 1184429967, (byte) 7);
+								((Skybox) this).aClass57_2950.method634(i_38_ + i_53_, i_51_ + i_39_, i_41_, i_41_, 0, i_49_ << 24 | 0xffffff, i_50_);
+							if ((150420823 * ((Skybox) this).anInt2939 & ~0xffffff) != 0)
+								class_ra.method5015(0, 0, i_40_, 1 + (i_39_ + i_51_), (150420823 * (((Skybox) this).anInt2939)), (byte) 7);
+							if (0 != (((Skybox) this).anInt2952 * 1184429967 & ~0xffffff))
+								class_ra.method5015(0, i_51_ + i_39_ + i_41_, i_40_, i_41_ - (i_41_ + (i_51_ + i_39_)), ((Skybox) this).anInt2952 * 1184429967, (byte) 7);
 						} else {
 							for (/**/; i_51_ > i_41_; i_51_ -= i_41_) {
 								/* empty */
@@ -252,7 +252,7 @@ public class Class277 {
 							}
 							for (int i_54_ = i_52_ - i_41_; i_54_ < i_40_; i_54_ += i_41_) {
 								for (int i_55_ = i_51_ - i_41_; i_55_ < i_41_; i_55_ += i_41_)
-									((Class277) this).aClass57_2950.method634(i_38_ + i_54_, i_39_ + i_55_, i_41_, i_41_, 0, i_49_ << 24 | 0xffffff, i_50_);
+									((Skybox) this).aClass57_2950.method634(i_38_ + i_54_, i_39_ + i_55_, i_41_, i_41_, 0, i_49_ << 24 | 0xffffff, i_50_);
 							}
 						}
 					}
@@ -273,30 +273,30 @@ public class Class277 {
 					class_ra.ba(3, i_45_);
 				method2592(class_ra, i_42_, i_43_, i_44_, i_47_, -1935584987);
 			}
-			for (int i_57_ = ((Class277) this).anInt2945 * 1858024591 - 1; i_57_ >= 0; i_57_--)
-				((Class277) this).aClass276Array2953[i_57_].method2577(class_ra, i_38_, i_39_, i_40_, i_41_, i_42_, i_43_, 1173193129 * ((Class277) this).anInt2957, ((Class277) this).anInt2948 * 796478559, ((Class277) this).anInt2962 * -226559159, i_49_);
+			for (int i_57_ = ((Skybox) this).anInt2945 * 1858024591 - 1; i_57_ >= 0; i_57_--)
+				((Skybox) this).aClass276Array2953[i_57_].method2577(class_ra, i_38_, i_39_, i_40_, i_41_, i_42_, i_43_, 1173193129 * ((Skybox) this).anInt2957, ((Skybox) this).anInt2948 * 796478559, ((Skybox) this).anInt2962 * -226559159, i_49_);
 			class_ra.ba(2, 0);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lm.n(").append(')').toString());
 		}
 	}
 
-	public Class277(int i, Class276[] class276s, int i_58_, int i_59_, int i_60_, int i_61_, Class320 class320, int i_62_) {
-		((Class277) this).aBoolean2954 = true;
-		((Class277) this).anInt2957 = i_59_ * 91665049;
-		((Class277) this).anInt2948 = i_60_ * -2049962081;
-		((Class277) this).anInt2962 = i_61_ * 2095769337;
-		((Class277) this).anInt2940 = 318980593 * i;
-		((Class277) this).aClass276Array2949 = class276s;
-		((Class277) this).aClass320_2944 = class320;
+	public Skybox(int i, SkyboxFace[] class276s, int i_58_, int i_59_, int i_60_, int i_61_, Class320 class320, int i_62_) {
+		((Skybox) this).aBoolean2954 = true;
+		((Skybox) this).anInt2957 = i_59_ * 91665049;
+		((Skybox) this).anInt2948 = i_60_ * -2049962081;
+		((Skybox) this).anInt2962 = i_61_ * 2095769337;
+		((Skybox) this).anInt2940 = 318980593 * i;
+		((Skybox) this).aClass276Array2949 = class276s;
+		((Skybox) this).aClass320_2944 = class320;
 		if (class276s != null) {
-			((Class277) this).aClass276Array2953 = new Class276[class276s.length];
-			((Class277) this).aClass276_2942 = i_58_ >= 0 ? class276s[i_58_] : null;
+			((Skybox) this).aClass276Array2953 = new SkyboxFace[class276s.length];
+			((Skybox) this).aClass276_2942 = i_58_ >= 0 ? class276s[i_58_] : null;
 		} else {
-			((Class277) this).aClass276Array2953 = null;
-			((Class277) this).aClass276_2942 = null;
+			((Skybox) this).aClass276Array2953 = null;
+			((Skybox) this).aClass276_2942 = null;
 		}
-		((Class277) this).anInt2956 = i_62_ * -2035969381;
+		((Skybox) this).anInt2956 = i_62_ * -2035969381;
 	}
 
 	static final void method2594(IComponentDefinition class105, Class119 class119, ClientScript2 class403, int i) {
@@ -353,7 +353,7 @@ public class Class277 {
 	 * routeType -1 - normal walk routeType 0 - follow
 	 */
 	public static void sendWalkPacket(int type, Class336 class336) {
-		int stepsCount = (Class298_Sub37.calculateRoute((Class287.myPlayer.scenePositionXQueue[0]), (Class287.myPlayer.scenePositionYQueue[0]), Class287.myPlayer.getSize(), class336, (client.aClass283_8716.getSceneClipDataPlane((Class287.myPlayer.plane))), true, client.calculatedScenePositionXs, client.calculatedScenePositionYs));
+		int stepsCount = (Class298_Sub37.calculateRoute((Class287.myPlayer.scenePositionXQueue[0]), (Class287.myPlayer.scenePositionYQueue[0]), Class287.myPlayer.getSize(), class336, (client.map.getSceneClipDataPlane((Class287.myPlayer.plane))), true, client.calculatedScenePositionXs, client.calculatedScenePositionYs));
 
 		Class298_Sub36 packet = null;
 		if (0 == type)
@@ -361,7 +361,7 @@ public class Class277 {
 		if (type == 1)
 			packet = Class18.method359(OutcommingPacket.MINI_WALKING_PACKET, client.aClass25_8711.aClass449_330, (byte) 28);
 		packet.aClass298_Sub53_Sub2_7396.writeByte(5 + stepsCount * 2);
-		Class341 class341 = client.aClass283_8716.method2628(681479919);
+		Class341 class341 = client.map.method2628(681479919);
 		packet.aClass298_Sub53_Sub2_7396.writeShort128(class341.gameSceneBaseX * -1760580017);
 		packet.aClass298_Sub53_Sub2_7396.write128Byte(Class151.method1644(-545107710) ? 1 : 0, (byte) 1);
 		packet.aClass298_Sub53_Sub2_7396.writeShort128(class341.gameSceneBaseY * 283514611);
@@ -387,7 +387,7 @@ public class Class277 {
 				packet = Class18.method359(OutcommingPacket.WALKING_PACKET, client.aClass25_8711.aClass449_330, (byte) 51);
 			if (type == 1)
 				packet = Class18.method359(OutcommingPacket.MINI_WALKING_PACKET, client.aClass25_8711.aClass449_330, (byte) 28);
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			Class341 class341 = client.map.method2628(681479919);
 			packet.aClass298_Sub53_Sub2_7396.writeShort128(class341.gameSceneBaseX * -1760580017 + localX);
 			packet.aClass298_Sub53_Sub2_7396.write128Byte(Class151.method1644(-545107710) ? 1 : 0, (byte) 1);
 			packet.aClass298_Sub53_Sub2_7396.writeShort128(localY + class341.gameSceneBaseY * 283514611);

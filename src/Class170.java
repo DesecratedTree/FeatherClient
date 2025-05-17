@@ -43,7 +43,7 @@ public final class Class170 {
 		}
 	}
 
-	public static void method1811(int i, CacheIndex class243, int i_2_, int i_3_, int i_4_, boolean bool, Class97 class97, byte i_5_) {
+	public static void method1811(int i, Js5 class243, int i_2_, int i_3_, int i_4_, boolean bool, Class97 class97, byte i_5_) {
 		try {
 			if (i > 0) {
 				Class79.anInt734 = -1262101671;

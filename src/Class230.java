@@ -7,7 +7,7 @@ public class Class230 {
 	static Class227[] aClass227Array2561;
 	static Interface12[] anInterface12Array2562;
 	static int anInt2563;
-	static CacheIndex aClass243_2564;
+	static Js5 aClass243_2564;
 	static int anInt2565;
 	static int anInt2566;
 	static boolean aBoolean2567;

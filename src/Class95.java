@@ -6,7 +6,7 @@ public class Class95 {
 	Class298_Sub13 aClass298_Sub13_914;
 	static int anInt915 = 1;
 	Class298_Sub19_Sub1 aClass298_Sub19_Sub1_916;
-	CacheIndex aClass243_917;
+	Js5 aClass243_917;
 	static int anInt918 = 0;
 	static int anInt919 = 2;
 	Class272 aClass272_920 = null;
@@ -60,7 +60,7 @@ public class Class95 {
 		}
 	}
 
-	public Class95(CacheIndex class243, int i) {
+	public Class95(Js5 class243, int i) {
 		((Class95) this).aClass243_917 = class243;
 		anInt921 = -1830245543 * i;
 		((Class95) this).aClass298_Sub19_Sub1_916 = new Class298_Sub19_Sub1();
@@ -79,7 +79,7 @@ public class Class95 {
 
 	static final void method1032(ClientScript2 class403, int i) {
 		try {
-			((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919 - 1)] = Class364.method4336(2134288170).method242(694163818);
+			((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919 - 1)] = AtmosphereConditions.method4336(2134288170).method242(694163818);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("dw.ahv(").append(')').toString());
 		}

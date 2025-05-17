@@ -171,7 +171,7 @@ public class Class125 {
 
 	static final void method1400(int i, int i_12_, int i_13_, int i_14_, int i_15_, boolean bool, int i_16_) {
 		try {
-			if (!bool && (i_12_ < 512 || i_13_ < 512 || i_12_ > (client.aClass283_8716.method2629(-2030738775) - 2) * 512 || i_13_ > (client.aClass283_8716.method2630(346597058) - 2) * 512)) {
+			if (!bool && (i_12_ < 512 || i_13_ < 512 || i_12_ > (client.map.method2629(-2030738775) - 2) * 512 || i_13_ > (client.map.method2630(346597058) - 2) * 512)) {
 				float[] fs = client.aFloatArray8891;
 				client.aFloatArray8891[1] = -1.0F;
 				fs[0] = -1.0F;
@@ -287,7 +287,7 @@ public class Class125 {
 				Class451.aClass243_5641 = Class372.loadIndex(CacheIndexIndicator.aClass111_1355, true, 1, true, 1414942231);
 				Class51.aClass243_505 = Class372.loadIndex(CacheIndexIndicator.aClass111_1356, false, 1, true, 1414942231);
 				Class399.aClass243_5219 = Class372.loadIndex(CacheIndexIndicator.aClass111_1357, true, 1, true, 1414942231);
-				Class277.aClass243_2965 = Class372.loadIndex(CacheIndexIndicator.aClass111_1345, false, 1, true, 1414942231);
+				Skybox.js5_billboards = Class372.loadIndex(CacheIndexIndicator.aClass111_1345, false, 1, true, 1414942231);
 				Class399.aClass243_5220 = Class372.loadIndex(CacheIndexIndicator.aClass111_1337, true, 1, false, 1414942231);
 				Class97.aClass243_945 = Class372.loadIndex(CacheIndexIndicator.aClass111_1358, true, 1, false, 1414942231);
 				Class82_Sub6.aClass243_6844 = Class372.loadIndex(CacheIndexIndicator.aClass111_1352, true, 1, true, 1414942231);
@@ -350,7 +350,7 @@ public class Class125 {
 				Class300.aClass518_3217 = new Class518(client.aClass411_8944, Class321.aClass429_3357, Class284_Sub1.aClass243_7146);
 				Class237.aClass499_6668 = new Class499(client.aClass411_8944, Class321.aClass429_3357, Class284_Sub1.aClass243_7146);
 				Class463.aClass433_5689 = new Class433(client.aClass411_8944, Class321.aClass429_3357, true, Class354.aClass243_3826, Class341.aClass243_3646);
-				client.aClass283_8716.method2645(Class463.aClass433_5689, -18361497);
+				client.map.method2645(Class463.aClass433_5689, -18361497);
 				Class62.aClass248_612.method2379(new Class433(client.aClass411_8944, Class321.aClass429_3357, true, Class354.aClass243_3826, Class341.aClass243_3646), 681479919);
 				Class363.aClass339_3931 = new Class339(client.aClass411_8944, Class321.aClass429_3357, Class284_Sub1.aClass243_7146, Class158.aClass243_6364);
 				Class120.aClass487_1463 = new Class487(client.aClass411_8944, Class321.aClass429_3357, Class284_Sub1.aClass243_7146, Class158.aClass243_6364);
@@ -371,7 +371,7 @@ public class Class125 {
 				Class99.aClass517_951 = new Class517(client.aClass411_8944, Class321.aClass429_3357, Class284_Sub1.aClass243_7146);
 				Class299.aClass370_3199 = new Class370(client.aClass411_8944, Class321.aClass429_3357, Class284_Sub1.aClass243_7146);
 				Class298_Sub24.method3080(Class160.aClass243_1647, Class341.aClass243_3646, Class158.aClass243_6364, Class173.aClass243_1758, 995134055);
-				Class_ta.method5997(Class277.aClass243_2965, (byte) 9);
+				Class_ta.method5997(Skybox.js5_billboards, (byte) 9);
 				GraphicsToolkit.aClass256_5315 = new Class256(Class321.aClass429_3357, Class497.aClass243_6104, Class266.aClass243_2855);
 				Class447.aClass469_5618 = new Class469(Class321.aClass429_3357, Class497.aClass243_6104, Class266.aClass243_2855, new Class180());
 				Class165.method1783(-980237906);
@@ -392,7 +392,7 @@ public class Class125 {
 					return i_27_ * 100 / i_28_;
 			}
 			if (Class227.aClass227_2542 == Class82_Sub6.aClass227_6843)
-				WorldMap.method3690(Class_v.index_23_worldMap, Class504.aClass375_6196, Class151.aClass451_6358, client.aClass283_8716.method2641(-1404290651), Class363.aClass339_3931, Class120.aClass487_1463, Class128.aClass148_6331);
+				WorldMap.method3690(Class_v.index_23_worldMap, Class504.aClass375_6196, Class151.aClass451_6358, client.map.method2641(-1404290651), Class363.aClass339_3931, Class120.aClass487_1463, Class128.aClass148_6331);
 			if (Class82_Sub6.aClass227_6843 == Class227.aClass227_2554) {
 				Class374.anIntArray4078 = new int[-2088092255 * Class320.aClass494_6550.anInt6090];
 				Class254.aBooleanArray2790 = (new boolean[Class320.aClass494_6550.anInt6090 * -2088092255]);

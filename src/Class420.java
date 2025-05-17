@@ -32,7 +32,7 @@ public final class Class420 {
 				((Class298_Sub1) class298_sub1).anInt7157 = i_2_ * 1088435253;
 				class298_sub1.anInt7150 = 656787783 * i_0_;
 				class298_sub1.anInt7155 = i_1_ * 284247153;
-				if (i_0_ >= 0 && i_1_ >= 0 && i_0_ < client.aClass283_8716.method2629(-1908372692) && i_1_ < client.aClass283_8716.method2630(629047644))
+				if (i_0_ >= 0 && i_1_ >= 0 && i_0_ < client.map.method2629(-1908372692) && i_1_ < client.map.method2630(629047644))
 					Class117.method1285(class298_sub1, -162957807);
 				Class298_Sub1.aClass453_7152.method5935(class298_sub1, 1633204361);
 			}
@@ -60,7 +60,7 @@ public final class Class420 {
 			for (Class298_Sub1 class298_sub1 = ((Class298_Sub1) Class298_Sub1.aClass453_7152.method5939(1766612795)); class298_sub1 != null; class298_sub1 = (Class298_Sub1) Class298_Sub1.aClass453_7152.method5944(49146)) {
 				if (!((Class298_Sub1) class298_sub1).aBoolean7160) {
 					((Class298_Sub1) class298_sub1).aBoolean7159 = true;
-					if (634196087 * class298_sub1.anInt7150 >= 0 && class298_sub1.anInt7155 * -2146829167 >= 0 && (634196087 * class298_sub1.anInt7150 < client.aClass283_8716.method2629(-1871526843)) && (class298_sub1.anInt7155 * -2146829167 < client.aClass283_8716.method2630(-1895886966)))
+					if (634196087 * class298_sub1.anInt7150 >= 0 && class298_sub1.anInt7155 * -2146829167 >= 0 && (634196087 * class298_sub1.anInt7150 < client.map.method2629(-1871526843)) && (class298_sub1.anInt7155 * -2146829167 < client.map.method2630(-1895886966)))
 						Class117.method1285(class298_sub1, 147943234);
 				} else
 					class298_sub1.method2839(-1460969981);

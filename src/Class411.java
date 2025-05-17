@@ -204,7 +204,7 @@ public class Class411 {
 				client.aBooleanArray8900[i_16_] = true;
 			for (int i_17_ = 0; i_17_ < 6; i_17_++)
 				client.aClass251Array8920[i_17_] = new Class251();
-			client.aClass283_8716.method2640((byte) -46).method4324(-1196946367);
+			client.map.method2640((byte) -46).method4324(-1196946367);
 			client.aBoolean8763 = true;
 			Class107.aShortArray1315 = ObjectDefinitions.aShortArray5423 = NPCDefinitions.aShortArray6182 = ItemDefinitions.aShortArray5757 = new short[256];
 			Class82_Sub6.aString6845 = Tradution.aClass470_5854.method6049(Class321.aClass429_3357, -875414210);

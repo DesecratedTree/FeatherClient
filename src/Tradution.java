@@ -795,11 +795,11 @@ public class Tradution {
 	static void method6053(int i) {
 		try {
 			if (Class373.aClass_ra4071 != null) {
-				client.aClass283_8716.method2646((byte) 8);
+				client.map.method2646((byte) 8);
 				InputStream_Sub1.method273(1660073823);
 				Class92.method1007(1532437233);
-				Class66.method764((byte) 1);
-				client.aClass283_8716.method2647(-772209776);
+				EnvironmentMap.method764((byte) 1);
+				client.map.method2647(-772209776);
 				Class116.method1267(2076480784);
 				Class223.method2082(false, -1663847334);
 				Class372.method4595(712737937);
@@ -845,11 +845,11 @@ public class Tradution {
 
 	public static void method6055(int i, int i_10_, int i_11_, int i_12_, int i_13_, int i_14_, int i_15_, int i_16_) {
 		try {
-			if (i_10_ >= 0 && i_11_ >= 0 && i_10_ < client.aClass283_8716.method2629(-2044392628) - 1 && i_11_ < client.aClass283_8716.method2630(1696781293) - 1) {
-				if (client.aClass283_8716.method2675(-1611682495) != null) {
+			if (i_10_ >= 0 && i_11_ >= 0 && i_10_ < client.map.method2629(-2044392628) - 1 && i_11_ < client.map.method2630(1696781293) - 1) {
+				if (client.map.method2675(-1611682495) != null) {
 					if (0 == i_12_) {
-						Interface3 interface3 = ((Interface3) client.aClass283_8716.method2675(-1611682495).method4031(i, i_10_, i_11_, 1970836387));
-						Interface3 interface3_17_ = ((Interface3) client.aClass283_8716.method2675(-1611682495).method4032(i, i_10_, i_11_, (byte) 0));
+						Interface3 interface3 = ((Interface3) client.map.method2675(-1611682495).method4031(i, i_10_, i_11_, 1970836387));
+						Interface3 interface3_17_ = ((Interface3) client.map.method2675(-1611682495).method4032(i, i_10_, i_11_, (byte) 0));
 						if (interface3 != null && i_13_ != 2) {
 							if (interface3 instanceof Class365_Sub1_Sub5_Sub2)
 								((Class365_Sub1_Sub5_Sub2) interface3).aClass60_9935.method697(i_15_, 334665686);
@@ -863,7 +863,7 @@ public class Tradution {
 								Class398.method4923(i, i_12_, i_10_, i_11_, interface3_17_.method32((byte) 30), i_14_, i_13_, i_15_, -1702879755);
 						}
 					} else if (i_12_ == 1) {
-						Interface3 interface3 = ((Interface3) client.aClass283_8716.method2675(-1611682495).method4033(i, i_10_, i_11_, 1080081135));
+						Interface3 interface3 = ((Interface3) client.map.method2675(-1611682495).method4033(i, i_10_, i_11_, 1080081135));
 						if (null != interface3) {
 							if (interface3 instanceof Class365_Sub1_Sub3_Sub1)
 								((Class365_Sub1_Sub3_Sub1) interface3).aClass60_9906.method697(i_15_, 1175058275);
@@ -882,7 +882,7 @@ public class Tradution {
 							}
 						}
 					} else if (2 == i_12_) {
-						Interface3 interface3 = ((Interface3) (client.aClass283_8716.method2675(-1611682495).method4035(i, i_10_, i_11_, client.anInterface17_8960, 898562473)));
+						Interface3 interface3 = ((Interface3) (client.map.method2675(-1611682495).method4035(i, i_10_, i_11_, client.anInterface17_8960, 898562473)));
 						if (null != interface3) {
 							if (i_13_ == 11)
 								i_13_ = 10;
@@ -892,7 +892,7 @@ public class Tradution {
 								Class398.method4923(i, i_12_, i_10_, i_11_, interface3.method32((byte) 81), i_14_, i_13_, i_15_, 819048305);
 						}
 					} else if (i_12_ == 3) {
-						Interface3 interface3 = ((Interface3) client.aClass283_8716.method2675(-1611682495).method4058(i, i_10_, i_11_, (byte) 21));
+						Interface3 interface3 = ((Interface3) client.map.method2675(-1611682495).method4058(i, i_10_, i_11_, (byte) 21));
 						if (interface3 != null) {
 							if (interface3 instanceof Class365_Sub1_Sub2_Sub1)
 								((Class365_Sub1_Sub2_Sub1) interface3).aClass60_9910.method697(i_15_, 939556837);

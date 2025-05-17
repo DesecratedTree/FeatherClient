@@ -193,11 +193,11 @@ public class PacketsDecoder {
 					i_100_ = -1;
 				boolean bool = (hash >> 7 & 0x1) == 1;
 				if (targetHash >> 30 != 0) {
-					Class341 class341 = client.aClass283_8716.method2628(681479919);
+					Class341 class341 = client.map.method2628(681479919);
 					int i_101_ = targetHash >> 28 & 0x3;
 					int i_102_ = ((targetHash >> 14 & 0x3fff) - -1760580017 * class341.gameSceneBaseX);
 					int i_103_ = (targetHash & 0x3fff) - 283514611 * class341.gameSceneBaseY;
-					if (i_102_ >= 0 && i_103_ >= 0 && (i_102_ < client.aClass283_8716.method2629(-1990296889)) && (i_103_ < client.aClass283_8716.method2630(-1604198619))) {
+					if (i_102_ >= 0 && i_103_ >= 0 && (i_102_ < client.map.method2629(-1990296889)) && (i_103_ < client.map.method2630(-1604198619))) {
 						if (graphicsId == -1) {
 							Class298_Sub37_Sub3 class298_sub37_sub3 = ((Class298_Sub37_Sub3) (client.aClass437_8825.method5812((long) (i_102_ << 16 | i_103_))));
 							if (class298_sub37_sub3 != null) {
@@ -208,9 +208,9 @@ public class PacketsDecoder {
 							int i_104_ = 256 + i_102_ * 512;
 							int i_105_ = 256 + 512 * i_103_;
 							int i_106_ = i_101_;
-							if (i_106_ < 3 && (client.aClass283_8716.method2654(651162634).method2320(i_102_, i_103_, -2025869337)))
+							if (i_106_ < 3 && (client.map.method2654(651162634).method2320(i_102_, i_103_, -2025869337)))
 								i_106_++;
-							Class365_Sub1_Sub1_Sub3 class365_sub1_sub1_sub3 = (new Class365_Sub1_Sub1_Sub3(client.aClass283_8716.method2675(-1611682495), graphicsId, speed, i_101_, i_106_, i_104_, Class356.method4271(i_104_, i_105_, i_101_, -1215922012) - graphicsHeight, i_105_, i_102_, i_102_, i_103_, i_103_, i_99_, bool));
+							Class365_Sub1_Sub1_Sub3 class365_sub1_sub1_sub3 = (new Class365_Sub1_Sub1_Sub3(client.map.method2675(-1611682495), graphicsId, speed, i_101_, i_106_, i_104_, Class356.method4271(i_104_, i_105_, i_101_, -1215922012) - graphicsHeight, i_105_, i_102_, i_102_, i_103_, i_103_, i_99_, bool));
 							client.aClass437_8825.method5817((new Class298_Sub37_Sub3(class365_sub1_sub1_sub3)), (long) (i_102_ << 16 | i_103_));
 						}
 					}
@@ -522,12 +522,12 @@ public class PacketsDecoder {
 				int i_156_ = stream.readUnsignedByte();
 				int i_157_ = stream.readBigSmart(1235052657);
 				if (null != client.aClass299Array8671[i_156_]) {
-					client.aClass299Array8671[i_156_].method3677(client.aClass283_8716.method2675(-1611682495), -1127737066);
+					client.aClass299Array8671[i_156_].method3677(client.map.method2675(-1611682495), -1127737066);
 					client.aClass299Array8671[i_156_] = null;
 				}
 				if (i_157_ != -1) {
 					client.aClass299Array8671[i_156_] = new Class299(Class373.aClass_ra4071, stream, i_157_);
-					client.aClass299Array8671[i_156_].method3676(client.aClass283_8716.method2675(-1611682495), 2021897283);
+					client.aClass299Array8671[i_156_].method3676(client.map.method2675(-1611682495), 2021897283);
 				}
 				((Class25) class25).INCOMMING_PACKET = null;
 				return true;
@@ -648,19 +648,19 @@ public class PacketsDecoder {
 					Class100.anInt1081 = 178575833;
 					Class418.anInt5339 = -1001372047;
 				} else {
-					Class341 class341 = client.aClass283_8716.method2628(681479919);
+					Class341 class341 = client.map.method2628(681479919);
 					int i_182_ = i_181_ >> 14 & 0x3fff;
 					int i_183_ = i_181_ & 0x3fff;
 					i_182_ -= -1760580017 * class341.gameSceneBaseX;
 					if (i_182_ < 0)
 						i_182_ = 0;
-					else if (i_182_ >= client.aClass283_8716.method2629(-2076483330))
-						i_182_ = client.aClass283_8716.method2629(-1922242399);
+					else if (i_182_ >= client.map.method2629(-2076483330))
+						i_182_ = client.map.method2629(-1922242399);
 					i_183_ -= 283514611 * class341.gameSceneBaseY;
 					if (i_183_ < 0)
 						i_183_ = 0;
-					else if (i_183_ >= client.aClass283_8716.method2630(-1784447321))
-						i_183_ = client.aClass283_8716.method2630(232319200);
+					else if (i_183_ >= client.map.method2630(-1784447321))
+						i_183_ = client.map.method2630(232319200);
 					Class100.anInt1081 = -178575833 * ((i_182_ << 9) + 256);
 					Class418.anInt5339 = 1001372047 * (256 + (i_183_ << 9));
 				}
@@ -698,7 +698,7 @@ public class PacketsDecoder {
 				int i_195_ = locationHash >> 28 & 0x3;
 				int i_196_ = locationHash >> 14 & 0x3fff;
 				int i_197_ = locationHash & 0x3fff;
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				i_196_ -= -1760580017 * class341.gameSceneBaseX;
 				i_197_ -= 283514611 * class341.gameSceneBaseY;
 				Tradution.method6055(i_195_, i_196_, i_197_, i_193_, i_191_, i_192_, animationId, -1216383524);
@@ -842,7 +842,7 @@ public class PacketsDecoder {
 				if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub21_7580.method5703((byte) -123) == 1)
 					Class62.aClass248_612.method2385(new Class267(Class266.LOAD_MAP_SCENE_NORMAL, class298_sub53_sub2_217_), 1122139565);
 				else
-					client.aClass283_8716.sendMapScene(new Class267(Class266.LOAD_MAP_SCENE_NORMAL, class298_sub53_sub2_217_), -1991819579);
+					client.map.sendMapScene(new Class267(Class266.LOAD_MAP_SCENE_NORMAL, class298_sub53_sub2_217_), -1991819579);
 				((Class25) class25).INCOMMING_PACKET = null;
 				return false;
 			}
@@ -1525,12 +1525,12 @@ public class PacketsDecoder {
 					i_358_ = (byte) i_358_;
 				else
 					i_358_ *= 4;
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				int i_364_ = i_354_ - class341.gameSceneBaseX * 773807262;
 				int i_365_ = i_357_ - 567029222 * class341.gameSceneBaseY;
 				i_351_ += i_364_;
 				i_361_ += i_365_;
-				if (i_364_ >= 0 && i_365_ >= 0 && (i_364_ < client.aClass283_8716.method2629(-1911669738) * 2) && (i_365_ < client.aClass283_8716.method2629(-1992464171) * 2) && i_351_ >= 0 && i_361_ >= 0 && (i_351_ < client.aClass283_8716.method2630(-2022476058) * 2) && (i_361_ < client.aClass283_8716.method2630(1563119067) * 2) && 65535 != i_348_) {
+				if (i_364_ >= 0 && i_365_ >= 0 && (i_364_ < client.map.method2629(-1911669738) * 2) && (i_365_ < client.map.method2629(-1992464171) * 2) && i_351_ >= 0 && i_361_ >= 0 && (i_351_ < client.map.method2630(-2022476058) * 2) && (i_361_ < client.map.method2630(1563119067) * 2) && 65535 != i_348_) {
 					i_364_ *= 256;
 					i_365_ *= 256;
 					i_351_ = 256 * i_351_;
@@ -1867,7 +1867,7 @@ public class PacketsDecoder {
 				Class216.baseTileY = ((stream.read128Byte(1269677513) << 3) * 2091861441);
 				Class375.basePlane = stream.readUnsigned128Byte((byte) 40) * -1217120325;
 				Class162.baseTileX = (stream.readByteC(188175247) << 3) * 1536927433;
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				for (Class298_Sub2 class298_sub2 = ((Class298_Sub2) client.aClass437_8685.method5816(1564654282)); class298_sub2 != null; class298_sub2 = ((Class298_Sub2) client.aClass437_8685.method5815((byte) 10))) {
 					int i_426_ = (int) ((class298_sub2.aLong3188 * 7051297995265073167L) >> 28 & 0x3L);
 					int i_427_ = (int) (7051297995265073167L * class298_sub2.aLong3188 & 0x3fffL);
@@ -1876,7 +1876,7 @@ public class PacketsDecoder {
 					int i_430_ = i_429_ - 283514611 * class341.gameSceneBaseY;
 					if (i_426_ == Class375.basePlane * -191892109 && i_428_ >= 134435705 * Class162.baseTileX && i_428_ < 8 + 134435705 * Class162.baseTileX && i_430_ >= -105526719 * Class216.baseTileY && i_430_ < 8 + Class216.baseTileY * -105526719) {
 						class298_sub2.method2839(-1460969981);
-						if (i_428_ >= 0 && i_430_ >= 0 && i_428_ < client.aClass283_8716.method2629(-2088487368) && i_430_ < client.aClass283_8716.method2630(1377874440))
+						if (i_428_ >= 0 && i_430_ >= 0 && i_428_ < client.map.method2629(-2088487368) && i_430_ < client.map.method2630(1377874440))
 							Class173.method1820((Class375.basePlane * -191892109), i_428_, i_430_, 1641680263);
 					}
 				}
@@ -2085,7 +2085,7 @@ public class PacketsDecoder {
 						}
 						class19.anInt266 = -1832052742;
 						((Class19) class19).anInt259 = (stream.readUnsignedByte() * -1962848411);
-						Class341 class341 = client.aClass283_8716.method2628(681479919);
+						Class341 class341 = client.map.method2628(681479919);
 						class19.anInt260 += ((stream.readUnsignedShort() - -1760580017 * class341.gameSceneBaseX) << 9) * 962213171;
 						class19.anInt261 += ((stream.readUnsignedShort() - class341.gameSceneBaseY * 283514611) << 9) * 313675491;
 						((Class19) class19).anInt262 = ((stream.readUnsignedByte() << 2) * -2098711205);
@@ -2126,7 +2126,7 @@ public class PacketsDecoder {
 				if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub21_7580.method5703((byte) -70) == 1)
 					Class62.aClass248_612.method2385(new Class267(Class266.LOAD_MAP_SCENE_DYNAMIC, class298_sub53_sub2_455_), 1563574437);
 				else
-					client.aClass283_8716.sendMapScene(new Class267(Class266.LOAD_MAP_SCENE_DYNAMIC, class298_sub53_sub2_455_), -1991819579);
+					client.map.sendMapScene(new Class267(Class266.LOAD_MAP_SCENE_DYNAMIC, class298_sub53_sub2_455_), -1991819579);
 				((Class25) class25).INCOMMING_PACKET = null;
 				return false;
 			}

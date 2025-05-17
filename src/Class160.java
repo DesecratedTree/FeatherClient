@@ -20,7 +20,7 @@ public class Class160 {
 	static int anInt1644 = 9;
 	static int anInt1645 = 13;
 	static Class57[] aClass57Array1646;
-	public static CacheIndex aClass243_1647;
+	public static Js5 aClass243_1647;
 
 	public void method1707(Class162 class162, byte i) {
 		try {

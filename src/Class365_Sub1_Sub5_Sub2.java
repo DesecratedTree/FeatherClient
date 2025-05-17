@@ -495,12 +495,12 @@ public class Class365_Sub1_Sub5_Sub2 extends Class365_Sub1_Sub5 implements Inter
 			Class513.method6293(-707841245);
 			Class373.aClass_ra4071.method5169(10000);
 			Class373.aClass_ra4071.J(32);
-			client.aClass283_8716.method2648(-818859939);
+			client.map.method2648(-818859939);
 			Class373.aClass_ra4071.method5047(false);
 			if (Class373.aClass_ra4071.method5050())
 				Class365_Sub1_Sub5_Sub1.method4525(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub6_7551.method5647(-1411340111) == 1, -1054485931);
-			client.aClass283_8716.method2647(526823496);
-			client.aClass283_8716.method2640((byte) 64).method4324(-1897479103);
+			client.map.method2647(526823496);
+			client.map.method2640((byte) 64).method4324(-1897479103);
 			client.aBoolean8666 = false;
 			client.aBoolean8676 = true;
 			Class100.aClass456Array1080 = null;

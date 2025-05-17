@@ -11,7 +11,7 @@ public final class Class253 {
 	long aLong2782;
 	Class254 aClass254_2783;
 	Map aMap2784;
-	public static Interface_ma anInterface_ma2785;
+	public static MaterialRawList anInterface_ma2785;
 
 	public Object method2411(Object object, Object object_0_, byte i) {
 		try {

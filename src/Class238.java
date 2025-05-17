@@ -50,7 +50,7 @@ final class Class238 implements Interface10 {
 			Class318.anInt3323 = i_5_ * 339871807;
 			Class98_Sub2.aClass89_6932 = null;
 			Class422_Sub30.aClass89_8437 = null;
-			Class385.aClass89_4142 = null;
+			AtmosphereType.aClass89_4142 = null;
 			Class428.anInt6623 = i_6_ * 1589600979;
 			Class14.anInt168 = i_7_ * -674457001;
 			Class309.method3804(-1268692886);

@@ -19,7 +19,7 @@ public class Class365_Sub1_Sub4_Sub1 extends Class365_Sub1_Sub4 {
 
 	Class335 method4394(GraphicsToolkit class_ra, int i) {
 		try {
-			Class217 class217 = Class217.method2005(method4337().aClass217_2599);
+			SceneObjectPosition class217 = SceneObjectPosition.method2005(method4337().aClass217_2599);
 			Class322 class322 = aClass331_7722.method4036(plane, (int) class217.aFloat2451 >> 9, (int) class217.aFloat2454 >> 9, -583169676);
 			Class365_Sub1_Sub2 class365_sub1_sub2 = aClass331_7722.method4058(plane, (int) class217.aFloat2451 >> 9, (int) class217.aFloat2454 >> 9, (byte) 55);
 			int i_0_ = 0;
@@ -75,7 +75,7 @@ public class Class365_Sub1_Sub4_Sub1 extends Class365_Sub1_Sub4 {
 					class222.method2064(0.0F, (float) i_23_, 0.0F);
 			}
 			class217.method2006();
-			Class217 class217_24_ = method4337().aClass217_2599;
+			SceneObjectPosition class217_24_ = method4337().aClass217_2599;
 			class222.method2064(class217_24_.aFloat2451, class217_24_.aFloat2455 - 10.0F, class217_24_.aFloat2454);
 			Class335 class335 = Class73.method818(true, 2098850781);
 			((Class365_Sub1_Sub4_Sub1) this).aBoolean10144 = false;
@@ -157,7 +157,7 @@ public class Class365_Sub1_Sub4_Sub1 extends Class365_Sub1_Sub4 {
 	}
 
 	Class335 method4370(GraphicsToolkit class_ra) {
-		Class217 class217 = Class217.method2005(method4337().aClass217_2599);
+		SceneObjectPosition class217 = SceneObjectPosition.method2005(method4337().aClass217_2599);
 		Class322 class322 = aClass331_7722.method4036(plane, (int) class217.aFloat2451 >> 9, (int) class217.aFloat2454 >> 9, 1738520080);
 		Class365_Sub1_Sub2 class365_sub1_sub2 = aClass331_7722.method4058(plane, (int) class217.aFloat2451 >> 9, (int) class217.aFloat2454 >> 9, (byte) 15);
 		int i = 0;
@@ -213,7 +213,7 @@ public class Class365_Sub1_Sub4_Sub1 extends Class365_Sub1_Sub4 {
 				class222.method2064(0.0F, (float) i_47_, 0.0F);
 		}
 		class217.method2006();
-		Class217 class217_48_ = method4337().aClass217_2599;
+		SceneObjectPosition class217_48_ = method4337().aClass217_2599;
 		class222.method2064(class217_48_.aFloat2451, class217_48_.aFloat2455 - 10.0F, class217_48_.aFloat2454);
 		Class335 class335 = Class73.method818(true, 1609695805);
 		((Class365_Sub1_Sub4_Sub1) this).aBoolean10144 = false;

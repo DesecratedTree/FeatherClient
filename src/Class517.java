@@ -7,8 +7,8 @@ import java.io.IOException;
 public class Class517 {
 	CachingHashMap aClass348_6267 = new CachingHashMap(64);
 	public int anInt6268;
-	CacheIndex aClass243_6269;
-	public static CacheIndex aClass243_6270;
+	Js5 aClass243_6269;
+	public static Js5 aClass243_6270;
 
 	public void method6304(int i, int i_0_) {
 		try {
@@ -64,7 +64,7 @@ public class Class517 {
 		}
 	}
 
-	public Class517(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class517(Class411 class411, Class429 class429, Js5 class243) {
 		((Class517) this).aClass243_6269 = class243;
 		if (((Class517) this).aClass243_6269 != null)
 			anInt6268 = (((Class517) this).aClass243_6269.method2316(-1006924897 * Class120.aClass120_1452.anInt1460, 650803238)) * 2084802537;

@@ -100,7 +100,7 @@ public class Class273 {
 		}
 	}
 
-	public static GraphicsToolkit method2563(Canvas canvas, Interface_ma interface_ma, int i, int i_13_, byte i_14_) {
+	public static GraphicsToolkit method2563(Canvas canvas, MaterialRawList interface_ma, int i, int i_13_, byte i_14_) {
 		try {
 			return new ja(canvas, interface_ma, i, i_13_);
 		} catch (RuntimeException runtimeexception) {

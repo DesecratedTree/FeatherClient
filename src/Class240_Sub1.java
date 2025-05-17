@@ -11,7 +11,7 @@ public class Class240_Sub1 extends Class240 {
 	static int anInt7077 = 3;
 	static int[] anIntArray7078;
 	static int anInt7079 = 0;
-	Class364 aClass364_7080;
+	AtmosphereConditions aClass364_7080;
 	static int[] anIntArray7081;
 	int anInt7082 = 1175238381;
 	static int anInt7083 = 1;
@@ -71,7 +71,7 @@ public class Class240_Sub1 extends Class240 {
 		try {
 			if (!aBoolean2629) {
 				boolean bool = false;
-				Class385 class385 = null;
+				AtmosphereType class385 = null;
 				while_0_: do {
 					for (;;) {
 						if (class298_sub53.index * 385051775 >= class298_sub53.buffer.length)
@@ -79,7 +79,7 @@ public class Class240_Sub1 extends Class240 {
 						int i_8_ = class298_sub53.readUnsignedByte();
 						if (i_8_ == 0) {
 							if (class385 == null)
-								class385 = new Class385(class298_sub53, (((Class240_Sub1) this).aClass364_7080));
+								class385 = new AtmosphereType(class298_sub53, (((Class240_Sub1) this).aClass364_7080));
 							else
 								class385.method4706(class298_sub53, (((Class240_Sub1) this).aClass364_7080), (short) 1342);
 						} else if (1 == i_8_) {
@@ -106,12 +106,12 @@ public class Class240_Sub1 extends Class240 {
 							}
 						} else if (i_8_ == 2) {
 							if (null == class385)
-								class385 = new Class385();
+								class385 = new AtmosphereType();
 							class385.method4707(class298_sub53, -1319879858);
 						} else if (128 == i_8_) {
 							if (class385 == null)
-								class385 = new Class385();
-							class385.method4712(class298_sub53, (((Class240_Sub1) this).aClass364_7080), (byte) 11);
+								class385 = new AtmosphereType();
+							class385.setSkybox(class298_sub53, (((Class240_Sub1) this).aClass364_7080), (byte) 11);
 						} else {
 							if (129 != i_8_)
 								break;
@@ -228,7 +228,7 @@ public class Class240_Sub1 extends Class240 {
 		try {
 			if (!aBoolean2629) {
 				boolean bool = false;
-				Class385 class385 = null;
+				AtmosphereType class385 = null;
 				int i_46_ = 8 * (i_42_ & 0x7);
 				int i_47_ = (i_43_ & 0x7) * 8;
 				while_1_: do {
@@ -238,7 +238,7 @@ public class Class240_Sub1 extends Class240 {
 						int i_48_ = class298_sub53.readUnsignedByte();
 						if (0 == i_48_) {
 							if (null == class385)
-								class385 = new Class385(class298_sub53, (((Class240_Sub1) this).aClass364_7080));
+								class385 = new AtmosphereType(class298_sub53, (((Class240_Sub1) this).aClass364_7080));
 							else
 								class385.method4706(class298_sub53, (((Class240_Sub1) this).aClass364_7080), (short) 1534);
 						} else if (1 == i_48_) {
@@ -269,12 +269,12 @@ public class Class240_Sub1 extends Class240 {
 							}
 						} else if (2 == i_48_) {
 							if (class385 == null)
-								class385 = new Class385();
+								class385 = new AtmosphereType();
 							class385.method4707(class298_sub53, -1319879858);
 						} else if (i_48_ == 128) {
 							if (null == class385)
-								class385 = new Class385();
-							class385.method4712(class298_sub53, (((Class240_Sub1) this).aClass364_7080), (byte) 53);
+								class385 = new AtmosphereType();
+							class385.setSkybox(class298_sub53, (((Class240_Sub1) this).aClass364_7080), (byte) 53);
 						} else {
 							if (i_48_ != 129)
 								break;
@@ -909,7 +909,7 @@ public class Class240_Sub1 extends Class240 {
 		}
 	}
 
-	public Class240_Sub1(Class331 class331, Class433 class433, int i, int i_183_, int i_184_, boolean bool, Class244 class244, Class364 class364) {
+	public Class240_Sub1(Class331 class331, Class433 class433, int i, int i_183_, int i_184_, boolean bool, Class244 class244, AtmosphereConditions class364) {
 		super(class331, i, i_183_, i_184_, bool, Class504.aClass375_6196, Class151.aClass451_6358, class244);
 		((Class240_Sub1) this).aClass433_7072 = class433;
 		((Class240_Sub1) this).aClass364_7080 = class364;

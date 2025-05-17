@@ -12,7 +12,7 @@ public class Class21 {
 		throw new Error();
 	}
 
-	public static void method364(CacheIndex class243, int i, int i_0_, int i_1_, boolean bool, Class298_Sub19_Sub1 class298_sub19_sub1, int i_2_) {
+	public static void method364(Js5 class243, int i, int i_0_, int i_1_, boolean bool, Class298_Sub19_Sub1 class298_sub19_sub1, int i_2_) {
 		try {
 			Class477.method6096(class243, i, i_0_, i_1_, bool, -2042287938);
 			Class79.aClass298_Sub19_Sub1_748 = class298_sub19_sub1;

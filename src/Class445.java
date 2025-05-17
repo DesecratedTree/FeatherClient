@@ -3,7 +3,7 @@
  */
 
 public class Class445 {
-	CacheIndex aClass243_5609;
+	Js5 aClass243_5609;
 	CachingHashMap aClass348_5610 = new CachingHashMap(64);
 
 	public void method5891(int i) {
@@ -57,7 +57,7 @@ public class Class445 {
 		}
 	}
 
-	public Class445(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class445(Class411 class411, Class429 class429, Js5 class243) {
 		((Class445) this).aClass243_5609 = class243;
 		if (null != ((Class445) this).aClass243_5609)
 			((Class445) this).aClass243_5609.method2316(Class120.aClass120_1411.anInt1460 * -1006924897, 1281975621);
@@ -107,13 +107,13 @@ public class Class445 {
 			Class390 class390 = (((ClientScript2) class403).aBoolean5261 ? ((ClientScript2) class403).aClass390_5247 : ((ClientScript2) class403).aClass390_5246);
 			IComponentDefinition class105 = ((Class390) class390).aClass105_4168;
 			Class119 class119 = ((Class390) class390).aClass119_4167;
-			Class283.method2677(class105, class119, class403, (byte) 32);
+			GameMap.method2677(class105, class119, class403, (byte) 32);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("sj.mo(").append(')').toString());
 		}
 	}
 
-	public static boolean method5897(CacheIndex class243, CacheIndex class243_11_, CacheIndex class243_12_, Class298_Sub19_Sub1 class298_sub19_sub1, Class284 class284, byte i) {
+	public static boolean method5897(Js5 class243, Js5 class243_11_, Js5 class243_12_, Class298_Sub19_Sub1 class298_sub19_sub1, Class284 class284, byte i) {
 		try {
 			Class79.aClass243_747 = class243;
 			Class79.aClass243_735 = class243_11_;

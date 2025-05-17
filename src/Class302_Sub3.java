@@ -43,7 +43,7 @@ public class Class302_Sub3 extends Class302 {
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub8_7566, 1, -2045258023);
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub23_7576, 3, -496921634);
 			Class359.method4294(-32585668);
-			client.aClass283_8716.method2640((byte) 54).method4324(-1309443074);
+			client.map.method2640((byte) 54).method4324(-1309443074);
 			client.aBoolean8676 = true;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("aap.u(").append(')').toString());

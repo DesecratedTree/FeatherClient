@@ -80,7 +80,7 @@ public class NPC extends Entity {
 			if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub18_7561.method5693(-1104068428) == 1 && class503.aBoolean6165 && class350.aBoolean3756) {
 				Class438 class438 = ((aClass438_10078.method5819((byte) -29) && aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 				Class438 class438_5_ = ((aClass438_10077.method5819((byte) -63) && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
-				Class387 class387 = (Class283.method2678(class_ra, i_3_, (((NPC) this).anInt10097 * -155466425), (-197572281 * ((NPC) this).anInt10073), (-104151209 * ((NPC) this).anInt10074), -2095128707 * aClass503_10190.anInt6187, aClass387Array10082[0], aClass503_10190.aShort6191 & 0xffff, aClass503_10190.aShort6153 & 0xffff, aClass503_10190.aByte6168 & 0xff, aClass503_10190.aByte6152 & 0xff, null != class438_5_ ? class438_5_ : class438, 1812843484));
+				Class387 class387 = (GameMap.method2678(class_ra, i_3_, (((NPC) this).anInt10097 * -155466425), (-197572281 * ((NPC) this).anInt10073), (-104151209 * ((NPC) this).anInt10074), -2095128707 * aClass503_10190.anInt6187, aClass387Array10082[0], aClass503_10190.aShort6191 & 0xffff, aClass503_10190.aShort6153 & 0xffff, aClass503_10190.aByte6168 & 0xff, aClass503_10190.aByte6152 & 0xff, null != class438_5_ ? class438_5_ : class438, 1812843484));
 				if (null != class387) {
 					if (null == aClass302_Sub1Array7726 || (aClass302_Sub1Array7726.length < aClass387Array10082.length + 1))
 						method4362(aClass387Array10082.length + 1, 1538315389);
@@ -238,7 +238,7 @@ public class NPC extends Entity {
 	public void method4456(int i, int i_20_, int i_21_, boolean bool, int i_22_, byte i_23_) {
 		try {
 			plane = aByte7724 = (byte) i;
-			if (client.aClass283_8716.method2654(1132456995).method2320(i_20_, i_21_, 1587070733))
+			if (client.map.method2654(1132456995).method2320(i_20_, i_21_, 1587070733))
 				aByte7724++;
 			if (aClass438_10078.method5819((byte) -33) && (aClass438_10078.method5820(1592092831).anInt4189 * -882531177) == 1) {
 				anIntArray10093 = null;
@@ -275,7 +275,7 @@ public class NPC extends Entity {
 			anInt10124 = 0;
 			scenePositionXQueue[0] = i_20_;
 			scenePositionYQueue[0] = i_21_;
-			Class217 class217 = Class217.method2005(method4337().aClass217_2599);
+			SceneObjectPosition class217 = SceneObjectPosition.method2005(method4337().aClass217_2599);
 			class217.aFloat2451 = (float) ((i_22_ << 8) + (scenePositionXQueue[0] << 9));
 			class217.aFloat2454 = (float) ((scenePositionYQueue[0] << 9) + (i_22_ << 8));
 			method4340(class217);
@@ -482,7 +482,7 @@ public class NPC extends Entity {
 		if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub18_7561.method5693(-1718454976) == 1 && class503.aBoolean6165 && class350.aBoolean3756) {
 			Class438 class438 = ((aClass438_10078.method5819((byte) -38) && aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 			Class438 class438_43_ = ((aClass438_10077.method5819((byte) -86) && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
-			Class387 class387 = (Class283.method2678(class_ra, i, (((NPC) this).anInt10097 * -155466425), (-197572281 * ((NPC) this).anInt10073), (-104151209 * ((NPC) this).anInt10074), -2095128707 * aClass503_10190.anInt6187, aClass387Array10082[0], aClass503_10190.aShort6191 & 0xffff, aClass503_10190.aShort6153 & 0xffff, aClass503_10190.aByte6168 & 0xff, aClass503_10190.aByte6152 & 0xff, null != class438_43_ ? class438_43_ : class438, 1812843484));
+			Class387 class387 = (GameMap.method2678(class_ra, i, (((NPC) this).anInt10097 * -155466425), (-197572281 * ((NPC) this).anInt10073), (-104151209 * ((NPC) this).anInt10074), -2095128707 * aClass503_10190.anInt6187, aClass387Array10082[0], aClass503_10190.aShort6191 & 0xffff, aClass503_10190.aShort6153 & 0xffff, aClass503_10190.aByte6168 & 0xff, aClass503_10190.aByte6152 & 0xff, null != class438_43_ ? class438_43_ : class438, 1812843484));
 			if (null != class387) {
 				if (null == aClass302_Sub1Array7726 || (aClass302_Sub1Array7726.length < aClass387Array10082.length + 1))
 					method4362(aClass387Array10082.length + 1, -565315916);

@@ -71,8 +71,8 @@ public class Class82_Sub7 extends Class82 {
 
 	static void method889(Class233 class233, boolean bool, float f, float f_0_, float f_1_, float f_2_, int i, int i_3_, int i_4_) {
 		try {
-			int i_5_ = client.aClass283_8716.method2635(-115794055);
-			int i_6_ = client.aClass283_8716.method2634((byte) -118);
+			int i_5_ = client.map.method2635(-115794055);
+			int i_6_ = client.map.method2634((byte) -118);
 			class233.method2152(f, f_0_, f_1_, f_2_, (float) i_6_, (float) i_5_, (float) i, (float) i_3_);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("xp.fj(").append(')').toString());

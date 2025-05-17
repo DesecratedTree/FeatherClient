@@ -3,27 +3,27 @@
  */
 
 public class Class317 {
-	CacheIndex aClass243_3319;
+	Js5 aClass243_3319;
 	CachingHashMap aClass348_3320 = new CachingHashMap(16);
-	static CacheIndex aClass243_3321;
+	static Js5 aClass243_3321;
 
-	public Class317(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class317(Class411 class411, Class429 class429, Js5 class243) {
 		((Class317) this).aClass243_3319 = class243;
 		((Class317) this).aClass243_3319.method2316((-1006924897 * (Class120.aClass120_1434.anInt1460)), -1713499559);
 	}
 
-	public Class277 method3845(int i, int i_0_, int i_1_, int i_2_, Class131 class131, byte i_3_) {
+	public Skybox method3845(int i, int i_0_, int i_1_, int i_2_, Class131 class131, byte i_3_) {
 		try {
-			Class276[] class276s = null;
+			SkyboxFace[] class276s = null;
 			Class325 class325 = method3849(i, 1130929596);
 			if (((Class325) class325).anIntArray3451 != null) {
-				class276s = (new Class276[((Class325) class325).anIntArray3451.length]);
+				class276s = (new SkyboxFace[((Class325) class325).anIntArray3451.length]);
 				for (int i_4_ = 0; i_4_ < class276s.length; i_4_++) {
 					Class125 class125 = class131.method1467((((Class325) class325).anIntArray3451[i_4_]), -1248511043);
-					class276s[i_4_] = new Class276(-865421291 * class125.anInt1491, class125.anInt1488 * -2045013891, class125.anInt1483 * -415148019, class125.anInt1489 * 1899082811, 257759203 * class125.anInt1481, class125.anInt1490 * 1872498707, 1242301535 * class125.anInt1487, class125.aBoolean1486, -535750953 * class125.anInt1485, 1283923105 * class125.anInt1484, -1054886537 * class125.anInt1482);
+					class276s[i_4_] = new SkyboxFace(-865421291 * class125.anInt1491, class125.anInt1488 * -2045013891, class125.anInt1483 * -415148019, class125.anInt1489 * 1899082811, 257759203 * class125.anInt1481, class125.anInt1490 * 1872498707, 1242301535 * class125.anInt1487, class125.aBoolean1486, -535750953 * class125.anInt1485, 1283923105 * class125.anInt1484, -1054886537 * class125.anInt1482);
 				}
 			}
-			return new Class277(-1474936555 * ((Class325) class325).anInt3450, class276s, -1877970137 * ((Class325) class325).anInt3449, i_0_, i_1_, i_2_, ((Class325) class325).aClass320_3452, ((Class325) class325).anInt3453 * -630450499);
+			return new Skybox(-1474936555 * ((Class325) class325).anInt3450, class276s, -1877970137 * ((Class325) class325).anInt3449, i_0_, i_1_, i_2_, ((Class325) class325).aClass320_3452, ((Class325) class325).anInt3453 * -630450499);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("nf.f(").append(')').toString());
 		}

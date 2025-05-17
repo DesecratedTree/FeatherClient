@@ -5,7 +5,7 @@
 public class Class298_Sub10 extends Class298 {
 	static int[] anIntArray7229;
 	int anInt7230;
-	public Class217 aClass217_7231 = new Class217();
+	public SceneObjectPosition aClass217_7231 = new SceneObjectPosition();
 	float aFloat7232;
 	int anInt7233;
 

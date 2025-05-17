@@ -2,39 +2,39 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public class Class217 {
+public class SceneObjectPosition {
 	public float aFloat2451;
 	static int anInt2452;
 	static int anInt2453;
 	public float aFloat2454;
 	public float aFloat2455;
-	static Class217[] aClass217Array2456;
+	static SceneObjectPosition[] aClass217Array2456;
 
 	static {
-		new Class217(0.0F, 0.0F, 0.0F);
-		aClass217Array2456 = new Class217[0];
+		new SceneObjectPosition(0.0F, 0.0F, 0.0F);
+		aClass217Array2456 = new SceneObjectPosition[0];
 	}
 
-	public static Class217 method2004(float f, float f_0_, float f_1_) {
+	public static SceneObjectPosition get(float f, float f_0_, float f_1_) {
 		synchronized (aClass217Array2456) {
 			if (anInt2453 == 0) {
-				Class217 class217 = new Class217(f, f_0_, f_1_);
+				SceneObjectPosition class217 = new SceneObjectPosition(f, f_0_, f_1_);
 				return class217;
 			}
 			aClass217Array2456[--anInt2453].method2007(f, f_0_, f_1_);
-			Class217 class217 = aClass217Array2456[anInt2453];
+			SceneObjectPosition class217 = aClass217Array2456[anInt2453];
 			return class217;
 		}
 	}
 
-	public static Class217 method2005(Class217 class217) {
+	public static SceneObjectPosition method2005(SceneObjectPosition class217) {
 		synchronized (aClass217Array2456) {
 			if (anInt2453 == 0) {
-				Class217 class217_2_ = new Class217(class217);
+				SceneObjectPosition class217_2_ = new SceneObjectPosition(class217);
 				return class217_2_;
 			}
 			aClass217Array2456[--anInt2453].method2013(class217);
-			Class217 class217_3_ = aClass217Array2456[anInt2453];
+			SceneObjectPosition class217_3_ = aClass217Array2456[anInt2453];
 			return class217_3_;
 		}
 	}
@@ -46,7 +46,7 @@ public class Class217 {
 		}
 	}
 
-	public Class217(float f, float f_4_, float f_5_) {
+	public SceneObjectPosition(float f, float f_4_, float f_5_) {
 		aFloat2451 = f;
 		aFloat2455 = f_4_;
 		aFloat2454 = f_5_;
@@ -64,7 +64,7 @@ public class Class217 {
 		aFloat2454 = -aFloat2454;
 	}
 
-	final void method2009(Class217 class217_8_) {
+	final void method2009(SceneObjectPosition class217_8_) {
 		aFloat2451 += class217_8_.aFloat2451;
 		aFloat2455 += class217_8_.aFloat2455;
 		aFloat2454 += class217_8_.aFloat2454;
@@ -76,8 +76,8 @@ public class Class217 {
 		aFloat2454 -= f_10_;
 	}
 
-	public static final Class217 method2011(Class217 class217, Class217 class217_11_) {
-		Class217 class217_12_ = method2005(class217);
+	public static final SceneObjectPosition method2011(SceneObjectPosition class217, SceneObjectPosition class217_11_) {
+		SceneObjectPosition class217_12_ = method2005(class217);
 		class217_12_.method2015(class217_11_);
 		return class217_12_;
 	}
@@ -86,17 +86,17 @@ public class Class217 {
 		return (float) Math.sqrt((double) (aFloat2451 * aFloat2451 + aFloat2455 * aFloat2455 + aFloat2454 * aFloat2454));
 	}
 
-	public Class217() {
+	public SceneObjectPosition() {
 		/* empty */
 	}
 
-	Class217(Class217 class217_13_) {
+	SceneObjectPosition(SceneObjectPosition class217_13_) {
 		aFloat2451 = class217_13_.aFloat2451;
 		aFloat2455 = class217_13_.aFloat2455;
 		aFloat2454 = class217_13_.aFloat2454;
 	}
 
-	public void method2013(Class217 class217_14_) {
+	public void method2013(SceneObjectPosition class217_14_) {
 		method2007(class217_14_.aFloat2451, class217_14_.aFloat2455, class217_14_.aFloat2454);
 	}
 
@@ -115,7 +115,7 @@ public class Class217 {
 		class218_17_.method2029();
 	}
 
-	final void method2015(Class217 class217_18_) {
+	final void method2015(SceneObjectPosition class217_18_) {
 		aFloat2451 -= class217_18_.aFloat2451;
 		aFloat2455 -= class217_18_.aFloat2455;
 		aFloat2454 -= class217_18_.aFloat2454;
@@ -131,7 +131,7 @@ public class Class217 {
 
 	public static void method2017(int i) {
 		anInt2452 = i;
-		aClass217Array2456 = new Class217[i];
+		aClass217Array2456 = new SceneObjectPosition[i];
 		anInt2453 = 0;
 	}
 

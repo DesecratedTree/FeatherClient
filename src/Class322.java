@@ -37,7 +37,7 @@ public class Class322 {
 		}
 	}
 
-	public static Class505 method3931(CacheIndex class243, int i, int i_1_, byte i_2_) {
+	public static Class505 method3931(Js5 class243, int i, int i_1_, byte i_2_) {
 		try {
 			byte[] is = class243.getFileFromArchive(i, i_1_, (byte) -42);
 			if (null == is)
@@ -50,7 +50,7 @@ public class Class322 {
 
 	static final void method3932(long l) {
 		try {
-			if (client.aClass283_8716.method2675(-1611682495) != null) {
+			if (client.map.method2675(-1611682495) != null) {
 				if (4 == -863531439 * Class298_Sub1.anInt7164 || 5 == Class298_Sub1.anInt7164 * -863531439)
 					Class491.method6175(l);
 				else if (Class298_Sub1.anInt7164 * -863531439 == 2)
@@ -78,7 +78,7 @@ public class Class322 {
 				i = client.anInt8831 * 1203044105;
 			Class518.method6314(i, 614001892);
 			int i_3_ = (Class287.myPlayer.getSize() << 8);
-			Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
+			SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
 			Class341.method4144((Class287.myPlayer.plane), i_3_ + (int) class217.aFloat2451, (int) class217.aFloat2454 + i_3_, client.anInt8961 * 614680345, (short) 8192);
 			client.anInt8961 = 0;
 		} catch (RuntimeException runtimeexception) {

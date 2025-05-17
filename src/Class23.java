@@ -50,7 +50,7 @@ public class Class23 {
 	static short aShort323 = 25;
 	static short aShort324 = 2;
 	static short aShort325 = 1001;
-	public static CacheIndex aClass243_326;
+	public static Js5 aClass243_326;
 
 	Class23() throws Throwable {
 		throw new Error();

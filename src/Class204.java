@@ -4,7 +4,7 @@
 import java.awt.Canvas;
 
 public class Class204 {
-	public static GraphicsToolkit method1911(Canvas canvas, Interface_ma interface_ma, CacheIndex class243, int i) {
+	public static GraphicsToolkit method1911(Canvas canvas, MaterialRawList interface_ma, Js5 class243, int i) {
 		GraphicsToolkit class_ra;
 		try {
 			boolean bool = Class_ra_Sub3.method5421();
@@ -21,7 +21,7 @@ public class Class204 {
 		return class_ra;
 	}
 
-	public static GraphicsToolkit method1912(Canvas canvas, Interface_ma interface_ma, CacheIndex class243, int i) {
+	public static GraphicsToolkit method1912(Canvas canvas, MaterialRawList interface_ma, Js5 class243, int i) {
 		GraphicsToolkit class_ra;
 		try {
 			boolean bool = Class_ra_Sub3.method5421();
@@ -42,7 +42,7 @@ public class Class204 {
 		throw new Error();
 	}
 
-	public static GraphicsToolkit method1913(Canvas canvas, Interface_ma interface_ma, CacheIndex class243, int i) {
+	public static GraphicsToolkit method1913(Canvas canvas, MaterialRawList interface_ma, Js5 class243, int i) {
 		GraphicsToolkit class_ra;
 		try {
 			boolean bool = Class_ra_Sub3.method5421();

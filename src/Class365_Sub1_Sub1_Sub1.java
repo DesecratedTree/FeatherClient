@@ -47,7 +47,7 @@ public class Class365_Sub1_Sub1_Sub1 extends Class365_Sub1_Sub1 {
 
 	public final void method4405(int i, int i_0_, int i_1_, int i_2_, int i_3_) {
 		try {
-			Class217 class217 = Class217.method2005(method4337().aClass217_2599);
+			SceneObjectPosition class217 = SceneObjectPosition.method2005(method4337().aClass217_2599);
 			if (!((Class365_Sub1_Sub1_Sub1) this).aBoolean10052) {
 				float f = (float) i - class217.aFloat2451;
 				float f_4_ = (float) i_0_ - class217.aFloat2454;
@@ -96,7 +96,7 @@ public class Class365_Sub1_Sub1_Sub1 extends Class365_Sub1_Sub1 {
 							class365_sub1_sub1_sub2 = ((Entity) class298_sub29.anObject7366);
 					}
 					if (class365_sub1_sub1_sub2 != null) {
-						Class217 class217 = (class365_sub1_sub1_sub2.method4337().aClass217_2599);
+						SceneObjectPosition class217 = (class365_sub1_sub1_sub2.method4337().aClass217_2599);
 						method4341(class217.aFloat2451, (float) ((Class356.method4271((int) class217.aFloat2451, (int) class217.aFloat2454, plane, -1098231500)) - (1403412253 * ((Class365_Sub1_Sub1_Sub1) this).anInt10042)), class217.aFloat2454);
 						if ((((Class365_Sub1_Sub1_Sub1) this).anInt10041 * -1955698847) >= 0) {
 							Class350 class350 = class365_sub1_sub1_sub2.method4426(399670605);
@@ -121,7 +121,7 @@ public class Class365_Sub1_Sub1_Sub1 extends Class365_Sub1_Sub1 {
 								int i_15_ = i_9_ * i_13_ + i_8_ * i_14_ >> 14;
 								i_9_ = i_9_ * i_14_ - i_13_ * i_8_ >> 14;
 								i_8_ = i_15_;
-								Class217 class217_16_ = Class217.method2005(method4337().aClass217_2599);
+								SceneObjectPosition class217_16_ = SceneObjectPosition.method2005(method4337().aClass217_2599);
 								class217_16_.aFloat2451 += (float) i_8_;
 								class217_16_.aFloat2454 += (float) i_9_;
 								method4340(class217_16_);
@@ -172,7 +172,7 @@ public class Class365_Sub1_Sub1_Sub1 extends Class365_Sub1_Sub1 {
 
 	void method4404(int i) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			aShort9798 = aShort9796 = (short) (int) (class217.aFloat2451 / 512.0F);
 			aShort9795 = aShort9797 = (short) (int) (class217.aFloat2454 / 512.0F);
 		} catch (RuntimeException runtimeexception) {
@@ -351,7 +351,7 @@ public class Class365_Sub1_Sub1_Sub1 extends Class365_Sub1_Sub1 {
 	}
 
 	void method4409() {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		aShort9798 = aShort9796 = (short) (int) (class217.aFloat2451 / 512.0F);
 		aShort9795 = aShort9797 = (short) (int) (class217.aFloat2454 / 512.0F);
 	}
@@ -429,7 +429,7 @@ public class Class365_Sub1_Sub1_Sub1 extends Class365_Sub1_Sub1 {
 	}
 
 	void method4412() {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		aShort9798 = aShort9796 = (short) (int) (class217.aFloat2451 / 512.0F);
 		aShort9795 = aShort9797 = (short) (int) (class217.aFloat2454 / 512.0F);
 	}

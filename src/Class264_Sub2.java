@@ -317,7 +317,7 @@ public class Class264_Sub2 extends Class264 {
 	static final void method2506(int i) {
 		try {
 			Class119.method1304(1674101672);
-			client.aClass283_8716.method2666(-2068923271);
+			client.map.method2666(-2068923271);
 			for (int i_108_ = 0; i_108_ < client.aClass19Array8869.length; i_108_++)
 				client.aClass19Array8869[i_108_] = null;
 			for (int i_109_ = 0; i_109_ < client.aClass299Array8671.length; i_109_++)

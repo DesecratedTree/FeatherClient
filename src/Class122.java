@@ -5,8 +5,8 @@
 public class Class122 {
 	public String aString1464;
 	public String aString1465;
-	static CacheIndex aClass243_1466;
-	public static CacheIndex aClass243_1467;
+	static Js5 aClass243_1466;
+	public static Js5 aClass243_1467;
 
 	void method1317(Class101 class101, int i) {
 		try {
@@ -67,7 +67,7 @@ public class Class122 {
 					class57 = Class373.aClass_ra4071.method5125(class89s[0], true);
 					client.aClass348_8697.method4194(class57, (long) i_18_);
 				}
-				Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+				SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 				Class125.method1400(class365_sub1_sub1_sub2.plane, (int) class217.aFloat2451, (int) class217.aFloat2454, class365_sub1_sub1_sub2.getSize() * 256, 0, false, 2131920659);
 				int i_19_ = (int) ((float) i_11_ + client.aFloatArray8891[0] - 18.0F);
 				int i_20_ = (int) ((float) i_12_ + client.aFloatArray8891[1] - 16.0F - 54.0F);

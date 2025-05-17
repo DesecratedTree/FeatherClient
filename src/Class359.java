@@ -129,7 +129,7 @@ public class Class359 implements Interface19 {
 			if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub16_7557.method5687(1870666602) == 0)
 				i_12_ |= 0x40;
 			Class369.method4572(i_12_, -1404267888);
-			client.aClass283_8716.method2641(2004012946).method5791(i_12_, -1760580017);
+			client.map.method2641(2004012946).method5791(i_12_, -1760580017);
 			Class62.aClass248_612.method2384((short) 206).method2641(-1884844132).method5791(i_12_, -1760580017);
 			Class298_Sub32_Sub14.aClass477_9400.method6087(i_12_, 828561369);
 			Class15.aClass507_224.method6271(i_12_, 1252678892);
@@ -139,7 +139,7 @@ public class Class359 implements Interface19 {
 			Class365_Sub1_Sub3_Sub2.method4515(i_12_, (byte) -5);
 			Class518.method6312(i_12_, (byte) 65);
 			Class216.method2002(i_12_, -1700152432);
-			client.aClass283_8716.method2667(1301460504);
+			client.map.method2667(1301460504);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("oz.gw(").append(')').toString());
 		}

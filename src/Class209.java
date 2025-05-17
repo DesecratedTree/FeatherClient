@@ -99,7 +99,7 @@ public class Class209 {
 							Class239.method2210(i_3_, i_4_, 0, i_8_, i_7_, 1846790975);
 					}
 				} else if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub29_7582.method5726(-2147180332) != 0) {
-					Class217 class217 = class365_sub1.method4337().aClass217_2599;
+					SceneObjectPosition class217 = class365_sub1.method4337().aClass217_2599;
 					int i_9_ = (int) class217.aFloat2451 - 256 >> 9;
 					int i_10_ = (int) class217.aFloat2454 - 256 >> 9;
 					int i_11_ = ((Class287.myPlayer == class365_sub1) ? 0 : (i_10_ << 8) + ((i_9_ << 16) + (class365_sub1.plane << 24)) + i_5_);

@@ -6,7 +6,7 @@ import java.util.LinkedList;
 public class Class248 implements Runnable {
 	volatile boolean aBoolean2749 = false;
 	LinkedList aLinkedList2750 = new LinkedList();
-	Class283 aClass283_2751 = new Class283(true);
+	GameMap aClass283_2751 = new GameMap(true);
 	public static Class247 aClass247_2752;
 
 	public void method2379(Class433 class433, int i) {
@@ -25,7 +25,7 @@ public class Class248 implements Runnable {
 		}
 	}
 
-	void method2381(Class283 class283, int i) {
+	void method2381(GameMap class283, int i) {
 		try {
 			((Class248) this).aClass283_2751 = class283;
 		} catch (RuntimeException runtimeexception) {
@@ -86,13 +86,13 @@ public class Class248 implements Runnable {
 				/* empty */
 			}
 			((Class248) this).aClass283_2751.method2673((byte) 119);
-			client.aClass283_8716.method2673((byte) 25);
+			client.map.method2673((byte) 25);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("kj.d(").append(')').toString());
 		}
 	}
 
-	public Class283 method2384(short i) {
+	public GameMap method2384(short i) {
 		try {
 			return ((Class248) this).aClass283_2751;
 		} catch (RuntimeException runtimeexception) {

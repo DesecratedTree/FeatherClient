@@ -141,7 +141,7 @@ public class Class358 {
 
 	void method4283(GraphicsToolkit class_ra, int i) {
 		try {
-			CacheIndex class243 = ((Class347) ((Class358) this).aClass347_3856).aClass243_3699;
+			Js5 class243 = ((Class347) ((Class358) this).aClass347_3856).aClass243_3699;
 			if (459224223 * ((Class358) this).anInt3855 >= 0 && (((Class347) ((Class358) this).aClass347_3856).aClass348_3700.get((long) (459224223 * ((Class358) this).anInt3855))) == null && class243.method2310(((Class358) this).anInt3855 * 459224223, -457216440)) {
 				Class89 class89 = Class89.method979(class243, (((Class358) this).anInt3855 * 459224223));
 				((Class347) ((Class358) this).aClass347_3856).aClass348_3700.method4194(class_ra.method5125(class89, true), (long) (((Class358) this).anInt3855 * 459224223));

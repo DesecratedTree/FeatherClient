@@ -73,7 +73,7 @@ public class Class278 {
 		return is;
 	}
 
-	public static Class278 method2604(CacheIndex class243, int i, int i_11_) {
+	public static Class278 method2604(Js5 class243, int i, int i_11_) {
 		byte[] is = class243.getFileFromArchive(i, i_11_, (byte) -90);
 		if (is == null)
 			return null;

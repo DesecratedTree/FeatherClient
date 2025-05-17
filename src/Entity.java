@@ -319,7 +319,7 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 			Class235 class235 = method4337();
 			int i_48_ = (int) class235.aClass217_2599.aFloat2451 >> 9;
 			int i_49_ = (int) class235.aClass217_2599.aFloat2454 >> 9;
-			if (null != aClass331_7722 && i_48_ >= 1 && i_49_ >= 1 && i_48_ <= client.aClass283_8716.method2629(-2008930035) - 1 && i_49_ <= client.aClass283_8716.method2630(-33342416) - 1) {
+			if (null != aClass331_7722 && i_48_ >= 1 && i_49_ >= 1 && i_48_ <= client.map.method2629(-2008930035) - 1 && i_49_ <= client.map.method2630(-33342416) - 1) {
 				Class326 class326 = (aClass331_7722.aClass326ArrayArrayArray3516[plane][i_48_][i_49_]);
 				if (null != class326 && class326.aClass365_Sub1_Sub2_3461 != null)
 					return (i_47_ + class326.aClass365_Sub1_Sub2_3461.aShort9801);
@@ -349,7 +349,7 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 	public void method4404(int i) {
 		try {
 			int i_51_ = (((Entity) this).anInt10065 * 1173963243 - 1 << 8) + 240;
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			aShort9798 = (short) ((int) class217.aFloat2451 - i_51_ >> 9);
 			aShort9795 = (short) ((int) class217.aFloat2454 - i_51_ >> 9);
 			aShort9796 = (short) ((int) class217.aFloat2451 + i_51_ >> 9);
@@ -455,7 +455,7 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 
 	void method4425(int i, int i_70_, int i_71_, int i_72_, int i_73_, int i_74_) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			int i_75_ = aShort9796 + aShort9798 >> 1;
 			int i_76_ = aShort9795 + aShort9797 >> 1;
 			int i_77_ = Class220.anIntArray2483[i];
@@ -580,7 +580,7 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 
 	public void method4434() {
 		int i = ((((Entity) this).anInt10065 * 1173963243 - 1 << 8) + 240);
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		aShort9798 = (short) ((int) class217.aFloat2451 - i >> 9);
 		aShort9795 = (short) ((int) class217.aFloat2454 - i >> 9);
 		aShort9796 = (short) ((int) class217.aFloat2451 + i >> 9);
@@ -623,7 +623,7 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 		Class235 class235 = method4337();
 		int i_111_ = (int) class235.aClass217_2599.aFloat2451 >> 9;
 		int i_112_ = (int) class235.aClass217_2599.aFloat2454 >> 9;
-		if (null != aClass331_7722 && i_111_ >= 1 && i_112_ >= 1 && i_111_ <= client.aClass283_8716.method2629(-2022187323) - 1 && i_112_ <= client.aClass283_8716.method2630(1908645218) - 1) {
+		if (null != aClass331_7722 && i_111_ >= 1 && i_112_ >= 1 && i_111_ <= client.map.method2629(-2022187323) - 1 && i_112_ <= client.map.method2630(1908645218) - 1) {
 			Class326 class326 = (aClass331_7722.aClass326ArrayArrayArray3516[plane][i_111_][i_112_]);
 			if (null != class326 && class326.aClass365_Sub1_Sub2_3461 != null)
 				return i + class326.aClass365_Sub1_Sub2_3461.aShort9801;
@@ -643,7 +643,7 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 		Class235 class235 = method4337();
 		int i_113_ = (int) class235.aClass217_2599.aFloat2451 >> 9;
 		int i_114_ = (int) class235.aClass217_2599.aFloat2454 >> 9;
-		if (null != aClass331_7722 && i_113_ >= 1 && i_114_ >= 1 && i_113_ <= client.aClass283_8716.method2629(-2141154955) - 1 && i_114_ <= client.aClass283_8716.method2630(145346949) - 1) {
+		if (null != aClass331_7722 && i_113_ >= 1 && i_114_ >= 1 && i_113_ <= client.map.method2629(-2141154955) - 1 && i_114_ <= client.map.method2630(145346949) - 1) {
 			Class326 class326 = (aClass331_7722.aClass326ArrayArrayArray3516[plane][i_113_][i_114_]);
 			if (null != class326 && class326.aClass365_Sub1_Sub2_3461 != null)
 				return i + class326.aClass365_Sub1_Sub2_3461.aShort9801;
@@ -718,7 +718,7 @@ public abstract class Entity extends Class365_Sub1_Sub1 {
 
 	public void method4444() {
 		int i = ((((Entity) this).anInt10065 * 1173963243 - 1 << 8) + 240);
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		aShort9798 = (short) ((int) class217.aFloat2451 - i >> 9);
 		aShort9795 = (short) ((int) class217.aFloat2454 - i >> 9);
 		aShort9796 = (short) ((int) class217.aFloat2451 + i >> 9);

@@ -56,7 +56,7 @@ public abstract class Class_ta {
 		}
 	}
 
-	public static void method5997(CacheIndex class243, byte i) {
+	public static void method5997(Js5 class243, byte i) {
 		try {
 			Class173.aClass243_1756 = class243;
 		} catch (RuntimeException runtimeexception) {

@@ -10,7 +10,7 @@ public class Class82_Sub6 extends Class82 {
 	int[] anIntArray6841;
 	static int anInt6842;
 	static Class227 aClass227_6843;
-	public static CacheIndex aClass243_6844;
+	public static Js5 aClass243_6844;
 	static String aString6845;
 	public static Class7[] aClass7Array6846;
 

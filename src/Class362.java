@@ -6,7 +6,7 @@ import java.io.File;
 public class Class362 {
 	Class369[] aClass369Array3915;
 	int anInt3916;
-	CacheIndex aClass243_3917;
+	Js5 aClass243_3917;
 	public static int anInt3918;
 
 	public Class369 method4307(int i, int i_0_) {
@@ -31,7 +31,7 @@ public class Class362 {
 		}
 	}
 
-	public Class362(Class411 class411, Class429 class429, CacheIndex class243, boolean bool) {
+	public Class362(Class411 class411, Class429 class429, Js5 class243, boolean bool) {
 		((Class362) this).aClass243_3917 = class243;
 		if (((Class362) this).aClass243_3917 != null)
 			((Class362) this).anInt3916 = (((Class362) this).aClass243_3917.method2316(-1006924897 * Class120.aClass120_1440.anInt1460, -941078932)) * 70760625;

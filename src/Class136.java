@@ -5,7 +5,7 @@
 public class Class136 implements Interface6 {
 	Class57 aClass57_6385;
 	Class158 aClass158_6386;
-	CacheIndex aClass243_6387;
+	Js5 aClass243_6387;
 	public static int[] anIntArray6388;
 
 	public void method55() {
@@ -56,7 +56,7 @@ public class Class136 implements Interface6 {
 		return (((Class136) this).aClass243_6387.method2310(-610589451 * ((Class136) this).aClass158_6386.anInt6361, -457216440));
 	}
 
-	Class136(CacheIndex class243, Class158 class158) {
+	Class136(Js5 class243, Class158 class158) {
 		((Class136) this).aClass243_6387 = class243;
 		((Class136) this).aClass158_6386 = class158;
 	}

@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public final class CacheIndex {
+public final class Js5 {
 
 	static int anInt2711 = 0;
 	public static int anInt2712 = 1;
@@ -287,7 +287,7 @@ public final class CacheIndex {
 		}
 	}
 
-	public CacheIndex(Class242 class242, boolean bool, int i) {
+	public Js5(Class242 class242, boolean bool, int i) {
 		if (i < 0 || i > 2) {
 			throw new IllegalArgumentException("");
 		}

@@ -77,7 +77,7 @@ public class Class298_Sub23 extends Class298 {
 		return i;
 	}
 
-	static boolean method3064(CacheIndex class243) {
+	static boolean method3064(Js5 class243) {
 		if (!aBoolean7334) {
 			byte[] is = class243.getFileFromArchive(0, 0, (byte) -48);
 			if (is == null)
@@ -87,7 +87,7 @@ public class Class298_Sub23 extends Class298 {
 		return true;
 	}
 
-	static Class298_Sub23 method3065(CacheIndex class243, int i, int i_4_) {
+	static Class298_Sub23 method3065(Js5 class243, int i, int i_4_) {
 		if (!method3064(class243)) {
 			class243.method2290(i, i_4_, -875831506);
 			return null;
@@ -98,7 +98,7 @@ public class Class298_Sub23 extends Class298 {
 		return new Class298_Sub23(is);
 	}
 
-	public static Class298_Sub23 method3066(CacheIndex class243, int i) {
+	public static Class298_Sub23 method3066(Js5 class243, int i) {
 		if (!method3064(class243)) {
 			class243.method2310(i, -457216440);
 			return null;

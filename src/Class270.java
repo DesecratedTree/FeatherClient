@@ -9,7 +9,7 @@ public class Class270 {
 	static int anInt2891 = 14;
 	int anInt2892;
 	int[][] anIntArrayArray2893;
-	static CacheIndex aClass243_2894;
+	static Js5 aClass243_2894;
 
 	byte[] method2532(byte[] is, int i) {
 		try {

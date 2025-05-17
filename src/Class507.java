@@ -6,8 +6,8 @@ public class Class507 {
 	CachingHashMap aClass348_6204;
 	Class411 aClass411_6205;
 	CachingHashMap aClass348_6206 = new CachingHashMap(64);
-	CacheIndex aClass243_6207;
-	CacheIndex aClass243_6208;
+	Js5 aClass243_6207;
+	Js5 aClass243_6208;
 	boolean aBoolean6209;
 	int anInt6210;
 	CachingHashMap aClass348_6211;
@@ -128,7 +128,7 @@ public class Class507 {
 		}
 	}
 
-	public Class507(Class411 class411, Class429 class429, boolean bool, CacheIndex class243, CacheIndex class243_3_) {
+	public Class507(Class411 class411, Class429 class429, boolean bool, Js5 class243, Js5 class243_3_) {
 		((Class507) this).aClass348_6204 = new CachingHashMap(50);
 		((Class507) this).aClass348_6211 = new CachingHashMap(5);
 		((Class507) this).aClass411_6205 = class411;

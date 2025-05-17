@@ -36,7 +36,7 @@ public class Class346 {
 			for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
 				Player class365_sub1_sub1_sub2_sub2 = client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[is[i_5_]];
 				if (null != class365_sub1_sub1_sub2_sub2 && class365_sub1_sub1_sub2_sub2.method4477(526198823) && !class365_sub1_sub1_sub2_sub2.hidden && (class365_sub1_sub1_sub2_sub2 != Class287.myPlayer) && (class365_sub1_sub1_sub2_sub2.plane == (Class287.myPlayer.plane))) {
-					Class217 class217 = (class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
+					SceneObjectPosition class217 = (class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
 					int i_6_ = (int) class217.aFloat2451 / 128 - i / 128;
 					int i_7_ = (int) class217.aFloat2454 / 128 - i_0_ / 128;
 					boolean bool = false;
@@ -83,7 +83,7 @@ public class Class346 {
 		}
 	}
 
-	public static void method4173(GraphicsToolkit class_ra, CacheIndex class243, int i) {
+	public static void method4173(GraphicsToolkit class_ra, Js5 class243, int i) {
 		try {
 			Class89[] class89s = Class89.method993(class243, Class74.anInt692 * -1217066055, 0);
 			Class160.aClass57Array1646 = new Class57[class89s.length];

@@ -48,7 +48,7 @@ public class Class104 {
 				int i_6_ = (1363846656 * class365_sub1_sub1_sub2.anInt10100 + class365_sub1_sub1_sub2.getSize() * 256);
 				int i_7_ = (1613909504 * class365_sub1_sub1_sub2.anInt10099 + class365_sub1_sub1_sub2.getSize() * 256);
 				int i_8_ = (class365_sub1_sub1_sub2.anInt10101 * 1970654720 + class365_sub1_sub1_sub2.getSize() * 256);
-				Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+				SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 				class365_sub1_sub1_sub2.method4341((float) ((i_5_ * (i_3_ - i_4_) + i_4_ * i_7_) / i_3_), (float) (int) class217.aFloat2455, (float) ((i_4_ * i_8_ + (i_3_ - i_4_) * i_6_) / i_3_));
 			}
 			class365_sub1_sub1_sub2.anInt10124 = 0;

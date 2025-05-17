@@ -27,7 +27,7 @@ public class Class372 {
 			int i_1_ = (((ClientScript2) class403).anIntArray5244[((ClientScript2) class403).anInt5239 * 681479919 + 1]);
 			int i_2_ = (((ClientScript2) class403).anIntArray5244[((ClientScript2) class403).anInt5239 * 681479919 + 2]);
 			int i_3_ = (((ClientScript2) class403).anIntArray5244[((ClientScript2) class403).anInt5239 * 681479919 + 3]);
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			Class341 class341 = client.map.method2628(681479919);
 			Class97_Sub1.method1043(((i_0_ >> 14 & 0x3fff) - class341.gameSceneBaseX * -1760580017), ((i_0_ & 0x3fff) - 283514611 * class341.gameSceneBaseY), i_1_ << 2, i_2_, i_3_, false);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("pl.aga(").append(')').toString());
@@ -57,7 +57,7 @@ public class Class372 {
 		}
 	}
 
-	public static CacheIndex loadIndex(CacheIndexIndicator class111, boolean bool, int i, boolean bool_5_, int i_6_) {
+	public static Js5 loadIndex(CacheIndexIndicator class111, boolean bool, int i, boolean bool_5_, int i_6_) {
 		try {
 			if (null == Class373.aClass242_Sub1Array4072)
 				Class373.aClass242_Sub1Array4072 = new Class242_Sub1[Class356.method4268(1608416895)];
@@ -67,7 +67,7 @@ public class Class372 {
 				class329 = new Class329(i_7_, client.aClass484_6476, Class497.aClass484Array6106[i_7_], 1500000);
 			Class373.aClass242_Sub1Array4072[i_7_] = Class203.aClass225_2337.method2095(i_7_, class329, (Class365_Sub1_Sub3_Sub2.aClass329_9933), 311001416);
 			Class373.aClass242_Sub1Array4072[i_7_].method2278((byte) 2);
-			return new CacheIndex(Class373.aClass242_Sub1Array4072[i_7_], bool, i);
+			return new Js5(Class373.aClass242_Sub1Array4072[i_7_], bool, i);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("pl.fz(").append(')').toString());
 		}

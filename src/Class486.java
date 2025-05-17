@@ -103,7 +103,7 @@ public class Class486 {
 			class298_sub53_sub2.writeInt(Class451.aClass243_5641.method2285((byte) -10), 720169439);
 			class298_sub53_sub2.writeInt(Class51.aClass243_505.method2285((byte) -114), -431907021);
 			class298_sub53_sub2.writeInt(Class399.aClass243_5219.method2285((byte) -12), -1063670881);
-			class298_sub53_sub2.writeInt(Class277.aClass243_2965.method2285((byte) -37), -1033593325);
+			class298_sub53_sub2.writeInt(Skybox.js5_billboards.method2285((byte) -37), -1033593325);
 			class298_sub53_sub2.writeInt(Class97.aClass243_945.method2285((byte) -37), -104776264);
 			class298_sub53_sub2.writeInt(Class82_Sub6.aClass243_6844.method2285((byte) -79), -1698627282);
 			class298_sub53_sub2.writeInt(Class436.method5810(1705514000), -2046011963);

@@ -56,7 +56,7 @@ public class Class320 implements Interface21 {
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub8_7566, 2, 1293702073);
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub23_7576, 2, 359344447);
 			Class359.method4294(123459893);
-			client.aClass283_8716.method2640((byte) -42).method4324(-1416696139);
+			client.map.method2640((byte) -42).method4324(-1416696139);
 			client.aBoolean8676 = true;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ni.x(").append(')').toString());

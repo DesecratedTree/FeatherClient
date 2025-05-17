@@ -79,8 +79,8 @@ public class Class422_Sub30 extends Class422 {
 				if (class365_sub1_sub1_sub3.method4484(1662190190)) {
 					class298_sub37_sub3.method2839(-1460969981);
 					class365_sub1_sub1_sub3.method4480((byte) 54);
-				} else if ((client.aClass283_8716.method2675(-1611682495) != null) && class365_sub1_sub1_sub3.method4481((byte) -116))
-					client.aClass283_8716.method2675(-1611682495).method4022(class365_sub1_sub1_sub3, true, (byte) 0);
+				} else if ((client.map.method2675(-1611682495) != null) && class365_sub1_sub1_sub3.method4481((byte) -116))
+					client.map.method2675(-1611682495).method4022(class365_sub1_sub1_sub3, true, (byte) 0);
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("aez.ik(").append(')').toString());

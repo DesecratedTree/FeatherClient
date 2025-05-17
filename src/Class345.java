@@ -79,7 +79,7 @@ public class Class345 implements Interface19 {
 			int i_8_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
 			IComponentDefinition class105 = Class50.getIComponentDefinitions(i_8_, (byte) 23);
 			Class119 class119 = Class389.aClass119Array4165[i_8_ >> 16];
-			Class277.method2594(class105, class119, class403, 2094067145);
+			Skybox.method2594(class105, class119, class403, 2094067145);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("oj.di(").append(')').toString());
 		}

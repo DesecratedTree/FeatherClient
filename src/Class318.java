@@ -85,7 +85,7 @@ public abstract class Class318 {
 
 	static void method3873(int i) {
 		try {
-			client.aClass283_8716.method2646((byte) 8);
+			client.map.method2646((byte) 8);
 			InputStream_Sub1.method273(1268026984);
 			Class223.method2082(true, -1663847334);
 			Class117.method1278((byte) 27);

@@ -60,7 +60,7 @@ public class Class_ra_Sub3_Sub2 extends Class_ra_Sub3 {
 		IDirect3DDevice.f(((Class_ra_Sub3_Sub2) this).aLong9847, 14, aBoolean8277 && aBoolean8237);
 	}
 
-	Class_ra_Sub3_Sub2(int i, int i_3_, long l, long l_4_, D3DPRESENT_PARAMETERS d3dpresent_parameters, D3DCAPS d3dcaps, Interface_ma interface_ma, CacheIndex class243, int i_5_) {
+	Class_ra_Sub3_Sub2(int i, int i_3_, long l, long l_4_, D3DPRESENT_PARAMETERS d3dpresent_parameters, D3DCAPS d3dcaps, MaterialRawList interface_ma, Js5 class243, int i_5_) {
 		super(interface_ma, class243, i_5_, 0);
 		((Class_ra_Sub3_Sub2) this).aLong9847 = 0L;
 		((Class_ra_Sub3_Sub2) this).aClass458_9851 = new Class458();
@@ -484,7 +484,7 @@ public class Class_ra_Sub3_Sub2 extends Class_ra_Sub3 {
 		IDirect3DDevice.SetVertexDeclaration((((Class_ra_Sub3_Sub2) this).aLong9847), (((Class153_Sub2) class153_sub2).aLong8623));
 	}
 
-	static GraphicsToolkit method5545(Canvas canvas, Interface_ma interface_ma, CacheIndex class243, Integer integer) {
+	static GraphicsToolkit method5545(Canvas canvas, MaterialRawList interface_ma, Js5 class243, Integer integer) {
 		Class_ra_Sub3_Sub2 class_ra_sub3_sub2 = null;
 		Class_ra_Sub3_Sub2 class_ra_sub3_sub2_41_;
 		try {
@@ -580,7 +580,7 @@ public class Class_ra_Sub3_Sub2 extends Class_ra_Sub3 {
 		/* empty */
 	}
 
-	public Class66 method5179(Class66 class66, Class66 class66_45_, float f, Class66 class66_46_) {
+	public EnvironmentMap method5179(EnvironmentMap class66, EnvironmentMap class66_45_, float f, EnvironmentMap class66_46_) {
 		return f < 0.5F ? class66 : class66_45_;
 	}
 
@@ -924,7 +924,7 @@ public class Class_ra_Sub3_Sub2 extends Class_ra_Sub3 {
 		return new Class58(d3dadapter_identifier.VendorID, "Direct3D", 9, d3dadapter_identifier.Description, d3dadapter_identifier.DriverVersion);
 	}
 
-	static GraphicsToolkit method5553(Canvas canvas, Interface_ma interface_ma, CacheIndex class243, Integer integer) {
+	static GraphicsToolkit method5553(Canvas canvas, MaterialRawList interface_ma, Js5 class243, Integer integer) {
 		Class_ra_Sub3_Sub2 class_ra_sub3_sub2 = null;
 		Class_ra_Sub3_Sub2 class_ra_sub3_sub2_68_;
 		try {
@@ -1168,7 +1168,7 @@ public class Class_ra_Sub3_Sub2 extends Class_ra_Sub3 {
 		IDirect3DDevice.Clear(((Class_ra_Sub3_Sub2) this).aLong9847, i, i_89_, 1.0F, 0);
 	}
 
-	public Class66 method4986(Class66 class66, Class66 class66_90_, float f, Class66 class66_91_) {
+	public EnvironmentMap method4986(EnvironmentMap class66, EnvironmentMap class66_90_, float f, EnvironmentMap class66_91_) {
 		return f < 0.5F ? class66 : class66_90_;
 	}
 
@@ -1898,7 +1898,7 @@ public class Class_ra_Sub3_Sub2 extends Class_ra_Sub3 {
 		return (jagdx.a.f(IDirect3D.GetAdapterDisplayMode(((Class_ra_Sub3_Sub2) this).aLong9852, ((Class_ra_Sub3_Sub2) this).anInt9844, d3ddisplaymode)) && jagdx.a.f(IDirect3D.CheckDeviceFormat(((Class_ra_Sub3_Sub2) this).aLong9852, ((Class_ra_Sub3_Sub2) this).anInt9844, ((Class_ra_Sub3_Sub2) this).anInt9871, d3ddisplaymode.Format, 0, 3, method5546(class55, class77))));
 	}
 
-	public Class66 method5142(Class66 class66, Class66 class66_134_, float f, Class66 class66_135_) {
+	public EnvironmentMap method5142(EnvironmentMap class66, EnvironmentMap class66_134_, float f, EnvironmentMap class66_135_) {
 		return f < 0.5F ? class66 : class66_134_;
 	}
 
@@ -1934,7 +1934,7 @@ public class Class_ra_Sub3_Sub2 extends Class_ra_Sub3 {
 		IDirect3DDevice.SetRenderState(((Class_ra_Sub3_Sub2) this).aLong9847, 8, i_146_);
 	}
 
-	static GraphicsToolkit method5563(Canvas canvas, Interface_ma interface_ma, CacheIndex class243, Integer integer) {
+	static GraphicsToolkit method5563(Canvas canvas, MaterialRawList interface_ma, Js5 class243, Integer integer) {
 		Class_ra_Sub3_Sub2 class_ra_sub3_sub2 = null;
 		Class_ra_Sub3_Sub2 class_ra_sub3_sub2_147_;
 		try {

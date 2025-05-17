@@ -4,7 +4,7 @@
 
 public class ConfigDefinitionLoader {
 	
-	CacheIndex index22;
+	Js5 index22;
 	CachingHashMap cache = new CachingHashMap(64);
 
 	public void method3823(int i) {
@@ -48,7 +48,7 @@ public class ConfigDefinitionLoader {
 		}
 	}
 
-	public ConfigDefinitionLoader(Class411 class411, Class429 class429, CacheIndex class243) {
+	public ConfigDefinitionLoader(Class411 class411, Class429 class429, Js5 class243) {
 		index22 = class243;
 		if (index22 != null) {
 			int i = index22.method2296(2088108840) - 1;

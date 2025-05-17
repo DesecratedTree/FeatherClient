@@ -57,7 +57,7 @@ final class Class393 implements Runnable {
 		}
 	}
 
-	static synchronized GraphicsToolkit method4892(int i, Canvas canvas, Interface_ma interface_ma, CacheIndex class243, int i_0_, int i_1_, int i_2_, int i_3_) {
+	static synchronized GraphicsToolkit method4892(int i, Canvas canvas, MaterialRawList interface_ma, Js5 class243, int i_0_, int i_1_, int i_2_, int i_3_) {
 		try {
 			if (i == 0)
 				return Class141.method1562(canvas, interface_ma, i_1_, i_2_, (byte) 88);

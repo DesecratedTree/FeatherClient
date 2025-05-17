@@ -5,10 +5,10 @@
 public class Class494 {
 	CachingHashMap aClass348_6089 = new CachingHashMap(64);
 	public int anInt6090;
-	CacheIndex aClass243_6091;
+	Js5 aClass243_6091;
 	static int anInt6092;
 
-	public Class494(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class494(Class411 class411, Class429 class429, Js5 class243) {
 		((Class494) this).aClass243_6091 = class243;
 		anInt6090 = (((Class494) this).aClass243_6091.method2316((-1006924897 * (Class120.aClass120_1424.anInt1460)), -1214131434) * 1832969825);
 	}

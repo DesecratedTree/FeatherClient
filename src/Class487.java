@@ -6,8 +6,8 @@ public class Class487 {
 	CachingHashMap aClass348_6064 = new CachingHashMap(64);
 	CachingHashMap aClass348_6065 = new CachingHashMap(64);
 	public static int anInt6066 = 64;
-	CacheIndex aClass243_6067;
-	CacheIndex aClass243_6068;
+	Js5 aClass243_6067;
+	Js5 aClass243_6068;
 	public static int anInt6069 = 64;
 
 	public Class496 method6159(int i, int i_0_) {
@@ -70,7 +70,7 @@ public class Class487 {
 		}
 	}
 
-	public Class487(Class411 class411, Class429 class429, CacheIndex class243, CacheIndex class243_3_) {
+	public Class487(Class411 class411, Class429 class429, Js5 class243, Js5 class243_3_) {
 		((Class487) this).aClass243_6067 = class243;
 		((Class487) this).aClass243_6068 = class243_3_;
 		((Class487) this).aClass243_6067.method2316((Class120.aClass120_1419.anInt1460) * -1006924897, 1339445894);

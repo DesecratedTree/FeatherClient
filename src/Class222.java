@@ -180,7 +180,7 @@ public class Class222 {
 		((Class222) this).aFloat2493 = f_39_;
 	}
 
-	void method2063(Class217 class217) {
+	void method2063(SceneObjectPosition class217) {
 		method2064(class217.aFloat2451, class217.aFloat2455, class217.aFloat2454);
 	}
 

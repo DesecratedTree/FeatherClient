@@ -14,7 +14,7 @@ public abstract class Class365_Sub1_Sub1 extends Class365_Sub1 {
 		super(class331);
 		plane = (byte) i;
 		aByte7724 = (byte) i_0_;
-		method4340(new Class217((float) i_1_, (float) i_2_, (float) i_3_));
+		method4340(new SceneObjectPosition((float) i_1_, (float) i_2_, (float) i_3_));
 		aShort9798 = (short) i_4_;
 		aShort9796 = (short) i_5_;
 		aShort9795 = (short) i_6_;

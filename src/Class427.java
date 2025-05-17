@@ -4,7 +4,7 @@
 
 public class Class427 {
 	CachingHashMap aClass348_5360 = new CachingHashMap(64);
-	CacheIndex aClass243_5361;
+	Js5 aClass243_5361;
 	static int anInt5362;
 
 	public void method5745(byte i) {
@@ -17,7 +17,7 @@ public class Class427 {
 		}
 	}
 
-	public Class427(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class427(Class411 class411, Class429 class429, Js5 class243) {
 		((Class427) this).aClass243_5361 = class243;
 		if (((Class427) this).aClass243_5361 != null)
 			((Class427) this).aClass243_5361.method2316(Class120.aClass120_1430.anInt1460 * -1006924897, -1236940551);

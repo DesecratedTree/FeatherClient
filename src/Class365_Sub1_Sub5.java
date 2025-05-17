@@ -15,13 +15,13 @@ public abstract class Class365_Sub1_Sub5 extends Class365_Sub1 {
 	public short aShort9814;
 
 	boolean method4395() {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return (((Class331) aClass331_7722).aBooleanArrayArray3563[(583010427 * ((Class331) aClass331_7722).anInt3538 + (((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504) - -804213305 * ((Class331) aClass331_7722).anInt3553))][(((Class331) aClass331_7722).anInt3538 * 583010427 + (((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504) - ((Class331) aClass331_7722).anInt3513 * 465603579))]);
 	}
 
 	int method4354(Class298_Sub10[] class298_sub10s, int i) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			int i_0_ = ((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504);
 			int i_1_ = ((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504);
 			int i_2_ = 0;
@@ -60,7 +60,7 @@ public abstract class Class365_Sub1_Sub5 extends Class365_Sub1 {
 
 	boolean method4364(GraphicsToolkit class_ra, byte i) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			return (aClass331_7722.aClass333_3512.method4072(this, aByte7724, ((int) class217.aFloat2451 >> aClass331_7722.anInt3504 * -1688804109), ((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504)));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ajz.dl(").append(')').toString());
@@ -69,7 +69,7 @@ public abstract class Class365_Sub1_Sub5 extends Class365_Sub1 {
 
 	boolean method4360(int i) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			return (((Class331) aClass331_7722).aBooleanArrayArray3563[(583010427 * ((Class331) aClass331_7722).anInt3538 + (((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504) - (-804213305 * ((Class331) aClass331_7722).anInt3553)))][(((Class331) aClass331_7722).anInt3538 * 583010427 + (((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504) - (((Class331) aClass331_7722).anInt3513 * 465603579)))]);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ajz.dq(").append(')').toString());
@@ -77,7 +77,7 @@ public abstract class Class365_Sub1_Sub5 extends Class365_Sub1 {
 	}
 
 	int method4390(Class298_Sub10[] class298_sub10s) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		int i = ((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504);
 		int i_4_ = ((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504);
 		int i_5_ = 0;
@@ -112,22 +112,22 @@ public abstract class Class365_Sub1_Sub5 extends Class365_Sub1 {
 	}
 
 	boolean method4391(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return (aClass331_7722.aClass333_3512.method4072(this, aByte7724, ((int) class217.aFloat2451 >> aClass331_7722.anInt3504 * -1688804109), ((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504)));
 	}
 
 	boolean method4396() {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return (((Class331) aClass331_7722).aBooleanArrayArray3563[(583010427 * ((Class331) aClass331_7722).anInt3538 + (((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504) - -804213305 * ((Class331) aClass331_7722).anInt3553))][(((Class331) aClass331_7722).anInt3538 * 583010427 + (((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504) - ((Class331) aClass331_7722).anInt3513 * 465603579))]);
 	}
 
 	boolean method4393(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return (aClass331_7722.aClass333_3512.method4072(this, aByte7724, ((int) class217.aFloat2451 >> aClass331_7722.anInt3504 * -1688804109), ((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504)));
 	}
 
 	boolean method4359(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return (aClass331_7722.aClass333_3512.method4072(this, aByte7724, ((int) class217.aFloat2451 >> aClass331_7722.anInt3504 * -1688804109), ((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504)));
 	}
 
@@ -136,16 +136,16 @@ public abstract class Class365_Sub1_Sub5 extends Class365_Sub1 {
 		plane = (byte) i_9_;
 		aByte7724 = (byte) i_10_;
 		aShort9814 = (short) i_11_;
-		method4340(new Class217((float) i, (float) i_7_, (float) i_8_));
+		method4340(new SceneObjectPosition((float) i, (float) i_7_, (float) i_8_));
 	}
 
 	boolean method4389(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return (aClass331_7722.aClass333_3512.method4072(this, aByte7724, ((int) class217.aFloat2451 >> aClass331_7722.anInt3504 * -1688804109), ((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504)));
 	}
 
 	boolean method4397() {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return (((Class331) aClass331_7722).aBooleanArrayArray3563[(583010427 * ((Class331) aClass331_7722).anInt3538 + (((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504) - -804213305 * ((Class331) aClass331_7722).anInt3553))][(((Class331) aClass331_7722).anInt3538 * 583010427 + (((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504) - ((Class331) aClass331_7722).anInt3513 * 465603579))]);
 	}
 

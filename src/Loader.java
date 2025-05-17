@@ -1,16 +1,9 @@
 import java.applet.Applet;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.Properties;
 
-import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -23,7 +16,6 @@ public class Loader extends Applet {
 	public JFrame frame;
 	public JPanel panel = new JPanel();
 
-	public static boolean usingRS = false;
 	public static boolean useIsaac = false;
 	
 	public static String IP = "127.0.0.1";
@@ -37,12 +29,9 @@ public class Loader extends Applet {
 	public static String LOBBY_IP = "127.0.0.1";
 	public static int SUB_REVISION = 3;
 	public static Loader instance;
-	public static int[] outSizes = new int[256];
-	public static boolean localHost;
 
-	public static void main(String[] strings) throws Exception {
+	public static void main(String[] strings) {
 		Loader loader = new Loader();
-		
 		loader.doFrame();
 	}
 	
@@ -150,11 +139,4 @@ public class Loader extends Applet {
 		return url;
 	}
 
-	void printOut() throws IOException {
-		String s = "";
-		for (int i : outSizes) {
-			s += i + ", ";
-		}
-		System.out.println("in = new int[] {" + s + "};");
-	}
 }

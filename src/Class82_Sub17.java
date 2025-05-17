@@ -49,7 +49,7 @@ public class Class82_Sub17 extends Class82 {
 	static final void method919(ClientScript2 class403, int i) {
 		try {
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub7_7581, (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]), -2102625264);
-			client.aClass283_8716.method2667(732894181);
+			client.map.method2667(732894181);
 			Class3.method300(656179282);
 			client.aBoolean8666 = false;
 		} catch (RuntimeException runtimeexception) {

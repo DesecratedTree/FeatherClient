@@ -5,7 +5,7 @@
 public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 	int method4354(Class298_Sub10[] class298_sub10s, int i) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			return method4392(((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504), ((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504), class298_sub10s, 2132561832);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ajx.dg(").append(')').toString());
@@ -14,7 +14,7 @@ public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 
 	boolean method4360(int i) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			return (((Class331) aClass331_7722).aBooleanArrayArray3563[(((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504) - ((Class331) aClass331_7722).anInt3553 * -804213305 + ((Class331) aClass331_7722).anInt3538 * 583010427)][(((int) class217.aFloat2454 >> aClass331_7722.anInt3504 * -1688804109) - ((Class331) aClass331_7722).anInt3513 * 465603579 + ((Class331) aClass331_7722).anInt3538 * 583010427)]);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ajx.dq(").append(')').toString());
@@ -23,7 +23,7 @@ public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 
 	boolean method4364(GraphicsToolkit class_ra, byte i) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			Class322 class322 = aClass331_7722.method4036(plane, ((int) class217.aFloat2451 >> (aClass331_7722.anInt3504 * -1688804109)), ((int) class217.aFloat2454 >> (-1688804109 * aClass331_7722.anInt3504)), -113950602);
 			if (null != class322 && class322.aClass365_Sub1_Sub1_3359.aBoolean9799)
 				return (aClass331_7722.aClass333_3512.method4073(plane, ((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504), ((int) class217.aFloat2454 >> aClass331_7722.anInt3504 * -1688804109), (class322.aClass365_Sub1_Sub1_3359.method4361(1951240662) + method4361(1951240662))));
@@ -34,7 +34,7 @@ public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 	}
 
 	boolean method4391(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		Class322 class322 = aClass331_7722.method4036(plane, ((int) class217.aFloat2451 >> (aClass331_7722.anInt3504 * -1688804109)), ((int) class217.aFloat2454 >> (-1688804109 * aClass331_7722.anInt3504)), 1285556304);
 		if (null != class322 && class322.aClass365_Sub1_Sub1_3359.aBoolean9799)
 			return (aClass331_7722.aClass333_3512.method4073(plane, ((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504), ((int) class217.aFloat2454 >> aClass331_7722.anInt3504 * -1688804109), (class322.aClass365_Sub1_Sub1_3359.method4361(1951240662) + method4361(1951240662))));
@@ -85,7 +85,7 @@ public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 		super(class331);
 		plane = (byte) i_7_;
 		aByte7724 = (byte) i_8_;
-		method4340(new Class217((float) i, (float) i_5_, (float) i_6_));
+		method4340(new SceneObjectPosition((float) i, (float) i_5_, (float) i_6_));
 	}
 
 	final boolean method4400() {
@@ -97,12 +97,12 @@ public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 	}
 
 	boolean method4396() {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return (((Class331) aClass331_7722).aBooleanArrayArray3563[(((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504) - ((Class331) aClass331_7722).anInt3553 * -804213305 + ((Class331) aClass331_7722).anInt3538 * 583010427)][(((int) class217.aFloat2454 >> aClass331_7722.anInt3504 * -1688804109) - ((Class331) aClass331_7722).anInt3513 * 465603579 + ((Class331) aClass331_7722).anInt3538 * 583010427)]);
 	}
 
 	int method4390(Class298_Sub10[] class298_sub10s) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return method4392(((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504), ((int) class217.aFloat2454 >> -1688804109 * aClass331_7722.anInt3504), class298_sub10s, 1968893016);
 	}
 
@@ -111,7 +111,7 @@ public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 	}
 
 	boolean method4359(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		Class322 class322 = aClass331_7722.method4036(plane, ((int) class217.aFloat2451 >> (aClass331_7722.anInt3504 * -1688804109)), ((int) class217.aFloat2454 >> (-1688804109 * aClass331_7722.anInt3504)), -832807192);
 		if (null != class322 && class322.aClass365_Sub1_Sub1_3359.aBoolean9799)
 			return (aClass331_7722.aClass333_3512.method4073(plane, ((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504), ((int) class217.aFloat2454 >> aClass331_7722.anInt3504 * -1688804109), (class322.aClass365_Sub1_Sub1_3359.method4361(1951240662) + method4361(1951240662))));
@@ -119,7 +119,7 @@ public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 	}
 
 	boolean method4393(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		Class322 class322 = aClass331_7722.method4036(plane, ((int) class217.aFloat2451 >> (aClass331_7722.anInt3504 * -1688804109)), ((int) class217.aFloat2454 >> (-1688804109 * aClass331_7722.anInt3504)), -1759814831);
 		if (null != class322 && class322.aClass365_Sub1_Sub1_3359.aBoolean9799)
 			return (aClass331_7722.aClass333_3512.method4073(plane, ((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504), ((int) class217.aFloat2454 >> aClass331_7722.anInt3504 * -1688804109), (class322.aClass365_Sub1_Sub1_3359.method4361(1951240662) + method4361(1951240662))));
@@ -127,7 +127,7 @@ public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 	}
 
 	boolean method4389(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		Class322 class322 = aClass331_7722.method4036(plane, ((int) class217.aFloat2451 >> (aClass331_7722.anInt3504 * -1688804109)), ((int) class217.aFloat2454 >> (-1688804109 * aClass331_7722.anInt3504)), 1171846903);
 		if (null != class322 && class322.aClass365_Sub1_Sub1_3359.aBoolean9799)
 			return (aClass331_7722.aClass333_3512.method4073(plane, ((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504), ((int) class217.aFloat2454 >> aClass331_7722.anInt3504 * -1688804109), (class322.aClass365_Sub1_Sub1_3359.method4361(1951240662) + method4361(1951240662))));
@@ -135,7 +135,7 @@ public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 	}
 
 	boolean method4395() {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return (((Class331) aClass331_7722).aBooleanArrayArray3563[(((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504) - ((Class331) aClass331_7722).anInt3553 * -804213305 + ((Class331) aClass331_7722).anInt3538 * 583010427)][(((int) class217.aFloat2454 >> aClass331_7722.anInt3504 * -1688804109) - ((Class331) aClass331_7722).anInt3513 * 465603579 + ((Class331) aClass331_7722).anInt3538 * 583010427)]);
 	}
 
@@ -144,7 +144,7 @@ public abstract class Class365_Sub1_Sub4 extends Class365_Sub1 {
 	}
 
 	boolean method4397() {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		return (((Class331) aClass331_7722).aBooleanArrayArray3563[(((int) class217.aFloat2451 >> -1688804109 * aClass331_7722.anInt3504) - ((Class331) aClass331_7722).anInt3553 * -804213305 + ((Class331) aClass331_7722).anInt3538 * 583010427)][(((int) class217.aFloat2454 >> aClass331_7722.anInt3504 * -1688804109) - ((Class331) aClass331_7722).anInt3513 * 465603579 + ((Class331) aClass331_7722).anInt3538 * 583010427)]);
 	}
 }

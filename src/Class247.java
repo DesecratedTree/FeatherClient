@@ -239,7 +239,7 @@ public abstract class Class247 {
 				SubIncommingPacket.method1923(-196070211);
 				return true;
 			} catch (Exception exception) {
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				String string = new StringBuilder().append(((Class25) class25).INCOMMING_PACKET != null ? (2075990793 * ((Class25) class25).INCOMMING_PACKET.anInt2187) : -1).append(Class26.aString353).append(((Class25) class25).aClass202_345 != null ? (2075990793 * ((Class25) class25).aClass202_345.anInt2187) : -1).append(Class26.aString353).append(null != ((Class25) class25).aClass202_348 ? (2075990793 * ((Class25) class25).aClass202_348.anInt2187) : -1).append(" ").append(((Class25) class25).anInt336 * -866602563).append(Class26.aString353).append(-1760580017 * class341.gameSceneBaseX + (Class287.myPlayer.scenePositionXQueue[0])).append(Class26.aString353).append(283514611 * class341.gameSceneBaseY + (Class287.myPlayer.scenePositionYQueue[0])).append(" ").toString();
 				for (int i_8_ = 0; (i_8_ < -866602563 * ((Class25) class25).anInt336 && i_8_ < 50); i_8_++)
 					string = new StringBuilder().append(string).append(((Class25) class25).aClass298_Sub53_Sub2_333.buffer[i_8_]).append(Class26.aString353).toString();

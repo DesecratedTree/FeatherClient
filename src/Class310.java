@@ -66,7 +66,7 @@ public class Class310 implements Interface17 {
 					if (1 == (((Class298_Sub37_Sub5) class298_sub37_sub5).anInt9583) * -628325139)
 						GraphicsToolkit.method5192(i_7_, i_8_, -1347746885 * Class88.anInt806, Class302_Sub4.anInt7658 * 1089948687, 608683427 * Class134.anInt6343, Class448.anInt5619 * 1396607435, i_12_, ((Class298_Sub37_Sub15) (((Class298_Sub37_Sub5) class298_sub37_sub5).aClass461_9584.aClass298_Sub37_5679.aClass298_Sub37_7405)), Class101.aClass264_1084, Class82_Sub19_Sub1.aClass505_9111, -1, -256, 1821923505);
 					else
-						Class66.method763(i_7_, i_8_, Class88.anInt806 * -1347746885, 1089948687 * Class302_Sub4.anInt7658, Class134.anInt6343 * 608683427, Class448.anInt5619 * 1396607435, i_12_, class298_sub37_sub5, Class101.aClass264_1084, Class82_Sub19_Sub1.aClass505_9111, -1, -256, (byte) -19);
+						EnvironmentMap.method763(i_7_, i_8_, Class88.anInt806 * -1347746885, 1089948687 * Class302_Sub4.anInt7658, Class134.anInt6343 * 608683427, Class448.anInt5619 * 1396607435, i_12_, class298_sub37_sub5, Class101.aClass264_1084, Class82_Sub19_Sub1.aClass505_9111, -1, -256, (byte) -19);
 					i_11_++;
 				}
 				if (null != Class436.aClass298_Sub37_Sub5_5472) {

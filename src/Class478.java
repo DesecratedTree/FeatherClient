@@ -33,7 +33,7 @@ public class Class478 {
 		}
 	}
 
-	static void method6099(CacheIndex class243, int i, int i_2_, int i_3_, boolean bool, long l) {
+	static void method6099(Js5 class243, int i, int i_2_, int i_3_, boolean bool, long l) {
 		try {
 			Class341.method4143(class243, i, i_2_, i_3_, bool, l, 0, -1584646162);
 		} catch (RuntimeException runtimeexception) {

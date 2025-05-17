@@ -12,7 +12,7 @@ public class Class298_Sub37_Sub6 extends Class298_Sub37 {
 	Class298_Sub32[] aClass298_Sub32Array9592;
 	int[] anIntArray9593;
 
-	boolean method3420(CacheIndex class243, Interface_ma interface_ma, byte i) {
+	boolean method3420(Js5 class243, MaterialRawList interface_ma, byte i) {
 		try {
 			if (-1132597157 * Class298_Sub32_Sub11.anInt9394 >= 0) {
 				for (int i_0_ = 0; i_0_ < ((Class298_Sub37_Sub6) this).anIntArray9593.length; i_0_++) {
@@ -35,7 +35,7 @@ public class Class298_Sub37_Sub6 extends Class298_Sub37 {
 		}
 	}
 
-	int[] method3421(CacheIndex class243, Interface_ma interface_ma, double d, int i, int i_3_, boolean bool, int i_4_) {
+	int[] method3421(Js5 class243, MaterialRawList interface_ma, double d, int i, int i_3_, boolean bool, int i_4_) {
 		try {
 			Class298_Sub32_Sub11.aClass243_9393 = class243;
 			Class294.anInterface_ma3166 = interface_ma;
@@ -108,7 +108,7 @@ public class Class298_Sub37_Sub6 extends Class298_Sub37 {
 		}
 	}
 
-	float[] method3422(CacheIndex class243, Interface_ma interface_ma, int i, int i_20_, boolean bool, int i_21_) {
+	float[] method3422(Js5 class243, MaterialRawList interface_ma, int i, int i_20_, boolean bool, int i_21_) {
 		try {
 			Class298_Sub32_Sub11.aClass243_9393 = class243;
 			Class294.anInterface_ma3166 = interface_ma;
@@ -212,7 +212,7 @@ public class Class298_Sub37_Sub6 extends Class298_Sub37 {
 		is = null;
 	}
 
-	int[] method3423(CacheIndex class243, Interface_ma interface_ma, double d, int i, int i_44_, boolean bool, boolean bool_45_, int i_46_) {
+	int[] method3423(Js5 class243, MaterialRawList interface_ma, double d, int i, int i_44_, boolean bool, boolean bool_45_, int i_46_) {
 		try {
 			Class298_Sub32_Sub11.aClass243_9393 = class243;
 			Class294.anInterface_ma3166 = interface_ma;

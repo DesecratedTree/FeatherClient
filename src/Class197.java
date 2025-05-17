@@ -5,8 +5,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Class197 {
-	CacheIndex aClass243_1987;
-	CacheIndex aClass243_1988;
+	Js5 aClass243_1987;
+	Js5 aClass243_1988;
 	CachingHashMap aClass348_1989 = new CachingHashMap(20);
 	Map aMap1990 = null;
 	int[] anIntArray1991;
@@ -156,7 +156,7 @@ public class Class197 {
 		}
 	}
 
-	public Class197(CacheIndex class243, CacheIndex class243_12_, int[] is) {
+	public Class197(Js5 class243, Js5 class243_12_, int[] is) {
 		((Class197) this).aClass243_1987 = class243;
 		((Class197) this).aClass243_1988 = class243_12_;
 		if (null != is)

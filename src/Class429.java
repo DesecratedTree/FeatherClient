@@ -141,7 +141,7 @@ public class Class429 implements Interface21 {
 		}
 	}
 
-	static final void method5761(GraphicsToolkit class_ra, Interface_ma interface_ma, byte i) {
+	static final void method5761(GraphicsToolkit class_ra, MaterialRawList interface_ma, byte i) {
 		try {
 			if (null != Class301_Sub1.aClass298_Sub37_Sub13_3218) {
 				Class122.method1319((byte) 1);
@@ -162,8 +162,8 @@ public class Class429 implements Interface21 {
 					int[] is = new int[3];
 					int i_7_ = -1;
 					int i_8_ = -1;
-					Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
-					Class341 class341 = client.aClass283_8716.method2628(681479919);
+					SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
+					Class341 class341 = client.map.method2628(681479919);
 					if (Class301_Sub1.aClass298_Sub37_Sub13_3218.method3453(Class287.myPlayer.plane, (((int) class217.aFloat2451 >> 9) + -1760580017 * class341.gameSceneBaseX), (283514611 * class341.gameSceneBaseY + ((int) class217.aFloat2454 >> 9)), is, 46106083)) {
 						i_7_ = is[1] - Class301_Sub1.mapX;
 						i_8_ = is[2] - Class301_Sub1.mapY;

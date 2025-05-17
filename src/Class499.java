@@ -4,10 +4,10 @@
 
 public class Class499 {
 	CachingHashMap aClass348_6111 = new CachingHashMap(64);
-	CacheIndex aClass243_6112;
-	public static CacheIndex aClass243_6113;
+	Js5 aClass243_6112;
+	public static Js5 aClass243_6113;
 
-	public Class499(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class499(Class411 class411, Class429 class429, Js5 class243) {
 		((Class499) this).aClass243_6112 = class243;
 		((Class499) this).aClass243_6112.method2316((Class120.aClass120_1436.anInt1460) * -1006924897, 236791533);
 	}

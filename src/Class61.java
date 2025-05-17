@@ -3,7 +3,7 @@
  */
 
 public class Class61 {
-	Interface_ma anInterface_ma604;
+	MaterialRawList anInterface_ma604;
 	CachingHashMap aClass348_605 = new CachingHashMap(256);
 	Class_ra_Sub2 aClass_ra_Sub2_606;
 
@@ -45,7 +45,7 @@ public class Class61 {
 		((Class61) this).aClass348_605.method4187();
 	}
 
-	Class61(Class_ra_Sub2 class_ra_sub2, Interface_ma interface_ma) {
+	Class61(Class_ra_Sub2 class_ra_sub2, MaterialRawList interface_ma) {
 		((Class61) this).aClass_ra_Sub2_606 = class_ra_sub2;
 		((Class61) this).anInterface_ma604 = interface_ma;
 	}

@@ -31,7 +31,7 @@ public class Class99 {
 	static final void method1072(ClientScript2 class403, byte i) {
 		try {
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub5_7572, (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]) == 1 ? 2 : 0, 993124256);
-			client.aClass283_8716.method2667(475179125);
+			client.map.method2667(475179125);
 			Class3.method300(656179282);
 			client.aBoolean8666 = false;
 		} catch (RuntimeException runtimeexception) {

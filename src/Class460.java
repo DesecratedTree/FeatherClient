@@ -457,7 +457,7 @@ public class Class460 implements Iterator {
 									Class298_Sub41.anInt7456 = (stream.read24BitInteger((byte) -39) * 777394511);
 									client.isMemberWorld = stream.readUnsignedByte() == 1;
 									Class112.aString1369 = stream.readString(-796084606);
-									client.aClass283_8716.method2641(-1352577967).method5790(client.isMemberWorld, 915103443);
+									client.map.method2641(-1352577967).method5790(client.isMemberWorld, 915103443);
 									Class62.aClass248_612.method2384((short) 206).method2641(-884206015).method5790(client.isMemberWorld, 915103443);
 									Class298_Sub32_Sub14.aClass477_9400.method6092(client.isMemberWorld, 798055588);
 									Class15.aClass507_224.method6270(client.isMemberWorld, (byte) -2);
@@ -482,7 +482,7 @@ public class Class460 implements Iterator {
 									Class384.anInt4128 = (stream.readInt((byte) 99) * -1704395451);
 									Class525.aBoolean6300 = stream.readUnsignedByte() == 1;
 									Class100.anInt1079 = (stream.readInt((byte) -9) * -442700441);
-									Class66.anInt666 = (stream.readUnsignedShort() * -1652734029);
+									EnvironmentMap.anInt666 = (stream.readUnsignedShort() * -1652734029);
 									OutcommingPacket.anInt2099 = (stream.readUnsignedShort() * 808373911);
 									Class298.anInt3190 = (stream.readUnsignedShort() * -591256495);
 									Class298.anInt3191 = (stream.readInt((byte) 39) * -1316190437);
@@ -582,9 +582,9 @@ public class Class460 implements Iterator {
 									System.arraycopy((((Class25) Class360.aClass25_3905).aClass298_Sub53_Sub2_333.buffer), ((((Class25) Class360.aClass25_3905).aClass298_Sub53_Sub2_333.index) * 385051775), stream.buffer, 0, i_16_);
 									((Class25) Class360.aClass25_3905).aClass298_Sub53_Sub2_333.index += i_16_ * 116413311;
 									if ((((Class25) Class360.aClass25_3905).INCOMMING_PACKET) == IncommingPacket.LOAD_MAP_SCENE_DYNAMIC_PACKET)
-										client.aClass283_8716.sendMapScene(new Class267((Class266.LOAD_MAP_SCENE_DYNAMIC), stream), -1991819579);
+										client.map.sendMapScene(new Class267((Class266.LOAD_MAP_SCENE_DYNAMIC), stream), -1991819579);
 									else
-										client.aClass283_8716.sendMapScene(new Class267((Class266.LOAD_MAP_SCENE_NORMAL), stream), -1991819579);
+										client.map.sendMapScene(new Class267((Class266.LOAD_MAP_SCENE_NORMAL), stream), -1991819579);
 									if (packetSize != (((Class25) Class360.aClass25_3905).aClass298_Sub53_Sub2_333.index) * 385051775)
 										throw new RuntimeException(new StringBuilder().append(385051775 * (((Class25) (Class360.aClass25_3905)).aClass298_Sub53_Sub2_333.index)).append(" ").append(packetSize).toString());
 									((Class25) Class360.aClass25_3905).INCOMMING_PACKET = null;

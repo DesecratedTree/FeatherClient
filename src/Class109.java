@@ -46,7 +46,7 @@ public class Class109 {
 	static final void method1155(ClientScript2 class403, int i) {
 		try {
 			String string = (String) (((ClientScript2) class403).anObjectArray5240[(((ClientScript2) class403).anInt5241 -= 969361751) * -203050393]);
-			boolean bool = Class385.aClient4141.method2754(new File(string), -714101418);
+			boolean bool = AtmosphereType.aClient4141.method2754(new File(string), -714101418);
 			((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919 - 1)] = bool ? 1 : 0;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("el.agp(").append(')').toString());
@@ -64,8 +64,8 @@ public class Class109 {
 	static final void method1157(ClientScript2 class403, int i) {
 		try {
 			int i_4_ = Class287.myPlayer.plane;
-			Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
+			Class341 class341 = client.map.method2628(681479919);
 			int i_5_ = (((int) class217.aFloat2451 >> 9) + -1760580017 * class341.gameSceneBaseX);
 			int i_6_ = (((int) class217.aFloat2454 >> 9) + 283514611 * class341.gameSceneBaseY);
 			((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919 - 1)] = (i_5_ << 14) + (i_4_ << 28) + i_6_;

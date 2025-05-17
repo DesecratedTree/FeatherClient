@@ -59,7 +59,7 @@ public class Class397 {
 					int i_9_ = i_4_ + ((client.anIntArrayArrayArray8767[client.anInt8768 * -591434031][i_1_ + 2][i_2_]) - i_6_) - i_5_;
 					fs[i_2_] = (f * ((float) i_7_ + ((float) i_8_ + (float) i_9_ * f) * f) + (float) i_6_);
 				}
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				Class367.anInt4000 = 547882953 * ((int) fs[0] - 526163456 * class341.gameSceneBaseX);
 				Class110.anInt6403 = (int) fs[1] * -1078403147;
 				Class146.anInt1575 = 309839105 * ((int) fs[2] - class341.gameSceneBaseY * -869407232);

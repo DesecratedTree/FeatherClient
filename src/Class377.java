@@ -4,9 +4,9 @@
 
 public class Class377 {
 	public Interface19 anInterface19_4091;
-	public static CacheIndex aClass243_4092;
+	public static Js5 aClass243_4092;
 
-	public Class377(CacheIndex class243) {
+	public Class377(Js5 class243) {
 		byte[] is = class243.method2294((Class380.aClass380_4100.anInt4108 * -363169051), (byte) 11);
 		method4661(new RsByteBuffer(is), 1724191904);
 	}

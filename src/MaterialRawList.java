@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public interface Interface_ma {
+public interface MaterialRawList {
 	public int method169();
 
 	public boolean method170(int i, short i_0_);

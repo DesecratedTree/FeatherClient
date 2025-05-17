@@ -211,16 +211,16 @@ public class Class120 {
 			float f_14_ = 0.0F;
 			float f_15_ = 0.0F;
 			float f_16_ = 0.0F;
-			Class331 class331 = client.aClass283_8716.method2675(-1611682495);
+			Class331 class331 = client.map.method2675(-1611682495);
 			for (/**/; f_10_ < 1.1F; f_10_ += 0.1F) {
 				float f_17_ = f_11_ * f_10_ + f;
 				float f_18_ = f_4_ + f_10_ * f_12_;
 				float f_19_ = f_10_ * f_13_ + f_5_;
 				int i_20_ = (int) f_17_ >> 9;
 				int i_21_ = (int) f_19_ >> 9;
-				if (i_20_ > 0 && i_21_ > 0 && i_20_ < client.aClass283_8716.method2629(-1954958237) && i_21_ < client.aClass283_8716.method2630(-1173220944)) {
+				if (i_20_ > 0 && i_21_ > 0 && i_20_ < client.map.method2629(-1954958237) && i_21_ < client.map.method2630(-1173220944)) {
 					int i_22_ = (Class287.myPlayer.plane);
-					if (i_22_ < 3 && ((client.aClass283_8716.method2654(936952439).aByteArrayArrayArray2731[1][i_20_][i_21_]) & 0x2) != 0)
+					if (i_22_ < 3 && ((client.map.method2654(936952439).aByteArrayArrayArray2731[1][i_20_][i_21_]) & 0x2) != 0)
 						i_22_++;
 					int i_23_ = (class331.aClass_xaArray3519[i_22_].method6340((int) f_17_, (int) f_19_, -1328298083));
 					if ((float) i_23_ < f_18_) {

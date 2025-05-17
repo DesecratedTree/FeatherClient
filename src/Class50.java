@@ -120,7 +120,7 @@ public class Class50 {
 				if (client.aBooleanArray8684[4] && 128 + client.anIntArray8925[4] > i_14_)
 					i_14_ = 128 + client.anIntArray8925[4];
 				int i_15_ = ((int) client.aFloat8949 + -1419578297 * client.anInt8744 & 0x3fff);
-				Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
+				SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
 				Class482.method6121(1103750049 * Class75.anInt708, Class356.method4271((int) class217.aFloat2451, (int) class217.aFloat2454, 1855729883 * Class99.anInt952, -1800819540) - 200, 1346160791 * Class106.anInt1309, i_14_, i_15_, 600 + (i_14_ >> 3) * 3 << 2, i, -1059521295);
 				float f = 1.0F - ((float) ((100 - i_13_) * ((100 - i_13_) * (100 - i_13_))) / 1000000.0F);
 				Class367.anInt4000 = ((int) ((float) (Class301_Sub1.anInt7639 * -1806467999) + f * (float) (Class367.anInt4000 * -1740717447 - (-1806467999 * Class301_Sub1.anInt7639))) * 547882953);

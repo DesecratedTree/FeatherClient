@@ -120,7 +120,7 @@ public class Class12 implements Interface8_Impl1_Impl2 {
 	static final void method336(ClientScript2 class403, int i) {
 		try {
 			Class302_Sub3.method3722((short) 31086);
-			client.aClass283_8716.method2667(1321707085);
+			client.map.method2667(1321707085);
 			Class3.method300(656179282);
 			client.aBoolean8666 = false;
 		} catch (RuntimeException runtimeexception) {

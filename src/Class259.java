@@ -6,7 +6,7 @@ import java.awt.Canvas;
 import jaggl.OpenGL;
 
 public class Class259 {
-	public static GraphicsToolkit method2455(Canvas canvas, Interface_ma interface_ma, CacheIndex class243, int i) {
+	public static GraphicsToolkit method2455(Canvas canvas, MaterialRawList interface_ma, Js5 class243, int i) {
 		Class_ra_Sub3_Sub1 class_ra_sub3_sub1;
 		try {
 			boolean bool = Class_ra_Sub3.method5421();
@@ -30,7 +30,7 @@ public class Class259 {
 		return class_ra_sub3_sub1;
 	}
 
-	public static GraphicsToolkit method2456(Canvas canvas, Interface_ma interface_ma, CacheIndex class243, int i) {
+	public static GraphicsToolkit method2456(Canvas canvas, MaterialRawList interface_ma, Js5 class243, int i) {
 		Class_ra_Sub3_Sub1 class_ra_sub3_sub1;
 		try {
 			boolean bool = Class_ra_Sub3.method5421();
@@ -54,7 +54,7 @@ public class Class259 {
 		return class_ra_sub3_sub1;
 	}
 
-	public static GraphicsToolkit method2457(Canvas canvas, Interface_ma interface_ma, CacheIndex class243, int i) {
+	public static GraphicsToolkit method2457(Canvas canvas, MaterialRawList interface_ma, Js5 class243, int i) {
 		Class_ra_Sub3_Sub1 class_ra_sub3_sub1;
 		try {
 			boolean bool = Class_ra_Sub3.method5421();

@@ -16,7 +16,7 @@ public class Class284_Sub1 extends Class284 {
 	int anInt7143;
 	AudioFormat anAudioFormat7144;
 	boolean aBoolean7145 = false;
-	public static CacheIndex aClass243_7146;
+	public static Js5 aClass243_7146;
 
 	int method2698() {
 		return (-975542179 * ((Class284_Sub1) this).anInt7143 - (((Class284_Sub1) this).aSourceDataLine7142.available() >> (aBoolean3047 ? 2 : 1)));

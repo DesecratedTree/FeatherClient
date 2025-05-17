@@ -86,6 +86,9 @@ public class Class419 {
 					} else if (string.equalsIgnoreCase("cls")) {
 						Class8.anInt102 = 0;
 						Class8.anInt103 = 0;
+					}
+					else if (string.equalsIgnoreCase("atmosphere")) {
+							client.map.atmosphere.createGUI();
 					} else if (string.equalsIgnoreCase("displayfps")) {
 						client.aBoolean8667 = !client.aBoolean8667;
 						if (client.aBoolean8667)
@@ -105,7 +108,7 @@ public class Class419 {
 					else {
 						if (!string.equalsIgnoreCase("getcamerapos"))
 							break;
-						Class341 class341 = client.aClass283_8716.method2628(681479919);
+						Class341 class341 = client.map.method2628(681479919);
 						Class255.method2435(new StringBuilder().append("Pos: ").append(Class287.myPlayer.plane).append(",").append(((-1740717447 * Class367.anInt4000 >> 9) + class341.gameSceneBaseX * -1760580017) >> 6).append(",").append(((Class146.anInt1575 * -299812095 >> 9) + 283514611 * class341.gameSceneBaseY) >> 6).append(",").append((-1760580017 * class341.gameSceneBaseX + (-1740717447 * Class367.anInt4000 >> 9)) & 0x3f).append(",").append((class341.gameSceneBaseY * 283514611 + (-299812095 * Class146.anInt1575 >> 9)) & 0x3f).append(" Height: ").append((Class356.method4271(Class367.anInt4000 * -1740717447, Class146.anInt1575 * -299812095, (Class287.myPlayer.plane), -1453034846)) - Class110.anInt6403 * 1449634147).toString(), 306448697);
 						Class255.method2435(new StringBuilder().append("Look: ").append(Class287.myPlayer.plane).append(",").append((-1125224763 * Class_xa.anInt6292 + class341.gameSceneBaseX * -1760580017) >> 6).append(",").append((283514611 * class341.gameSceneBaseY + IPAddress.anInt5959 * -1758389953) >> 6).append(",").append((class341.gameSceneBaseX * -1760580017 + -1125224763 * Class_xa.anInt6292) & 0x3f).append(",").append((283514611 * class341.gameSceneBaseY + -1758389953 * IPAddress.anInt5959) & 0x3f).append(" Height: ").append((Class356.method4271(Class_xa.anInt6292 * -1125224763, -1758389953 * IPAddress.anInt5959, (Class287.myPlayer.plane), -860898067)) - 771695069 * Class18.anInt255).toString(), 1171744016);
 					}

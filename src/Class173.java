@@ -11,9 +11,9 @@ public class Class173 {
 	public int anInt1753;
 	public int anInt1754;
 	public int anInt1755 = 1561394240;
-	static CacheIndex aClass243_1756;
+	static Js5 aClass243_1756;
 	public boolean aBoolean1757;
-	public static CacheIndex aClass243_1758;
+	public static Js5 aClass243_1758;
 	public static byte aByte1759;
 
 	void method1816(RsByteBuffer class298_sub53, int i, int i_0_, int i_1_) {
@@ -87,27 +87,27 @@ public class Class173 {
 
 	public static void method1820(int i, int i_5_, int i_6_, int i_7_) {
 		try {
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			Class341 class341 = client.map.method2628(681479919);
 			int i_8_ = i_5_ + -1760580017 * class341.gameSceneBaseX;
 			int i_9_ = i_6_ + 283514611 * class341.gameSceneBaseY;
-			if (client.aClass283_8716.method2675(-1611682495) != null && (client.aClass283_8716.method2674(-257896295) != Class266.aClass266_2846) && i_5_ >= 0 && i_6_ >= 0 && i_5_ < client.aClass283_8716.method2629(-1890552944) && i_6_ < client.aClass283_8716.method2630(-1685955624)) {
+			if (client.map.method2675(-1611682495) != null && (client.map.method2674(-257896295) != Class266.aClass266_2846) && i_5_ >= 0 && i_6_ >= 0 && i_5_ < client.map.method2629(-1890552944) && i_6_ < client.map.method2630(-1685955624)) {
 				long l = (long) (i << 28 | i_9_ << 14 | i_8_);
 				Class298_Sub2 class298_sub2 = (Class298_Sub2) client.aClass437_8685.method5812(l);
 				if (class298_sub2 == null)
-					client.aClass283_8716.method2675(-1611682495).method4059(i, i_5_, i_6_, (byte) 86);
+					client.map.method2675(-1611682495).method4059(i, i_5_, i_6_, (byte) 86);
 				else {
 					Class298_Sub12 class298_sub12 = (Class298_Sub12) class298_sub2.aClass453_7166.method5939(1766612795);
 					if (class298_sub12 == null)
-						client.aClass283_8716.method2675(-1611682495).method4059(i, i_5_, i_6_, (byte) 28);
+						client.map.method2675(-1611682495).method4059(i, i_5_, i_6_, (byte) 28);
 					else {
-						Class365_Sub1_Sub4_Sub1 class365_sub1_sub4_sub1 = ((Class365_Sub1_Sub4_Sub1) client.aClass283_8716.method2675(-1611682495).method4059(i, i_5_, i_6_, (byte) 119));
+						Class365_Sub1_Sub4_Sub1 class365_sub1_sub4_sub1 = ((Class365_Sub1_Sub4_Sub1) client.map.method2675(-1611682495).method4059(i, i_5_, i_6_, (byte) 119));
 						if (class365_sub1_sub4_sub1 == null)
-							class365_sub1_sub4_sub1 = (new Class365_Sub1_Sub4_Sub1(client.aClass283_8716.method2675(-1611682495), i_5_ << 265, client.aClass283_8716.method2675(-1611682495).aClass_xaArray3517[i].method6341(i_5_, i_6_, (byte) -15), i_6_ << 265, i, i));
+							class365_sub1_sub4_sub1 = (new Class365_Sub1_Sub4_Sub1(client.map.method2675(-1611682495), i_5_ << 265, client.map.method2675(-1611682495).aClass_xaArray3517[i].method6341(i_5_, i_6_, (byte) -15), i_6_ << 265, i, i));
 						else {
 							Class365_Sub1_Sub4_Sub1 class365_sub1_sub4_sub1_10_ = class365_sub1_sub4_sub1;
 							class365_sub1_sub4_sub1.anInt10146 = 2004197937;
 							class365_sub1_sub4_sub1_10_.anInt10150 = -474510257;
-							class365_sub1_sub4_sub1.aClass331_7722 = client.aClass283_8716.method2675(-1611682495);
+							class365_sub1_sub4_sub1.aClass331_7722 = client.map.method2675(-1611682495);
 						}
 						class365_sub1_sub4_sub1.anInt10152 = 397105967 * class298_sub12.anInt7257;
 						class365_sub1_sub4_sub1.anInt10143 = (-2063762687 * ((Class298_Sub12) class298_sub12).anInt7256);
@@ -152,9 +152,9 @@ public class Class173 {
 						class365_sub1_sub4_sub1.anInt10142 = 0;
 						class365_sub1_sub4_sub1.plane = (byte) i;
 						class365_sub1_sub4_sub1.aByte7724 = (byte) i;
-						if (client.aClass283_8716.method2654(361928521).method2320(i_5_, i_6_, -1635198415))
+						if (client.map.method2654(361928521).method2320(i_5_, i_6_, -1635198415))
 							class365_sub1_sub4_sub1.aByte7724++;
-						client.aClass283_8716.method2675(-1611682495).method4053(i, i_5_, i_6_, i_13_, class365_sub1_sub4_sub1, 1648403764);
+						client.map.method2675(-1611682495).method4053(i, i_5_, i_6_, i_13_, class365_sub1_sub4_sub1, 1648403764);
 					}
 				}
 			}

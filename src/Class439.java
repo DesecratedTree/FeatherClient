@@ -42,7 +42,7 @@ public final class Class439 {
 	int[][] anIntArrayArray5572;
 	boolean[] aBooleanArray5573;
 	int anInt5574;
-	public static CacheIndex aClass243_5575;
+	public static Js5 aClass243_5575;
 
 	Class439() {
 		((Class439) this).anInt5537 = 16;
@@ -142,7 +142,7 @@ public final class Class439 {
 				else if (i == 2)
 					Class70.method805((byte) 0);
 				if (Class358.method4287(i, -1178041789)) {
-					client.aClass283_8716.method2673((byte) 75);
+					client.map.method2673((byte) 75);
 					Class423.method5733(true, 1336561252);
 				}
 				if (17 == i || i == 19)

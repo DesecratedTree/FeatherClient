@@ -19,7 +19,7 @@ public class Class65 {
 	public static int anInt662 = 32;
 	public static int[] anIntArray663 = { 2047, 16383, 65535 };
 	static Class264 aClass264_664;
-	public static CacheIndex aClass243_665;
+	public static Js5 aClass243_665;
 
 	Class65() throws Throwable {
 		throw new Error();

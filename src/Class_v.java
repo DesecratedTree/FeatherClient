@@ -3,7 +3,7 @@
  */
 
 public abstract class Class_v extends Class298 {
-	public static CacheIndex index_23_worldMap;
+	public static Js5 index_23_worldMap;
 
 	Class_v() {
 		/* empty */

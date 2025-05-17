@@ -11,7 +11,7 @@ import java.util.Hashtable;
 import java.util.Vector;
 
 public class Class305 implements Interface27 {
-	CacheIndex aClass243_6735;
+	Js5 aClass243_6735;
 	String aString6736;
 	Hashtable aHashtable6737 = new Hashtable();
 	Hashtable aHashtable6738 = new Hashtable();
@@ -327,7 +327,7 @@ public class Class305 implements Interface27 {
 		return ((Class305) this).aHashtable6738.isEmpty();
 	}
 
-	public Class305(CacheIndex class243) {
+	public Class305(Js5 class243) {
 		((Class305) this).aClass243_6735 = class243;
 		String string = "";
 		if (Class495.aString6094.startsWith("win") || Class495.aString6094.startsWith("windows 7"))

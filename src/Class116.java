@@ -85,7 +85,7 @@ public class Class116 {
 
 	public static void method1267(int i) {
 		try {
-			Class276.method2574();
+			SkyboxFace.method2574();
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("es.f(").append(')').toString());
 		}
@@ -119,7 +119,7 @@ public class Class116 {
 		try {
 			if (null != class365_sub1_sub1_sub2.anIntArray10092 || class365_sub1_sub1_sub2.anIntArray10085 != null) {
 				boolean bool = true;
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				for (int i_10_ = 0; i_10_ < class365_sub1_sub1_sub2.anIntArray10092.length; i_10_++) {
 					int i_11_ = -1;
 					if (null != class365_sub1_sub1_sub2.anIntArray10092)
@@ -131,7 +131,7 @@ public class Class116 {
 						bool = false;
 						boolean bool_12_ = false;
 						boolean bool_13_ = false;
-						Class217 class217 = (class365_sub1_sub1_sub2.method4337().aClass217_2599);
+						SceneObjectPosition class217 = (class365_sub1_sub1_sub2.method4337().aClass217_2599);
 						int i_14_;
 						int i_15_;
 						if (-1073741824 == (i_11_ & ~0x3fffffff)) {
@@ -144,7 +144,7 @@ public class Class116 {
 							int i_19_ = i_11_ & 0x7fff;
 							Player class365_sub1_sub1_sub2_sub2 = (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[i_19_]);
 							if (null != class365_sub1_sub1_sub2_sub2) {
-								Class217 class217_20_ = (class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
+								SceneObjectPosition class217_20_ = (class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
 								i_14_ = ((int) class217.aFloat2451 - (int) class217_20_.aFloat2451);
 								i_15_ = ((int) class217.aFloat2454 - (int) class217_20_.aFloat2454);
 							} else {
@@ -155,7 +155,7 @@ public class Class116 {
 							Class298_Sub29 class298_sub29 = ((Class298_Sub29) client.aClass437_8696.method5812((long) i_11_));
 							if (null != class298_sub29) {
 								NPC class365_sub1_sub1_sub2_sub1 = ((NPC) class298_sub29.anObject7366);
-								Class217 class217_21_ = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
+								SceneObjectPosition class217_21_ = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
 								i_14_ = ((int) class217.aFloat2451 - (int) class217_21_.aFloat2451);
 								i_15_ = ((int) class217.aFloat2454 - (int) class217_21_.aFloat2454);
 							} else {
@@ -229,7 +229,7 @@ public class Class116 {
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub8_7566, 0, -255450456);
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub23_7576, 4, -1503000193);
 			Class359.method4294(1109876610);
-			client.aClass283_8716.method2640((byte) 54).method4324(286817156);
+			client.map.method2640((byte) 54).method4324(286817156);
 			client.aBoolean8676 = true;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("es.d(").append(')').toString());

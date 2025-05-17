@@ -56,7 +56,7 @@ public abstract class Class422 {
 	static final void method5618(ClientScript2 class403, int i) {
 		try {
 			Class116.method1272(327778485);
-			client.aClass283_8716.method2667(382492199);
+			client.map.method2667(382492199);
 			Class3.method300(656179282);
 			client.aBoolean8666 = false;
 		} catch (RuntimeException runtimeexception) {

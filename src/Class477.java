@@ -6,9 +6,9 @@ public class Class477 {
 	public int itemDefinitionsLength;
 	String[] aStringArray5988;
 	Class504 aClass504_5989;
-	CacheIndex aClass243_5990;
+	Js5 aClass243_5990;
 	int anInt5991;
-	CacheIndex aClass243_5992;
+	Js5 aClass243_5992;
 	CachingHashMap aClass348_5993 = new CachingHashMap(64);
 	CachingHashMap aClass348_5994 = new CachingHashMap(50);
 	public Class340 aClass340_5995 = new Class340(250);
@@ -194,7 +194,7 @@ public class Class477 {
 		}
 	}
 
-	public Class477(Class411 class411, Class429 class429, boolean bool, Class504 class504, CacheIndex class243, CacheIndex class243_16_) {
+	public Class477(Class411 class411, Class429 class429, boolean bool, Class504 class504, Js5 class243, Js5 class243_16_) {
 		((Class477) this).aClass411_5998 = class411;
 		((Class477) this).aClass429_5997 = class429;
 		((Class477) this).aBoolean5999 = bool;
@@ -295,7 +295,7 @@ public class Class477 {
 		}
 	}
 
-	public static void method6096(CacheIndex class243, int i, int i_21_, int i_22_, boolean bool, int i_23_) {
+	public static void method6096(Js5 class243, int i, int i_21_, int i_22_, boolean bool, int i_23_) {
 		try {
 			Class478.method6099(class243, i, i_21_, i_22_, bool, 0L);
 		} catch (RuntimeException runtimeexception) {

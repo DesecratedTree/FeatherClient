@@ -11,7 +11,7 @@ public class Class124 implements Runnable {
 	InetAddress anInetAddress1477;
 	String aString1478;
 	volatile boolean aBoolean1479 = true;
-	static CacheIndex aClass243_1480;
+	static Js5 aClass243_1480;
 
 	void method1381(String string, int i) {
 		try {
@@ -182,7 +182,7 @@ public class Class124 implements Runnable {
 			int i_5_ = (class365_sub1_sub1_sub2.anInt10095 * -412225079 - client.anInt8884 * 443738891);
 			int i_6_ = (class365_sub1_sub1_sub2.anInt10098 * -719582720 + class365_sub1_sub1_sub2.getSize() * 256);
 			int i_7_ = (class365_sub1_sub1_sub2.anInt10100 * 1363846656 + class365_sub1_sub1_sub2.getSize() * 256);
-			Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+			SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 			class365_sub1_sub1_sub2.method4341((float) ((i_6_ - (int) class217.aFloat2451) / i_5_ + (int) class217.aFloat2451), (float) (int) class217.aFloat2455, (float) ((int) class217.aFloat2454 + (i_7_ - (int) class217.aFloat2454) / i_5_));
 			class365_sub1_sub1_sub2.anInt10124 = 0;
 			class365_sub1_sub1_sub2.method4414((class365_sub1_sub1_sub2.anInt10104) * -251594591, (byte) 1);

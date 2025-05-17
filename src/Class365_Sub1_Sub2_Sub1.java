@@ -211,7 +211,7 @@ public class Class365_Sub1_Sub2_Sub1 extends Class365_Sub1_Sub2 implements Inter
 	void method4373(GraphicsToolkit class_ra) {
 		Class387 class387 = aClass60_9910.method700(class_ra, 262144, true, true, (byte) 5);
 		if (null != class387) {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			int i = (int) class217.aFloat2451 >> 9;
 			int i_17_ = (int) class217.aFloat2454 >> 9;
 			aClass60_9910.method701(class_ra, class387, method4347(), i, i, i_17_, i_17_, false, 264840409);
@@ -265,7 +265,7 @@ public class Class365_Sub1_Sub2_Sub1 extends Class365_Sub1_Sub2 implements Inter
 	void method4371(GraphicsToolkit class_ra) {
 		Class387 class387 = aClass60_9910.method700(class_ra, 262144, true, true, (byte) -9);
 		if (null != class387) {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			int i = (int) class217.aFloat2451 >> 9;
 			int i_18_ = (int) class217.aFloat2454 >> 9;
 			aClass60_9910.method701(class_ra, class387, method4347(), i, i, i_18_, i_18_, false, 1404836454);
@@ -311,7 +311,7 @@ public class Class365_Sub1_Sub2_Sub1 extends Class365_Sub1_Sub2 implements Inter
 		try {
 			Class387 class387 = aClass60_9910.method700(class_ra, 262144, true, true, (byte) -16);
 			if (null != class387) {
-				Class217 class217 = method4337().aClass217_2599;
+				SceneObjectPosition class217 = method4337().aClass217_2599;
 				int i_22_ = (int) class217.aFloat2451 >> 9;
 				int i_23_ = (int) class217.aFloat2454 >> 9;
 				aClass60_9910.method701(class_ra, class387, method4347(), i_22_, i_22_, i_23_, i_23_, false, 1937927561);

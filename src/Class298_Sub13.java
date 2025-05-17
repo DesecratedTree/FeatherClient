@@ -338,7 +338,7 @@ public class Class298_Sub13 extends Class298 {
 		}
 	}
 
-	static Class298_Sub13 method2905(CacheIndex class243, int i, int i_83_) {
+	static Class298_Sub13 method2905(Js5 class243, int i, int i_83_) {
 		byte[] is = class243.getFileFromArchive(i, i_83_, (byte) -117);
 		if (is == null)
 			return null;

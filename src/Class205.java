@@ -3,7 +3,7 @@
  */
 
 public class Class205 {
-	CacheIndex aClass243_2338;
+	Js5 aClass243_2338;
 	public int anInt2339;
 	CachingHashMap aClass348_2340 = new CachingHashMap(64);
 	static long aLong2341;
@@ -62,7 +62,7 @@ public class Class205 {
 		}
 	}
 
-	public Class205(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class205(Class411 class411, Class429 class429, Js5 class243) {
 		((Class205) this).aClass243_2338 = class243;
 		if (null != ((Class205) this).aClass243_2338)
 			anInt2339 = (((Class205) this).aClass243_2338.method2316(Class120.aClass120_1421.anInt1460 * -1006924897, 487068051)) * 1946957321;

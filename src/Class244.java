@@ -100,7 +100,7 @@ public class Class244 {
 
 	public static void method2326(int i) {
 		try {
-			Class385.method4714(1590487126);
+			AtmosphereType.method4714(1590487126);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("kf.f(").append(')').toString());
 		}

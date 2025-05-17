@@ -233,16 +233,16 @@ public class Class398 {
 
 	static final void method4923(int i, int i_22_, int i_23_, int i_24_, int i_25_, int i_26_, int i_27_, int i_28_, int i_29_) {
 		try {
-			if (i_23_ >= 1 && i_24_ >= 1 && i_23_ <= client.aClass283_8716.method2629(-1936425983) - 2 && (i_24_ <= client.aClass283_8716.method2630(-1245034974) - 2)) {
+			if (i_23_ >= 1 && i_24_ >= 1 && i_23_ <= client.map.method2629(-1936425983) - 2 && (i_24_ <= client.map.method2630(-1245034974) - 2)) {
 				int i_30_ = i;
-				if (i_30_ < 3 && client.aClass283_8716.method2654(511320643).method2320(i_23_, i_24_, 549965572))
+				if (i_30_ < 3 && client.map.method2654(511320643).method2320(i_23_, i_24_, 549965572))
 					i_30_++;
-				if (client.aClass283_8716.method2675(-1611682495) != null) {
-					client.aClass283_8716.method2644(-1368274969).method2234(Class373.aClass_ra4071, i, i_22_, i_23_, i_24_, client.aClass283_8716.getSceneClipDataPlane(i), 366084983);
+				if (client.map.method2675(-1611682495) != null) {
+					client.map.method2644(-1368274969).method2234(Class373.aClass_ra4071, i, i_22_, i_23_, i_24_, client.map.getSceneClipDataPlane(i), 366084983);
 					if (i_25_ >= 0) {
 						int i_31_ = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub2_7547.method5629(-810781268);
 						Class422_Sub25.aClass298_Sub48_8425.method3540((Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub2_7547), 1, 650835797);
-						client.aClass283_8716.method2644(-630573167).method2243(Class373.aClass_ra4071, i_30_, i, i_23_, i_24_, i_25_, i_26_, i_27_, client.aClass283_8716.getSceneClipDataPlane(i), i_28_, 2073430416);
+						client.map.method2644(-630573167).method2243(Class373.aClass_ra4071, i_30_, i, i_23_, i_24_, i_25_, i_26_, i_27_, client.map.getSceneClipDataPlane(i), i_28_, 2073430416);
 						Class422_Sub25.aClass298_Sub48_8425.method3540((Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub2_7547), i_31_, 631929348);
 					}
 				}
@@ -264,7 +264,7 @@ public class Class398 {
 		try {
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub28_7573, (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]) != 0 ? 1 : 0, -856880407);
 			Class3.method300(656179282);
-			client.aClass283_8716.method2667(1778418334);
+			client.map.method2667(1778418334);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("qm.aip(").append(')').toString());
 		}

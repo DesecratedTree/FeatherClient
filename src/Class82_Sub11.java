@@ -124,7 +124,7 @@ public class Class82_Sub11 extends Class82 {
 					if ((((Class298_Sub37_Sub5) class298_sub37_sub5).anInt9583 * -628325139) == 1)
 						GraphicsToolkit.method5192(i_8_, i_9_, Class88.anInt806 * -1347746885, Class302_Sub4.anInt7658 * 1089948687, Class134.anInt6343 * 608683427, Class448.anInt5619 * 1396607435, i_18_, ((Class298_Sub37_Sub15) (((Class298_Sub37_Sub5) class298_sub37_sub5).aClass461_9584.aClass298_Sub37_5679.aClass298_Sub37_7405)), class264, class505, Class343.anInt3674 * -1067973831 | ~0xffffff, (Class298_Sub40_Sub2.anInt9693 * 1697857463 | ~0xffffff), 579895839);
 					else
-						Class66.method763(i_8_, i_9_, Class88.anInt806 * -1347746885, 1089948687 * Class302_Sub4.anInt7658, 608683427 * Class134.anInt6343, 1396607435 * Class448.anInt5619, i_18_, class298_sub37_sub5, class264, class505, -1067973831 * Class343.anInt3674 | ~0xffffff, (1697857463 * Class298_Sub40_Sub2.anInt9693 | ~0xffffff), (byte) -36);
+						EnvironmentMap.method763(i_8_, i_9_, Class88.anInt806 * -1347746885, 1089948687 * Class302_Sub4.anInt7658, 608683427 * Class134.anInt6343, 1396607435 * Class448.anInt5619, i_18_, class298_sub37_sub5, class264, class505, -1067973831 * Class343.anInt3674 | ~0xffffff, (1697857463 * Class298_Sub40_Sub2.anInt9693 | ~0xffffff), (byte) -36);
 					i_17_++;
 				}
 				if (Class436.aClass298_Sub37_Sub5_5472 != null) {

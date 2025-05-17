@@ -4,7 +4,7 @@
 
 public class Class131 {
 	CachingHashMap aClass348_1496 = new CachingHashMap(16);
-	CacheIndex aClass243_1497;
+	Js5 aClass243_1497;
 	static Class343_Sub1[] aClass343_Sub1Array1498;
 
 	public void method1466(short i) {
@@ -51,7 +51,7 @@ public class Class131 {
 		}
 	}
 
-	public Class131(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class131(Class411 class411, Class429 class429, Js5 class243) {
 		((Class131) this).aClass243_1497 = class243;
 		((Class131) this).aClass243_1497.method2316((Class120.aClass120_1417.anInt1460) * -1006924897, -1961959383);
 	}
@@ -122,7 +122,7 @@ public class Class131 {
 			int i_6_ = (((ClientScript2) class403).anIntArray5244[681479919 * ((ClientScript2) class403).anInt5239 + 1]);
 			int i_7_ = (((ClientScript2) class403).anIntArray5244[((ClientScript2) class403).anInt5239 * 681479919 + 2]);
 			int i_8_ = (((ClientScript2) class403).anIntArray5244[((ClientScript2) class403).anInt5239 * 681479919 + 3]);
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			Class341 class341 = client.map.method2628(681479919);
 			Class173.method1822(((i_5_ >> 14 & 0x3fff) - class341.gameSceneBaseX * -1760580017), ((i_5_ & 0x3fff) - 283514611 * class341.gameSceneBaseY), i_6_ << 2, i_7_, i_8_, (byte) 72);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("fh.agc(").append(')').toString());

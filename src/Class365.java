@@ -44,7 +44,7 @@ public class Class365 {
 			method4348(class235);
 	}
 
-	public final void method4340(Class217 class217) {
+	public final void method4340(SceneObjectPosition class217) {
 		((Class365) this).aClass235_3958.aClass217_2599.method2013(class217);
 		method4344();
 		if (((Class365) this).aClass365_3956 != null)

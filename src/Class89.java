@@ -13,7 +13,7 @@ public class Class89 {
 	public byte[] aByteArray818;
 	public byte[] aByteArray819;
 
-	public static Class89 method979(CacheIndex class243, int i) {
+	public static Class89 method979(Js5 class243, int i) {
 		byte[] is = class243.method2294(i, (byte) 17);
 		if (is == null)
 			return null;
@@ -56,7 +56,7 @@ public class Class89 {
 		anInt813 = i;
 	}
 
-	public static Class89[] method981(CacheIndex class243, int i) {
+	public static Class89[] method981(Js5 class243, int i) {
 		byte[] is = class243.method2294(i, (byte) 80);
 		if (is == null)
 			return null;
@@ -290,7 +290,7 @@ public class Class89 {
 		aByteArray818 = is;
 	}
 
-	public static Class89 method987(CacheIndex class243, int i, int i_81_) {
+	public static Class89 method987(Js5 class243, int i, int i_81_) {
 		byte[] is = class243.getFileFromArchive(i, i_81_, (byte) -43);
 		if (is == null)
 			return null;
@@ -468,7 +468,7 @@ public class Class89 {
 		/* empty */
 	}
 
-	public static Class89[] method993(CacheIndex class243, int i, int i_128_) {
+	public static Class89[] method993(Js5 class243, int i, int i_128_) {
 		byte[] is = class243.getFileFromArchive(i, i_128_, (byte) 4);
 		if (is == null)
 			return null;

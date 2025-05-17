@@ -30,7 +30,7 @@ public class Class379 {
 		}
 	}
 
-	public static void method4673(CacheIndex class243, int i) {
+	public static void method4673(Js5 class243, int i) {
 		try {
 			Class74.anInt692 = class243.getArchiveIdByName("hitbar_default", -1490079436) * 2112064137;
 			Class74.anInt694 = class243.getArchiveIdByName("timerbar_default", -1467775420) * 1617597269;
@@ -54,9 +54,9 @@ public class Class379 {
 	static final void method4674(int i) {
 		try {
 			int i_1_ = 0;
-			Class331 class331 = client.aClass283_8716.method2675(-1611682495);
-			for (int i_2_ = 0; i_2_ < client.aClass283_8716.method2629(-2029823795); i_2_++) {
-				for (int i_3_ = 0; i_3_ < client.aClass283_8716.method2630(-105400653); i_3_++) {
+			Class331 class331 = client.map.method2675(-1611682495);
+			for (int i_2_ = 0; i_2_ < client.map.method2629(-2029823795); i_2_++) {
+				for (int i_3_ = 0; i_3_ < client.map.method2630(-105400653); i_3_++) {
 					if (Class143.method1577((class331.aClass326ArrayArrayArray3516), i_1_, i_2_, i_3_, true, -777988087))
 						i_1_++;
 					if (i_1_ >= 512)

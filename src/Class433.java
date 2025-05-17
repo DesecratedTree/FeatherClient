@@ -6,8 +6,8 @@ public class Class433 {
 	Model[] aClass64Array5443;
 	Class429 aClass429_5444;
 	boolean aBoolean5445;
-	CacheIndex aClass243_5446;
-	CacheIndex aClass243_5447;
+	Js5 aClass243_5446;
+	Js5 aClass243_5447;
 	public static int anInt5448 = 256;
 	CachingHashMap aClass348_5449 = new CachingHashMap(256);
 	CachingHashMap aClass348_5450 = new CachingHashMap(500);
@@ -113,7 +113,7 @@ public class Class433 {
 		}
 	}
 
-	public Class433(Class411 class411, Class429 class429, boolean bool, CacheIndex class243, CacheIndex class243_3_) {
+	public Class433(Class411 class411, Class429 class429, boolean bool, Js5 class243, Js5 class243_3_) {
 		((Class433) this).aClass348_5451 = new CachingHashMap(50);
 		((Class433) this).aClass64Array5443 = new Model[4];
 		((Class433) this).aClass454_5456 = new Class454(null, null);

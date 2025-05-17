@@ -16,7 +16,7 @@ public class Class267 {
 		try {
 			Class372.aClass323_4052.method3938(-229170373);
 			Class165.aClass319_6366.method3882((byte) 16);
-			Class385.aClient4141.method2756(159760523);
+			AtmosphereType.aClient4141.method2756(159760523);
 			Class52_Sub2_Sub1.aCanvas9079.setBackground(Color.black);
 			client.anInt8834 = 766301529;
 			Class372.aClass323_4052 = Class294.method2825(Class52_Sub2_Sub1.aCanvas9079, 974053514);

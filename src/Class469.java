@@ -6,13 +6,13 @@ public class Class469 {
 	static int anInt5773 = 32768;
 	static int anInt5774 = 1;
 	public int anInt5775 = 0;
-	CacheIndex aClass243_5776;
+	Js5 aClass243_5776;
 	public int anInt5777 = 0;
-	CacheIndex aClass243_5778;
+	Js5 aClass243_5778;
 	CachingHashMap aClass348_5779 = new CachingHashMap(64);
 	Interface20 anInterface20_5780 = null;
 
-	public Class469(Class429 class429, CacheIndex class243, CacheIndex class243_0_, Interface20 interface20) {
+	public Class469(Class429 class429, Js5 class243, Js5 class243_0_, Interface20 interface20) {
 		aClass243_5778 = class243;
 		aClass243_5776 = class243_0_;
 		anInterface20_5780 = interface20;
@@ -78,7 +78,7 @@ public class Class469 {
 		}
 	}
 
-	static void method6047(GraphicsToolkit class_ra, Interface_ma interface_ma, int i, int i_5_, int i_6_, int i_7_, int i_8_) {
+	static void method6047(GraphicsToolkit class_ra, MaterialRawList interface_ma, int i, int i_5_, int i_6_, int i_7_, int i_8_) {
 		try {
 			if (Class301_Sub1.anInt7624 * -1289394455 < 100) {
 				Class429.method5761(class_ra, interface_ma, (byte) -95);
@@ -132,7 +132,7 @@ public class Class469 {
 		}
 	}
 
-	static Class298_Sub37_Sub13 method6048(CacheIndex index, int archive, int file, int i_21_) {
+	static Class298_Sub37_Sub13 method6048(Js5 index, int archive, int file, int i_21_) {
 		try {
 			RsByteBuffer buffer = new RsByteBuffer(index.getFileFromArchive(archive, file, (byte) 3));
 			Class298_Sub37_Sub13 class298_sub37_sub13 = (new Class298_Sub37_Sub13(file, buffer.readString(-1014876746), buffer.readString(-346433981), buffer.readInt((byte) -81), buffer.readInt((byte) 27), buffer.readUnsignedByte() == 1, buffer.readUnsignedByte(), buffer.readUnsignedByte()));

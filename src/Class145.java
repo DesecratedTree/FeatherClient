@@ -116,10 +116,10 @@ public class Class145 implements Interface5 {
 			Class122.method1319((byte) 1);
 			if (!class_ra.method5041(2085922748))
 				return false;
-			int i_4_ = client.aClass283_8716.method2629(-2086391246);
-			int i_5_ = client.aClass283_8716.method2630(-867392122);
-			Class244 class244 = client.aClass283_8716.method2654(-202336440);
-			Class331 class331 = client.aClass283_8716.method2675(-1611682495);
+			int i_4_ = client.map.method2629(-2086391246);
+			int i_5_ = client.map.method2630(-867392122);
+			Class244 class244 = client.map.method2654(-202336440);
+			Class331 class331 = client.map.method2675(-1611682495);
 			int i_6_ = i_4_ / 2;
 			int i_7_ = 0;
 			int i_8_ = 0;
@@ -159,7 +159,7 @@ public class Class145 implements Interface5 {
 				class_ra.ba(1, 0);
 			} else
 				Class384.aClass57_4127 = class_ra.method5031(is, 0, i_13_, i_13_, i_13_, -1797507809);
-			client.aClass283_8716.method2640((byte) 105).method4326((byte) -128);
+			client.map.method2640((byte) 105).method4326((byte) -128);
 			int i_17_ = ~0xffffff | ((238 + (int) (Math.random() * 20.0) - 10 << 16) + (238 + (int) (Math.random() * 20.0) - 10 << 8) + (238 + (int) (Math.random() * 20.0) - 10));
 			int i_18_ = ~0xffffff | 238 + (int) (Math.random() * 20.0) - 10 << 16;
 			int i_19_ = ((int) (Math.random() * 8.0) << 16 | (int) (Math.random() * 8.0) << 8 | (int) (Math.random() * 8.0));
@@ -215,7 +215,7 @@ public class Class145 implements Interface5 {
 						}
 					}
 					if (Class3.aBoolean65) {
-						Class289 class289 = client.aClass283_8716.getSceneClipDataPlane(i);
+						Class289 class289 = client.map.getSceneClipDataPlane(i);
 						for (int i_37_ = 0; i_37_ < i_6_; i_37_++) {
 							for (int i_38_ = 0; i_38_ < i_6_; i_38_++) {
 								int i_39_ = i_20_ + i_37_;
@@ -264,7 +264,7 @@ public class Class145 implements Interface5 {
 			class_ra.L();
 			class_ra.ba(1, 1);
 			Class360.method4301(-1595877635);
-			Class433 class433 = client.aClass283_8716.method2641(-106767927);
+			Class433 class433 = client.map.method2641(-106767927);
 			Class3.anInt67 = 0;
 			Class3.aClass453_61.method5943((byte) 1);
 			if (!Class3.aBoolean65) {
@@ -306,9 +306,9 @@ public class Class145 implements Interface5 {
 											int i_49_ = i_42_;
 											int i_50_ = i_43_;
 											if (bool_48_) {
-												int[][] is_51_ = (client.aClass283_8716.getSceneClipDataPlane(i_44_).anIntArrayArray3155);
-												int i_52_ = ((client.aClass283_8716.getSceneClipDataPlane(i_44_).anInt3151) * 1487776559);
-												int i_53_ = ((client.aClass283_8716.getSceneClipDataPlane(i_44_).anInt3152) * 1415525851);
+												int[][] is_51_ = (client.map.getSceneClipDataPlane(i_44_).anIntArrayArray3155);
+												int i_52_ = ((client.map.getSceneClipDataPlane(i_44_).anInt3151) * 1487776559);
+												int i_53_ = ((client.map.getSceneClipDataPlane(i_44_).anInt3152) * 1415525851);
 												for (int i_54_ = 0; i_54_ < 10; i_54_++) {
 													int i_55_ = (int) (Math.random() * 4.0);
 													if (i_55_ == 0 && i_49_ > i_7_ && i_49_ > i_42_ - 3 && 0 == ((is_51_[(i_49_ - 1 - i_52_)][(i_50_ - i_53_)]) & 0x2c0108))
@@ -332,10 +332,10 @@ public class Class145 implements Interface5 {
 						}
 					}
 				}
-				Class296 class296 = client.aClass283_8716.method2631(1336735501);
+				Class296 class296 = client.map.method2631(1336735501);
 				if (null != class296) {
 					Class363.aClass339_3931.method4119(1024, 64, 1140719584);
-					Class341 class341 = client.aClass283_8716.method2628(681479919);
+					Class341 class341 = client.map.method2628(681479919);
 					for (int i_56_ = 0; i_56_ < class296.anInt3169 * -1407078377; i_56_++) {
 						int i_57_ = class296.anIntArray3168[i_56_];
 						if ((Class287.myPlayer.plane) == i_57_ >> 28) {

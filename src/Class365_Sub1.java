@@ -183,7 +183,7 @@ public abstract class Class365_Sub1 extends Class365 {
 			if (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub21_7580.method5703((byte) -114) == 1)
 				Class62.aClass248_612.method2385(new Class267(Class266.aClass266_2852, null), -1108671657);
 			else {
-				client.aClass283_8716.method2667(1601177628);
+				client.map.method2667(1601177628);
 				InputStream_Sub1.method273(-119452364);
 			}
 		} catch (RuntimeException runtimeexception) {

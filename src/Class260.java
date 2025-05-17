@@ -10,7 +10,7 @@ public class Class260 {
 	static int anInt2816 = 2;
 	static int anInt2817 = 6;
 	static int anInt2818 = 7;
-	public static CacheIndex aClass243_2819;
+	public static Js5 aClass243_2819;
 	public static int anInt2820;
 
 	Class260() throws Throwable {
@@ -22,7 +22,7 @@ public class Class260 {
 			int i_0_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
 			IComponentDefinition class105 = Class50.getIComponentDefinitions(i_0_, (byte) -1);
 			Class119 class119 = Class389.aClass119Array4165[i_0_ >> 16];
-			CacheIndex.method2317(class105, class119, class403, 1204631441);
+			Js5.method2317(class105, class119, class403, 1204631441);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("kw.ni(").append(')').toString());
 		}

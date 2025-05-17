@@ -54,7 +54,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		((Class_ra_Sub1) this).anInt7981 = 1231602687 * (int) (f_3_ * 65535.0F / f_4_);
 	}
 
-	Class_ra_Sub1(Interface_ma interface_ma) {
+	Class_ra_Sub1(MaterialRawList interface_ma) {
 		super(interface_ma);
 		((Class_ra_Sub1) this).anInt7974 = 0;
 		((Class_ra_Sub1) this).anInt7991 = 0;
@@ -1225,7 +1225,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		return new Class_ta_Sub2(i, i_317_, is, is_318_);
 	}
 
-	public Class66 method5181(int i, int i_319_, int i_320_, int i_321_, int i_322_, int i_323_) {
+	public EnvironmentMap method5181(int i, int i_319_, int i_320_, int i_321_, int i_322_, int i_323_) {
 		return null;
 	}
 
@@ -1290,7 +1290,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		method5203(null != ((Class_ra_Sub1) this).anIntArray7967, ((Class_ra_Sub1) this).aFloatArray7973 != null, false, class69);
 	}
 
-	public Class66 method5185(int i, int i_342_, int i_343_, int i_344_, int i_345_, int i_346_) {
+	public EnvironmentMap method5185(int i, int i_342_, int i_343_, int i_344_, int i_345_, int i_346_) {
 		return null;
 	}
 
@@ -1536,7 +1536,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		return is;
 	}
 
-	public void method5095(Class66 class66) {
+	public void method5095(EnvironmentMap class66) {
 		/* empty */
 	}
 
@@ -1716,7 +1716,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		return ((Class15) class15).aClass233_190;
 	}
 
-	public Class66 method5179(Class66 class66, Class66 class66_465_, float f, Class66 class66_466_) {
+	public EnvironmentMap method5179(EnvironmentMap class66, EnvironmentMap class66_465_, float f, EnvironmentMap class66_466_) {
 		return null;
 	}
 
@@ -4585,7 +4585,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		((Class_ra_Sub1) this).anInt7981 = 1231602687 * (int) (f_1370_ * 65535.0F / f_1371_);
 	}
 
-	public Class66 method5140(int i, int i_1372_, int i_1373_, int i_1374_, int i_1375_, int i_1376_) {
+	public EnvironmentMap method5140(int i, int i_1372_, int i_1373_, int i_1374_, int i_1375_, int i_1376_) {
 		return null;
 	}
 
@@ -4593,19 +4593,19 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		return false;
 	}
 
-	public Class66 method5084(int i, int i_1377_, int i_1378_, int i_1379_, int i_1380_, int i_1381_) {
+	public EnvironmentMap method5084(int i, int i_1377_, int i_1378_, int i_1379_, int i_1380_, int i_1381_) {
 		return null;
 	}
 
-	public Class66 method4986(Class66 class66, Class66 class66_1382_, float f, Class66 class66_1383_) {
+	public EnvironmentMap method4986(EnvironmentMap class66, EnvironmentMap class66_1382_, float f, EnvironmentMap class66_1383_) {
 		return null;
 	}
 
-	public Class66 method5142(Class66 class66, Class66 class66_1384_, float f, Class66 class66_1385_) {
+	public EnvironmentMap method5142(EnvironmentMap class66, EnvironmentMap class66_1384_, float f, EnvironmentMap class66_1385_) {
 		return null;
 	}
 
-	public void method5189(Class66 class66) {
+	public void method5189(EnvironmentMap class66) {
 		/* empty */
 	}
 
@@ -4815,7 +4815,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		method5209();
 	}
 
-	public Class66 method5028(int i, int i_1448_, int i_1449_, int i_1450_, int i_1451_, int i_1452_) {
+	public EnvironmentMap method5028(int i, int i_1448_, int i_1449_, int i_1450_, int i_1451_, int i_1452_) {
 		return null;
 	}
 
@@ -4834,7 +4834,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		fs[2] = f_1459_;
 	}
 
-	Class_ra_Sub1(Canvas canvas, Interface_ma interface_ma, int i, int i_1460_) {
+	Class_ra_Sub1(Canvas canvas, MaterialRawList interface_ma, int i, int i_1460_) {
 		this(interface_ma);
 		try {
 			method5163(canvas, i, i_1460_, 288309230);

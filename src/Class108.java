@@ -36,7 +36,7 @@ public class Class108 {
 		}
 	}
 
-	public static void method1146(CacheIndex class243, int i) {
+	public static void method1146(Js5 class243, int i) {
 		try {
 			Class287.aClass243_3100 = class243;
 		} catch (RuntimeException runtimeexception) {

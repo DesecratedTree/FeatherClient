@@ -6,7 +6,7 @@ public class Class341 {
 	public int gameSceneBaseX;
 	public int gameSceneBaseY;
 	public int anInt3645;
-	public static CacheIndex aClass243_3646;
+	public static Js5 aClass243_3646;
 
 	public Class341(int i, int i_0_, int i_1_) {
 		anInt3645 = i * 1306643131;
@@ -120,7 +120,7 @@ public class Class341 {
 						}
 					}
 				}
-				Class217 class217 = Class217.method2005(class365_sub1_sub1_sub2.method4337().aClass217_2599);
+				SceneObjectPosition class217 = SceneObjectPosition.method2005(class365_sub1_sub1_sub2.method4337().aClass217_2599);
 				int i_7_ = (int) class217.aFloat2451;
 				int i_8_ = (int) class217.aFloat2454;
 				int i_9_ = (((class365_sub1_sub1_sub2.scenePositionXQueue[class365_sub1_sub1_sub2.anInt10120 * 2050671733 - 1]) * 512) + class365_sub1_sub1_sub2.getSize() * 256);
@@ -320,7 +320,7 @@ public class Class341 {
 		}
 	}
 
-	static void method4143(CacheIndex class243, int i, int i_39_, int i_40_, boolean bool, long l, int i_41_, int i_42_) {
+	static void method4143(Js5 class243, int i, int i_39_, int i_40_, boolean bool, long l, int i_41_, int i_42_) {
 		try {
 			Class79.anInt734 = -1262101671;
 			Class79.aClass243_744 = class243;
@@ -384,7 +384,7 @@ public class Class341 {
 						((Class298_Sub41) class298_sub41).anInt7449 = class503.anInt6179 * -1283486135;
 					}
 				}
-				Class217 class217 = (((Class298_Sub41) class298_sub41).aClass365_Sub1_Sub1_Sub2_Sub1_7433.method4337().aClass217_2599);
+				SceneObjectPosition class217 = (((Class298_Sub41) class298_sub41).aClass365_Sub1_Sub1_Sub2_Sub1_7433.method4337().aClass217_2599);
 				((Class298_Sub41) class298_sub41).anInt7425 = -7217919 * (int) class217.aFloat2451;
 				((Class298_Sub41) class298_sub41).anInt7427 = ((int) class217.aFloat2451 + (((Class298_Sub41) class298_sub41).aClass365_Sub1_Sub1_Sub2_Sub1_7433.getSize() << 8)) * 305826635;
 				((Class298_Sub41) class298_sub41).anInt7423 = 584186023 * (int) class217.aFloat2454;
@@ -428,7 +428,7 @@ public class Class341 {
 						((Class298_Sub41) class298_sub41).anInt7439 = i_50_ * 636899469;
 					}
 				}
-				Class217 class217 = (((Class298_Sub41) class298_sub41).aClass365_Sub1_Sub1_Sub2_Sub2_7434.method4337().aClass217_2599);
+				SceneObjectPosition class217 = (((Class298_Sub41) class298_sub41).aClass365_Sub1_Sub1_Sub2_Sub2_7434.method4337().aClass217_2599);
 				((Class298_Sub41) class298_sub41).anInt7425 = -7217919 * (int) class217.aFloat2451;
 				((Class298_Sub41) class298_sub41).anInt7427 = ((int) class217.aFloat2451 + (((Class298_Sub41) class298_sub41).aClass365_Sub1_Sub1_Sub2_Sub2_7434.getSize() << 8)) * 305826635;
 				((Class298_Sub41) class298_sub41).anInt7423 = 584186023 * (int) class217.aFloat2454;

@@ -3,8 +3,8 @@
  */
 
 public class Class389 {
-	CacheIndex aClass243_4159;
-	CacheIndex aClass243_4160;
+	Js5 aClass243_4159;
+	Js5 aClass243_4160;
 	CachingHashMap aClass348_4161 = new CachingHashMap(64);
 	CachingHashMap aClass348_4162 = new CachingHashMap(60);
 	int anInt4163;
@@ -88,7 +88,7 @@ public class Class389 {
 		}
 	}
 
-	public Class389(Class411 class411, Class429 class429, CacheIndex class243, CacheIndex class243_3_) {
+	public Class389(Class411 class411, Class429 class429, Js5 class243, Js5 class243_3_) {
 		((Class389) this).aClass243_4159 = class243;
 		((Class389) this).aClass243_4160 = class243_3_;
 		int i = ((Class389) this).aClass243_4159.method2296(1921321046) - 1;

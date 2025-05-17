@@ -7,8 +7,8 @@ public class Class497 {
 	public int anInt6100;
 	public String aString6101;
 	public boolean aBoolean6102 = true;
-	public static CacheIndex aClass243_6103;
-	public static CacheIndex aClass243_6104;
+	public static Js5 aClass243_6103;
+	public static Js5 aClass243_6104;
 	public static Class197 aClass197_6105;
 	protected static Class484[] aClass484Array6106;
 

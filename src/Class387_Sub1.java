@@ -106,7 +106,7 @@ public class Class387_Sub1 extends Class387 {
 		((Class387_Sub1) this).anInt7746 = i;
 		((Class387_Sub1) this).anInt7747 = i_0_;
 		((Class387_Sub1) this).anInt7748 = i_1_;
-		Interface_ma interface_ma = ((Class387_Sub1) this).aClass_ra_Sub1_7769.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class387_Sub1) this).aClass_ra_Sub1_7769.anInterface_ma5299;
 		((Class387_Sub1) this).anInt7799 = class64.anInt614;
 		((Class387_Sub1) this).anInt7742 = class64.anInt626;
 		((Class387_Sub1) this).anIntArray7751 = class64.anIntArray616;
@@ -178,7 +178,7 @@ public class Class387_Sub1 extends Class387 {
 			ls[i_4_] = ((long) i_6_ << 32) + (long) i_7_;
 			((Class387_Sub1) this).aBoolean7756 |= bool_14_;
 		}
-		Class277.method2598(ls, is, (byte) -26);
+		Skybox.method2598(ls, is, (byte) -26);
 		if (class64.aClass84Array649 != null) {
 			((Class387_Sub1) this).anInt7788 = class64.aClass84Array649.length;
 			((Class387_Sub1) this).aClass16Array7789 = new Class16[((Class387_Sub1) this).anInt7788];

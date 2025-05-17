@@ -4,12 +4,12 @@
 
 public abstract class Class127 implements Interface6 {
 	int anInt6371;
-	CacheIndex aClass243_6372;
+	Js5 aClass243_6372;
 	Class264 aClass264_6373;
-	CacheIndex aClass243_6374;
+	Js5 aClass243_6374;
 	Class128 aClass128_6375;
 	long aLong6376;
-	public static CacheIndex aClass243_6377;
+	public static Js5 aClass243_6377;
 
 	abstract void method1409(boolean bool, int i, int i_0_);
 
@@ -98,7 +98,7 @@ public abstract class Class127 implements Interface6 {
 
 	abstract void method1416(boolean bool, int i, int i_12_);
 
-	Class127(CacheIndex class243, CacheIndex class243_13_, Class128 class128) {
+	Class127(Js5 class243, Js5 class243_13_, Class128 class128) {
 		((Class127) this).aClass243_6372 = class243;
 		((Class127) this).aClass243_6374 = class243_13_;
 		((Class127) this).aClass128_6375 = class128;

@@ -6,7 +6,7 @@ public class Class254 {
 	static Class254 aClass254_2786;
 	public static Class254 aClass254_2787 = new Class254(0);
 	int anInt2788;
-	static Class277 aClass277_2789;
+	static Skybox aClass277_2789;
 	public static boolean[] aBooleanArray2790;
 
 	Class254(int i) {
@@ -37,7 +37,7 @@ public class Class254 {
 	static final void method2424(ClientScript2 class403, short i) {
 		try {
 			int i_3_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
-			((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919 - 1)] = Class364.method4334((char) i_3_, -401787251) ? 1 : 0;
+			((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919 - 1)] = AtmosphereConditions.method4334((char) i_3_, -401787251) ? 1 : 0;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("kq.aaz(").append(')').toString());
 		}
@@ -71,7 +71,7 @@ public class Class254 {
 	static final void method2428(ClientScript2 class403, int i) {
 		try {
 			Class320.method3910(-174138334);
-			client.aClass283_8716.method2667(1331773815);
+			client.map.method2667(1331773815);
 			Class3.method300(656179282);
 			client.aBoolean8666 = false;
 		} catch (RuntimeException runtimeexception) {

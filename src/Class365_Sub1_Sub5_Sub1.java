@@ -78,7 +78,7 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 				else
 					class_xa_2_ = null;
 			}
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			return (class432.method5785(class_ra, i, ((Class365_Sub1_Sub5_Sub1) this).aByte9899, ((Class365_Sub1_Sub5_Sub1) this).aByte9897, class_xa, class_xa_2_, (int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, bool, null, 566759128));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("wg.br(").append(')').toString());
@@ -211,7 +211,7 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 			class_na = ((Class365_Sub1_Sub5_Sub1) this).aClass_na9894;
 			((Class365_Sub1_Sub5_Sub1) this).aClass_na9894 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (null != class_na)
 			aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 1555439691);
 	}
@@ -239,7 +239,7 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 	}
 
 	public Class334 method4367(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (null == ((Class365_Sub1_Sub5_Sub1) this).aClass334_9895)
 			((Class365_Sub1_Sub5_Sub1) this).aClass334_9895 = Class472.method6063((int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, method4523(class_ra, 0, -541574626), 2030586614);
 		return ((Class365_Sub1_Sub5_Sub1) this).aClass334_9895;
@@ -255,7 +255,7 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 			class_na = ((Class365_Sub1_Sub5_Sub1) this).aClass_na9894;
 			((Class365_Sub1_Sub5_Sub1) this).aClass_na9894 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (null != class_na)
 			aClass331_7722.method4055(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 932138106);
 	}
@@ -278,13 +278,13 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 			class_na = ((Class365_Sub1_Sub5_Sub1) this).aClass_na9894;
 			((Class365_Sub1_Sub5_Sub1) this).aClass_na9894 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (null != class_na)
 			aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 1480402841);
 	}
 
 	public Class334 method4368(GraphicsToolkit class_ra) {
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (null == ((Class365_Sub1_Sub5_Sub1) this).aClass334_9895)
 			((Class365_Sub1_Sub5_Sub1) this).aClass334_9895 = Class472.method6063((int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, method4523(class_ra, 0, -2141517966), 2144329713);
 		return ((Class365_Sub1_Sub5_Sub1) this).aClass334_9895;
@@ -318,7 +318,7 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 			if (((Class365_Sub1_Sub5_Sub1) this).aBoolean9892 || class432.aBoolean5441) {
 				((Class365_Sub1_Sub5_Sub1) this).aClass387_9893 = ((Class365_Sub1_Sub5_Sub1) this).aClass387_9893.method4755((byte) 0, i_16_, false);
 				if (class432.aBoolean5441) {
-					Class287 class287 = client.aClass283_8716.method2632(-2131923625);
+					Class287 class287 = client.map.method2632(-2131923625);
 					((Class365_Sub1_Sub5_Sub1) this).aClass387_9893.PA(class287.anInt3096 * 1599271859, 1630923113 * class287.anInt3097, class287.anInt3098 * -1560648831, class287.anInt3099 * -57569897);
 				}
 			}
@@ -343,7 +343,7 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 				class_na = ((Class365_Sub1_Sub5_Sub1) this).aClass_na9894;
 				((Class365_Sub1_Sub5_Sub1) this).aClass_na9894 = null;
 			}
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			if (null != class_na)
 				aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 580390895);
 		} catch (RuntimeException runtimeexception) {
@@ -427,7 +427,7 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 				class_na = ((Class365_Sub1_Sub5_Sub1) this).aClass_na9894;
 				((Class365_Sub1_Sub5_Sub1) this).aClass_na9894 = null;
 			}
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			if (null != class_na)
 				aClass331_7722.method4055(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 2001227588);
 		} catch (RuntimeException runtimeexception) {
@@ -447,7 +447,7 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 
 	public Class334 method4358(GraphicsToolkit class_ra, byte i) {
 		try {
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			if (null == ((Class365_Sub1_Sub5_Sub1) this).aClass334_9895)
 				((Class365_Sub1_Sub5_Sub1) this).aClass334_9895 = Class472.method6063((int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, method4523(class_ra, 0, -187426704), 2051250714);
 			return ((Class365_Sub1_Sub5_Sub1) this).aClass334_9895;
@@ -494,7 +494,7 @@ public class Class365_Sub1_Sub5_Sub1 extends Class365_Sub1_Sub5 implements Inter
 			class_na = ((Class365_Sub1_Sub5_Sub1) this).aClass_na9894;
 			((Class365_Sub1_Sub5_Sub1) this).aClass_na9894 = null;
 		}
-		Class217 class217 = method4337().aClass217_2599;
+		SceneObjectPosition class217 = method4337().aClass217_2599;
 		if (null != class_na)
 			aClass331_7722.method4047(class_na, aByte7724, (int) class217.aFloat2451, (int) class217.aFloat2454, null, 310306064);
 	}

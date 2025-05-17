@@ -19,7 +19,7 @@ public class Class236 {
 			RsByteBuffer class298_sub53 = new RsByteBuffer(is);
 			int i_0_ = class298_sub53.readUnsignedByte();
 			int i_1_ = class298_sub53.readInt((byte) -98);
-			if (i_1_ < 0 || (-989796335 * CacheIndex.anInt2722 != 0 && i_1_ > -989796335 * CacheIndex.anInt2722))
+			if (i_1_ < 0 || (-989796335 * Js5.anInt2722 != 0 && i_1_ > -989796335 * Js5.anInt2722))
 				throw new RuntimeException();
 			if (i_0_ == 0) {
 				byte[] is_2_ = new byte[i_1_];
@@ -27,14 +27,14 @@ public class Class236 {
 				return is_2_;
 			}
 			int i_3_ = class298_sub53.readInt((byte) -15);
-			if (i_3_ < 0 || (0 != -989796335 * CacheIndex.anInt2722 && i_3_ > CacheIndex.anInt2722 * -989796335))
+			if (i_3_ < 0 || (0 != -989796335 * Js5.anInt2722 && i_3_ > Js5.anInt2722 * -989796335))
 				throw new RuntimeException();
 			byte[] is_4_ = new byte[i_3_];
 			if (1 == i_0_)
 				Class450.method5921(is_4_, i_3_, is, i_1_, 9);
 			else {
-				synchronized (CacheIndex.aClass519_2714) {
-					CacheIndex.aClass519_2714.method6318(class298_sub53, is_4_, -2006263589);
+				synchronized (Js5.aClass519_2714) {
+					Js5.aClass519_2714.method6318(class298_sub53, is_4_, -2006263589);
 				}
 			}
 			return is_4_;

@@ -4,8 +4,8 @@
 
 public class Class79 {
 	static int anInt734 = 0;
-	static CacheIndex aClass243_735;
-	static CacheIndex aClass243_736;
+	static Js5 aClass243_735;
+	static Js5 aClass243_736;
 	static Class298_Sub19_Sub1 aClass298_Sub19_Sub1_737;
 	static Class284 aClass284_738;
 	static int anInt739;
@@ -13,10 +13,10 @@ public class Class79 {
 	static int anInt741 = 2;
 	static int anInt742 = 3;
 	static int anInt743 = 0;
-	static CacheIndex aClass243_744;
+	static Js5 aClass243_744;
 	static int anInt745;
 	static int anInt746;
-	static CacheIndex aClass243_747;
+	static Js5 aClass243_747;
 	static Class298_Sub19_Sub1 aClass298_Sub19_Sub1_748;
 
 	Class79() throws Throwable {

@@ -3,9 +3,9 @@
  */
 
 public class Class451 {
-	CacheIndex aClass243_5639;
+	Js5 aClass243_5639;
 	CachingHashMap aClass348_5640 = new CachingHashMap(128);
-	public static CacheIndex aClass243_5641;
+	public static Js5 aClass243_5641;
 
 	public void method5929(int i) {
 		try {
@@ -61,7 +61,7 @@ public class Class451 {
 		}
 	}
 
-	public Class451(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class451(Class411 class411, Class429 class429, Js5 class243) {
 		((Class451) this).aClass243_5639 = class243;
 		((Class451) this).aClass243_5639.method2316((-1006924897 * (Class120.aClass120_1428.anInt1460)), -978414795);
 	}

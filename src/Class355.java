@@ -77,9 +77,9 @@ public class Class355 implements Interface19 {
 			int i_11_ = (((ClientScript2) class403).anIntArray5244[((ClientScript2) class403).anInt5239 * 681479919 + 1]);
 			Class497 class497 = Class92.aClass504_905.method6251(i_11_, -1869114423);
 			if (class497.method6206(1883696427))
-				((ClientScript2) class403).anObjectArray5240[((((ClientScript2) class403).anInt5241 += 969361751) * -203050393) - 1] = client.aClass283_8716.method2641(-1837734772).getObjectDefinitions(i_10_).method5770(i_11_, class497.aString6101, 1595133323);
+				((ClientScript2) class403).anObjectArray5240[((((ClientScript2) class403).anInt5241 += 969361751) * -203050393) - 1] = client.map.method2641(-1837734772).getObjectDefinitions(i_10_).method5770(i_11_, class497.aString6101, 1595133323);
 			else
-				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = (client.aClass283_8716.method2641(767453715).getObjectDefinitions(i_10_).method5776(i_11_, class497.anInt6100 * -388931549, (byte) 2));
+				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = (client.map.method2641(767453715).getObjectDefinitions(i_10_).method5776(i_11_, class497.anInt6100 * -388931549, (byte) 2));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ov.abf(").append(')').toString());
 		}

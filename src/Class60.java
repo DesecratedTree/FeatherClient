@@ -72,8 +72,8 @@ public class Class60 {
 				((Class60) this).anInt595 = -722933511 * class432.anInt5365;
 				return null;
 			}
-			Class217 class217 = (((Class60) this).aClass365_Sub1_587.method4337().aClass217_2599);
-			Class331 class331 = client.aClass283_8716.method2675(-1611682495);
+			SceneObjectPosition class217 = (((Class60) this).aClass365_Sub1_587.method4337().aClass217_2599);
+			Class331 class331 = client.map.method2675(-1611682495);
 			if (bool_1_) {
 				class331.method4047(((Class60) this).aClass_na599, ((Class60) this).aByte588, (int) class217.aFloat2451, (int) class217.aFloat2454, ((Class60) this).aBooleanArray596, 528677416);
 				((Class60) this).aBoolean600 = false;
@@ -271,8 +271,8 @@ public class Class60 {
 	void method707(GraphicsToolkit class_ra, int i) {
 		try {
 			if (null != ((Class60) this).aClass_na599) {
-				Class217 class217 = (((Class60) this).aClass365_Sub1_587.method4337().aClass217_2599);
-				client.aClass283_8716.method2675(-1611682495).method4047(((Class60) this).aClass_na599, ((Class60) this).aByte588, (int) class217.aFloat2451, (int) class217.aFloat2454, ((Class60) this).aBooleanArray596, 677085165);
+				SceneObjectPosition class217 = (((Class60) this).aClass365_Sub1_587.method4337().aClass217_2599);
+				client.map.method2675(-1611682495).method4047(((Class60) this).aClass_na599, ((Class60) this).aByte588, (int) class217.aFloat2451, (int) class217.aFloat2454, ((Class60) this).aBooleanArray596, 677085165);
 				((Class60) this).aBooleanArray596 = null;
 				((Class60) this).aClass_na599 = null;
 			}

@@ -44,7 +44,7 @@ public class Class69 {
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub8_7566, 2, 55764026);
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub23_7576, 1, 777762630);
 			Class359.method4294(-982122818);
-			client.aClass283_8716.method2640((byte) 2).method4324(-338889856);
+			client.map.method2640((byte) 2).method4324(-338889856);
 			client.aBoolean8676 = true;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("cu.r(").append(')').toString());

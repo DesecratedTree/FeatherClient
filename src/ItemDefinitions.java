@@ -1056,7 +1056,7 @@ public class ItemDefinitions {
 				client.aClass222_8871.method2062(0.0F, 256.0F, 0.0F);
 				Class373.aClass_ra4071.method5043(client.aClass222_8871);
 				Class233 class233 = Class373.aClass_ra4071.method5036();
-				class233.method2152((float) (dimension.width / 2), (float) (dimension.height / 2), 512.0F, 512.0F, (float) client.aClass283_8716.method2634((byte) -121), (float) client.aClass283_8716.method2635(1789119116), (float) dimension.width, (float) dimension.height);
+				class233.method2152((float) (dimension.width / 2), (float) (dimension.height / 2), 512.0F, 512.0F, (float) client.map.method2634((byte) -121), (float) client.map.method2635(1789119116), (float) dimension.width, (float) dimension.height);
 				Class373.aClass_ra4071.method5182(class233);
 				Class373.aClass_ra4071.IA(1.0F);
 				Class373.aClass_ra4071.m(16777215, 0.5F, 0.5F, 20.0F, -50.0F, 30.0F);

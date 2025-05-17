@@ -16,7 +16,7 @@ public class Class66_Sub1_Sub1 extends Class66_Sub1 {
 
 	Class30_Sub1 method770() {
 		if (((Class66_Sub1_Sub1) this).aClass30_Sub1_9089 == null) {
-			Interface_ma interface_ma = (((Class66_Sub1_Sub1) this).aClass_ra_Sub2_9092.anInterface_ma5299);
+			MaterialRawList interface_ma = (((Class66_Sub1_Sub1) this).aClass_ra_Sub2_9092.anInterface_ma5299);
 			anIntArray9096[0] = ((Class66_Sub1_Sub1) this).anInt9094;
 			anIntArray9096[1] = ((Class66_Sub1_Sub1) this).anInt9091;
 			anIntArray9096[2] = ((Class66_Sub1_Sub1) this).anInt9095;
@@ -54,7 +54,7 @@ public class Class66_Sub1_Sub1 extends Class66_Sub1 {
 
 	Class30_Sub1 method769() {
 		if (((Class66_Sub1_Sub1) this).aClass30_Sub1_9089 == null) {
-			Interface_ma interface_ma = (((Class66_Sub1_Sub1) this).aClass_ra_Sub2_9092.anInterface_ma5299);
+			MaterialRawList interface_ma = (((Class66_Sub1_Sub1) this).aClass_ra_Sub2_9092.anInterface_ma5299);
 			anIntArray9096[0] = ((Class66_Sub1_Sub1) this).anInt9094;
 			anIntArray9096[1] = ((Class66_Sub1_Sub1) this).anInt9091;
 			anIntArray9096[2] = ((Class66_Sub1_Sub1) this).anInt9095;

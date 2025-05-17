@@ -73,10 +73,10 @@ public final class Class70 {
 
 	static void method802(GraphicsToolkit class_ra, int i, int i_7_, int i_8_, int i_9_, int i_10_, int i_11_, int i_12_, int i_13_) {
 		try {
-			Class331 class331 = client.aClass283_8716.method2675(-1611682495);
+			Class331 class331 = client.map.method2675(-1611682495);
 			Interface3 interface3 = (Interface3) class331.method4031(i, i_7_, i_8_, 987531084);
 			if (null != interface3) {
-				ObjectDefinitions class432 = (client.aClass283_8716.method2641(-1178105216).getObjectDefinitions(interface3.method32((byte) 20)));
+				ObjectDefinitions class432 = (client.map.method2641(-1178105216).getObjectDefinitions(interface3.method32((byte) 20)));
 				int i_14_ = interface3.method30((short) 12592) & 0x3;
 				int i_15_ = interface3.method29(726839210);
 				if (-1 != -1204256389 * class432.anInt5400)
@@ -119,7 +119,7 @@ public final class Class70 {
 			}
 			interface3 = (Interface3) class331.method4035(i, i_7_, i_8_, client.anInterface17_8960, -1880419927);
 			if (null != interface3) {
-				ObjectDefinitions class432 = (client.aClass283_8716.method2641(-258471564).getObjectDefinitions(interface3.method32((byte) -26)));
+				ObjectDefinitions class432 = (client.map.method2641(-258471564).getObjectDefinitions(interface3.method32((byte) -26)));
 				int i_17_ = interface3.method30((short) 29260) & 0x3;
 				int i_18_ = interface3.method29(726839210);
 				if (-1204256389 * class432.anInt5400 != -1)
@@ -136,7 +136,7 @@ public final class Class70 {
 			}
 			interface3 = (Interface3) class331.method4058(i, i_7_, i_8_, (byte) 125);
 			if (null != interface3) {
-				ObjectDefinitions class432 = (client.aClass283_8716.method2641(541526744).getObjectDefinitions(interface3.method32((byte) 49)));
+				ObjectDefinitions class432 = (client.map.method2641(541526744).getObjectDefinitions(interface3.method32((byte) 49)));
 				int i_20_ = interface3.method30((short) 12476) & 0x3;
 				if (-1 != -1204256389 * class432.anInt5400)
 					Class82.method871(class_ra, class432, i_20_, i_9_, i_10_, (byte) 79);
@@ -189,7 +189,7 @@ public final class Class70 {
 		}
 	}
 
-	public static void method806(CacheIndex class243, byte i) {
+	public static void method806(Js5 class243, byte i) {
 		try {
 			Class74.anInt691 = class243.getArchiveIdByName("p11_full", -1951605663) * 1133798363;
 			Class74.anInt690 = class243.getArchiveIdByName("p12_full", -2095742316) * 399685195;
@@ -201,15 +201,15 @@ public final class Class70 {
 
 	public static final int method807(int i, int i_26_, int i_27_, int i_28_, int i_29_, byte i_30_) {
 		try {
-			if (client.aClass283_8716.method2675(-1611682495) == null)
+			if (client.map.method2675(-1611682495) == null)
 				return 0;
 			if (i_29_ < 3) {
-				Class244 class244 = client.aClass283_8716.method2654(1767942332);
+				Class244 class244 = client.map.method2654(1767942332);
 				int i_31_ = i >> 9;
 				int i_32_ = i_26_ >> 9;
-				if (i_27_ < 0 || i_28_ < 0 || (i_27_ > client.aClass283_8716.method2629(-1972690353) - 1) || i_28_ > client.aClass283_8716.method2630(-61619148) - 1)
+				if (i_27_ < 0 || i_28_ < 0 || (i_27_ > client.map.method2629(-1972690353) - 1) || i_28_ > client.map.method2630(-61619148) - 1)
 					return 0;
-				if (i_31_ < 1 || i_32_ < 1 || (i_31_ > client.aClass283_8716.method2629(-1988640932) - 1) || (i_32_ > client.aClass283_8716.method2630(-694658273) - 1))
+				if (i_31_ < 1 || i_32_ < 1 || (i_31_ > client.map.method2629(-1988640932) - 1) || (i_32_ > client.map.method2630(-694658273) - 1))
 					return 0;
 				boolean bool = 0 != ((class244.aByteArrayArrayArray2731[1][i >> 9][i_26_ >> 9]) & 0x2);
 				if ((i & 0x1ff) == 0) {
@@ -227,7 +227,7 @@ public final class Class70 {
 				if (bool)
 					i_29_++;
 			}
-			return client.aClass283_8716.method2675(-1611682495).aClass_xaArray3517[i_29_].method6340(i, i_26_, -1371980258);
+			return client.map.method2675(-1611682495).aClass_xaArray3517[i_29_].method6340(i, i_26_, -1371980258);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("cv.ja(").append(')').toString());
 		}

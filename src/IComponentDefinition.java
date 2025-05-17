@@ -641,12 +641,12 @@ public class IComponentDefinition {
 		aBoolean1139 = false;
 	}
 
-	public Class277 method1121(Class317 class317, Class131 class131, int i) {
+	public Skybox method1121(Class317 class317, Class131 class131, int i) {
 		try {
 			if (-1 == anInt1283 * 925824753)
 				return null;
 			long l = (((long) (1779368503 * anInt1304) & 0xffffL) << 48 | ((long) (anInt1202 * -163313477) & 0xffffL) << 32 | ((long) (anInt1176 * -1234146137) & 0xffffL) << 16 | (long) (anInt1283 * 925824753) & 0xffffL);
-			Class277 class277 = (Class277) aClass348_1296.get(l);
+			Skybox class277 = (Skybox) aClass348_1296.get(l);
 			if (class277 == null) {
 				class277 = class317.method3845(anInt1283 * 925824753, 1779368503 * anInt1304, -163313477 * anInt1202, anInt1176 * -1234146137, class131, (byte) 89);
 				aClass348_1296.method4194(class277, l);

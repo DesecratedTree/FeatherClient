@@ -158,7 +158,7 @@ public class Class442 {
 			Class504.aClass375_6196.method4647(5, (byte) 50);
 			Class151.aClass451_6358.method5930(5, 203948089);
 			Class212.aClass144_2433.method1582(5, -754640866);
-			client.aClass283_8716.method2641(1725751477).method5794(5, (byte) 49);
+			client.map.method2641(1725751477).method5794(5, (byte) 49);
 			Class15.aClass507_224.method6275(5, 1533104330);
 			Class298_Sub32_Sub14.aClass477_9400.method6090(5, (byte) 35);
 			Class501.aClass395_6122.method4904(5, (byte) 1);

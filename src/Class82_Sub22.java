@@ -84,7 +84,7 @@ public class Class82_Sub22 extends Class82 {
 			i_4_ = ((Class82_Sub22) this).anInt6910 * -356438957;
 		} else {
 			Entity class365_sub1_sub1_sub2 = Class87.aClass94Array794[((Class82_Sub22) this).anInt6905 * -153670819].method1015(1193612238);
-			Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+			SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 			i = (int) class217.aFloat2451;
 			i_3_ = (int) class217.aFloat2454;
 			i_4_ = class365_sub1_sub1_sub2.plane;
@@ -96,14 +96,14 @@ public class Class82_Sub22 extends Class82 {
 			i_6_ = 1149122048 * ((Class82_Sub22) this).anInt6911 + 256;
 		} else {
 			Entity class365_sub1_sub1_sub2 = Class87.aClass94Array794[((Class82_Sub22) this).anInt6909 * -1629854861].method1015(143521447);
-			Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+			SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 			i_5_ = (int) class217.aFloat2451;
 			i_6_ = (int) class217.aFloat2454;
 			if (i_4_ < 0)
 				i_4_ = class365_sub1_sub1_sub2.plane;
 		}
 		int i_7_ = ((Class82_Sub22) this).anInt6914 * 1745275777 << 2;
-		Class365_Sub1_Sub1_Sub1 class365_sub1_sub1_sub1 = (new Class365_Sub1_Sub1_Sub1(client.aClass283_8716.method2675(-1611682495), ((Class82_Sub22) this).anInt6908 * 1632084697, i_4_, i_4_, i, i_3_, ((Class82_Sub22) this).anInt6916 * 266943569 << 2, client.anInt8884 * 443738891, (929559909 * ((Class82_Sub22) this).anInt6904 + client.anInt8884 * 443738891), -1300008271 * ((Class82_Sub22) this).anInt6915, i_7_, ((Class82_Sub22) this).anInt6905 * -153670819 + 1, 1 + -1629854861 * ((Class82_Sub22) this).anInt6909, ((Class82_Sub22) this).anInt6912 * 172590773 << 2, false, 0));
+		Class365_Sub1_Sub1_Sub1 class365_sub1_sub1_sub1 = (new Class365_Sub1_Sub1_Sub1(client.map.method2675(-1611682495), ((Class82_Sub22) this).anInt6908 * 1632084697, i_4_, i_4_, i, i_3_, ((Class82_Sub22) this).anInt6916 * 266943569 << 2, client.anInt8884 * 443738891, (929559909 * ((Class82_Sub22) this).anInt6904 + client.anInt8884 * 443738891), -1300008271 * ((Class82_Sub22) this).anInt6915, i_7_, ((Class82_Sub22) this).anInt6905 * -153670819 + 1, 1 + -1629854861 * ((Class82_Sub22) this).anInt6909, ((Class82_Sub22) this).anInt6912 * 172590773 << 2, false, 0));
 		class365_sub1_sub1_sub1.method4405(i_5_, i_6_, 172590773 * ((Class82_Sub22) this).anInt6912 << 2, (client.anInt8884 * 443738891 + 929559909 * ((Class82_Sub22) this).anInt6904), -414343918);
 		client.aClass453_8824.method5935(new Class298_Sub37_Sub2(class365_sub1_sub1_sub1), 1292621740);
 	}
@@ -118,7 +118,7 @@ public class Class82_Sub22 extends Class82 {
 			i_9_ = ((Class82_Sub22) this).anInt6910 * -356438957;
 		} else {
 			Entity class365_sub1_sub1_sub2 = Class87.aClass94Array794[((Class82_Sub22) this).anInt6905 * -153670819].method1015(1656183484);
-			Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+			SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 			i = (int) class217.aFloat2451;
 			i_8_ = (int) class217.aFloat2454;
 			i_9_ = class365_sub1_sub1_sub2.plane;
@@ -130,14 +130,14 @@ public class Class82_Sub22 extends Class82 {
 			i_11_ = 1149122048 * ((Class82_Sub22) this).anInt6911 + 256;
 		} else {
 			Entity class365_sub1_sub1_sub2 = Class87.aClass94Array794[((Class82_Sub22) this).anInt6909 * -1629854861].method1015(43837883);
-			Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+			SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 			i_10_ = (int) class217.aFloat2451;
 			i_11_ = (int) class217.aFloat2454;
 			if (i_9_ < 0)
 				i_9_ = class365_sub1_sub1_sub2.plane;
 		}
 		int i_12_ = ((Class82_Sub22) this).anInt6914 * 1745275777 << 2;
-		Class365_Sub1_Sub1_Sub1 class365_sub1_sub1_sub1 = (new Class365_Sub1_Sub1_Sub1(client.aClass283_8716.method2675(-1611682495), ((Class82_Sub22) this).anInt6908 * 1632084697, i_9_, i_9_, i, i_8_, ((Class82_Sub22) this).anInt6916 * 266943569 << 2, client.anInt8884 * 443738891, (929559909 * ((Class82_Sub22) this).anInt6904 + client.anInt8884 * 443738891), -1300008271 * ((Class82_Sub22) this).anInt6915, i_12_, ((Class82_Sub22) this).anInt6905 * -153670819 + 1, 1 + -1629854861 * ((Class82_Sub22) this).anInt6909, ((Class82_Sub22) this).anInt6912 * 172590773 << 2, false, 0));
+		Class365_Sub1_Sub1_Sub1 class365_sub1_sub1_sub1 = (new Class365_Sub1_Sub1_Sub1(client.map.method2675(-1611682495), ((Class82_Sub22) this).anInt6908 * 1632084697, i_9_, i_9_, i, i_8_, ((Class82_Sub22) this).anInt6916 * 266943569 << 2, client.anInt8884 * 443738891, (929559909 * ((Class82_Sub22) this).anInt6904 + client.anInt8884 * 443738891), -1300008271 * ((Class82_Sub22) this).anInt6915, i_12_, ((Class82_Sub22) this).anInt6905 * -153670819 + 1, 1 + -1629854861 * ((Class82_Sub22) this).anInt6909, ((Class82_Sub22) this).anInt6912 * 172590773 << 2, false, 0));
 		class365_sub1_sub1_sub1.method4405(i_10_, i_11_, 172590773 * ((Class82_Sub22) this).anInt6912 << 2, (client.anInt8884 * 443738891 + 929559909 * ((Class82_Sub22) this).anInt6904), 1238518641);
 		client.aClass453_8824.method5935(new Class298_Sub37_Sub2(class365_sub1_sub1_sub1), 489461607);
 	}
@@ -153,7 +153,7 @@ public class Class82_Sub22 extends Class82 {
 				i_15_ = ((Class82_Sub22) this).anInt6910 * -356438957;
 			} else {
 				Entity class365_sub1_sub1_sub2 = Class87.aClass94Array794[((Class82_Sub22) this).anInt6905 * -153670819].method1015(1024446891);
-				Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+				SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 				i_13_ = (int) class217.aFloat2451;
 				i_14_ = (int) class217.aFloat2454;
 				i_15_ = class365_sub1_sub1_sub2.plane;
@@ -165,14 +165,14 @@ public class Class82_Sub22 extends Class82 {
 				i_17_ = 1149122048 * ((Class82_Sub22) this).anInt6911 + 256;
 			} else {
 				Entity class365_sub1_sub1_sub2 = Class87.aClass94Array794[((Class82_Sub22) this).anInt6909 * -1629854861].method1015(1821624579);
-				Class217 class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
+				SceneObjectPosition class217 = class365_sub1_sub1_sub2.method4337().aClass217_2599;
 				i_16_ = (int) class217.aFloat2451;
 				i_17_ = (int) class217.aFloat2454;
 				if (i_15_ < 0)
 					i_15_ = class365_sub1_sub1_sub2.plane;
 			}
 			int i_18_ = ((Class82_Sub22) this).anInt6914 * 1745275777 << 2;
-			Class365_Sub1_Sub1_Sub1 class365_sub1_sub1_sub1 = (new Class365_Sub1_Sub1_Sub1(client.aClass283_8716.method2675(-1611682495), ((Class82_Sub22) this).anInt6908 * 1632084697, i_15_, i_15_, i_13_, i_14_, ((Class82_Sub22) this).anInt6916 * 266943569 << 2, client.anInt8884 * 443738891, (929559909 * ((Class82_Sub22) this).anInt6904 + client.anInt8884 * 443738891), -1300008271 * ((Class82_Sub22) this).anInt6915, i_18_, ((Class82_Sub22) this).anInt6905 * -153670819 + 1, 1 + -1629854861 * ((Class82_Sub22) this).anInt6909, ((Class82_Sub22) this).anInt6912 * 172590773 << 2, false, 0));
+			Class365_Sub1_Sub1_Sub1 class365_sub1_sub1_sub1 = (new Class365_Sub1_Sub1_Sub1(client.map.method2675(-1611682495), ((Class82_Sub22) this).anInt6908 * 1632084697, i_15_, i_15_, i_13_, i_14_, ((Class82_Sub22) this).anInt6916 * 266943569 << 2, client.anInt8884 * 443738891, (929559909 * ((Class82_Sub22) this).anInt6904 + client.anInt8884 * 443738891), -1300008271 * ((Class82_Sub22) this).anInt6915, i_18_, ((Class82_Sub22) this).anInt6905 * -153670819 + 1, 1 + -1629854861 * ((Class82_Sub22) this).anInt6909, ((Class82_Sub22) this).anInt6912 * 172590773 << 2, false, 0));
 			class365_sub1_sub1_sub1.method4405(i_16_, i_17_, 172590773 * ((Class82_Sub22) this).anInt6912 << 2, (client.anInt8884 * 443738891 + 929559909 * ((Class82_Sub22) this).anInt6904), 1057769456);
 			client.aClass453_8824.method5935(new Class298_Sub37_Sub2(class365_sub1_sub1_sub1), -428713736);
 		} catch (RuntimeException runtimeexception) {

@@ -691,7 +691,7 @@ public class Class_xa_Sub3 extends Class_xa {
 	}
 
 	public void method6335(int i, int i_156_, int[] is, int[] is_157_, int[] is_158_, int[] is_159_, int[] is_160_, int[] is_161_, int[] is_162_, int[] is_163_, Class78 class78, boolean bool) {
-		Interface_ma interface_ma = ((Class_xa_Sub3) this).aClass_ra_Sub2_8535.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class_xa_Sub3) this).aClass_ra_Sub2_8535.anInterface_ma5299;
 		if (is_159_ != null && ((Class_xa_Sub3) this).anIntArrayArrayArray8533 == null)
 			((Class_xa_Sub3) this).anIntArrayArrayArray8533 = new int[anInt6287 * -506105871][anInt6286 * -1148794921][];
 		if (is_157_ != null && ((Class_xa_Sub3) this).anIntArrayArrayArray8532 == null)
@@ -954,7 +954,7 @@ public class Class_xa_Sub3 extends Class_xa {
 	}
 
 	public void method6359(int i, int i_237_, int[] is, int[] is_238_, int[] is_239_, int[] is_240_, int[] is_241_, int[] is_242_, int[] is_243_, int[] is_244_, Class78 class78, boolean bool) {
-		Interface_ma interface_ma = ((Class_xa_Sub3) this).aClass_ra_Sub2_8535.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class_xa_Sub3) this).aClass_ra_Sub2_8535.anInterface_ma5299;
 		if (is_240_ != null && ((Class_xa_Sub3) this).anIntArrayArrayArray8533 == null)
 			((Class_xa_Sub3) this).anIntArrayArrayArray8533 = new int[anInt6287 * -506105871][anInt6286 * -1148794921][];
 		if (is_238_ != null && ((Class_xa_Sub3) this).anIntArrayArrayArray8532 == null)
@@ -996,7 +996,7 @@ public class Class_xa_Sub3 extends Class_xa {
 	}
 
 	public void method6346(int i, int i_248_, int[] is, int[] is_249_, int[] is_250_, int[] is_251_, int[] is_252_, int[] is_253_, int[] is_254_, int[] is_255_, Class78 class78, boolean bool) {
-		Interface_ma interface_ma = ((Class_xa_Sub3) this).aClass_ra_Sub2_8535.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class_xa_Sub3) this).aClass_ra_Sub2_8535.anInterface_ma5299;
 		if (is_251_ != null && ((Class_xa_Sub3) this).anIntArrayArrayArray8533 == null)
 			((Class_xa_Sub3) this).anIntArrayArrayArray8533 = new int[anInt6287 * -506105871][anInt6286 * -1148794921][];
 		if (is_249_ != null && ((Class_xa_Sub3) this).anIntArrayArrayArray8532 == null)
@@ -1366,7 +1366,7 @@ public class Class_xa_Sub3 extends Class_xa {
 	}
 
 	public void method6345(int i, int i_345_, int[] is, int[] is_346_, int[] is_347_, int[] is_348_, int[] is_349_, int[] is_350_, int[] is_351_, int[] is_352_, Class78 class78, boolean bool) {
-		Interface_ma interface_ma = ((Class_xa_Sub3) this).aClass_ra_Sub2_8535.anInterface_ma5299;
+		MaterialRawList interface_ma = ((Class_xa_Sub3) this).aClass_ra_Sub2_8535.anInterface_ma5299;
 		if (is_348_ != null && ((Class_xa_Sub3) this).anIntArrayArrayArray8533 == null)
 			((Class_xa_Sub3) this).anIntArrayArrayArray8533 = new int[anInt6287 * -506105871][anInt6286 * -1148794921][];
 		if (is_346_ != null && ((Class_xa_Sub3) this).anIntArrayArrayArray8532 == null)

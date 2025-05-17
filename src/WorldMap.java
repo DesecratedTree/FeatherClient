@@ -37,7 +37,7 @@ public class WorldMap {
 	public static int mapX;
 	static byte[] aByteArray3246;
 	static Object[] anObjectArray3247;
-	protected static CacheIndex worldMapIndex;
+	protected static Js5 worldMapIndex;
 	static ArrayList[][][] anArrayListArrayArrayArray3249;
 	static byte[] aByteArray3250;
 	protected static Class339 aClass339_3251;
@@ -213,7 +213,7 @@ public class WorldMap {
 		}
 	}
 
-	public static void method3690(CacheIndex worldmapIndex, Class375 class375, Class451 class451, Class433 class433, Class339 class339, Class487 class487, Interface23 interface23) {
+	public static void method3690(Js5 worldmapIndex, Class375 class375, Class451 class451, Class433 class433, Class339 class339, Class487 class487, Interface23 interface23) {
 		worldMapIndex = worldmapIndex;
 		aClass375_3253 = class375;
 		aClass451_3219 = class451;
@@ -259,7 +259,7 @@ public class WorldMap {
 		return class461;
 	}
 
-	static int method3694(Interface_ma interface_ma, int i, int i_60_, int i_61_) {
+	static int method3694(MaterialRawList interface_ma, int i, int i_60_, int i_61_) {
 		Class373 class373 = aClass375_3253.method4645(i, -165601895);
 		if (class373 == null)
 			return 0;
@@ -695,7 +695,7 @@ public class WorldMap {
 		anIntArray3237 = new int[aClass375_3253.anInt4081 * 138682397 + 1];
 	}
 
-	static void method3707(Interface_ma interface_ma, int i, int i_185_) {
+	static void method3707(MaterialRawList interface_ma, int i, int i_185_) {
 		for (int i_186_ = 0; i_186_ < aClass375_3253.anInt4081 * 138682397; i_186_++)
 			anIntArray3237[i_186_ + 1] = method3694(interface_ma, i_186_, i, i_185_);
 	}

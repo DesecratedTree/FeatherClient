@@ -66,7 +66,7 @@ public final class Class118 {
 
 	static final void method1291(ClientScript2 class403, byte i) {
 		try {
-			Class343_Sub1 class343_sub1 = Class385.method4716((byte) 21);
+			Class343_Sub1 class343_sub1 = AtmosphereType.method4716((byte) 21);
 			if (class343_sub1 != null) {
 				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = class343_sub1.anInt7717 * -15394297;
 				((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 += -391880689) * 681479919) - 1] = -877023375 * class343_sub1.anInt3670;

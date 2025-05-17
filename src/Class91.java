@@ -149,20 +149,20 @@ public class Class91 {
 			for (/**/; client.aFloat8949 < 0.0F; client.aFloat8949 += 16384.0F) {
 				/* empty */
 			}
-			Class244 class244 = client.aClass283_8716.method2654(1252790814);
-			Class331 class331 = client.aClass283_8716.method2675(-1611682495);
+			Class244 class244 = client.map.method2654(1252790814);
+			Class331 class331 = client.map.method2675(-1611682495);
 			int i_3_ = 1103750049 * Class75.anInt708 >> 9;
 			int i_4_ = 1346160791 * Class106.anInt1309 >> 9;
 			int i_5_ = Class356.method4271(Class75.anInt708 * 1103750049, Class106.anInt1309 * 1346160791, Class99.anInt952 * 1855729883, -737895541);
 			int i_6_ = 0;
-			if (i_3_ > 3 && i_4_ > 3 && i_3_ < client.aClass283_8716.method2629(-1981660153) - 4 && i_4_ < client.aClass283_8716.method2630(1904630701) - 4) {
+			if (i_3_ > 3 && i_4_ > 3 && i_3_ < client.map.method2629(-1981660153) - 4 && i_4_ < client.map.method2630(1904630701) - 4) {
 				for (int i_7_ = i_3_ - 4; i_7_ <= 4 + i_3_; i_7_++) {
 					for (int i_8_ = i_4_ - 4; i_8_ <= 4 + i_4_; i_8_++) {
 						int i_9_ = Class99.anInt952 * 1855729883;
 						if (i_9_ < 3 && class244.method2320(i_7_, i_8_, -316177210))
 							i_9_++;
 						int i_10_ = 0;
-						byte[][] is = client.aClass283_8716.method2637(i_9_, 300700071);
+						byte[][] is = client.map.method2637(i_9_, 300700071);
 						if (null != is)
 							i_10_ = (is[i_7_][i_8_] & 0xff) * 8 << 2;
 						if (null != class331.aClass_xaArray3517 && class331.aClass_xaArray3517[i_9_] != null) {

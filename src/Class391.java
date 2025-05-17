@@ -308,7 +308,7 @@ public class Class391 {
 
 	static Entity method4886(int i, int i_34_, int i_35_, byte i_36_) {
 		try {
-			Class326 class326 = (client.aClass283_8716.method2675(-1611682495).aClass326ArrayArrayArray3516[i][i_34_][i_35_]);
+			Class326 class326 = (client.map.method2675(-1611682495).aClass326ArrayArrayArray3516[i][i_34_][i_35_]);
 			if (class326 == null)
 				return null;
 			Entity class365_sub1_sub1_sub2 = null;
@@ -318,7 +318,7 @@ public class Class391 {
 				if (class365_sub1_sub1 instanceof Entity) {
 					Entity class365_sub1_sub1_sub2_38_ = (Entity) class365_sub1_sub1;
 					int i_39_ = ((class365_sub1_sub1_sub2_38_.getSize() - 1) * 256 + 252);
-					Class217 class217 = (class365_sub1_sub1_sub2_38_.method4337().aClass217_2599);
+					SceneObjectPosition class217 = (class365_sub1_sub1_sub2_38_.method4337().aClass217_2599);
 					int i_40_ = (int) class217.aFloat2451 - i_39_ >> 9;
 					int i_41_ = (int) class217.aFloat2454 - i_39_ >> 9;
 					int i_42_ = i_39_ + (int) class217.aFloat2451 >> 9;

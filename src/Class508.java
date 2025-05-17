@@ -4,10 +4,10 @@
 
 public class Class508 {
 	public int anInt6214;
-	CacheIndex aClass243_6215;
+	Js5 aClass243_6215;
 	public static Class162 aClass162_6216;
 
-	public Class508(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class508(Class411 class411, Class429 class429, Js5 class243) {
 		new CachingHashMap(64);
 		((Class508) this).aClass243_6215 = class243;
 		anInt6214 = (((Class508) this).aClass243_6215.method2316((-1006924897 * (Class120.aClass120_1420.anInt1460)), -2127064505) * 809853823);
@@ -44,7 +44,7 @@ public class Class508 {
 				boolean bool_4_ = false;
 				Class298_Sub29 class298_sub29 = ((Class298_Sub29) client.aClass437_8696.method5812((long) i_3_));
 				if (class298_sub29 == null) {
-					NPC class365_sub1_sub1_sub2_sub1 = (new NPC(client.aClass283_8716.method2675(-1611682495)));
+					NPC class365_sub1_sub1_sub2_sub1 = (new NPC(client.map.method2675(-1611682495)));
 					class365_sub1_sub1_sub2_sub1.anInt10064 = 1714292119 * i_3_;
 					class298_sub29 = new Class298_Sub29(class365_sub1_sub1_sub2_sub1);
 					client.aClass437_8696.method5817(class298_sub29, (long) i_3_);

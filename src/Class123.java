@@ -155,7 +155,7 @@ public abstract class Class123 {
 		}
 	}
 
-	public final void method1338(Class298_Sub31_Sub1 class298_sub31_sub1, Class217 class217, int i) {
+	public final void method1338(Class298_Sub31_Sub1 class298_sub31_sub1, SceneObjectPosition class217, int i) {
 		try {
 			((Class123) this).aClass110Array1469[-33664303 * anInt1475].method1162(class298_sub31_sub1, class217.aFloat2451, class217.aFloat2455, class217.aFloat2454);
 		} catch (RuntimeException runtimeexception) {
@@ -189,7 +189,7 @@ public abstract class Class123 {
 		}
 	}
 
-	public final void method1343(int i, Class217 class217, int i_13_) {
+	public final void method1343(int i, SceneObjectPosition class217, int i_13_) {
 		try {
 			((Class123) this).aClass110Array1469[anInt1475 * -33664303].method1168(i, class217.aFloat2451, class217.aFloat2455, class217.aFloat2454);
 		} catch (RuntimeException runtimeexception) {

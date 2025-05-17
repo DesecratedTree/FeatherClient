@@ -7,7 +7,7 @@ import java.awt.Toolkit;
 import java.awt.image.PixelGrabber;
 
 public class Class223 implements Interface24 {
-	CacheIndex aClass243_6664;
+	Js5 aClass243_6664;
 
 	public Class463 method261() {
 		return Class463.aClass463_5687;
@@ -37,7 +37,7 @@ public class Class223 implements Interface24 {
 		return ((Class223) this).aClass243_6664.method2293((byte) 4);
 	}
 
-	Class223(CacheIndex class243) {
+	Class223(Js5 class243) {
 		((Class223) this).aClass243_6664 = class243;
 	}
 
@@ -116,7 +116,7 @@ public class Class223 implements Interface24 {
 				Class504.aClass375_6196.method4648((byte) 90);
 				Class151.aClass451_6358.method5929(-176522889);
 				Class212.aClass144_2433.method1580((byte) -92);
-				client.aClass283_8716.method2641(1825433072).method5793(1390466939);
+				client.map.method2641(1825433072).method5793(1390466939);
 				Class15.aClass507_224.method6272(-862794511);
 				Class298_Sub32_Sub14.aClass477_9400.method6088((short) 23106);
 				Class501.aClass395_6122.method4901(-726986844);
@@ -145,7 +145,7 @@ public class Class223 implements Interface24 {
 						Class98.aByteArrayArray949[i_5_] = null;
 					client.anInt8677 = 0;
 				}
-				client.aClass283_8716.method2640((byte) 31).method4317((byte) 24);
+				client.map.method2640((byte) 31).method4317((byte) 24);
 				Class401.method4934((byte) -90);
 				Class482.method6119(-1075754274);
 				Class330.method4005(-1407310804);

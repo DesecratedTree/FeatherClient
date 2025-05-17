@@ -68,8 +68,8 @@ public class Class26 {
 						c_7_ = charsequence_0_.charAt(i_4_++);
 					c = Class251.method2403(c_6_, (byte) 59);
 					c_5_ = Class251.method2403(c_7_, (byte) 39);
-					c_6_ = Class66.method767(c_6_, class429, (byte) 93);
-					c_7_ = Class66.method767(c_7_, class429, (byte) 61);
+					c_6_ = EnvironmentMap.method767(c_6_, class429, (byte) 93);
+					c_7_ = EnvironmentMap.method767(c_7_, class429, (byte) 61);
 					if (c_7_ != c_6_ && (Character.toUpperCase(c_6_) != Character.toUpperCase(c_7_))) {
 						c_6_ = Character.toLowerCase(c_6_);
 						c_7_ = Character.toLowerCase(c_7_);

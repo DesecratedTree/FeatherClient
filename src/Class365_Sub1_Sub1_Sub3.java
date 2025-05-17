@@ -86,7 +86,7 @@ public class Class365_Sub1_Sub1_Sub3 extends Class365_Sub1_Sub1 {
 			Class398 class398 = Class158_Sub1.aClass389_8568.method4857(i_13_, -1949428738);
 			Class_xa class_xa = aClass331_7722.aClass_xaArray3519[plane];
 			Class_xa class_xa_15_ = (aByte7724 < 3 ? aClass331_7722.aClass_xaArray3519[1 + aByte7724] : null);
-			Class217 class217 = method4337().aClass217_2599;
+			SceneObjectPosition class217 = method4337().aClass217_2599;
 			return ((((Class365_Sub1_Sub1_Sub3) this).aClass438_10136 != null && !((Class365_Sub1_Sub1_Sub3) this).aClass438_10136.method5832(1032843646)) ? class398.method4918(class_ra, i, true, class_xa, class_xa_15_, (int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, (((Class365_Sub1_Sub1_Sub3) this).aClass438_10136), (byte) 2, 345220259) : class398.method4918(class_ra, i, true, class_xa, class_xa_15_, (int) class217.aFloat2451, (int) class217.aFloat2455, (int) class217.aFloat2454, null, (byte) 2, -2126228993));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("akr.p(").append(')').toString());

@@ -91,9 +91,9 @@ public class Class516 {
 
 	static final void method6300(int i, int i_1_, int i_2_, int i_3_, Class435 class435, byte i_4_) {
 		try {
-			if (i_2_ >= 1 && i_3_ >= 1 && i_2_ <= client.aClass283_8716.method2629(-1894377459) - 2 && i_3_ <= client.aClass283_8716.method2630(793681614) - 2) {
-				if (client.aClass283_8716.method2675(-1611682495) != null) {
-					Interface3 interface3 = client.aClass283_8716.method2644(112641684).method2241(i, i_1_, i_2_, i_3_, 2002986961);
+			if (i_2_ >= 1 && i_3_ >= 1 && i_2_ <= client.map.method2629(-1894377459) - 2 && i_3_ <= client.map.method2630(793681614) - 2) {
+				if (client.map.method2675(-1611682495) != null) {
+					Interface3 interface3 = client.map.method2644(112641684).method2241(i, i_1_, i_2_, i_3_, 2002986961);
 					if (interface3 != null) {
 						if (interface3 instanceof Class365_Sub1_Sub1_Sub5)
 							((Class365_Sub1_Sub1_Sub5) interface3).method4486(class435, -1857916290);
@@ -125,7 +125,7 @@ public class Class516 {
 	static final void method6302(ClientScript2 class403, int i) {
 		try {
 			Class69.method788(true, -1114331607);
-			client.aClass283_8716.method2667(1924605464);
+			client.map.method2667(1924605464);
 			Class3.method300(656179282);
 			client.aBoolean8666 = false;
 		} catch (RuntimeException runtimeexception) {

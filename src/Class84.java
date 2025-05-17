@@ -62,7 +62,7 @@ public class Class84 {
 			int i_12_ = (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]);
 			IComponentDefinition class105 = Class50.getIComponentDefinitions(i_12_, (byte) 26);
 			Class119 class119 = Class389.aClass119Array4165[i_12_ >> 16];
-			Class283.method2677(class105, class119, class403, (byte) -11);
+			GameMap.method2677(class105, class119, class403, (byte) -11);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("dk.mw(").append(')').toString());
 		}

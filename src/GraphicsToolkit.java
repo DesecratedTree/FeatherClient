@@ -14,7 +14,7 @@ public abstract class GraphicsToolkit {
 	public static int anInt5296 = 1;
 	static boolean[] aBooleanArray5297 = new boolean[8];
 	public int anInt5298;
-	public Interface_ma anInterface_ma5299;
+	public MaterialRawList anInterface_ma5299;
 	public static int anInt5300 = 0;
 	protected static int anInt5301 = 2;
 	public static int anInt5302 = 2;
@@ -32,7 +32,7 @@ public abstract class GraphicsToolkit {
 	static int anInt5314 = 8;
 	public static Class256 aClass256_5315;
 
-	public abstract Class66 method4986(Class66 class66, Class66 class66_0_, float f, Class66 class66_1_);
+	public abstract EnvironmentMap method4986(EnvironmentMap class66, EnvironmentMap class66_0_, float f, EnvironmentMap class66_1_);
 
 	public abstract Class58 method4987();
 
@@ -243,7 +243,7 @@ public abstract class GraphicsToolkit {
 
 	public abstract void method5027(Class_v class_v);
 
-	public abstract Class66 method5028(int i, int i_113_, int i_114_, int i_115_, int i_116_, int i_117_);
+	public abstract EnvironmentMap method5028(int i, int i_113_, int i_114_, int i_115_, int i_116_, int i_117_);
 
 	public abstract Class57 method5029(int i, int i_118_, boolean bool, boolean bool_119_);
 
@@ -409,7 +409,7 @@ public abstract class GraphicsToolkit {
 
 	public abstract int[] eg(int i, int i_188_, int i_189_, int i_190_);
 
-	public abstract Class66 method5084(int i, int i_191_, int i_192_, int i_193_, int i_194_, int i_195_);
+	public abstract EnvironmentMap method5084(int i, int i_191_, int i_192_, int i_193_, int i_194_, int i_195_);
 
 	public abstract void method5085(boolean bool);
 
@@ -471,7 +471,7 @@ public abstract class GraphicsToolkit {
 
 	public abstract void fl(int i, int i_270_, int i_271_, int i_272_, int i_273_);
 
-	public abstract void method5095(Class66 class66);
+	public abstract void method5095(EnvironmentMap class66);
 
 	public abstract void ed(int i, int i_274_, int i_275_, int i_276_);
 
@@ -596,11 +596,11 @@ public abstract class GraphicsToolkit {
 
 	public abstract void method5139(int i, int i_373_, float f, int i_374_, int i_375_, float f_376_, int i_377_, int i_378_, float f_379_, int i_380_, int i_381_, int i_382_, int i_383_);
 
-	public abstract Class66 method5140(int i, int i_384_, int i_385_, int i_386_, int i_387_, int i_388_);
+	public abstract EnvironmentMap method5140(int i, int i_384_, int i_385_, int i_386_, int i_387_, int i_388_);
 
 	abstract void method5141();
 
-	public abstract Class66 method5142(Class66 class66, Class66 class66_389_, float f, Class66 class66_390_);
+	public abstract EnvironmentMap method5142(EnvironmentMap class66, EnvironmentMap class66_389_, float f, EnvironmentMap class66_390_);
 
 	public final void method5143(Class52_Sub1 class52_sub1, byte i) {
 		try {
@@ -733,9 +733,9 @@ public abstract class GraphicsToolkit {
 
 	public abstract Class222 method5178();
 
-	public abstract Class66 method5179(Class66 class66, Class66 class66_447_, float f, Class66 class66_448_);
+	public abstract EnvironmentMap method5179(EnvironmentMap class66, EnvironmentMap class66_447_, float f, EnvironmentMap class66_448_);
 
-	GraphicsToolkit(Interface_ma interface_ma) {
+	GraphicsToolkit(MaterialRawList interface_ma) {
 		((GraphicsToolkit) this).aClass52_Sub1Array5304 = new Class52_Sub1[4];
 		anInterface_ma5299 = interface_ma;
 		int i = -1;
@@ -755,7 +755,7 @@ public abstract class GraphicsToolkit {
 
 	public abstract int[] aq(int i, int i_450_, int i_451_, int i_452_);
 
-	public abstract Class66 method5181(int i, int i_453_, int i_454_, int i_455_, int i_456_, int i_457_);
+	public abstract EnvironmentMap method5181(int i, int i_453_, int i_454_, int i_455_, int i_456_, int i_457_);
 
 	public abstract void hj(int i, int i_458_, int i_459_);
 
@@ -765,7 +765,7 @@ public abstract class GraphicsToolkit {
 
 	public abstract void method5184(boolean bool);
 
-	public abstract Class66 method5185(int i, int i_460_, int i_461_, int i_462_, int i_463_, int i_464_);
+	public abstract EnvironmentMap method5185(int i, int i_460_, int i_461_, int i_462_, int i_463_, int i_464_);
 
 	protected void finalize() {
 		try {
@@ -781,7 +781,7 @@ public abstract class GraphicsToolkit {
 
 	abstract void method5188(float f, float f_469_, float f_470_, float f_471_, float f_472_, float f_473_);
 
-	public abstract void method5189(Class66 class66);
+	public abstract void method5189(EnvironmentMap class66);
 
 	public abstract void fi(int i, int i_474_, int i_475_, int i_476_, int i_477_, int i_478_, byte[] is, int i_479_, int i_480_);
 
@@ -866,7 +866,7 @@ public abstract class GraphicsToolkit {
 				if ((-2093041337 * class105.anInt1156 != class117.anInt1393 * 1633695381) || (-60174999 * class117.anInt1394 != 457937409 * class105.anInt1162))
 					throw new IllegalStateException("");
 				if (2 != -64305285 * Class3.anInt56 && 5 != Class3.anInt56 * -64305285 && null != Class384.aClass57_4127) {
-					Class341 class341 = client.aClass283_8716.method2628(681479919);
+					Class341 class341 = client.map.method2628(681479919);
 					int i_498_;
 					int i_499_;
 					int i_500_;
@@ -877,16 +877,16 @@ public abstract class GraphicsToolkit {
 						i_500_ = (int) -client.aFloat8949 & 0x3fff;
 						i_501_ = 4096;
 					} else {
-						Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
+						SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
 						i_498_ = (int) class217.aFloat2451;
 						i_499_ = (int) class217.aFloat2454;
 						i_500_ = (client.anInt8801 * 1227356013 + (int) -client.aFloat8949) & 0x3fff;
 						i_501_ = 4096 - 1412674352 * client.anInt8749;
 					}
 					int i_502_ = i_498_ / 128 + 48;
-					int i_503_ = (48 + client.aClass283_8716.method2630(789210081) * 4 - i_499_ / 128);
+					int i_503_ = (48 + client.map.method2630(789210081) * 4 - i_499_ / 128);
 					Class384.aClass57_4127.method659(((float) i + (float) (class105.anInt1156 * -2093041337) / 2.0F), ((float) i_496_ + (float) (457937409 * class105.anInt1162) / 2.0F), (float) i_502_, (float) i_503_, i_501_, i_500_ << 2, class_ta, i, i_496_);
-					Class296 class296 = client.aClass283_8716.method2631(-337725639);
+					Class296 class296 = client.map.method2631(-337725639);
 					for (Class298_Sub35 class298_sub35 = ((Class298_Sub35) Class3.aClass453_61.method5939(1766612795)); class298_sub35 != null; class298_sub35 = ((Class298_Sub35) Class3.aClass453_61.method5944(49146))) {
 						int i_504_ = class298_sub35.anInt7394 * -774922497;
 						int i_505_ = ((class296.anIntArray3168[i_504_] >> 14 & 0x3fff) - -1760580017 * class341.gameSceneBaseX);
@@ -898,7 +898,7 @@ public abstract class GraphicsToolkit {
 					for (int i_509_ = 0; i_509_ < 1659101557 * Class3.anInt67; i_509_++) {
 						int i_510_ = (2 + Class3.anIntArray58[i_509_] * 4 - i_498_ / 128);
 						int i_511_ = (2 + 4 * Class3.anIntArray59[i_509_] - i_499_ / 128);
-						ObjectDefinitions class432 = (client.aClass283_8716.method2641(2011176396).getObjectDefinitions(Class3.anIntArray60[i_509_]));
+						ObjectDefinitions class432 = (client.map.method2641(2011176396).getObjectDefinitions(Class3.anIntArray60[i_509_]));
 						if (null != class432.anIntArray5366) {
 							class432 = class432.method5777(Class128.aClass148_6331, 1042930561);
 							if (null == class432)

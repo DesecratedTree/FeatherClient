@@ -6,10 +6,10 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class Class518 {
-	CacheIndex aClass243_6271;
+	Js5 aClass243_6271;
 	CachingHashMap aClass348_6272 = new CachingHashMap(64);
 
-	public Class518(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class518(Class411 class411, Class429 class429, Js5 class243) {
 		((Class518) this).aClass243_6271 = class243;
 		((Class518) this).aClass243_6271.method2316((-1006924897 * (Class120.aClass120_1427.anInt1460)), 689615038);
 	}

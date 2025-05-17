@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public abstract class Class66_Sub2 extends Class66 {
+public abstract class Class66_Sub2 extends EnvironmentMap {
 	abstract Interface9_Impl1 method773();
 
 	Class66_Sub2() {

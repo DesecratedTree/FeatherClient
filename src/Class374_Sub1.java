@@ -3,7 +3,7 @@
  */
 
 public class Class374_Sub1 extends Class374 {
-	public static CacheIndex aClass243_7731;
+	public static Js5 aClass243_7731;
 
 	boolean method4634() {
 		return (method4639((short) 10438) != null || (((Class374_Sub1) this).aLong4075 * 8383148474145196457L < Class122.method1319((byte) 1) - 2000L));

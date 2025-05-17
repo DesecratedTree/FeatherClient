@@ -71,14 +71,14 @@ public class Class231 {
 
 	static final void method2132(byte i, int i_0_) {
 		try {
-			byte[][][] is = client.aClass283_8716.method2642(1521051054);
+			byte[][][] is = client.map.method2642(1521051054);
 			if (is == null) {
-				is = (new byte[4][client.aClass283_8716.method2629(-1981468107)][client.aClass283_8716.method2630(1256544033)]);
-				client.aClass283_8716.method2643(is, 1496940593);
+				is = (new byte[4][client.map.method2629(-1981468107)][client.map.method2630(1256544033)]);
+				client.map.method2643(is, 1496940593);
 			}
 			for (int i_1_ = 0; i_1_ < 4; i_1_++) {
-				for (int i_2_ = 0; i_2_ < client.aClass283_8716.method2629(-2064419081); i_2_++) {
-					for (int i_3_ = 0; i_3_ < client.aClass283_8716.method2630(764955570); i_3_++)
+				for (int i_2_ = 0; i_2_ < client.map.method2629(-2064419081); i_2_++) {
+					for (int i_3_ = 0; i_3_ < client.map.method2630(764955570); i_3_++)
 						is[i_1_][i_2_][i_3_] = i;
 				}
 			}

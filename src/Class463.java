@@ -7,7 +7,7 @@ public class Class463 {
 	public static Class463 aClass463_5685;
 	public static Class463 aClass463_5686;
 	public static Class463 aClass463_5687 = new Class463();
-	public static CacheIndex aClass243_5688;
+	public static Js5 aClass243_5688;
 	public static Class433 aClass433_5689;
 
 	static final void method6008(ClientScript2 class403, byte i) {

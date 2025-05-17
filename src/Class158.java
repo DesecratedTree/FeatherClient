@@ -10,7 +10,7 @@ public class Class158 implements Interface5 {
 	public int anInt6361;
 	public int anInt6362;
 	public Class133 aClass133_6363;
-	public static CacheIndex aClass243_6364;
+	public static Js5 aClass243_6364;
 
 	public Class146 method49(int i) {
 		try {

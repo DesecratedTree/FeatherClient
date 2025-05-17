@@ -117,9 +117,9 @@ public abstract class Class309 {
 				else
 					bool = false;
 			}
-			if (null == Class385.aClass89_4142) {
+			if (null == AtmosphereType.aClass89_4142) {
 				if (Class158.aClass243_6364.method2310((1475733439 * Class318.anInt3323), -457216440))
-					Class385.aClass89_4142 = Class89.method979(Class158.aClass243_6364, Class318.anInt3323 * 1475733439);
+					AtmosphereType.aClass89_4142 = Class89.method979(Class158.aClass243_6364, Class318.anInt3323 * 1475733439);
 				else
 					bool = false;
 			}

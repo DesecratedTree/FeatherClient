@@ -4,8 +4,8 @@
 
 public class Class272 {
 	Class440 aClass440_2899 = new Class440(256);
-	CacheIndex aClass243_2900;
-	CacheIndex aClass243_2901;
+	Js5 aClass243_2900;
+	Js5 aClass243_2901;
 	Class440 aClass440_2902 = new Class440(256);
 	static int anInt2903;
 
@@ -84,7 +84,7 @@ public class Class272 {
 		}
 	}
 
-	public Class272(CacheIndex class243, CacheIndex class243_8_) {
+	public Class272(Js5 class243, Js5 class243_8_) {
 		((Class272) this).aClass243_2901 = class243;
 		((Class272) this).aClass243_2900 = class243_8_;
 	}
@@ -118,17 +118,17 @@ public class Class272 {
 			if (i_10_ == -1) {
 				int i_11_ = i_10_ >> 14 & 0x3fff;
 				int i_12_ = i_10_ & 0x3fff;
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				i_11_ -= class341.gameSceneBaseX * -1760580017;
 				if (i_11_ < 0)
 					i_11_ = 0;
-				else if (i_11_ >= client.aClass283_8716.method2629(-1866822819))
-					i_11_ = client.aClass283_8716.method2629(-1973847066);
+				else if (i_11_ >= client.map.method2629(-1866822819))
+					i_11_ = client.map.method2629(-1973847066);
 				i_12_ -= 283514611 * class341.gameSceneBaseY;
 				if (i_12_ < 0)
 					i_12_ = 0;
-				else if (i_12_ >= client.aClass283_8716.method2630(922370140))
-					i_12_ = client.aClass283_8716.method2630(271939870);
+				else if (i_12_ >= client.map.method2630(922370140))
+					i_12_ = client.map.method2630(271939870);
 				Class100.anInt1081 = ((i_11_ << 9) + 256) * -178575833;
 				Class418.anInt5339 = 1001372047 * ((i_12_ << 9) + 256);
 			} else {
@@ -143,7 +143,7 @@ public class Class272 {
 	static final void method2556(ClientScript2 class403, int i) {
 		try {
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub2_7547, (((ClientScript2) class403).anIntArray5244[((((ClientScript2) class403).anInt5239 -= -391880689) * 681479919)]) == 1 ? 1 : 0, 1031457025);
-			client.aClass283_8716.method2667(2089019629);
+			client.map.method2667(2089019629);
 			Class3.method300(656179282);
 			client.aBoolean8666 = false;
 		} catch (RuntimeException runtimeexception) {

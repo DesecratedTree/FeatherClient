@@ -70,7 +70,7 @@ public class Class112 {
 		}
 	}
 
-	public static void method1243(CacheIndex class243, byte i) {
+	public static void method1243(Js5 class243, byte i) {
 		try {
 			Class182.aClass243_1821 = class243;
 		} catch (RuntimeException runtimeexception) {

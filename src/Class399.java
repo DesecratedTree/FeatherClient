@@ -4,8 +4,8 @@
 
 public class Class399 {
 	static Class354 aClass354_5218 = new Class354(128);
-	public static CacheIndex aClass243_5219;
-	public static CacheIndex aClass243_5220;
+	public static Js5 aClass243_5219;
+	public static Js5 aClass243_5220;
 
 	Class399() throws Throwable {
 		throw new Error();

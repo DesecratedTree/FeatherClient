@@ -236,7 +236,7 @@ public final class CachingHashMap {
 		try {
 			int i_7_ = (class403.anIntArray5244[((class403.anInt5239 -= -391880689) * 681479919)]);
 			Class422_Sub25.aClass298_Sub48_8425.method3540(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub1_7552, i_7_, 1144244334);
-			client.aClass283_8716.method2667(458039847);
+			client.map.method2667(458039847);
 			Class3.method300(656179282);
 			client.aBoolean8666 = false;
 		} catch (RuntimeException runtimeexception) {

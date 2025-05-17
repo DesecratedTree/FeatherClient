@@ -4,7 +4,6 @@
 import java.awt.Canvas;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.EmptyStackException;
 
 public class ja extends GraphicsToolkit implements Interface25 {
 	Class453 aClass453_6680;
@@ -45,7 +44,7 @@ public class ja extends GraphicsToolkit implements Interface25 {
 
 	native void Q(int i, int[] is, float[] fs);
 
-	native void q(Interface_ma interface_ma, int i, int i_0_);
+	native void q(MaterialRawList interface_ma, int i, int i_0_);
 
 	native void oo(float[] fs);
 
@@ -247,7 +246,7 @@ public class ja extends GraphicsToolkit implements Interface25 {
 
 	native void d(long l, long l_64_);
 
-	public Class66 method5142(Class66 class66, Class66 class66_65_, float f, Class66 class66_66_) {
+	public EnvironmentMap method5142(EnvironmentMap class66, EnvironmentMap class66_65_, float f, EnvironmentMap class66_66_) {
 		return null;
 	}
 
@@ -293,7 +292,7 @@ public class ja extends GraphicsToolkit implements Interface25 {
 
 	public native void ba(int i, int i_80_);
 
-	public void method5189(Class66 class66) {
+	public void method5189(EnvironmentMap class66) {
 		/* empty */
 	}
 
@@ -555,17 +554,17 @@ public class ja extends GraphicsToolkit implements Interface25 {
 		Q(i, anIntArray6705, aFloatArray6706);
 	}
 
-	native void mt(Interface_ma interface_ma, int i, int i_212_);
+	native void mt(MaterialRawList interface_ma, int i, int i_212_);
 
-	public Class66 method5028(int i, int i_213_, int i_214_, int i_215_, int i_216_, int i_217_) {
+	public EnvironmentMap method5028(int i, int i_213_, int i_214_, int i_215_, int i_216_, int i_217_) {
 		return null;
 	}
 
-	public Class66 method5179(Class66 class66, Class66 class66_218_, float f, Class66 class66_219_) {
+	public EnvironmentMap method5179(EnvironmentMap class66, EnvironmentMap class66_218_, float f, EnvironmentMap class66_219_) {
 		return null;
 	}
 
-	public void method5095(Class66 class66) {
+	public void method5095(EnvironmentMap class66) {
 		/* empty */
 	}
 
@@ -699,7 +698,7 @@ public class ja extends GraphicsToolkit implements Interface25 {
 
 	public native int dm();
 
-	public ja(Canvas canvas, Interface_ma interface_ma, int i, int i_238_) {
+	public ja(Canvas canvas, MaterialRawList interface_ma, int i, int i_238_) {
 		super(interface_ma);
 		((ja) this).aClass453_6680 = new Class453();
 		((ja) this).anInt6709 = 4096;
@@ -713,7 +712,7 @@ public class ja extends GraphicsToolkit implements Interface25 {
 			Class374_Sub1.method4640(false, true, -162450455);
 			((ja) this).aBoolean6713 = true;
 			((ja) this).aClass233_6686 = new Class233();
-			new Class217();
+			new SceneObjectPosition();
 			((ja) this).aClass222_6696 = new Class222();
 			new Class218();
 			((ja) this).aClass233_6689 = new Class233();
@@ -1180,23 +1179,23 @@ public class ja extends GraphicsToolkit implements Interface25 {
 		/* empty */
 	}
 
-	public Class66 method5185(int i, int i_459_, int i_460_, int i_461_, int i_462_, int i_463_) {
+	public EnvironmentMap method5185(int i, int i_459_, int i_460_, int i_461_, int i_462_, int i_463_) {
 		return null;
 	}
 
-	public Class66 method5140(int i, int i_464_, int i_465_, int i_466_, int i_467_, int i_468_) {
+	public EnvironmentMap method5140(int i, int i_464_, int i_465_, int i_466_, int i_467_, int i_468_) {
 		return null;
 	}
 
-	public Class66 method5181(int i, int i_469_, int i_470_, int i_471_, int i_472_, int i_473_) {
+	public EnvironmentMap method5181(int i, int i_469_, int i_470_, int i_471_, int i_472_, int i_473_) {
 		return null;
 	}
 
-	public Class66 method5084(int i, int i_474_, int i_475_, int i_476_, int i_477_, int i_478_) {
+	public EnvironmentMap method5084(int i, int i_474_, int i_475_, int i_476_, int i_477_, int i_478_) {
 		return null;
 	}
 
-	public Class66 method4986(Class66 class66, Class66 class66_479_, float f, Class66 class66_480_) {
+	public EnvironmentMap method4986(EnvironmentMap class66, EnvironmentMap class66_479_, float f, EnvironmentMap class66_480_) {
 		return null;
 	}
 
@@ -1475,9 +1474,9 @@ public class ja extends GraphicsToolkit implements Interface25 {
 
 	public native void go(int i, Class_ta class_ta, int i_592_, int i_593_);
 
-	native void ms(Interface_ma interface_ma, int i, int i_594_);
+	native void ms(MaterialRawList interface_ma, int i, int i_594_);
 
-	native void mx(Interface_ma interface_ma, int i, int i_595_);
+	native void mx(MaterialRawList interface_ma, int i, int i_595_);
 
 	public void method5085(boolean bool) {
 		/* empty */

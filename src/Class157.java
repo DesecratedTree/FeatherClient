@@ -3,11 +3,11 @@
  */
 
 public class Class157 {
-	Interface_ma anInterface_ma1614;
+	MaterialRawList anInterface_ma1614;
 	Class_ra_Sub3 aClass_ra_Sub3_1615;
 	CachingHashMap aClass348_1616 = new CachingHashMap(256);
 
-	Class157(Class_ra_Sub3 class_ra_sub3, Interface_ma interface_ma) {
+	Class157(Class_ra_Sub3 class_ra_sub3, MaterialRawList interface_ma) {
 		((Class157) this).aClass_ra_Sub3_1615 = class_ra_sub3;
 		((Class157) this).anInterface_ma1614 = interface_ma;
 	}

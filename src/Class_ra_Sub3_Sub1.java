@@ -62,7 +62,7 @@ public final class Class_ra_Sub3_Sub1 extends Class_ra_Sub3 {
 		return ((Class_ra_Sub3_Sub1) this).aBoolean9840;
 	}
 
-	Class_ra_Sub3_Sub1(OpenGL opengl, Canvas canvas, long l, Interface_ma interface_ma, CacheIndex class243, int i) {
+	Class_ra_Sub3_Sub1(OpenGL opengl, Canvas canvas, long l, MaterialRawList interface_ma, Js5 class243, int i) {
 		super(interface_ma, class243, i, 1);
 		((Class_ra_Sub3_Sub1) this).aClass458_9815 = new Class458();
 		((Class_ra_Sub3_Sub1) this).anIntArray9824 = new int[1000];
@@ -299,7 +299,7 @@ public final class Class_ra_Sub3_Sub1 extends Class_ra_Sub3 {
 		OpenGL.glLoadMatrixf(class233_24_.aFloatArray2594, 0);
 	}
 
-	public Class66 method5142(Class66 class66, Class66 class66_25_, float f, Class66 class66_26_) {
+	public EnvironmentMap method5142(EnvironmentMap class66, EnvironmentMap class66_25_, float f, EnvironmentMap class66_26_) {
 		return f < 0.5F ? class66 : class66_25_;
 	}
 
@@ -542,7 +542,7 @@ public final class Class_ra_Sub3_Sub1 extends Class_ra_Sub3 {
 			OpenGL.glDisable(2912);
 	}
 
-	public Class66 method5179(Class66 class66, Class66 class66_44_, float f, Class66 class66_45_) {
+	public EnvironmentMap method5179(EnvironmentMap class66, EnvironmentMap class66_44_, float f, EnvironmentMap class66_45_) {
 		return f < 0.5F ? class66 : class66_44_;
 	}
 
@@ -609,7 +609,7 @@ public final class Class_ra_Sub3_Sub1 extends Class_ra_Sub3 {
 		OpenGL.glTexEnvi(8960, 34161, method5526(aClass175Array8294[anInt8325]));
 	}
 
-	public Class66 method4986(Class66 class66, Class66 class66_51_, float f, Class66 class66_52_) {
+	public EnvironmentMap method4986(EnvironmentMap class66, EnvironmentMap class66_51_, float f, EnvironmentMap class66_52_) {
 		return f < 0.5F ? class66 : class66_51_;
 	}
 

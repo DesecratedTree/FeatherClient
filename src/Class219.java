@@ -156,7 +156,7 @@ public class Class219 implements Runnable {
 								if (null != Class373.aClass_ra4071 && !(((Class219) this).anInterface12_2466 instanceof Class224))
 									Class373.aClass_ra4071.method4988((byte) 101);
 							} catch (Exception_Sub1 exception_sub1) {
-								IPAddress.method6062(new StringBuilder().append(exception_sub1.getMessage()).append(Class385.aClient4141.method2761((byte) 1)).toString(), exception_sub1, (short) 3171);
+								IPAddress.method6062(new StringBuilder().append(exception_sub1.getMessage()).append(AtmosphereType.aClient4141.method2761((byte) 1)).toString(), exception_sub1, (short) 3171);
 								Class370.method4578(0, true, 622850291);
 							}
 						}

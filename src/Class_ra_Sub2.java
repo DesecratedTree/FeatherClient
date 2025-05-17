@@ -1020,7 +1020,7 @@ public class Class_ra_Sub2 extends GraphicsToolkit {
 		method5232();
 	}
 
-	public final void method5095(Class66 class66) {
+	public final void method5095(EnvironmentMap class66) {
 		((Class_ra_Sub2) this).aClass66_Sub1_8159 = (Class66_Sub1) class66;
 	}
 
@@ -1387,11 +1387,11 @@ public class Class_ra_Sub2 extends GraphicsToolkit {
 			method5258(34023, 34023);
 	}
 
-	public Class66 method5028(int i, int i_209_, int i_210_, int i_211_, int i_212_, int i_213_) {
+	public EnvironmentMap method5028(int i, int i_209_, int i_210_, int i_211_, int i_212_, int i_213_) {
 		return (((Class_ra_Sub2) this).aBoolean8178 ? new Class66_Sub1_Sub1(this, i, i_209_, i_210_, i_211_, i_212_, i_213_) : null);
 	}
 
-	public Class66 method5179(Class66 class66, Class66 class66_214_, float f, Class66 class66_215_) {
+	public EnvironmentMap method5179(EnvironmentMap class66, EnvironmentMap class66_214_, float f, EnvironmentMap class66_215_) {
 		if (class66 != null && class66_214_ != null && ((Class_ra_Sub2) this).aBoolean8178 && ((Class_ra_Sub2) this).aBoolean8170) {
 			Class66_Sub1_Sub2 class66_sub1_sub2 = null;
 			Class66_Sub1 class66_sub1 = (Class66_Sub1) class66;
@@ -1475,7 +1475,7 @@ public class Class_ra_Sub2 extends GraphicsToolkit {
 		return new Class52_Sub1_Sub2(this);
 	}
 
-	public final void method5189(Class66 class66) {
+	public final void method5189(EnvironmentMap class66) {
 		((Class_ra_Sub2) this).aClass66_Sub1_8159 = (Class66_Sub1) class66;
 	}
 
@@ -2321,7 +2321,7 @@ public class Class_ra_Sub2 extends GraphicsToolkit {
 		method5232();
 	}
 
-	Class_ra_Sub2(Canvas canvas, Interface_ma interface_ma, int i) {
+	Class_ra_Sub2(Canvas canvas, MaterialRawList interface_ma, int i) {
 		super(interface_ma);
 		((Class_ra_Sub2) this).aClass34_8057 = new Class34();
 		((Class_ra_Sub2) this).aClass233_8058 = new Class233();
@@ -3521,19 +3521,19 @@ public class Class_ra_Sub2 extends GraphicsToolkit {
 		method5276();
 	}
 
-	public Class66 method5140(int i, int i_586_, int i_587_, int i_588_, int i_589_, int i_590_) {
+	public EnvironmentMap method5140(int i, int i_586_, int i_587_, int i_588_, int i_589_, int i_590_) {
 		return (((Class_ra_Sub2) this).aBoolean8178 ? new Class66_Sub1_Sub1(this, i, i_586_, i_587_, i_588_, i_589_, i_590_) : null);
 	}
 
-	public Class66 method5181(int i, int i_591_, int i_592_, int i_593_, int i_594_, int i_595_) {
+	public EnvironmentMap method5181(int i, int i_591_, int i_592_, int i_593_, int i_594_, int i_595_) {
 		return (((Class_ra_Sub2) this).aBoolean8178 ? new Class66_Sub1_Sub1(this, i, i_591_, i_592_, i_593_, i_594_, i_595_) : null);
 	}
 
-	public Class66 method5084(int i, int i_596_, int i_597_, int i_598_, int i_599_, int i_600_) {
+	public EnvironmentMap method5084(int i, int i_596_, int i_597_, int i_598_, int i_599_, int i_600_) {
 		return (((Class_ra_Sub2) this).aBoolean8178 ? new Class66_Sub1_Sub1(this, i, i_596_, i_597_, i_598_, i_599_, i_600_) : null);
 	}
 
-	public Class66 method4986(Class66 class66, Class66 class66_601_, float f, Class66 class66_602_) {
+	public EnvironmentMap method4986(EnvironmentMap class66, EnvironmentMap class66_601_, float f, EnvironmentMap class66_602_) {
 		if (class66 != null && class66_601_ != null && ((Class_ra_Sub2) this).aBoolean8178 && ((Class_ra_Sub2) this).aBoolean8170) {
 			Class66_Sub1_Sub2 class66_sub1_sub2 = null;
 			Class66_Sub1 class66_sub1 = (Class66_Sub1) class66;
@@ -3556,7 +3556,7 @@ public class Class_ra_Sub2 extends GraphicsToolkit {
 		return f < 0.5F ? class66 : class66_601_;
 	}
 
-	public Class66 method5142(Class66 class66, Class66 class66_606_, float f, Class66 class66_607_) {
+	public EnvironmentMap method5142(EnvironmentMap class66, EnvironmentMap class66_606_, float f, EnvironmentMap class66_607_) {
 		if (class66 != null && class66_606_ != null && ((Class_ra_Sub2) this).aBoolean8178 && ((Class_ra_Sub2) this).aBoolean8170) {
 			Class66_Sub1_Sub2 class66_sub1_sub2 = null;
 			Class66_Sub1 class66_sub1 = (Class66_Sub1) class66;
@@ -3579,7 +3579,7 @@ public class Class_ra_Sub2 extends GraphicsToolkit {
 		return f < 0.5F ? class66 : class66_606_;
 	}
 
-	public Class66 method5185(int i, int i_611_, int i_612_, int i_613_, int i_614_, int i_615_) {
+	public EnvironmentMap method5185(int i, int i_611_, int i_612_, int i_613_, int i_614_, int i_615_) {
 		return (((Class_ra_Sub2) this).aBoolean8178 ? new Class66_Sub1_Sub1(this, i, i_611_, i_612_, i_613_, i_614_, i_615_) : null);
 	}
 

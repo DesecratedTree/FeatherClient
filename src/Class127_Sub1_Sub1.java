@@ -25,7 +25,7 @@ public class Class127_Sub1_Sub1 extends Class127_Sub1 {
 		((Class127_Sub1_Sub1) this).aClass57_8572.method636(i_15_ + (i - i_14_), i_11_, i_14_ + i_12_ - i_15_, i_13_);
 	}
 
-	Class127_Sub1_Sub1(CacheIndex class243, CacheIndex class243_16_, Class128_Sub3_Sub1 class128_sub3_sub1) {
+	Class127_Sub1_Sub1(Js5 class243, Js5 class243_16_, Class128_Sub3_Sub1 class128_sub3_sub1) {
 		super(class243, class243_16_, (Class128_Sub3) class128_sub3_sub1);
 	}
 }

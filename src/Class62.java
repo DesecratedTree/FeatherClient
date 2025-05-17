@@ -79,10 +79,10 @@ public class Class62 {
 		}
 	}
 
-	public static void method727(CacheIndex class243, Interface_ma interface_ma, int i) {
+	public static void method727(Js5 class243, MaterialRawList interface_ma, int i) {
 		try {
 			Class465.aClass243_6520 = class243;
-			Class277.anInterface_ma2955 = interface_ma;
+			Skybox.anInterface_ma2955 = interface_ma;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("cn.a(").append(')').toString());
 		}

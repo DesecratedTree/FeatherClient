@@ -38,7 +38,7 @@ public abstract class Class98 {
 	static void method1055(GraphicsToolkit class_ra, int i, int i_14_, int i_15_) {
 		try {
 			if (i >= 0 && i_14_ >= 0 && null != Class436.aClass233_5493) {
-				Class341 class341 = client.aClass283_8716.method2628(681479919);
+				Class341 class341 = client.map.method2628(681479919);
 				Class233 class233 = class_ra.method5036();
 				class_ra.method5182(Class436.aClass233_5493);
 				class_ra.method5043(Class436.aClass222_5495);
@@ -49,7 +49,7 @@ public abstract class Class98 {
 				class233.method2146();
 				int i_16_ = i - Class436.anInt5489 * -156795795;
 				int i_17_ = i_14_ - Class436.anInt5490 * -2074651333;
-				if (client.aClass283_8716.method2675(-1611682495) != null && (!client.aBoolean8835 || (-112110875 * Class298.anInt3192 & 0x40) != 0)) {
+				if (client.map.method2675(-1611682495) != null && (!client.aBoolean8835 || (-112110875 * Class298.anInt3192 & 0x40) != 0)) {
 					int i_18_ = -1;
 					int i_19_ = -1;
 					float f = ((float) i_16_ * 2.0F / (float) (Class436.anInt5491 * 2125992951) - 1.0F);
@@ -71,7 +71,7 @@ public abstract class Class98 {
 						i_18_ = i_30_ + (Class287.myPlayer.getSize() - 1 << 8) >> 9;
 						i_19_ = i_31_ + (Class287.myPlayer.getSize() - 1 << 8) >> 9;
 						int i_32_ = (Class287.myPlayer.plane);
-						if (i_32_ < 3 && ((client.aClass283_8716.method2654(-86337284).aByteArrayArrayArray2731[1][i_30_ >> 9][i_31_ >> 9]) & 0x2) != 0)
+						if (i_32_ < 3 && ((client.map.method2654(-86337284).aByteArrayArrayArray2731[1][i_30_ >> 9][i_31_ >> 9]) & 0x2) != 0)
 							i_32_++;
 					}
 					if (-1 != i_18_ && -1 != i_19_) {
@@ -88,7 +88,7 @@ public abstract class Class98 {
 						}
 					}
 				}
-				Class324 class324 = (client.aClass283_8716.method2675(-1611682495).aClass324_3528);
+				Class324 class324 = (client.map.method2675(-1611682495).aClass324_3528);
 				int i_33_ = i;
 				int i_34_ = i_14_;
 				List list = class324.aList3448;
@@ -111,14 +111,14 @@ public abstract class Class98 {
 							i_36_ = ((Class365_Sub1_Sub1) class335.aClass365_Sub1_3616).aShort9798;
 							i_37_ = ((Class365_Sub1_Sub1) class335.aClass365_Sub1_3616).aShort9795;
 						} else {
-							Class217 class217 = (class335.aClass365_Sub1_3616.method4337().aClass217_2599);
+							SceneObjectPosition class217 = (class335.aClass365_Sub1_3616.method4337().aClass217_2599);
 							i_36_ = (int) class217.aFloat2451 >> 9;
 							i_37_ = (int) class217.aFloat2454 >> 9;
 						}
 						if (class335.aClass365_Sub1_3616 instanceof Player) {
 							Player class365_sub1_sub1_sub2_sub2 = ((Player) class335.aClass365_Sub1_3616);
 							int i_38_ = class365_sub1_sub1_sub2_sub2.getSize();
-							Class217 class217 = (class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
+							SceneObjectPosition class217 = (class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
 							if ((0 == (i_38_ & 0x1) && 0 == ((int) class217.aFloat2451 & 0x1ff) && ((int) class217.aFloat2454 & 0x1ff) == 0) || ((i_38_ & 0x1) == 1 && (((int) class217.aFloat2451 & 0x1ff) == 256) && 256 == ((int) class217.aFloat2454 & 0x1ff))) {
 								int i_39_ = ((int) class217.aFloat2451 - (class365_sub1_sub1_sub2_sub2.getSize() - 1 << 8));
 								int i_40_ = ((int) class217.aFloat2454 - (class365_sub1_sub1_sub2_sub2.getSize() - 1 << 8));
@@ -136,7 +136,7 @@ public abstract class Class98 {
 													/* empty */
 												}
 											} else {
-												Class217 class217_42_ = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
+												SceneObjectPosition class217_42_ = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
 												int i_43_ = ((int) (class217_42_.aFloat2451) - (((class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187) * -2095128707) - 1 << 8));
 												int i_44_ = ((int) (class217_42_.aFloat2454) - ((-2095128707 * (class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187)) - 1 << 8));
 												if (i_43_ >= i_39_ && (((class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187) * -2095128707) <= ((class365_sub1_sub1_sub2_sub2.getSize()) - (i_43_ - i_39_ >> 9))) && i_44_ >= i_40_ && (((class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187) * -2095128707) <= ((class365_sub1_sub1_sub2_sub2.getSize()) - (i_44_ - i_40_ >> 9)))) {
@@ -156,7 +156,7 @@ public abstract class Class98 {
 											if (i_15_ == 202437353)
 												return;
 										} else {
-											Class217 class217_48_ = (class365_sub1_sub1_sub2_sub2_47_.method4337().aClass217_2599);
+											SceneObjectPosition class217_48_ = (class365_sub1_sub1_sub2_sub2_47_.method4337().aClass217_2599);
 											int i_49_ = ((int) (class217_48_.aFloat2451) - ((class365_sub1_sub1_sub2_sub2_47_.getSize()) - 1 << 8));
 											int i_50_ = ((int) (class217_48_.aFloat2454) - ((class365_sub1_sub1_sub2_sub2_47_.getSize()) - 1 << 8));
 											if (i_49_ >= i_39_ && (class365_sub1_sub1_sub2_sub2_47_.getSize() <= ((class365_sub1_sub1_sub2_sub2.getSize()) - (i_49_ - i_39_ >> 9))) && i_50_ >= i_40_ && (class365_sub1_sub1_sub2_sub2_47_.getSize() <= ((class365_sub1_sub1_sub2_sub2.getSize()) - (i_50_ - i_40_ >> 9)))) {
@@ -179,7 +179,7 @@ public abstract class Class98 {
 						if (class335.aClass365_Sub1_3616 instanceof NPC) {
 							NPC class365_sub1_sub1_sub2_sub1 = ((NPC) class335.aClass365_Sub1_3616);
 							if (null != (class365_sub1_sub1_sub2_sub1.aClass503_10190)) {
-								Class217 class217 = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
+								SceneObjectPosition class217 = (class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
 								if ((0 == ((-2095128707 * (class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187)) & 0x1) && 0 == ((int) class217.aFloat2451 & 0x1ff) && (((int) class217.aFloat2454 & 0x1ff) == 0)) || (((-2095128707 * (class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187)) & 0x1) == 1 && (((int) class217.aFloat2451 & 0x1ff) == 256) && (((int) class217.aFloat2454 & 0x1ff) == 256))) {
 									int i_51_ = ((int) class217.aFloat2451 - (((-2095128707 * (class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187)) - 1) << 8));
 									int i_52_ = ((int) class217.aFloat2454 - (((class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187) * -2095128707) - 1 << 8));
@@ -196,7 +196,7 @@ public abstract class Class98 {
 													if (i_15_ == 202437353)
 														throw new IllegalStateException();
 												} else {
-													Class217 class217_55_ = (class365_sub1_sub1_sub2_sub1_54_.method4337().aClass217_2599);
+													SceneObjectPosition class217_55_ = (class365_sub1_sub1_sub2_sub1_54_.method4337().aClass217_2599);
 													int i_56_ = ((int) (class217_55_.aFloat2451) - (((class365_sub1_sub1_sub2_sub1_54_.aClass503_10190.anInt6187) * -2095128707) - 1 << 8));
 													int i_57_ = ((int) (class217_55_.aFloat2454) - (((-2095128707 * (class365_sub1_sub1_sub2_sub1_54_.aClass503_10190.anInt6187)) - 1) << 8));
 													if (i_56_ >= i_51_ && ((-2095128707 * (class365_sub1_sub1_sub2_sub1_54_.aClass503_10190.anInt6187)) <= (((class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187) * -2095128707) - ((i_56_ - i_51_) >> 9))) && i_57_ >= i_52_ && ((-2095128707 * (class365_sub1_sub1_sub2_sub1_54_.aClass503_10190.anInt6187)) <= ((-2095128707 * (class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187)) - ((i_57_ - i_52_) >> 9)))) {
@@ -216,7 +216,7 @@ public abstract class Class98 {
 												if (i_15_ == 202437353)
 													return;
 											} else {
-												Class217 class217_60_ = (class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
+												SceneObjectPosition class217_60_ = (class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
 												int i_61_ = ((int) (class217_60_.aFloat2451) - ((class365_sub1_sub1_sub2_sub2.getSize()) - 1 << 8));
 												int i_62_ = ((int) (class217_60_.aFloat2454) - ((class365_sub1_sub1_sub2_sub2.getSize()) - 1 << 8));
 												if (i_61_ >= i_51_ && ((class365_sub1_sub1_sub2_sub2.getSize()) <= (((class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187) * -2095128707) - (i_61_ - i_51_ >> 9))) && i_62_ >= i_52_ && ((class365_sub1_sub1_sub2_sub2.getSize()) <= ((-2095128707 * (class365_sub1_sub1_sub2_sub1.aClass503_10190.anInt6187)) - (i_62_ - i_52_ >> 9)))) {
@@ -290,7 +290,7 @@ public abstract class Class98 {
 						}
 						if (class335.aClass365_Sub1_3616 instanceof Interface3) {
 							Interface3 interface3 = (Interface3) class335.aClass365_Sub1_3616;
-							ObjectDefinitions class432 = (client.aClass283_8716.method2641(-151154213).getObjectDefinitions(interface3.method32((byte) 32)));
+							ObjectDefinitions class432 = (client.map.method2641(-151154213).getObjectDefinitions(interface3.method32((byte) 32)));
 							if (class432.anIntArray5366 != null)
 								class432 = class432.method5777((Class128.aClass148_6331), 2026923830);
 							if (class432 == null) {

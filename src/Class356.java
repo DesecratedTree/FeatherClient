@@ -99,16 +99,16 @@ public class Class356 {
 
 	public static final int method4271(int i, int i_4_, int i_5_, int i_6_) {
 		try {
-			if (client.aClass283_8716.method2675(-1611682495) == null)
+			if (client.map.method2675(-1611682495) == null)
 				return 0;
 			int i_7_ = i >> 9;
 			int i_8_ = i_4_ >> 9;
-			if (i_7_ < 0 || i_8_ < 0 || i_7_ > client.aClass283_8716.method2629(-1956967905) - 1 || i_8_ > client.aClass283_8716.method2630(1920772834) - 1)
+			if (i_7_ < 0 || i_8_ < 0 || i_7_ > client.map.method2629(-1956967905) - 1 || i_8_ > client.map.method2630(1920772834) - 1)
 				return 0;
 			int i_9_ = i_5_;
-			if (i_9_ < 3 && ((client.aClass283_8716.method2654(2001279106).aByteArrayArrayArray2731[1][i_7_][i_8_]) & 0x2) != 0)
+			if (i_9_ < 3 && ((client.map.method2654(2001279106).aByteArrayArrayArray2731[1][i_7_][i_8_]) & 0x2) != 0)
 				i_9_++;
-			return client.aClass283_8716.method2675(-1611682495).aClass_xaArray3517[i_9_].method6340(i, i_4_, -1909964281);
+			return client.map.method2675(-1611682495).aClass_xaArray3517[i_9_].method6340(i, i_4_, -1909964281);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ow.jx(").append(')').toString());
 		}

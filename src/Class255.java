@@ -208,7 +208,7 @@ public class Class255 implements Runnable {
 		}
 	}
 
-	public static Class505 method2439(CacheIndex class243, int i, int i_15_) {
+	public static Class505 method2439(Js5 class243, int i, int i_15_) {
 		try {
 			byte[] is = class243.method2294(i, (byte) 105);
 			if (null == is)

@@ -37,7 +37,7 @@ public class Class82_Sub21 extends Class82 {
 				i_1_ = (class365_sub1_sub1.aShort9798 << 9) + i_3_ / 2;
 				i_2_ = i_4_ / 2 + (class365_sub1_sub1.aShort9795 << 9);
 			} else {
-				Class217 class217 = class365_sub1.method4337().aClass217_2599;
+				SceneObjectPosition class217 = class365_sub1.method4337().aClass217_2599;
 				i_1_ = (int) class217.aFloat2451;
 				i_2_ = (int) class217.aFloat2454;
 			}
@@ -61,11 +61,11 @@ public class Class82_Sub21 extends Class82 {
 		try {
 			int i_8_ = (Class287.myPlayer.scenePositionXQueue[0]);
 			int i_9_ = (Class287.myPlayer.scenePositionYQueue[0]);
-			if (i_8_ < 0 || i_8_ >= client.aClass283_8716.method2629(-2029828730) || i_9_ < 0 || i_9_ >= client.aClass283_8716.method2630(911412275))
+			if (i_8_ < 0 || i_8_ >= client.map.method2629(-2029828730) || i_9_ < 0 || i_9_ >= client.map.method2630(911412275))
 				return false;
-			if (i < 0 || i >= client.aClass283_8716.method2629(-2140756422) || i_6_ < 0 || i_6_ >= client.aClass283_8716.method2630(1432313507))
+			if (i < 0 || i >= client.map.method2629(-2140756422) || i_6_ < 0 || i_6_ >= client.map.method2630(1432313507))
 				return false;
-			int i_10_ = (Class298_Sub37.calculateRoute(i_8_, i_9_, Class287.myPlayer.getSize(), class336, (client.aClass283_8716.getSceneClipDataPlane(Class287.myPlayer.plane)), bool, client.calculatedScenePositionXs, client.calculatedScenePositionYs));
+			int i_10_ = (Class298_Sub37.calculateRoute(i_8_, i_9_, Class287.myPlayer.getSize(), class336, (client.map.getSceneClipDataPlane(Class287.myPlayer.plane)), bool, client.calculatedScenePositionXs, client.calculatedScenePositionYs));
 			if (i_10_ < 1)
 				return false;
 			Class3.anInt62 = client.calculatedScenePositionXs[i_10_ - 1] * -1129029761;

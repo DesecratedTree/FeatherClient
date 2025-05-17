@@ -109,7 +109,7 @@ final class Class93 implements Interface23 {
 			Class424 class424 = ((Class424) Class422_Sub20.method5701(Class336_Sub6.method4108(114624527), i_3_, (byte) 2));
 			Class336 class336;
 			if (Class424.aClass424_6611 == class424 || Class424.aClass424_6604 == class424 || Class424.aClass424_6610 == class424) {
-				ObjectDefinitions class432 = client.aClass283_8716.method2641(-1208362615).getObjectDefinitions(i_5_);
+				ObjectDefinitions class432 = client.map.method2641(-1208362615).getObjectDefinitions(i_5_);
 				int i_6_;
 				int i_7_;
 				if (0 == i_4_ || i_4_ == 2) {

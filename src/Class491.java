@@ -3,11 +3,11 @@
  */
 
 public class Class491 {
-	CacheIndex aClass243_6076;
-	CacheIndex aClass243_6077;
+	Js5 aClass243_6076;
+	Js5 aClass243_6077;
 	CachingHashMap aClass348_6078;
 	CachingHashMap aClass348_6079 = new CachingHashMap(64);
-	public static CacheIndex aClass243_6080;
+	public static Js5 aClass243_6080;
 
 	public void method6171(byte i) {
 		try {
@@ -73,7 +73,7 @@ public class Class491 {
 		}
 	}
 
-	public Class491(Class411 class411, Class429 class429, CacheIndex class243, CacheIndex class243_2_) {
+	public Class491(Class411 class411, Class429 class429, Js5 class243, Js5 class243_2_) {
 		((Class491) this).aClass348_6078 = new CachingHashMap(2);
 		((Class491) this).aClass243_6076 = class243;
 		((Class491) this).aClass243_6077 = class243_2_;
@@ -82,7 +82,7 @@ public class Class491 {
 
 	static final void method6175(long l) {
 		try {
-			Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
+			SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
 			int i = 1734240325 * client.anInt8817 + (int) class217.aFloat2451;
 			int i_3_ = client.anInt8742 * 1874511679 + (int) class217.aFloat2454;
 			if (Class75.anInt708 * 1103750049 - i < -2000 || Class75.anInt708 * 1103750049 - i > 2000 || Class106.anInt1309 * 1346160791 - i_3_ < -2000 || Class106.anInt1309 * 1346160791 - i_3_ > 2000) {

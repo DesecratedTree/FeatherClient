@@ -731,7 +731,7 @@ public class Model {
 		return is_116_;
 	}
 
-	public static Model method751(CacheIndex class243, int i, int i_120_) {
+	public static Model method751(Js5 class243, int i, int i_120_) {
 		byte[] is = class243.getFileFromArchive(i, i_120_, (byte) -97);
 		if (is == null)
 			return null;

@@ -79,7 +79,7 @@ public class Class119 {
 		try {
 			long l = 4194304L;
 			long l_5_ = -9223372036854775808L;
-			ObjectDefinitions class432 = client.aClass283_8716.method2641(-1623210152).getObjectDefinitions(interface3.method32((byte) 18));
+			ObjectDefinitions class432 = client.map.method2641(-1623210152).getObjectDefinitions(interface3.method32((byte) 18));
 			long l_6_ = (long) (i | i_3_ << 7 | interface3.method29(726839210) << 14 | interface3.method30((short) 11182) << 20 | 0x40000000);
 			if (0 == 1532834983 * class432.anInt5382)
 				l_6_ |= l_5_;

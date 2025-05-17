@@ -274,9 +274,9 @@ public class Class234 {
 	public static void method2183(int i) {
 		try {
 			if (!Class21.aBoolean274) {
-				Class336.method4093((client.aClass283_8716.method2675(-1611682495).aClass326ArrayArrayArray3518), 234916861);
-				if ((client.aClass283_8716.method2675(-1611682495).aClass326ArrayArrayArray3520) != null)
-					Class336.method4093((client.aClass283_8716.method2675(-1611682495).aClass326ArrayArrayArray3520), -1747837187);
+				Class336.method4093((client.map.method2675(-1611682495).aClass326ArrayArrayArray3518), 234916861);
+				if ((client.map.method2675(-1611682495).aClass326ArrayArrayArray3520) != null)
+					Class336.method4093((client.map.method2675(-1611682495).aClass326ArrayArrayArray3520), -1747837187);
 				Class21.aBoolean274 = true;
 			}
 		} catch (RuntimeException runtimeexception) {

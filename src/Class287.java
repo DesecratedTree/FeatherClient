@@ -7,7 +7,7 @@ public class Class287 {
 	public int anInt3097;
 	public int anInt3098;
 	public int anInt3099;
-	static CacheIndex aClass243_3100;
+	static Js5 aClass243_3100;
 	public static Player myPlayer;
 
 	Class287(int i, int i_0_, int i_1_, int i_2_) {

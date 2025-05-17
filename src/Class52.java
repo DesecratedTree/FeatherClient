@@ -3,7 +3,7 @@
  */
 
 public abstract class Class52 {
-	public static CacheIndex aClass243_507;
+	public static Js5 aClass243_507;
 	static Class4 aClass4_508;
 
 	public abstract int method544();

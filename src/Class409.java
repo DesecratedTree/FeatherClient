@@ -39,22 +39,22 @@ public class Class409 {
 	Interface3 method4972(int i) {
 		try {
 			int i_2_ = 1008331379 * ((Class409) this).aClass341_5283.anInt3645;
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			Class341 class341 = client.map.method2628(681479919);
 			int i_3_ = (((Class409) this).aClass341_5283.gameSceneBaseX * -1760580017 - class341.gameSceneBaseX * -1760580017);
 			int i_4_ = (((Class409) this).aClass341_5283.gameSceneBaseY * 283514611 - class341.gameSceneBaseY * 283514611);
-			if (i_3_ < 0 || i_4_ < 0 || i_3_ >= client.aClass283_8716.method2629(-1998327105) || i_4_ >= client.aClass283_8716.method2630(539294898))
+			if (i_3_ < 0 || i_4_ < 0 || i_3_ >= client.map.method2629(-1998327105) || i_4_ >= client.map.method2630(539294898))
 				return null;
 			switch (method4970(-2091768912)) {
 			case 0:
-				return ((Interface3) client.aClass283_8716.method2675(-1611682495).method4031(i_2_, i_3_, i_4_, 1566382166));
+				return ((Interface3) client.map.method2675(-1611682495).method4031(i_2_, i_3_, i_4_, 1566382166));
 			case 1:
-				return ((Interface3) client.aClass283_8716.method2675(-1611682495).method4033(i_2_, i_3_, i_4_, 1080081135));
+				return ((Interface3) client.map.method2675(-1611682495).method4033(i_2_, i_3_, i_4_, 1080081135));
 			default:
 				return null;
 			case 2:
-				return (Interface3) (client.aClass283_8716.method2675(-1611682495).method4035(i_2_, i_3_, i_4_, client.anInterface17_8960, -1306218271));
+				return (Interface3) (client.map.method2675(-1611682495).method4035(i_2_, i_3_, i_4_, client.anInterface17_8960, -1306218271));
 			case 3:
-				return ((Interface3) client.aClass283_8716.method2675(-1611682495).method4058(i_2_, i_3_, i_4_, (byte) 72));
+				return ((Interface3) client.map.method2675(-1611682495).method4058(i_2_, i_3_, i_4_, (byte) 72));
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("qz.b(").append(')').toString());

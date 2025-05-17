@@ -77,7 +77,7 @@ public class Class139 {
 						i_7_ = 1004672961 * Class14.anInt175;
 					int i_10_ = (Class14.aClass139_171.method1545(i_6_, (client.anInt8794 * 775068819), -1808907629) + -994816289 * Class14.anInt170);
 					int i_11_ = (Class14.aClass133_177.method1482(i_7_, (client.anInt8803 * -791746413), -750031668) + -277668631 * Class14.anInt173);
-					class_ra.method5125(Class385.aClass89_4142, false).method662(i_10_ + Class98_Sub2.aClass89_6932.anInt812, Class98_Sub2.aClass89_6932.anInt816 + i_11_, i_6_ - Class98_Sub2.aClass89_6932.anInt812 * 2, i_7_ - 2 * Class98_Sub2.aClass89_6932.anInt816, 1, 0, 0);
+					class_ra.method5125(AtmosphereType.aClass89_4142, false).method662(i_10_ + Class98_Sub2.aClass89_6932.anInt812, Class98_Sub2.aClass89_6932.anInt816 + i_11_, i_6_ - Class98_Sub2.aClass89_6932.anInt812 * 2, i_7_ - 2 * Class98_Sub2.aClass89_6932.anInt816, 1, 0, 0);
 					class_ra.method5125(Class98_Sub2.aClass89_6932, true).method645(i_10_, i_11_);
 					Class98_Sub2.aClass89_6932.method992();
 					class_ra.method5125(Class98_Sub2.aClass89_6932, true).method645(i_6_ + i_10_ - i_8_, i_11_);

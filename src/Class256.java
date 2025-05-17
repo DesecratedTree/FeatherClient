@@ -3,8 +3,8 @@
  */
 
 public class Class256 {
-	CacheIndex aClass243_2796;
-	CacheIndex aClass243_2797;
+	Js5 aClass243_2796;
+	Js5 aClass243_2797;
 	CachingHashMap aClass348_2798 = new CachingHashMap(64);
 	static int anInt2799 = 0;
 	static int anInt2800 = 32768;
@@ -32,7 +32,7 @@ public class Class256 {
 		}
 	}
 
-	public Class256(Class429 class429, CacheIndex class243, CacheIndex class243_1_) {
+	public Class256(Class429 class429, Js5 class243, Js5 class243_1_) {
 		((Class256) this).aClass243_2796 = class243;
 		((Class256) this).aClass243_2797 = class243_1_;
 		if (((Class256) this).aClass243_2796 != null)

@@ -25,7 +25,7 @@ public class Class271 {
 
 	static boolean method2543(int i, int i_0_, int i_1_, int i_2_) {
 		try {
-			Class331 class331 = client.aClass283_8716.method2675(-1611682495);
+			Class331 class331 = client.map.method2675(-1611682495);
 			boolean bool = true;
 			Interface3 interface3 = (Interface3) class331.method4031(i, i_0_, i_1_, 693483522);
 			if (null != interface3)

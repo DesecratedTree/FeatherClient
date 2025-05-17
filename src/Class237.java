@@ -3,7 +3,7 @@
  */
 
 public class Class237 implements Interface24 {
-	CacheIndex aClass243_6665;
+	Js5 aClass243_6665;
 	String aString6666;
 	static int anInt6667;
 	public static Class499 aClass499_6668;
@@ -36,7 +36,7 @@ public class Class237 implements Interface24 {
 		return 0;
 	}
 
-	Class237(CacheIndex class243, String string) {
+	Class237(Js5 class243, String string) {
 		((Class237) this).aClass243_6665 = class243;
 		((Class237) this).aString6666 = string;
 	}
@@ -49,7 +49,7 @@ public class Class237 implements Interface24 {
 		return Class463.aClass463_5684;
 	}
 
-	public static Class296 method2192(CacheIndex class243, String string, boolean bool, int i) {
+	public static Class296 method2192(Js5 class243, String string, boolean bool, int i) {
 		try {
 			int i_0_ = class243.getArchiveIdByName(string, -912375473);
 			if (-1 == i_0_)

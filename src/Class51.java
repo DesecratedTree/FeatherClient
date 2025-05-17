@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 
 public class Class51 {
 	static short aShort504;
-	public static CacheIndex aClass243_505;
+	public static Js5 aClass243_505;
 	public static Class475 aClass475_506;
 
 	Class51() throws Throwable {
@@ -48,18 +48,18 @@ public class Class51 {
 		try {
 			class298_sub53_sub2.initBitAccess(1910675333);
 			int myPlayerIndex = client.playerIndex * -442628795;
-			Player player = (Class287.myPlayer = client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[myPlayerIndex] = (new Player(client.aClass283_8716.method2675(-1611682495))));
+			Player player = (Class287.myPlayer = client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[myPlayerIndex] = (new Player(client.map.method2675(-1611682495))));
 			player.anInt10064 = myPlayerIndex * 1714292119;
 			int i_2_ = class298_sub53_sub2.readBits(30);
 			byte i_3_ = (byte) (i_2_ >> 28);
 			int i_4_ = i_2_ >> 14 & 0x3fff;
 			int i_5_ = i_2_ & 0x3fff;
-			Class341 class341 = client.aClass283_8716.method2628(681479919);
+			Class341 class341 = client.map.method2628(681479919);
 			player.scenePositionXQueue[0] = i_4_ - -1760580017 * class341.gameSceneBaseX;
 			player.scenePositionYQueue[0] = i_5_ - class341.gameSceneBaseY * 283514611;
 			player.method4341((float) ((player.scenePositionXQueue[0] << 9) + (player.getSize() << 8)), (player.method4343().aClass217_2599.aFloat2455), (float) ((player.scenePositionYQueue[0] << 9) + (player.getSize() << 8)));
 			Class99.anInt952 = (player.plane = player.aByte7724 = i_3_) * -85701805;
-			if (client.aClass283_8716.method2654(1740552362).method2320(player.scenePositionXQueue[0], player.scenePositionYQueue[0], -14939637))
+			if (client.map.method2654(1740552362).method2320(player.scenePositionXQueue[0], player.scenePositionYQueue[0], -14939637))
 				player.aByte7724++;
 			if (Class10.aClass298_Sub53Array133[myPlayerIndex] != null)
 				player.sendAppearence(Class10.aClass298_Sub53Array133[myPlayerIndex], (byte) 3);

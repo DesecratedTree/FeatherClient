@@ -5,22 +5,22 @@
 public abstract class Class137 {
 	protected float aFloat1513;
 	public int anInt1514;
-	public Class217 aClass217_1515;
+	public SceneObjectPosition aClass217_1515;
 	public float[] aFloatArray1516;
 	public Interface9_Impl2 anInterface9_Impl2_1517;
 	public Interface9_Impl1 anInterface9_Impl1_1518;
 	public Class233 aClass233_1519;
 	protected Class_ra_Sub3 aClass_ra_Sub3_1520;
 	protected float aFloat1521;
-	public Class217 aClass217_1522;
+	public SceneObjectPosition aClass217_1522;
 	public Class232 aClass232_1523;
-	public Class217 aClass217_1524;
+	public SceneObjectPosition aClass217_1524;
 	public Class232 aClass232_1525;
 	public float[] aFloatArray1526 = new float[16];
-	public Class217 aClass217_1527;
-	public Class217 aClass217_1528;
-	public Class217 aClass217_1529;
-	public Class217 aClass217_1530;
+	public SceneObjectPosition aClass217_1527;
+	public SceneObjectPosition aClass217_1528;
+	public SceneObjectPosition aClass217_1529;
+	public SceneObjectPosition aClass217_1530;
 	static int anInt1531 = 4;
 	public int anInt1532;
 	public int anInt1533;
@@ -83,15 +83,15 @@ public abstract class Class137 {
 	Class137(Class_ra_Sub3 class_ra_sub3) {
 		aFloatArray1516 = new float[16];
 		aClass233_1519 = new Class233();
-		aClass217_1530 = new Class217();
+		aClass217_1530 = new SceneObjectPosition();
 		aClass232_1523 = new Class232();
-		aClass217_1524 = new Class217();
+		aClass217_1524 = new SceneObjectPosition();
 		aClass232_1525 = new Class232();
-		aClass217_1522 = new Class217();
-		aClass217_1527 = new Class217();
-		aClass217_1528 = new Class217();
-		aClass217_1529 = new Class217();
-		aClass217_1515 = new Class217();
+		aClass217_1522 = new SceneObjectPosition();
+		aClass217_1527 = new SceneObjectPosition();
+		aClass217_1528 = new SceneObjectPosition();
+		aClass217_1529 = new SceneObjectPosition();
+		aClass217_1515 = new SceneObjectPosition();
 		aClass233_1535 = new Class233();
 		aClass_ra_Sub3_1520 = class_ra_sub3;
 	}

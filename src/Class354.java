@@ -9,7 +9,7 @@ public final class Class354 {
 	int anInt3823;
 	LinkedList aClass437_3824;
 	Class461 aClass461_3825 = new Class461();
-	public static CacheIndex aClass243_3826;
+	public static Js5 aClass243_3826;
 
 	public Class298_Sub37 method4253(long l) {
 		try {
@@ -99,7 +99,7 @@ public final class Class354 {
 				if (Class479.aClass479_6004.method6101(-1994130525).method256(1033369240) != 100)
 					return 1;
 				if (!((Class221) Class479.aClass479_6004.method6101(-1994130525)).method2050(-88973782)) {
-					Class385.aClient4141.method2766(1045646617);
+					AtmosphereType.aClient4141.method2766(1045646617);
 					Class221.method2053(1815020733);
 					try {
 						Ping.init();
@@ -131,7 +131,7 @@ public final class Class354 {
 				Class479.aClass479_6021.method6102(new Class223(Class266.aClass243_2855), 1685456867);
 				Class479.aClass479_6030.method6102(new Class223(Class127.aClass243_6377), 1053166996);
 				Class479.aClass479_6025.method6102(new Class223(Class51.aClass243_505), 1037096117);
-				Class479.aClass479_6024.method6102(new Class223(Class277.aClass243_2965), 4556211);
+				Class479.aClass479_6024.method6102(new Class223(Skybox.js5_billboards), 4556211);
 				Class479.aClass479_6022.method6102(new Class237(Class122.aClass243_1467, "huffman"), 827266290);
 				Class479.aClass479_6003.method6102(new Class223(Class160.aClass243_1647), 650895714);
 				Class479.aClass479_6027.method6102(new Class223(Class377.aClass243_4092), 199698192);
@@ -169,7 +169,7 @@ public final class Class354 {
 			}
 			if (bool) {
 				if (!((Class221) Class479.aClass479_6009.method6101(-1994130525)).method2050(104668639))
-					client.aBoolean8806 = Class385.aClient4141.method2767(-2027084439);
+					client.aBoolean8806 = AtmosphereType.aClient4141.method2767(-2027084439);
 				RuntimeException_Sub3.aClass479Array6311 = null;
 			}
 			i_10_ -= -913055169 * Class234.anInt2597;

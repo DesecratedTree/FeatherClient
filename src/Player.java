@@ -71,7 +71,7 @@ public class Player extends Entity {
 			method4421((flag >> 3 & 0x7) + 1, -2030022890);
 			boolean bool_3_ = 0 != (flag & 0x40);
 			boolean bool_4_ = 0 != (flag & 0x80);
-			Class217 class217 = Class217.method2005(method4337().aClass217_2599);
+			SceneObjectPosition class217 = SceneObjectPosition.method2005(method4337().aClass217_2599);
 			class217.aFloat2451 += (float) (getSize() - i_2_ << 8);
 			class217.aFloat2454 += (float) (getSize() - i_2_ << 8);
 			method4340(class217);
@@ -182,7 +182,7 @@ public class Player extends Entity {
 			int[] is_24_ = aClass366_10209.anIntArray3973;
 			aClass366_10209.method4546(method4432(-1515602233), is, class464s, is_14_, 1 == aByte10220, i_5_, 775068819);
 			if (i_23_ != i_5_) {
-				class217 = Class217.method2005(method4337().aClass217_2599);
+				class217 = SceneObjectPosition.method2005(method4337().aClass217_2599);
 				class217.aFloat2451 = (float) ((scenePositionXQueue[0] << 9) + (getSize() << 8));
 				class217.aFloat2454 = (float) ((scenePositionYQueue[0] << 9) + (getSize() << 8));
 				method4340(class217);
@@ -241,7 +241,7 @@ public class Player extends Entity {
 				if (class350.aBoolean3756 && (164936249 * aClass366_10209.anInt3974 == -1 || (Class15.aClass507_224.method6269(aClass366_10209.anInt3974 * 164936249, -465726953).aBoolean6165))) {
 					Class438 class438 = ((aClass438_10078.method5819((byte) -70) && aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 					Class438 class438_29_ = ((aClass438_10077.method5819((byte) -61) && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
-					Class387 class387 = (Class283.method2678(class_ra, i_27_, -155466425 * (((Player) this).anInt10097), -197572281 * (((Player) this).anInt10073), -104151209 * (((Player) this).anInt10074), 1, aClass387Array10082[0], 0, 0, 160, 240, class438_29_ != null ? class438_29_ : class438, 1812843484));
+					Class387 class387 = (GameMap.method2678(class_ra, i_27_, -155466425 * (((Player) this).anInt10097), -197572281 * (((Player) this).anInt10073), -104151209 * (((Player) this).anInt10074), 1, aClass387Array10082[0], 0, 0, 160, 240, class438_29_ != null ? class438_29_ : class438, 1812843484));
 					if (null != class387) {
 						if (null == aClass302_Sub1Array7726 || (aClass302_Sub1Array7726.length < 1 + aClass387Array10082.length))
 							method4362(aClass387Array10082.length + 1, -1332935516);
@@ -261,14 +261,14 @@ public class Player extends Entity {
 							Class298_Sub29 class298_sub29 = ((Class298_Sub29) (client.aClass437_8696.method5812((long) (-841622081 * class19.anInt256))));
 							if (null != class298_sub29) {
 								NPC class365_sub1_sub1_sub2_sub1 = ((NPC) class298_sub29.anObject7366);
-								Class217 class217 = (Class217.method2011(class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599, Class287.myPlayer.method4337().aClass217_2599));
+								SceneObjectPosition class217 = (SceneObjectPosition.method2011(class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599, Class287.myPlayer.method4337().aClass217_2599));
 								int i_31_ = (int) class217.aFloat2451;
 								int i_32_ = (int) class217.aFloat2454;
 								method4468(class_ra, class222, aClass387Array10082[0], (long) i_31_, (long) i_32_, class19.anInt263 * 408071539, 92160000L);
 							}
 						}
 						if (2 == class19.anInt266 * 958933333) {
-							Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
+							SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
 							long l = (long) (-1338192389 * class19.anInt260 - (int) class217.aFloat2451);
 							long l_33_ = (long) (class19.anInt261 * 1018128075 - (int) class217.aFloat2454);
 							long l_34_ = (long) (2140036693 * class19.anInt257 << 9);
@@ -278,7 +278,7 @@ public class Player extends Entity {
 						if (10 == class19.anInt266 * 958933333 && -841622081 * class19.anInt256 >= 0 && (-841622081 * class19.anInt256 < (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805).length)) {
 							Player class365_sub1_sub1_sub2_sub2_35_ = (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[class19.anInt256 * -841622081]);
 							if (class365_sub1_sub1_sub2_sub2_35_ != null) {
-								Class217 class217 = (Class217.method2011(class365_sub1_sub1_sub2_sub2_35_.method4337().aClass217_2599, Class287.myPlayer.method4337().aClass217_2599));
+								SceneObjectPosition class217 = (SceneObjectPosition.method2011(class365_sub1_sub1_sub2_sub2_35_.method4337().aClass217_2599, Class287.myPlayer.method4337().aClass217_2599));
 								int i_36_ = (int) class217.aFloat2451;
 								int i_37_ = (int) class217.aFloat2454;
 								method4468(class_ra, class222, aClass387Array10082[0], (long) i_36_, (long) i_37_, 408071539 * class19.anInt263, 92160000L);
@@ -427,9 +427,9 @@ public class Player extends Entity {
 				}
 			}
 			anInt10221 = 1530078181;
-			if (i < 0 || i >= client.aClass283_8716.method2629(-1987519551) || i_53_ < 0 || i_53_ >= client.aClass283_8716.method2630(1479162339))
+			if (i < 0 || i >= client.map.method2629(-1987519551) || i_53_ < 0 || i_53_ >= client.map.method2630(1479162339))
 				method4472(i, i_53_, -2049230528);
-			else if (scenePositionXQueue[0] < 0 || (scenePositionXQueue[0] >= client.aClass283_8716.method2629(-1906686754)) || scenePositionYQueue[0] < 0 || (scenePositionYQueue[0] >= client.aClass283_8716.method2630(-964068282)))
+			else if (scenePositionXQueue[0] < 0 || (scenePositionXQueue[0] >= client.map.method2629(-1906686754)) || scenePositionYQueue[0] < 0 || (scenePositionYQueue[0] >= client.map.method2630(-964068282)))
 				method4472(i, i_53_, -2022261810);
 			else {
 				if (Class282.aClass282_6541.aByte6542 == i_54_)
@@ -449,13 +449,13 @@ public class Player extends Entity {
 			scenePositionXQueue[0] = i;
 			scenePositionYQueue[0] = i_57_;
 			int i_59_ = getSize();
-			Class217 class217 = Class217.method2005(method4337().aClass217_2599);
+			SceneObjectPosition class217 = SceneObjectPosition.method2005(method4337().aClass217_2599);
 			class217.aFloat2451 = (float) (256 * i_59_ + scenePositionXQueue[0] * 512);
 			class217.aFloat2454 = (float) (i_59_ * 256 + scenePositionYQueue[0] * 512);
 			method4340(class217);
 			class217.method2006();
 			if (this == Class287.myPlayer)
-				client.aClass283_8716.method2640((byte) 35).method4324(-1515011512);
+				client.map.method2640((byte) 35).method4324(-1515011512);
 			if (null != ((Player) this).aClass351_10067)
 				((Player) this).aClass351_10067.method4220();
 		} catch (RuntimeException runtimeexception) {
@@ -598,7 +598,7 @@ public class Player extends Entity {
 			if (class350.aBoolean3756 && (164936249 * aClass366_10209.anInt3974 == -1 || (Class15.aClass507_224.method6269(aClass366_10209.anInt3974 * 164936249, -824172978).aBoolean6165))) {
 				Class438 class438 = ((aClass438_10078.method5819((byte) -76) && aClass438_10078.method5826(-65534)) ? aClass438_10078 : null);
 				Class438 class438_76_ = ((aClass438_10077.method5819((byte) -39) && (!aBoolean10094 || class438 == null)) ? aClass438_10077 : null);
-				Class387 class387 = (Class283.method2678(class_ra, i, (-155466425 * ((Player) this).anInt10097), (-197572281 * ((Player) this).anInt10073), (-104151209 * ((Player) this).anInt10074), 1, aClass387Array10082[0], 0, 0, 160, 240, class438_76_ != null ? class438_76_ : class438, 1812843484));
+				Class387 class387 = (GameMap.method2678(class_ra, i, (-155466425 * ((Player) this).anInt10097), (-197572281 * ((Player) this).anInt10073), (-104151209 * ((Player) this).anInt10074), 1, aClass387Array10082[0], 0, 0, 160, 240, class438_76_ != null ? class438_76_ : class438, 1812843484));
 				if (null != class387) {
 					if (null == aClass302_Sub1Array7726 || (aClass302_Sub1Array7726.length < 1 + aClass387Array10082.length))
 						method4362(aClass387Array10082.length + 1, -1158693755);
@@ -618,14 +618,14 @@ public class Player extends Entity {
 						Class298_Sub29 class298_sub29 = ((Class298_Sub29) (client.aClass437_8696.method5812((long) (-841622081 * class19.anInt256))));
 						if (null != class298_sub29) {
 							NPC class365_sub1_sub1_sub2_sub1 = ((NPC) class298_sub29.anObject7366);
-							Class217 class217 = (Class217.method2011((class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599), Class287.myPlayer.method4337().aClass217_2599));
+							SceneObjectPosition class217 = (SceneObjectPosition.method2011((class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599), Class287.myPlayer.method4337().aClass217_2599));
 							int i_78_ = (int) class217.aFloat2451;
 							int i_79_ = (int) class217.aFloat2454;
 							method4468(class_ra, class222, aClass387Array10082[0], (long) i_78_, (long) i_79_, class19.anInt263 * 408071539, 92160000L);
 						}
 					}
 					if (2 == class19.anInt266 * 958933333) {
-						Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
+						SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
 						long l = (long) (-1338192389 * class19.anInt260 - (int) class217.aFloat2451);
 						long l_80_ = (long) (class19.anInt261 * 1018128075 - (int) class217.aFloat2454);
 						long l_81_ = (long) (2140036693 * class19.anInt257 << 9);
@@ -635,7 +635,7 @@ public class Player extends Entity {
 					if (10 == class19.anInt266 * 958933333 && -841622081 * class19.anInt256 >= 0 && (-841622081 * class19.anInt256 < (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805).length)) {
 						Player class365_sub1_sub1_sub2_sub2_82_ = (client.aClass365_Sub1_Sub1_Sub2_Sub2Array8805[class19.anInt256 * -841622081]);
 						if (class365_sub1_sub1_sub2_sub2_82_ != null) {
-							Class217 class217 = (Class217.method2011(class365_sub1_sub1_sub2_sub2_82_.method4337().aClass217_2599, Class287.myPlayer.method4337().aClass217_2599));
+							SceneObjectPosition class217 = (SceneObjectPosition.method2011(class365_sub1_sub1_sub2_sub2_82_.method4337().aClass217_2599, Class287.myPlayer.method4337().aClass217_2599));
 							int i_83_ = (int) class217.aFloat2451;
 							int i_84_ = (int) class217.aFloat2454;
 							method4468(class_ra, class222, aClass387Array10082[0], (long) i_83_, (long) i_84_, 408071539 * class19.anInt263, 92160000L);

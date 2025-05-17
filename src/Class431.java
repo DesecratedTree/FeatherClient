@@ -112,7 +112,7 @@ public class Class431 implements Interface15 {
 		}
 	}
 
-	public static void method5767(int i, CacheIndex class243, int i_18_, int i_19_, int i_20_, boolean bool, int i_21_) {
+	public static void method5767(int i, Js5 class243, int i_18_, int i_19_, int i_20_, boolean bool, int i_21_) {
 		try {
 			Class79.anInt734 = -1262101671;
 			Class79.aClass243_744 = class243;

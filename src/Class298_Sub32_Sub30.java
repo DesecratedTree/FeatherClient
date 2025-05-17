@@ -32,7 +32,7 @@ public class Class298_Sub32_Sub30 extends Class298_Sub32 {
 		return is;
 	}
 
-	public static int method3334(CacheIndex class243, byte i) {
+	public static int method3334(Js5 class243, byte i) {
 		try {
 			int i_1_ = 0;
 			if (class243.method2310(-1217066055 * Class74.anInt692, -457216440))

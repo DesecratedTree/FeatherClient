@@ -3,8 +3,8 @@
  */
 
 public class Class143 {
-	CacheIndex aClass243_1555;
-	CacheIndex aClass243_1556;
+	Js5 aClass243_1555;
+	Js5 aClass243_1556;
 	Class140 aClass140_1557;
 	static int anInt1558;
 
@@ -39,7 +39,7 @@ public class Class143 {
 		}
 	}
 
-	public Class143(CacheIndex class243, CacheIndex class243_0_) {
+	public Class143(Js5 class243, Js5 class243_0_) {
 		((Class143) this).aClass243_1556 = class243;
 		((Class143) this).aClass243_1555 = class243_0_;
 	}
@@ -83,11 +83,11 @@ public class Class143 {
 
 	static final boolean method1577(Class326[][][] class326s, int i, int i_2_, int i_3_, boolean bool, int i_4_) {
 		try {
-			byte[][][] is = client.aClass283_8716.method2642(1330177323);
+			byte[][][] is = client.map.method2642(1330177323);
 			byte i_5_ = (bool ? (byte) 1 : (byte) (-1953789277 * client.anInt8777 & 0xff));
 			if (i_5_ == is[1855729883 * Class99.anInt952][i_2_][i_3_])
 				return false;
-			Class244 class244 = client.aClass283_8716.method2654(-334353018);
+			Class244 class244 = client.map.method2654(-334353018);
 			if (((class244.aByteArrayArrayArray2731[Class99.anInt952 * 1855729883][i_2_][i_3_]) & 0x4) == 0)
 				return false;
 			int i_6_ = 0;
@@ -195,7 +195,7 @@ public class Class143 {
 					}
 				}
 				if (bool_14_) {
-					int i_24_ = client.aClass283_8716.method2675(-1611682495).aClass_xaArray3517[1855729883 * Class99.anInt952 + 1].method6341(i_8_, i_11_, (byte) -36);
+					int i_24_ = client.map.method2675(-1611682495).aClass_xaArray3517[1855729883 * Class99.anInt952 + 1].method6341(i_8_, i_11_, (byte) -36);
 					if (client.anIntArray8793[i] < i_24_)
 						client.anIntArray8793[i] = i_24_;
 					int i_25_ = i_8_ << 9;
@@ -220,7 +220,7 @@ public class Class143 {
 						i_6_ = i_6_ + 1 & 0xfff;
 						is[Class99.anInt952 * 1855729883][i_8_ - 1][i_11_] = i_5_;
 					}
-					if (++i_11_ < client.aClass283_8716.method2630(-1603394405)) {
+					if (++i_11_ < client.map.method2630(-1603394405)) {
 						if (i_8_ - 1 >= 0 && i_5_ != (is[Class99.anInt952 * 1855729883][i_8_ - 1][i_11_]) && 0 == ((class244.aByteArrayArrayArray2731[1855729883 * Class99.anInt952][i_8_][i_11_]) & 0x4) && 0 == ((class244.aByteArrayArrayArray2731[Class99.anInt952 * 1855729883][i_8_ - 1][i_11_ - 1]) & 0x4)) {
 							client.anIntArray8735[i_6_] = i_8_ - 1 | 0x120000 | 0x52000000;
 							client.anIntArray8847[i_6_] = i_11_ | 0x130000;
@@ -233,7 +233,7 @@ public class Class143 {
 							i_6_ = i_6_ + 1 & 0xfff;
 							is[1855729883 * Class99.anInt952][i_8_][i_11_] = i_5_;
 						}
-						if ((1 + i_8_ < client.aClass283_8716.method2629(-1968040539)) && i_5_ != (is[Class99.anInt952 * 1855729883][1 + i_8_][i_11_]) && ((class244.aByteArrayArrayArray2731[1855729883 * Class99.anInt952][i_8_][i_11_]) & 0x4) == 0 && ((class244.aByteArrayArrayArray2731[1855729883 * Class99.anInt952][1 + i_8_][i_11_ - 1]) & 0x4) == 0) {
+						if ((1 + i_8_ < client.map.method2629(-1968040539)) && i_5_ != (is[Class99.anInt952 * 1855729883][1 + i_8_][i_11_]) && ((class244.aByteArrayArrayArray2731[1855729883 * Class99.anInt952][i_8_][i_11_]) & 0x4) == 0 && ((class244.aByteArrayArrayArray2731[1855729883 * Class99.anInt952][1 + i_8_][i_11_ - 1]) & 0x4) == 0) {
 							client.anIntArray8735[i_6_] = i_8_ + 1 | 0x520000 | ~0x6dffffff;
 							client.anIntArray8847[i_6_] = i_11_ | 0x530000;
 							i_6_ = 1 + i_6_ & 0xfff;
@@ -241,7 +241,7 @@ public class Class143 {
 						}
 					}
 					i_11_--;
-					if ((1 + i_8_ < client.aClass283_8716.method2629(-1881854697)) && i_5_ != (is[1855729883 * Class99.anInt952][i_8_ + 1][i_11_])) {
+					if ((1 + i_8_ < client.map.method2629(-1881854697)) && i_5_ != (is[1855729883 * Class99.anInt952][i_8_ + 1][i_11_])) {
 						client.anIntArray8735[i_6_] = 1 + i_8_ | 0x920000 | 0x53000000;
 						client.anIntArray8847[i_6_] = i_11_ | 0x930000;
 						i_6_ = i_6_ + 1 & 0xfff;
@@ -260,7 +260,7 @@ public class Class143 {
 							i_6_ = i_6_ + 1 & 0xfff;
 							is[Class99.anInt952 * 1855729883][i_8_][i_11_] = i_5_;
 						}
-						if ((1 + i_8_ < client.aClass283_8716.method2629(-1909288528)) && (is[1855729883 * Class99.anInt952][i_8_ + 1][i_11_]) != i_5_ && ((class244.aByteArrayArrayArray2731[Class99.anInt952 * 1855729883][i_8_][i_11_]) & 0x4) == 0 && ((class244.aByteArrayArrayArray2731[Class99.anInt952 * 1855729883][i_8_ + 1][i_11_ + 1]) & 0x4) == 0) {
+						if ((1 + i_8_ < client.map.method2629(-1909288528)) && (is[1855729883 * Class99.anInt952][i_8_ + 1][i_11_]) != i_5_ && ((class244.aByteArrayArrayArray2731[Class99.anInt952 * 1855729883][i_8_][i_11_]) & 0x4) == 0 && ((class244.aByteArrayArrayArray2731[Class99.anInt952 * 1855729883][i_8_ + 1][i_11_ + 1]) & 0x4) == 0) {
 							client.anIntArray8735[i_6_] = 1 + i_8_ | 0x920000 | ~0x2dffffff;
 							client.anIntArray8847[i_6_] = i_11_ | 0x930000;
 							i_6_ = i_6_ + 1 & 0xfff;

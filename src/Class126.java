@@ -4,9 +4,9 @@
 import java.io.IOException;
 
 public class Class126 implements Interface6 {
-	CacheIndex aClass243_6367;
+	Js5 aClass243_6367;
 	Class151 aClass151_6368;
-	CacheIndex aClass243_6369;
+	Js5 aClass243_6369;
 	Class264 aClass264_6370;
 
 	public boolean method52(int i) {
@@ -74,7 +74,7 @@ public class Class126 implements Interface6 {
 		}
 	}
 
-	Class126(CacheIndex class243, CacheIndex class243_3_, Class151 class151) {
+	Class126(Js5 class243, Js5 class243_3_, Class151 class151) {
 		((Class126) this).aClass151_6368 = class151;
 		((Class126) this).aClass243_6369 = class243;
 		((Class126) this).aClass243_6367 = class243_3_;
@@ -236,7 +236,7 @@ public class Class126 implements Interface6 {
 					if (!Loader.DISABLE_USELESS_PACKETS)
 						Class247.method2371((byte) 82);
 					Class298_Sub50 class298_sub50 = ((Class298_Sub50) client.aClass453_8827.method5939(1766612795));
-					if (client.aClass283_8716.method2675(-1611682495) != null) {
+					if (client.map.method2675(-1611682495) != null) {
 						if (3 == Class298_Sub1.anInt7164 * -863531439)
 							Class298_Sub39.method3506(78506535);
 						else if (1 == -863531439 * Class298_Sub1.anInt7164)
@@ -252,7 +252,7 @@ public class Class126 implements Interface6 {
 						client.aFloat8759 /= 2.0F;
 					SubIncommingPacket.method1921((byte) 111);
 					if (0 == -1233866115 * client.anInt8752) {
-						client.aClass283_8716.method2640((byte) 2).method4323(client.aClass283_8716, -2061035316);
+						client.map.method2640((byte) 2).method4323(client.map, -2061035316);
 						Class271.method2546(-2124691803);
 						Graphics.method609((short) -26190);
 						if (596487115 * client.anInt8723 > 10)
@@ -267,7 +267,7 @@ public class Class126 implements Interface6 {
 								Class107.method1144(false, (short) -10206);
 							else {
 								if (client.anInt8724 * 1596783995 == 1 && (Class298_Sub24_Sub3.method3090(577335585 * client.anInt8870, -275734557))) {
-									client.aClass283_8716.sendMapScene(new Class267(Class266.aClass266_2846, null), -1991819579);
+									client.map.sendMapScene(new Class267(Class266.aClass266_2846, null), -1991819579);
 									client.anInt8724 = -347773236;
 								}
 								if (4 == 1596783995 * client.anInt8724 && 17 != client.anInt8752 * -1233866115) {
@@ -420,7 +420,7 @@ public class Class126 implements Interface6 {
 									i_14_ = 0;
 								else if (i_14_ > 3)
 									i_14_ = 3;
-								Class341 class341 = client.aClass283_8716.method2628(681479919);
+								Class341 class341 = client.map.method2628(681479919);
 								Class476.method6083(i_14_, ((Class287.myPlayer.scenePositionXQueue[0]) + -1760580017 * class341.gameSceneBaseX), ((Class287.myPlayer.scenePositionYQueue[0]) + 283514611 * class341.gameSceneBaseY), 1979698840);
 							}
 							Graphics.method610(187981678);

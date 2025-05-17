@@ -3,10 +3,10 @@
  */
 
 public class Class475 {
-	CacheIndex aClass243_5981;
+	Js5 aClass243_5981;
 	CachingHashMap aClass348_5982 = new CachingHashMap(128);
 
-	public Class475(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class475(Class411 class411, Class429 class429, Js5 class243) {
 		((Class475) this).aClass243_5981 = class243;
 		if (null != ((Class475) this).aClass243_5981) {
 			int i = ((Class475) this).aClass243_5981.method2296(1572683796) - 1;
@@ -41,12 +41,12 @@ public class Class475 {
 		try {
 			int i_1_ = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub17_7565.method5689(-2013953489);
 			if (i_1_ == 0) {
-				client.aClass283_8716.method2643(null, 1496940593);
+				client.map.method2643(null, 1496940593);
 				Class136_Sub1.method1502(0, (byte) 0);
 			} else if (i_1_ == 1) {
 				Class231.method2132((byte) 0, 1452497701);
 				Class136_Sub1.method1502(512, (byte) 0);
-				if (client.aClass283_8716.method2675(-1611682495) != null)
+				if (client.map.method2675(-1611682495) != null)
 					Class379.method4674(-1148794921);
 			} else {
 				Class231.method2132((byte) (client.anInt8777 * -1953789277 - 4 & 0xff), 1394791892);

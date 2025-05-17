@@ -343,7 +343,7 @@ public class Class422_Sub24 extends Class422 {
 											Tradution.method6054(class105, 1189683117);
 									}
 								} else if (6 == (class105.anInt1144 * -1215239439)) {
-									client.aClass283_8716.method2640((byte) -16).method4326((byte) -24);
+									client.map.method2640((byte) -16).method4326((byte) -24);
 									Class387 class387 = null;
 									int i_35_ = 2048;
 									if (class105.anInt1197 * 1054312299 != 0)
@@ -411,8 +411,8 @@ public class Class422_Sub24 extends Class422 {
 										client.aClass222_8871.method2055();
 										Class373.aClass_ra4071.method5043(client.aClass222_8871);
 										Class233 class233 = Class373.aClass_ra4071.method5036();
-										int i_43_ = client.aClass283_8716.method2634((byte) -21);
-										int i_44_ = client.aClass283_8716.method2635(-176106849);
+										int i_43_ = client.map.method2634((byte) -21);
+										int i_44_ = client.map.method2635(-176106849);
 										if (class105.aBoolean1199) {
 											if (class105.aBoolean1187)
 												class233.method2153((float) i_41_, (float) i_42_, (float) i_39_, (float) i_40_, (float) i_43_, (float) i_44_, (float) ((Class462.anInt5683) * -2110394505), (float) (-1111710645 * (Class298_Sub40_Sub9.anInt9716)), (float) ((class105.anInt1284) * -261021353));

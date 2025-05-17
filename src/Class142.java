@@ -42,15 +42,15 @@ public class Class142 {
 
 	static final void method1570(int i, int i_2_, int i_3_, int i_4_, boolean bool, int i_5_) {
 		try {
-			if (client.aClass283_8716.method2675(-1611682495) == null)
+			if (client.map.method2675(-1611682495) == null)
 				Class373.aClass_ra4071.method5015(i, i_2_, i_3_, i_4_, -16777216, (byte) 7);
 			else {
-				Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
+				SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
 				boolean bool_6_ = false;
 				if (3 != 1596783995 * client.anInt8724) {
 					if (!client.aBoolean8725)
 						bool_6_ = true;
-				} else if ((int) class217.aFloat2451 < 0 || ((int) class217.aFloat2451 >= client.aClass283_8716.method2629(-2116251282) * 512) || (int) class217.aFloat2454 < 0 || ((int) class217.aFloat2454 >= (client.aClass283_8716.method2630(978326552) * 512)))
+				} else if ((int) class217.aFloat2451 < 0 || ((int) class217.aFloat2451 >= client.map.method2629(-2116251282) * 512) || (int) class217.aFloat2454 < 0 || ((int) class217.aFloat2454 >= (client.map.method2630(978326552) * 512)))
 					bool_6_ = true;
 				if (bool_6_)
 					Class373.aClass_ra4071.method5015(i, i_2_, i_3_, i_4_, -16777216, (byte) 7);
@@ -115,17 +115,17 @@ public class Class142 {
 					}
 					if (-1740717447 * Class367.anInt4000 < 0)
 						Class367.anInt4000 = 0;
-					if (Class367.anInt4000 * -1740717447 > ((client.aClass283_8716.method2675(-1611682495).anInt3514) * 1988988347 << 9) - 1)
-						Class367.anInt4000 = (((client.aClass283_8716.method2675(-1611682495).anInt3514) * 1988988347 << 9) - 1) * 547882953;
+					if (Class367.anInt4000 * -1740717447 > ((client.map.method2675(-1611682495).anInt3514) * 1988988347 << 9) - 1)
+						Class367.anInt4000 = (((client.map.method2675(-1611682495).anInt3514) * 1988988347 << 9) - 1) * 547882953;
 					if (-299812095 * Class146.anInt1575 < 0)
 						Class146.anInt1575 = 0;
-					if (-299812095 * Class146.anInt1575 > ((client.aClass283_8716.method2675(-1611682495).anInt3549) * 1340714547 << 9) - 1)
-						Class146.anInt1575 = (((client.aClass283_8716.method2675(-1611682495).anInt3549) * 1340714547 << 9) - 1) * 309839105;
+					if (-299812095 * Class146.anInt1575 > ((client.map.method2675(-1611682495).anInt3549) * 1340714547 << 9) - 1)
+						Class146.anInt1575 = (((client.map.method2675(-1611682495).anInt3549) * 1340714547 << 9) - 1) * 309839105;
 					Class422_Sub23.method5710(332559800);
 					Class373.aClass_ra4071.method5187(i, i_2_, i_3_, i_4_);
 					Class373.aClass_ra4071.r(i, i_2_, i + i_3_, i_2_ + i_4_);
-					Class385 class385 = client.aClass283_8716.method2640((byte) 15).method4316((byte) -16);
-					int i_18_ = class385.method4709(-461488593);
+					AtmosphereType class385 = client.map.method2640((byte) 15).method4316((byte) -16);
+					int i_18_ = class385.getFogColor(-461488593);
 					client.aClass222_8871.method2062((float) -(Class367.anInt4000 * -1740717447), (float) -(1449634147 * Class110.anInt6403), (float) -(Class146.anInt1575 * -299812095));
 					client.aClass222_8871.method2071(0.0F, -1.0F, 0.0F, Class220.method2049(-(Class135.anInt6384 * -1847894591) & 0x3fff));
 					client.aClass222_8871.method2071(-1.0F, 0.0F, 0.0F, Class220.method2049(-(client.anInt8756 * -104436553) & 0x3fff));
@@ -133,16 +133,16 @@ public class Class142 {
 					Class373.aClass_ra4071.method5043(client.aClass222_8871);
 					Class82_Sub7.method889(client.aClass233_8658, true, (float) (i_3_ / 2), (float) (i_4_ / 2), (float) (-2134375937 * client.anInt8940 << 1), (float) (-2134375937 * client.anInt8940 << 1), i_3_, i_4_, 1807453020);
 					Class373.aClass_ra4071.method5182(client.aClass233_8658);
-					if (class385.method4710((byte) -25) != null) {
+					if (class385.getSkybox((byte) -25) != null) {
 						Class373.aClass_ra4071.IA(1.0F);
 						Class373.aClass_ra4071.m(16777215, 0.0F, 0.0F, 1.0F, 0.0F, 0.0F);
-						class385.method4710((byte) -99).method2591(Class373.aClass_ra4071, Class163.anInt1685 * -1285178091 << 3, i, i_2_, i_3_, i_4_, client.anInt8756 * -104436553, Class135.anInt6384 * -1847894591, Class229.anInt6458 * -1466297851, i_18_, true, false, (byte) -49);
+						class385.getSkybox((byte) -99).method2591(Class373.aClass_ra4071, Class163.anInt1685 * -1285178091 << 3, i, i_2_, i_3_, i_4_, client.anInt8756 * -104436553, Class135.anInt6384 * -1847894591, Class229.anInt6458 * -1466297851, i_18_, true, false, (byte) -49);
 					} else
 						Class373.aClass_ra4071.ba(3, i_18_);
 					Class298_Sub40_Sub13.method3518(client.aClass222_8871, client.aClass233_8658, i_3_, i_4_, -1854574289);
-					client.aClass283_8716.method2640((byte) -11).method4323(client.aClass283_8716, -1036263435);
+					client.map.method2640((byte) -11).method4323(client.map, -1036263435);
 					byte i_19_ = (Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub17_7565.method5689(-2013953489) == 2 ? (byte) (-1953789277 * client.anInt8777) : (byte) 1);
-					client.aClass283_8716.method2675(-1611682495).method4040(client.anInt8884 * 443738891, Class367.anInt4000 * -1740717447, 1449634147 * Class110.anInt6403, Class146.anInt1575 * -299812095, client.aClass283_8716.method2642(1646760373), client.anIntArray8793, client.anIntArray8670, client.anIntArray8795, client.anIntArray8641, client.anIntArray8797, 1 + (Class287.myPlayer.plane), i_19_, (int) class217.aFloat2451 >> 9, (int) class217.aFloat2454 >> 9, Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub9_7555.method5655(2137164627) == 0, true, 0, true);
+					client.map.method2675(-1611682495).method4040(client.anInt8884 * 443738891, Class367.anInt4000 * -1740717447, 1449634147 * Class110.anInt6403, Class146.anInt1575 * -299812095, client.map.method2642(1646760373), client.anIntArray8793, client.anIntArray8670, client.anIntArray8795, client.anIntArray8641, client.anIntArray8797, 1 + (Class287.myPlayer.plane), i_19_, (int) class217.aFloat2451 >> 9, (int) class217.aFloat2454 >> 9, Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub9_7555.method5655(2137164627) == 0, true, 0, true);
 					client.anInt8723 += -2109562397;
 					Class247.method2365(170542119);
 					if (0 == -1233866115 * client.anInt8752) {
@@ -151,7 +151,7 @@ public class Class142 {
 						Class492.method6182(i, i_2_, i_3_, i_4_, 256, 256, 996259282);
 						Class251.method2406(i, i_2_, i_3_, i_4_, 373406666);
 					}
-					client.aClass283_8716.method2675(-1611682495).method4010(843420871);
+					client.map.method2675(-1611682495).method4010(843420871);
 					client.aBoolean8917 = false;
 					Class367.anInt4000 = i_11_ * 547882953;
 					Class110.anInt6403 = i_12_ * 1078403147;

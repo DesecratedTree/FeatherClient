@@ -378,7 +378,7 @@ public class Class331 {
 				}
 			}
 			if (bool) {
-				Class217 class217 = Class217.method2005(class365_sub1_sub1.method4337().aClass217_2599);
+				SceneObjectPosition class217 = SceneObjectPosition.method2005(class365_sub1_sub1.method4337().aClass217_2599);
 				class217.aFloat2455 -= (float) i_48_;
 				class365_sub1_sub1.method4340(class217);
 				class217.method2006();
@@ -1003,7 +1003,7 @@ public class Class331 {
 
 	void method4042(Class365_Sub1 class365_sub1, int i) {
 		try {
-			Class217 class217 = class365_sub1.method4337().aClass217_2599;
+			SceneObjectPosition class217 = class365_sub1.method4337().aClass217_2599;
 			((Class331) this).aClass_ra3508.method5060((float) (int) class217.aFloat2451, (float) ((int) class217.aFloat2455 + (class365_sub1.method4361(1951240662) >> 1)), (float) (int) class217.aFloat2454, ((Class331) this).aFloatArray3505);
 			((Class365_Sub1) class365_sub1).anInt7725 = 144688539 * (int) ((Class331) this).aFloatArray3505[2];
 		} catch (RuntimeException runtimeexception) {
@@ -1077,7 +1077,7 @@ public class Class331 {
 			}
 			return true;
 		}
-		Class217 class217 = class365_sub1.method4337().aClass217_2599;
+		SceneObjectPosition class217 = class365_sub1.method4337().aClass217_2599;
 		int i_192_ = (int) class217.aFloat2451 >> anInt3504 * -1688804109;
 		int i_193_ = (int) class217.aFloat2454 >> -1688804109 * anInt3504;
 		if (class365_sub1.aByte7724 < anInt3548 * 1678382205 && i_192_ >= 1387802915 * ((Class331) this).anInt3533 && i_192_ < 945006459 * ((Class331) this).anInt3550 && i_193_ >= 1655515601 * ((Class331) this).anInt3551 && i_193_ < 779833815 * ((Class331) this).anInt3552) {
@@ -1099,7 +1099,7 @@ public class Class331 {
 		if (aClass_xaArray3517 == aClass_xaArray3521) {
 			boolean bool = false;
 			boolean bool_194_ = false;
-			Class217 class217 = class365_sub1.method4337().aClass217_2599;
+			SceneObjectPosition class217 = class365_sub1.method4337().aClass217_2599;
 			int i;
 			int i_195_;
 			if (class365_sub1 instanceof Class365_Sub1_Sub1) {
@@ -1355,7 +1355,7 @@ public class Class331 {
 		try {
 			Class326 class326 = method4012(i, i_257_, i_258_, 1185117443);
 			if (null != class326) {
-				class365_sub1_sub4.method4340(new Class217((float) ((i_257_ << anInt3504 * -1688804109) + (394962841 * ((Class331) this).anInt3546)), (float) i_259_, (float) ((i_258_ << -1688804109 * anInt3504) + 394962841 * (((Class331) this).anInt3546))));
+				class365_sub1_sub4.method4340(new SceneObjectPosition((float) ((i_257_ << anInt3504 * -1688804109) + (394962841 * ((Class331) this).anInt3546)), (float) i_259_, (float) ((i_258_ << -1688804109 * anInt3504) + 394962841 * (((Class331) this).anInt3546))));
 				((Class326) class326).aClass365_Sub1_Sub4_3462 = class365_sub1_sub4;
 				int i_261_ = aClass_xaArray3521 == aClass_xaArray3517 ? 1 : 0;
 				if (class365_sub1_sub4.method4399((byte) 13)) {

@@ -10,7 +10,7 @@ public class Class114 {
 	String aString1378;
 	public int[] anIntArray1379;
 	public int[] anIntArray1380;
-	public static CacheIndex aClass243_1381;
+	public static Js5 aClass243_1381;
 
 	void method1256(Class101 class101, byte i) {
 		try {

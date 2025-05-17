@@ -5,7 +5,7 @@
 public class Class82_Sub12 extends Class82 {
 	int anInt6862;
 	int anInt6863;
-	static Class66 aClass66_6864;
+	static EnvironmentMap aClass66_6864;
 	int anInt6865;
 	int anInt6866;
 	int anInt6867;

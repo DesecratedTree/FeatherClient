@@ -180,7 +180,7 @@ public final class LinkedList implements Iterable {
 					}
 				}
 			}
-			Class365_Sub1_Sub1_Sub1 class365_sub1_sub1_sub1 = (new Class365_Sub1_Sub1_Sub1(client.aClass283_8716.method2675(-1611682495), i, Class375.basePlane * -191892109, Class375.basePlane * -191892109, i_14_, i_15_, i_12_, client.anInt8884 * 443738891 + i_18_, client.anInt8884 * 443738891 + i_19_, i_20_, i_21_, i_9_, i_10_, i_13_, bool, i_11_));
+			Class365_Sub1_Sub1_Sub1 class365_sub1_sub1_sub1 = (new Class365_Sub1_Sub1_Sub1(client.map.method2675(-1611682495), i, Class375.basePlane * -191892109, Class375.basePlane * -191892109, i_14_, i_15_, i_12_, client.anInt8884 * 443738891 + i_18_, client.anInt8884 * 443738891 + i_19_, i_20_, i_21_, i_9_, i_10_, i_13_, bool, i_11_));
 			class365_sub1_sub1_sub1.method4405(i_16_, i_17_, Class356.method4271(i_16_, i_17_, Class375.basePlane * -191892109, -968708982) - i_13_, 443738891 * client.anInt8884 + i_18_, 1068285759);
 			client.aClass453_8824.method5935(new Class298_Sub37_Sub2(class365_sub1_sub1_sub1), 520361177);
 		} catch (RuntimeException runtimeexception) {

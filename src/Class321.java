@@ -354,7 +354,7 @@ public class Class321 {
 				else if (i == 5)
 					Class255.method2435(new StringBuilder().append("").append(914379507 * Class291.anInt6467).toString(), 1771664525);
 				else if (i == 24) {
-					Class333 class333 = (client.aClass283_8716.method2675(-1611682495).aClass333_3512);
+					Class333 class333 = (client.map.method2675(-1611682495).aClass333_3512);
 					class333.aBoolean3583 = !class333.aBoolean3583;
 				} else if (i == 8)
 					client.aBoolean8667 = true;
@@ -397,15 +397,15 @@ public class Class321 {
 				else if (i == 23)
 					Class365_Sub1.method4403((byte) -117);
 				else if (21 == i) {
-					client.aClass283_8716.aLong3045 = Class122.method1319((byte) 1) * 3385627052850178407L;
-					client.aClass283_8716.aBoolean3008 = true;
+					client.map.aLong3045 = Class122.method1319((byte) 1) * 3385627052850178407L;
+					client.map.aBoolean3008 = true;
 					Class365_Sub1.method4403((byte) -48);
 				} else if (29 == i) {
-					Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
+					SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
 					Class255.method2435(new StringBuilder().append((int) class217.aFloat2451 >> 9).append(" ").append((int) class217.aFloat2454 >> 9).toString(), 2030018099);
 				} else if (i == 7) {
-					Class217 class217 = (Class287.myPlayer.method4337().aClass217_2599);
-					Class255.method2435(new StringBuilder().append("").append(client.aClass283_8716.method2675(-1611682495).aClass_xaArray3517[(Class287.myPlayer.plane)].method6341((int) class217.aFloat2451 >> 9, (int) class217.aFloat2454 >> 9, (byte) -102)).toString(), 417961088);
+					SceneObjectPosition class217 = (Class287.myPlayer.method4337().aClass217_2599);
+					Class255.method2435(new StringBuilder().append("").append(client.map.method2675(-1611682495).aClass_xaArray3517[(Class287.myPlayer.plane)].method6341((int) class217.aFloat2451 >> 9, (int) class217.aFloat2454 >> 9, (byte) -102)).toString(), 417961088);
 				} else if (i == 3) {
 					Class255.method2435(new StringBuilder().append(IComponentDefinition.aClass348_1135.method4192(-262201221)).append(" ").append(IComponentDefinition.aClass348_1135.method4188(-480173906)).toString(), 1301637250);
 					Class255.method2435(new StringBuilder().append(IComponentDefinition.aClass348_1138.method4192(509188014)).append(" ").append(IComponentDefinition.aClass348_1138.method4188(2067697941)).toString(), 1826870364);
@@ -418,13 +418,13 @@ public class Class321 {
 					Class422_Sub1.method5626(-1727592457);
 				} else if (11 == i) {
 					client.anInt8814 = 0;
-					client.aClass283_8716.method2667(72202504);
+					client.map.method2667(72202504);
 				} else if (9 == i) {
 					client.anInt8814 = 1482609571;
-					client.aClass283_8716.method2667(418889356);
+					client.map.method2667(418889356);
 				} else if (28 == i) {
 					client.anInt8814 = -1329748154;
-					client.aClass283_8716.method2667(989855246);
+					client.map.method2667(989855246);
 				}
 			} catch (Exception exception) {
 				Class255.method2435(Tradution.aClass470_5782.method6049(aClass429_3357, -875414210), 1297300690);

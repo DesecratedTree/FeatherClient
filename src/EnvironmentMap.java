@@ -3,10 +3,10 @@
  */
 import java.util.Stack;
 
-public abstract class Class66 {
+public abstract class EnvironmentMap {
 	public static int anInt666;
 
-	Class66() {
+	EnvironmentMap() {
 		/* empty */
 	}
 

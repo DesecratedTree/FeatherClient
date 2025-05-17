@@ -47,7 +47,7 @@ public class Class493 {
 		anInt6087 = 757188608;
 	}
 
-	public static void method6188(CacheIndex class243, int i) {
+	public static void method6188(Js5 class243, int i) {
 		try {
 			Class344.anInt3678 = 0;
 			Class344.anInt3686 = 0;

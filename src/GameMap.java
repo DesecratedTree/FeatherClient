@@ -4,7 +4,7 @@
 import java.util.Iterator;
 
 //XXX IMPORTANT!
-public class Class283 {
+public class GameMap {
 	Class240_Sub1 aClass240_Sub1_3000;
 	Class266 aClass266_3001;
 	byte[][] aByteArrayArray3002;
@@ -18,7 +18,7 @@ public class Class283 {
 	int[] anIntArray3010;
 	int anInt3011;
 	Class244 aClass244_3012;
-	Class364 aClass364_3013;
+	AtmosphereConditions atmosphere;
 	byte[][] aByteArrayArray3014;
 	int anInt3015;
 	int zFar;
@@ -198,9 +198,9 @@ public class Class283 {
 		}
 	}
 
-	public Class364 method2640(byte i) {
+	public AtmosphereConditions method2640(byte i) {
 		try {
-			return aClass364_3013;
+			return atmosphere;
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lt.h(").append(')').toString());
 		}
@@ -249,7 +249,7 @@ public class Class283 {
 	public void method2646(byte i) {
 		try {
 			if (null != aClass331_3037) {
-				Class66.method764((byte) 1);
+				EnvironmentMap.method764((byte) 1);
 				aClass331_3037.aClass324_3528.method3956(-1174492425);
 				aClass331_3037 = null;
 			}
@@ -260,7 +260,7 @@ public class Class283 {
 
 	public void method2647(int i) {
 		try {
-			aClass364_3013 = new Class364(Class373.aClass_ra4071, -991330803 * anInt3039 >> 3, anInt3011 * -1456212765 >> 3);
+			atmosphere = new AtmosphereConditions(Class373.aClass_ra4071, -991330803 * anInt3039 >> 3, anInt3011 * -1456212765 >> 3);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lt.aa(").append(')').toString());
 		}
@@ -272,7 +272,7 @@ public class Class283 {
 			zFar = ((int) (34.46 * (-991330803 * anInt3039)) * -2038218047);
 			zFar = ((2073578817 * zFar << 2) * -2038218047);
 			if (Class373.aClass_ra4071.method4998()) {
-				zFar += Loader.EXTRA_DRAW_DISTANCE * 9 * 109412864;
+				zFar = 2147483647;
 			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lt.ak(").append(')').toString());
@@ -581,7 +581,7 @@ public class Class283 {
 		}
 	}
 
-	public Class283(boolean bool) {
+	public GameMap(boolean bool) {
 		anInt3021 = 0;
 		anInt3024 = -861507225;
 		aBoolean3008 = false;
@@ -737,7 +737,7 @@ public class Class283 {
 							class365_sub1_sub1_sub2_sub1.scenePositionXQueue[i_94_] -= i_91_;
 							class365_sub1_sub1_sub2_sub1.scenePositionYQueue[i_94_] -= i_92_;
 						}
-						Class217 class217 = Class217.method2005(class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
+						SceneObjectPosition class217 = SceneObjectPosition.method2005(class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
 						class217.aFloat2451 -= 512 * i_91_;
 						class217.aFloat2454 -= i_92_ * 512;
 						class365_sub1_sub1_sub2_sub1.method4340(class217);
@@ -753,7 +753,7 @@ public class Class283 {
 					Class298_Sub29 class298_sub29 = client.aClass298_Sub29Array8816[i_97_];
 					if (null != class298_sub29) {
 						NPC class365_sub1_sub1_sub2_sub1 = ((NPC) class298_sub29.anObject7366);
-						Class217 class217 = Class217.method2005(class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
+						SceneObjectPosition class217 = SceneObjectPosition.method2005(class365_sub1_sub1_sub2_sub1.method4337().aClass217_2599);
 						class217.aFloat2451 -= 512 * i_91_;
 						class217.aFloat2454 -= 512 * i_92_;
 						class365_sub1_sub1_sub2_sub1.method4340(class217);
@@ -798,7 +798,7 @@ public class Class283 {
 						class365_sub1_sub1_sub2_sub2.scenePositionXQueue[i_102_] -= i_91_;
 						class365_sub1_sub1_sub2_sub2.scenePositionYQueue[i_102_] -= i_92_;
 					}
-					Class217 class217 = Class217.method2005(class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
+					SceneObjectPosition class217 = SceneObjectPosition.method2005(class365_sub1_sub1_sub2_sub2.method4337().aClass217_2599);
 					class217.aFloat2451 -= 512 * i_91_;
 					class217.aFloat2454 -= i_92_ * 512;
 					class365_sub1_sub1_sub2_sub2.method4340(class217);
@@ -867,7 +867,7 @@ public class Class283 {
 				Class367.anInt4000 -= i_91_ * 1343197696;
 				Class146.anInt1575 -= i_92_ * -276168192;
 				if (Math.abs(i_91_) > -991330803 * anInt3039 || (Math.abs(i_92_) > anInt3011 * -1456212765)) {
-					aClass364_3013.method4324(-1910257839);
+					atmosphere.method4324(-1910257839);
 				}
 			}
 			Class447.method5905(2108312995);
@@ -893,8 +893,8 @@ public class Class283 {
 			if (aClass244_3012 != null) {
 				aClass244_3012.method2319(-1035232458);
 			}
-			if (null != aClass364_3013) {
-				aClass364_3013.method4320((byte) 38);
+			if (null != atmosphere) {
+				atmosphere.method4320((byte) 38);
 			}
 			if (null != aClass331_3037) {
 				aClass331_3037.aClass324_3528.method3956(-1174492425);
@@ -1030,7 +1030,7 @@ public class Class283 {
 			if (aBoolean3018) {
 				method2673((byte) 2);
 				Class423.method5733(true, 1336561252);
-				Class283 class283_138_ = client.aClass283_8716;
+				GameMap class283_138_ = client.map;
 				anIntArray3031 = class283_138_.anIntArray3031;
 				anIntArray3010 = class283_138_.anIntArray3010;
 				anIntArray3033 = class283_138_.anIntArray3033;
@@ -1045,7 +1045,7 @@ public class Class283 {
 				aByteArrayArray3002 = class283_138_.aByteArrayArray3002;
 				SCENE_CLIP_DATA_PLANES = class283_138_.SCENE_CLIP_DATA_PLANES;
 				aClass244_3012 = class283_138_.aClass244_3012;
-				aClass364_3013 = class283_138_.aClass364_3013;
+				atmosphere = class283_138_.atmosphere;
 				anIntArrayArrayArray3043 = class283_138_.anIntArrayArrayArray3043;
 				anInt3015 = 1 * class283_138_.anInt3015;
 				zFar = 1 * class283_138_.zFar;
@@ -1078,7 +1078,7 @@ public class Class283 {
 		}
 	}
 
-	void method2668(Class283 class283_139_, byte i) {
+	void method2668(GameMap class283_139_, byte i) {
 		try {
 			boolean bool = class283_139_.aBoolean3018;
 			class283_139_.aBoolean3018 = aBoolean3018;
@@ -1088,7 +1088,7 @@ public class Class283 {
 			aClass266_3004 = class266;
 			class283_139_.aClass341_3007 = aClass341_3006;
 			aClass341_3007 = class283_139_.aClass341_3006;
-			aClass364_3013.method4327(class283_139_.method2640((byte) 49), -1162508016);
+			atmosphere.method4327(class283_139_.method2640((byte) 49), -1162508016);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lt.ae(").append(')').toString());
 		}
@@ -1298,7 +1298,7 @@ public class Class283 {
 			}
 			aClass287_3019 = new Class287();
 			aFloat3020 = -0.05F + (float) (Math.random() / 10.0);
-			aClass240_Sub1_3029 = new Class240_Sub1(aClass331_3037, aClass433_3040, 4, -991330803 * anInt3039, -1456212765 * anInt3011, false, aClass244_3012, aClass364_3013);
+			aClass240_Sub1_3029 = new Class240_Sub1(aClass331_3037, aClass433_3040, 4, -991330803 * anInt3039, -1456212765 * anInt3011, false, aClass244_3012, atmosphere);
 			aClass240_Sub1_3029.method2212(-403694446);
 			aClass240_Sub1_3029.anInt2621 = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub7_7581.method5650(-809818345) * 275039235;
 			aClass240_Sub1_3029.aBoolean2622 = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub5_7572.method5642(-2131698628) == 2;
@@ -1313,11 +1313,11 @@ public class Class283 {
 			if (aBoolean3018) {
 				method2658(50, (byte) -75);
 			}
-			aClass364_3013.method4321(anInt3039 * -991330803 >> 4, -1456212765 * anInt3011 >> 4, 1532552397);
-			aClass364_3013.method4323(this, 1783211969);
+			atmosphere.method4321(anInt3039 * -991330803 >> 4, -1456212765 * anInt3011 >> 4, 1532552397);
+			atmosphere.method4323(this, 1783211969);
 			if (bool) {
 				aClass331_3037.method4052(true, -740850409);
-				aClass240_Sub1_3000 = new Class240_Sub1(aClass331_3037, aClass433_3040, 1, (-991330803 * anInt3039), (-1456212765 * anInt3011), true, aClass244_3012, aClass364_3013);
+				aClass240_Sub1_3000 = new Class240_Sub1(aClass331_3037, aClass433_3040, 1, (-991330803 * anInt3039), (-1456212765 * anInt3011), true, aClass244_3012, atmosphere);
 				aClass240_Sub1_3000.method2212(-1978540544);
 				aClass240_Sub1_3000.anInt2621 = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub7_7581.method5650(-15786995) * 275039235;
 				aClass240_Sub1_3000.aBoolean2622 = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub5_7572.method5642(864049094) == 2;
@@ -1407,7 +1407,7 @@ public class Class283 {
 			}
 			boolean bool_165_ = false;
 			if (aBoolean3018) {
-				Class283 class283_166_ = client.aClass283_8716;
+				GameMap class283_166_ = client.map;
 				method2668(class283_166_, (byte) -125);
 				Class62.aClass248_612.method2381(class283_166_, -1651604);
 				bool_165_ = true;
@@ -1420,13 +1420,13 @@ public class Class283 {
 						/* empty */
 					}
 				}
-				client.aClass283_8716 = this;
+				client.map = this;
 				class283_166_.method2664((byte) 12);
 				method2663(17, 1856850794);
 				method2649((byte) 34);
 			} else {
 				Class247.method2365(-913079296);
-				aClass364_3013.method4331((byte) 3);
+				atmosphere.method4331((byte) 3);
 				Class113.method1247(1506910584);
 			}
 			for (int i_167_ = 0; i_167_ < 4; i_167_++) {

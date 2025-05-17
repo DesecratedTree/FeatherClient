@@ -6,7 +6,7 @@ public class Class298_Sub37_Sub4 extends Class298_Sub37 {
 	Class96[] aClass96Array9579;
 	int anInt9580;
 	byte[][] aByteArrayArray9581;
-	static CacheIndex aClass243_9582;
+	static Js5 aClass243_9582;
 
 	public boolean method3412(byte i) {
 		try {

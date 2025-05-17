@@ -9,7 +9,7 @@ public class Class182 {
 	public boolean aBoolean1818;
 	public int anInt1819 = 0;
 	public short aShort1820;
-	static CacheIndex aClass243_1821;
+	static Js5 aClass243_1821;
 	public short aShort1822;
 	public int[] anIntArray1823;
 	public int anInt1824;

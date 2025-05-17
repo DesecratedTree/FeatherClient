@@ -213,7 +213,7 @@ public class Class229 implements Interface12 {
 
 	public static void method2124(byte i) {
 		try {
-			synchronized (Class385.aClient4141) {
+			synchronized (AtmosphereType.aClient4141) {
 				if (null != Class231.aFrame2589) {
 					/* empty */
 				} else {

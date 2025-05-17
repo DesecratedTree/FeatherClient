@@ -4,7 +4,7 @@
 import java.util.Random;
 
 public class Class515 {
-	CacheIndex aClass243_6229;
+	Js5 aClass243_6229;
 	Class521[] aClass521Array6230;
 	static int anInt6231 = 0;
 	int anInt6232;
@@ -44,7 +44,7 @@ public class Class515 {
 		}
 	}
 
-	public Class515(Class411 class411, Class429 class429, CacheIndex class243) {
+	public Class515(Class411 class411, Class429 class429, Js5 class243) {
 		((Class515) this).aClass243_6229 = class243;
 		RsByteBuffer class298_sub53 = new RsByteBuffer(((Class515) this).aClass243_6229.getFileFromArchive(0, 0, (byte) -99));
 		int i = ((null == class298_sub53.buffer || class298_sub53.buffer.length < 1) ? -1 : class298_sub53.readUnsignedByte());
