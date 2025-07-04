@@ -5,284 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="767f47cf-048a-4182-98f6-06eccc6758a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AtmosphereConditions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CacheIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Js5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CachingHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CachingHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class104.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class108.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class109.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class109.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class112.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class114.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class116.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class116.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class117.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class117.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class118.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class119.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class119.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class120.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class122.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class123.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class124.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class125.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class125.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class126.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class126.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class127.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class127.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class127_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class127_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class127_Sub1_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class127_Sub1_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class127_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class127_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class127_Sub3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class127_Sub3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class131.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class133.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class133.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class135.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class135.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class136.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class136.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class136_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class136_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class137.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class137.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class139.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class139.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class141.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class142.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class142.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class143.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class143.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class144.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class144.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class145.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class145.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class157.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class157.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class158.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class158.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class160.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class161_Sub1_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class161_Sub1_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class170.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class170.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class173.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class173.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class182.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class182.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class197.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class197.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class204.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class204.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class205.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class205.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class209.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class209.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class216.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class216.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class217.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SceneObjectPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class219.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class219.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class222.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class222.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class223.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class223.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class225.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class225.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class229.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class229.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class230.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class230.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class231.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class231.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class234.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class234.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class235.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class235.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class236.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class236.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class237.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class237.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class238.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class238.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class240_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class240_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class244.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class244.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class247.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class247.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class248.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class248.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class249.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class249.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class253.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class253.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class254.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class254.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class255.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class255.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class256.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class256.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class259.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class259.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class260.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class260.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class264_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class264_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class266.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class266.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class267.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class267.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class270.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class270.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class271.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class271.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class272.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class272.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class273.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class273.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class276.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkyboxFace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class277.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skybox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class278.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class278.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class283.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class284_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class284_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class287.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class287.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class294.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class294.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class298_Sub10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class298_Sub10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class298_Sub13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class298_Sub13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class298_Sub19_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class298_Sub19_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class298_Sub23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class298_Sub23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class298_Sub24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class298_Sub24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class298_Sub32_Sub11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class298_Sub32_Sub11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class298_Sub32_Sub30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class298_Sub32_Sub30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class298_Sub37_Sub4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class298_Sub37_Sub4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class298_Sub37_Sub6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class298_Sub37_Sub6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class299.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class299.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class302_Sub3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class302_Sub3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class303.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class303.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class305.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class305.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class308_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class308_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class309.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class309.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class310.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class310.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class313.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class313.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class315.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class315.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class317.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class317.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class318.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class318.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class320.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class320.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class321.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class321.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class322.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class331.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class331.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class339.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class339.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class341.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class341.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class345.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class345.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class346.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class346.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class347.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class347.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class349.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class349.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class354.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class354.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class355.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class355.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class356.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class356.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class358.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class358.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class359.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class359.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class362.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class362.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class364.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub1_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub1_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub1_Sub3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub1_Sub3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub1_Sub6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub1_Sub6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub2_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub2_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub2_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub2_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub3_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub3_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub4_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub4_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub5_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub5_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class365_Sub1_Sub5_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class365_Sub1_Sub5_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class370.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class370.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class371.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class371.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class372.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class372.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class373.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class373.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class374_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class374_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class375.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class375.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class377.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class377.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class379.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class379.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class381.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class381.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class385.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtmosphereType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class387_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class387_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class387_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class387_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class387_Sub3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class387_Sub3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class389.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class389.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class391.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class391.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class393.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class393.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class395.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class395.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class397.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class397.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class398.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class398.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class399.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class399.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class400.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class400.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class401.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class405.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class405.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class409.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class409.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class411.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class411.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class419.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class419.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class420.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class420.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class421.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class421.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class422.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class422.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class422_Sub10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class422_Sub10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class422_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class422_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class422_Sub23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class422_Sub23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class422_Sub24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class422_Sub24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class422_Sub30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class422_Sub30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class427.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class427.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class429.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class429.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class431.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class431.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class433.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class433.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class438_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class438_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class439.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class439.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class442.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class442.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class445.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class445.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class451.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class451.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class460.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class460.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class463.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class463.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class465.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class465.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class469.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class469.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class475.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class475.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class477.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class477.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class478.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class478.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class486.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class486.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class487.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class487.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class491.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class491.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class493.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class493.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class494.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class494.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class497.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class497.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class499.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class499.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class50.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class500.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class500.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class501.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class501.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class504.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class504.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class507.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class507.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class508.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class508.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class51.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class515.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class515.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class516.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class516.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class517.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class517.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class518.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class518.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class52.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class521.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class521.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class523.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class523.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class59.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class59.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class60.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class60.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class61.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class61.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class62.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class65.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class65.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnvironmentMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class66_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class66_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class66_Sub1_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class66_Sub1_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class66_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class66_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class66_Sub2_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class66_Sub2_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class69.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class70.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class74.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class74.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class79.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class82_Sub11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class82_Sub11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class82_Sub12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class82_Sub12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class82_Sub17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class82_Sub17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class82_Sub19_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class82_Sub19_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class82_Sub21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class82_Sub21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class82_Sub22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class82_Sub22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class82_Sub6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class82_Sub6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class82_Sub7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class82_Sub7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class84.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class84.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class89.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class89.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class91.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class91.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class92.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class93.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class94.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class95.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class97.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class97.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class98.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class98_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class98_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class99.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class99.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class_ra_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class_ra_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class_ra_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class_ra_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class_ra_Sub3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class_ra_Sub3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class_ra_Sub3_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class_ra_Sub3_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class_ra_Sub3_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class_ra_Sub3_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class_ta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class_ta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class_ta_Sub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class_ta_Sub2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class_v.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class_v.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class_xa_Sub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class_xa_Sub1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class_xa_Sub3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class_xa_Sub3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConfigDefinitionLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConfigDefinitionLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphicsToolkit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphicsToolkit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IComponentDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IComponentDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IncommingPacket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IncommingPacket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface_ma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MaterialRawList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IsaacCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IsaacCipher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ItemDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItemDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Class147.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class147.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NPC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NPC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PacketsDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PacketsDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RuntimeException_Sub3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RuntimeException_Sub3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tradution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tradution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorldMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorldMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ja.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,33 +31,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.Loader.executor": "Run",
-    "Gradle.Build FeatherClient.executor": "Run",
-    "Gradle.FeatherClient [:com.runescape.Loader.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/austi/Documents/718 Client",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Loader.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build FeatherClient.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.FeatherClient [:com.runescape.Loader.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/austi/Documents/718 Client&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Loader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk-1.8\jre" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_281\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Loader" />
       <module name="Client" />

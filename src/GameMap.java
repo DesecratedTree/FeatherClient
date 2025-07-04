@@ -271,9 +271,6 @@ public class GameMap {
 			anInt3015 = -896386664;
 			zFar = ((int) (34.46 * (-991330803 * anInt3039)) * -2038218047);
 			zFar = ((2073578817 * zFar << 2) * -2038218047);
-			if (Class373.aClass_ra4071.method4998()) {
-				zFar = 2147483647;
-			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lt.ak(").append(')').toString());
 		}
