@@ -2,6 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 import java.util.Iterator;
+import java.util.Objects;
 
 //XXX IMPORTANT!
 public class GameMap {
@@ -269,8 +270,11 @@ public class GameMap {
 	public void method2648(int i) {
 		try {
 			anInt3015 = -896386664;
-			zFar = ((int) (34.46 * (-991330803 * anInt3039)) * -2038218047);
+			zFar = ((int) (34.46 * (-991330803 * anInt3039)) * -2038218047) * Loader.FOG_DISTANCE_MULT;
 			zFar = ((2073578817 * zFar << 2) * -2038218047);
+			if (Class373.aClass_ra4071.method4998()) {
+				zFar += 109412864 * 4;
+			}
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("lt.ak(").append(')').toString());
 		}
@@ -1279,13 +1283,13 @@ public class GameMap {
 					}
 				}
 			}
-			int i_164_ = (Class69.method787(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub24_7554.method5713((byte) 73), (byte) 16).anInt1581 * 2098573928);
+			int chunkSize = (Objects.requireNonNull(Class69.method787(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub24_7554.method5713((byte) 73), (byte) 16)).anInt1581 * 2098573928) * Loader.FOG_DISTANCE_MULT;
 			if (Class373.aClass_ra4071.method4998()) {
-				i_164_++;
+				chunkSize++;
 			}
 			method2648(-1878791507);
 			method2664((byte) 12);
-			aClass331_3037 = new Class331(Class373.aClass_ra4071, 9, 4, anInt3039 * -991330803, anInt3011 * -1456212765, i_164_, bool, Class373.aClass_ra4071.method5048() > 0);
+			aClass331_3037 = new Class331(Class373.aClass_ra4071, 9, 4, anInt3039 * -991330803, anInt3011 * -1456212765, chunkSize, bool, Class373.aClass_ra4071.method5048() > 0);
 			aClass331_3037.method4052(false, -740850409);
 			aClass331_3037.method4007(client.anInt8814 * -2081556469, (byte) -26);
 			if (0 != client.anInt8814 * -2081556469) {

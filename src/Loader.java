@@ -11,6 +11,7 @@ import javax.swing.JPanel;
 @SuppressWarnings("serial")
 public class Loader extends Applet {
 
+	public static final int FOG_DISTANCE_MULT = 2;
 	public static Properties client_parameters = new Properties();
 	public JFrame frame;
 	public JPanel panel = new JPanel();
