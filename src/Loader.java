@@ -1,9 +1,11 @@
 import java.applet.Applet;
-import java.awt.BorderLayout;
-import java.awt.Dimension;
+import java.awt.*;
+import java.io.IOException;
 import java.net.URL;
+import java.util.Objects;
 import java.util.Properties;
 
+import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -101,9 +103,17 @@ public class Loader extends Applet {
 		panel.setPreferredSize(new Dimension(765, 503));
 		frame.getContentPane().add(panel, "Center");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		// Set frame icon
+		try {
+			Image icon = ImageIO.read(Objects.requireNonNull(getClass().getResource("/feather-64.png")));
+			frame.setIconImage(icon);
+		} catch (IOException | IllegalArgumentException e) {
+			System.err.println("Icon image not found or could not be loaded.");
+		}
+
 		frame.pack();
 		frame.setVisible(true);
-
 	}
 
 	void startClient() {
