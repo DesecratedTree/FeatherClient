@@ -1,6 +1,7 @@
 /* Class319_Sub1 - Decompiled by JODE
  * Visit http://jode.sourceforge.net/
  */
+import javax.swing.*;
 import java.awt.Component;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
@@ -230,12 +231,40 @@ public class Class319_Sub1 extends Class319 implements MouseListener, MouseMotio
 			int i_6_ = mousewheelevent.getY();
 			int rotation = mousewheelevent.getWheelRotation();
 
-			if(mousewheelevent.isControlDown() && !mousewheelevent.isShiftDown()) {
-				if (client.zoom <= 150 && rotation == -1 || client.zoom >= 520 && rotation == 1) {
-					return;
+			if (mousewheelevent.isControlDown() && !mousewheelevent.isShiftDown()) {
+				final int MIN_ZOOM = 150;
+				final int MAX_ZOOM = 520;
+				final int ZOOM_STEP = 15;
+				final int BOUNCE_AMOUNT = 10;
+
+				int zoomDelta = (rotation == -1) ? -ZOOM_STEP : ZOOM_STEP;
+				int newZoom = client.zoom + zoomDelta;
+
+				// Apply bounce effect at boundaries
+				if (newZoom < MIN_ZOOM) {
+					client.zoom = (short) Math.max(MIN_ZOOM - BOUNCE_AMOUNT, newZoom);
+					// Bounce back towards minimum
+					Timer bounceTimer = new Timer(50, e -> {
+						if (client.zoom < MIN_ZOOM) {
+							client.zoom = (short) Math.min(MIN_ZOOM, client.zoom + 2);
+						}
+					});
+					bounceTimer.setRepeats(false);
+					bounceTimer.start();
+				} else if (newZoom > MAX_ZOOM) {
+					client.zoom = (short) Math.min(MAX_ZOOM + BOUNCE_AMOUNT, newZoom);
+					// Bounce back towards maximum
+					Timer bounceTimer = new Timer(50, e -> {
+						if (client.zoom > MAX_ZOOM) {
+							client.zoom = (short) Math.max(MAX_ZOOM, client.zoom - 2);
+						}
+					});
+					bounceTimer.setRepeats(false);
+					bounceTimer.start();
+				} else {
+					client.zoom = (short) newZoom;
 				}
-				int diff = rotation == -1 ? -15 : 15;
-				client.zoom = (short) (client.zoom + diff);
+
 				return;
 			}
 
