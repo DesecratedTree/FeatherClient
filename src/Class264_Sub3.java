@@ -3,7 +3,7 @@
  */
 import jaggl.OpenGL;
 
-public class Class264_Sub3 extends Class264 {
+public class Class264_Sub3 extends Font {
 	Class30_Sub2_Sub1 aClass30_Sub2_Sub1_7128;
 	Class_ra_Sub2 aClass_ra_Sub2_7129;
 	Class28 aClass28_7130;

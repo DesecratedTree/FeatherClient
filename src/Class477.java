@@ -115,7 +115,7 @@ public class Class477 {
 		}
 	}
 
-	public Class57 method6086(GraphicsToolkit class_ra, GraphicsToolkit class_ra_6_, int i, int i_7_, int i_8_, int i_9_, boolean bool, boolean bool_10_, int i_11_, Class264 class264, Class366 class366, int i_12_) {
+	public Class57 method6086(GraphicsToolkit class_ra, GraphicsToolkit class_ra_6_, int i, int i_7_, int i_8_, int i_9_, boolean bool, boolean bool_10_, int i_11_, Font class264, Class366 class366, int i_12_) {
 		try {
 			if (!bool_10_) {
 				Class57 class57 = method6085(class_ra_6_, i, i_7_, i_8_, i_9_, i_11_, class366, 467134725);

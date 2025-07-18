@@ -463,9 +463,9 @@ public class IComponentDefinition {
 		}
 	}
 
-	public Class264 method1112(Class197 class197, Interface10 interface10, int i) {
+	public Font method1112(Class197 class197, Interface10 interface10, int i) {
 		try {
-			Class264 class264 = ((Class264) class197.method1883(interface10, 1508815983 * anInt1210, false, aBoolean1211, -2063324548));
+			Font class264 = ((Font) class197.method1883(interface10, 1508815983 * anInt1210, false, aBoolean1211, -2063324548));
 			aBoolean1139 = class264 == null;
 			return class264;
 		} catch (RuntimeException runtimeexception) {

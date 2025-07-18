@@ -21,7 +21,7 @@ public class Class298_Sub37_Sub6 extends Class298_Sub37 {
 				}
 			} else {
 				for (int i_1_ = 0; i_1_ < ((Class298_Sub37_Sub6) this).anIntArray9593.length; i_1_++) {
-					if (!class243.method2310((((Class298_Sub37_Sub6) this).anIntArray9593[i_1_]), -457216440))
+					if (!class243.method2310((((Class298_Sub37_Sub6) this).anIntArray9593[i_1_])))
 						return false;
 				}
 			}

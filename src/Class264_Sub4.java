@@ -4,7 +4,7 @@
 import java.io.IOException;
 import java.net.Socket;
 
-public class Class264_Sub4 extends Class264 {
+public class Class264_Sub4 extends Font {
 	int[] anIntArray7132;
 	int[] anIntArray7133;
 	int[] anIntArray7134;

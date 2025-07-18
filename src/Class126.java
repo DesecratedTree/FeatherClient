@@ -7,14 +7,14 @@ public class Class126 implements Interface6 {
 	Js5 aClass243_6367;
 	Class151 aClass151_6368;
 	Js5 aClass243_6369;
-	Class264 aClass264_6370;
+	Font aClass264_6370;
 
 	public boolean method52(int i) {
 		try {
 			boolean bool = true;
-			if (!((Class126) this).aClass243_6369.method2310(((Class126) this).aClass151_6368.anInt6355 * 180759529, -457216440))
+			if (!((Class126) this).aClass243_6369.method2310(((Class126) this).aClass151_6368.anInt6355 * 180759529))
 				bool = false;
-			if (!((Class126) this).aClass243_6367.method2310(((Class126) this).aClass151_6368.anInt6355 * 180759529, -457216440))
+			if (!((Class126) this).aClass243_6367.method2310(((Class126) this).aClass151_6368.anInt6355 * 180759529))
 				bool = false;
 			return bool;
 		} catch (RuntimeException runtimeexception) {
@@ -41,18 +41,18 @@ public class Class126 implements Interface6 {
 
 	public boolean method57() {
 		boolean bool = true;
-		if (!((Class126) this).aClass243_6369.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529), -457216440))
+		if (!((Class126) this).aClass243_6369.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529)))
 			bool = false;
-		if (!((Class126) this).aClass243_6367.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529), -457216440))
+		if (!((Class126) this).aClass243_6367.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529)))
 			bool = false;
 		return bool;
 	}
 
 	public boolean method54() {
 		boolean bool = true;
-		if (!((Class126) this).aClass243_6369.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529), -457216440))
+		if (!((Class126) this).aClass243_6369.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529)))
 			bool = false;
-		if (!((Class126) this).aClass243_6367.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529), -457216440))
+		if (!((Class126) this).aClass243_6367.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529)))
 			bool = false;
 		return bool;
 	}
@@ -82,9 +82,9 @@ public class Class126 implements Interface6 {
 
 	public boolean method59() {
 		boolean bool = true;
-		if (!((Class126) this).aClass243_6369.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529), -457216440))
+		if (!((Class126) this).aClass243_6369.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529)))
 			bool = false;
-		if (!((Class126) this).aClass243_6367.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529), -457216440))
+		if (!((Class126) this).aClass243_6367.method2310(((((Class126) this).aClass151_6368.anInt6355) * 180759529)))
 			bool = false;
 		return bool;
 	}

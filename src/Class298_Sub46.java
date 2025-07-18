@@ -14,7 +14,7 @@ public class Class298_Sub46 extends Class298 {
 	public int anInt7531;
 	public int anInt7532;
 	public boolean aBoolean7533;
-	public static Class264 aClass264_7534;
+	public static Font aClass264_7534;
 
 	public static Class394[] method3534(byte i) {
 		try {

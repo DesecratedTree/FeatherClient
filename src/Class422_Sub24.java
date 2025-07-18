@@ -259,7 +259,7 @@ public class Class422_Sub24 extends Class422 {
 									else
 										Class373.aClass_ra4071.method5019(i_12_, i_13_, -2093041337 * class105.anInt1156, 457937409 * class105.anInt1162, (255 - (i_14_ & 0xff) << 24 | (class105.anInt1170 * 1045422783) & 0xffffff), 1);
 								} else if (4 == (-1215239439 * class105.anInt1144)) {
-									Class264 class264 = (class105.method1112(Class497.aClass197_6105, client.anInterface10_8700, 1828077661));
+									Font class264 = (class105.method1112(Class497.aClass197_6105, client.fontFactory, 1828077661));
 									if (class264 == null) {
 										if (IComponentDefinition.aBoolean1139)
 											Tradution.method6054(class105, -1885159145);

@@ -761,7 +761,7 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 		}
 	}
 
-	public final Class264 method5092(Class505 class505, Class89[] class89s, boolean bool) {
+	public final Font method5092(Class505 class505, Class89[] class89s, boolean bool) {
 		return new Class264_Sub5(this, class505, class89s, bool);
 	}
 
@@ -1938,11 +1938,11 @@ public abstract class Class_ra_Sub3 extends GraphicsToolkit {
 		RA(true);
 	}
 
-	public final Class264 method5113(Class505 class505, Class89[] class89s, boolean bool) {
+	public final Font method5113(Class505 class505, Class89[] class89s, boolean bool) {
 		return new Class264_Sub5(this, class505, class89s, bool);
 	}
 
-	public final Class264 method5114(Class505 class505, Class89[] class89s, boolean bool) {
+	public final Font method5114(Class505 class505, Class89[] class89s, boolean bool) {
 		return new Class264_Sub5(this, class505, class89s, bool);
 	}
 

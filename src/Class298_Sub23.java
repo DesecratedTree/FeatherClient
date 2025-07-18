@@ -100,7 +100,7 @@ public class Class298_Sub23 extends Class298 {
 
 	public static Class298_Sub23 method3066(Js5 class243, int i) {
 		if (!method3064(class243)) {
-			class243.method2310(i, -457216440);
+			class243.method2310(i);
 			return null;
 		}
 		byte[] is = class243.method2294(i, (byte) 72);

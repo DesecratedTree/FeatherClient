@@ -305,7 +305,7 @@ public abstract class Class247 {
 
 	static void method2372(GraphicsToolkit class_ra, int i, int i_11_, int i_12_, int i_13_, int i_14_, int i_15_) {
 		try {
-			if ((null == Class486.aClass57_6062 || null == Class501.aClass57_6123 || Class367.aClass57_4001 == null) && Class158.aClass243_6364.method2310(Class162.anInt1680 * 1049272911, -457216440) && Class158.aClass243_6364.method2310(Class361.anInt3914 * -745532315, -457216440) && Class158.aClass243_6364.method2310((-684155443 * Class260.anInt2820), -457216440)) {
+			if ((null == Class486.aClass57_6062 || null == Class501.aClass57_6123 || Class367.aClass57_4001 == null) && Class158.aClass243_6364.method2310(Class162.anInt1680 * 1049272911) && Class158.aClass243_6364.method2310(Class361.anInt3914 * -745532315) && Class158.aClass243_6364.method2310((-684155443 * Class260.anInt2820))) {
 				Class89 class89 = Class89.method987(Class158.aClass243_6364, -745532315 * Class361.anInt3914, 0);
 				Class501.aClass57_6123 = class_ra.method5125(class89, true);
 				class89.method992();

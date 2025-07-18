@@ -3,7 +3,7 @@
  */
 import java.nio.ByteBuffer;
 
-public class Class264_Sub5 extends Class264 {
+public class Class264_Sub5 extends Font {
 	Interface9_Impl2 anInterface9_Impl2_7138;
 	Class_ra_Sub3 aClass_ra_Sub3_7139;
 	Interface7_Impl1 anInterface7_Impl1_7140;

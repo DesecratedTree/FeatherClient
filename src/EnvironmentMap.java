@@ -10,7 +10,7 @@ public abstract class EnvironmentMap {
 		/* empty */
 	}
 
-	static void method763(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, Class298_Sub37_Sub5 class298_sub37_sub5, Class264 class264, Class505 class505, int i_6_, int i_7_, byte i_8_) {
+	static void method763(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_, Class298_Sub37_Sub5 class298_sub37_sub5, Font class264, Class505 class505, int i_6_, int i_7_, byte i_8_) {
 		try {
 			if (i > i_1_ && i < i_3_ + i_1_ && i_0_ > i_5_ - 1110385787 * class505.anInt6202 - 1 && i_0_ < -1883958527 * class505.anInt6197 + i_5_)
 				i_6_ = i_7_;

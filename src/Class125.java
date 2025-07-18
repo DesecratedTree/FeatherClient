@@ -226,7 +226,7 @@ public class Class125 {
 					return i_19_ / 4;
 				Class386.anInt4145 = (Class122.aClass243_1466.method2285((byte) -31) * -1650604707);
 				Class118.anInt1401 = (Class230.aClass243_2564.method2285((byte) -108) * 1003249155);
-				Class70.method806(Class122.aClass243_1466, (byte) 13);
+				Sprites.method806(Class122.aClass243_1466);
 				int i_20_ = Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub20_7578.method5700(-463949651);
 				Class420.aClass515_5344 = new Class515(client.aClass411_8944, Class321.aClass429_3357, Class230.aClass243_2564);
 				Class510[] class510s = Class420.aClass515_5344.method6294(i_20_, -957350299);
@@ -240,7 +240,7 @@ public class Class125 {
 				}
 			}
 			if (Class227.aClass227_2532 == Class82_Sub6.aClass227_6843)
-				Class497.aClass197_6105 = new Class197(Class122.aClass243_1466, Class173.aClass243_1758, Class510.method6287(-1719059338));
+				Class497.aClass197_6105 = new Class197(Class122.aClass243_1466, Class173.aClass243_1758, Sprites.method6287(-1719059338));
 			if (Class82_Sub6.aClass227_6843 == Class227.aClass227_2533) {
 				int i_22_ = Class497.aClass197_6105.method1877(2082019062);
 				int i_23_ = Class497.aClass197_6105.method1878(1886749638);
@@ -254,8 +254,8 @@ public class Class125 {
 					if (Class230.anInterface12Array2562.length > 1 && Class420.aClass515_5344.method6296((byte) -52) && Class230.anInterface12Array2562[1].method159((byte) 126) < 100)
 						return 0;
 				}
-				Class497.aClass197_6105.method1882(client.anInterface10_8700, (byte) 3);
-				Class426.method5744(Class373.aClass_ra4071, -1001154805);
+				Class497.aClass197_6105.method1882(client.fontFactory, (byte) 3);
+				Sprites.setupFonts(Class373.aClass_ra4071);
 				Class439.method5851(11, -22830656);
 			}
 			if (Class227.aClass227_2535 == Class82_Sub6.aClass227_6843) {
@@ -304,8 +304,8 @@ public class Class125 {
 						Class230.anInt2565 = 1430761433 * i_24_;
 					return (100 * (i_24_ - Class230.anInt2565 * -1347166103) / (100 - Class230.anInt2565 * -1347166103));
 				}
-				Class379.method4673(Class158.aClass243_6364, 819988020);
-				Class497.aClass197_6105 = new Class197(Class158.aClass243_6364, Class173.aClass243_1758, Class510.method6287(-1719059338));
+				Sprites.loadSpriteArchiveIds(Class158.aClass243_6364);
+				Class497.aClass197_6105 = new Class197(Class158.aClass243_6364, Class173.aClass243_1758, Sprites.method6287(-1719059338));
 			}
 			if (Class82_Sub6.aClass227_6843 == Class227.aClass227_2539) {
 				byte[] is = Class399.aClass243_5219.method2294((-363169051 * (Class380.aClass380_4102.anInt4108)), (byte) 101);
@@ -386,7 +386,7 @@ public class Class125 {
 				Class12.aClass298_Sub44_9946 = new Class298_Sub44(true);
 			}
 			if (Class227.aClass227_2540 == Class82_Sub6.aClass227_6843) {
-				int i_27_ = (Class298_Sub32_Sub30.method3334(Class158.aClass243_6364, (byte) 34) + Class497.aClass197_6105.method1875(true, -249350940));
+				int i_27_ = (Sprites.method3334(Class158.aClass243_6364) + Class497.aClass197_6105.method1875(true, -249350940));
 				int i_28_ = (Class273.method2565((short) 7611) + Class497.aClass197_6105.method1878(2124717791));
 				if (i_27_ < i_28_)
 					return i_27_ * 100 / i_28_;
@@ -452,9 +452,9 @@ public class Class125 {
 				else
 					Class370.method4578(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub14_7570.method5677(-1847672596), false, 622850291);
 				Class357.method4276(Class422_Sub25.aClass298_Sub48_8425.aClass422_Sub12_7543.method5669((byte) 12), -1, -1, false, -107949513);
-				Class497.aClass197_6105.method1882(client.anInterface10_8700, (byte) 3);
-				Class426.method5744(Class373.aClass_ra4071, -1188868944);
-				Class346.method4173(Class373.aClass_ra4071, Class158.aClass243_6364, 498152714);
+				Class497.aClass197_6105.method1882(client.fontFactory, (byte) 3);
+				Sprites.setupFonts(Class373.aClass_ra4071);
+				Sprites.loadSprites(Class373.aClass_ra4071, Class158.aClass243_6364);
 				Class_ta_Sub2.method6001(Class130_Sub2.aClass57Array6959, -1481526948);
 			}
 			return Class522.method6324(205846067);

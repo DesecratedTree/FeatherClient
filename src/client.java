@@ -81,7 +81,7 @@ public final class client extends Class291 {
 	static CachingHashMap aClass348_8697;
 	static String aString8698;
 	public static int[] anIntArray8699;
-	public static Interface10 anInterface10_8700;
+	public static Interface10 fontFactory;
 	public static Color[] aColorArray8701;
 	static Random aRandom8702;
 	public static int anInt8703;
@@ -1764,7 +1764,7 @@ public final class client extends Class291 {
 		aClass348_8898 = new CachingHashMap(4);
 		aClass348_8697 = new CachingHashMap(8);
 		aString8698 = null;
-		anInterface10_8700 = new Class238();
+		fontFactory = new Class238();
 		aClass437_8696 = new LinkedList(64);
 		aClass298_Sub29Array8816 = new Class298_Sub29[1024];
 		anInt8772 = 0;

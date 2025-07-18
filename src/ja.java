@@ -264,7 +264,7 @@ public class ja extends GraphicsToolkit implements Interface25 {
 
 	public native void GA(float f, float f_74_);
 
-	public Class264 method5114(Class505 class505, Class89[] class89s, boolean bool) {
+	public Font method5114(Class505 class505, Class89[] class89s, boolean bool) {
 		int[] is = new int[class89s.length];
 		int[] is_75_ = new int[class89s.length];
 		boolean bool_76_ = false;
@@ -334,7 +334,7 @@ public class ja extends GraphicsToolkit implements Interface25 {
 		return ((ja) this).aClass233_6686;
 	}
 
-	public Class264 method5092(Class505 class505, Class89[] class89s, boolean bool) {
+	public Font method5092(Class505 class505, Class89[] class89s, boolean bool) {
 		int[] is = new int[class89s.length];
 		int[] is_142_ = new int[class89s.length];
 		boolean bool_143_ = false;
@@ -1019,7 +1019,7 @@ public class ja extends GraphicsToolkit implements Interface25 {
 
 	public native void fo(int i, int i_383_, int i_384_, int i_385_, int i_386_, int i_387_, byte[] is, int i_388_, int i_389_);
 
-	public Class264 method5113(Class505 class505, Class89[] class89s, boolean bool) {
+	public Font method5113(Class505 class505, Class89[] class89s, boolean bool) {
 		int[] is = new int[class89s.length];
 		int[] is_390_ = new int[class89s.length];
 		boolean bool_391_ = false;

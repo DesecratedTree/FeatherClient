@@ -21,9 +21,9 @@ public class Class197 {
 			int i_0_ = 0;
 			for (int i_1_ = 0; i_1_ < ((Class197) this).anIntArray1991.length; i_1_++) {
 				int i_2_ = ((Class197) this).anIntArray1991[i_1_];
-				if (((Class197) this).aClass243_1987.method2310(i_2_, -457216440))
+				if (((Class197) this).aClass243_1987.method2310(i_2_))
 					i_0_++;
-				if (((Class197) this).aClass243_1988.method2310(i_2_, -457216440))
+				if (((Class197) this).aClass243_1988.method2310(i_2_))
 					i_0_++;
 			}
 			return i_0_;

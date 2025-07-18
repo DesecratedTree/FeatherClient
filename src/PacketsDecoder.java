@@ -1636,7 +1636,7 @@ public class PacketsDecoder {
 				client.anInt8726 = 733205975;
 				client.anInt8870 = 221729505 * i_380_;
 				client.anInt8724 = 986798515;
-				Class399.aClass243_5220.method2310(577335585 * client.anInt8870, -457216440);
+				Class399.aClass243_5220.method2310(577335585 * client.anInt8870);
 				Class194.method1868(2025307040);
 				Class98_Sub2.method1065((byte) 74);
 				int i_381_ = stream.readUnsignedShort();

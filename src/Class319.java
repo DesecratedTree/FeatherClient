@@ -59,13 +59,13 @@ public abstract class Class319 {
 
 	public abstract int method3899();
 
-	static void method3900(GraphicsToolkit class_ra, int i, int i_0_, int i_1_, int i_2_, int i_3_, Class264 class264, Class505 class505, String string, int i_4_) {
+	static void method3900(GraphicsToolkit class_ra, int i, int i_0_, int i_1_, int i_2_, int i_3_, Font class264, Class505 class505, String string, int i_4_) {
 		try {
 			int i_5_ = (255 - -1274801891 * Class82_Sub4.anInt6833 - Class436.anInt5498 * 1868123923);
 			if (i_5_ < 0)
 				i_5_ = 0;
 			if (Class313.aClass57_3299 == null || Class423.aClass57_5356 == null) {
-				if (Class158.aClass243_6364.method2310(Class362.anInt3918 * 142643703, -457216440) && Class158.aClass243_6364.method2310(((Class422_Sub14.anInt8400) * 1757615047), -457216440)) {
+				if (Class158.aClass243_6364.method2310(Class362.anInt3918 * 142643703) && Class158.aClass243_6364.method2310(((Class422_Sub14.anInt8400) * 1757615047))) {
 					Class313.aClass57_3299 = (class_ra.method5125(Class89.method987(Class158.aClass243_6364, Class362.anInt3918 * 142643703, 0), true));
 					Class89 class89 = Class89.method987(Class158.aClass243_6364, (Class422_Sub14.anInt8400 * 1757615047), 0);
 					Class423.aClass57_5356 = class_ra.method5125(class89, true);

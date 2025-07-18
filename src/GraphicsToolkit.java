@@ -443,7 +443,7 @@ public abstract class GraphicsToolkit {
 
 	public abstract void fy(int i, int i_226_);
 
-	public abstract Class264 method5092(Class505 class505, Class89[] class89s, boolean bool);
+	public abstract Font method5092(Class505 class505, Class89[] class89s, boolean bool);
 
 	public abstract void fh(int i, int i_227_);
 
@@ -511,9 +511,9 @@ public abstract class GraphicsToolkit {
 
 	public abstract void gv(int i, Class_ta class_ta, int i_326_, int i_327_);
 
-	public abstract Class264 method5113(Class505 class505, Class89[] class89s, boolean bool);
+	public abstract Font method5113(Class505 class505, Class89[] class89s, boolean bool);
 
-	public abstract Class264 method5114(Class505 class505, Class89[] class89s, boolean bool);
+	public abstract Font method5114(Class505 class505, Class89[] class89s, boolean bool);
 
 	public abstract void method5115(int i);
 
@@ -802,7 +802,7 @@ public abstract class GraphicsToolkit {
 		}
 	}
 
-	static void method5192(int i, int i_484_, int i_485_, int i_486_, int i_487_, int i_488_, int i_489_, Class298_Sub37_Sub15 class298_sub37_sub15, Class264 class264, Class505 class505, int i_490_, int i_491_, int i_492_) {
+	static void method5192(int i, int i_484_, int i_485_, int i_486_, int i_487_, int i_488_, int i_489_, Class298_Sub37_Sub15 class298_sub37_sub15, Font class264, Class505 class505, int i_490_, int i_491_, int i_492_) {
 		try {
 			if (i > i_485_ && i < i_485_ + i_487_ && i_484_ > i_489_ - class505.anInt6202 * 1110385787 - 1 && i_484_ < i_489_ + -1883958527 * class505.anInt6197 && ((Class298_Sub37_Sub15) class298_sub37_sub15).aBoolean9664)
 				i_490_ = i_491_;

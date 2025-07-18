@@ -1889,14 +1889,14 @@ public class Class240 {
 											i_404_ = client.anIntArray8977[0];
 										}
 									}
-									Class264 class264 = Class298_Sub46.aClass264_7534;
-									Class264 class264_418_ = Class298_Sub46.aClass264_7534;
+									Font class264 = Class298_Sub46.aClass264_7534;
+									Font class264_418_ = Class298_Sub46.aClass264_7534;
 									Class505 class505 = Class74.aClass505_695;
 									Class505 class505_419_ = Class74.aClass505_695;
 									int i_420_ = -160359777 * class358.anInt3864;
 									if (i_420_ >= 0) {
-										Class264 class264_421_ = ((Class264) (Class497.aClass197_6105.method1883(client.anInterface10_8700, i_420_, true, true, -2063324548)));
-										Class505 class505_422_ = (Class497.aClass197_6105.method1879(client.anInterface10_8700, i_420_, -665127508));
+										Font class264_421_ = ((Font) (Class497.aClass197_6105.method1883(client.fontFactory, i_420_, true, true, -2063324548)));
+										Class505 class505_422_ = (Class497.aClass197_6105.method1879(client.fontFactory, i_420_, -665127508));
 										if (class264_421_ != null && class505_422_ != null) {
 											class264 = class264_421_;
 											class505 = class505_422_;
@@ -1905,8 +1905,8 @@ public class Class240 {
 									if (class358_380_ != null) {
 										i_420_ = (class358_380_.anInt3864 * -160359777);
 										if (i_420_ >= 0) {
-											Class264 class264_423_ = ((Class264) (Class497.aClass197_6105.method1883(client.anInterface10_8700, i_420_, true, true, -2063324548)));
-											Class505 class505_424_ = (Class497.aClass197_6105.method1879(client.anInterface10_8700, i_420_, -1834913337));
+											Font class264_423_ = ((Font) (Class497.aClass197_6105.method1883(client.fontFactory, i_420_, true, true, -2063324548)));
+											Class505 class505_424_ = (Class497.aClass197_6105.method1879(client.fontFactory, i_420_, -1834913337));
 											if (class264_423_ != null && null != class505_424_) {
 												class264_418_ = class264_423_;
 												class505_419_ = class505_424_;

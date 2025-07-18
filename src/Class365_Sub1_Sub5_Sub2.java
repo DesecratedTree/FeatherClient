@@ -411,7 +411,7 @@ public class Class365_Sub1_Sub5_Sub2 extends Class365_Sub1_Sub5 implements Inter
 					if (null != string) {
 						Class373.aClass_ra4071.ba(1, 0);
 						Class505 class505 = Class322.method3931(Class173.aClass243_1758, (Class74.anInt690 * 1178461027), 0, (byte) 84);
-						Class264 class264 = (Class373.aClass_ra4071.method5092(class505, Class89.method993(Class158.aClass243_6364, (1178461027 * Class74.anInt690), 0), true));
+						Font class264 = (Class373.aClass_ra4071.method5092(class505, Class89.method993(Class158.aClass243_6364, (1178461027 * Class74.anInt690), 0), true));
 						Class148.method1614((byte) 42);
 						Class139.method1548(string, true, Class373.aClass_ra4071, class264, class505, (byte) -38);
 					}
@@ -421,7 +421,7 @@ public class Class365_Sub1_Sub5_Sub2 extends Class365_Sub1_Sub5 implements Inter
 						class_ra = Class523.method6334(0, (Class52_Sub2_Sub1.aCanvas9079), Class253.anInterface_ma2785, Class82_Sub6.aClass243_6844, 0, -199455021);
 						class_ra.ba(1, 0);
 						Class505 class505 = Class322.method3931(Class173.aClass243_1758, (Class74.anInt690 * 1178461027), 0, (byte) 29);
-						Class264 class264 = (class_ra.method5092(class505, Class89.method993(Class158.aClass243_6364, (Class74.anInt690 * 1178461027), 0), true));
+						Font class264 = (class_ra.method5092(class505, Class89.method993(Class158.aClass243_6364, (Class74.anInt690 * 1178461027), 0), true));
 						Class148.method1614((byte) 9);
 						Class139.method1548(string, true, class_ra, class264, class505, (byte) 53);
 					}
@@ -432,7 +432,7 @@ public class Class365_Sub1_Sub5_Sub2 extends Class365_Sub1_Sub5 implements Inter
 								if (string != null) {
 									class_ra.ba(1, 0);
 									Class505 class505 = (Class322.method3931(Class173.aClass243_1758, Class74.anInt690 * 1178461027, 0, (byte) 32));
-									Class264 class264 = (class_ra.method5092(class505, (Class89.method993(Class158.aClass243_6364, Class74.anInt690 * 1178461027, 0)), true));
+									Font class264 = (class_ra.method5092(class505, (Class89.method993(Class158.aClass243_6364, Class74.anInt690 * 1178461027, 0)), true));
 									Class148.method1614((byte) 0);
 									Class139.method1548(string, true, class_ra, class264, class505, (byte) -21);
 								}

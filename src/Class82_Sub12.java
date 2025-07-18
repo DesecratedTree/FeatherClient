@@ -59,7 +59,7 @@ public class Class82_Sub12 extends Class82 {
 					}
 				}
 				if (!bool)
-					Class264.method2492(4, new StringBuilder().append(Tradution.aClass470_5853.method6049(Class321.aClass429_3357, -875414210)).append(string).toString(), (byte) -81);
+					Font.method2492(4, new StringBuilder().append(Tradution.aClass470_5853.method6049(Class321.aClass429_3357, -875414210)).append(string).toString(), (byte) -81);
 				if (client.aBoolean8835)
 					Class144.method1587((byte) 4);
 			}

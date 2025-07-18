@@ -43,7 +43,7 @@ public class Class129 implements Interface6 {
 		}
 	}
 
-	int method1443(Class264 class264, String string, int i, int i_2_, int i_3_, int i_4_) {
+	int method1443(Font class264, String string, int i, int i_2_, int i_3_, int i_4_) {
 		try {
 			return (class264.method2475(string, i + i_3_, i_2_ + i_3_, (((Class129) this).aClass134_6378.anInt6339 * -1635817177 - 2 * i_3_), (-1725730589 * ((Class129) this).aClass134_6378.anInt6340 - i_3_ * 2), ((Class129) this).aClass134_6378.anInt6332 * 1824777445, ((Class129) this).aClass134_6378.anInt6334 * 1690804891, 0, 0, 0, null, null, null, 0, 0, -45995166));
 		} catch (RuntimeException runtimeexception) {

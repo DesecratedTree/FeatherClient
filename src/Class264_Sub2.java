@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public class Class264_Sub2 extends Class264 {
+public class Class264_Sub2 extends Font {
 	Class_ra_Sub1 aClass_ra_Sub1_7122;
 	byte[][] aByteArrayArray7123;
 	int[] anIntArray7124;

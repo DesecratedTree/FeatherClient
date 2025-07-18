@@ -10,7 +10,7 @@ public abstract class Class343 {
 	public int anInt3670;
 	static int anInt3671 = 1;
 	int anInt3672;
-	public static Class264 aClass264_3673;
+	public static Font aClass264_3673;
 	public static int anInt3674;
 
 	Class343() {

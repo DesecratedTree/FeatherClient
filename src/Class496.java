@@ -27,7 +27,7 @@ public class Class496 {
 
 	public boolean method6197(byte i) {
 		try {
-			return ((Class487) ((Class496) this).aClass487_6095).aClass243_6068.method2310(anInt6097 * 1690480405, -457216440);
+			return ((Class487) ((Class496) this).aClass487_6095).aClass243_6068.method2310(anInt6097 * 1690480405);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("ul.p(").append(')').toString());
 		}
@@ -39,7 +39,7 @@ public class Class496 {
 			Class57 class57 = (Class57) ((Class487) ((Class496) this).aClass487_6095).aClass348_6065.get(l);
 			if (class57 != null)
 				return class57;
-			if (!((Class487) ((Class496) this).aClass487_6095).aClass243_6068.method2310(anInt6097 * 1690480405, -457216440))
+			if (!((Class487) ((Class496) this).aClass487_6095).aClass243_6068.method2310(anInt6097 * 1690480405))
 				return null;
 			Class89 class89 = Class89.method987((((Class487) (((Class496) this).aClass487_6095)).aClass243_6068), 1690480405 * anInt6097, 0);
 			if (null != class89) {

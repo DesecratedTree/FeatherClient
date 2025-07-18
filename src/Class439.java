@@ -72,20 +72,20 @@ public final class Class439 {
 		try {
 			if (null != string) {
 				if ((-1054937867 * client.anInt8941 >= 200 && !client.aBoolean8807) || -1054937867 * client.anInt8941 >= 200)
-					Class264.method2492(4, (Tradution.aClass470_5831.method6049(Class321.aClass429_3357, -875414210)), (byte) -99);
+					Font.method2492(4, (Tradution.aClass470_5831.method6049(Class321.aClass429_3357, -875414210)), (byte) -99);
 				else {
 					String string_0_ = Class173.method1824(string, 554575211);
 					if (null != string_0_) {
 						for (int i_1_ = 0; i_1_ < client.anInt8941 * -1054937867; i_1_++) {
 							String string_2_ = Class173.method1824((client.aStringArray8704[i_1_]), 460678269);
 							if (null != string_2_ && string_2_.equals(string_0_)) {
-								Class264.method2492(4, new StringBuilder().append(string).append(Tradution.aClass470_5923.method6049((Class321.aClass429_3357), -875414210)).toString(), (byte) -72);
+								Font.method2492(4, new StringBuilder().append(string).append(Tradution.aClass470_5923.method6049((Class321.aClass429_3357), -875414210)).toString(), (byte) -72);
 								return;
 							}
 							if (client.aStringArray8945[i_1_] != null) {
 								String string_3_ = Class173.method1824((client.aStringArray8945[i_1_]), -1697709934);
 								if (string_3_ != null && string_3_.equals(string_0_)) {
-									Class264.method2492(4, new StringBuilder().append(string).append(Tradution.aClass470_5923.method6049(Class321.aClass429_3357, -875414210)).toString(), (byte) -22);
+									Font.method2492(4, new StringBuilder().append(string).append(Tradution.aClass470_5923.method6049(Class321.aClass429_3357, -875414210)).toString(), (byte) -22);
 									return;
 								}
 							}
@@ -93,19 +93,19 @@ public final class Class439 {
 						for (int i_4_ = 0; i_4_ < -548972447 * client.anInt8952; i_4_++) {
 							String string_5_ = Class173.method1824((client.aStringArray8859[i_4_]), 629913933);
 							if (null != string_5_ && string_5_.equals(string_0_)) {
-								Class264.method2492(4, new StringBuilder().append(Tradution.aClass470_5929.method6049(Class321.aClass429_3357, -875414210)).append(string).append(Tradution.aClass470_5930.method6049(Class321.aClass429_3357, -875414210)).toString(), (byte) -89);
+								Font.method2492(4, new StringBuilder().append(Tradution.aClass470_5929.method6049(Class321.aClass429_3357, -875414210)).append(string).append(Tradution.aClass470_5930.method6049(Class321.aClass429_3357, -875414210)).toString(), (byte) -89);
 								return;
 							}
 							if (null != client.aStringArray8955[i_4_]) {
 								String string_6_ = Class173.method1824((client.aStringArray8955[i_4_]), -1007795446);
 								if (string_6_ != null && string_6_.equals(string_0_)) {
-									Class264.method2492(4, new StringBuilder().append(Tradution.aClass470_5929.method6049(Class321.aClass429_3357, -875414210)).append(string).append(Tradution.aClass470_5930.method6049(Class321.aClass429_3357, -875414210)).toString(), (byte) -109);
+									Font.method2492(4, new StringBuilder().append(Tradution.aClass470_5929.method6049(Class321.aClass429_3357, -875414210)).append(string).append(Tradution.aClass470_5930.method6049(Class321.aClass429_3357, -875414210)).toString(), (byte) -109);
 									return;
 								}
 							}
 						}
 						if (Class173.method1824((Class287.myPlayer.aString10195), -712250197).equals(string_0_))
-							Class264.method2492(4, (Tradution.aClass470_5919.method6049(Class321.aClass429_3357, -875414210)), (byte) -34);
+							Font.method2492(4, (Tradution.aClass470_5919.method6049(Class321.aClass429_3357, -875414210)), (byte) -34);
 						else {
 							Class25 class25 = Class429.method5760((short) 512);
 							Class298_Sub36 class298_sub36 = Class18.method359(OutcommingPacket.ADD_FRIEND_PACKET, class25.aClass449_330, (byte) 14);

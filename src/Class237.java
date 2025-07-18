@@ -51,7 +51,7 @@ public class Class237 implements Interface24 {
 
 	public static Class296 method2192(Js5 class243, String string, boolean bool, int i) {
 		try {
-			int i_0_ = class243.getArchiveIdByName(string, -912375473);
+			int i_0_ = class243.getArchiveIdByName(string);
 			if (-1 == i_0_)
 				return new Class296(0);
 			int[] is = class243.getFileIds(i_0_, -2131857689);

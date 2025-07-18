@@ -31,7 +31,7 @@ public class Class298_Sub37_Sub4 extends Class298_Sub37 {
 				class298_sub53.index = 116413311;
 				int i_2_ = class298_sub53.readUnsignedShort();
 				synchronized (aClass243_9582) {
-					bool &= aClass243_9582.method2310(i_2_, -457216440);
+					bool &= aClass243_9582.method2310(i_2_);
 				}
 			}
 			if (!bool)

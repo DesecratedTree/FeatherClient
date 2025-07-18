@@ -189,16 +189,6 @@ public final class Class70 {
 		}
 	}
 
-	public static void method806(Js5 class243, byte i) {
-		try {
-			Class74.anInt691 = class243.getArchiveIdByName("p11_full", -1951605663) * 1133798363;
-			Class74.anInt690 = class243.getArchiveIdByName("p12_full", -2095742316) * 399685195;
-			Class74.anInt698 = class243.getArchiveIdByName("b12_full", -1180441399) * 1666679073;
-		} catch (RuntimeException runtimeexception) {
-			throw Class346.method4175(runtimeexception, new StringBuilder().append("cv.a(").append(')').toString());
-		}
-	}
-
 	public static final int method807(int i, int i_26_, int i_27_, int i_28_, int i_29_, byte i_30_) {
 		try {
 			if (client.map.method2675(-1611682495) == null)

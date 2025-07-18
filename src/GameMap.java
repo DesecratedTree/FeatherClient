@@ -341,11 +341,11 @@ public class GameMap {
 				for (int i_22_ = (i_19_ - (anInt3011 * -1456212765 >> 4)) / 8; i_22_ <= ((-1456212765 * anInt3011 >> 4) + i_19_) / 8; i_22_++) {
 					int i_23_ = (i_21_ << 8) + i_22_;
 					anIntArray3031[i_20_] = i_23_;
-					anIntArray3010[i_20_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, false, i_21_, i_22_, (byte) -40), -2024507927));
-					anIntArray3033[i_20_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, false, i_21_, i_22_, (byte) 85), -1204727759));
-					anIntArray3034[i_20_] = Class65.aClass243_665.getArchiveIdByName(new StringBuilder().append("n").append(i_21_).append('_').append(i_22_).toString(), -386533519);
-					anIntArray3035[i_20_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, true, i_21_, i_22_, (byte) -47), -1725557270));
-					anIntArray3036[i_20_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, true, i_21_, i_22_, (byte) -30), -1962303314));
+					anIntArray3010[i_20_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, false, i_21_, i_22_, (byte) -40)));
+					anIntArray3033[i_20_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, false, i_21_, i_22_, (byte) 85)));
+					anIntArray3034[i_20_] = Class65.aClass243_665.getArchiveIdByName(new StringBuilder().append("n").append(i_21_).append('_').append(i_22_).toString());
+					anIntArray3035[i_20_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, true, i_21_, i_22_, (byte) -47)));
+					anIntArray3036[i_20_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, true, i_21_, i_22_, (byte) -30)));
 					if (anIntArray3034[i_20_] == -1) {
 						anIntArray3010[i_20_] = -1;
 						anIntArray3033[i_20_] = -1;
@@ -412,10 +412,10 @@ public class GameMap {
 			for (int i_32_ = (chunkX - (anInt3039 * -991330803 >> 4)) / 8; i_32_ <= (chunkX + (anInt3039 * -991330803 >> 4)) / 8; i_32_++) {
 				for (int i_33_ = (chunkY - (-1456212765 * anInt3011 >> 4)) / 8; i_33_ <= ((anInt3011 * -1456212765 >> 4) + chunkY) / 8; i_33_++) {
 					anIntArray3031[i_29_] = i_33_ + (i_32_ << 8);
-					anIntArray3010[i_29_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, false, i_32_, i_33_, (byte) -113), -317623107));
-					anIntArray3033[i_29_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, false, i_32_, i_33_, (byte) -82), -1013661811));
-					anIntArray3035[i_29_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, true, i_32_, i_33_, (byte) -99), -1834537704));
-					anIntArray3036[i_29_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, true, i_32_, i_33_, (byte) -80), -1244616261));
+					anIntArray3010[i_29_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, false, i_32_, i_33_, (byte) -113)));
+					anIntArray3033[i_29_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, false, i_32_, i_33_, (byte) -82)));
+					anIntArray3035[i_29_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, true, i_32_, i_33_, (byte) -99)));
+					anIntArray3036[i_29_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, true, i_32_, i_33_, (byte) -80)));
 					i_29_++;
 				}
 			}
@@ -497,10 +497,10 @@ public class GameMap {
 								anIntArray3031[i_43_] = i_52_;
 								int i_54_ = i_52_ >> 8 & 0xff;
 								int i_55_ = i_52_ & 0xff;
-								anIntArray3010[i_43_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, false, i_54_, i_55_, (byte) -94), -976709735));
-								anIntArray3033[i_43_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, false, i_54_, i_55_, (byte) -94), -666597667));
-								anIntArray3035[i_43_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, true, i_54_, i_55_, (byte) 105), -1176293113));
-								anIntArray3036[i_43_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, true, i_54_, i_55_, (byte) 23), -1142086956));
+								anIntArray3010[i_43_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, false, i_54_, i_55_, (byte) -94)));
+								anIntArray3033[i_43_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, false, i_54_, i_55_, (byte) -94)));
+								anIntArray3035[i_43_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, true, i_54_, i_55_, (byte) 105)));
+								anIntArray3036[i_43_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, true, i_54_, i_55_, (byte) 23)));
 								i_43_++;
 							}
 						}
@@ -1000,10 +1000,10 @@ public class GameMap {
 							}
 						}
 						anIntArray3031[i_129_] = i_136_;
-						anIntArray3010[i_129_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, false, i_134_, i_135_, (byte) -52), -1034865468));
-						anIntArray3033[i_129_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, false, i_134_, i_135_, (byte) 111), -1106973771));
-						anIntArray3035[i_129_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, true, i_134_, i_135_, (byte) 24), -740435939));
-						anIntArray3036[i_129_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, true, i_134_, i_135_, (byte) 86), -1244375919));
+						anIntArray3010[i_129_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, false, i_134_, i_135_, (byte) -52)));
+						anIntArray3033[i_129_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, false, i_134_, i_135_, (byte) 111)));
+						anIntArray3035[i_129_] = (Class65.aClass243_665.getArchiveIdByName(method2669(true, true, i_134_, i_135_, (byte) 24)));
+						anIntArray3036[i_129_] = (Class65.aClass243_665.getArchiveIdByName(method2669(false, true, i_134_, i_135_, (byte) 86)));
 						i_129_++;
 					}
 				}

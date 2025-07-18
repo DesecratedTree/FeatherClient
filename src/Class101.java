@@ -5,7 +5,7 @@
 public class Class101 {
 	byte[] aByteArray1082;
 	int anInt1083;
-	public static Class264 aClass264_1084;
+	public static Font aClass264_1084;
 
 	Class101(byte[] is) {
 		((Class101) this).aByteArray1082 = is;

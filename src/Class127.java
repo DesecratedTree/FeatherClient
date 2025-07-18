@@ -5,7 +5,7 @@
 public abstract class Class127 implements Interface6 {
 	int anInt6371;
 	Js5 aClass243_6372;
-	Class264 aClass264_6373;
+	Font aClass264_6373;
 	Js5 aClass243_6374;
 	Class128 aClass128_6375;
 	long aLong6376;
@@ -17,9 +17,9 @@ public abstract class Class127 implements Interface6 {
 
 	public boolean method54() {
 		boolean bool = true;
-		if (!((Class127) this).aClass243_6372.method2310(((((Class127) this).aClass128_6375.anInt6329) * 955568089), -457216440))
+		if (!((Class127) this).aClass243_6372.method2310(((((Class127) this).aClass128_6375.anInt6329) * 955568089)))
 			bool = false;
-		if (!((Class127) this).aClass243_6374.method2310((955568089 * (((Class127) this).aClass128_6375.anInt6329)), -457216440))
+		if (!((Class127) this).aClass243_6374.method2310((955568089 * (((Class127) this).aClass128_6375.anInt6329))))
 			bool = false;
 		return bool;
 	}
@@ -27,9 +27,9 @@ public abstract class Class127 implements Interface6 {
 	public boolean method52(int i) {
 		try {
 			boolean bool = true;
-			if (!((Class127) this).aClass243_6372.method2310(((Class127) this).aClass128_6375.anInt6329 * 955568089, -457216440))
+			if (!((Class127) this).aClass243_6372.method2310(((Class127) this).aClass128_6375.anInt6329 * 955568089))
 				bool = false;
-			if (!((Class127) this).aClass243_6374.method2310(955568089 * ((Class127) this).aClass128_6375.anInt6329, -457216440))
+			if (!((Class127) this).aClass243_6374.method2310(955568089 * ((Class127) this).aClass128_6375.anInt6329))
 				bool = false;
 			return bool;
 		} catch (RuntimeException runtimeexception) {
@@ -69,9 +69,9 @@ public abstract class Class127 implements Interface6 {
 
 	public boolean method57() {
 		boolean bool = true;
-		if (!((Class127) this).aClass243_6372.method2310(((((Class127) this).aClass128_6375.anInt6329) * 955568089), -457216440))
+		if (!((Class127) this).aClass243_6372.method2310(((((Class127) this).aClass128_6375.anInt6329) * 955568089)))
 			bool = false;
-		if (!((Class127) this).aClass243_6374.method2310((955568089 * (((Class127) this).aClass128_6375.anInt6329)), -457216440))
+		if (!((Class127) this).aClass243_6374.method2310((955568089 * (((Class127) this).aClass128_6375.anInt6329))))
 			bool = false;
 		return bool;
 	}
@@ -83,9 +83,9 @@ public abstract class Class127 implements Interface6 {
 
 	public boolean method59() {
 		boolean bool = true;
-		if (!((Class127) this).aClass243_6372.method2310(((((Class127) this).aClass128_6375.anInt6329) * 955568089), -457216440))
+		if (!((Class127) this).aClass243_6372.method2310(((((Class127) this).aClass128_6375.anInt6329) * 955568089)))
 			bool = false;
-		if (!((Class127) this).aClass243_6374.method2310((955568089 * (((Class127) this).aClass128_6375.anInt6329)), -457216440))
+		if (!((Class127) this).aClass243_6374.method2310((955568089 * (((Class127) this).aClass128_6375.anInt6329))))
 			bool = false;
 		return bool;
 	}

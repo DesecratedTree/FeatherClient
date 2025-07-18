@@ -56,8 +56,8 @@ public class Class82_Sub11 extends Class82 {
 			int i_4_ = 1396607435 * Class448.anInt5619 - 3;
 			int i_5_ = 20;
 			if (null == Class65.aClass264_664 || null == Class211.aClass505_2420) {
-				Class65.aClass264_664 = (Class264) (Class497.aClass197_6105.method1883(client.anInterface10_8700, Class242.anInt2710 * -2085188617, true, true, -2063324548));
-				Class211.aClass505_2420 = (Class497.aClass197_6105.method1879(client.anInterface10_8700, -2085188617 * Class242.anInt2710, -203887938));
+				Class65.aClass264_664 = (Font) (Class497.aClass197_6105.method1883(client.fontFactory, Class242.anInt2710 * -2085188617, true, true, -2063324548));
+				Class211.aClass505_2420 = (Class497.aClass197_6105.method1879(client.fontFactory, -2085188617 * Class242.anInt2710, -203887938));
 				if (Class65.aClass264_664 != null && Class211.aClass505_2420 != null) {
 					Class194.method1868(2025307040);
 					int i_6_ = i_1_ + i_3_ / 2;
@@ -69,7 +69,7 @@ public class Class82_Sub11 extends Class82 {
 					return;
 				}
 			}
-			Class264 class264;
+			Font class264;
 			if (Class65.aClass264_664 == null || Class211.aClass505_2420 == null)
 				class264 = Class101.aClass264_1084;
 			else

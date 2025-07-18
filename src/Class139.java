@@ -58,7 +58,7 @@ public class Class139 {
 		}
 	}
 
-	public static void method1548(String string, boolean bool, GraphicsToolkit class_ra, Class264 class264, Class505 class505, byte i) {
+	public static void method1548(String string, boolean bool, GraphicsToolkit class_ra, Font class264, Class505 class505, byte i) {
 		try {
 			boolean bool_5_ = (!Class372_Sub3.aBoolean7730 || Class309.method3804(-2107815446));
 			if (bool_5_) {

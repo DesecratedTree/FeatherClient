@@ -86,7 +86,7 @@ public class Class69 {
 			((ClientScript2) class403).anInt5241 -= 1938723502;
 			String string = (String) (((ClientScript2) class403).anObjectArray5240[((ClientScript2) class403).anInt5241 * -203050393]);
 			String string_9_ = ((String) (((ClientScript2) class403).anObjectArray5240[-203050393 * ((ClientScript2) class403).anInt5241 + 1]));
-			Class264.method2491(string, string_9_, 1069612159);
+			Font.method2491(string, string_9_, 1069612159);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("cu.ahk(").append(')').toString());
 		}
@@ -124,7 +124,7 @@ public class Class69 {
 				}
 			}
 			if (!bool)
-				Class264.method2492(4, new StringBuilder().append(Tradution.aClass470_5853.method6049(Class321.aClass429_3357, -875414210)).append(string).toString(), (byte) -70);
+				Font.method2492(4, new StringBuilder().append(Tradution.aClass470_5853.method6049(Class321.aClass429_3357, -875414210)).append(string).toString(), (byte) -70);
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("cu.ki(").append(')').toString());
 		}

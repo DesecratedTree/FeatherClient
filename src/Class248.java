@@ -235,7 +235,7 @@ public class Class248 implements Runnable {
 					int i_31_ = 0;
 					if (null != class57)
 						i_31_ = class57.method625();
-					Class264 class264 = Class298_Sub46.aClass264_7534;
+					Font class264 = Class298_Sub46.aClass264_7534;
 					Class505 class505 = Class74.aClass505_695;
 					if (class352.anInt3783 * 1023000389 == 1) {
 						class264 = Class343.aClass264_3673;

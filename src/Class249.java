@@ -624,7 +624,7 @@ public class Class249 implements MaterialRawList {
 				Class82_Sub18.method923(class403, (short) -156);
 				break;
 			case 708:
-				Class264.method2493(class403, 1946850329);
+				Font.method2493(class403, 1946850329);
 				break;
 			case 326:
 				client.method2811(class403, -295386469);
@@ -864,7 +864,7 @@ public class Class249 implements MaterialRawList {
 				Class138_Sub1.method1543(class403, 116413311);
 				break;
 			case 384:
-				Class264.method2498(class403, -66945990);
+				Font.method2498(class403, -66945990);
 				break;
 			case 550:
 				Class82.method876(class403, 1549739808);
@@ -1089,7 +1089,7 @@ public class Class249 implements MaterialRawList {
 				Class_xa.method6364(class403, -44637055);
 				break;
 			case 988:
-				Class264.method2494(class403, 1786794242);
+				Font.method2494(class403, 1786794242);
 				break;
 			case 169:
 				Class368.method4557(class403, -1780855139);
@@ -2244,7 +2244,7 @@ public class Class249 implements MaterialRawList {
 				Class195.method1871(class403, 2011434697);
 				break;
 			case 280:
-				Class264.method2495(class403, (byte) -75);
+				Font.method2495(class403, (byte) -75);
 				break;
 			case 380:
 				Class247.method2364(class403, (byte) 58);

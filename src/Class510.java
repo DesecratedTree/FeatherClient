@@ -15,14 +15,6 @@ public class Class510 {
 		anInt6219 = i_1_ * 50067731;
 	}
 
-	public static int[] method6287(int i) {
-		try {
-			return new int[] { 399302739 * Class74.anInt691, Class74.anInt690 * 1178461027, Class74.anInt698 * -1372765471 };
-		} catch (RuntimeException runtimeexception) {
-			throw Class346.method4175(runtimeexception, new StringBuilder().append("vc.b(").append(')').toString());
-		}
-	}
-
 	static final void method6288(ClientScript2 class403, int i) {
 		try {
 			((ClientScript2) class403).anInt5241 -= 969361751;

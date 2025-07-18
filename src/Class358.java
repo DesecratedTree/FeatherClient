@@ -142,19 +142,19 @@ public class Class358 {
 	void method4283(GraphicsToolkit class_ra, int i) {
 		try {
 			Js5 class243 = ((Class347) ((Class358) this).aClass347_3856).aClass243_3699;
-			if (459224223 * ((Class358) this).anInt3855 >= 0 && (((Class347) ((Class358) this).aClass347_3856).aClass348_3700.get((long) (459224223 * ((Class358) this).anInt3855))) == null && class243.method2310(((Class358) this).anInt3855 * 459224223, -457216440)) {
+			if (459224223 * ((Class358) this).anInt3855 >= 0 && (((Class347) ((Class358) this).aClass347_3856).aClass348_3700.get((long) (459224223 * ((Class358) this).anInt3855))) == null && class243.method2310(((Class358) this).anInt3855 * 459224223)) {
 				Class89 class89 = Class89.method979(class243, (((Class358) this).anInt3855 * 459224223));
 				((Class347) ((Class358) this).aClass347_3856).aClass348_3700.method4194(class_ra.method5125(class89, true), (long) (((Class358) this).anInt3855 * 459224223));
 			}
-			if (((Class358) this).anInt3860 * -1362963983 >= 0 && ((((Class347) ((Class358) this).aClass347_3856).aClass348_3700.get((long) (((Class358) this).anInt3860 * -1362963983))) == null) && class243.method2310((-1362963983 * ((Class358) this).anInt3860), -457216440)) {
+			if (((Class358) this).anInt3860 * -1362963983 >= 0 && ((((Class347) ((Class358) this).aClass347_3856).aClass348_3700.get((long) (((Class358) this).anInt3860 * -1362963983))) == null) && class243.method2310((-1362963983 * ((Class358) this).anInt3860))) {
 				Class89 class89 = Class89.method979(class243, (-1362963983 * ((Class358) this).anInt3860));
 				((Class347) ((Class358) this).aClass347_3856).aClass348_3700.method4194(class_ra.method5125(class89, true), (long) (((Class358) this).anInt3860 * -1362963983));
 			}
-			if (((Class358) this).anInt3857 * 1894403017 >= 0 && ((((Class347) ((Class358) this).aClass347_3856).aClass348_3700.get((long) (((Class358) this).anInt3857 * 1894403017))) == null) && class243.method2310((((Class358) this).anInt3857 * 1894403017), -457216440)) {
+			if (((Class358) this).anInt3857 * 1894403017 >= 0 && ((((Class347) ((Class358) this).aClass347_3856).aClass348_3700.get((long) (((Class358) this).anInt3857 * 1894403017))) == null) && class243.method2310((((Class358) this).anInt3857 * 1894403017))) {
 				Class89 class89 = Class89.method979(class243, (((Class358) this).anInt3857 * 1894403017));
 				((Class347) ((Class358) this).aClass347_3856).aClass348_3700.method4194(class_ra.method5125(class89, true), (long) (((Class358) this).anInt3857 * 1894403017));
 			}
-			if (((Class358) this).anInt3858 * 1896268847 >= 0 && ((((Class347) ((Class358) this).aClass347_3856).aClass348_3700.get((long) (((Class358) this).anInt3858 * 1896268847))) == null) && class243.method2310((((Class358) this).anInt3858 * 1896268847), -457216440)) {
+			if (((Class358) this).anInt3858 * 1896268847 >= 0 && ((((Class347) ((Class358) this).aClass347_3856).aClass348_3700.get((long) (((Class358) this).anInt3858 * 1896268847))) == null) && class243.method2310((((Class358) this).anInt3858 * 1896268847))) {
 				Class89 class89 = Class89.method979(class243, (1896268847 * ((Class358) this).anInt3858));
 				((Class347) ((Class358) this).aClass347_3856).aClass348_3700.method4194(class_ra.method5125(class89, true), (long) (1896268847 * ((Class358) this).anInt3858));
 			}
@@ -243,7 +243,7 @@ public class Class358 {
 		}
 	}
 
-	static void method4290(IComponentDefinition class105, Class_ta class_ta, int i, int i_9_, int i_10_, int i_11_, int i_12_, String string, Class264 class264, Class505 class505, int i_13_, int i_14_) {
+	static void method4290(IComponentDefinition class105, Class_ta class_ta, int i, int i_9_, int i_10_, int i_11_, int i_12_, String string, Font class264, Class505 class505, int i_13_, int i_14_) {
 		try {
 			int i_15_;
 			if (2 == -863531439 * Class298_Sub1.anInt7164)

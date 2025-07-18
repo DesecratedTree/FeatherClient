@@ -222,7 +222,7 @@ public class WorldMap {
 		aClass487_3225 = class487;
 		anInterface23_3223 = interface23;
 		aClass437_3226.method5811((byte) -118);
-		int archive = worldMapIndex.getArchiveIdByName("details", -1750560538);
+		int archive = worldMapIndex.getArchiveIdByName("details");
 		int[] files = worldMapIndex.getFileIds(archive, -1923714721);
 		System.out.println("File ID: " + archive + ", details: " + files.length + " / " + Arrays.toString(files));
 		if (files != null) {

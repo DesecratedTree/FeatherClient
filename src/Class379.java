@@ -30,27 +30,6 @@ public class Class379 {
 		}
 	}
 
-	public static void method4673(Js5 class243, int i) {
-		try {
-			Class74.anInt692 = class243.getArchiveIdByName("hitbar_default", -1490079436) * 2112064137;
-			Class74.anInt694 = class243.getArchiveIdByName("timerbar_default", -1467775420) * 1617597269;
-			Class143.anInt1558 = class243.getArchiveIdByName("headicons_pk", -1596188459) * 1432033185;
-			Class400.anInt5223 = class243.getArchiveIdByName("headicons_prayer", -926614872) * -1214334111;
-			Class74.anInt693 = class243.getArchiveIdByName("hint_headicons", -604307983) * 250641705;
-			Class74.anInt696 = class243.getArchiveIdByName("hint_mapmarkers", -1518589898) * 1711228595;
-			Class298_Sub36.anInt7398 = class243.getArchiveIdByName("mapflag", -633755996) * 1542214111;
-			Class82_Sub6.anInt6842 = class243.getArchiveIdByName("cross", -929033367) * -626988461;
-			Class494.anInt6092 = class243.getArchiveIdByName("mapdots", -1089743906) * -1409898789;
-			Class74.anInt697 = class243.getArchiveIdByName("name_icons", -946611786) * 1606490933;
-			Class257.anInt2802 = (class243.getArchiveIdByName("floorshadows", -2138341450) * -1276802557);
-			Class237.anInt6667 = class243.getArchiveIdByName("compass", -1033709469) * 1540144067;
-			Class128_Sub1.anInt8557 = class243.getArchiveIdByName("otherlevel", -1683756229) * -233695275;
-			Class298_Sub24_Sub1.anInt9281 = class243.getArchiveIdByName("hint_mapedge", -769864981) * 902133497;
-		} catch (RuntimeException runtimeexception) {
-			throw Class346.method4175(runtimeexception, new StringBuilder().append("pt.f(").append(')').toString());
-		}
-	}
-
 	static final void method4674(int i) {
 		try {
 			int i_1_ = 0;

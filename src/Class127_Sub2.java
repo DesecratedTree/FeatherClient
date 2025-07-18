@@ -44,7 +44,7 @@ public class Class127_Sub2 extends Class127 {
 		try {
 			if (!super.method52(-1288443228))
 				return false;
-			return (((Class127_Sub2) this).aClass243_6372.method2310(-1056757525 * (((Class128_Sub1) ((Class127_Sub2) this).aClass128_6375).anInt8553), -457216440));
+			return (((Class127_Sub2) this).aClass243_6372.method2310(-1056757525 * (((Class128_Sub1) ((Class127_Sub2) this).aClass128_6375).anInt8553)));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("zs.b(").append(')').toString());
 		}
@@ -58,13 +58,13 @@ public class Class127_Sub2 extends Class127 {
 	public boolean method57() {
 		if (!super.method52(-2146778663))
 			return false;
-		return (((Class127_Sub2) this).aClass243_6372.method2310(-1056757525 * (((Class128_Sub1) ((Class127_Sub2) this).aClass128_6375).anInt8553), -457216440));
+		return (((Class127_Sub2) this).aClass243_6372.method2310(-1056757525 * (((Class128_Sub1) ((Class127_Sub2) this).aClass128_6375).anInt8553)));
 	}
 
 	public boolean method54() {
 		if (!super.method52(1006079243))
 			return false;
-		return (((Class127_Sub2) this).aClass243_6372.method2310(-1056757525 * (((Class128_Sub1) ((Class127_Sub2) this).aClass128_6375).anInt8553), -457216440));
+		return (((Class127_Sub2) this).aClass243_6372.method2310(-1056757525 * (((Class128_Sub1) ((Class127_Sub2) this).aClass128_6375).anInt8553)));
 	}
 
 	void method1412(boolean bool, int i, int i_7_, int i_8_) {
@@ -88,7 +88,7 @@ public class Class127_Sub2 extends Class127 {
 	public boolean method59() {
 		if (!super.method52(1700813633))
 			return false;
-		return (((Class127_Sub2) this).aClass243_6372.method2310(-1056757525 * (((Class128_Sub1) ((Class127_Sub2) this).aClass128_6375).anInt8553), -457216440));
+		return (((Class127_Sub2) this).aClass243_6372.method2310(-1056757525 * (((Class128_Sub1) ((Class127_Sub2) this).aClass128_6375).anInt8553)));
 	}
 
 	void method1415(boolean bool, int i, int i_11_) {

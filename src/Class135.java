@@ -11,7 +11,7 @@ public class Class135 implements Interface6 {
 	public static int anInt6384;
 
 	public boolean method54() {
-		return (((Class135) this).aClass243_6381.method2310(791455531 * ((Class135) this).aClass165_6382.anInt6365, -457216440));
+		return (((Class135) this).aClass243_6381.method2310(791455531 * ((Class135) this).aClass165_6382.anInt6365));
 	}
 
 	Class135(Js5 class243, Class165 class165) {
@@ -45,7 +45,7 @@ public class Class135 implements Interface6 {
 
 	public boolean method52(int i) {
 		try {
-			return (((Class135) this).aClass243_6381.method2310(791455531 * ((Class135) this).aClass165_6382.anInt6365, -457216440));
+			return (((Class135) this).aClass243_6381.method2310(791455531 * ((Class135) this).aClass165_6382.anInt6365));
 		} catch (RuntimeException runtimeexception) {
 			throw Class346.method4175(runtimeexception, new StringBuilder().append("fl.b(").append(')').toString());
 		}
@@ -64,7 +64,7 @@ public class Class135 implements Interface6 {
 	}
 
 	public boolean method57() {
-		return (((Class135) this).aClass243_6381.method2310(791455531 * ((Class135) this).aClass165_6382.anInt6365, -457216440));
+		return (((Class135) this).aClass243_6381.method2310(791455531 * ((Class135) this).aClass165_6382.anInt6365));
 	}
 
 	public void method56(boolean bool) {
@@ -88,7 +88,7 @@ public class Class135 implements Interface6 {
 	}
 
 	public boolean method59() {
-		return (((Class135) this).aClass243_6381.method2310(791455531 * ((Class135) this).aClass165_6382.anInt6365, -457216440));
+		return (((Class135) this).aClass243_6381.method2310(791455531 * ((Class135) this).aClass165_6382.anInt6365));
 	}
 
 	static final void method1490(IComponentDefinition class105, Class119 class119, ClientScript2 class403, int i) {

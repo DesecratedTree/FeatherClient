@@ -106,7 +106,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		((Class_ra_Sub1) this).aBoolean7985 = true;
 	}
 
-	public Class264 method5114(Class505 class505, Class89[] class89s, boolean bool) {
+	public Font method5114(Class505 class505, Class89[] class89s, boolean bool) {
 		int[] is = new int[class89s.length];
 		int[] is_6_ = new int[class89s.length];
 		boolean bool_7_ = false;
@@ -2111,7 +2111,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		return false;
 	}
 
-	public Class264 method5092(Class505 class505, Class89[] class89s, boolean bool) {
+	public Font method5092(Class505 class505, Class89[] class89s, boolean bool) {
 		int[] is = new int[class89s.length];
 		int[] is_575_ = new int[class89s.length];
 		boolean bool_576_ = false;
@@ -4059,7 +4059,7 @@ public class Class_ra_Sub1 extends GraphicsToolkit {
 		return new Class_xa_Sub2(this, i_1210_, i_1211_, i, i_1207_, is, is_1208_, i_1209_);
 	}
 
-	public Class264 method5113(Class505 class505, Class89[] class89s, boolean bool) {
+	public Font method5113(Class505 class505, Class89[] class89s, boolean bool) {
 		int[] is = new int[class89s.length];
 		int[] is_1212_ = new int[class89s.length];
 		boolean bool_1213_ = false;

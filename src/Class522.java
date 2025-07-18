@@ -4,7 +4,7 @@
 
 public class Class522 {
 	static Class453 aClass453_6283 = new Class453();
-	static Class264 aClass264_6284;
+	static Font aClass264_6284;
 	static GraphicsToolkit aClass_ra6285;
 
 	Class522() throws Throwable {

@@ -14,17 +14,17 @@ public class Class127_Sub1 extends Class127 {
 		if (!super.method52(-471154250))
 			return false;
 		Class128_Sub3 class128_sub3 = (Class128_Sub3) ((Class127_Sub1) this).aClass128_6375;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8563 * -876812375, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8563 * -876812375))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(1551490597 * class128_sub3.anInt8562, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(1551490597 * class128_sub3.anInt8562))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(578265259 * class128_sub3.anInt8566, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(578265259 * class128_sub3.anInt8566))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8564 * 861652881, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8564 * 861652881))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(((class128_sub3.anInt8565) * -1259370861), -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(((class128_sub3.anInt8565) * -1259370861)))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8561 * 356687159, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8561 * 356687159))
 			return false;
 		return true;
 	}
@@ -103,17 +103,17 @@ public class Class127_Sub1 extends Class127 {
 			if (!super.method52(-571978774))
 				return false;
 			Class128_Sub3 class128_sub3 = (Class128_Sub3) ((Class127_Sub1) this).aClass128_6375;
-			if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8563 * -876812375, -457216440))
+			if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8563 * -876812375))
 				return false;
-			if (!((Class127_Sub1) this).aClass243_6372.method2310(1551490597 * class128_sub3.anInt8562, -457216440))
+			if (!((Class127_Sub1) this).aClass243_6372.method2310(1551490597 * class128_sub3.anInt8562))
 				return false;
-			if (!((Class127_Sub1) this).aClass243_6372.method2310(578265259 * class128_sub3.anInt8566, -457216440))
+			if (!((Class127_Sub1) this).aClass243_6372.method2310(578265259 * class128_sub3.anInt8566))
 				return false;
-			if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8564 * 861652881, -457216440))
+			if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8564 * 861652881))
 				return false;
-			if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8565 * -1259370861, -457216440))
+			if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8565 * -1259370861))
 				return false;
-			if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8561 * 356687159, -457216440))
+			if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8561 * 356687159))
 				return false;
 			return true;
 		} catch (RuntimeException runtimeexception) {
@@ -136,17 +136,17 @@ public class Class127_Sub1 extends Class127 {
 		if (!super.method52(-1053320809))
 			return false;
 		Class128_Sub3 class128_sub3 = (Class128_Sub3) ((Class127_Sub1) this).aClass128_6375;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8563 * -876812375, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8563 * -876812375))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(1551490597 * class128_sub3.anInt8562, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(1551490597 * class128_sub3.anInt8562))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(578265259 * class128_sub3.anInt8566, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(578265259 * class128_sub3.anInt8566))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8564 * 861652881, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8564 * 861652881))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(((class128_sub3.anInt8565) * -1259370861), -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(((class128_sub3.anInt8565) * -1259370861)))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8561 * 356687159, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8561 * 356687159))
 			return false;
 		return true;
 	}
@@ -155,17 +155,17 @@ public class Class127_Sub1 extends Class127 {
 		if (!super.method52(-1356653583))
 			return false;
 		Class128_Sub3 class128_sub3 = (Class128_Sub3) ((Class127_Sub1) this).aClass128_6375;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8563 * -876812375, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8563 * -876812375))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(1551490597 * class128_sub3.anInt8562, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(1551490597 * class128_sub3.anInt8562))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(578265259 * class128_sub3.anInt8566, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(578265259 * class128_sub3.anInt8566))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8564 * 861652881, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8564 * 861652881))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(((class128_sub3.anInt8565) * -1259370861), -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(((class128_sub3.anInt8565) * -1259370861)))
 			return false;
-		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8561 * 356687159, -457216440))
+		if (!((Class127_Sub1) this).aClass243_6372.method2310(class128_sub3.anInt8561 * 356687159))
 			return false;
 		return true;
 	}

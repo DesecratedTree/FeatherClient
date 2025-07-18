@@ -106,31 +106,31 @@ public abstract class Class309 {
 		try {
 			boolean bool = true;
 			if (null == Class98_Sub2.aClass89_6932) {
-				if (Class158.aClass243_6364.method2310((Class410.anInt5290 * 2131310071), -457216440))
+				if (Class158.aClass243_6364.method2310((Class410.anInt5290 * 2131310071)))
 					Class98_Sub2.aClass89_6932 = Class89.method979(Class158.aClass243_6364, Class410.anInt5290 * 2131310071);
 				else
 					bool = false;
 			}
 			if (Class422_Sub30.aClass89_8437 == null) {
-				if (Class158.aClass243_6364.method2310(1636425877 * Class14.anInt174, -457216440))
+				if (Class158.aClass243_6364.method2310(1636425877 * Class14.anInt174))
 					Class422_Sub30.aClass89_8437 = Class89.method979(Class158.aClass243_6364, 1636425877 * Class14.anInt174);
 				else
 					bool = false;
 			}
 			if (null == AtmosphereType.aClass89_4142) {
-				if (Class158.aClass243_6364.method2310((1475733439 * Class318.anInt3323), -457216440))
+				if (Class158.aClass243_6364.method2310((1475733439 * Class318.anInt3323)))
 					AtmosphereType.aClass89_4142 = Class89.method979(Class158.aClass243_6364, Class318.anInt3323 * 1475733439);
 				else
 					bool = false;
 			}
 			if (Class14.aClass505_176 == null) {
-				if (Class173.aClass243_1758.method2310(Class14.anInt168 * -227610265, -457216440))
+				if (Class173.aClass243_1758.method2310(Class14.anInt168 * -227610265))
 					Class14.aClass505_176 = Class255.method2439(Class173.aClass243_1758, Class14.anInt168 * -227610265, -1873768956);
 				else
 					bool = false;
 			}
 			if (Class14.aClass89Array169 == null) {
-				if (Class158.aClass243_6364.method2310(-227610265 * Class14.anInt168, -457216440))
+				if (Class158.aClass243_6364.method2310(-227610265 * Class14.anInt168))
 					Class14.aClass89Array169 = Class89.method981(Class158.aClass243_6364, -227610265 * Class14.anInt168);
 				else
 					bool = false;

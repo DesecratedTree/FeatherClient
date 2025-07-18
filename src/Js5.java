@@ -758,7 +758,7 @@ public final class Js5 {
 		}
 	}
 
-	public synchronized boolean method2310(int i, int i_110_) {
+	public synchronized boolean method2310(int i) {
 		try {
 			if (!method2284(-259904989)) {
 				return false;
@@ -778,7 +778,7 @@ public final class Js5 {
 		}
 	}
 
-	public int getArchiveIdByName(String string, int i) {
+	public int getArchiveIdByName(String string) {
 		try {
 			if (!method2284(1289573635)) {
 				return -1;
@@ -809,7 +809,7 @@ public final class Js5 {
 
 	public boolean method2313(String string, int i) {
 		try {
-			int i_113_ = getArchiveIdByName("", -1723903675);
+			int i_113_ = getArchiveIdByName("");
 			if (i_113_ != -1) {
 				return method2302("", string, -563288883);
 			}

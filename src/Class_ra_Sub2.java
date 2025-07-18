@@ -850,7 +850,7 @@ public class Class_ra_Sub2 extends GraphicsToolkit {
 		}
 	}
 
-	public Class264 method5092(Class505 class505, Class89[] class89s, boolean bool) {
+	public Font method5092(Class505 class505, Class89[] class89s, boolean bool) {
 		return new Class264_Sub3(this, class505, class89s, bool);
 	}
 
@@ -2676,7 +2676,7 @@ public class Class_ra_Sub2 extends GraphicsToolkit {
 		OpenGL.glEnd();
 	}
 
-	public Class264 method5114(Class505 class505, Class89[] class89s, boolean bool) {
+	public Font method5114(Class505 class505, Class89[] class89s, boolean bool) {
 		return new Class264_Sub3(this, class505, class89s, bool);
 	}
 
@@ -3102,7 +3102,7 @@ public class Class_ra_Sub2 extends GraphicsToolkit {
 		method5259(0, 5890, 768);
 	}
 
-	public Class264 method5113(Class505 class505, Class89[] class89s, boolean bool) {
+	public Font method5113(Class505 class505, Class89[] class89s, boolean bool) {
 		return new Class264_Sub3(this, class505, class89s, bool);
 	}
 

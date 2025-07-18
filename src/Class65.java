@@ -18,7 +18,7 @@ public class Class65 {
 	public static int anInt661 = 2;
 	public static int anInt662 = 32;
 	public static int[] anIntArray663 = { 2047, 16383, 65535 };
-	static Class264 aClass264_664;
+	static Font aClass264_664;
 	public static Js5 aClass243_665;
 
 	Class65() throws Throwable {

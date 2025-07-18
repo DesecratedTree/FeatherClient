@@ -213,7 +213,7 @@ public class Class352 {
 			Class57 class57 = (Class57) ((Class339) ((Class352) this).aClass339_3776).aClass348_3635.get((long) i_16_);
 			if (class57 != null)
 				return class57;
-			if (!((Class339) ((Class352) this).aClass339_3776).aClass243_3638.method2310(i_15_, -457216440))
+			if (!((Class339) ((Class352) this).aClass339_3776).aClass243_3638.method2310(i_15_))
 				return null;
 			Class89 class89 = Class89.method987((((Class339) (((Class352) this).aClass339_3776)).aClass243_3638), i_15_, 0);
 			if (class89 != null) {
@@ -268,7 +268,7 @@ public class Class352 {
 			Class57 class57 = ((Class57) (((Class339) ((Class352) this).aClass339_3776).aClass348_3635.get((long) (((Class352) this).anInt3794 * 1027948663 | 0x20000 | class_ra.anInt5298 * 580915349 << 29))));
 			if (null != class57)
 				return class57;
-			((Class339) ((Class352) this).aClass339_3776).aClass243_3638.method2310(1027948663 * ((Class352) this).anInt3794, -457216440);
+			((Class339) ((Class352) this).aClass339_3776).aClass243_3638.method2310(1027948663 * ((Class352) this).anInt3794);
 			Class89 class89 = Class89.method987((((Class339) ((Class352) this).aClass339_3776).aClass243_3638), ((Class352) this).anInt3794 * 1027948663, 0);
 			if (class89 != null) {
 				class57 = class_ra.method5125(class89, true);

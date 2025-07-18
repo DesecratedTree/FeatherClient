@@ -170,9 +170,9 @@ public class Class371 {
 			Class267.method2528(600492820);
 			Class365_Sub1_Sub5_Sub2.method4533(i, string, bool, (short) 256);
 			Class497.aClass197_6105.method1876(55121200);
-			Class497.aClass197_6105.method1882(client.anInterface10_8700, (byte) 3);
-			Class426.method5744(Class373.aClass_ra4071, -1982421296);
-			Class346.method4173(Class373.aClass_ra4071, Class158.aClass243_6364, 556232880);
+			Class497.aClass197_6105.method1882(client.fontFactory, (byte) 3);
+			Sprites.setupFonts(Class373.aClass_ra4071);
+			Sprites.loadSprites(Class373.aClass_ra4071, Class158.aClass243_6364);
 			Class92.method1007(886607379);
 			Class_ta_Sub2.method6001(Class130_Sub2.aClass57Array6959, -1865975129);
 			Class360.method4301(-1533729788);

@@ -407,29 +407,7 @@ public class Class89 {
 	}
 
 	public void method991(int i, int i_115_, int i_116_) {
-		for (int i_117_ = 1; i_117_ < anIntArray817.length; i_117_++) {
-			if (anIntArray817[i_117_] != 1 && anIntArray817[i_117_] != 16711935) {
-				int i_118_ = anIntArray817[i_117_] >> 16 & 0xff;
-				i_118_ += i;
-				if (i_118_ < 0)
-					i_118_ = 0;
-				else if (i_118_ > 255)
-					i_118_ = 255;
-				int i_119_ = anIntArray817[i_117_] >> 8 & 0xff;
-				i_119_ += i_115_;
-				if (i_119_ < 0)
-					i_119_ = 0;
-				else if (i_119_ > 255)
-					i_119_ = 255;
-				int i_120_ = anIntArray817[i_117_] >> 0 & 0xff;
-				i_120_ += i_116_;
-				if (i_120_ < 0)
-					i_120_ = 0;
-				else if (i_120_ > 255)
-					i_120_ = 255;
-				anIntArray817[i_117_] = i_118_ << 16 | i_119_ << 8 | i_120_;
-			}
-		}
+		/*Emptied method due to removal of anti-cheat software. This one is a color bot anti cheat.*/
 	}
 
 	public void method992() {

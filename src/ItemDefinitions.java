@@ -298,7 +298,7 @@ public class ItemDefinitions {
 		}
 	}
 
-	int[] method6031(GraphicsToolkit class_ra, GraphicsToolkit class_ra_27_, int i, int i_28_, int i_29_, boolean bool, int i_30_, Class264 class264, Class366 class366, int i_31_) {
+	int[] method6031(GraphicsToolkit class_ra, GraphicsToolkit class_ra_27_, int i, int i_28_, int i_29_, boolean bool, int i_30_, Font class264, Class366 class366, int i_31_) {
 		// class_ra beeing used to draw
 		try {
 			Model class64 = Model.method751((((Class477) ((ItemDefinitions) this).aClass477_5751).aClass243_5992), 381556007 * ((ItemDefinitions) this).anInt5738, 0);

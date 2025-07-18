@@ -76,7 +76,7 @@ public class Class331 {
 		}
 	}
 
-	public void method4008(Class264 class264, int i) {
+	public void method4008(Font class264, int i) {
 		try {
 			/* empty */
 		} catch (RuntimeException runtimeexception) {

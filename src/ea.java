@@ -2,7 +2,7 @@
  * Visit http://jode.sourceforge.net/
  */
 
-public class ea extends Class264 implements Interface25 {
+public class ea extends Font implements Interface25 {
 	long nativeid;
 
 	native void bf(ja var_ja, ba var_ba, byte[][] is, int[] is_0_, int[] is_1_, int[] is_2_, int[] is_3_);
